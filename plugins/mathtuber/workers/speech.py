@@ -7,9 +7,16 @@ import shutil
 import numpy as np
 import soundfile as sf
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from mathtuber.speech_segments import paragraph_plan, synthesize_paragraphs
+
 request = json.loads(Path(sys.argv[1]).read_text())
 settings = request.get("speech", {})
 provider = settings.get("provider", "kokoro")
+pause_seconds = settings.get("paragraph_pause_seconds", 0)
+paragraph_plan("validate", pause_seconds)
+if provider == "wav" and pause_seconds:
+    raise ValueError("paragraph_pause_seconds applies to synthesis, not imported audio")
 if provider == "kokoro":
     # Some macOS espeak wheels embed the build machine's data path.
     # Prefer an explicitly installed system espeak-ng when available.
@@ -50,9 +57,12 @@ else:
 for item in request["items"]:
     if provider == "wav":
         audio, rate = sf.read(item["scene"]["audio_source"])
-        words = []
+        words, pauses = [], []
+    elif pause_seconds:
+        audio, rate, words, pauses = synthesize_paragraphs(item["scene"]["narration"], synthesize, pause_seconds)
     else:
         audio, rate, words = synthesize(item["scene"]["narration"])
+        pauses = []
     if not np.isfinite(audio).all() or len(audio) == 0:
         raise ValueError("Invalid speech samples")
     # Add a short intentional breathing margin at the end.
@@ -63,5 +73,5 @@ for item in request["items"]:
     tmp = path.with_suffix(".tmp.wav")
     sf.write(tmp, audio, rate, subtype="PCM_16")
     os.replace(tmp, path)
-    timing = {"method": "synthesis_predicted" if words else "unavailable", "words": words}
+    timing = {"method": "synthesis_predicted" if words else "unavailable", "words": words, "paragraph_pauses": pauses}
     path.with_suffix(".words.json").write_text(json.dumps(timing, indent=2))
