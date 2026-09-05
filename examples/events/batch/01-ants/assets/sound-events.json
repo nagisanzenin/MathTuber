@@ -1,0 +1,20 @@
+[
+  {
+    "scene": "s01",
+    "cue": "In the real model",
+    "offset": 1,
+    "kind": "tap"
+  },
+  {
+    "scene": "s01",
+    "cue": "At the collision",
+    "offset": 1.3,
+    "kind": "settle"
+  },
+  {
+    "scene": "s01",
+    "cue": "last departure is nine",
+    "offset": 0.4,
+    "kind": "reveal"
+  }
+]

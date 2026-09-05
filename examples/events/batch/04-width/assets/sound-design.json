@@ -1,0 +1,13 @@
+{
+  "license": "Original synthesis; CC0",
+  "events": [
+    {
+      "time": 27.925,
+      "kind": "settle",
+      "frequency": 660,
+      "duration": 0.28,
+      "amplitude": 0.04
+    }
+  ],
+  "subjective_listening": "Not established by synthesis or signal validation; record separately during review."
+}

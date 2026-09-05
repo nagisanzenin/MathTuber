@@ -1,0 +1,14 @@
+[
+  {
+    "scene": "s01",
+    "cue": "Another packet opens",
+    "offset": 1.2,
+    "kind": "tap"
+  },
+  {
+    "scene": "s01",
+    "cue": "Then another duplicate",
+    "offset": 1.2,
+    "kind": "tap"
+  }
+]

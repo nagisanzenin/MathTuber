@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "In the real model",
+      "end_cue": "occupied positions are identical",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Compare bounce and crossing endpoints."
+    },
+    {
+      "id": "2",
+      "start_cue": "At the collision",
+      "end_cue": "Replace every collision",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Check badge exchange maps both trajectories."
+    },
+    {
+      "id": "3",
+      "start_cue": "Replace every collision",
+      "end_cue": "last departure is nine",
+      "end_offset": 3,
+      "samples": 9,
+      "purpose": "Check all five independent distances."
+    }
+  ]
+}

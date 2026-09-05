@@ -1,0 +1,20 @@
+{
+  "s01": {
+    "Another packet opens": 2.525,
+    "Then another duplicate": 6.188,
+    "six equally likely stickers": 14.812,
+    "Our first sticker": 20.25,
+    "With three spaces": 22.55,
+    "average wait is two": 29.475,
+    "With just one space": 32.225,
+    "average wait is six": 37.288,
+    "not mean the sixth": 39.913,
+    "call the remaining wait E": 49.112,
+    "We always open one packet": 50.638,
+    "Five times out of six": 52.85,
+    "Subtract those five sixths": 61.487,
+    "and E is six": 66.088,
+    "Adding the average waits": 67.925,
+    "Near the finish": 79.875
+  }
+}

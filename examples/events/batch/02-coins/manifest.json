@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "A Balance Has Three Ways to Answer",
+    "min_seconds": 60,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.84
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "One of these nine coins is heavier.",
+        "There is a lovely way to find it in two weighings.",
+        "Instead of splitting into two piles,",
+        "notice something about a balance:",
+        "it has three possible answers.",
+        "Left heavy,",
+        "right heavy,",
+        "or balanced.",
+        "Make three groups of three instead.",
+        "Weigh the first group against the second.",
+        "If the left side drops,",
+        "keep those three coins.",
+        "If the right side drops,",
+        "keep those three.",
+        "If they balance,",
+        "the heavy coin must be in the untouched group.",
+        "Every answer leaves exactly three suspects.",
+        "Let us take the balanced branch.",
+        "Coins seven,",
+        "eight,",
+        "and nine are still possible.",
+        "Now weigh seven against eight.",
+        "If seven drops,",
+        "it is the heavy coin.",
+        "If eight drops,",
+        "it is eight.",
+        "And if they balance,",
+        "the untouched ninth coin is the heavier one.",
+        "Here,",
+        "eight drops.",
+        "Two weighings,",
+        "one answer.",
+        "The trick is using balance as information,",
+        "not treating it as a failed experiment.",
+        "Three outcomes,",
+        "followed by three outcomes,",
+        "can distinguish nine possibilities.",
+        "This assumes exactly one coin is heavier,",
+        "and all the others weigh the same.",
+        "If the odd coin might be lighter,",
+        "this strategy no longer solves the same problem.",
+        "What about twenty seven coins with one known heavier?",
+        "Three equal groups reduce them to nine.",
+        "So three weighings are enough."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Use three outcomes per weighing to reduce nine suspects to three to one.",
+    "question": "How can two weighings distinguish nine coins?",
+    "payoff": "Use three outcomes per weighing to reduce nine suspects to three to one.",
+    "transfer_prompt": "Predict the changed case shown at the end.",
+    "duration_rationale": "One continuous visual explanation; speech measured before render; no duration padding.",
+    "novelty_audit": "Checked 175 channel upload titles on 2026-09-06; no matching title. Not a transcript audit.",
+    "profile_application": {
+      "format": "visual-proof",
+      "signature": "Spacious, gentle observation; preserve object identity and let the mathematical relationship become visible.",
+      "episode_variation": "A working balance exposes all three outcomes and follows the balanced branch.",
+      "exceptions": [
+        "Exact geometry takes precedence over decorative deformation.",
+        "Sparse original action sounds, no continuous music bed. Subjective listening remains unverified."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How can two weighings distinguish nine coins?",
+        "visual_action": "A working balance exposes all three outcomes and follows the balanced branch.",
+        "new_understanding": "Use three outcomes per weighing to reduce nine suspects to three to one.",
+        "sound_intent": "Sparse quiet event sounds; most reasoning is dry narration."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "One of these nine coins is heavier. There is a lovely way to find it in two weighings. Instead of splitting into two piles, notice something about a balance: it has three possible answers. Left heavy, right heavy, or balanced. Make three groups of three instead. Weigh the first group against the second. If the left side drops, keep those three coins. If the right side drops, keep those three. If they balance, the heavy coin must be in the untouched group. Every answer leaves exactly three suspects. Let us take the balanced branch. Coins seven, eight, and nine are still possible. Now weigh seven against eight. If seven drops, it is the heavy coin. If eight drops, it is eight. And if they balance, the untouched ninth coin is the heavier one. Here, eight drops. Two weighings, one answer. The trick is using balance as information, not treating it as a failed experiment. Three outcomes, followed by three outcomes, can distinguish nine possibilities. This assumes exactly one coin is heavier, and all the others weigh the same. If the odd coin might be lighter, this strategy no longer solves the same problem. What about twenty seven coins with one known heavier? Three equal groups reduce them to nine. So three weighings are enough."
+    }
+  ],
+  "sources": [
+    "https://nrich.maths.org/problems/9-weights?tab=teacher"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.5.0",
+    "path": "assets/profile-58b71a36bac21d5b.json",
+    "sha256": "bca51380e3373a10f369474c63f6769ece85b5b442c509f10a74ef18b67e9928"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

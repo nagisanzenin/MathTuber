@@ -1,0 +1,20 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "ordinary equilateral triangle",
+      "end_cue": "Now look at these two",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Check exact compass arc construction."
+    },
+    {
+      "id": "2",
+      "start_cue": "Now look at these two",
+      "end_cue": "It does not mean",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Verify fixed rails and corner-to-arc radius through changes of contact."
+    }
+  ]
+}

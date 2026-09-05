@@ -1,0 +1,22 @@
+{
+  "s01": {
+    "Left heavy": 11.4,
+    "Make three groups": 13.75,
+    "Weigh the first group": 16.038,
+    "If the left side drops": 18.025,
+    "If the right side drops": 21.125,
+    "If they balance, the heavy coin must": 24.0,
+    "Every answer leaves": 27.788,
+    "Let us take": 31.4,
+    "Now weigh seven": 36.575,
+    "If seven drops": 38.5,
+    "If eight drops": 40.95,
+    "untouched ninth coin": 44.112,
+    "Here, eight drops": 47.05,
+    "Two weighings, one answer": 48.337,
+    "Three outcomes, followed": 55.688,
+    "might be lighter": 68.225,
+    "What about twenty seven": 72.912,
+    "So three weighings": 79.375
+  }
+}

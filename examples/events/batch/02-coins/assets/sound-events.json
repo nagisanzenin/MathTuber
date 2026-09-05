@@ -1,0 +1,14 @@
+[
+  {
+    "scene": "s01",
+    "cue": "If they balance, the heavy coin must",
+    "offset": 0.7,
+    "kind": "settle"
+  },
+  {
+    "scene": "s01",
+    "cue": "Here, eight drops",
+    "offset": 0.7,
+    "kind": "reveal"
+  }
+]

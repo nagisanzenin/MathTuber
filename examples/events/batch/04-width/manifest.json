@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "A Quiet Shape That Keeps the Same Width",
+    "min_seconds": 60,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.84
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Watch the space between these two rails.",
+        "As this shape turns,",
+        "the rails never move.",
+        "The shape is not a circle,",
+        "yet it fits the same gap in every direction.",
+        "This is a Reuleaux triangle.",
+        "Its secret begins with an ordinary equilateral triangle.",
+        "All three sides have the same length.",
+        "Put a compass at one corner,",
+        "and draw the arc between the other two.",
+        "Repeat from each corner.",
+        "Three equal circular arcs make our rounded triangle.",
+        "Now look at these two contact points.",
+        "One is a corner.",
+        "The opposite point lies on the arc drawn from that very corner.",
+        "The distance between them is the compass radius:",
+        "exactly the original side length.",
+        "Turn a little.",
+        "The contact slides along the same arc,",
+        "but that radius does not change.",
+        "Turn further,",
+        "and another corner takes over.",
+        "The roles change;",
+        "the width does not.",
+        "This is what constant width means:",
+        "the distance between parallel supporting lines stays the same.",
+        "It does not mean every point on the edge",
+        "is equally far from the center.",
+        "So putting an axle at this center",
+        "would not make an ordinary smooth wheel.",
+        "A circle has that extra property.",
+        "The rounded triangle offers something different:",
+        "a small reminder that one familiar property need not belong",
+        "to one familiar shape.",
+        "Geometry gives us room for alternatives."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Equal-radius arcs preserve supporting-line width, without implying constant center radius.",
+    "question": "Can a noncircle keep the same width?",
+    "payoff": "Equal-radius arcs preserve supporting-line width, without implying constant center radius.",
+    "transfer_prompt": "Predict the changed case shown at the end.",
+    "duration_rationale": "One continuous visual explanation; speech measured before render; no duration padding.",
+    "novelty_audit": "Checked 175 channel upload titles on 2026-09-06; no matching title. Not a transcript audit.",
+    "profile_application": {
+      "format": "visual-proof",
+      "signature": "Spacious, gentle observation; preserve object identity and let the mathematical relationship become visible.",
+      "episode_variation": "A rounded triangle turns between fixed rails; its exact compass construction exposes constant width.",
+      "exceptions": [
+        "Exact geometry takes precedence over decorative deformation.",
+        "Sparse original action sounds, no continuous music bed. Subjective listening remains unverified."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Can a noncircle keep the same width?",
+        "visual_action": "A rounded triangle turns between fixed rails; its exact compass construction exposes constant width.",
+        "new_understanding": "Equal-radius arcs preserve supporting-line width, without implying constant center radius.",
+        "sound_intent": "Sparse quiet event sounds; most reasoning is dry narration."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Watch the space between these two rails. As this shape turns, the rails never move. The shape is not a circle, yet it fits the same gap in every direction. This is a Reuleaux triangle. Its secret begins with an ordinary equilateral triangle. All three sides have the same length. Put a compass at one corner, and draw the arc between the other two. Repeat from each corner. Three equal circular arcs make our rounded triangle. Now look at these two contact points. One is a corner. The opposite point lies on the arc drawn from that very corner. The distance between them is the compass radius: exactly the original side length. Turn a little. The contact slides along the same arc, but that radius does not change. Turn further, and another corner takes over. The roles change; the width does not. This is what constant width means: the distance between parallel supporting lines stays the same. It does not mean every point on the edge is equally far from the center. So putting an axle at this center would not make an ordinary smooth wheel. A circle has that extra property. The rounded triangle offers something different: a small reminder that one familiar property need not belong to one familiar shape. Geometry gives us room for alternatives."
+    }
+  ],
+  "sources": [
+    "https://mathworld.wolfram.com/ReuleauxTriangle.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.5.0",
+    "path": "assets/profile-58b71a36bac21d5b.json",
+    "sha256": "bca51380e3373a10f369474c63f6769ece85b5b442c509f10a74ef18b67e9928"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

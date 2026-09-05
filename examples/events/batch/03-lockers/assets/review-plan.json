@@ -1,0 +1,20 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "first pass",
+      "end_cue": "Here is the result",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Verify all toggles and final square doors."
+    },
+    {
+      "id": "2",
+      "start_cue": "Now pair those divisors",
+      "end_cue": "The door stays open",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Check divisor pairs and unique middle divisor."
+    }
+  ]
+}

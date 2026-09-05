@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "method": "Independent exact arithmetic and numerical checks; assumptions stated explicitly.",
+  "checks": {
+    "first_sixteen": true,
+    "hundred_doors": true,
+    "twelve_six_visits": true,
+    "sixteen_five_visits": true
+  },
+  "explanation": "Divisors pair d with n/d. Exactly at a perfect square the square-root divisor pairs with itself and must be counted once, leaving odd parity."
+}

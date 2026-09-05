@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "method": "Independent exact arithmetic and numerical checks; assumptions stated explicitly.",
+  "checks": {
+    "total_expectation": true,
+    "half_missing_mean_two": true,
+    "one_missing_mean_six": true,
+    "recurrence": true
+  },
+  "explanation": "Uniform independent draws with replacement. With k unseen types, success probability k/6 and geometric mean wait 6/k. Linearity of expectation gives 6H6=14.7. Mean is not a deadline. Illustrative duplicate sequence is not an empirical estimate."
+}

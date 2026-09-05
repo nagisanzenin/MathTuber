@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Another packet opens",
+      "end_cue": "six equally likely stickers",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Distinguish duplicates from the empty sixth slot."
+    },
+    {
+      "id": "2",
+      "start_cue": "With three spaces",
+      "end_cue": "not mean the sixth",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Map missing slots to success probability and average wait."
+    },
+    {
+      "id": "3",
+      "start_cue": "call the remaining wait E",
+      "end_cue": "Adding the average waits",
+      "end_offset": 3,
+      "samples": 9,
+      "purpose": "Check expectation recurrence and total average."
+    }
+  ]
+}

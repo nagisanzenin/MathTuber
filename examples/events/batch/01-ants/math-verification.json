@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "method": "Independent exact arithmetic and numerical checks; assumptions stated explicitly.",
+  "checks": {
+    "physical_exit_times_match_ghost_times": true,
+    "last_exit_nine": true
+  },
+  "explanation": "Point ants; equal speed 1; length 10; instantaneous reversals; exit removes an ant. Exchanging equal and opposite velocities preserves the unlabeled trajectories. Labels alone change. Pauses invalidate the mapping."
+}

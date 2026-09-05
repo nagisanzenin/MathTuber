@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Why Only Square Numbered Doors Stay Open",
+    "min_seconds": 60,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.84
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Sixteen closed doors.",
+        "On the first pass,",
+        "toggle every door.",
+        "On the second,",
+        "toggle every second door.",
+        "On the third,",
+        "every third.",
+        "Keep going through pass sixteen.",
+        "Which doors will be open at the end?",
+        "You might notice a pattern as the doors change.",
+        "Here is the result:",
+        "one,",
+        "four,",
+        "nine,",
+        "sixteen.",
+        "Perfect squares.",
+        "But why should square numbers control doors?",
+        "Watch door twelve.",
+        "A pass reaches it only when that pass number divides twelve.",
+        "So it gets toggled on passes one,",
+        "two,",
+        "three,",
+        "four,",
+        "six,",
+        "and twelve.",
+        "Six toggles bring it back to closed.",
+        "Now pair those divisors.",
+        "One with twelve.",
+        "Two with six.",
+        "Three with four.",
+        "Each pair makes twelve,",
+        "and each pair contributes two toggles.",
+        "They cancel.",
+        "Door sixteen looks similar:",
+        "one pairs with sixteen,",
+        "and two pairs with eight.",
+        "But four times four uses the same divisor twice.",
+        "There is only one pass four,",
+        "not two.",
+        "That unpaired middle divisor leaves an odd number of toggles.",
+        "The door stays open.",
+        "Every nonsquare has distinct divisor pairs.",
+        "Every square has one partner that is itself.",
+        "That is the entire mechanism.",
+        "Now extend the hallway to one hundred doors.",
+        "The open ones are the squares from one squared to ten squared.",
+        "Exactly ten open doors.",
+        "A physical switch has quietly counted divisor pairs."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Only perfect squares have an odd number of divisors.",
+    "question": "Which toggled doors remain open?",
+    "payoff": "Only perfect squares have an odd number of divisors.",
+    "transfer_prompt": "Predict the changed case shown at the end.",
+    "duration_rationale": "One continuous visual explanation; speech measured before render; no duration padding.",
+    "novelty_audit": "Checked 175 channel upload titles on 2026-09-06; no matching title. Not a transcript audit.",
+    "profile_application": {
+      "format": "visual-proof",
+      "signature": "Spacious, gentle observation; preserve object identity and let the mathematical relationship become visible.",
+      "episode_variation": "A changing door grid shrinks to an orientation map while divisors pair in the main space.",
+      "exceptions": [
+        "Exact geometry takes precedence over decorative deformation.",
+        "Sparse original action sounds, no continuous music bed. Subjective listening remains unverified."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Which toggled doors remain open?",
+        "visual_action": "A changing door grid shrinks to an orientation map while divisors pair in the main space.",
+        "new_understanding": "Only perfect squares have an odd number of divisors.",
+        "sound_intent": "Sparse quiet event sounds; most reasoning is dry narration."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Sixteen closed doors. On the first pass, toggle every door. On the second, toggle every second door. On the third, every third. Keep going through pass sixteen. Which doors will be open at the end? You might notice a pattern as the doors change. Here is the result: one, four, nine, sixteen. Perfect squares. But why should square numbers control doors? Watch door twelve. A pass reaches it only when that pass number divides twelve. So it gets toggled on passes one, two, three, four, six, and twelve. Six toggles bring it back to closed. Now pair those divisors. One with twelve. Two with six. Three with four. Each pair makes twelve, and each pair contributes two toggles. They cancel. Door sixteen looks similar: one pairs with sixteen, and two pairs with eight. But four times four uses the same divisor twice. There is only one pass four, not two. That unpaired middle divisor leaves an odd number of toggles. The door stays open. Every nonsquare has distinct divisor pairs. Every square has one partner that is itself. That is the entire mechanism. Now extend the hallway to one hundred doors. The open ones are the squares from one squared to ten squared. Exactly ten open doors. A physical switch has quietly counted divisor pairs."
+    }
+  ],
+  "sources": [
+    "https://enrichedmaths.maths.uwa.edu.au/wajo/qnsandsolns/wajoq-a07.pdf"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.5.0",
+    "path": "assets/profile-58b71a36bac21d5b.json",
+    "sha256": "bca51380e3373a10f369474c63f6769ece85b5b442c509f10a74ef18b67e9928"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

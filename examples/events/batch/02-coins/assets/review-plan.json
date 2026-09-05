@@ -1,0 +1,20 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Weigh the first group",
+      "end_cue": "Every answer leaves",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Verify pans and coins track each possible balance outcome."
+    },
+    {
+      "id": "2",
+      "start_cue": "Now weigh seven",
+      "end_cue": "Two weighings, one answer",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Check second weighing identifies coin eight."
+    }
+  ]
+}

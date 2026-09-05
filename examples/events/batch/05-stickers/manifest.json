@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Why the Last Sticker Takes So Long",
+    "min_seconds": 60,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.84
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "One space left in the album.",
+        "Another packet opens,",
+        "and it is a sticker we already have.",
+        "Then another duplicate.",
+        "Completing a collection often feels slower near the end.",
+        "There is a gentle mathematical reason.",
+        "Imagine six equally likely stickers,",
+        "one in each packet.",
+        "Every packet is independent.",
+        "Our first sticker is always new.",
+        "With three spaces still empty,",
+        "three of the six possible stickers help.",
+        "The chance of a new one is one half,",
+        "so the average wait is two packets.",
+        "With just one space empty,",
+        "only one of the six possibilities helps.",
+        "Now the average wait is six packets.",
+        "That does not mean the sixth packet is guaranteed",
+        "to finish the album.",
+        "A fresh packet still has the same one in six chance.",
+        "To see where the average comes from,",
+        "call the remaining wait E.",
+        "We always open one packet.",
+        "Five times out of six,",
+        "we are back where we started,",
+        "still waiting an average of E more.",
+        "So E equals one plus five sixths of E.",
+        "Subtract those five sixths.",
+        "One sixth of E is one,",
+        "and E is six.",
+        "Adding the average waits",
+        "for all six new stickers gives fourteen point seven packets",
+        "for a complete album.",
+        "That is an average over many collections,",
+        "not a promise about yours.",
+        "Near the finish,",
+        "fewer outcomes count as progress.",
+        "Sometimes slowing down is simply part of the landscape."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Geometric waiting times grow as fewer unseen types remain; six uniform types need 14.7 draws in expectation.",
+    "question": "Why does a collection slow down near completion?",
+    "payoff": "Geometric waiting times grow as fewer unseen types remain; six uniform types need 14.7 draws in expectation.",
+    "transfer_prompt": "Predict the changed case shown at the end.",
+    "duration_rationale": "One continuous visual explanation; speech measured before render; no duration padding.",
+    "novelty_audit": "Checked 175 channel upload titles on 2026-09-06; no matching title. Not a transcript audit.",
+    "profile_application": {
+      "format": "visual-proof",
+      "signature": "Spacious, gentle observation; preserve object identity and let the mathematical relationship become visible.",
+      "episode_variation": "An album fills with distinct geometric stickers; a duplicate returns us to the same waiting state.",
+      "exceptions": [
+        "Exact geometry takes precedence over decorative deformation.",
+        "Sparse original action sounds, no continuous music bed. Subjective listening remains unverified."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why does a collection slow down near completion?",
+        "visual_action": "An album fills with distinct geometric stickers; a duplicate returns us to the same waiting state.",
+        "new_understanding": "Geometric waiting times grow as fewer unseen types remain; six uniform types need 14.7 draws in expectation.",
+        "sound_intent": "Sparse quiet event sounds; most reasoning is dry narration."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "One space left in the album. Another packet opens, and it is a sticker we already have. Then another duplicate. Completing a collection often feels slower near the end. There is a gentle mathematical reason. Imagine six equally likely stickers, one in each packet. Every packet is independent. Our first sticker is always new. With three spaces still empty, three of the six possible stickers help. The chance of a new one is one half, so the average wait is two packets. With just one space empty, only one of the six possibilities helps. Now the average wait is six packets. That does not mean the sixth packet is guaranteed to finish the album. A fresh packet still has the same one in six chance. To see where the average comes from, call the remaining wait E. We always open one packet. Five times out of six, we are back where we started, still waiting an average of E more. So E equals one plus five sixths of E. Subtract those five sixths. One sixth of E is one, and E is six. Adding the average waits for all six new stickers gives fourteen point seven packets for a complete album. That is an average over many collections, not a promise about yours. Near the finish, fewer outcomes count as progress. Sometimes slowing down is simply part of the landscape."
+    }
+  ],
+  "sources": [
+    "https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/resources/mit6_041scf13_ch1_coupon_collector_300k-4/"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.5.0",
+    "path": "assets/profile-58b71a36bac21d5b.json",
+    "sha256": "bca51380e3373a10f369474c63f6769ece85b5b442c509f10a74ef18b67e9928"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

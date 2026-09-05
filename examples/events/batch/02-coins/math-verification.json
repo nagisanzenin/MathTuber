@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "method": "Independent exact arithmetic and numerical checks; assumptions stated explicitly.",
+  "checks": {
+    "nine_distinct_paths": true,
+    "two_ternary_results_suffice": true
+  },
+  "explanation": "Exactly one known heavier coin; others equal. Compare first three with next three, choose heavy pan or unweighed group when balanced. Compare two of those three. Third outcome identifies the untouched coin."
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "method": "Independent exact arithmetic and numerical checks; assumptions stated explicitly.",
+  "checks": {
+    "sampled_support_error_below_0_00003": true,
+    "all_vertices_same_side": true,
+    "center_radius_not_constant": true
+  },
+  "explanation": "Analytic construction: each boundary arc has radius w and center at its opposite vertex. In every normal sector one support point is such a vertex and the opposite support point is on that vertex-centered arc, separated by w along the normal. Sector boundaries follow by continuity. Max polygon sampling width error 0.000019462, not a claim that numeric sampling proves constancy. Fixed rails at \u00b1w/2; translating to center the horizontal supports does not alter width."
+}

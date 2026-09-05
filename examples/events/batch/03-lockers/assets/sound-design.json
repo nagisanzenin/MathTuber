@@ -1,0 +1,34 @@
+{
+  "license": "Original synthesis; CC0",
+  "events": [
+    {
+      "time": 3.0620000000000003,
+      "kind": "tap",
+      "frequency": 330,
+      "duration": 0.1,
+      "amplitude": 0.04
+    },
+    {
+      "time": 5.425,
+      "kind": "tap",
+      "frequency": 330,
+      "duration": 0.1,
+      "amplitude": 0.04
+    },
+    {
+      "time": 7.925,
+      "kind": "tap",
+      "frequency": 330,
+      "duration": 0.1,
+      "amplitude": 0.04
+    },
+    {
+      "time": 62.85,
+      "kind": "reveal",
+      "frequency": 880,
+      "duration": 0.38,
+      "amplitude": 0.04
+    }
+  ],
+  "subjective_listening": "Not established by synthesis or signal validation; record separately during review."
+}

@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Can Collisions Slow These Ants Down?",
+    "min_seconds": 60,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.84
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Two ants collide,",
+        "turn around,",
+        "and walk away.",
+        "Surely all that bouncing delays their escape?",
+        "Here is the puzzle.",
+        "Our ants are points on a ten meter stick.",
+        "Every ant walks at one meter per second.",
+        "A collision reverses both directions instantly.",
+        "Reaching an end means falling off.",
+        "How long until this stick is empty?",
+        "Before tracking every bounce,",
+        "watch just two ants.",
+        "Give them different colored badges.",
+        "In the real model they meet and reverse.",
+        "Now imagine ghosts",
+        "that keep walking straight through each other.",
+        "The badges end up on different ants,",
+        "but the occupied positions are identical.",
+        "At the collision,",
+        "exchange the badges and the two pictures match.",
+        "If we only care when the stick becomes empty,",
+        "identity does not matter.",
+        "Replace every collision with a harmless crossing.",
+        "This ant starts one meter from the left and walks right.",
+        "It has nine meters left,",
+        "so its ghost leaves after nine seconds.",
+        "The other ghosts need seven,",
+        "four,",
+        "seven,",
+        "and one second.",
+        "The last departure is nine seconds.",
+        "Bouncing can change which ant leaves where.",
+        "It cannot change the departure times under these rules.",
+        "Now imagine adding a real pause at every collision.",
+        "Would this trick still work?",
+        "No.",
+        "The immediate exchange of motion was the crucial assumption."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Equal-speed instantaneous reversals preserve unlabeled positions and exit times.",
+    "question": "Can bouncing delay the last departure?",
+    "payoff": "Equal-speed instantaneous reversals preserve unlabeled positions and exit times.",
+    "transfer_prompt": "Predict the changed case shown at the end.",
+    "duration_rationale": "One continuous visual explanation; speech measured before render; no duration padding.",
+    "novelty_audit": "Checked 175 channel upload titles on 2026-09-06; no matching title. Not a transcript audit.",
+    "profile_application": {
+      "format": "visual-proof",
+      "signature": "Spacious, gentle observation; preserve object identity and let the mathematical relationship become visible.",
+      "episode_variation": "Ant bodies collide before a paired identity-swap demonstration.",
+      "exceptions": [
+        "Exact geometry takes precedence over decorative deformation.",
+        "Sparse original action sounds, no continuous music bed. Subjective listening remains unverified."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Can bouncing delay the last departure?",
+        "visual_action": "Ant bodies collide before a paired identity-swap demonstration.",
+        "new_understanding": "Equal-speed instantaneous reversals preserve unlabeled positions and exit times.",
+        "sound_intent": "Sparse quiet event sounds; most reasoning is dry narration."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Two ants collide, turn around, and walk away. Surely all that bouncing delays their escape? Here is the puzzle. Our ants are points on a ten meter stick. Every ant walks at one meter per second. A collision reverses both directions instantly. Reaching an end means falling off. How long until this stick is empty? Before tracking every bounce, watch just two ants. Give them different colored badges. In the real model they meet and reverse. Now imagine ghosts that keep walking straight through each other. The badges end up on different ants, but the occupied positions are identical. At the collision, exchange the badges and the two pictures match. If we only care when the stick becomes empty, identity does not matter. Replace every collision with a harmless crossing. This ant starts one meter from the left and walks right. It has nine meters left, so its ghost leaves after nine seconds. The other ghosts need seven, four, seven, and one second. The last departure is nine seconds. Bouncing can change which ant leaves where. It cannot change the departure times under these rules. Now imagine adding a real pause at every collision. Would this trick still work? No. The immediate exchange of motion was the crucial assumption."
+    }
+  ],
+  "sources": [
+    "https://www.cut-the-knot.org/proofs/Ants.shtml"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.5.0",
+    "path": "assets/profile-58b71a36bac21d5b.json",
+    "sha256": "bca51380e3373a10f369474c63f6769ece85b5b442c509f10a74ef18b67e9928"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

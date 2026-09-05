@@ -1,0 +1,26 @@
+[
+  {
+    "scene": "s01",
+    "cue": "first pass",
+    "offset": 0.6,
+    "kind": "tap"
+  },
+  {
+    "scene": "s01",
+    "cue": "On the second",
+    "offset": 0.6,
+    "kind": "tap"
+  },
+  {
+    "scene": "s01",
+    "cue": "On the third",
+    "offset": 0.6,
+    "kind": "tap"
+  },
+  {
+    "scene": "s01",
+    "cue": "The door stays open",
+    "offset": 0.5,
+    "kind": "reveal"
+  }
+]
