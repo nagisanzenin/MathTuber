@@ -81,3 +81,5 @@ The [mechanism batch and reflection](docs/mechanism-batch.md) adds five new publ
 Latest release: [five linked-representation Shorts and reflection](docs/linked-batch.md), with [research update](docs/research/LINKED-REPRESENTATIONS.md) and [editable examples](examples/linked).
 
 Latest release: [five events Shorts and reflection](docs/events-batch.md), with [editable sources](examples/events).
+
+Latest release: [five nature Shorts and reflection](docs/nature-batch.md), with [editable sources](examples/nature).

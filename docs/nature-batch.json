@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-06",
+  "profile": "ivisualizethings-workshop@0.6.0",
+  "videos": [
+    {
+      "project": "01-diffusion",
+      "title": "The Quiet Rhythm of Spreading #math #Shorts",
+      "url": "https://www.youtube.com/shorts/txC2R1d3_cI",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M32S",
+      "export_sha256": "5143deb881caed764038119c6d6304e3b8223be681b89470834fc2b59a0794c3",
+      "editorial": {
+        "decision": "release",
+        "opening": "A small simulated cloud spreads before the statistical explanation begins; no countdown or performance test.",
+        "mechanism": "The four-way example exposes squared distances 9, 1, 5, 5 and their mean; the 16/64-step rings show a twofold RMS scale.",
+        "readability": "Larger sample dots, an explicit simulation label and separate RMS labels prevent sample/expectation and boundary confusion.",
+        "pacing": "The opening movement is patient. The expected-value explanation is denser and the ending's drift caveat remains verbal.",
+        "sound": "Dry local narration. Full decode and independent ASR differences reviewed. No subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "The transition from a cloud to squared-distance arithmetic still requires attention. The final rings summarize rather than preserve the full physical cloud; a beginner may need a closer visual explanation of squaring.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "02-soap",
+      "title": "Why Soap Films Meet at 120 Degrees #math #Shorts",
+      "url": "https://www.youtube.com/shorts/emdyPrpKHlI",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M35S",
+      "export_sha256": "8540264a18d8ea9128e382ede74a25bbc87d2673352679fece6533216f0e0a04",
+      "editorial": {
+        "decision": "release",
+        "opening": "Three film-like branches settle into a symmetric junction, giving the viewer a concrete observation.",
+        "mechanism": "Equal force arrows close a triangle and translate to common tails. The angle label changes with the representation; unequal-tension motion removes the equal-branch measurements.",
+        "readability": "The force triangle is enlarged. Short length comparisons remain below the active network without colliding with captions.",
+        "pacing": "The balance argument has distinct beats; the length comparison adds a second interpretation late in the film.",
+        "sound": "Dry local narration. Full decode and independent ASR differences reviewed. No subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "This is a schematic top view, not filmed soap. The statement that films seek lower energy is explained verbally. The supplementary-angle inference could be connected by a more explicit rotating angle marker.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "03-rainbow",
+      "title": "The Geometry That Gathers a Rainbow #math #Shorts",
+      "url": "https://www.youtube.com/shorts/g2POd_ScOSA",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M33S",
+      "export_sha256": "a87c103854bb8e8ef68904b79b0875bed8ef4f7c2ed6cfa7e5d425d755d0ab9c",
+      "editorial": {
+        "decision": "release",
+        "opening": "A ray is drawn through a round drop before its refraction and reflection are named.",
+        "mechanism": "The same ray geometry drives adjacent paths. An actual backscatter reference marks the approximately 42-degree angle; a labeled angular sky view explains the circular locus.",
+        "readability": "Darker amber improves path contrast on paper. Reference text is separated from the outgoing angle; the horizon occludes the lower circle and bands.",
+        "pacing": "Tracing each segment supports the explanation, but the bundle is held for several spoken sentences. The full circle then provides a distinct payoff.",
+        "sound": "Dry local narration. Full decode and independent ASR differences reviewed. No subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "The stationary angle is illustrated, not analytically derived in the narration. Closely spaced paths remain difficult to distinguish at small size. The sky is schematic, and no perceptual intensity or wave-optics simulation is claimed.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "04-bezier",
+      "title": "A Curve Made from Straight-Line Choices #math #Shorts",
+      "url": "https://www.youtube.com/shorts/CVIKlfBhzAw",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M33S",
+      "export_sha256": "c480af75bc59b630113f44cfa4084ac5697c95f7616e176b5fac99b8426c83df",
+      "editorial": {
+        "decision": "release",
+        "opening": "A flowing curve appears immediately and then reveals its three control points.",
+        "mechanism": "One parameter drives both segments and their bridge; the final point traces the actual quadratic. Handle motion changes the curve and its construction together.",
+        "readability": "The handle label follows the moving handle. Exact boundaries and a restrained triangle support the containment explanation.",
+        "pacing": "Construction beats are separated and then run continuously. The final parameter-speed caveat is mostly spoken over a still construction.",
+        "sound": "Dry local narration. Full decode and independent ASR differences reviewed. No subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "Closest to an artistic construction, but it remains a diagram rather than an expressive finished drawing. Adding equal-parameter marks could make the nonconstant-speed caveat visible instead of merely stated.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "05-globe",
+      "title": "When the Shortest Route Looks Curved #math #Shorts",
+      "url": "https://www.youtube.com/shorts/pGVzJf5iR3M",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M39S",
+      "export_sha256": "76e6e07313c7f6383500479a3d3268e3e0e0341d33a68d41f2aa77bfd6d9f9c9",
+      "editorial": {
+        "decision": "release",
+        "opening": "Two contrasting routes share endpoints on a map; the curved one prompts the geometric question.",
+        "mechanism": "Identical sampled routes move into an oblique sphere projection. A central great circle and radii support the distinction; a Rodrigues rotation carries the same route to a north-pole view.",
+        "readability": "A faint spherical grid provides depth. Numeric route lengths and the polar-angle annotation have their own space.",
+        "pacing": "The comparison proceeds steadily. The verbal minimal-path argument near the end is more abstract than the opening map observation.",
+        "sound": "Dry local narration. Full decode and independent ASR differences reviewed. No subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "The globe is transparent linework. The map-to-globe transition is a representation change, while the later reorientation is a genuine rotation. Sideways wandering is not separately animated, so the general lower-bound argument is only partly visual.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    }
+  ]
+}
