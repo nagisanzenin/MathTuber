@@ -93,3 +93,17 @@ class WorkshopScene(NarratedScene):
         """Draw attention without changing the target's geometry, fill or glyphs."""
         self.play(Circumscribe(target, color=self.palette.get(color,color),
                                buff=buff, stroke_width=3), run_time=run_time)
+
+    def stage_focus(self, subject, center, width=6.4, height=7.2, run_time=1.5):
+        """Move/fit an existing subject while captions and camera stay fixed.
+
+        Include context necessary to understand the subject. Pause the process
+        and remove its geometry updaters before calling; rebuild their coordinate
+        mapping before resuming. This helper never silently disables simulation.
+        """
+        from mathtuber.framing import fit_scale
+        if any(item.updaters for item in subject.get_family()):
+            raise ValueError("Pause and remove subject updaters before focal staging")
+        scale = fit_scale(float(subject.width), float(subject.height), width, height)
+        self.play(subject.animate.scale(scale).move_to(center), run_time=run_time)
+        return subject
