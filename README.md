@@ -97,3 +97,5 @@ Latest release: [five meaningful-ending Shorts and reflection](docs/endings-batc
 Latest release: [five focal-staging Shorts and reflection](docs/focal-batch.md), with [editable sources](examples/focal).
 
 Latest release: [five material-presence Shorts and reflection](docs/material-batch.md), with [editable sources](examples/material).
+
+Latest release: [five visible-reasoning Shorts and reflection](docs/reasoning-batch.md), with [editable sources](examples/reasoning).

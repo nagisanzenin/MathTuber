@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-06",
+  "cycle": 10,
+  "videos": [
+    {
+      "project": "01-shear",
+      "title": "The Space That Survives a Changing Outline #math #Shorts",
+      "url": "https://www.youtube.com/shorts/jjwKgyfHtN0",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT50S",
+      "export_sha256": "ff363ce24253fa17bf35e337f5384ba894be81c7dccecf5d0fcbe61d7af76f00",
+      "editorial": {
+        "decision": "release",
+        "opening": "An immediate lean poses an area question without a title card.",
+        "mechanism": "The same triangular piece travels into the left gap; later equal slices expose the invariant.",
+        "readability": "Base, height and pieces remain distinct; final sheets verify their placement.",
+        "pacing": "The key rearrangement precedes the rule. The restored lean begins earlier to avoid rushing the next phrase.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Focused checks recovered apparent omissions in the angle and hydraulic films. An uncertain technical-word pronunciation in the wave film was replaced with plain language and rechecked. No subjective listening.",
+        "remaining_weaknesses": "The subject still feels like a clean geometry exercise; the physical meaning of area is suggested rather than richly situated.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "02-mean",
+      "title": "The Quiet Average Hidden in a Semicircle #math #Shorts",
+      "url": "https://www.youtube.com/shorts/znWhSbWxo7Q",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT58S",
+      "export_sha256": "86599135fa09b719bf9c30a79975bced2091ff0ec739b0a2c6f544012f4aacb4",
+      "editorial": {
+        "decision": "release",
+        "opening": "Two colored lengths introduce a semicircle construction without a title card.",
+        "mechanism": "The perpendicular altitude divides a right triangle into two similar triangles, giving a geometric mean.",
+        "readability": "Equal angle arcs and two numeric examples support the side ratios; the top corner is somewhat dense.",
+        "pacing": "Construction precedes the algebra; the same shape is retained while the final lengths double.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Focused checks recovered apparent omissions in the angle and hydraulic films. An uncertain technical-word pronunciation in the wave film was replaced with plain language and rechecked. No subjective listening.",
+        "remaining_weaknesses": "The opening is static and spare. Similarity is assumed from equal angle marks, and two algebra steps still require prior familiarity. No physical context is shown.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "03-bisector",
+      "title": "An Equal Angle with an Unequal Secret #math #Shorts",
+      "url": "https://www.youtube.com/shorts/If0KwJiAcVw",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT58S",
+      "export_sha256": "73eea6c8e3ae2183acea97cc6bb5e5da46e53781ee3e937509ed3418976c3a95",
+      "editorial": {
+        "decision": "release",
+        "opening": "Equal angle marks accompany an unequal split.",
+        "mechanism": "The same pair of areas is interpreted with two equal-height constructions, exposing the ratio relation.",
+        "readability": "Two area ratios are held together before the shorter final equality.",
+        "pacing": "The proof has a deliberate middle and ends with a changed triangle.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Focused checks recovered apparent omissions in the angle and hydraulic films. An uncertain technical-word pronunciation in the wave film was replaced with plain language and rechecked. No subjective listening.",
+        "remaining_weaknesses": "Four vertex letters and two area comparisons make this the most demanding episode. It remains diagrammatic and requires basic area-ratio knowledge.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "04-hydraulics",
+      "title": "A Gentle Push and the Price of a Larger Force #math #Shorts",
+      "url": "https://www.youtube.com/shorts/ZHVDu12xzDg",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M2S",
+      "export_sha256": "0fe471fb5f274994159dc014408ccaf529fb094344b475558c91ade2561f5417",
+      "editorial": {
+        "decision": "release",
+        "opening": "Coupled piston movement gives an immediate physical event.",
+        "mechanism": "Three identical swept-volume pieces move from a stack into the wider chamber. The force-distance trade follows this reference.",
+        "readability": "Areas, distance ratio and force ratio occupy distinct positions.",
+        "pacing": "A quiet held comparison supports the volume accounting; the final push repeats the same displacement ratio.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Focused checks recovered apparent omissions in the angle and hydraulic films. An uncertain technical-word pronunciation in the wave film was replaced with plain language and rechecked. No subjective listening.",
+        "remaining_weaknesses": "Chambers are schematic rather than tactile. Force arrows and idealization still depend on narration; colored volume bookkeeping must not be mistaken for tracked water parcels.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "05-waves",
+      "title": "Stillness Made from Two Moving Waves #math #Shorts",
+      "url": "https://www.youtube.com/shorts/W_nQOvGqrAM",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M5S",
+      "export_sha256": "1f410b775e49b3ee8e1ed31923ef889fc0e4b7a8a4ea14f03d81df5d290e8446",
+      "editorial": {
+        "decision": "release",
+        "opening": "Node markers make the quiet points visible from the first image.",
+        "mechanism": "Equal opposite displacements cancel at a selected point, and a second inspected point reinforces. Half wavelength gives more nodes.",
+        "readability": "The sum label was moved clear of wave crests in preview.",
+        "pacing": "Live waves continue through explanation with explicit freezes for displacement inspection.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Focused checks recovered apparent omissions in the angle and hydraulic films. An uncertain technical-word pronunciation in the wave film was replaced with plain language and rechecked. No subjective listening.",
+        "remaining_weaknesses": "Three mathematical rows demand coordinated comparison. The actual string is represented abstractly; there is no auditory demonstration of standing-wave modes.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    }
+  ]
+}
