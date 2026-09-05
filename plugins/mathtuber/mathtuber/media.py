@@ -8,7 +8,7 @@ import shutil
 import subprocess
 import sys
 import time
-from .captions import make_ass, caption_groups
+from .captions import make_ass, scene_srt
 from .caption_style import resolve_style
 from .profiles import load as load_profile
 from .creative import validate_plan, soundtrack, validate_delivery
@@ -216,19 +216,8 @@ def assemble(project):
         run(["ffmpeg", "-y", "-v", "error", "-i", render_artifact["absolute_path"], "-i", audio["absolute_path"],
              "-map", "0:v:0", "-map", "1:a:0", "-c:v", "copy", "-af", "apad", "-t", str(duration), "-c:a", "aac", "-ar", "48000", clip])
         clips.append(clip)
-        words = audio["metadata"].get("word_timing", {}).get("words", [])
-        if words:
-            settings = project.data.get("captions", {})
-            phrasing = settings.get("phrases", {}) if isinstance(settings, dict) else {}
-            if not isinstance(phrasing, dict):
-                raise ProductionError("CAPTION_PHRASES", "captions.phrases must map scene IDs to phrase lists")
-            for group_index, group in enumerate(caption_groups(words, phrasing.get(sid))):
-                start = offset + max(0, min(duration, group[0]["start"]))
-                end = offset + min(duration, max(group[-1]["end"], group[0]["start"]+.1))
-                text = phrasing[sid][group_index] if sid in phrasing else " ".join(w["text"] for w in group)
-                captions.append(f"{len(captions)+1}\n{srt_time(start)} --> {srt_time(end)}\n{text}\n")
-        else:
-            captions.append(f"{len(captions)+1}\n{srt_time(offset)} --> {srt_time(offset+duration)}\n{scene['narration']}\n")
+        captions.extend(scene_srt(scene, audio["metadata"], duration,
+                                  project.data.get("captions", {}), offset, len(captions)+1))
         offset += duration
     listing = export_dir / "concat.txt"
     # Clip basenames are safe validated identifiers, avoiding ffconcat quoting issues.

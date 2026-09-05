@@ -20,4 +20,6 @@ python3 "$ENGINE" publish --project "$PROJECT" --intent /path/intent.json --cred
 
 Current final acceptance is required. The worker uploads privately, verifies processing, then sets the authorized visibility. The same video bytes and channel resume/reconcile the existing receipt even when metadata changes. An uncertain initialization stops rather than blindly duplicating a video. Changed video bytes create a new upload.
 
+Visibility readback can lag the update. The worker retries reads for a bounded 15 seconds. `visibility_pending` retains the existing video ID and observed visibility; it is not evidence of a platform restriction. Reconcile that video's status before reporting it public or attempting another upload.
+
 Unverified Google API projects may be restricted to private uploads. Report actual returned visibility. Long Shorts with active copyright claims may be blocked; do not assume background music is safe because it is short. Scheduled publishing and analytics are not yet implemented in v0.1.

@@ -76,3 +76,8 @@ class WorkshopScene(NarratedScene):
             self.play(FadeOut(previous), run_time=run_time / 2)
         self.play(FadeIn(replacement), run_time=run_time / 2 if previous is not None else run_time)
         return replacement
+
+    def focus_outline(self, target, color="secondary", buff=.12, run_time=1):
+        """Draw attention without changing the target's geometry, fill or glyphs."""
+        self.play(Circumscribe(target, color=self.palette.get(color,color),
+                               buff=buff, stroke_width=3), run_time=run_time)

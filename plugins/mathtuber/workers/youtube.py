@@ -70,8 +70,13 @@ else:
 youtube.videos().update(part="snippet,status",body={"id":video_id,
     "snippet":{"title":intent["title"],"description":intent.get("description",""),"categoryId":"27","tags":intent.get("tags",[])},
     "status":{"privacyStatus":intent["privacy"],"selfDeclaredMadeForKids":intent.get("made_for_kids",False)}}).execute()
-actual=youtube.videos().list(part="status",id=video_id).execute()["items"][0]["status"]["privacyStatus"]
-state={"state":"published" if actual==intent["privacy"] else "visibility_restricted",
+# Visibility readback can briefly lag a successful update. Do not infer a
+# platform restriction from a single stale read, or create another upload.
+for delay in (0, 1, 2, 4, 8):
+    if delay: time.sleep(delay)
+    actual=youtube.videos().list(part="status",id=video_id).execute()["items"][0]["status"]["privacyStatus"]
+    if actual==intent["privacy"]: break
+state={"state":"published" if actual==intent["privacy"] else "visibility_pending",
        "video_id":video_id,"url":f"https://www.youtube.com/watch?v={video_id}","privacy":actual,"intent_id":req["intent_id"]}
 save(state)
 print(json.dumps(state))

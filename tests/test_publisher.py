@@ -36,7 +36,7 @@ class PublisherTests(unittest.TestCase):
         mods['google.auth.transport.requests'].Request=lambda:None
         mods['googleapiclient.discovery'].build=lambda *a,**kw:self.api
         mods['googleapiclient.http'].MediaFileUpload=lambda *a,**kw:object()
-        with patch.dict(sys.modules,mods),patch.object(sys,'argv',[str(WORKER),str(request)]):runpy.run_path(str(WORKER),run_name='__main__')
+        with patch.dict(sys.modules,mods),patch.object(sys,'argv',[str(WORKER),str(request)]),patch('time.sleep'):runpy.run_path(str(WORKER),run_name='__main__')
     def test_upload_then_repeat_reuses_video_and_updates_privacy(self):
         self.invoke();self.assertEqual(self.api.inserts,1)
         self.request['intent']['privacy']='private';self.request['intent']['title']='Revised title';self.invoke()
@@ -51,4 +51,25 @@ class PublisherTests(unittest.TestCase):
         self.receipt.write_text(json.dumps({'state':'starting'}))
         with self.assertRaisesRegex(RuntimeError,'UPLOAD_UNCERTAIN'):self.invoke()
         self.assertEqual(self.api.inserts,0)
+    def test_lagging_visibility_readback_does_not_duplicate_upload(self):
+        original=self.api.list;reads=[]
+        def lagging(**kw):
+            if kw.get('part')=='status':
+                reads.append(1)
+                if len(reads)<3:return Response({'items':[{'status':{'privacyStatus':'private'}}]})
+            return original(**kw)
+        self.api.list=lagging;self.invoke()
+        self.assertEqual(len(reads),3)
+        self.assertEqual(self.api.inserts,1)
+        self.assertEqual(json.loads(self.receipt.read_text())['state'],'published')
+    def test_unconfirmed_visibility_retains_video_for_reconciliation(self):
+        original=self.api.list
+        def pending(**kw):
+            if kw.get('part')=='status':return Response({'items':[{'status':{'privacyStatus':'private'}}]})
+            return original(**kw)
+        self.api.list=pending;self.invoke();self.invoke()
+        receipt=json.loads(self.receipt.read_text())
+        self.assertEqual(receipt['state'],'visibility_pending')
+        self.assertEqual(receipt['video_id'],'video')
+        self.assertEqual(self.api.inserts,1)
 if __name__=='__main__':unittest.main()

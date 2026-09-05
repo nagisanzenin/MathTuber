@@ -10,6 +10,12 @@ The optional `components.NarratedScene` gives `target_duration`, `cue(fraction)`
 
 Use quick previews for layout/motion, then final resolution for typography. Avoid placing crucial content near the bottom or right edge where Shorts UI overlays it. Check at phone scale. A long hold may be pedagogically intentional but must not hide a failed animation.
 
+Before freezing a difficult scene, run `python3 <root>/scripts/caption_preview.py --project <path> --scene <id>` after its current preview render. This uses the same caption phrasing/style logic as final assembly, with local narration at preview resolution. Inspect the returned file; it is a scene prototype, excludes the soundtrack, and never records an accepted final export.
+
+Match spoken quantifiers to intermediate states: in recursive interpolation, the final point can reach an endpoint while an intermediate point remains elsewhere. Check the referent of “all,” “equal” and “shortest” as well as the final conclusion. During linked motion, inspect the midpoint and completion. With Manim `UpdateFromAlphaFunc`, animate a group containing every object the callback changes; mutating markers outside that group can leave their static cached images behind.
+
+For exact diagrams or numerals, `WorkshopScene.focus_outline(target)` offers emphasis without changing the target's geometry or fill. Default scaling/recoloring effects can change a displayed relationship or erase glyph contrast. These are optional helpers, not a required visual vocabulary. Let the subject determine the composition; persistent top headings are optional. Place brief identifying labels near the relevant objects, while keeping narration captions in a stable readable area.
+
 Review math, visual clarity, timing, and speech separately. Locate defects by timestamp and propose a specific change. Preview fast transitions with multiple adjacent frames or actual video. Final review includes assembly transitions and captions. Do not use scores alone as evidence.
 
 Keep source files under scenes/ and assets/ so dependency tracking includes helpers. Keep external imports pinned in the runtime. Each project is independent, so resuming on another platform only requires the same project path and plugin/runtime installation.

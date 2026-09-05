@@ -10,6 +10,26 @@ def ass_time(value):
     h,total=divmod(total,360000);m,total=divmod(total,6000);s,cs=divmod(total,100)
     return f'{h}:{m:02}:{s:02}.{cs:02}'
 
+def scene_srt(scene, audio, duration, settings=None, offset=0, first_index=1):
+    """One caption source for final assembly and captioned scene prototypes."""
+    def stamp(seconds):
+        ms = round(seconds * 1000)
+        h, ms = divmod(ms, 3600000); m, ms = divmod(ms, 60000); s, ms = divmod(ms, 1000)
+        return f'{h:02}:{m:02}:{s:02},{ms:03}'
+    words = audio.get('word_timing', {}).get('words', [])
+    if not words:
+        return [f"{first_index}\n{stamp(offset)} --> {stamp(offset+duration)}\n{scene['narration']}\n"]
+    phrasing = settings.get('phrases', {}) if isinstance(settings, dict) else {}
+    if not isinstance(phrasing, dict):
+        raise ProductionError('CAPTION_PHRASES', 'captions.phrases must map scene IDs to phrase lists')
+    sid = scene['id']; result = []
+    for i, group in enumerate(caption_groups(words, phrasing.get(sid))):
+        start = offset + max(0, min(duration, group[0]['start']))
+        end = offset + min(duration, max(group[-1]['end'], group[0]['start']+.1))
+        text = phrasing[sid][i] if sid in phrasing else ' '.join(w['text'] for w in group)
+        result.append(f'{first_index+i}\n{stamp(start)} --> {stamp(end)}\n{text}\n')
+    return result
+
 def make_ass(srt,width=1080,height=1920,style=None):
     style=resolve_style(overrides=style)
     fontsize=round(height*style['font_size']/1920);margin=round(height*style['margin_bottom']/1920)
