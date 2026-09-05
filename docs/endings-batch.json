@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-06",
+  "cycle": 7,
+  "videos": [
+    {
+      "project": "01-fountain",
+      "title": "Two Arches and One Quiet Landing #math #Shorts",
+      "url": "https://www.youtube.com/shorts/7tnatS_WvrE",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M16S",
+      "export_sha256": "15562a29f2dcbdbe5d152315870579998811e9c041e84979d122f7a264273831",
+      "editorial": {
+        "decision": "release",
+        "opening": "A small basin and a moving stream establish a recognizable fountain; the first angle change is visible before explanatory formulas.",
+        "mechanism": "Two complementary parabolas share an endpoint. A final turn to forty-five degrees visibly extends the landing point, then leaves the stream flowing.",
+        "readability": "Range markers were moved below the basin; the same-distance label disappears when the condition changes. The ideal model and slowed presentation are identified.",
+        "pacing": "The final condition is explained and shown before the closing sentence. The flowing stream remains a subject-relevant motion during the final hold.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed; focused pulley checks did not repeat the duplicated words in full-file ASR. No subjective listening.",
+        "remaining_weaknesses": "The basin is schematic, and the sparse drop stream may read as a dotted path. Symbols v, g and theta rely on the narration and familiar notation rather than an explicit legend. No aesthetic preference or continuous audiovisual response was measured.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "02-lantern",
+      "title": "The Light Shared Between Nine Small Squares #math #Shorts",
+      "url": "https://www.youtube.com/shorts/E4RL4OdFteQ",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M15S",
+      "export_sha256": "60c76126d6807d11dd12f1daccbb7adf3abd31f24dd3005e9d23a379a3e3ce1a",
+      "editorial": {
+        "decision": "release",
+        "opening": "A recognizable lantern and moving screen introduce spreading before the square grid appears.",
+        "mechanism": "A side-view light bundle maps to a separately labeled front-view patch. The final distance of three creates nine cells, then returning close concentrates the same modeled power.",
+        "readability": "Labels distinguish the two views and identify shading as an energy encoding. Clear-space and tiny-source assumptions are stated.",
+        "pacing": "The third-distance consequence and return happen within the final section; the final square becomes visibly smaller and darker.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed; focused pulley checks did not repeat the duplicated words in full-file ASR. No subjective listening.",
+        "remaining_weaknesses": "The lamp remains a small icon. The link between the side-view segment and front-view square still depends on narration. Animated opacity is not a simulation of visual brightness. Sound is dry narration, with no subjective listening review.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "03-vessel",
+      "title": "A Steady Pour and an Unsteady Rise #math #Shorts",
+      "url": "https://www.youtube.com/shorts/v9DWYzRrgQE",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M17S",
+      "export_sha256": "44596831e18abebda9462379814ec20ce69399176cc62a6dff7673fb804607c6",
+      "editorial": {
+        "decision": "release",
+        "opening": "A cone-shaped glass vessel and continuous constant-volume pour make its changing rise visible.",
+        "mechanism": "Half height is compared to one eighth capacity; the final comparison uses a cylinder with equal height and total capacity and the same inflow.",
+        "readability": "Water levels and their percentages are attached to the appropriate vessels. The conical and cylindrical geometry was independently checked.",
+        "pacing": "The opening pour was changed to a renderer clock so it continues through narration. The comparison animation fits its measured cue, then the unequal heights remain available for inspection.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed; focused pulley checks did not repeat the duplicated words in full-file ASR. No subjective listening.",
+        "remaining_weaknesses": "The initial vessel can resemble a stylized glass more than an everyday bowl. Cross-sectional drawings do not directly display all three-dimensional volume. The last comparison still holds for several seconds, and no audience transfer was measured.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "04-pulley",
+      "title": "The Longer Journey That Makes a Basket Lighter #math #Shorts",
+      "url": "https://www.youtube.com/shorts/4Kr62L9pve4",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M8S",
+      "export_sha256": "9ed7efd26456dc173a7c58578e9f207ea355fc843f2b7570156372859fec9491",
+      "editorial": {
+        "decision": "release",
+        "opening": "A planted hanging basket stays attached to its moving wheel and continuous rope.",
+        "mechanism": "Rope length conservation gives the two-to-one movement ratio. The last smaller pull visibly halves the load's rise without changing that ratio.",
+        "readability": "The anchor gap was repaired. Force and distance labels accompany separate stages, and the one-moving-wheel geometry pulls the free end upward.",
+        "pacing": "The second lift begins in the final section, resolves, then holds the displacement comparison. Focused ASR did not reproduce two apparent repetitions in the full-file transcript.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed; focused pulley checks did not repeat the duplicated words in full-file ASR. No subjective listening.",
+        "remaining_weaknesses": "The basket and plant are simple silhouettes, and the grip is an abstract handle rather than a hand. The ending returns to a largely static diagram after the smaller lift. This is an ideal quasistatic demonstration, not a realistic simulation of effort or acceleration.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "05-leaf",
+      "title": "The Invisible Balance in a Falling Leaf #math #Shorts",
+      "url": "https://www.youtube.com/shorts/8P7c_XUNYWs",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M11S",
+      "export_sha256": "4ee42fb043626001ccb78e2b20609bc74dfcc9eb2ea1d0e435b6a2f3a9a369a9",
+      "editorial": {
+        "decision": "release",
+        "opening": "A veined leaf descends before the force explanation, making the invisible interaction concrete.",
+        "mechanism": "Quadratic drag grows toward weight in a labeled force diagram. Two final leaves share one slowed clock and gravity, while only one trajectory includes drag.",
+        "readability": "The frozen explanation is explicitly labeled as a force diagram. The moving comparison identifies air and no-air conditions; flutter is excluded.",
+        "pacing": "The final trajectories continue during the closing narration rather than freezing between cues. The final positional separation follows the independently checked solutions.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed; focused pulley checks did not repeat the duplicated words in full-file ASR. No subjective listening.",
+        "remaining_weaknesses": "A real leaf's flutter and changing drag are absent; its shape is a clean icon. The force diagram occupies much of the middle, and terminal speed is explained more than it is numerically quantified. Sampled inspection cannot establish felt calm or prosody.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    }
+  ]
+}

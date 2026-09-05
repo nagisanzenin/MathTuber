@@ -91,3 +91,5 @@ Latest release: [five quiet Shorts and reflection](docs/quiet-batch.md), with [e
 Latest release: [five flow Shorts and reflection](docs/flow-batch.md), with [editable sources](examples/flow).
 
 Latest release: [five everyday-object Shorts and reflection](docs/objects-batch.md), with [editable sources](examples/objects).
+
+Latest release: [five meaningful-ending Shorts and reflection](docs/endings-batch.md), with [editable sources](examples/endings).
