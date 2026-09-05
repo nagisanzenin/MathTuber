@@ -108,6 +108,7 @@ def render_fingerprint(project, scene, quality, execution=None):
                    "format": project.data.get("format", {}), "profile": profile, "quality": quality,
                    "worker": file_hash(ROOT / "workers/render.py"),
                    "components": file_hash(ROOT / "components.py"),
+                   "process_clock": file_hash(ROOT / "mathtuber" / "process_clock.py"),
                    "runtime": runtime_versions(execution), "execution": execution})
 
 _VERSION_CACHE = {}

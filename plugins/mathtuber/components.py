@@ -1,5 +1,6 @@
 """Small optional helpers. The host agent owns the animation design."""
 from manim import *
+from mathtuber.process_clock import ProcessClock
 TARGET_DURATION = 0.0
 BG = "#10121B"
 INK = "#F3F0E8"
@@ -23,6 +24,17 @@ class NarratedScene(Scene):
             self.wait(remaining)
     def finish(self):
         self.cue(1.0)
+    def process_clock(self, rate=1.0, initial=0.0):
+        """Advance through play AND wait; pause/resume explicitly for inspection.
+
+        Add this clock before the objects that read it. Keep its invisible driver
+        in the scene while it is needed; clearing the scene also removes clocks.
+        """
+        clock = ProcessClock(rate, initial, time_source=lambda: self.renderer.time)
+        driver = Mobject()
+        driver.add_updater(lambda _, dt: clock.value)
+        self.add(driver)
+        return clock
     def heading(self, title, subtitle=None):
         label = Text(title, font_size=38, color=INK).to_edge(UP, buff=1.1)
         if label.width > 6.6:
