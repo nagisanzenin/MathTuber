@@ -11,11 +11,11 @@ class Film(Stage):
             return blocks
         bar=pattern(half,screen_y,6)
         slit=VGroup(self.line([-2.4,slit_y,0],[-.36,slit_y,0],'ink',8),self.line([.36,slit_y,0],[2.4,slit_y,0],'ink',8))
-        subject=VGroup(anchor,bar,slit).scale(.78).shift(UP*.7);self.add(subject)
+        screen=Rectangle(width=6.15,height=1.35,stroke_width=0,fill_color=self.palette['ink'],fill_opacity=1).move_to([0,screen_y,0]);subject=VGroup(anchor,screen,bar,slit).scale(.78).shift(UP*.7);self.add(subject)
         self.at('A narrow opening');self.play(FadeIn(bar),run_time=1)
         self.at('Here, the bright');self.at('Come closer');self.stage_focus(subject,UP*1.8,width=6.4,height=4.2,run_time=1.6)
         left,right,aperture=[a.get_center().copy() for a in anchor];half=(right[0]-left[0])/2;screen_y=left[1];slit_y=aperture[1]
-        self.remove(subject);self.add(anchor,bar,slit)
+        self.remove(subject);self.add(anchor,screen,bar,slit)
         view=self.label('screen pattern • brightness compressed',[0,screen_y-.9,0],'muted','label').scale(.8);self.add(view)
         self.at('The light has');scope=self.label('one wavelength • far field',[0,5.3,0],'muted','label').scale(.85);self.add(scope)
         self.at('We are looking');self.at('Light from different');self.at('In the center');middle=self.label('center',[0,screen_y+1.1,0],'accent','label');self.play(FadeIn(middle),run_time=.5)
