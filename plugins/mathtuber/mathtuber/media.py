@@ -8,7 +8,7 @@ import shutil
 import subprocess
 import sys
 import time
-from .captions import make_ass
+from .captions import make_ass, caption_groups
 from .profiles import load as load_profile
 from .creative import validate_plan, soundtrack, validate_delivery
 from .state import ProductionError, digest, file_hash, within, atomic_json
@@ -217,15 +217,15 @@ def assemble(project):
         clips.append(clip)
         words = audio["metadata"].get("word_timing", {}).get("words", [])
         if words:
-            group = []
-            for index, word in enumerate(words):
-                group.append(word)
-                if len(group) >= 7 or word["text"].endswith((".", "?", "!", ";")) or index == len(words)-1:
-                    start = offset + max(0, min(duration, group[0]["start"]))
-                    end = offset + min(duration, max(group[-1]["end"], group[0]["start"]+.1))
-                    text = " ".join(w["text"] for w in group)
-                    captions.append(f"{len(captions)+1}\n{srt_time(start)} --> {srt_time(end)}\n{text}\n")
-                    group = []
+            settings = project.data.get("captions", {})
+            phrasing = settings.get("phrases", {}) if isinstance(settings, dict) else {}
+            if not isinstance(phrasing, dict):
+                raise ProductionError("CAPTION_PHRASES", "captions.phrases must map scene IDs to phrase lists")
+            for group in caption_groups(words, phrasing.get(sid)):
+                start = offset + max(0, min(duration, group[0]["start"]))
+                end = offset + min(duration, max(group[-1]["end"], group[0]["start"]+.1))
+                text = " ".join(w["text"] for w in group)
+                captions.append(f"{len(captions)+1}\n{srt_time(start)} --> {srt_time(end)}\n{text}\n")
         else:
             captions.append(f"{len(captions)+1}\n{srt_time(offset)} --> {srt_time(offset+duration)}\n{scene['narration']}\n")
         offset += duration

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "ivisualizethings-workshop",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "status": "candidate",
   "promise": "See the mechanism that makes a surprising mathematical result inevitable.",
   "audience": "Curious teens and adults; begin with concrete objects and state necessary prerequisites.",
@@ -47,7 +47,11 @@
     "Explain the mapping between views before using it as evidence.",
     "Fade replacement phrases; do not morph unrelated letter shapes.",
     "Declare and sample every critical transition through its end.",
-    "Use topic-specific settings within the shared material and color language."
+    "Use topic-specific settings within the shared material and color language.",
+    "Open with a consequential action and a prediction the viewer can actually make.",
+    "Give the hardest inference the largest useful workspace; retain a small orientation cue when zooming.",
+    "Author caption phrases as sense units; preserve exact spoken content and timing.",
+    "Use sparse action-linked sounds as a testable design choice, not an assumed learning benefit."
   ],
   "formats": {
     "visual-proof": "A concrete puzzle resolves through an invariant or transformation.",
