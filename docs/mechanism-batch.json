@@ -1,0 +1,67 @@
+[
+  {
+    "project": "01-viviani",
+    "title": "Move This Dot. The Total Never Changes. #math #Shorts",
+    "url": "https://www.youtube.com/shorts/MkY8XgmBYg8",
+    "privacy": "public",
+    "processing": "succeeded",
+    "duration": "PT1M13S",
+    "export_sha256": "56ef92f381b4a18a83b39cb0467639c59d69191fabbfb041c089177cb2330d3f",
+    "render_seconds": 22.23,
+    "assembly_seconds": 0.08,
+    "review_scope": "Mathematics, captioned timeline/cue/motion samples, ASR, signal checks and complete decode; no uninterrupted audiovisual or subjective listening review.",
+    "audience_validation": "Not measured."
+  },
+  {
+    "project": "02-midpoints",
+    "title": "Hide a Parallelogram in Any Four-Sided Shape #math #Shorts",
+    "url": "https://www.youtube.com/shorts/H1d4Og1D0dg",
+    "privacy": "public",
+    "processing": "succeeded",
+    "duration": "PT1M12S",
+    "export_sha256": "3d6deb76d9e367045282a46a68e089a97fc2d3e13de178c07ae67bba6046e41c",
+    "render_seconds": 49.47,
+    "assembly_seconds": 0.1,
+    "review_scope": "Mathematics, captioned timeline/cue/motion samples, ASR, signal checks and complete decode; no uninterrupted audiovisual or subjective listening review.",
+    "audience_validation": "Not measured."
+  },
+  {
+    "project": "03-euclid",
+    "title": "The Biggest Tile Is Hiding in the Leftovers #math #Shorts",
+    "url": "https://www.youtube.com/shorts/CoLdfSfkXFc",
+    "privacy": "public",
+    "processing": "succeeded",
+    "duration": "PT1M14S",
+    "export_sha256": "c007c24da25c4897686d4c071987e6cb6407a4d981f3da474234770e17f72c7d",
+    "render_seconds": 32.94,
+    "assembly_seconds": 0.13,
+    "review_scope": "Mathematics, captioned timeline/cue/motion samples, ASR, signal checks and complete decode; no uninterrupted audiovisual or subjective listening review.",
+    "audience_validation": "Not measured."
+  },
+  {
+    "project": "04-broken-stick",
+    "title": "Break a Stick Twice. Why Only One in Four Works? #math #Shorts",
+    "url": "https://www.youtube.com/shorts/I5N23mV1KBs",
+    "privacy": "public",
+    "processing": "succeeded",
+    "duration": "PT1M18S",
+    "export_sha256": "90538a1a6fad6c13a8558e5b2044f1ea99677e0b174d0f948d32cc77f9c1e45c",
+    "render_seconds": 30.97,
+    "assembly_seconds": 0.17,
+    "review_scope": "Mathematics, captioned timeline/cue/motion samples, ASR, signal checks and complete decode; no uninterrupted audiovisual or subjective listening review.",
+    "audience_validation": "Not measured."
+  },
+  {
+    "project": "05-pizza",
+    "title": "Three Cuts Can Make Seven Pieces. What About Four? #math #Shorts",
+    "url": "https://www.youtube.com/shorts/ROW9dm6Xr4k",
+    "privacy": "public",
+    "processing": "succeeded",
+    "duration": "PT1M10S",
+    "export_sha256": "6ed59cf74ab27ade37b19877d9aec9bd29bb998c406526579716121a89c32d99",
+    "render_seconds": 20.49,
+    "assembly_seconds": 0.1,
+    "review_scope": "Mathematics, captioned timeline/cue/motion samples, ASR, signal checks and complete decode; no uninterrupted audiovisual or subjective listening review.",
+    "audience_validation": "Not measured."
+  }
+]

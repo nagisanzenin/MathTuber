@@ -75,3 +75,5 @@ Bind a portable channel identity with `profile-bind --project PATH --profile ivi
 See [profile commands and authoring](plugins/mathtuber/skills/mathtuber/references/profiles.md) and [research and evaluation plan](docs/research/CHANNEL-PROFILES.md). Profiles guide creative choices; they do not establish viewer enjoyment or learning.
 
 The [workshop batch](docs/workshop-batch.md) includes five published examples, a visual gallery, mathematical verification and explicit review limitations.
+
+The [mechanism batch and reflection](docs/mechanism-batch.md) adds five new public Shorts, continuous-scene source projects, local reference remakes, and workshop profile 0.2. The [concrete direction guide](docs/research/MECHANISM-DIRECTION.md) supplies reference frames and anti-examples. `publish_batch.py` checks all current technical and editorial reviews before the first upload.
