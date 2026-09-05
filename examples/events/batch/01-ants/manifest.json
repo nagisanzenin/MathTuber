@@ -23,9 +23,7 @@
     "burn_in": true,
     "phrases": {
       "s01": [
-        "Two ants collide,",
-        "turn around,",
-        "and walk away.",
+        "Two ants collide, turn around, and walk away.",
         "Surely all that bouncing delays their escape?",
         "Here is the puzzle.",
         "Our ants are points on a ten meter stick.",
@@ -49,10 +47,8 @@
         "This ant starts one meter from the left and walks right.",
         "It has nine meters left,",
         "so its ghost leaves after nine seconds.",
-        "The other ghosts need seven,",
-        "four,",
-        "seven,",
-        "and one second.",
+        "The other ghosts need",
+        "seven, four, seven, and one second.",
         "The last departure is nine seconds.",
         "Bouncing can change which ant leaves where.",
         "It cannot change the departure times under these rules.",
