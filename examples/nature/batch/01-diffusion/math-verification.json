@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "derivation": "For independent unbiased unit increments U, E[|S+U|\u00b2|S]=|S|\u00b2+2S\u00b7E[U]+E[|U|\u00b2]=|S|\u00b2+1. Induction gives E|S_n|\u00b2=n. At S=(2,0), squared outcomes 9,1,5,5 average 5.",
+  "checks": [
+    {
+      "steps": 1,
+      "expected_squared_distance": "1",
+      "rms": 1.0
+    },
+    {
+      "steps": 16,
+      "expected_squared_distance": "16",
+      "rms": 4.0
+    },
+    {
+      "steps": 64,
+      "expected_squared_distance": "64",
+      "rms": 8.0
+    }
+  ],
+  "limitations": [
+    "The 96 drawn walks are a finite seeded sample; their empirical moment need not equal n. RMS is not mean distance or a containing boundary."
+  ]
+}

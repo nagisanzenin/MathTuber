@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "When the Shortest Route Looks Curved",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.84
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Two places sit at the same northern latitude.",
+        "On this flat map, the direct route looks like a horizontal line.",
+        "Yet a route that bows toward the pole is shorter on a sphere.",
+        "The map has changed what distance looks like.",
+        "Let us keep the same two places and put them on a globe.",
+        "The horizontal map line follows a circle of latitude.",
+        "Away from the equator,",
+        "that circle does not pass through the center of the sphere.",
+        "Now take the plane through both places and the sphere's center.",
+        "Its intersection with the surface is a great circle.",
+        "The shorter arc\nbetween our two places",
+        "is the shortest surface route.",
+        "Notice that it curves on the map",
+        "because the map stretches\nthe surface.",
+        "In our example,",
+        "both places are\nthirty five degrees north",
+        "and their longitudes differ",
+        "by one hundred and thirty degrees.",
+        "On a sphere of radius one,",
+        "following the latitude takes about one point eight six units.",
+        "The great circle takes about one point six seven.",
+        "That difference comes from the geometry, not a faster traveler.",
+        "A useful way to picture the theorem",
+        "is to rotate the globe",
+        "until the starting place\nbecomes the north pole.",
+        "A meridian reaches the destination without sideways wandering.",
+        "Any sideways motion adds length",
+        "without reducing the required\nchange in polar angle.",
+        "This explanation assumes a sphere",
+        "and a route constrained\nto its surface.",
+        "Real flight planning also considers",
+        "winds, airspace,\nand the Earth's shape.",
+        "A line that looks bent on a map",
+        "can be the simplest route\non the world."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "A minor great-circle arc minimizes surface distance on a sphere; map straightness is not surface distance.",
+    "question": "Why can a curved map route be shorter on the globe?",
+    "payoff": "A minor great-circle arc minimizes surface distance on a sphere; map straightness is not surface distance.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One continuous visual explanation; speech measured before render; no duration padding.",
+    "novelty_audit": "Checked 180 channel upload titles including the events batch on 2026-09-06. No matching topic title; not a full transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Persistent objects, warm material palette, visible mechanism before symbolic summary.",
+      "episode_variation": "The same sampled great-circle and latitude routes transform from an equirectangular map to an orthographic sphere.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why can a curved map route be shorter on the globe?",
+        "visual_action": "The same sampled great-circle and latitude routes transform from an equirectangular map to an orthographic sphere.",
+        "new_understanding": "A minor great-circle arc minimizes surface distance on a sphere; map straightness is not surface distance.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Two places sit at the same northern latitude. On this flat map, the direct route looks like a horizontal line. Yet a route that bows toward the pole is shorter on a sphere. The map has changed what distance looks like. Let us keep the same two places and put them on a globe. The horizontal map line follows a circle of latitude. Away from the equator, that circle does not pass through the center of the sphere. Now take the plane through both places and the sphere's center. Its intersection with the surface is a great circle. The shorter arc between our two places is the shortest surface route. Notice that it curves on the map because the map stretches the surface. In our example, both places are thirty five degrees north and their longitudes differ by one hundred and thirty degrees. On a sphere of radius one, following the latitude takes about one point eight six units. The great circle takes about one point six seven. That difference comes from the geometry, not a faster traveler. A useful way to picture the theorem is to rotate the globe until the starting place becomes the north pole. A meridian reaches the destination without sideways wandering. Any sideways motion adds length without reducing the required change in polar angle. This explanation assumes a sphere and a route constrained to its surface. Real flight planning also considers winds, airspace, and the Earth's shape. A line that looks bent on a map can be the simplest route on the world."
+    }
+  ],
+  "sources": [
+    "https://mechref.engr.illinois.edu/dyn/aos.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

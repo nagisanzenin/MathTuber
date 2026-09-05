@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Why Soap Films Meet at 120 Degrees",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.84
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Three thin films meet in a quiet junction.",
+        "Their angles settle at one hundred and twenty degrees.",
+        "There is geometry inside that balance.",
+        "Imagine three pins\nbetween parallel plates,",
+        "viewed from above.",
+        "A film connects them through a movable junction.",
+        "In this ideal model, every film has the same tension.",
+        "Each one pulls the junction along its own direction.",
+        "If the pulls do not cancel, the junction moves.",
+        "Watch what happens when we place three equal arrows tip to tail.",
+        "To return to the starting point,",
+        "they must close into an equilateral triangle.",
+        "Each corner of that triangle is sixty degrees.",
+        "But the pulls at the junction point outward from the same place.",
+        "Their separation is the supplementary angle:",
+        "one hundred and twenty degrees.",
+        "Now bring the arrows back to the films.",
+        "No direction wins.",
+        "The junction is balanced.",
+        "There is also a shortest-network interpretation.",
+        "Between parallel plates,",
+        "film area is proportional to the total length we see from above.",
+        "Reducing that length reduces surface energy.",
+        "For three pins forming an equilateral triangle,",
+        "the central junction gives three equal branches,",
+        "shorter than connecting two sides.",
+        "This is an ideal equilibrium picture,",
+        "not a promise that every soap experiment finds a global minimum.",
+        "Change a film's tension, and the equal-angle rule changes too.",
+        "A small meeting of surfaces",
+        "can quietly reveal\na balance of forces."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Three equal coplanar forces balance at 120 degrees; the equilateral three-pin network has total length 3r.",
+    "question": "Why do three equal-tension films form 120 degree angles?",
+    "payoff": "Three equal coplanar forces balance at 120 degrees; the equilateral three-pin network has total length 3r.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One continuous visual explanation; speech measured before render; no duration padding.",
+    "novelty_audit": "Checked 180 channel upload titles including the events batch on 2026-09-06. No matching topic title; not a full transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Persistent objects, warm material palette, visible mechanism before symbolic summary.",
+      "episode_variation": "A three-pin network connects to equal force arrows closing into a triangle, then returns to the junction.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why do three equal-tension films form 120 degree angles?",
+        "visual_action": "A three-pin network connects to equal force arrows closing into a triangle, then returns to the junction.",
+        "new_understanding": "Three equal coplanar forces balance at 120 degrees; the equilateral three-pin network has total length 3r.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Three thin films meet in a quiet junction. Their angles settle at one hundred and twenty degrees. There is geometry inside that balance. Imagine three pins between parallel plates, viewed from above. A film connects them through a movable junction. In this ideal model, every film has the same tension. Each one pulls the junction along its own direction. If the pulls do not cancel, the junction moves. Watch what happens when we place three equal arrows tip to tail. To return to the starting point, they must close into an equilateral triangle. Each corner of that triangle is sixty degrees. But the pulls at the junction point outward from the same place. Their separation is the supplementary angle: one hundred and twenty degrees. Now bring the arrows back to the films. No direction wins. The junction is balanced. There is also a shortest-network interpretation. Between parallel plates, film area is proportional to the total length we see from above. Reducing that length reduces surface energy. For three pins forming an equilateral triangle, the central junction gives three equal branches, shorter than connecting two sides. This is an ideal equilibrium picture, not a promise that every soap experiment finds a global minimum. Change a film's tension, and the equal-angle rule changes too. A small meeting of surfaces can quietly reveal a balance of forces."
+    }
+  ],
+  "sources": [
+    "https://web.mit.edu/nnf/education/wettability/minimal.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Let us keep the same",
+      "end_cue": "The shorter arc",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Track identical endpoints and routes between map and globe."
+    },
+    {
+      "id": "2",
+      "start_cue": "In our example",
+      "end_cue": "A useful way to picture",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Verify numeric arc lengths and radius units."
+    },
+    {
+      "id": "3",
+      "start_cue": "A useful way to picture",
+      "end_cue": "Real flight planning",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Check pole-rotation explanation is labeled as an explanatory view."
+    }
+  ]
+}

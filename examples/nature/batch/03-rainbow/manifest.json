@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Geometry That Gathers a Rainbow",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.84
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Sunlight enters a round drop,",
+        "bends, reflects once inside,",
+        "and bends again as it leaves.",
+        "Change where the ray enters, and its exit direction changes.",
+        "But near one particular direction, something lovely happens.",
+        "Neighboring rays leave at almost the same angle.",
+        "Light gathers there.",
+        "Let us follow one ray.",
+        "At the first surface,",
+        "refraction turns it toward the inward normal.",
+        "It crosses the drop and reflects from the back.",
+        "At the final surface,",
+        "it bends away from the normal as it returns to air.",
+        "The amount of bending follows Snell's law.",
+        "For water with refractive index close to four thirds,",
+        "this path has a special turning point.",
+        "These rays enter at slightly different heights.",
+        "Notice how their outgoing directions nearly agree.",
+        "Measured from the direction straight back toward the sun,",
+        "the angle reaches a maximum near forty two degrees.",
+        "This concentration of directions",
+        "is the geometric beginning\nof the primary rainbow.",
+        "It is not a claim that all the light follows one path.",
+        "Much light passes through,",
+        "and wave effects shape the fine details.",
+        "Why an arc across the sky?",
+        "Drops at the same angle",
+        "around the direction\nopposite the sun",
+        "form a circle in our view.",
+        "The horizon usually hides part of it.",
+        "Different colors bend by slightly different amounts,",
+        "separating that circle into bands.",
+        "A rainbow is not a painted object waiting in one place.",
+        "It is a relationship between",
+        "sunlight, drops,\nand your point of view."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "One-reflection ray geometry has an angular stationary point near 42 degrees from backscatter for n near 4/3.",
+    "question": "How does a drop concentrate light into a rainbow direction?",
+    "payoff": "One-reflection ray geometry has an angular stationary point near 42 degrees from backscatter for n near 4/3.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One continuous visual explanation; speech measured before render; no duration padding.",
+    "novelty_audit": "Checked 180 channel upload titles including the events batch on 2026-09-06. No matching topic title; not a full transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Persistent objects, warm material palette, visible mechanism before symbolic summary.",
+      "episode_variation": "Trace refraction and reflection through a circular drop, compare adjacent rays, then connect equal viewing angles to a sky circle.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How does a drop concentrate light into a rainbow direction?",
+        "visual_action": "Trace refraction and reflection through a circular drop, compare adjacent rays, then connect equal viewing angles to a sky circle.",
+        "new_understanding": "One-reflection ray geometry has an angular stationary point near 42 degrees from backscatter for n near 4/3.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Sunlight enters a round drop, bends, reflects once inside, and bends again as it leaves. Change where the ray enters, and its exit direction changes. But near one particular direction, something lovely happens. Neighboring rays leave at almost the same angle. Light gathers there. Let us follow one ray. At the first surface, refraction turns it toward the inward normal. It crosses the drop and reflects from the back. At the final surface, it bends away from the normal as it returns to air. The amount of bending follows Snell's law. For water with refractive index close to four thirds, this path has a special turning point. These rays enter at slightly different heights. Notice how their outgoing directions nearly agree. Measured from the direction straight back toward the sun, the angle reaches a maximum near forty two degrees. This concentration of directions is the geometric beginning of the primary rainbow. It is not a claim that all the light follows one path. Much light passes through, and wave effects shape the fine details. Why an arc across the sky? Drops at the same angle around the direction opposite the sun form a circle in our view. The horizon usually hides part of it. Different colors bend by slightly different amounts, separating that circle into bands. A rainbow is not a painted object waiting in one place. It is a relationship between sunlight, drops, and your point of view."
+    }
+  ],
+  "sources": [
+    "https://www.st-andrews.ac.uk/~bds2/optics/rainbow"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

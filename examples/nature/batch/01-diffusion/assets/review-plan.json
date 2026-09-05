@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Each dot takes",
+      "end_cue": "To double the typical",
+      "end_offset": 4,
+      "samples": 9,
+      "purpose": "Check cloud movement and origin continuity."
+    },
+    {
+      "id": "2",
+      "start_cue": "Begin two steps",
+      "end_cue": "Only one squared step",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Verify four squared distances and their average."
+    },
+    {
+      "id": "3",
+      "start_cue": "After sixteen steps",
+      "end_cue": "Flowing water",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Verify radius ratio and distinguish RMS from a boundary."
+    }
+  ]
+}

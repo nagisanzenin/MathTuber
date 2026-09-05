@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Quiet Rhythm of Spreading",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.84
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A small cloud spreads,",
+        "although no particle knows which way to go.",
+        "Here is a simple model of diffusion.",
+        "Each dot takes an equal step,",
+        "choosing up, down, left,\nor right at random.",
+        "The choices are independent.",
+        "Some paths wander back.",
+        "Others reach farther.",
+        "The cloud has no preferred direction,",
+        "but its spread still grows.",
+        "There is a gentle surprise in that growth.",
+        "To double the typical distance from the start,",
+        "we need four times as many steps.",
+        "Let us see why.",
+        "To define the spread,",
+        "square the distance from the start",
+        "and average across all possible walks.",
+        "That expected value increases",
+        "by one squared step every turn.",
+        "A tiny example makes the cancellation visible.",
+        "Begin two steps to the right.",
+        "The squared distance is four.",
+        "The next step can leave\nsquared distances",
+        "of nine, one, five, or five.",
+        "Their average is five: exactly one more.",
+        "In general, opposite steps cancel",
+        "the terms that depend on direction.",
+        "Only one squared step remains.",
+        "After sixteen steps, the mean squared distance is sixteen.",
+        "Taking its square root gives a spread of four steps.",
+        "After sixty four steps, the spread is eight.",
+        "Four times the time, twice the spread.",
+        "This is a root mean square distance,",
+        "not a boundary containing every particle.",
+        "Flowing water can also carry the whole cloud;",
+        "that is a different motion.",
+        "Even directionless wandering has a mathematical rhythm."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Independent equal unbiased steps give mean squared displacement n and RMS distance sqrt(n).",
+    "question": "How does directionless wandering produce predictable spreading?",
+    "payoff": "Independent equal unbiased steps give mean squared displacement n and RMS distance sqrt(n).",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One continuous visual explanation; speech measured before render; no duration padding.",
+    "novelty_audit": "Checked 180 channel upload titles including the events batch on 2026-09-06. No matching topic title; not a full transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Persistent objects, warm material palette, visible mechanism before symbolic summary.",
+      "episode_variation": "A deterministic random-walk cloud leads to a four-way squared-distance example and exact RMS scale rings.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How does directionless wandering produce predictable spreading?",
+        "visual_action": "A deterministic random-walk cloud leads to a four-way squared-distance example and exact RMS scale rings.",
+        "new_understanding": "Independent equal unbiased steps give mean squared displacement n and RMS distance sqrt(n).",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A small cloud spreads, although no particle knows which way to go. Here is a simple model of diffusion. Each dot takes an equal step, choosing up, down, left, or right at random. The choices are independent. Some paths wander back. Others reach farther. The cloud has no preferred direction, but its spread still grows. There is a gentle surprise in that growth. To double the typical distance from the start, we need four times as many steps. Let us see why. To define the spread, square the distance from the start and average across all possible walks. That expected value increases by one squared step every turn. A tiny example makes the cancellation visible. Begin two steps to the right. The squared distance is four. The next step can leave squared distances of nine, one, five, or five. Their average is five: exactly one more. In general, opposite steps cancel the terms that depend on direction. Only one squared step remains. After sixteen steps, the mean squared distance is sixteen. Taking its square root gives a spread of four steps. After sixty four steps, the spread is eight. Four times the time, twice the spread. This is a root mean square distance, not a boundary containing every particle. Flowing water can also carry the whole cloud; that is a different motion. Even directionless wandering has a mathematical rhythm."
+    }
+  ],
+  "sources": [
+    "https://math.mit.edu/classes/18.366/lec05/lec01.pdf"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

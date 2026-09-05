@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "derivation": "One internal reflection gives deviation D=pi+2i-4r and backscatter angle alpha=4r-2i, with sin(i)=n sin(r). Its stationary maximum has cos\u00b2(i)=(n\u00b2-1)/3. For n=4/3, alpha is about 42.03\u00b0. Neighboring incidence angles yield similar exit directions. Rotational symmetry around the antisolar viewing axis produces a circle of equal angular radius.",
+  "checks": {
+    "index": 1.3333333333333333,
+    "maximum_degrees": 42.0296588656977,
+    "rays": [
+      {
+        "impact": 0.6,
+        "backscatter_angle_degrees": 33.23494050992391
+      },
+      {
+        "impact": 0.82,
+        "backscatter_angle_degrees": 41.63809365187415
+      },
+      {
+        "impact": 0.84,
+        "backscatter_angle_degrees": 41.92025090239218
+      },
+      {
+        "impact": 0.855,
+        "backscatter_angle_degrees": 42.0208989310524
+      },
+      {
+        "impact": 0.87,
+        "backscatter_angle_degrees": 42.00415072534343
+      },
+      {
+        "impact": 0.885,
+        "backscatter_angle_degrees": 41.84295787613291
+      },
+      {
+        "impact": 0.9,
+        "backscatter_angle_degrees": 41.50046634393801
+      }
+    ]
+  },
+  "limitations": [
+    "Geometric ray model omits Fresnel intensity, diffraction, interference and detailed dispersion. Drawn sky-circle radii represent angular positions schematically."
+  ]
+}

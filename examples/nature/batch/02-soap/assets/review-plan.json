@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Each one pulls",
+      "end_cue": "Watch what happens",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Check arrows align with actual film directions."
+    },
+    {
+      "id": "2",
+      "start_cue": "Watch what happens",
+      "end_cue": "Now bring the arrows back",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Inspect triangle closure and translation to common tails."
+    },
+    {
+      "id": "3",
+      "start_cue": "For three pins forming",
+      "end_cue": "A small meeting",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Check length comparison and changed-tension caveat."
+    }
+  ]
+}

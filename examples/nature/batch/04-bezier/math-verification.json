@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "derivation": "Repeated equal-fraction interpolation gives (1-t)\u00b2A+2t(1-t)B+t\u00b2C. Nonnegative weights sum to one on [0,1], proving control-triangle containment. Endpoints follow at t=0,1. Derivative 2[(1-t)(B-A)+t(C-B)] generally has nonconstant norm.",
+  "checks": {
+    "sample_count": 501,
+    "max_formula_error": 8.881784197001252e-16
+  },
+  "limitations": [
+    "The middle control handle is not generally on the curve. Constant parameter speed does not imply constant arc-length speed."
+  ]
+}

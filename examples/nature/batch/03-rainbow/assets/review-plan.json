@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Let us follow one ray",
+      "end_cue": "Snell",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Verify ray entry, internal reflection and exit at the same spherical drop."
+    },
+    {
+      "id": "2",
+      "start_cue": "These rays enter",
+      "end_cue": "It is not a claim",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Check neighboring outgoing ray angles and reading direction."
+    },
+    {
+      "id": "3",
+      "start_cue": "Why an arc across the sky",
+      "end_cue": "A rainbow is not",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Inspect circle-to-visible-arc mapping and horizon occlusion."
+    }
+  ]
+}

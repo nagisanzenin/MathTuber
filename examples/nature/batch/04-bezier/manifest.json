@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "A Curve Made from Straight-Line Choices",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.84
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A flowing curve can begin with nothing more than straight lines.",
+        "Place three points on a page.",
+        "The first and last are the ends of our stroke.",
+        "The middle point is a handle.",
+        "Now choose the same fraction",
+        "along each of the two\nstraight segments.",
+        "Halfway on the first.",
+        "Halfway on the second.",
+        "Join those new points, and choose halfway once more.",
+        "That final point lies on our curve.",
+        "Let the fraction change smoothly from zero to one,",
+        "keeping it the same at every stage.",
+        "Watch the final point leave a trace.",
+        "This is a quadratic Bezier curve,",
+        "built by repeated linear interpolation.",
+        "The construction has a quiet consistency.",
+        "At fraction zero, every choice collapses to the first endpoint.",
+        "At fraction one, it reaches the last.",
+        "The middle handle bends the stroke,",
+        "even though the curve usually does not pass through that handle.",
+        "Move it, and the whole family of intermediate lines responds.",
+        "We can also see why the curve",
+        "stays inside the triangle",
+        "formed by the three control points.",
+        "Each new point stays on a segment",
+        "between points already inside\nthat triangle.",
+        "Repeating the choice cannot carry it outside.",
+        "This is one reason such curves",
+        "are useful for drawing and design:",
+        "a small set of handles gives a predictable shape.",
+        "The fraction is not distance along the stroke,",
+        "so moving it steadily need not mean constant drawing speed.",
+        "Three points,",
+        "the same small choice repeated,",
+        "and a line learns to flow."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Repeated interpolation produces a quadratic Bezier curve within its control triangle; parameter speed is not arc-length speed.",
+    "question": "How can straight-line interpolation draw a smooth curve?",
+    "payoff": "Repeated interpolation produces a quadratic Bezier curve within its control triangle; parameter speed is not arc-length speed.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One continuous visual explanation; speech measured before render; no duration padding.",
+    "novelty_audit": "Checked 180 channel upload titles including the events batch on 2026-09-06. No matching topic title; not a full transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Persistent objects, warm material palette, visible mechanism before symbolic summary.",
+      "episode_variation": "The same fraction drives two control segments and their bridge while the final point traces a quadratic curve.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How can straight-line interpolation draw a smooth curve?",
+        "visual_action": "The same fraction drives two control segments and their bridge while the final point traces a quadratic curve.",
+        "new_understanding": "Repeated interpolation produces a quadratic Bezier curve within its control triangle; parameter speed is not arc-length speed.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A flowing curve can begin with nothing more than straight lines. Place three points on a page. The first and last are the ends of our stroke. The middle point is a handle. Now choose the same fraction along each of the two straight segments. Halfway on the first. Halfway on the second. Join those new points, and choose halfway once more. That final point lies on our curve. Let the fraction change smoothly from zero to one, keeping it the same at every stage. Watch the final point leave a trace. This is a quadratic Bezier curve, built by repeated linear interpolation. The construction has a quiet consistency. At fraction zero, every choice collapses to the first endpoint. At fraction one, it reaches the last. The middle handle bends the stroke, even though the curve usually does not pass through that handle. Move it, and the whole family of intermediate lines responds. We can also see why the curve stays inside the triangle formed by the three control points. Each new point stays on a segment between points already inside that triangle. Repeating the choice cannot carry it outside. This is one reason such curves are useful for drawing and design: a small set of handles gives a predictable shape. The fraction is not distance along the stroke, so moving it steadily need not mean constant drawing speed. Three points, the same small choice repeated, and a line learns to flow."
+    }
+  ],
+  "sources": [
+    "https://pages.mtu.edu/~shene/COURSES/cs3621/NOTES/spline/Bezier/de-casteljau.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

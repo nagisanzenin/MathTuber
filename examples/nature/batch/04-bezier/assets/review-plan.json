@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Now choose the same fraction",
+      "end_cue": "Watch the final point",
+      "end_offset": 5,
+      "samples": 9,
+      "purpose": "Verify equal interpolation fractions and traced point."
+    },
+    {
+      "id": "2",
+      "start_cue": "At fraction zero",
+      "end_cue": "stays inside the triangle",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Check endpoints and response to handle movement."
+    },
+    {
+      "id": "3",
+      "start_cue": "Each new point stays",
+      "end_cue": "Three points, the same small choice",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Check convex hull containment and parameter caveat."
+    }
+  ]
+}

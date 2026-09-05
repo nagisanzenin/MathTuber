@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "derivation": "For unit endpoints a,b, the minor great-circle angle is arccos(a\u00b7b). Slerp remains in their central plane and on the unit sphere. Latitude arc length is R cos(phi) delta_lambda. With the start chosen as north pole, path length R integral sqrt(theta_dot\u00b2+sin\u00b2(theta) lambda_dot\u00b2) is at least R integral |theta_dot|, hence at least R theta_destination. A meridian attains the bound.",
+  "checks": {
+    "latitude_degrees": 35,
+    "longitude_difference": 130,
+    "great_circle_per_radius": 1.673302779879195,
+    "latitude_per_radius": 1.8585970321470915
+  },
+  "limitations": [
+    "Sphere model; no assertion of optimal actual flight time or route. Projection distorts distances. Antipodal points have multiple minimizing meridians."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "derivation": "Three equal nonzero coplanar forces summing to zero give pairwise dot product -1/2 after normalization, hence 120\u00b0. Their head-to-tail triangle is equilateral with interior 60\u00b0. For three equilateral pins at radius r, the central network length is 3r versus two sides 2sqrt(3)r. Sum-of-distances is convex and its zero gradient at the center proves this junction minimizes that sum.",
+  "checks": {
+    "force_sum": [
+      0.0,
+      0.0
+    ],
+    "angles_degrees": [
+      120.00000000000001,
+      119.99999999999999,
+      120.00000000000001
+    ],
+    "center_length_per_r": 3,
+    "two_sides_per_r": 3.4641016151377544
+  },
+  "limitations": [
+    "Equal tension, straight branches and fixed plate separation are idealizations. Arbitrary physical film states need not be global minima."
+  ]
+}
