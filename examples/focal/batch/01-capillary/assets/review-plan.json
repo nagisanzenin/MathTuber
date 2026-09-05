@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Come closer",
+      "end_cue": "Water meets",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Preserve reservoir reference and column identities through focal staging."
+    },
+    {
+      "id": "2",
+      "start_cue": "Double the radius",
+      "end_cue": "For the same",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Compare circumference and area without losing the liquid columns."
+    },
+    {
+      "id": "3",
+      "start_cue": "Now compare",
+      "end_cue": "A small boundary",
+      "end_offset": 3,
+      "samples": 9,
+      "purpose": "Triple the wide radius relative to the first and resolve a third-height column."
+    }
+  ]
+}

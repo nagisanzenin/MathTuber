@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Small Edge That Helps Water Climb",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Water can climb inside a narrow glass tube.",
+        "In the thinner tube, it can settle higher.",
+        "Come closer, keeping the reservoir level in view.",
+        "Water meets the glass around a circular rim.",
+        "Surface tension supplies an upward pull along that rim.",
+        "The raised water has weight, pulling downward.",
+        "Double the radius, and the rim is twice as long.",
+        "But the cross sectional area becomes four times as large.",
+        "At the same height, that means four times the water weight.",
+        "The wider column must settle lower to balance.",
+        "For the same liquid and contact angle, height is inversely proportional to radius.",
+        "Twice the radius gives half the rise.",
+        "This is an equilibrium model for narrow, clean tubes.",
+        "It does not explain the whole journey of water through a tree.",
+        "Now compare a tube with three times the radius.",
+        "Its rise is one third as high.",
+        "A small boundary can support a surprising column, because its edge and its interior grow differently."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "With fixed surface tension, contact angle and density, equilibrium capillary rise scales inversely with tube radius.",
+    "question": "Why does water rise higher inside a thinner tube?",
+    "payoff": "With fixed surface tension, contact angle and density, equilibrium capillary rise scales inversely with tube radius.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One relationship, measured narration, no fixed duration padding.",
+    "novelty_audit": "Reviewed 175 archived channel titles and thirty-five autonomous releases. These specific relationships have no matching title; this is not a transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper, deliberate focal staging, persistent subject identity, attached explanations and a resolved changed case.",
+      "episode_variation": "Keep the reservoir and two columns together while moving into a close view; compare circular rim versus filled area, then triple one radius.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why does water rise higher inside a thinner tube?",
+        "visual_action": "Keep the reservoir and two columns together while moving into a close view; compare circular rim versus filled area, then triple one radius.",
+        "new_understanding": "With fixed surface tension, contact angle and density, equilibrium capillary rise scales inversely with tube radius.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Water can climb inside a narrow glass tube. In the thinner tube, it can settle higher.\n\nCome closer, keeping the reservoir level in view. Water meets the glass around a circular rim. Surface tension supplies an upward pull along that rim. The raised water has weight, pulling downward.\n\nDouble the radius, and the rim is twice as long. But the cross sectional area becomes four times as large. At the same height, that means four times the water weight. The wider column must settle lower to balance.\n\nFor the same liquid and contact angle, height is inversely proportional to radius. Twice the radius gives half the rise. This is an equilibrium model for narrow, clean tubes. It does not explain the whole journey of water through a tree.\n\nNow compare a tube with three times the radius. Its rise is one third as high. A small boundary can support a surprising column, because its edge and its interior grow differently."
+    }
+  ],
+  "sources": [
+    "https://openstax.org/books/college-physics-2e/pages/11-8-cohesion-and-adhesion-in-liquids-surface-tension-and-capillary-action"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

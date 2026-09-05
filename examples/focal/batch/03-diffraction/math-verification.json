@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "method": "Independent numerical and analytic model checks, not renderer assertions.",
+  "checks": [
+    {
+      "claim": "Normalized sinc-squared intensity vanishes at the first positive and negative minima.",
+      "passed": true
+    },
+    {
+      "claim": "Halving width from six to three wavelengths doubles the sine of the first dark angle.",
+      "passed": true
+    },
+    {
+      "claim": "The angular width itself is not claimed to double exactly.",
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "Far-field, uniform coherent illumination of one slit. Horizontal pattern coordinate is sine angle. Peak normalization and compressed display brightness do not conserve or compare transmitted power."
+  ]
+}

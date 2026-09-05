@@ -1,0 +1,36 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Look along",
+      "end_cue": "Its surface",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Keep the same curve, focus and axis during focal staging."
+    },
+    {
+      "id": "2",
+      "start_cue": "Follow one ray",
+      "end_cue": "For this ideal",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Inspect local normal and reflected path at both surface points."
+    },
+    {
+      "id": "3",
+      "start_cue": "Now reverse",
+      "end_cue": "The same shape",
+      "end_offset": 3,
+      "samples": 9,
+      "purpose": "Verify ray directions reverse while geometry remains fixed."
+    },
+    {
+      "id": "4",
+      "start_cue": "Move the meeting",
+      "end_cue": "The new ray",
+      "end_offset": 0.5,
+      "samples": 9,
+      "purpose": "Dense samples of the consequential motion, including intermediate states."
+    }
+  ]
+}

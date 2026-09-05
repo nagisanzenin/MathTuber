@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Narrow Opening That Lets Light Spread",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A narrow opening can make a beam of light spread wider.",
+        "Here, the bright band sits between two dark boundaries.",
+        "Come closer to the pattern on a distant screen.",
+        "The light has one wavelength, and the opening is a single straight slit.",
+        "We are looking at an ideal far field pattern.",
+        "Light from different parts of the opening combines.",
+        "In the center, those contributions reinforce one another.",
+        "At certain angles they cancel, leaving dark lines.",
+        "The first dark line obeys a simple relationship.",
+        "Slit width times the sine of that angle equals one wavelength.",
+        "Keep the wavelength fixed, and make the slit half as wide.",
+        "The sine of the first dark angle must double.",
+        "Both dark boundaries move away from the center.",
+        "The central band spreads out, even though the opening got smaller.",
+        "This display normalizes the peak, so it compares shape, not total transmitted power.",
+        "Open the slit again and watch the band become narrow.",
+        "An opening does more than admit light. It helps shape where that light can go."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "In ideal single-slit far-field diffraction the first minimum satisfies width times sine angle equals wavelength.",
+    "question": "Why does a narrower slit give a wider central diffraction band?",
+    "payoff": "In ideal single-slit far-field diffraction the first minimum satisfies width times sine angle equals wavelength.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One relationship, measured narration, no fixed duration padding.",
+    "novelty_audit": "Reviewed 175 archived channel titles and thirty-five autonomous releases. These specific relationships have no matching title; this is not a transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper, deliberate focal staging, persistent subject identity, attached explanations and a resolved changed case.",
+      "episode_variation": "Bring the pattern closer, mark its first dark boundaries and keep them linked to a changing slit width.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why does a narrower slit give a wider central diffraction band?",
+        "visual_action": "Bring the pattern closer, mark its first dark boundaries and keep them linked to a changing slit width.",
+        "new_understanding": "In ideal single-slit far-field diffraction the first minimum satisfies width times sine angle equals wavelength.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A narrow opening can make a beam of light spread wider. Here, the bright band sits between two dark boundaries.\n\nCome closer to the pattern on a distant screen. The light has one wavelength, and the opening is a single straight slit. We are looking at an ideal far field pattern.\n\nLight from different parts of the opening combines. In the center, those contributions reinforce one another. At certain angles they cancel, leaving dark lines. The first dark line obeys a simple relationship.\n\nSlit width times the sine of that angle equals one wavelength. Keep the wavelength fixed, and make the slit half as wide. The sine of the first dark angle must double. Both dark boundaries move away from the center.\n\nThe central band spreads out, even though the opening got smaller. This display normalizes the peak, so it compares shape, not total transmitted power. Open the slit again and watch the band become narrow. An opening does more than admit light. It helps shape where that light can go."
+    }
+  ],
+  "sources": [
+    "https://openstax.org/books/university-physics-volume-3/pages/4-1-single-slit-diffraction"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

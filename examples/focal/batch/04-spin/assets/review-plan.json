@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Look down",
+      "end_cue": "We will ignore",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Keep platform and weights continuous through focal staging."
+    },
+    {
+      "id": "2",
+      "start_cue": "Draw both",
+      "end_cue": "Their product",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Inspect inward motion and integrated angular phase."
+    },
+    {
+      "id": "3",
+      "start_cue": "Let the weights",
+      "end_cue": "Distance from",
+      "end_offset": 4,
+      "samples": 9,
+      "purpose": "Resolve slower rotation with outward weights."
+    }
+  ]
+}

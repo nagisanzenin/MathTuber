@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "method": "Independent numerical and analytic model checks, not renderer assertions.",
+  "checks": [
+    {
+      "claim": "Equilibrium surface-tension support divided by column area gives rise proportional to inverse radius.",
+      "passed": true
+    },
+    {
+      "claim": "Doubling radius doubles perimeter and quadruples cross-sectional area.",
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "Assumes fixed liquid properties and contact angle. Widths are exaggerated; transient filling and meniscus volume are not simulated. Not a model of whole-tree water transport."
+  ]
+}

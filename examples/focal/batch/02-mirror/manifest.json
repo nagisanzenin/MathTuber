@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "A Bowl of Light and Its Return Journey",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A curved mirror can gather parallel light into one small place.",
+        "But not every curved shape does this exactly.",
+        "Look along this parabolic cross section.",
+        "Its surface changes direction smoothly from point to point.",
+        "At each point, light reflects at equal angles to the local normal.",
+        "Follow one ray toward the bowl.",
+        "The normal is the short line perpendicular to the surface here.",
+        "The reflected ray passes through the focus.",
+        "Move the meeting point, and the local tilt changes just enough.",
+        "The new ray reaches that same focus.",
+        "For this ideal parabola, every ray parallel to its axis shares that destination.",
+        "A three dimensional parabolic reflector uses the same geometry around its axis.",
+        "Real mirrors have imperfections, and this ray model leaves diffraction aside.",
+        "Now reverse the journey.",
+        "Place the source at the focus.",
+        "After reflection, these rays leave parallel to one another.",
+        "The same shape can gather light or send it outward in an orderly beam."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Specular reflection on a parabola takes axis-parallel rays to its focus, and reversibility exchanges collection with collimation.",
+    "question": "How can the same mirror gather light and send it out parallel?",
+    "payoff": "Specular reflection on a parabola takes axis-parallel rays to its focus, and reversibility exchanges collection with collimation.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One relationship, measured narration, no fixed duration padding.",
+    "novelty_audit": "Reviewed 175 archived channel titles and thirty-five autonomous releases. These specific relationships have no matching title; this is not a transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper, deliberate focal staging, persistent subject identity, attached explanations and a resolved changed case.",
+      "episode_variation": "Bring one persistent parabolic cross section closer, show a local normal and two ray paths, then reverse the whole journey.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How can the same mirror gather light and send it out parallel?",
+        "visual_action": "Bring one persistent parabolic cross section closer, show a local normal and two ray paths, then reverse the whole journey.",
+        "new_understanding": "Specular reflection on a parabola takes axis-parallel rays to its focus, and reversibility exchanges collection with collimation.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A curved mirror can gather parallel light into one small place. But not every curved shape does this exactly.\n\nLook along this parabolic cross section. Its surface changes direction smoothly from point to point. At each point, light reflects at equal angles to the local normal.\n\nFollow one ray toward the bowl. The normal is the short line perpendicular to the surface here. The reflected ray passes through the focus. Move the meeting point, and the local tilt changes just enough. The new ray reaches that same focus.\n\nFor this ideal parabola, every ray parallel to its axis shares that destination. A three dimensional parabolic reflector uses the same geometry around its axis. Real mirrors have imperfections, and this ray model leaves diffraction aside.\n\nNow reverse the journey. Place the source at the focus. After reflection, these rays leave parallel to one another. The same shape can gather light or send it outward in an orderly beam."
+    }
+  ],
+  "sources": [
+    "https://openstax.org/books/algebra-and-trigonometry-2e/pages/12-3-the-parabola"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

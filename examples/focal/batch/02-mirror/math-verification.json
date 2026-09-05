@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "method": "Independent numerical and analytic model checks, not renderer assertions.",
+  "checks": [
+    {
+      "claim": "Reflection from each local normal reaches the focus for incoming downward axis-parallel rays.",
+      "passed": true,
+      "max_direction_error": 3.510833468576701e-16
+    },
+    {
+      "claim": "Reversing both path directions satisfies the same specular reflection law.",
+      "passed": true,
+      "max_direction_error": 4.965068306494546e-16
+    }
+  ],
+  "limitations": [
+    "Ideal parabolic cross section with geometric rays. No diffraction, surface error or off-axis focusing claim."
+  ]
+}

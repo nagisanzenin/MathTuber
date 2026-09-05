@@ -1,0 +1,36 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Come closer",
+      "end_cue": "The light has",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Check enlarged screen view and slit context."
+    },
+    {
+      "id": "2",
+      "start_cue": "At certain angles",
+      "end_cue": "Keep the wavelength",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Align dark-line markers and mathematical labels."
+    },
+    {
+      "id": "3",
+      "start_cue": "Keep the wavelength",
+      "end_cue": "An opening does",
+      "end_offset": 3,
+      "samples": 9,
+      "purpose": "Verify first minima move outward on narrowing and return on widening."
+    },
+    {
+      "id": "4",
+      "start_cue": "Keep the wavelength",
+      "end_cue": "The sine of the first dark",
+      "end_offset": 0.5,
+      "samples": 9,
+      "purpose": "Dense samples of the consequential motion, including intermediate states."
+    }
+  ]
+}

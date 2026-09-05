@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Two Circles Sharing a Mechanical Rhythm",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Two gears can turn together without turning at the same speed.",
+        "The smaller one completes its circles more often.",
+        "Come closer to their shared teeth.",
+        "These gears have the same tooth spacing.",
+        "One has sixteen teeth, and the other has thirty two.",
+        "A full turn of the small gear passes sixteen teeth through the meeting region.",
+        "That advances the large gear by only half a turn.",
+        "Another sixteen teeth complete the large circle.",
+        "The two gears turn in opposite directions.",
+        "Their angular speeds follow the inverse ratio of their tooth counts.",
+        "Twice as many teeth means half as many turns in the same time.",
+        "The drawn teeth are schematic; the ratio assumes proper engagement.",
+        "Now let the larger gear drive the smaller one.",
+        "One large turn produces two small turns.",
+        "The relationship survives this exchange of roles.",
+        "A quiet mechanical rhythm comes from counting what passes between two circles."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "For a correctly meshed pair, angular speeds are inversely proportional to tooth counts; external gears rotate in opposite directions.",
+    "question": "Why do meshing gears turn at different angular speeds?",
+    "payoff": "For a correctly meshed pair, angular speeds are inversely proportional to tooth counts; external gears rotate in opposite directions.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One relationship, measured narration, no fixed duration padding.",
+    "novelty_audit": "Reviewed 175 archived channel titles and thirty-five autonomous releases. These specific relationships have no matching title; this is not a transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper, deliberate focal staging, persistent subject identity, attached explanations and a resolved changed case.",
+      "episode_variation": "Move the same gear pair closer, count sixteen versus thirty-two teeth and show the complete rotations before swapping the driving role.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why do meshing gears turn at different angular speeds?",
+        "visual_action": "Move the same gear pair closer, count sixteen versus thirty-two teeth and show the complete rotations before swapping the driving role.",
+        "new_understanding": "For a correctly meshed pair, angular speeds are inversely proportional to tooth counts; external gears rotate in opposite directions.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Two gears can turn together without turning at the same speed. The smaller one completes its circles more often.\n\nCome closer to their shared teeth. These gears have the same tooth spacing. One has sixteen teeth, and the other has thirty two.\n\nA full turn of the small gear passes sixteen teeth through the meeting region. That advances the large gear by only half a turn. Another sixteen teeth complete the large circle. The two gears turn in opposite directions.\n\nTheir angular speeds follow the inverse ratio of their tooth counts. Twice as many teeth means half as many turns in the same time. The drawn teeth are schematic; the ratio assumes proper engagement.\n\nNow let the larger gear drive the smaller one. One large turn produces two small turns. The relationship survives this exchange of roles. A quiet mechanical rhythm comes from counting what passes between two circles."
+    }
+  ],
+  "sources": [
+    "https://khkgears.us/media/fqrlut1m/abcs-of-gearing-b.pdf"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

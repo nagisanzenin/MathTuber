@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "method": "Independent numerical and analytic model checks, not renderer assertions.",
+  "checks": [
+    {
+      "claim": "All radius states preserve fixed-axis angular momentum.",
+      "passed": true
+    },
+    {
+      "claim": "The point-weight contribution quarters at half radius; nonzero platform inertia prevents a fourfold total speed increase.",
+      "passed": true
+    },
+    {
+      "claim": "Analytic angular phase agrees with independent numerical integration.",
+      "passed": true,
+      "error": 1.196852394969028e-09
+    },
+    {
+      "claim": "Final rotational kinetic energy increases when weights move inward.",
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "No external torque or friction. Radial actuation supplies work. This is a constrained ideal platform with point weights, not a human skater or passive inward drift."
+  ]
+}

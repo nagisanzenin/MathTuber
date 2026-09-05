@@ -1,0 +1,36 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Come closer",
+      "end_cue": "These gears have",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Inspect unchanged gear pairing and focal geometry."
+    },
+    {
+      "id": "2",
+      "start_cue": "A full turn",
+      "end_cue": "The two gears",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Resolve one then two small rotations against half then one large rotation."
+    },
+    {
+      "id": "3",
+      "start_cue": "One large turn",
+      "end_cue": "A quiet mechanical",
+      "end_offset": 4,
+      "samples": 9,
+      "purpose": "Verify large driving turn gives two small turns and continuing shared motion."
+    },
+    {
+      "id": "4",
+      "start_cue": "A full turn",
+      "end_cue": "That advances",
+      "end_offset": 0.5,
+      "samples": 9,
+      "purpose": "Dense samples of the consequential motion, including intermediate states."
+    }
+  ]
+}

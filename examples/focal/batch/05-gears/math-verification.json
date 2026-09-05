@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "method": "Independent numerical and analytic model checks, not renderer assertions.",
+  "checks": [
+    {
+      "claim": "Sixteen-tooth to thirty-two-tooth external gears have opposite angular speed with ratio minus one half.",
+      "passed": true
+    },
+    {
+      "claim": "One full large rotation corresponds to two full small rotations.",
+      "passed": true
+    },
+    {
+      "claim": "Pitch radii .9 and 1.8 use the same module.",
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "Tooth outlines are schematic, with no undercut/fillet or contact-stress simulation. Exact rotation ratio is conditional on proper gear engagement."
+  ]
+}
