@@ -95,3 +95,5 @@ Latest release: [five everyday-object Shorts and reflection](docs/objects-batch.
 Latest release: [five meaningful-ending Shorts and reflection](docs/endings-batch.md), with [editable sources](examples/endings).
 
 Latest release: [five focal-staging Shorts and reflection](docs/focal-batch.md), with [editable sources](examples/focal).
+
+Latest release: [five material-presence Shorts and reflection](docs/material-batch.md), with [editable sources](examples/material).

@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-06",
+  "cycle": 9,
+  "videos": [
+    {
+      "project": "01-pendulum",
+      "title": "A Quiet Clock Hidden in a Length #math #Shorts",
+      "url": "https://www.youtube.com/shorts/87HeataDcK0",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M2S",
+      "export_sha256": "e751da779613929f202df6b61174c441e48f597ca5db271ef8f4db45e8a36e2d",
+      "editorial": {
+        "decision": "release",
+        "opening": "A painted bob is already moving at the start, with a stable light cue.",
+        "mechanism": "Two comparisons preserve the small-angle square-root period ratios and the same effective gravity; labels distinguish length and cycles.",
+        "readability": "The length labels were separated from the period formula after preview overlap. The smallest final bob is still quite small.",
+        "pacing": "Motion continues during most narration, with an explicit stopped release for the first pair. The final pair keeps oscillating.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed; differences were number formatting, a split compound word and one omitted conjunction with unchanged mathematical meaning. No subjective listening.",
+        "remaining_weaknesses": "The period law is explained and demonstrated rather than derived from torque. Small bobs limit the perceived material detail; this remains a clean diagram, with no measured viewer response.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "02-rolling",
+      "title": "The Different Lives Inside Two Circles #math #Shorts",
+      "url": "https://www.youtube.com/shorts/xihfIIeWXoE",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M4S",
+      "export_sha256": "8597d7bab9faa3b9dd7b426fe4e2ed3adc1e1c523d0672b925d2d27220e2d624",
+      "editorial": {
+        "decision": "release",
+        "opening": "Two circular objects begin rolling on equal offset ramps; the objects were enlarged after the first preview.",
+        "mechanism": "The cylinder uses a flat face and restrained rim rather than spherical shading. Clockwise markers track distance divided by radius; moving the final release backward preserves the finish location.",
+        "readability": "The hoop label was moved away from the upper ramp. Separate ramp levels require viewers to compare descent rather than absolute height.",
+        "pacing": "The second release and greater descent visibly compare acceleration. Motion freezes at each comparison endpoint; these stops are not simulated collisions.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed; differences were number formatting, a split compound word and one omitted conjunction with unchanged mathematical meaning. No subjective listening.",
+        "remaining_weaknesses": "There is no energy partition diagram, and the material treatment is deliberately reduced to avoid misidentifying a cylinder as a sphere. The endpoint freeze is editorial, not physical braking.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "03-thermal",
+      "title": "The Empty Space That Grows with a Ring #math #Shorts",
+      "url": "https://www.youtube.com/shorts/5hcZywPMCc4",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M5S",
+      "export_sha256": "809acc9755921879ddd3afb618e9d21841cf0ee2336de7ce83e1175124c3941c",
+      "editorial": {
+        "decision": "release",
+        "opening": "A ring expands immediately, with both boundaries scaling together.",
+        "mechanism": "An imaginary matching disk expands with the surrounding material; an unchanged cooler ball later reveals increased clearance.",
+        "readability": "Large shapes remain distinct. The visual exaggeration and uniform free expansion are stated; formula notation still assumes familiarity with symbols.",
+        "pacing": "Two short expansions and the final ball comparison resolve the relationship. Much of the explanatory middle holds a static ring.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed; differences were number formatting, a split compound word and one omitted conjunction with unchanged mathematical meaning. No subjective listening.",
+        "remaining_weaknesses": "No actual temperature field or heat flow is simulated. The 18-percent visual enlargement is not a quantitative prediction from the small-change formula. The ring itself remains a stylized face.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "04-bounce",
+      "title": "The Square Hidden in a Returning Ball #math #Shorts",
+      "url": "https://www.youtube.com/shorts/bzcIvYdrxlk",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M4S",
+      "export_sha256": "39b622f64fd4d4acddee1d9803fa3e0f60a0e945de4a48dede687d0422df8636",
+      "editorial": {
+        "decision": "release",
+        "opening": "An enlarged painted ball drops and rebounds above one floor.",
+        "mechanism": "The rebound trajectory uses constant gravitational acceleration and selected restitution. Height markers were corrected to track the ball bottom consistently above the floor.",
+        "readability": "Quarter and nine-sixteenth levels are distinct; the bottom of the ball reaches the relevant level at its apex.",
+        "pacing": "Each comparison shows one rebound, followed by a held endpoint. The model does not continue secondary bounces.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed; differences were number formatting, a split compound word and one omitted conjunction with unchanged mathematical meaning. No subjective listening.",
+        "remaining_weaknesses": "Dry narration offers no impact sound; subjective listening was unavailable. The brief rebound is followed by lengthy explanation, and there is no diagram of energy changing form.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "05-springs",
+      "title": "The Quiet Difference Made by a Connection #math #Shorts",
+      "url": "https://www.youtube.com/shorts/dUXbPq68l3Q",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M",
+      "export_sha256": "491b11b4630205c72af8586becbc186184cc5a9eaa033168f3eab7f20732600e",
+      "editorial": {
+        "decision": "release",
+        "opening": "Two spring arrangements respond differently to the same controlled pull.",
+        "mechanism": "Series extensions add while parallel springs share the force. The unchanged unloaded endpoint gives the extension markers a common reference; doubling the pull preserves four to one.",
+        "readability": "The springs, pulls, extension markers and formulas remain separate. The tangible handles are small compared with the arrangement.",
+        "pacing": "Transitions interpolate settled configurations, explicitly identified as such. The final doubled load is held for comparison.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed; differences were number formatting, a split compound word and one omitted conjunction with unchanged mathematical meaning. No subjective listening.",
+        "remaining_weaknesses": "This is a static compliance explanation rather than a dynamic spring simulation. There is no tangible actuator or textured environment; material character is modest.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    }
+  ]
+}
