@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "id": "ivisualizethings-workshop",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "status": "candidate",
-  "promise": "See the mechanism that makes a surprising mathematical result inevitable.",
-  "audience": "Curious teens and adults; begin with concrete objects and state necessary prerequisites.",
-  "personality": "Playful mathematical workshop: curious, tactile, precise; viewer is an investigator.",
+  "promise": "Discover beauty and useful insight through a gentle, precise mathematical way of seeing.",
+  "audience": "Curious people, including viewers who feel intimidated by mathematics. Introduce prerequisites gently through concrete experiences.",
+  "personality": "An artistic, contemplative companion: warm, patient, elegant, curious; invite exploration without performance pressure.",
   "identity": {
     "colors": {
       "background": "#F3ECDD",
@@ -26,9 +26,9 @@
       }
     },
     "materials": "Warm paper, solid ceramic-like pieces, restrained depth, crisp boundaries. Geometry used as proof stays exact.",
-    "motion": "Stable identities. Move, pair, cut, unfold and rearrange to expose relationships. Attention cues are distinct from mathematical state changes.",
-    "voice": "Warm curiosity; concrete statements; pause at consequential inferences. No constant hype.",
-    "sound": "Soft wood clicks and glass-like resonances; optional short resolving motif. Silence protects difficult reasoning; score changes with the episode."
+    "motion": "Deliberate, continuous, legible transformations with quiet settling moments. Preserve mathematical identity and exact geometry. Avoid restless movement or cuts unrelated to an inference.",
+    "voice": "Gentle and conversational. Invite noticing and wondering. Allow uncertainty. Avoid urgency, intelligence tests, shaming, exaggerated surprise, and claims that a difficult idea is obvious.",
+    "sound": "Silence is a valid default. Optional sparse soft material sounds or unobtrusive ambience, evaluated by actual listening when available. No compulsory chimes, ticking countdowns, loud reveals, or unsupported therapeutic claims."
   },
   "hard_constraints": [
     "Preserve counts, areas, incidence and probabilities used in the argument.",
@@ -48,10 +48,15 @@
     "Fade replacement phrases; do not morph unrelated letter shapes.",
     "Declare and sample every critical transition through its end.",
     "Use topic-specific settings within the shared material and color language.",
-    "Open with a consequential action and a prediction the viewer can actually make.",
+    "Open with something worth noticing. Offer an optional, answerable prediction without time pressure.",
     "Give the hardest inference the largest useful workspace; retain a small orientation cue when zooming.",
     "Author caption phrases as sense units; preserve exact spoken content and timing.",
-    "Use sparse action-linked sounds as a testable design choice, not an assumed learning benefit."
+    "Use sparse action-linked sounds as a testable design choice, not an assumed learning benefit.",
+    "Seek connections among mathematics, science, nature, art, and everyday decisions when the connection is substantive.",
+    "Let beauty arise from an intelligible relationship, not decorative motion over an unexplained formula.",
+    "Offer space to notice, conjecture, and understand; pacing may be calm without becoming static or repetitive.",
+    "End with a small new way to see the world or an invitation to explore, rather than a demand for engagement.",
+    "Review emotional tone alongside correctness and legibility. Do not claim reduced anxiety or viewer delight without viewer evidence."
   ],
   "formats": {
     "visual-proof": "A concrete puzzle resolves through an invariant or transformation.",
