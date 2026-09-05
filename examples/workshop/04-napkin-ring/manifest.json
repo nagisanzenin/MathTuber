@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Different-Sized Balls. Exactly the Same Leftover Volume.",
+    "min_seconds": 90,
+    "max_seconds": 179.5
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.96
+  },
+  "captions": {
+    "burn_in": true
+  },
+  "creative": {
+    "audience": "Curious teens and adults; concrete visual reasoning before specialist terminology.",
+    "learning_goal": "Equal slice areas prove equal volumes for rings of equal height.",
+    "question": "Which ring holds more?",
+    "payoff": "Cavalieri comparison gives the full volume.",
+    "transfer_prompt": "Why does that settle volume?",
+    "duration_rationale": "Four causal sequences with a prediction, mechanism, explanation and changed case; measured narration determines duration.",
+    "novelty_audit": "Reviewed 160 channel upload titles on 2026-09-05. This specific topic was not present; related general principles may have appeared.",
+    "profile_application": {
+      "format": "visual-proof",
+      "signature": "Warm workshop objects with stable identities, restrained depth, concrete manipulation and a visible explanatory payoff.",
+      "episode_variation": "Compare two curved bands with identical height and different radii. Compare annular slices and cancel the R and a terms.",
+      "exceptions": [
+        "Exact geometric outlines take precedence over rounded tile styling."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Which ring holds more?",
+        "visual_action": "Compare two curved bands with identical height and different radii.",
+        "new_understanding": "Equal height gives equal volume.",
+        "sound_intent": "Original tactile events tied to scene actions; sparse opening and resolution tones, silence during algebra."
+      },
+      {
+        "scene": "s02",
+        "viewer_question": "What does fixed height constrain?",
+        "visual_action": "Show a labeled meridian right triangle.",
+        "new_understanding": "R\u00b2-a\u00b2=b\u00b2.",
+        "sound_intent": "Original tactile events tied to scene actions; sparse opening and resolution tones, silence during algebra."
+      },
+      {
+        "scene": "s03",
+        "viewer_question": "What does one slice contain?",
+        "visual_action": "Compare annular slices and cancel the R and a terms.",
+        "new_understanding": "Slice area depends only on b and z.",
+        "sound_intent": "Original tactile events tied to scene actions; sparse opening and resolution tones, silence during algebra."
+      },
+      {
+        "scene": "s04",
+        "viewer_question": "Why does that settle volume?",
+        "visual_action": "Sweep slices through rings and a matching sphere.",
+        "new_understanding": "Cavalieri comparison gives the full volume.",
+        "sound_intent": "Original tactile events tied to scene actions; sparse opening and resolution tones, silence during algebra."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Shot1",
+      "narration": "Drill a straight hole through the center of each of these two solid balls. One ball is much bigger. Keep drilling until the remaining bands have exactly the same height. Which one contains more material? The wide one looks like the obvious answer. But their volumes are exactly equal. The size of the original ball no longer matters. There is a beautiful way to see why: stop thinking about whole solids, and compare one thin horizontal slice at a time."
+    },
+    {
+      "id": "s02",
+      "source": "scenes/s02.py",
+      "class_name": "Shot2",
+      "narration": "Look at a cross section through the middle. The original ball has radius R. The drilled hole has radius a. Half the remaining height is b. At the top of the band, those lengths form a right triangle. So R squared minus a squared equals b squared. Fixing the height therefore fixes this difference. A bigger ball needs a wider hole. The dimensions change together, and that relationship is what our first impression missed."
+    },
+    {
+      "id": "s03",
+      "source": "scenes/s03.py",
+      "class_name": "Shot3",
+      "narration": "Take a horizontal slice at height zed above the center. Before drilling, its outer radius squared is R squared minus zed squared. Remove the hole, whose radius squared is a squared. The remaining ring-shaped slice has area pi times R squared minus zed squared minus a squared. Replace R squared minus a squared with b squared. The area becomes pi times b squared minus zed squared. The original ball's radius has vanished from the answer."
+    },
+    {
+      "id": "s04",
+      "source": "scenes/s04.py",
+      "class_name": "Shot4",
+      "narration": "That formula describes every slice, from the bottom of the band to the top. Equal height means equal b, so corresponding slices have equal areas. Stack them, and the volumes must match. In fact, these are also the slice areas of a solid sphere of radius b. So the drilled band has the same volume as a sphere whose diameter equals its height. A wider ring has thinner walls in exactly the right way. Different shapes can hide the same amount of space."
+    }
+  ],
+  "sources": [
+    "https://pi.math.cornell.edu/~dmehrle/teaching/18su/1910/handouts/18su-1910-handout09-solutions.pdf"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.1.0",
+    "path": "assets/profile-3c23e30ec4b06dc1.json",
+    "sha256": "25a8f7ae69b8b4aaf67ca9d4c686a23e34822c8a961743c3c1a60dd4889eb5c4"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original MathTuber workshop synthesis; CC0"
+  }
+}

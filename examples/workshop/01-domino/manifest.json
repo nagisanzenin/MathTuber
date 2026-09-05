@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Chessboard That Defeats Every Domino Arrangement",
+    "min_seconds": 90,
+    "max_seconds": 179.5
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.96
+  },
+  "captions": {
+    "burn_in": true
+  },
+  "creative": {
+    "audience": "Curious teens and adults; concrete visual reasoning before specialist terminology.",
+    "learning_goal": "A color invariant rules out every possible tiling.",
+    "question": "Why does matching area fail?",
+    "payoff": "The invariant rules out cases; an explicit construction proves this case.",
+    "transfer_prompt": "What if we change the cuts?",
+    "duration_rationale": "Four causal sequences with a prediction, mechanism, explanation and changed case; measured narration determines duration.",
+    "novelty_audit": "Reviewed 160 channel upload titles on 2026-09-05. This specific topic was not present; related general principles may have appeared.",
+    "profile_application": {
+      "format": "visual-proof",
+      "signature": "Warm workshop objects with stable identities, restrained depth, concrete manipulation and a visible explanatory payoff.",
+      "episode_variation": "Remove opposite corners from a large board; pose a concrete tiling challenge. Rearrange remaining board squares into two counted columns of paired tokens.",
+      "exceptions": [
+        "Exact geometric outlines take precedence over rounded tile styling."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why does matching area fail?",
+        "visual_action": "Remove opposite corners from a large board; pose a concrete tiling challenge.",
+        "new_understanding": "Area alone is insufficient.",
+        "sound_intent": "Original tactile events tied to scene actions; sparse opening and resolution tones, silence during algebra."
+      },
+      {
+        "scene": "s02",
+        "viewer_question": "What does every domino do?",
+        "visual_action": "Rotate a domino over a labeled two-color patch.",
+        "new_understanding": "Every domino pairs opposite colors.",
+        "sound_intent": "Original tactile events tied to scene actions; sparse opening and resolution tones, silence during algebra."
+      },
+      {
+        "scene": "s03",
+        "viewer_question": "What survived the cuts?",
+        "visual_action": "Rearrange remaining board squares into two counted columns of paired tokens.",
+        "new_understanding": "Thirty dark and thirty two light cannot be paired.",
+        "sound_intent": "Original tactile events tied to scene actions; sparse opening and resolution tones, silence during algebra."
+      },
+      {
+        "scene": "s04",
+        "viewer_question": "What if we change the cuts?",
+        "visual_action": "Tile the top row and remaining rows after removing top corners.",
+        "new_understanding": "The invariant rules out cases; an explicit construction proves this case.",
+        "sound_intent": "Original tactile events tied to scene actions; sparse opening and resolution tones, silence during algebra."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Shot1",
+      "narration": "Sixty two squares. Thirty one dominoes. The area is perfect. So why can this board never be covered? Start with an ordinary chessboard, then remove two opposite corners. Every domino must cover two neighboring squares. No overlaps, no gaps, and no cutting the pieces. You could spend all night rearranging them. But there is a way to reject every arrangement at once. Look at what a single domino is forced to do."
+    },
+    {
+      "id": "s02",
+      "source": "scenes/s02.py",
+      "class_name": "Shot2",
+      "narration": "Forget the whole board for a moment. Put one domino down horizontally. It covers one dark square and one light square. Turn it vertically. Still one of each. Every legal placement has this property, because neighboring squares have opposite colors. So a pile of thirty one dominoes must cover exactly thirty one dark squares and thirty one light squares. The pieces cannot negotiate that balance, no matter how cleverly we arrange them."
+    },
+    {
+      "id": "s03",
+      "source": "scenes/s03.py",
+      "class_name": "Shot3",
+      "narration": "Now return to the two missing corners. On this eight by eight board, opposite corners have the same color. We removed two dark squares. That leaves thirty dark squares, but thirty two light squares. Pair each remaining dark square with a light one, and two light squares have no partner. This is not a failure to find a clever arrangement. It is a proof that every arrangement fails. The area matches. The color balance does not."
+    },
+    {
+      "id": "s04",
+      "source": "scenes/s04.py",
+      "class_name": "Shot4",
+      "narration": "Change the puzzle: remove two neighboring corners along the top edge instead. Now one dark and one light square disappear. Can we tile this board? Yes. The six squares left in the top row pair off, and every complete row below pairs off too. Equal color counts alone do not guarantee that every imaginable shape can be tiled. But unequal counts immediately prove that it cannot. Before searching harder, look for something every legal move must preserve."
+    }
+  ],
+  "sources": [
+    "https://wild.maths.org/chessboard-tiling"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.1.0",
+    "path": "assets/profile-3c23e30ec4b06dc1.json",
+    "sha256": "25a8f7ae69b8b4aaf67ca9d4c686a23e34822c8a961743c3c1a60dd4889eb5c4"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original MathTuber workshop synthesis; CC0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "method": "Exact enumeration and independent algebra; narrative scope reviewed separately.",
+  "checks": {
+    "color_counts_30_32": true,
+    "explicit_top_cut_tiling": true
+  },
+  "proof": "Every orthogonal neighboring pair has opposite parity. Removing same-color corners makes equal pairing impossible. Equal counts are necessary, not sufficient for arbitrary regions. The narrated positive example is certified by explicit domino placements."
+}

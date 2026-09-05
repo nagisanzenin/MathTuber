@@ -1,0 +1,91 @@
+{
+  "license": "Original synthesis; CC0",
+  "profile": "Workshop timbre family; episode-specific register, brief motifs and tactile events. No continuous bed.",
+  "subjective_listening": "Not performed by text/image host",
+  "events": [
+    {
+      "time": 0.15,
+      "frequency": 440,
+      "duration": 0.6,
+      "type": "glass resonance"
+    },
+    {
+      "time": 0.43,
+      "frequency": 660.0,
+      "duration": 0.6,
+      "type": "glass resonance"
+    },
+    {
+      "time": 0.71,
+      "frequency": 880,
+      "duration": 0.6,
+      "type": "glass resonance"
+    },
+    {
+      "time": 6.463,
+      "frequency": 880.0,
+      "duration": 0.12,
+      "type": "wood tap"
+    },
+    {
+      "time": 9.825,
+      "frequency": 1100.0,
+      "duration": 0.12,
+      "type": "wood tap"
+    },
+    {
+      "time": 27.995,
+      "frequency": 880.0,
+      "duration": 0.12,
+      "type": "wood tap"
+    },
+    {
+      "time": 32.77,
+      "frequency": 1100.0,
+      "duration": 0.12,
+      "type": "wood tap"
+    },
+    {
+      "time": 58.4,
+      "frequency": 880.0,
+      "duration": 0.12,
+      "type": "wood tap"
+    },
+    {
+      "time": 60.913,
+      "frequency": 1100.0,
+      "duration": 0.12,
+      "type": "wood tap"
+    },
+    {
+      "time": 89.037,
+      "frequency": 880.0,
+      "duration": 0.12,
+      "type": "wood tap"
+    },
+    {
+      "time": 93.437,
+      "frequency": 1100.0,
+      "duration": 0.12,
+      "type": "wood tap"
+    },
+    {
+      "time": 114.7,
+      "frequency": 660.0,
+      "duration": 0.8,
+      "type": "glass resonance"
+    },
+    {
+      "time": 114.92,
+      "frequency": 880,
+      "duration": 0.8,
+      "type": "glass resonance"
+    },
+    {
+      "time": 115.14,
+      "frequency": 1100.0,
+      "duration": 0.8,
+      "type": "glass resonance"
+    }
+  ]
+}

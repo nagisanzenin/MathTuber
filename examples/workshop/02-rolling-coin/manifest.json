@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "One Lap. Two Spins. The Rolling Coin Trick",
+    "min_seconds": 90,
+    "max_seconds": 179.5
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.96
+  },
+  "captions": {
+    "burn_in": true
+  },
+  "creative": {
+    "audience": "Curious teens and adults; concrete visual reasoning before specialist terminology.",
+    "learning_goal": "Distinguish the center path from the contact circumference.",
+    "question": "One turn or two?",
+    "payoff": "Outside turns are R/r + 1.",
+    "transfer_prompt": "What if the radii differ?",
+    "duration_rationale": "Four causal sequences with a prediction, mechanism, explanation and changed case; measured narration determines duration.",
+    "novelty_audit": "Reviewed 160 channel upload titles on 2026-09-05. This specific topic was not present; related general principles may have appeared.",
+    "profile_application": {
+      "format": "visual-proof",
+      "signature": "Warm workshop objects with stable identities, restrained depth, concrete manipulation and a visible explanatory payoff.",
+      "episode_variation": "Track an asymmetric arrow through a full no-slip orbit. Show opposing velocity arrows canceling at the contact point.",
+      "exceptions": [
+        "Exact geometric outlines take precedence over rounded tile styling."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "One turn or two?",
+        "visual_action": "Track an asymmetric arrow through a full no-slip orbit.",
+        "new_understanding": "Two rotations occur during one orbit.",
+        "sound_intent": "Original tactile events tied to scene actions; sparse opening and resolution tones, silence during algebra."
+      },
+      {
+        "scene": "s02",
+        "viewer_question": "Which distance matters?",
+        "visual_action": "Contrast straight rolling with the expanded circular center path.",
+        "new_understanding": "The center path has radius R plus r.",
+        "sound_intent": "Original tactile events tied to scene actions; sparse opening and resolution tones, silence during algebra."
+      },
+      {
+        "scene": "s03",
+        "viewer_question": "Why does this relation work?",
+        "visual_action": "Show opposing velocity arrows canceling at the contact point.",
+        "new_understanding": "No slip links center speed and spin.",
+        "sound_intent": "Original tactile events tied to scene actions; sparse opening and resolution tones, silence during algebra."
+      },
+      {
+        "scene": "s04",
+        "viewer_question": "What if the radii differ?",
+        "visual_action": "Run a three-to-one radius example with four visible rotations.",
+        "new_understanding": "Outside turns are R/r + 1.",
+        "sound_intent": "Original tactile events tied to scene actions; sparse opening and resolution tones, silence during algebra."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Shot1",
+      "narration": "Keep this coin still. Roll an identical coin around it, without slipping. How many times does the moving coin turn during one full lap? One sounds reasonable: the coins have equal circumferences. Watch the arrow instead. Halfway around, it is already pointing up again. That was one full turn. Finish the lap, and it has turned twice. The surprise comes from measuring the wrong path. We followed the edge, but forgot the moving center."
+    },
+    {
+      "id": "s02",
+      "source": "scenes/s02.py",
+      "class_name": "Shot2",
+      "narration": "First, roll a wheel along a straight line. One complete turn moves its center forward by one wheel circumference. Now bend the road into a circle. The center of the moving coin does not travel along the fixed coin's edge. It stays one extra radius away. For equal coins, the center traces a circle with twice the radius. Its journey is twice as long as the circumference of either coin. That is where the second turn hides."
+    },
+    {
+      "id": "s03",
+      "source": "scenes/s03.py",
+      "class_name": "Shot3",
+      "narration": "Why is the center's travel the right thing to measure? At each instant, the contact point does not slip. The center moves forward, while spinning moves the touching point backward relative to the center. Those motions cancel at contact. So the center's speed equals the spin rate times the rolling radius. Add that relation around the whole journey: distance traveled by the center, divided by the rolling circumference, gives the number of turns. Here, that ratio is two."
+    },
+    {
+      "id": "s04",
+      "source": "scenes/s04.py",
+      "class_name": "Shot4",
+      "narration": "Try a larger obstacle. Make the fixed coin's radius three times the rolling coin's radius. The moving center now follows a circle of radius four, measured in small-coin radii. So the little coin turns four times, not three. In general, take the fixed radius divided by the moving radius, then add one. This counts turns relative to the stationary screen, for rolling around the outside without slipping. The path of a point and the path of a center are different stories."
+    }
+  ],
+  "sources": [
+    "https://plus.maths.org/puzzle-page-34"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.1.0",
+    "path": "assets/profile-3c23e30ec4b06dc1.json",
+    "sha256": "25a8f7ae69b8b4aaf67ca9d4c686a23e34822c8a961743c3c1a60dd4889eb5c4"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original MathTuber workshop synthesis; CC0"
+  }
+}

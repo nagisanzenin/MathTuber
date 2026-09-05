@@ -1,0 +1,30 @@
+{
+  "s01": {
+    "either they know": 2.875,
+    "three people must all know": 9.562,
+    "three must all be strangers": 11.7,
+    "solid teal line": 17.762,
+    "triangle with three matching": 24.012
+  },
+  "s02": {
+    "five connections": 1.9,
+    "At least three": 3.325,
+    "forget everyone else": 10.55,
+    "If B and C know": 14.725,
+    "triangle of acquaintances": 17.212
+  },
+  "s03": {
+    "none of those three pairs": 0.525,
+    "three mutual strangers": 4.45,
+    "swap the roles": 12.312,
+    "Every possible room": 16.363
+  },
+  "s04": {
+    "neighboring pairs": 3.85,
+    "all diagonal pairs": 5.412,
+    "solid edges form": 7.812,
+    "dashed diagonals form": 11.613,
+    "Crossings are not extra people": 16.988,
+    "while six cannot": 20.7
+  }
+}

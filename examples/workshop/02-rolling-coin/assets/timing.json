@@ -1,0 +1,29 @@
+{
+  "s01": {
+    "Watch the arrow": 11.887,
+    "one full turn": 16.712,
+    "Finish the lap": 17.938,
+    "turned twice": 19.15,
+    "moving center": 25.0
+  },
+  "s02": {
+    "One complete turn": 3.0,
+    "bend the road": 7.287,
+    "one extra radius away": 13.637,
+    "twice as long": 21.012
+  },
+  "s03": {
+    "The center moves forward": 6.0,
+    "spinning moves the touching point backward": 7.412,
+    "Those motions cancel": 10.988,
+    "speed equals the spin rate": 13.95,
+    "gives the number of turns": 23.825
+  },
+  "s04": {
+    "radius three times": 3.05,
+    "circle of radius four": 7.487,
+    "turns four times": 11.975,
+    "then add one": 17.85,
+    "stationary screen": 20.825
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "method": "Exact enumeration and independent algebra; narrative scope reviewed separately.",
+  "checks": {
+    "slice_identity_R1.5": true,
+    "slice_identity_R1.55": true,
+    "slice_identity_R2.3": true,
+    "slice_identity_R2.6": true,
+    "slice_identity_R2.7": true
+  },
+  "proof": "For radius R and bore a, b\u00b2=R\u00b2-a\u00b2 and h=2b. Slice at z has area \u03c0(R\u00b2-z\u00b2-a\u00b2)=\u03c0(b\u00b2-z\u00b2), equal to a radius-b sphere slice. Cavalieri gives equal volumes, 4\u03c0b\u00b3/3=\u03c0h\u00b3/6. Annular visuals are axonometric illustrations, not photographs."
+}

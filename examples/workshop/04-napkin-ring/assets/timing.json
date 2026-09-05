@@ -1,0 +1,29 @@
+{
+  "s01": {
+    "exactly the same height": 7.838,
+    "volumes are exactly equal": 14.375,
+    "one thin horizontal slice": 24.238
+  },
+  "s02": {
+    "radius R": 3.538,
+    "radius a": 5.213,
+    "height is b": 6.75,
+    "right triangle": 10.188,
+    "R squared minus": 11.863,
+    "bigger ball needs": 17.812
+  },
+  "s03": {
+    "outer radius squared": 4.787,
+    "Remove the hole": 8.162,
+    "area pi times": 13.225,
+    "Replace R squared": 17.387,
+    "radius has vanished": 25.2
+  },
+  "s04": {
+    "from the bottom": 2.55,
+    "volumes must match": 10.55,
+    "solid sphere of radius b": 14.6,
+    "diameter equals its height": 19.425,
+    "Different shapes": 24.938
+  }
+}

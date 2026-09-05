@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Find This Area Without Measuring a Single Side",
+    "min_seconds": 90,
+    "max_seconds": 179.5
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.96
+  },
+  "captions": {
+    "burn_in": true
+  },
+  "creative": {
+    "audience": "Curious teens and adults; concrete visual reasoning before specialist terminology.",
+    "learning_goal": "Use Pick\u2019s theorem correctly and see why boundary points need different weights.",
+    "question": "Can dots measure area?",
+    "payoff": "A new polygon has area thirteen; conditions are explicit.",
+    "transfer_prompt": "Does it survive a changed shape?",
+    "duration_rationale": "Four causal sequences with a prediction, mechanism, explanation and changed case; measured narration determines duration.",
+    "novelty_audit": "Reviewed 160 channel upload titles on 2026-09-05. This specific topic was not present; related general principles may have appeared.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm workshop objects with stable identities, restrained depth, concrete manipulation and a visible explanatory payoff.",
+      "episode_variation": "Count interior and boundary dots on an irregular lattice polygon. Separate and reglue triangles while tracking shared-edge points.",
+      "exceptions": [
+        "Exact geometric outlines take precedence over rounded tile styling."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Can dots measure area?",
+        "visual_action": "Count interior and boundary dots on an irregular lattice polygon.",
+        "new_understanding": "I + B/2 - 1 computes eleven.",
+        "sound_intent": "Original tactile events tied to scene actions; sparse opening and resolution tones, silence during algebra."
+      },
+      {
+        "scene": "s02",
+        "viewer_question": "Why those weights?",
+        "visual_action": "Build a 4 by 3 rectangle and count its interior and boundary.",
+        "new_understanding": "The formula agrees with rectangular area.",
+        "sound_intent": "Original tactile events tied to scene actions; sparse opening and resolution tones, silence during algebra."
+      },
+      {
+        "scene": "s03",
+        "viewer_question": "How can this extend?",
+        "visual_action": "Separate and reglue triangles while tracking shared-edge points.",
+        "new_understanding": "The counting expression is additive under gluing; proof scope stated.",
+        "sound_intent": "Original tactile events tied to scene actions; sparse opening and resolution tones, silence during algebra."
+      },
+      {
+        "scene": "s04",
+        "viewer_question": "Does it survive a changed shape?",
+        "visual_action": "Move one lattice vertex and recategorize dots.",
+        "new_understanding": "A new polygon has area thirteen; conditions are explicit.",
+        "sound_intent": "Original tactile events tied to scene actions; sparse opening and resolution tones, silence during algebra."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Shot1",
+      "narration": "Could you find this shape's area without measuring any side? Its corners sit on a square grid with unit spacing. Count the dots strictly inside: six. Now count the dots on the boundary: twelve. Include points along an edge, not just the corners. Those two counts are enough. Six, plus half of twelve, minus one. The area is eleven square units. This is Pick's theorem. Let us see why the recipe is more than a lucky guess."
+    },
+    {
+      "id": "s02",
+      "source": "scenes/s02.py",
+      "class_name": "Shot2",
+      "narration": "Try a rectangle first: four units across and three units high. Its area is twelve. Inside, there are three columns of two dots: six interior points. On the boundary, there are fourteen distinct dots. Corners count once. Six plus seven minus one gives twelve. For a rectangle of any whole-number width and height, the same counting works. Interior points contribute the missing inner rectangle; half the boundary restores the edge strips; subtracting one fixes the corner count."
+    },
+    {
+      "id": "s03",
+      "source": "scenes/s03.py",
+      "class_name": "Shot3",
+      "narration": "Here is the useful structural idea. Split a square along a diagonal. When the two triangles meet, their shared edge disappears from the outside boundary. The endpoints stay on the outer boundary, but points strictly between them become interior points. Pick's counting rule compensates for exactly that change, so its values add just like areas. This is a glimpse of the proof, not the whole proof. Completing it extends the formula from rectangles to triangles, then to ordinary lattice polygons."
+    },
+    {
+      "id": "s04",
+      "source": "scenes/s04.py",
+      "class_name": "Shot4",
+      "narration": "Now move this corner one grid step outward. The shape changes, but you can still count. There are eight interior points and twelve boundary points. Eight plus six minus one gives thirteen square units. Two extra units appeared without measuring a sloping edge. The conditions matter: a simple polygon, grid-point vertices, and no holes. Curved edges or a corner between grid points break this recipe. Sometimes the easiest way to measure a region is to count what sits inside and around it."
+    }
+  ],
+  "sources": [
+    "https://nrich.maths.org/problems/proof-picks-theorem"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.1.0",
+    "path": "assets/profile-3c23e30ec4b06dc1.json",
+    "sha256": "25a8f7ae69b8b4aaf67ca9d4c686a23e34822c8a961743c3c1a60dd4889eb5c4"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original MathTuber workshop synthesis; CC0"
+  }
+}

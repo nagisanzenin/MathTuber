@@ -1,0 +1,32 @@
+{
+  "s01": {
+    "Count the dots strictly inside": 6.463,
+    "dots on the boundary": 9.825,
+    "not just the corners": 13.3,
+    "Six plus half": 16.312,
+    "Pick": 21.613
+  },
+  "s02": {
+    "four units across": 1.762,
+    "three columns of two": 6.537,
+    "fourteen distinct dots": 10.675,
+    "Six plus seven": 14.037,
+    "any whole number width": 17.7
+  },
+  "s03": {
+    "Split a square": 2.7,
+    "two triangles meet": 5.213,
+    "shared edge disappears": 6.75,
+    "endpoints stay": 9.988,
+    "points strictly between": 12.287,
+    "values add just like areas": 19.35,
+    "not the whole proof": 23.1
+  },
+  "s04": {
+    "one grid step outward": 1.337,
+    "eight interior points": 5.737,
+    "twelve boundary points": 6.975,
+    "Eight plus six": 8.613,
+    "conditions matter": 15.2
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "license": "Original synthesis; CC0",
+  "profile": "Workshop timbre family; episode-specific register, brief motifs and tactile events. No continuous bed.",
+  "subjective_listening": "Not performed by text/image host",
+  "events": [
+    {
+      "time": 0.15,
+      "frequency": 262,
+      "duration": 0.6,
+      "type": "glass resonance"
+    },
+    {
+      "time": 0.43,
+      "frequency": 393.0,
+      "duration": 0.6,
+      "type": "glass resonance"
+    },
+    {
+      "time": 0.71,
+      "frequency": 524,
+      "duration": 0.6,
+      "type": "glass resonance"
+    },
+    {
+      "time": 7.838,
+      "frequency": 524.0,
+      "duration": 0.12,
+      "type": "wood tap"
+    },
+    {
+      "time": 14.375,
+      "frequency": 655.0,
+      "duration": 0.12,
+      "type": "wood tap"
+    },
+    {
+      "time": 83.517,
+      "frequency": 524.0,
+      "duration": 0.12,
+      "type": "wood tap"
+    },
+    {
+      "time": 91.517,
+      "frequency": 655.0,
+      "duration": 0.12,
+      "type": "wood tap"
+    },
+    {
+      "time": 106.267,
+      "frequency": 393.0,
+      "duration": 0.8,
+      "type": "glass resonance"
+    },
+    {
+      "time": 106.487,
+      "frequency": 524,
+      "duration": 0.8,
+      "type": "glass resonance"
+    },
+    {
+      "time": 106.707,
+      "frequency": 655.0,
+      "duration": 0.8,
+      "type": "glass resonance"
+    }
+  ]
+}

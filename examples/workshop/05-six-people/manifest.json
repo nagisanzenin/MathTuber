@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Six People Force a Pattern You Cannot Avoid",
+    "min_seconds": 90,
+    "max_seconds": 179.5
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.96
+  },
+  "captions": {
+    "burn_in": true
+  },
+  "creative": {
+    "audience": "Curious teens and adults; concrete visual reasoning before specialist terminology.",
+    "learning_goal": "Prove the six-person friends-or-strangers theorem and show five is insufficient.",
+    "question": "Can we avoid both groups?",
+    "payoff": "Five admits a counterexample; crossings are not vertices.",
+    "transfer_prompt": "Why exactly six?",
+    "duration_rationale": "Four causal sequences with a prediction, mechanism, explanation and changed case; measured narration determines duration.",
+    "novelty_audit": "Reviewed 160 channel upload titles on 2026-09-05. This specific topic was not present; related general principles may have appeared.",
+    "profile_application": {
+      "format": "visual-proof",
+      "signature": "Warm workshop objects with stable identities, restrained depth, concrete manipulation and a visible explanatory payoff.",
+      "episode_variation": "Build a six-person graph with line styles encoding relationships. Switch the three neighbor edges to strangers; show the alternative triangle.",
+      "exceptions": [
+        "Exact geometric outlines take precedence over rounded tile styling."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Can we avoid both groups?",
+        "visual_action": "Build a six-person graph with line styles encoding relationships.",
+        "new_understanding": "The target is a monochromatic triangle.",
+        "sound_intent": "Original tactile events tied to scene actions; sparse opening and resolution tones, silence during algebra."
+      },
+      {
+        "scene": "s02",
+        "viewer_question": "What can one person force?",
+        "visual_action": "Isolate three same-type spokes and close one matching neighbor edge.",
+        "new_understanding": "A matching neighbor edge completes a triangle.",
+        "sound_intent": "Original tactile events tied to scene actions; sparse opening and resolution tones, silence during algebra."
+      },
+      {
+        "scene": "s03",
+        "viewer_question": "What if that edge does not exist?",
+        "visual_action": "Switch the three neighbor edges to strangers; show the alternative triangle.",
+        "new_understanding": "The two cases exhaust the possibilities.",
+        "sound_intent": "Original tactile events tied to scene actions; sparse opening and resolution tones, silence during algebra."
+      },
+      {
+        "scene": "s04",
+        "viewer_question": "Why exactly six?",
+        "visual_action": "Construct the pentagon and complementary star on five vertices.",
+        "new_understanding": "Five admits a counterexample; crossings are not vertices.",
+        "sound_intent": "Original tactile events tied to scene actions; sparse opening and resolution tones, silence during algebra."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Shot1",
+      "narration": "Put six people in a room. For every pair, either they know each other or they do not. Assume knowing is mutual. No matter how you arrange those relationships, three people must all know each other, or three must all be strangers to one another. Can you connect the room without creating either group? Draw a solid teal line for acquaintances, and a dashed red line for strangers. The unavoidable group becomes a triangle with three matching edges."
+    },
+    {
+      "id": "s02",
+      "source": "scenes/s02.py",
+      "class_name": "Shot2",
+      "narration": "Pick one person, A. There are five connections leaving A. At least three have the same type, because two of each would only account for four. Suppose A knows B, C, and D. Now forget everyone else and inspect the three connections among those people. If B and C know each other, we already have a triangle of acquaintances: A knows B, A knows C, and B knows C. One matching edge among the neighbors is enough."
+    },
+    {
+      "id": "s03",
+      "source": "scenes/s03.py",
+      "class_name": "Shot3",
+      "narration": "What if none of those three pairs know each other? Then B, C, and D are three mutual strangers. Either way, the required group exists. And if A originally had three stranger connections instead, swap the roles of acquaintances and strangers in the same argument. Every possible room is covered by these cases. We did not inspect every network. We found a small pattern that every six-person network is forced to contain."
+    },
+    {
+      "id": "s04",
+      "source": "scenes/s04.py",
+      "class_name": "Shot4",
+      "narration": "Could five people be enough? Arrange five dots in a circle. Make neighboring pairs acquaintances, and all diagonal pairs strangers. The solid edges form a pentagon, so they contain no triangle. The dashed diagonals form a five-pointed star, also with no triangle among the five people. Crossings are not extra people. So five can avoid the pattern, while six cannot. This is a first glimpse of Ramsey theory: enough relationships can force order, even when you try to avoid it."
+    }
+  ],
+  "sources": [
+    "https://people.maths.ox.ac.uk/bays/teaching/3u03/notes/6-ramsey.pdf"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.1.0",
+    "path": "assets/profile-3c23e30ec4b06dc1.json",
+    "sha256": "25a8f7ae69b8b4aaf67ca9d4c686a23e34822c8a961743c3c1a60dd4889eb5c4"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original MathTuber workshop synthesis; CC0"
+  }
+}

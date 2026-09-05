@@ -1,0 +1,31 @@
+{
+  "s01": {
+    "remove two opposite corners": 8.675,
+    "Every domino must cover": 10.787,
+    "No overlaps": 13.75,
+    "all night rearranging": 17.863,
+    "reject every arrangement": 20.45,
+    "a single domino": 23.462
+  },
+  "s02": {
+    "one dark square and one light square": 4.987,
+    "Turn it vertically": 7.237,
+    "Every legal placement": 9.938,
+    "thirty one dark squares": 18.325,
+    "cannot negotiate": 22.35
+  },
+  "s03": {
+    "same color": 5.162,
+    "removed two dark": 6.4,
+    "thirty dark squares": 8.787,
+    "two light squares have no partner": 14.512,
+    "every arrangement fails": 20.512
+  },
+  "s04": {
+    "two neighboring corners": 1.762,
+    "one dark and one light": 4.9,
+    "The six squares left": 9.6,
+    "every complete row": 12.262,
+    "unequal counts immediately prove": 20.288
+  }
+}
