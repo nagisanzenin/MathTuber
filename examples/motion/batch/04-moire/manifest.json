@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "A Larger Pattern Hidden Between Two Sheets",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.86
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "These broad bands are not drawn on either sheet.",
+        "Each sheet contains only evenly spaced lines.",
+        "A small rotation lets the larger pattern appear.",
+        "This is a moire pattern.",
+        "Where the lines overlap, more of the pale background remains.",
+        "Between those places, the dark lines cover more of the page.",
+        "Our eyes can follow that slower change.",
+        "The two fine patterns create a much wider rhythm.",
+        "Let us pause the rotation and look at the geometry.",
+        "Both sheets have the same small spacing, called p.",
+        "Their directions differ by ten degrees.",
+        "As we move across the sheets, their mismatch accumulates.",
+        "After one whole line spacing of relative shift,",
+        "the alignment repeats.",
+        "The distance between alignment bands is much larger than p.",
+        "For these equal grids, geometry gives this relationship.",
+        "Divide p by twice the sine of half the angle.",
+        "At ten degrees, the bands are about five point seven times wider.",
+        "Turn to twenty degrees and they become about two point nine times wider.",
+        "A smaller angle makes the large pattern spread out.",
+        "At exactly zero angle, the repeating bands disappear.",
+        "The matching sheets simply lie on top of each other.",
+        "This visible pattern comes from overlap.",
+        "We do not need wave interference to explain it.",
+        "A slight difference can become a large, visible structure."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "For equal line pitch p and relative rotation theta, alignment-band spacing is p divided by twice sin(theta/2); geometric overlap suffices.",
+    "question": "How do fine lines produce broad bands?",
+    "payoff": "For equal line pitch p and relative rotation theta, alignment-band spacing is p divided by twice sin(theta/2); geometric overlap suffices.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One continuous visual explanation; speech measured before render; no duration padding.",
+    "novelty_audit": "Checked 175 archived titles plus ten events/nature releases on 2026-09-06. No matching topic; not a full transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper and ink, subject-led composition, attached labels and geometrically faithful cues.",
+      "episode_variation": "Two actually overlaid gratings rotate; a paused geometric mismatch measurement shows why alignment repeats on a larger scale.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How do fine lines produce broad bands?",
+        "visual_action": "Two actually overlaid gratings rotate; a paused geometric mismatch measurement shows why alignment repeats on a larger scale.",
+        "new_understanding": "For equal line pitch p and relative rotation theta, alignment-band spacing is p divided by twice sin(theta/2); geometric overlap suffices.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "These broad bands are not drawn on either sheet. Each sheet contains only evenly spaced lines. A small rotation lets the larger pattern appear. This is a moire pattern. Where the lines overlap, more of the pale background remains. Between those places, the dark lines cover more of the page. Our eyes can follow that slower change. The two fine patterns create a much wider rhythm. Let us pause the rotation and look at the geometry. Both sheets have the same small spacing, called p. Their directions differ by ten degrees. As we move across the sheets, their mismatch accumulates. After one whole line spacing of relative shift, the alignment repeats. The distance between alignment bands is much larger than p. For these equal grids, geometry gives this relationship. Divide p by twice the sine of half the angle. At ten degrees, the bands are about five point seven times wider. Turn to twenty degrees and they become about two point nine times wider. A smaller angle makes the large pattern spread out. At exactly zero angle, the repeating bands disappear. The matching sheets simply lie on top of each other. This visible pattern comes from overlap. We do not need wave interference to explain it. A slight difference can become a large, visible structure."
+    }
+  ],
+  "sources": [
+    "https://academic.mu.edu/phys/matthysd/L1980210.htm"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

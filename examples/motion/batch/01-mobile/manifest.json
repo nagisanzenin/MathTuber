@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Quiet Mathematics of a Balanced Mobile",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.86
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A mobile can be still without being symmetrical.",
+        "A heavy shape can balance a lighter one.",
+        "The secret is where each weight hangs.",
+        "Imagine these thin rods and strings have no weight.",
+        "The left shape weighs three units.",
+        "The right shape weighs one.",
+        "Yet the left string is only one step from the support.",
+        "The right string is three steps away.",
+        "Weight alone does not decide which side turns.",
+        "Distance from the support matters too.",
+        "For a horizontal rod, multiply weight by distance.",
+        "Three times one on the left.",
+        "One times three on the right.",
+        "The turning effects are equal and opposite.",
+        "That is why the rod can balance.",
+        "Now let the heavy shape become a smaller mobile.",
+        "Its two shapes weigh two units and one unit.",
+        "The heavier one again hangs closer to its support.",
+        "Two times one balances one times two.",
+        "Together, those shapes still weigh three units.",
+        "So the upper rod feels the same downward pull.",
+        "We can build the sculpture one balanced branch at a time.",
+        "Its center of mass stays directly below the top support.",
+        "Real rods have weight too, and that belongs in the calculation.",
+        "Air can set a real mobile moving.",
+        "This drawing describes its resting balance.",
+        "Unequal pieces, carefully placed, can share a quiet equilibrium."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "For weightless rods in uniform gravity, balance requires zero net torque; balanced subassemblies can replace equal hanging mass.",
+    "question": "How can unequal weights balance?",
+    "payoff": "For weightless rods in uniform gravity, balance requires zero net torque; balanced subassemblies can replace equal hanging mass.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One continuous visual explanation; speech measured before render; no duration padding.",
+    "novelty_audit": "Checked 175 archived titles plus ten events/nature releases on 2026-09-06. No matching topic; not a full transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper and ink, subject-led composition, attached labels and geometrically faithful cues.",
+      "episode_variation": "An asymmetric hanging sculpture reveals lever arms, then replaces one mass with a balanced subtree.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How can unequal weights balance?",
+        "visual_action": "An asymmetric hanging sculpture reveals lever arms, then replaces one mass with a balanced subtree.",
+        "new_understanding": "For weightless rods in uniform gravity, balance requires zero net torque; balanced subassemblies can replace equal hanging mass.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A mobile can be still without being symmetrical. A heavy shape can balance a lighter one. The secret is where each weight hangs. Imagine these thin rods and strings have no weight. The left shape weighs three units. The right shape weighs one. Yet the left string is only one step from the support. The right string is three steps away. Weight alone does not decide which side turns. Distance from the support matters too. For a horizontal rod, multiply weight by distance. Three times one on the left. One times three on the right. The turning effects are equal and opposite. That is why the rod can balance. Now let the heavy shape become a smaller mobile. Its two shapes weigh two units and one unit. The heavier one again hangs closer to its support. Two times one balances one times two. Together, those shapes still weigh three units. So the upper rod feels the same downward pull. We can build the sculpture one balanced branch at a time. Its center of mass stays directly below the top support. Real rods have weight too, and that belongs in the calculation. Air can set a real mobile moving. This drawing describes its resting balance. Unequal pieces, carefully placed, can share a quiet equilibrium."
+    }
+  ],
+  "sources": [
+    "https://www.physics.unl.edu/~klee/phys151/compreci/crw8b/sim1_8b.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

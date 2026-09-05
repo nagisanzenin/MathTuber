@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "How a Third Filter Lets Light Through",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.86
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Two crossed polarizing filters can block the light.",
+        "Place another filter between them, at an angle.",
+        "Some light returns.",
+        "Nothing has created new light.",
+        "The middle filter changes which component can continue.",
+        "These are front views of three successive filters.",
+        "Their lines mark the directions they transmit.",
+        "After the first filter, the light is vertically polarized.",
+        "Call its intensity one.",
+        "The last filter transmits the horizontal component.",
+        "A vertical vibration has no horizontal component.",
+        "So without the middle filter, the output is zero.",
+        "Now look at the slanted direction in between.",
+        "An ideal filter keeps the projection onto its own axis.",
+        "The vertical field has a component along that diagonal.",
+        "The diagonal field has a horizontal component in turn.",
+        "Two smaller projections can survive where one cannot.",
+        "At forty five degrees, each projection multiplies the field",
+        "by the cosine of forty five degrees.",
+        "Intensity is proportional to the square of the field.",
+        "So each of these two filters passes half its incoming intensity.",
+        "One becomes one half, then one quarter.",
+        "Those fractions start after the first filter.",
+        "Turn the middle axis toward either outside axis.",
+        "The final light fades again.",
+        "The largest output is halfway between, at forty five degrees.",
+        "Real filters absorb additional light and leak a little.",
+        "This is the ideal projection model, called Malus law.",
+        "Sometimes a path appears when we allow an intermediate direction."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Ideal sequential projections at 45 degrees transmit one quarter of the intensity after the first polarizer; no energy is created.",
+    "question": "Why can a third polarizer increase transmission between crossed filters?",
+    "payoff": "Ideal sequential projections at 45 degrees transmit one quarter of the intensity after the first polarizer; no energy is created.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One continuous visual explanation; speech measured before render; no duration padding.",
+    "novelty_audit": "Checked 175 archived titles plus ten events/nature releases on 2026-09-06. No matching topic; not a full transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper and ink, subject-led composition, attached labels and geometrically faithful cues.",
+      "episode_variation": "Three front-view filter axes and transmission meters connect to two literal field projections.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why can a third polarizer increase transmission between crossed filters?",
+        "visual_action": "Three front-view filter axes and transmission meters connect to two literal field projections.",
+        "new_understanding": "Ideal sequential projections at 45 degrees transmit one quarter of the intensity after the first polarizer; no energy is created.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Two crossed polarizing filters can block the light. Place another filter between them, at an angle. Some light returns. Nothing has created new light. The middle filter changes which component can continue. These are front views of three successive filters. Their lines mark the directions they transmit. After the first filter, the light is vertically polarized. Call its intensity one. The last filter transmits the horizontal component. A vertical vibration has no horizontal component. So without the middle filter, the output is zero. Now look at the slanted direction in between. An ideal filter keeps the projection onto its own axis. The vertical field has a component along that diagonal. The diagonal field has a horizontal component in turn. Two smaller projections can survive where one cannot. At forty five degrees, each projection multiplies the field by the cosine of forty five degrees. Intensity is proportional to the square of the field. So each of these two filters passes half its incoming intensity. One becomes one half, then one quarter. Those fractions start after the first filter. Turn the middle axis toward either outside axis. The final light fades again. The largest output is halfway between, at forty five degrees. Real filters absorb additional light and leak a little. This is the ideal projection model, called Malus law. Sometimes a path appears when we allow an intermediate direction."
+    }
+  ],
+  "sources": [
+    "https://sciencedemonstrations.fas.harvard.edu/presentations/malus-law"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

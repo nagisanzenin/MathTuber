@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Curve That Lets a Turn Arrive Gently",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.86
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A road can look smooth and still ask us to turn suddenly.",
+        "Here, a straight line meets a circular arc.",
+        "Their directions match exactly at the join.",
+        "There is no corner.",
+        "But the amount of turning per metre jumps.",
+        "On the straight, it is zero.",
+        "On the circle, it is constant.",
+        "That amount of turning per distance is curvature.",
+        "At constant speed, sideways acceleration follows curvature.",
+        "So a sudden curvature change means a sudden sideways push.",
+        "We can let the turn arrive more gently.",
+        "This lower path starts with zero curvature.",
+        "Each equal step along it adds the same small amount.",
+        "The direction changes gradually at first, then more strongly.",
+        "This is an Euler spiral, also called a clothoid.",
+        "Watch both travelers keep the same speed.",
+        "The clay arrows show their sideways acceleration.",
+        "The upper arrow appears at full size after the join.",
+        "The lower arrow grows continuously from zero.",
+        "At the end, both paths reach the same curvature.",
+        "They do not reach the same place or direction.",
+        "We are comparing how their turns begin.",
+        "A transition spiral can then meet a circle of matching curvature.",
+        "Real road design also considers banking, speed, and available space.",
+        "The spiral does not remove every change in force.",
+        "It makes this first change gradual.",
+        "A quiet piece of mathematics can shape the way a journey feels."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "At constant speed normal acceleration is v squared times curvature; an Euler spiral has curvature linear in arc length.",
+    "question": "How can a corner-free road still begin its turn abruptly?",
+    "payoff": "At constant speed normal acceleration is v squared times curvature; an Euler spiral has curvature linear in arc length.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One continuous visual explanation; speech measured before render; no duration padding.",
+    "novelty_audit": "Checked 175 archived titles plus ten events/nature releases on 2026-09-06. No matching topic; not a full transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper and ink, subject-led composition, attached labels and geometrically faithful cues.",
+      "episode_variation": "Two track transitions share speed and final curvature; attached acceleration arrows reveal a jump versus a ramp.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How can a corner-free road still begin its turn abruptly?",
+        "visual_action": "Two track transitions share speed and final curvature; attached acceleration arrows reveal a jump versus a ramp.",
+        "new_understanding": "At constant speed normal acceleration is v squared times curvature; an Euler spiral has curvature linear in arc length.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A road can look smooth and still ask us to turn suddenly. Here, a straight line meets a circular arc. Their directions match exactly at the join. There is no corner. But the amount of turning per metre jumps. On the straight, it is zero. On the circle, it is constant. That amount of turning per distance is curvature. At constant speed, sideways acceleration follows curvature. So a sudden curvature change means a sudden sideways push. We can let the turn arrive more gently. This lower path starts with zero curvature. Each equal step along it adds the same small amount. The direction changes gradually at first, then more strongly. This is an Euler spiral, also called a clothoid. Watch both travelers keep the same speed. The clay arrows show their sideways acceleration. The upper arrow appears at full size after the join. The lower arrow grows continuously from zero. At the end, both paths reach the same curvature. They do not reach the same place or direction. We are comparing how their turns begin. A transition spiral can then meet a circle of matching curvature. Real road design also considers banking, speed, and available space. The spiral does not remove every change in force. It makes this first change gradual. A quiet piece of mathematics can shape the way a journey feels."
+    }
+  ],
+  "sources": [
+    "https://mechref.engr.illinois.edu/dyn/avt.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

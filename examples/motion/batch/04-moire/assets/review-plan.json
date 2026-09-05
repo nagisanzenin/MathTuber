@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Each sheet contains",
+      "end_cue": "The two fine patterns",
+      "end_offset": 3,
+      "samples": 9,
+      "purpose": "Inspect actual overlap, rotation and fine-line contrast."
+    },
+    {
+      "id": "2",
+      "start_cue": "Both sheets have",
+      "end_cue": "At ten degrees",
+      "end_offset": 3,
+      "samples": 9,
+      "purpose": "Relate grid spacing to the repeated phase-alignment bands."
+    },
+    {
+      "id": "3",
+      "start_cue": "Turn to twenty degrees",
+      "end_cue": "This visible pattern",
+      "end_offset": 3,
+      "samples": 9,
+      "purpose": "Verify band spacing changes and the zero-angle limiting case."
+    }
+  ]
+}

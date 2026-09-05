@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Even Rhythm Inside an Uneven Orbit",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.86
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "An orbit has a rhythm that a circle cannot show.",
+        "This is an exaggerated elliptical orbit, seen from above.",
+        "The Sun sits at a focus, away from the center.",
+        "Near the Sun, the planet moves faster.",
+        "Farther away, it moves more slowly.",
+        "Yet something stays beautifully even.",
+        "Draw a line from the Sun to the planet.",
+        "Watch the area that line sweeps out.",
+        "This small interval takes one eighth of an orbit.",
+        "Now take the same amount of time on the far side.",
+        "The planet travels a shorter arc there.",
+        "But the swept area is the same.",
+        "A short radius sweeps a wider angle.",
+        "A long radius needs a narrower angle for equal area.",
+        "This is Kepler's equal area law.",
+        "Why should gravity preserve an area rate?",
+        "For a tiny time interval, the swept region is nearly a triangle.",
+        "Its area is half the radius times the sideways distance traveled.",
+        "So area per second is half the radius times sideways speed.",
+        "Gravity pulls along the radius, directly toward the Sun.",
+        "That pull has no turning effect about the Sun itself.",
+        "The planet's angular momentum stays constant.",
+        "The area rate is half its angular momentum per unit mass.",
+        "That is the connection behind the pattern.",
+        "This ideal orbit assumes an isolated two body system.",
+        "Other planets can perturb real orbits.",
+        "In the ideal picture, equal times keep painting equal areas.",
+        "Speed changes, while another kind of rhythm stays steady."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "In the ideal two-body orbit, central force conserves angular momentum and equal times sweep equal areas.",
+    "question": "What stays constant when an orbiting planet changes speed?",
+    "payoff": "In the ideal two-body orbit, central force conserves angular momentum and equal times sweep equal areas.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One continuous visual explanation; speech measured before render; no duration padding.",
+    "novelty_audit": "Checked 175 archived titles plus ten events/nature releases on 2026-09-06. No matching topic; not a full transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper and ink, subject-led composition, attached labels and geometrically faithful cues.",
+      "episode_variation": "A vertical ellipse paints equal-time sectors; a small local triangle links area rate to radius and sideways speed.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "What stays constant when an orbiting planet changes speed?",
+        "visual_action": "A vertical ellipse paints equal-time sectors; a small local triangle links area rate to radius and sideways speed.",
+        "new_understanding": "In the ideal two-body orbit, central force conserves angular momentum and equal times sweep equal areas.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "An orbit has a rhythm that a circle cannot show. This is an exaggerated elliptical orbit, seen from above. The Sun sits at a focus, away from the center. Near the Sun, the planet moves faster. Farther away, it moves more slowly. Yet something stays beautifully even. Draw a line from the Sun to the planet. Watch the area that line sweeps out. This small interval takes one eighth of an orbit. Now take the same amount of time on the far side. The planet travels a shorter arc there. But the swept area is the same. A short radius sweeps a wider angle. A long radius needs a narrower angle for equal area. This is Kepler's equal area law. Why should gravity preserve an area rate? For a tiny time interval, the swept region is nearly a triangle. Its area is half the radius times the sideways distance traveled. So area per second is half the radius times sideways speed. Gravity pulls along the radius, directly toward the Sun. That pull has no turning effect about the Sun itself. The planet's angular momentum stays constant. The area rate is half its angular momentum per unit mass. That is the connection behind the pattern. This ideal orbit assumes an isolated two body system. Other planets can perturb real orbits. In the ideal picture, equal times keep painting equal areas. Speed changes, while another kind of rhythm stays steady."
+    }
+  ],
+  "sources": [
+    "https://pwg.gsfc.nasa.gov/stargaze/Skepl2nd.htm"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

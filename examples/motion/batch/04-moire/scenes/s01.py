@@ -1,0 +1,31 @@
+from scenes._shared.design import *
+class Film(Stage):
+    def construct(self):
+        center=np.array([0,1.1,0]);pitch=.22;theta=ValueTracker(4*DEGREES)
+        def grating(angle,opacity=.72):
+            g=VGroup(*[self.line([j*pitch,-5,0],[j*pitch,5,0],'ink',10).set_stroke(opacity=opacity) for j in range(-24,25)]);return g.rotate(angle).shift(center)
+        g1=grating(0);g2=always_redraw(lambda:grating(theta.get_value()));self.add(g1,g2)
+        mask=VGroup(Rectangle(width=12,height=8,stroke_width=0,fill_color=self.palette['background'],fill_opacity=1).move_to([0,8.1,0]),Rectangle(width=12,height=8,stroke_width=0,fill_color=self.palette['background'],fill_opacity=1).move_to([0,-5.9,0]),Rectangle(width=8,height=18,stroke_width=0,fill_color=self.palette['background'],fill_opacity=1).move_to([-7,0,0]),Rectangle(width=8,height=18,stroke_width=0,fill_color=self.palette['background'],fill_opacity=1).move_to([7,0,0])).set_z_index(30)
+        self.add(mask,Rectangle(width=6,height=6,stroke_color=self.palette['muted'],stroke_width=2).move_to(center).set_z_index(31));self.play(theta.animate.set_value(10*DEGREES),run_time=2.2)
+        def plaque(text,pos,role='label'):
+            t=self.label(text,pos,'ink',role);return VGroup(BackgroundRectangle(t,color=self.palette['background'],fill_opacity=.96,buff=.13),t).set_z_index(40)
+        self.at('Each sheet contains');self.play(theta.animate.set_value(0),run_time=1.2)
+        self.at('A small rotation');self.play(theta.animate.set_value(10*DEGREES),run_time=2)
+        self.at('Where the lines overlap');self.play(theta.animate.set_value(7*DEGREES),run_time=2.5)
+        self.at('Between those places');self.play(theta.animate.set_value(10*DEGREES),run_time=2.5)
+        self.at('The two fine patterns');self.play(theta.animate.set_value(5*DEGREES),run_time=2)
+        self.at('Let us pause');self.play(theta.animate.set_value(10*DEGREES),run_time=1);g2.clear_updaters();self.play(g1.animate.set_stroke(opacity=.23),g2.animate.set_stroke(opacity=.23),run_time=.5)
+        self.at('Both sheets have');pmark=VGroup(self.line([1.32,-1.3,0],[1.54,-1.3,0],'secondary',5),plaque('p',[1.43,-1.65,0],'detail'));self.add(pmark)
+        self.at('Their directions differ');anglelabel=plaque('10°',[2.2,3.6,0]);self.add(anglelabel)
+        normal=np.array([math.cos(10*DEGREES)-1,math.sin(10*DEGREES),0]);unit=normal/np.linalg.norm(normal);distance=pitch/np.linalg.norm(normal);along=np.array([unit[1],-unit[0],0])
+        bands=VGroup(*[self.line(center+unit*distance*j-along*3,center+unit*distance*j+along*3,'secondary',4) for j in [0,1]])
+        self.at('As we move across');self.play(Create(bands[0]),run_time=.7);dot=Dot(center,radius=.09,color=self.palette['primary']);self.add(dot);self.play(dot.animate.move_to(center+unit*distance),run_time=2)
+        self.at('the alignment repeats');self.play(Create(bands[1]),run_time=.7)
+        self.at('The distance between');measure=DoubleArrow(center+along*(-1.6),center+unit*distance+along*(-1.6),buff=0,color=self.palette['primary'],stroke_width=3);dl=plaque('band spacing',[-1,2.15,0],'detail');self.play(Create(measure),FadeIn(dl),run_time=.8)
+        self.at('For these equal grids');formula=plaque('spacing = p / (2 sin(θ/2))',[0,-2.8,0]);self.play(FadeIn(formula),run_time=.7)
+        self.at('At ten degrees');ratio=plaque('10° → 5.7 p',[0,-3.6,0]);self.play(FadeIn(ratio),run_time=.5)
+        self.at('Turn to twenty degrees');self.play(*[FadeOut(x) for x in [pmark,anglelabel,bands[0],bands[1],dot,measure,dl,ratio]],run_time=.5);self.remove(g2);g2=always_redraw(lambda:grating(theta.get_value()));self.add(g2);g1.set_stroke(opacity=.72);self.play(theta.animate.set_value(20*DEGREES),run_time=2.2);self.remove(ratio);ratio=plaque('20° → 2.9 p',[0,-3.6,0]);self.add(ratio)
+        self.at('A smaller angle');self.play(FadeOut(ratio),FadeOut(formula),run_time=.4);self.play(theta.animate.set_value(4*DEGREES),run_time=2.2)
+        self.at('At exactly zero angle');self.play(theta.animate.set_value(0),run_time=1.8)
+        self.at('This visible pattern');self.play(theta.animate.set_value(6*DEGREES),run_time=2.2)
+        self.at('A slight difference');self.play(theta.animate.set_value(4*DEGREES),run_time=2.3);self.finish()

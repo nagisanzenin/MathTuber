@@ -1,0 +1,30 @@
+from scenes._shared.design import *
+class Film(Stage):
+    def construct(self):
+        top=2.9;left=-.9;right=2.7
+        def disk(m,x,y,col):
+            return VGroup(Circle(radius=.29*math.sqrt(m),fill_color=self.palette[col],fill_opacity=.8,stroke_color=self.palette['ink'],stroke_width=1.5).move_to([x,y,0]),self.label(str(m),[x,y,0],'ink','label'))
+        rod=self.line([left,top,0],[right,top,0],'ink',4);stem=self.line([0,5.6,0],[0,top,0],'muted',2);pivot=Dot([0,top,0],radius=.065,color=self.palette['ink'])
+        leftstring=self.line([left,top,0],[left,1.25,0],'muted',2);rightstring=self.line([right,top,0],[right,.8,0],'muted',2);heavy=disk(3,left,1.1,'primary');light=disk(1,right,.65,'secondary')
+        self.add(stem,pivot,rod,leftstring,rightstring,heavy,light);self.play(FadeIn(self.label('a resting balance',[0,5.8,0],'ink','detail')),run_time=.6)
+        self.at('The secret is where');self.focus_outline(pivot,run_time=1)
+        self.at('Imagine these thin rods');note=self.label('ideal: weightless rods',[0,-2.7,0],'muted','detail');self.play(FadeIn(note),run_time=.5)
+        self.at('The left shape weighs');self.focus_outline(heavy,run_time=.8)
+        self.at('The right shape weighs');self.focus_outline(light,run_time=.8)
+        self.at('Yet the left string');b1=BraceBetweenPoints([left,top+.2,0],[0,top+.2,0],direction=UP,color=self.palette['muted']);l1=self.label('1 step',[-.45,top+.9,0],'ink','detail');self.play(FadeIn(b1),FadeIn(l1),run_time=.8)
+        self.at('The right string is');b2=BraceBetweenPoints([0,top+.2,0],[right,top+.2,0],direction=UP,color=self.palette['muted']);l2=self.label('3 steps',[1.35,top+.9,0],'ink','detail');self.play(FadeIn(b2),FadeIn(l2),run_time=.8)
+        self.at('Weight alone does not');self.focus_outline(VGroup(heavy,light),run_time=1)
+        self.at('Distance from the support');self.focus_outline(VGroup(b1,b2),run_time=1)
+        self.at('For a horizontal rod');rule=self.label('weight × distance',[0,-1.4,0],'ink','claim');self.play(FadeIn(rule),run_time=.5)
+        self.at('Three times one');lp=self.label('3 × 1',[-1.6,-.15,0],'primary','label');leftturn=Arc(radius=.62,start_angle=PI-.45,angle=.9,arc_center=[0,top,0],color=self.palette['primary'],stroke_width=3).add_tip(tip_length=.12);self.play(FadeIn(lp),Create(leftturn),run_time=.7)
+        self.at('One times three');rp=self.label('1 × 3',[2.2,-.15,0],'secondary','label');rightturn=Arc(radius=.62,start_angle=.45,angle=-.9,arc_center=[0,top,0],color=self.palette['secondary'],stroke_width=3).add_tip(tip_length=.12);self.play(FadeIn(rp),Create(rightturn),run_time=.7)
+        self.at('The turning effects');eq=self.label('equal turns',[.15,-.15,0],'ink','detail');self.play(FadeIn(eq),run_time=.5)
+        self.at('Now let the heavy shape');self.play(FadeOut(heavy),FadeOut(leftturn),FadeOut(rightturn),FadeOut(rule),FadeOut(lp),FadeOut(rp),FadeOut(eq),FadeOut(note),FadeOut(b1),FadeOut(b2),FadeOut(l1),FadeOut(l2),run_time=.8)
+        lower_y=.35;lower=VGroup(self.line([-1.8,lower_y,0],[.9,lower_y,0],'ink',3),self.line([left,1.25,0],[left,lower_y,0],'muted',2),Dot([left,lower_y,0],radius=.055,color=self.palette['ink']),self.line([-1.8,lower_y,0],[-1.8,-1.5,0],'muted',2),self.line([.9,lower_y,0],[.9,-1,0],'muted',2),disk(2,-1.8,-1.55,'primary'),disk(1,.9,-1.1,'accent'));self.play(FadeIn(lower),run_time=1.1)
+        self.at('The heavier one again');a=self.label('1 step',[-1.35,.8,0],'ink','detail');b=self.label('2 steps',[0,.8,0],'ink','detail');self.play(FadeIn(a),FadeIn(b),run_time=.6)
+        self.at('Two times one balances');bottom=self.label('2 × 1 = 1 × 2',[-.5,-2.55,0],'ink','label');self.play(FadeIn(bottom),run_time=.7)
+        self.at('Together, those shapes');total=self.label('total: 3',[left-.7,1.7,0],'primary','detail');self.play(FadeIn(total),run_time=.5)
+        self.at('So the upper rod');self.focus_outline(leftstring,run_time=1)
+        self.at('Its center of mass');guide=DashedLine([0,top,0],[0,-.8875,0],dash_length=.1,color=self.palette['muted'],stroke_width=2);com=VGroup(Circle(radius=.1,color=self.palette['ink'],stroke_width=2).move_to([0,-.8875,0]),self.label('center of mass',[2.1,-1.9,0],'ink','detail'));self.play(Create(guide),FadeIn(com),run_time=1)
+        self.at('Real rods have weight');self.play(FadeOut(a),FadeOut(b),FadeOut(bottom),FadeOut(total),FadeOut(com),FadeOut(guide),run_time=.8);caveat=self.label('include the rods in real life',[0,-2.8,0],'muted','detail');self.play(FadeIn(caveat),run_time=.5)
+        self.at('Unequal pieces, carefully');self.play(FadeOut(caveat),run_time=.5);self.finish()

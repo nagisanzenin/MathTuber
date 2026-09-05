@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Their directions match",
+      "end_cue": "At constant speed",
+      "end_offset": 3,
+      "samples": 9,
+      "purpose": "Distinguish tangent continuity from the curvature jump."
+    },
+    {
+      "id": "2",
+      "start_cue": "Watch both travelers",
+      "end_cue": "At the end, both paths",
+      "end_offset": 3,
+      "samples": 9,
+      "purpose": "Compare actual equal-speed positions and acceleration vectors."
+    },
+    {
+      "id": "3",
+      "start_cue": "A transition spiral",
+      "end_cue": "A quiet piece of mathematics",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Check the matching-curvature extension and engineering caveats."
+    }
+  ]
+}

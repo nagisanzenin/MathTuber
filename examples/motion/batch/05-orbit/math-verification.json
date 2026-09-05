@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "method": "Independent derivation and numeric verification, separate from rendered appearance",
+  "derivation": "Kepler equation M=E\u2212e sinE with M linear in time gives sector area ab \u0394M/2. Independently, d(r\u00d7v)/dt=r\u00d7a=0 for central acceleration, so |r\u00d7v|/2, the areal rate, is constant. The local swept triangle uses the component of displacement perpendicular to the radius.",
+  "checks": {
+    "equal_eighth_area": 3.421194399759285,
+    "render_polygon_areas": [
+      3.420841817918287,
+      3.4211508861374327,
+      3.4211752196737564,
+      3.4211803373088685,
+      3.4211803373088543,
+      3.421175219673728,
+      3.42115088613744,
+      3.420841817918273
+    ],
+    "area_rate": 4.356,
+    "central_force_torque": 0
+  },
+  "limitations": [
+    "The displayed eccentricity is exaggerated and is not a scale model of Earth.",
+    "Local triangle is a differential explanation, not an exact finite-time area.",
+    "Isolated two-body idealization; actual orbital perturbations excluded."
+  ],
+  "sources": [
+    "https://pwg.gsfc.nasa.gov/stargaze/Skepl2nd.htm"
+  ]
+}

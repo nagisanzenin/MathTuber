@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "method": "Independent derivation and numeric verification, separate from rendered appearance",
+  "derivation": "Arc-length parameterization r\u2032(s)=(cos\u03c6,sin\u03c6) has unit speed and curvature \u03c6\u2032. For \u03c6=ks\u00b2/(2L), curvature ramps from zero to k; circular curvature is constant k. At fixed speed v, normal acceleration is v\u00b2\u03ba. The end tangent can be continued by a radius-1/k circle.",
+  "checks": {
+    "spiral_endpoint": [
+      4.278908088975267,
+      0.7591153864777344
+    ],
+    "trapezoid_error": 5.00000011248645e-07,
+    "final_curvature": 0.24,
+    "circle_final_heading": 1.056,
+    "spiral_final_heading": 0.528
+  },
+  "limitations": [
+    "Compared transitions have different endpoints and headings.",
+    "Continuous acceleration is not zero jerk; banking and full road design are excluded."
+  ],
+  "sources": [
+    "https://mechref.engr.illinois.edu/dyn/avt.html"
+  ]
+}

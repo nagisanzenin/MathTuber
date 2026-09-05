@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "method": "Independent derivation and numeric verification, separate from rendered appearance",
+  "derivation": "The two line families have normals n\u2081=(1,0), n\u2082=(cos\u03b8,sin\u03b8). Their relative phase changes by one line pitch p over normal distance p/|n\u2082\u2212n\u2081|=p/(2sin(\u03b8/2)). Equal phase repeats at that distance. The zero-angle matching case has no finite recurring broad bands.",
+  "checks": {
+    "pitch": 0.22,
+    "spacing": {
+      "4": {
+        "distance": 3.1519079182628205,
+        "multiple_of_pitch": 14.32685417392191
+      },
+      "10": {
+        "distance": 1.2621084570236842,
+        "multiple_of_pitch": 5.736856622834928
+      },
+      "20": {
+        "distance": 0.6334647531457998,
+        "multiple_of_pitch": 2.879385241571817
+      }
+    }
+  },
+  "limitations": [
+    "Geometric occlusion model, not a wave diffraction calculation.",
+    "Rasterization can create artifacts, so the actual fine-line image still requires inspection."
+  ],
+  "sources": [
+    "https://academic.mu.edu/phys/matthysd/L1980210.htm"
+  ]
+}

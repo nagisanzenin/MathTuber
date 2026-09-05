@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Yet the left string",
+      "end_cue": "The turning effects",
+      "end_offset": 3,
+      "samples": 9,
+      "purpose": "Compare the lever arms and the weight-distance products."
+    },
+    {
+      "id": "2",
+      "start_cue": "Now let the heavy shape",
+      "end_cue": "So the upper rod",
+      "end_offset": 3,
+      "samples": 9,
+      "purpose": "Replace one mass with a balanced branch without moving its attachment."
+    },
+    {
+      "id": "3",
+      "start_cue": "Its center of mass",
+      "end_cue": "Real rods have weight",
+      "end_offset": 3,
+      "samples": 9,
+      "purpose": "Check the center of mass guide and stated idealization."
+    }
+  ]
+}

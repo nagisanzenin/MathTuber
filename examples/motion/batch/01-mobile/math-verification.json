@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "method": "Independent derivation and numeric verification, separate from rendered appearance",
+  "derivation": "Uniform gravity and negligible rod/string masses: net moment about each support is zero. Replacing a hanging mass by an internally balanced assembly of the same total mass preserves the upper load.",
+  "checks": {
+    "upper_products": [
+      2.7,
+      2.7
+    ],
+    "lower_products": [
+      1.8,
+      1.8
+    ],
+    "final_center_of_mass": [
+      0.0,
+      -0.8875000000000001
+    ]
+  },
+  "limitations": [
+    "Illustrates resting equilibrium; no dynamical settling simulation.",
+    "The rods and strings are idealized as weightless."
+  ],
+  "sources": [
+    "https://www.physics.unl.edu/~klee/phys151/compreci/crw8b/sim1_8b.html"
+  ]
+}

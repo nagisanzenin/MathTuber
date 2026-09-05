@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Watch the area",
+      "end_cue": "Why should gravity",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Compare equal-time near and far sectors from the actual Kepler equation."
+    },
+    {
+      "id": "2",
+      "start_cue": "For a tiny time interval",
+      "end_cue": "This ideal orbit assumes",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Inspect the local triangle, perpendicular component and radial force."
+    },
+    {
+      "id": "3",
+      "start_cue": "In the ideal picture",
+      "end_cue": "In the ideal picture",
+      "end_offset": 7,
+      "samples": 9,
+      "purpose": "Follow the final eight equal-time sectors through completion."
+    }
+  ]
+}

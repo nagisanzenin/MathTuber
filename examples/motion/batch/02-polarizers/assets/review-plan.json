@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "A vertical vibration",
+      "end_cue": "The diagonal field has",
+      "end_offset": 3,
+      "samples": 9,
+      "purpose": "Follow a zero direct component and two nonzero sequential projections."
+    },
+    {
+      "id": "2",
+      "start_cue": "At forty five degrees each projection",
+      "end_cue": "Turn the middle axis",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Distinguish field projection from squared intensity."
+    },
+    {
+      "id": "3",
+      "start_cue": "Turn the middle axis",
+      "end_cue": "Real filters absorb",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Meter output follows the actual axis angle and returns to its maximum."
+    }
+  ]
+}

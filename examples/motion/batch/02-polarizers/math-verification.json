@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "method": "Independent derivation and numeric verification, separate from rendered appearance",
+  "derivation": "An ideal linear polarizer is the projection uu\u1d40. Starting after the first vertical polarizer with unit intensity, the two subsequent projections give Eout=(sin\u03b8 cos\u03b8,0) and Iout=sin\u00b2\u03b8 cos\u00b2\u03b8=\u00bcsin\u00b22\u03b8. The maximum is \u00bc at \u03b8=45\u00b0; each stage then halves intensity.",
+  "checks": {
+    "samples": 101,
+    "peak_intensity": 0.25,
+    "at_crossed_endpoints": [
+      0.0,
+      3.749399456654644e-33
+    ]
+  },
+  "limitations": [
+    "No absolute input intensity before the first polarizer is specified.",
+    "Ideal filters; brightness impressions are not a calibrated optical measurement."
+  ],
+  "sources": [
+    "https://sciencedemonstrations.fas.harvard.edu/presentations/malus-law"
+  ]
+}
