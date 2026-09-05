@@ -83,3 +83,5 @@ Latest release: [five linked-representation Shorts and reflection](docs/linked-b
 Latest release: [five events Shorts and reflection](docs/events-batch.md), with [editable sources](examples/events).
 
 Latest release: [five nature Shorts and reflection](docs/nature-batch.md), with [editable sources](examples/nature).
+
+Latest release: [five motion Shorts and reflection](docs/motion-batch.md), with [editable sources](examples/motion).

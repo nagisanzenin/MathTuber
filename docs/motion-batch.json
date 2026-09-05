@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-06",
+  "cycle": 3,
+  "videos": [
+    {
+      "project": "01-mobile",
+      "title": "The Quiet Mathematics of a Balanced Mobile #math #Shorts",
+      "url": "https://www.youtube.com/shorts/DPxiXHUnILI",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M20S",
+      "export_sha256": "793ea5ba252933119b207eb68c0f77cfa1fb69b547007ca6e96f5b688494d0cc",
+      "editorial": {
+        "decision": "release",
+        "opening": "Asymmetrical sculpture immediately embodies resting balance. The opening is still and may be too restrained for some viewers.",
+        "mechanism": "Opposing torque directions and equal products lead to a recursively balanced branch; the center-of-mass marker stays under the support.",
+        "readability": "Numerals, lever braces and center-of-mass label stay separate in the inspected samples.",
+        "pacing": "Measured 79 seconds; important equalities have visible holds, but speech remains almost continuous.",
+        "sound": "Dry local narration. Full decode and independent ASR differences reviewed. No subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "The drawing remains a simplified diagram rather than a sensuous sculpture. An imbalance-and-recovery comparison would teach more directly than equal products alone.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "02-polarizers",
+      "title": "How a Third Filter Lets Light Through #math #Shorts",
+      "url": "https://www.youtube.com/shorts/xtLhBW1Bblo",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M37S",
+      "export_sha256": "d2a2b2da86e8660882627c2af45756dac7630f32c010844aa144f8713c13c2b8",
+      "editorial": {
+        "decision": "release",
+        "opening": "Adding a middle filter restores a nonzero meter, a concrete surprise without a hype claim.",
+        "mechanism": "Two field projections lead to half and quarter intensities relative to light after the first filter; rotations reach zero at both outside axes.",
+        "readability": "Rebuilt to separate the intensity formula from three-line captions; final samples show clear spacing.",
+        "pacing": "96 seconds gives each projection time, although the distinction between field and intensity remains demanding.",
+        "sound": "Dry local narration. Full decode and independent ASR differences reviewed. No subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "The front-view filters and lower vector diagram still need mental integration. A single traveling field representation would connect them more directly. ASR transcribed Malus as malice; spelling alone does not establish wrong pronunciation.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "03-clothoid",
+      "title": "The Curve That Lets a Turn Arrive Gently #math #Shorts",
+      "url": "https://www.youtube.com/shorts/dI9yY67NFbE",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M28S",
+      "export_sha256": "c48307c4ca55aa51df9536c6cab812ea43ce57d9a1b9b76d1175f34e6a0c9347",
+      "editorial": {
+        "decision": "release",
+        "opening": "A smooth-looking join introduces an everyday comfort question.",
+        "mechanism": "The circle has an abrupt normal acceleration at the join; the spiral grows it continuously at fixed speed. Equal final curvature is separated from different endpoint and heading.",
+        "readability": "Stacked tracks and clay acceleration arrows remain distinguishable, with captions below the mathematical scene.",
+        "pacing": "87 seconds; simultaneous traversal supports comparison, but the final caveat passage is visually static.",
+        "sound": "Dry local narration. Full decode and independent ASR differences reviewed. No subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "The opening curve sits small in a large field and sideways acceleration is still abstract. A passenger-scale analogy could help if it preserves the fixed-speed assumption.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "04-moire",
+      "title": "A Larger Pattern Hidden Between Two Sheets #math #Shorts",
+      "url": "https://www.youtube.com/shorts/G9qlxO7_KYk",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M26S",
+      "export_sha256": "658b0ac7de8e30c7df78d81785089d1401c64b302383d23a0a6643a16598bc03",
+      "editorial": {
+        "decision": "release",
+        "opening": "The large bands arise immediately from actual overlapping line gratings.",
+        "mechanism": "Relative alignment repeats over a longer distance; the measured spacing, ten/twenty degree cases and exact alignment illustrate the model.",
+        "readability": "Removed a stale ten-degree numerical label during rotation; the final samples show the formula and current values separately.",
+        "pacing": "85 seconds; changes reveal broad bands, then motion pauses for the spacing explanation.",
+        "sound": "Dry local narration. Full decode and independent ASR differences reviewed. No subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "Dense stripes are visually forceful and less peaceful than desired. The half-angle formula is stated rather than derived; the film teaches the qualitative mechanism more completely than that equation. Small-screen raster behavior remains device dependent.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "05-orbit",
+      "title": "The Even Rhythm Inside an Uneven Orbit #math #Shorts",
+      "url": "https://www.youtube.com/shorts/QjmBc877DZg",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M33S",
+      "export_sha256": "96148057a6868ca54e7dc795d0f072c67cc2de976c48df576d07080ce9097ac6",
+      "editorial": {
+        "decision": "release",
+        "opening": "The ellipse establishes an uneven orbital rhythm with the Sun at a focus.",
+        "mechanism": "Equal-time sectors visibly have equal area; a local triangle, radial force and stated angular momentum relation connect to the ideal central-force model.",
+        "readability": "The area colors, Sun, radius and labels remain distinct through sampled transitions; final sectors share the same focus.",
+        "pacing": "92 seconds; equal-area painting is the most satisfying payoff, while the angular momentum passage asks for more background knowledge.",
+        "sound": "Dry local narration. Full decode and independent ASR differences reviewed. No subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "A novice can follow equal areas more easily than the explanation of conserved angular momentum. The triangle-to-area-rate inference could be enlarged and separated into a quiet beat. The orbit is deliberately exaggerated and idealized.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    }
+  ]
+}
