@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "A small piston",
+      "end_cue": "The liquid",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Coupled equal-volume motion."
+    },
+    {
+      "id": "2",
+      "start_cue": "Watch the space",
+      "end_cue": "These regions",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Track three identical pieces into equal displaced volume."
+    },
+    {
+      "id": "3",
+      "start_cue": "Across three",
+      "end_cue": "Another gentle",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Relate force ratio to inverse distance and a repeated push."
+    }
+  ]
+}

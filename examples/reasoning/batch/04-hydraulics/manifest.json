@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "A Gentle Push and the Price of a Larger Force",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A small piston moves down, and a wider one rises.",
+        "The liquid links their movements.",
+        "Imagine an ideal liquid that does not compress.",
+        "Both chambers have the same depth into the page.",
+        "The wider piston has three times the area.",
+        "Watch the space swept out on each side.",
+        "The narrow piston moves three times as far.",
+        "Cut its colored region into three equal pieces.",
+        "Placed side by side, they fill the other region exactly.",
+        "These regions count displaced volume, not traveling parcels of water.",
+        "The same pressure change acts across both pistons.",
+        "Across three times the area, it produces three times the force.",
+        "But the larger force acts through one third of the distance.",
+        "The ideal work is unchanged.",
+        "We are ignoring friction and pressure differences from height.",
+        "Another gentle push repeats the same exchange: more force, less distance."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Ideal hydraulic mechanical advantage trades displacement inversely with force through volume and work conservation.",
+    "question": "How does a hydraulic system trade force for distance?",
+    "payoff": "Ideal hydraulic mechanical advantage trades displacement inversely with force through volume and work conservation.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration for the complete reasoning step; no fixed length padding.",
+    "novelty_audit": "Compared archived titles and previous autonomous release descriptions and available project mechanisms. Rejected a repeated fixed-perimeter garden before release; replaced it with geometric-mean construction. Similarity/area and waves are related themes, with distinct target relationships. Not a full transcript audit of all earlier uploads.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper, preserved objects, visible reasoning steps and held comparisons. Geometry determines composition.",
+      "episode_variation": "Reassemble three equal swept-volume pieces from the narrow cylinder into the wide one.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How does a hydraulic system trade force for distance?",
+        "visual_action": "Reassemble three equal swept-volume pieces from the narrow cylinder into the wide one.",
+        "new_understanding": "Ideal hydraulic mechanical advantage trades displacement inversely with force through volume and work conservation.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A small piston moves down, and a wider one rises. The liquid links their movements.\n\nImagine an ideal liquid that does not compress. Both chambers have the same depth into the page. The wider piston has three times the area.\n\nWatch the space swept out on each side. The narrow piston moves three times as far. Cut its colored region into three equal pieces. Placed side by side, they fill the other region exactly.\n\nThese regions count displaced volume, not traveling parcels of water. The same pressure change acts across both pistons. Across three times the area, it produces three times the force.\n\nBut the larger force acts through one third of the distance. The ideal work is unchanged. We are ignoring friction and pressure differences from height. Another gentle push repeats the same exchange: more force, less distance."
+    }
+  ],
+  "sources": [
+    "https://openstax.org/books/university-physics-volume-1/pages/14-3-pascals-principle-and-hydraulics"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

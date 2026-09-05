@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Some places",
+      "end_cue": "The upper wave",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "The same sum moves into a three-row explanatory view."
+    },
+    {
+      "id": "2",
+      "start_cue": "At this marked",
+      "end_cue": "The distance",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Inspect cancellation and reinforcement of the same contributions."
+    },
+    {
+      "id": "3",
+      "start_cue": "Use waves",
+      "end_cue": "A quiet point",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Halved wavelength yields twice as many node intervals."
+    }
+  ]
+}

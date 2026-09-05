@@ -1,0 +1,117 @@
+{
+  "passed": true,
+  "method": "Independent geometry and governing equations, supplemented by source and render inspection.",
+  "conditions": [
+    "Positive lengths a,b on a diameter. Altitude sqrt(ab), right angle on a semicircle, and AA similarity. Final2,8 example doubles all physical lengths while drawing scale halves; ratios preserved."
+  ],
+  "checks": [
+    {
+      "name": "circle height a=1",
+      "actual": 6.25,
+      "expected": 6.25,
+      "passed": true
+    },
+    {
+      "name": "right angle a=1",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "similar triangle ratio a=1",
+      "actual": 0.5,
+      "expected": 0.5,
+      "passed": true
+    },
+    {
+      "name": "equal acute angles a=1",
+      "actual": 1.1071487177940904,
+      "expected": 1.1071487177940904,
+      "passed": true
+    },
+    {
+      "name": "circle height a=2",
+      "actual": 25.0,
+      "expected": 25.0,
+      "passed": true
+    },
+    {
+      "name": "right angle a=2",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "similar triangle ratio a=2",
+      "actual": 0.5,
+      "expected": 0.5,
+      "passed": true
+    },
+    {
+      "name": "equal acute angles a=2",
+      "actual": 1.1071487177940904,
+      "expected": 1.1071487177940904,
+      "passed": true
+    },
+    {
+      "name": "circle height a=0.7",
+      "actual": 3.61,
+      "expected": 3.61,
+      "passed": true
+    },
+    {
+      "name": "right angle a=0.7",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "similar triangle ratio a=0.7",
+      "actual": 0.4751909633114914,
+      "expected": 0.47519096331149147,
+      "passed": true
+    },
+    {
+      "name": "equal acute angles a=0.7",
+      "actual": 1.12719219298367,
+      "expected": 1.12719219298367,
+      "passed": true
+    },
+    {
+      "name": "circle height a=4",
+      "actual": 6.25,
+      "expected": 6.25,
+      "passed": true
+    },
+    {
+      "name": "right angle a=4",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "similar triangle ratio a=4",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "equal acute angles a=4",
+      "actual": 0.4636476090008061,
+      "expected": 0.4636476090008061,
+      "passed": true
+    },
+    {
+      "name": "display height first example",
+      "actual": 2.4,
+      "expected": 2.4,
+      "passed": true
+    },
+    {
+      "name": "display height doubled example rescaled",
+      "actual": 2.4,
+      "expected": 2.4,
+      "passed": true
+    }
+  ]
+}

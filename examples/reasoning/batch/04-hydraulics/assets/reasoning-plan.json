@@ -1,0 +1,14 @@
+[
+  {
+    "before": "Pistons of area 1 and 3 move through distance 3 and 1.",
+    "change": "Translate three equal pieces of the narrow swept region into the wide swept region.",
+    "preserved": "Total swept volume at equal chamber depth.",
+    "after": "The two displacements differ inversely with area."
+  },
+  {
+    "before": "Same applied pressure change in the idealized liquid.",
+    "change": "Compare forces acting over areas 1 and 3.",
+    "preserved": "Pressure change and total ideal work.",
+    "after": "Three times force acts through one third of the distance."
+  }
+]

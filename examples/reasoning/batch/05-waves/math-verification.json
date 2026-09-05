@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "method": "Independent geometry and governing equations, supplemented by source and render inspection.",
+  "conditions": [
+    "Ideal linear equal-amplitude counterpropagating sinusoidal contributions. Their separate rows are mathematical components, not separate physical strings. Display slowed; second example halves wavelength at fixed wave speed and doubles frequency. Node spacing half wavelength."
+  ],
+  "checks": [
+    {
+      "name": "superposition identity lambda=3",
+      "actual": 7.771561172376096e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "nodes all times lambda=3",
+      "actual": 9.43689570931383e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "superposition identity lambda=1.5",
+      "actual": 1.5543122344752192e-15,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "nodes all times lambda=1.5",
+      "actual": 2.8033131371785203e-15,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "marked node contributions cancel",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "reinforcement at selected antinode",
+      "actual": 0.86,
+      "expected": 0.86,
+      "passed": true
+    }
+  ]
+}

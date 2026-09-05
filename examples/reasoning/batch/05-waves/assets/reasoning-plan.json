@@ -1,0 +1,14 @@
+[
+  {
+    "before": "Standing pattern with quiet points.",
+    "change": "Separate its two traveling contributions and inspect equal opposite displacement at a selected x.",
+    "preserved": "Common x-coordinate, amplitude, wavelength and time.",
+    "after": "The actual sum is zero at that node for every time."
+  },
+  {
+    "before": "Nodes separated by half a wavelength.",
+    "change": "Use a second equal-amplitude wave pair with half the wavelength at the same wave speed.",
+    "preserved": "Displayed interval and superposition rule.",
+    "after": "Twice as many node intervals fit."
+  }
+]

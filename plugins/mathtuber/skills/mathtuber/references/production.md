@@ -42,3 +42,9 @@ Before extending this treatment across an episode, render a small comparison and
 ### Make the reasoning inspectable
 
 When a middle passage merely adds labels to an unchanged diagram, consult [visible reasoning](visible-reasoning.md). State the before, change, preserved reference and after-inference in the storyboard. Animate the relationship only when it contributes evidence: a rearrangement, equal displacement, paired area comparison or visible superposition. Synchronize the operation with its phrase, inspect intermediate states and retain a legible endpoint. A highlighted object alone is not an explanation. Use native geometry and existing cue tools; no new service or mandatory effect is required. See `docs/research/VISIBLE-REASONING.md` for the primary studies and their limits.
+
+### Compare mechanisms before rendering a batch
+
+When the user requests new topics, compare the proposed learning goal, governing relationship and visible operation against earlier project manifests and release reflections. A different title or setting does not make the same proof new. Record the closest earlier episode, the substantive difference, and a decision before synthesis or rendering. Use archived titles only as an initial search aid; explicitly record when earlier transcripts or project sources are unavailable. A failed comparison requires a replacement topic before publication.
+
+For example, two garden films both reassembling a fixed-perimeter rectangle to expose its squared area deficit are duplicates even with different narration. Changing that proposal to a semicircle construction of the geometric mean changes both the theorem and the proof operation. Keep a mechanism index alongside published examples so future agents can retrieve these relationships without repeatedly reading every frame.

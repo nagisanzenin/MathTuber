@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Quiet Average Hidden in a Semicircle",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A semicircle can turn two lengths into a quiet kind of average.",
+        "Place a length of one beside a length of four.",
+        "Draw a semicircle over the whole line.",
+        "At the meeting point, rise straight up to the curve.",
+        "That height will be two.",
+        "Here is why.",
+        "Join the top to both ends of the line.",
+        "An angle resting on a diameter is a right angle.",
+        "The upright divides it into two smaller right triangles.",
+        "These marked angles are equal, so the two small triangles have the same shape.",
+        "Their matching side ratios are one to the height, and the height to four.",
+        "So the height squared is one times four.",
+        "The height is two.",
+        "This is the geometric mean.",
+        "It balances ratios: one to two is the same as two to four.",
+        "With lengths two and eight, the same construction gives four.",
+        "Two lengths, joined by a third that keeps their proportion."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "An altitude on a split diameter has height sqrt(ab); it balances the two ratios.",
+    "question": "How can a semicircle construct the geometric mean?",
+    "payoff": "An altitude on a split diameter has height sqrt(ab); it balances the two ratios.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration for the complete reasoning step; no fixed length padding.",
+    "novelty_audit": "Compared archived titles and previous autonomous release descriptions and available project mechanisms. Rejected a repeated fixed-perimeter garden before release; replaced it with geometric-mean construction. Similarity/area and waves are related themes, with distinct target relationships. Not a full transcript audit of all earlier uploads.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper, preserved objects, visible reasoning steps and held comparisons. Geometry determines composition.",
+      "episode_variation": "Build an altitude on a split diameter, then compare two similar right triangles.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How can a semicircle construct the geometric mean?",
+        "visual_action": "Build an altitude on a split diameter, then compare two similar right triangles.",
+        "new_understanding": "An altitude on a split diameter has height sqrt(ab); it balances the two ratios.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A semicircle can turn two lengths into a quiet kind of average. Place a length of one beside a length of four.\n\nDraw a semicircle over the whole line. At the meeting point, rise straight up to the curve. That height will be two. Here is why.\n\nJoin the top to both ends of the line. An angle resting on a diameter is a right angle. The upright divides it into two smaller right triangles.\n\nThese marked angles are equal, so the two small triangles have the same shape. Their matching side ratios are one to the height, and the height to four. So the height squared is one times four. The height is two.\n\nThis is the geometric mean. It balances ratios: one to two is the same as two to four. With lengths two and eight, the same construction gives four. Two lengths, joined by a third that keeps their proportion."
+    }
+  ],
+  "sources": [
+    "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI13.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

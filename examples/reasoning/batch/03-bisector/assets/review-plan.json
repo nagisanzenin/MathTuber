@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "A line",
+      "end_cue": "But it does",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Compare equal angle marks and unequal base segments."
+    },
+    {
+      "id": "2",
+      "start_cue": "With their bases",
+      "end_cue": "Their areas",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Shared altitude establishes the first area ratio."
+    },
+    {
+      "id": "3",
+      "start_cue": "Drop a perpendicular",
+      "end_cue": "Equal angles",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Equal perpendicular heights establish the second ratio; changed triangle preserves it."
+    }
+  ]
+}

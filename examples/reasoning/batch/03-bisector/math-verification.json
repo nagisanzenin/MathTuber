@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "method": "Independent geometry and governing equations, supplemented by source and render inspection.",
+  "conditions": [
+    "Nondegenerate triangle and internal angle bisector. Perpendicular distances equal from congruent right triangles with shared AD and equal angle at A. Area ratios use positive lengths."
+  ],
+  "checks": [
+    {
+      "name": "equal angles x=-1",
+      "actual": 0.8511554402555755,
+      "expected": 0.8511554402555755,
+      "passed": true
+    },
+    {
+      "name": "equal distances x=-1",
+      "actual": 2.139729486675173,
+      "expected": 2.1397294866751735,
+      "passed": true
+    },
+    {
+      "name": "base ratio x=-1",
+      "actual": 0.784018545157721,
+      "expected": 0.7840185451577208,
+      "passed": true
+    },
+    {
+      "name": "area ratio x=-1",
+      "actual": 0.7840185451577208,
+      "expected": 0.7840185451577208,
+      "passed": true
+    },
+    {
+      "name": "equal angles x=-0.4",
+      "actual": 0.8411562738017906,
+      "expected": 0.8411562738017907,
+      "passed": true
+    },
+    {
+      "name": "equal distances x=-0.4",
+      "actual": 2.171558289285565,
+      "expected": 2.1715582892855645,
+      "passed": true
+    },
+    {
+      "name": "base ratio x=-0.4",
+      "actual": 0.892722977592048,
+      "expected": 0.892722977592048,
+      "passed": true
+    },
+    {
+      "name": "area ratio x=-0.4",
+      "actual": 0.8927229775920482,
+      "expected": 0.892722977592048,
+      "passed": true
+    },
+    {
+      "name": "equal angles x=0.8",
+      "actual": 0.8437178694727071,
+      "expected": 0.8437178694727071,
+      "passed": true
+    },
+    {
+      "name": "equal distances x=0.8",
+      "actual": 2.163539713967895,
+      "expected": 2.1635397139678947,
+      "passed": true
+    },
+    {
+      "name": "base ratio x=0.8",
+      "actual": 1.1709992159228775,
+      "expected": 1.1709992159228775,
+      "passed": true
+    },
+    {
+      "name": "area ratio x=0.8",
+      "actual": 1.1709992159228775,
+      "expected": 1.1709992159228775,
+      "passed": true
+    }
+  ]
+}

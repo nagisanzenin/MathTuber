@@ -1,0 +1,15 @@
+from scenes._shared.design import *
+class Film(Stage):
+    def construct(self):
+        y=-.4;A=np.array([-3.,y,0]);C=np.array([3.,y,0]);scale=1.2;a=ValueTracker(1.);b=ValueTracker(4.)
+        def pts():
+            total=a.get_value()+b.get_value();sc=6/total;B=A+RIGHT*(a.get_value()*sc);D=B+UP*(np.sqrt(a.get_value()*b.get_value())*sc);return B,D
+        B,D=pts();base=Line(A,C,color=self.palette['ink']);left=Line(A,B,color=self.palette['primary'],stroke_width=7);right=Line(B,C,color=self.palette['secondary'],stroke_width=7)
+        self.add(base,left,right);one=self.label('1',(A+B)/2+DOWN*.5,'primary','claim');four=self.label('4',(B+C)/2+DOWN*.5,'secondary','claim');self.add(one,four);self.at('A semicircle can');self.at('Place a length');self.at('Draw a semicircle');arc=Arc(radius=3,start_angle=0,angle=PI,arc_center=np.array([0,y,0]),color=self.palette['ink'],stroke_width=3);self.play(Create(arc),run_time=1.5)
+        self.at('At the meeting');height=Line(B,D,color=self.palette['primary'],stroke_width=4);self.play(Create(height),run_time=1.2);self.at('That height');h=self.label('h', (B+D)/2+LEFT*.4,'ink','claim');self.play(FadeIn(h),run_time=.4);self.at('Here is why');self.at('Join the top');sides=VGroup(Line(A,D,color=self.palette['ink']),Line(D,C,color=self.palette['ink']));self.play(Create(sides),run_time=1)
+        self.at('An angle resting');ra=RightAngle(Line(D,A),Line(D,C),length=.22,color=self.palette['ink']);self.play(Create(ra),run_time=.5)
+        self.at('The upright');t1=self.poly(A,B,D,opacity=.22);t2=self.poly(B,C,D,color='secondary',opacity=.22);self.add(t1,t2);self.bring_to_front(height,sides,ra,h);rb=RightAngle(Line(B,C),Line(B,D),length=.2,color=self.palette['ink']);self.play(Create(rb),run_time=.5)
+        self.at('These marked');ang1=Angle(Line(A,C),Line(A,D),radius=.5,color=self.palette['primary']);ang2=Angle(Line(D,B),Line(D,C),radius=.5,color=self.palette['primary']);self.play(Create(ang1),Create(ang2),run_time=.8)
+        self.at('Their matching');ratio=self.label('1 / h = h / 4',[0,-1.8,0],'ink','claim');self.play(FadeIn(ratio),run_time=.5);self.at('So the height');eq=self.label('h² = 1 × 4',[0,-2.6,0],'ink','claim');self.play(FadeIn(eq),run_time=.5);self.at('The height is');h=self.replace_label(h,self.label('2',(B+D)/2+LEFT*.4,'primary','claim'))
+        self.at('This is the geometric');self.at('It balances');ratio=self.replace_label(ratio,self.label('1 / 2 = 2 / 4',[0,-1.8,0],'ink','claim'));self.play(FadeOut(eq),run_time=.4)
+        self.at('With lengths');one=self.replace_label(one,self.label('2',(A+B)/2+DOWN*.5,'primary','claim'));four=self.replace_label(four,self.label('8',(B+C)/2+DOWN*.5,'secondary','claim'));h=self.replace_label(h,self.label('4',(B+D)/2+LEFT*.4,'primary','claim'));ratio=self.replace_label(ratio,self.label('2 / 4 = 4 / 8',[0,-1.8,0],'ink','claim'));note=self.label('same shape • twice the lengths',[0,-2.6,0],'muted','label');self.play(FadeIn(note),run_time=.5);self.at('Two lengths joined');self.finish()

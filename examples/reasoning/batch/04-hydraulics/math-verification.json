@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "method": "Independent geometry and governing equations, supplemented by source and render inspection.",
+  "conditions": [
+    "Ideal incompressible liquid, negligible friction and hydrostatic height-pressure differences; rectangular chambers of equal depth into page. Colored swept regions are volume bookkeeping, not Lagrangian parcels. No claim of slowly propagating pressure."
+  ],
+  "checks": [
+    {
+      "name": "volume at displacement 1.2",
+      "actual": 1.2,
+      "expected": 1.2,
+      "passed": true
+    },
+    {
+      "name": "ideal work at 1.2",
+      "actual": 1.2,
+      "expected": 1.2,
+      "passed": true
+    },
+    {
+      "name": "volume at displacement 1.8",
+      "actual": 1.8,
+      "expected": 1.7999999999999998,
+      "passed": true
+    },
+    {
+      "name": "ideal work at 1.8",
+      "actual": 1.8,
+      "expected": 1.7999999999999998,
+      "passed": true
+    },
+    {
+      "name": "three strips tile output swept area",
+      "actual": 1.2000000000000002,
+      "expected": 1.2000000000000002,
+      "passed": true
+    },
+    {
+      "name": "force ratio for equal pressure increment",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "A patch",
+      "end_cue": "Its outline",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Watch the initial shear."
+    },
+    {
+      "id": "2",
+      "start_cue": "Now cut",
+      "end_cue": "The leaning",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Track the cut triangle through its exact translation."
+    },
+    {
+      "id": "3",
+      "start_cue": "Let the shape",
+      "end_cue": "Sometimes a new",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "See equal-width slices during shear and the resolved rectangle."
+    }
+  ]
+}

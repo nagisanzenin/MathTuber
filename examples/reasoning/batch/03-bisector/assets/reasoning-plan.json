@@ -1,0 +1,14 @@
+[
+  {
+    "before": "Two colored triangles share the altitude to BC.",
+    "change": "Trace both base segments.",
+    "preserved": "The same colored areas.",
+    "after": "Their ratio equals BD:DC."
+  },
+  {
+    "before": "The same areas.",
+    "change": "Switch bases to AB and AC and construct equal perpendicular distances from D.",
+    "preserved": "The same triangles and common bisector AD.",
+    "after": "Their ratio also equals AB:AC, so both length ratios agree."
+  }
+]

@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "An Equal Angle with an Unequal Secret",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A line shares this angle equally.",
+        "But it does not usually share the opposite side equally.",
+        "Call the meeting point D.",
+        "Look at the two colored triangles.",
+        "With their bases along the bottom, they have the same height.",
+        "Their areas therefore follow the ratio of B D to D C.",
+        "Now use the two outer sides as bases instead.",
+        "Drop a perpendicular from D to each one.",
+        "The small right triangles share A D and the same angle at A.",
+        "So these two perpendicular heights are equal too.",
+        "The same two areas now follow the ratio of A B to A C.",
+        "One area comparison has given us two length ratios.",
+        "They must be the same.",
+        "Move the top corner and keep its angle split equally.",
+        "The base division changes with the outer sides.",
+        "Equal angles reveal a proportion, even when the shape is uneven."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "An internal angle bisector divides the opposite side in the ratio of the adjacent sides.",
+    "question": "What proportion does an angle bisector reveal?",
+    "payoff": "An internal angle bisector divides the opposite side in the ratio of the adjacent sides.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration for the complete reasoning step; no fixed length padding.",
+    "novelty_audit": "Compared archived titles and previous autonomous release descriptions and available project mechanisms. Rejected a repeated fixed-perimeter garden before release; replaced it with geometric-mean construction. Similarity/area and waves are related themes, with distinct target relationships. Not a full transcript audit of all earlier uploads.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper, preserved objects, visible reasoning steps and held comparisons. Geometry determines composition.",
+      "episode_variation": "Read the same pair of triangle areas using two different common-height comparisons.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "What proportion does an angle bisector reveal?",
+        "visual_action": "Read the same pair of triangle areas using two different common-height comparisons.",
+        "new_understanding": "An internal angle bisector divides the opposite side in the ratio of the adjacent sides.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A line shares this angle equally. But it does not usually share the opposite side equally.\n\nCall the meeting point D. Look at the two colored triangles. With their bases along the bottom, they have the same height. Their areas therefore follow the ratio of B D to D C.\n\nNow use the two outer sides as bases instead. Drop a perpendicular from D to each one. The small right triangles share A D and the same angle at A. So these two perpendicular heights are equal too.\n\nThe same two areas now follow the ratio of A B to A C. One area comparison has given us two length ratios. They must be the same.\n\nMove the top corner and keep its angle split equally. The base division changes with the outer sides. Equal angles reveal a proportion, even when the shape is uneven."
+    }
+  ],
+  "sources": [
+    "https://mathcs.clarku.edu/~djoyce/elements/bookVI/propVI3.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

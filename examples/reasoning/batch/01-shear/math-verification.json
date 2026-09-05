@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "method": "Independent geometry and governing equations, supplemented by source and render inspection.",
+  "conditions": [
+    "Euclidean planar area. Triangular cut demonstration uses shear1.2 less than base4. General fixed-base fixed-height shear follows equal horizontal slices."
+  ],
+  "checks": [
+    {
+      "name": "shear area -1.2",
+      "actual": 12.0,
+      "expected": 12.0,
+      "passed": true
+    },
+    {
+      "name": "shear area 0",
+      "actual": 12.0,
+      "expected": 12.0,
+      "passed": true
+    },
+    {
+      "name": "shear area 0.9",
+      "actual": 12.000000000000002,
+      "expected": 12.0,
+      "passed": true
+    },
+    {
+      "name": "shear area 1.2",
+      "actual": 12.0,
+      "expected": 12.0,
+      "passed": true
+    },
+    {
+      "name": "cut triangle area",
+      "actual": 1.8000000000000007,
+      "expected": 1.8,
+      "passed": true
+    },
+    {
+      "name": "remaining polygon area",
+      "actual": 10.200000000000001,
+      "expected": 10.2,
+      "passed": true
+    },
+    {
+      "name": "translated cut fills exact left triangle",
+      "actual": 2.220446049250313e-16,
+      "expected": 0.0,
+      "passed": true
+    }
+  ]
+}

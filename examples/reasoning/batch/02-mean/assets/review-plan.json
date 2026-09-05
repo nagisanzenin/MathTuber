@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Draw a semicircle",
+      "end_cue": "Here is why",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Construct the perpendicular height."
+    },
+    {
+      "id": "2",
+      "start_cue": "Join the top",
+      "end_cue": "So the height",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Right angles and corresponding equal angles explain similarity."
+    },
+    {
+      "id": "3",
+      "start_cue": "It balances",
+      "end_cue": "Two lengths joined",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Double all lengths, preserving ratios and showing the drawing is rescaled."
+    }
+  ]
+}

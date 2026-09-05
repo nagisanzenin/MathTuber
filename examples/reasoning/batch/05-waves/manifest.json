@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Stillness Made from Two Moving Waves",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Some places on a vibrating string can stay still.",
+        "That stillness can come from two waves traveling in opposite directions.",
+        "Separate their mathematical contributions for a moment.",
+        "The upper wave travels right, and the lower one travels left.",
+        "They have equal amplitude and wavelength.",
+        "The actual displacement is their sum.",
+        "At this marked place, one contribution is up while the other is equally down.",
+        "They cancel.",
+        "As time passes, this point stays still.",
+        "It is called a node.",
+        "Between the nodes, the contributions can reinforce each other.",
+        "The string moves up and down, but the pattern does not travel sideways.",
+        "The distance between neighboring nodes is half a wavelength.",
+        "Use waves with half the wavelength.",
+        "More still points now fit into the same space.",
+        "This is an ideal model of waves adding together, shown slowly.",
+        "A quiet point need not mean nothing is happening; it can be where two movements meet."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Equal-amplitude counterpropagating sinusoidal waves form fixed nodes spaced half a wavelength apart.",
+    "question": "How can traveling waves make points that stay still?",
+    "payoff": "Equal-amplitude counterpropagating sinusoidal waves form fixed nodes spaced half a wavelength apart.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration for the complete reasoning step; no fixed length padding.",
+    "novelty_audit": "Compared archived titles and previous autonomous release descriptions and available project mechanisms. Rejected a repeated fixed-perimeter garden before release; replaced it with geometric-mean construction. Similarity/area and waves are related themes, with distinct target relationships. Not a full transcript audit of all earlier uploads.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper, preserved objects, visible reasoning steps and held comparisons. Geometry determines composition.",
+      "episode_variation": "Separate two contributions, inspect cancellation at a node and reinforcement between nodes, then halve the wavelength.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How can traveling waves make points that stay still?",
+        "visual_action": "Separate two contributions, inspect cancellation at a node and reinforcement between nodes, then halve the wavelength.",
+        "new_understanding": "Equal-amplitude counterpropagating sinusoidal waves form fixed nodes spaced half a wavelength apart.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Some places on a vibrating string can stay still. That stillness can come from two waves traveling in opposite directions.\n\nSeparate their mathematical contributions for a moment. The upper wave travels right, and the lower one travels left. They have equal amplitude and wavelength. The actual displacement is their sum.\n\nAt this marked place, one contribution is up while the other is equally down. They cancel. As time passes, this point stays still. It is called a node.\n\nBetween the nodes, the contributions can reinforce each other. The string moves up and down, but the pattern does not travel sideways. The distance between neighboring nodes is half a wavelength.\n\nUse waves with half the wavelength. More still points now fit into the same space. This is an ideal model of waves adding together, shown slowly. A quiet point need not mean nothing is happening; it can be where two movements meet."
+    }
+  ],
+  "sources": [
+    "https://openstax.org/books/university-physics-volume-1/pages/16-6-standing-waves-and-resonance"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

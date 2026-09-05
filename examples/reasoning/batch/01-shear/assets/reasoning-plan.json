@@ -1,0 +1,14 @@
+[
+  {
+    "before": "Parallelogram with fixed base and height.",
+    "change": "Cut the right triangular overhang and translate it by minus the base width.",
+    "preserved": "All pieces and their areas; parallel top and bottom.",
+    "after": "The same pieces tile a rectangle of width base and height h."
+  },
+  {
+    "before": "The same parallelogram.",
+    "change": "Slide each horizontal slice while changing shear.",
+    "preserved": "Every slice width and total height.",
+    "after": "Different lean, same area."
+  }
+]

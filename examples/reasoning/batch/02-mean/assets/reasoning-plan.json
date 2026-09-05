@@ -1,0 +1,14 @@
+[
+  {
+    "before": "Lengths1 and4 form a diameter.",
+    "change": "Construct semicircle and perpendicular altitude at their junction.",
+    "preserved": "Diameter endpoints and split lengths.",
+    "after": "Similar right triangles give1/h=h/4, henceh2."
+  },
+  {
+    "before": "Lengths1,2,4.",
+    "change": "Double all physical lengths; fit the drawing at half scale.",
+    "preserved": "Shape and side ratios.",
+    "after": "Lengths2,4,8 give the same ratios."
+  }
+]
