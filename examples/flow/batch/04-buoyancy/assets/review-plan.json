@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Imagine holding",
+      "end_cue": "What remains",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Compare pressure arrows on the top and bottom."
+    },
+    {
+      "id": "2",
+      "start_cue": "Now imagine replacing",
+      "end_cue": "Put the block back",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Inspect same-boundary water replacement and balanced force arrows."
+    },
+    {
+      "id": "3",
+      "start_cue": "For this uniform wood",
+      "end_cue": "We are ignoring",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Verify sixty and eighty percent submerged geometry."
+    }
+  ]
+}

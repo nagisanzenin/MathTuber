@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "A small lamp",
+      "end_cue": "Watch one small",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "See widening bundle immediately."
+    },
+    {
+      "id": "2",
+      "start_cue": "Move the patch twice",
+      "end_cue": "The bundle carries",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Track doubled width and height into four equal areas."
+    },
+    {
+      "id": "3",
+      "start_cue": "Three times the distance",
+      "end_cue": "The square in",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Verify nine squares and one ninth energy per equal area."
+    }
+  ]
+}

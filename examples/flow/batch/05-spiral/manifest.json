@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "A Spiral That Grows Without Forgetting Its Shape",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "This spiral grows without forgetting its shape.",
+        "Each quarter turn makes the distance from its center one and a half times larger.",
+        "The rule keeps multiplying as the curve turns.",
+        "Start at this small radius.",
+        "After one quarter turn, it has grown by the same factor.",
+        "After the next quarter turn, multiply again.",
+        "The added distance gets larger, but the proportion stays the same.",
+        "Now follow the direction of the curve.",
+        "Compare it with the direction pointing away from the center.",
+        "The angle between them stays constant.",
+        "The spiral is always making the same kind of turn, wherever we look.",
+        "Enlarge a copy by that growth factor.",
+        "Rotate it by a quarter turn.",
+        "The overlapping part fits the original curve.",
+        "What looked like a new scale is the same relationship appearing again.",
+        "This family is called logarithmic spirals.",
+        "Different growth factors make tighter or more open curves.",
+        "No single factor is required, and this one is not the golden spiral.",
+        "Living shapes can resemble these curves without following them exactly.",
+        "The beauty here is a rule of growth: keep changing size, and keep a relationship intact."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "A logarithmic spiral has constant multiplicative radial growth per turn and a constant tangent-radial angle.",
+    "question": "How can a growing curve keep the same relationship?",
+    "payoff": "A logarithmic spiral has constant multiplicative radial growth per turn and a constant tangent-radial angle.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One relationship with a measured voice track; short paragraph gaps and no duration padding.",
+    "novelty_audit": "Reviewed 175 archived channel titles plus twenty events, nature, motion and quiet releases. Specific explanatory topic is new; this is not a full transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper and ink, subject-led imagery, persistent objects, motion for change and deliberate holds for comparisons.",
+      "episode_variation": "Draw a spiral, compare multiplicative quarter turns and constant tangent angle, then align a scaled rotated copy.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How can a growing curve keep the same relationship?",
+        "visual_action": "Draw a spiral, compare multiplicative quarter turns and constant tangent angle, then align a scaled rotated copy.",
+        "new_understanding": "A logarithmic spiral has constant multiplicative radial growth per turn and a constant tangent-radial angle.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "This spiral grows without forgetting its shape. Each quarter turn makes the distance from its center one and a half times larger. The rule keeps multiplying as the curve turns.\n\nStart at this small radius. After one quarter turn, it has grown by the same factor. After the next quarter turn, multiply again. The added distance gets larger, but the proportion stays the same.\n\nNow follow the direction of the curve. Compare it with the direction pointing away from the center. The angle between them stays constant. The spiral is always making the same kind of turn, wherever we look.\n\nEnlarge a copy by that growth factor. Rotate it by a quarter turn. The overlapping part fits the original curve. What looked like a new scale is the same relationship appearing again.\n\nThis family is called logarithmic spirals. Different growth factors make tighter or more open curves. No single factor is required, and this one is not the golden spiral. Living shapes can resemble these curves without following them exactly. The beauty here is a rule of growth: keep changing size, and keep a relationship intact."
+    }
+  ],
+  "sources": [
+    "https://mathworld.wolfram.com/LogarithmicSpiral.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

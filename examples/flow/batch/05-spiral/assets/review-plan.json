@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "This spiral grows",
+      "end_cue": "Start at this small",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Inspect actual unfolding curve and opening caption."
+    },
+    {
+      "id": "2",
+      "start_cue": "Now follow the direction",
+      "end_cue": "The spiral is always",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Check tangent and radial angle at multiple positions."
+    },
+    {
+      "id": "3",
+      "start_cue": "Enlarge a copy",
+      "end_cue": "The overlapping part",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Verify scale then quarter turn aligns the overlapping segment."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "The same length",
+      "end_cue": "We have twelve",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Observe fixed perimeter and changing enclosed area."
+    },
+    {
+      "id": "2",
+      "start_cue": "One and five",
+      "end_cue": "To see why",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Count exact five, eight and nine unit squares."
+    },
+    {
+      "id": "3",
+      "start_cue": "The lost strip",
+      "end_cue": "If the change is one",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Inspect the rotated matching strip and leftover square."
+    }
+  ]
+}

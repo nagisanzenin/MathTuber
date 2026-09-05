@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Why Distance Spreads a Little Light So Thin",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A small lamp can light a nearby page, yet feel weak across a room.",
+        "The light has more space to cover.",
+        "Watch one small bundle spread.",
+        "These rays mark the edges of a bundle leaving one point.",
+        "A square patch catches that bundle here.",
+        "Move the patch twice as far away.",
+        "Its width doubles, and its height doubles too.",
+        "One square becomes four equal squares.",
+        "The bundle carries the same energy through the larger patch.",
+        "Each small square receives one quarter as much.",
+        "The light has not vanished.",
+        "It is shared across four times the area.",
+        "Three times the distance gives three times the width and height.",
+        "That makes nine squares.",
+        "Each receives one ninth of the original energy.",
+        "The square in inverse square comes from an area.",
+        "This model assumes a small steady source and clear space.",
+        "It describes energy per area, not the way our eyes judge brightness.",
+        "A focused beam or nearby large panel can behave differently.",
+        "For freely spreading light, distance becomes geometry.",
+        "A little farther away means a much larger place to share the glow."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "For a point source in clear space, equal ray bundles spread over area proportional to distance squared.",
+    "question": "Why does light weaken so quickly with distance?",
+    "payoff": "For a point source in clear space, equal ray bundles spread over area proportional to distance squared.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One relationship with a measured voice track; short paragraph gaps and no duration padding.",
+    "novelty_audit": "Reviewed 175 archived channel titles plus twenty events, nature, motion and quiet releases. Specific explanatory topic is new; this is not a full transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper and ink, subject-led imagery, persistent objects, motion for change and deliberate holds for comparisons.",
+      "episode_variation": "One ray bundle widens onto a patch that divides into four then nine equal areas.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why does light weaken so quickly with distance?",
+        "visual_action": "One ray bundle widens onto a patch that divides into four then nine equal areas.",
+        "new_understanding": "For a point source in clear space, equal ray bundles spread over area proportional to distance squared.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A small lamp can light a nearby page, yet feel weak across a room. The light has more space to cover. Watch one small bundle spread.\n\nThese rays mark the edges of a bundle leaving one point. A square patch catches that bundle here. Move the patch twice as far away. Its width doubles, and its height doubles too. One square becomes four equal squares.\n\nThe bundle carries the same energy through the larger patch. Each small square receives one quarter as much. The light has not vanished. It is shared across four times the area.\n\nThree times the distance gives three times the width and height. That makes nine squares. Each receives one ninth of the original energy. The square in inverse square comes from an area.\n\nThis model assumes a small steady source and clear space. It describes energy per area, not the way our eyes judge brightness. A focused beam or nearby large panel can behave differently. For freely spreading light, distance becomes geometry. A little farther away means a much larger place to share the glow."
+    }
+  ],
+  "sources": [
+    "https://openstax.org/books/astronomy-2e/pages/5-1-the-behavior-of-light"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

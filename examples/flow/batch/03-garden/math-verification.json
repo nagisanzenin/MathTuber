@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "method": "Independent derivation and numerical checks, separate from rendered text",
+  "claims": [
+    "Fixed perimeter 12 implies side sum 6. Write sides 3+x and 3\u2212x; area is 9\u2212x\u00b2\u22649. Strip dissection removes 3x and adds (3\u2212x)x, losing x\u00b2 for nonnegative x. Exchanging side roles covers negative x.",
+    "Claim applies only to rectangles, not to all shapes; continuously changed diagrams illustrate the constrained family rather than elastic fence mechanics."
+  ],
+  "checks": [
+    {
+      "description": "Perimeter stays 12 and area is 9\u2212x\u00b2",
+      "passed": true
+    },
+    {
+      "description": "Examples have 5, 8 and 9 cells",
+      "passed": true
+    },
+    {
+      "description": "Strip difference equals square for one and half units",
+      "passed": true
+    },
+    {
+      "description": "Maximum occurs only at zero imbalance",
+      "passed": true
+    }
+  ],
+  "limitations": "Numerical samples verify implementation consistency, not a substitute for the stated general arguments."
+}

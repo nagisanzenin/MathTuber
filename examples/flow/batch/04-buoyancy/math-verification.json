@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "method": "Independent derivation and numerical checks, separate from rendered text",
+  "claims": [
+    "For a fully submerged cuboid in hydrostatic fluid, bottom-top pressure difference is rho g H, giving net force rho g H A, the weight of displaced fluid. The same-boundary fluid replacement argument generalizes to arbitrary shapes.",
+    "Floating equilibrium gives submerged volume fraction rho_body/rho_water for a uniform block. The water surface is a large-reservoir idealization; surface tension and waves are neglected. Lowering and repositioning are illustrative, not a free-motion simulation."
+  ],
+  "checks": [
+    {
+      "description": "Pressure difference gives displaced weight at different depths",
+      "passed": true
+    },
+    {
+      "description": "Submerged geometry matches density fraction",
+      "passed": true
+    },
+    {
+      "description": "Floating force balance",
+      "passed": true
+    }
+  ],
+  "limitations": "Numerical samples verify implementation consistency, not a substitute for the stated general arguments."
+}

@@ -1,0 +1,36 @@
+from scenes._shared.design import *
+class Film(Stage):
+    def construct(self):
+        c=np.array([0,1.7,0]);unit=.72;w=ValueTracker(5.)
+        def rect():
+         width=w.get_value();height=6-width
+         return Rectangle(width=width*unit,height=height*unit,fill_color=self.palette['primary'],fill_opacity=.25,stroke_color=self.palette['ink'],stroke_width=3).move_to(c)
+        self.at('The same length');shape=always_redraw(rect);self.add(shape);self.play(w.animate.set_value(3),run_time=2.2)
+        self.at('Pull this rectangle');self.play(w.animate.set_value(5),run_time=1.7)
+        self.at('Bring its sides');self.play(w.animate.set_value(3),run_time=2)
+        self.at('We have twelve');label=self.label('fence = 12',[0,-.55,0],'ink','label');self.play(FadeIn(label),run_time=.5)
+        self.at('The two different');sumlabel=self.label('width + height = 6',[0,-1.2,0],'muted','label');self.play(FadeIn(sumlabel),run_time=.5)
+        def cells(width,height):return VGroup(*[Square(side_length=unit,stroke_color=self.palette['ink'],stroke_width=1,fill_color=self.palette['primary'],fill_opacity=.25).move_to(c+[(i-(width-1)/2)*unit,(j-(height-1)/2)*unit,0]) for i in range(width) for j in range(height)])
+        self.at('One and five');self.play(w.animate.set_value(5),run_time=.7);grid=cells(5,1);self.add(grid);count=self.label('1 × 5 = 5',[0,-2,0],'primary','claim');self.play(FadeIn(count),run_time=.4)
+        self.at('Two and four');self.remove(grid);self.play(FadeOut(count),w.animate.set_value(4),run_time=.6);grid=cells(4,2);self.add(grid);count=self.replace_label(None,self.label('2 × 4 = 8',[0,-2,0],'primary','claim'))
+        self.at('Three and three');self.remove(grid);self.play(FadeOut(count),w.animate.set_value(3),run_time=.6);grid=cells(3,3);self.add(grid);count=self.replace_label(None,self.label('3 × 3 = 9',[0,-2,0],'primary','claim'))
+        self.at('To see why');self.play(FadeOut(grid),FadeOut(count),FadeOut(label),FadeOut(sumlabel),FadeOut(shape),run_time=.6)
+        # Corner-anchored exact dissection: the loss square stays attached to its strip.
+        u=.85;O=np.array([-1.7,.4,0]);x=ValueTracker(0.)
+        def box(a,b,ww,hh,color,opacity=.3):return Rectangle(width=max(ww,.001)*u,height=max(hh,.001)*u,fill_color=self.palette[color],fill_opacity=opacity,stroke_color=self.palette[color],stroke_width=2).move_to(O+[(a+ww/2)*u,(b+hh/2)*u,0])
+        base=box(0,0,3,3,'muted',.05);self.add(base)
+        main=always_redraw(lambda:box(0,0,3,3-x.get_value(),'primary'))
+        lost=always_redraw(lambda:box(0,3-x.get_value(),3,x.get_value(),'secondary'))
+        gain=always_redraw(lambda:box(3,0,x.get_value(),3-x.get_value(),'accent'))
+        self.add(main,lost,gain)
+        self.at('Add a little');self.play(x.animate.set_value(1),run_time=2)
+        self.at('The fence length');note=self.label('4 + 2 = 3 + 3',[0,-.7,0],'ink','label');self.play(FadeIn(note),run_time=.5)
+        self.at('We lose a strip');self.focus_outline(lost,run_time=.6);self.focus_outline(gain,run_time=.6)
+        self.at('The lost strip');lost.clear_updaters();gain.clear_updaters();main.clear_updaters();self.remove(lost);matching=box(0,2,2,1,'secondary');missing=box(2,2,1,1,'secondary',.55);self.add(matching,missing)
+        self.play(matching.animate.rotate(-PI/2).move_to(gain),run_time=1.5)
+        self.at('The difference is');self.focus_outline(missing,run_time=.8);tag=self.label('lost area = 1²',[0,-1.5,0],'secondary','label');self.play(FadeIn(tag),run_time=.4)
+        self.at('If the change is one');self.wait(.3)
+        self.at('If the change is half');self.play(FadeOut(matching),FadeOut(gain),FadeOut(main),FadeOut(missing),FadeOut(note),run_time=.5);x.set_value(.5);main=box(0,0,3,2.5,'primary');gain=box(3,0,.5,2.5,'accent');lost=box(0,2.5,3,.5,'secondary');missing=box(2.5,2.5,.5,.5,'secondary',.65);self.add(main,gain,lost,missing);tag=self.replace_label(tag,self.label('lost area = ½² = ¼',[0,-1.5,0],'secondary','label'));self.focus_outline(missing,run_time=.6)
+        self.at('Any imbalance');self.play(FadeOut(tag),run_time=.4);rule=self.label('area = 9 − change²',[0,-1.5,0],'ink','label');self.play(FadeIn(rule),run_time=.5)
+        self.at('So among rectangles');self.play(FadeOut(main),FadeOut(gain),FadeOut(lost),FadeOut(missing),FadeOut(rule),run_time=.5);whole=box(0,0,3,3,'primary');self.play(FadeIn(whole),run_time=.7)
+        self.at('Sometimes optimization');self.finish()

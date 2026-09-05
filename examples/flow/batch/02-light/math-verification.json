@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "method": "Independent derivation and numerical checks, separate from rendered text",
+  "claims": [
+    "A fixed angular ray bundle from a point source intersects similar parallel patches whose linear dimensions scale with distance. Area scales with distance squared, so conserved power divided by area falls as inverse distance squared.",
+    "Displayed patch geometry is an affine projection. Near/far cross-sections show the same ray bundle, not sequential opaque screens. Subdivisions remain on the same patch without a separate inset. Clear space, steady point source, no focusing or absorption; energy per area is not subjective brightness."
+  ],
+  "checks": [
+    {
+      "description": "Projected patch determinants scale by square",
+      "passed": true
+    },
+    {
+      "description": "Four and nine cells partition their respective patches",
+      "passed": true
+    },
+    {
+      "description": "Same power gives quarter and ninth irradiance",
+      "passed": true
+    }
+  ],
+  "limitations": "Numerical samples verify implementation consistency, not a substitute for the stated general arguments."
+}

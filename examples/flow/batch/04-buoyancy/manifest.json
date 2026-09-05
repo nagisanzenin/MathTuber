@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Water That Quietly Holds a Piece of Wood",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A piece of wood rests partly inside the water.",
+        "The water is quietly carrying its weight.",
+        "Where does that upward support come from?",
+        "Imagine holding the block completely underwater.",
+        "Water pressure increases with depth.",
+        "The bottom feels a stronger upward push than the downward push on top.",
+        "The sideways pushes cancel.",
+        "What remains is an upward force.",
+        "Now imagine replacing the block with water, without changing its shape.",
+        "The surrounding water pushes on the same boundary.",
+        "That little parcel of water can rest in balance.",
+        "So the upward support must match the weight of the parcel.",
+        "Put the block back.",
+        "The support is the weight of the water that would occupy its submerged space.",
+        "This is the idea behind buoyancy.",
+        "A floating block settles until that support equals its own weight.",
+        "For this uniform wood, imagine a density sixty percent that of water.",
+        "Sixty percent of its volume sits below the surface.",
+        "A denser block needs to displace more water.",
+        "At eighty percent density, it sits lower.",
+        "We are ignoring waves and surface tension in this simple model.",
+        "Floating is a quiet balance between what is there and the water it makes room for."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Buoyant force equals displaced water weight; a floating uniform block submerges by its density ratio.",
+    "question": "What holds up a floating piece of wood?",
+    "payoff": "Buoyant force equals displaced water weight; a floating uniform block submerges by its density ratio.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One relationship with a measured voice track; short paragraph gaps and no duration padding.",
+    "novelty_audit": "Reviewed 175 archived channel titles plus twenty events, nature, motion and quiet releases. Specific explanatory topic is new; this is not a full transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper and ink, subject-led imagery, persistent objects, motion for change and deliberate holds for comparisons.",
+      "episode_variation": "Keep a block in one coordinate frame; replace it with water to reason about support, then compare submerged fractions.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "What holds up a floating piece of wood?",
+        "visual_action": "Keep a block in one coordinate frame; replace it with water to reason about support, then compare submerged fractions.",
+        "new_understanding": "Buoyant force equals displaced water weight; a floating uniform block submerges by its density ratio.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A piece of wood rests partly inside the water. The water is quietly carrying its weight. Where does that upward support come from?\n\nImagine holding the block completely underwater. Water pressure increases with depth. The bottom feels a stronger upward push than the downward push on top. The sideways pushes cancel. What remains is an upward force.\n\nNow imagine replacing the block with water, without changing its shape. The surrounding water pushes on the same boundary. That little parcel of water can rest in balance. So the upward support must match the weight of the parcel.\n\nPut the block back. The support is the weight of the water that would occupy its submerged space. This is the idea behind buoyancy. A floating block settles until that support equals its own weight.\n\nFor this uniform wood, imagine a density sixty percent that of water. Sixty percent of its volume sits below the surface. A denser block needs to displace more water. At eighty percent density, it sits lower. We are ignoring waves and surface tension in this simple model. Floating is a quiet balance between what is there and the water it makes room for."
+    }
+  ],
+  "sources": [
+    "https://openstax.org/books/college-physics/pages/11-7-archimedes-principle"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "method": "Independent derivation and numerical checks, separate from rendered text",
+  "claims": [
+    "A pulse emitted at time kT has center x0+v kT and radius c(t-kT). Each center stays fixed in still air. Adjacent leading wavefronts are separated by (c-v)T and trailing fronts by (c+v)T. Stationary observers therefore receive frequency c/((c\u00b1v)T).",
+    "Scene is a 2D cross-section of sound wavefronts, not air-particle trajectories. Source speed is below sound speed. The light Doppler formula differs."
+  ],
+  "checks": [
+    {
+      "description": "Leading gaps match cT\u2212vT",
+      "passed": true
+    },
+    {
+      "description": "Trailing gaps match cT+vT",
+      "passed": true
+    },
+    {
+      "description": "Stationary limit returns original frequency",
+      "passed": true
+    },
+    {
+      "description": "Source is subsonic",
+      "passed": true
+    }
+  ],
+  "limitations": "Numerical samples verify implementation consistency, not a substitute for the stated general arguments."
+}

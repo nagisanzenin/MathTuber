@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Uneven Rings Left by a Moving Sound",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A moving sound leaves an uneven pattern behind.",
+        "The rings crowd together in front and open out behind.",
+        "Watch the places where each ring began.",
+        "Each pulse starts at the source, then spreads through still air.",
+        "The old rings do not follow the moving source.",
+        "The next pulse begins a little farther forward.",
+        "Let us hold that pattern still.",
+        "In one beat, the wave travels this far.",
+        "The source travels part of that distance too.",
+        "Ahead, subtract the distance moved by the source.",
+        "Behind, add it instead.",
+        "That creates two different gaps from one steady rhythm.",
+        "When we let the pattern move, closely spaced waves arrive more often.",
+        "A listener ahead hears a higher pitch.",
+        "A listener behind hears a lower one.",
+        "The source itself has not changed its note.",
+        "Compare with a source at rest.",
+        "Now each new ring begins at the same point.",
+        "The gaps match in every direction.",
+        "This is an ideal drawing of sound in still air, with a source slower than sound.",
+        "Light needs a different formula.",
+        "The surprise is in the spacing: movement reshapes the rhythm that reaches us."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "A moving sound source changes wavelength ahead and behind while keeping its emission frequency fixed.",
+    "question": "Why does motion change a sound we hear?",
+    "payoff": "A moving sound source changes wavelength ahead and behind while keeping its emission frequency fixed.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One relationship with a measured voice track; short paragraph gaps and no duration padding.",
+    "novelty_audit": "Reviewed 175 archived channel titles plus twenty events, nature, motion and quiet releases. Specific explanatory topic is new; this is not a full transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper and ink, subject-led imagery, persistent objects, motion for change and deliberate holds for comparisons.",
+      "episode_variation": "Wavefronts keep their emission centers while a source moves; pause to compare front and back spacing.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why does motion change a sound we hear?",
+        "visual_action": "Wavefronts keep their emission centers while a source moves; pause to compare front and back spacing.",
+        "new_understanding": "A moving sound source changes wavelength ahead and behind while keeping its emission frequency fixed.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A moving sound leaves an uneven pattern behind. The rings crowd together in front and open out behind. Watch the places where each ring began.\n\nEach pulse starts at the source, then spreads through still air. The old rings do not follow the moving source. The next pulse begins a little farther forward. Let us hold that pattern still.\n\nIn one beat, the wave travels this far. The source travels part of that distance too. Ahead, subtract the distance moved by the source. Behind, add it instead. That creates two different gaps from one steady rhythm.\n\nWhen we let the pattern move, closely spaced waves arrive more often. A listener ahead hears a higher pitch. A listener behind hears a lower one. The source itself has not changed its note.\n\nCompare with a source at rest. Now each new ring begins at the same point. The gaps match in every direction. This is an ideal drawing of sound in still air, with a source slower than sound. Light needs a different formula. The surprise is in the spacing: movement reshapes the rhythm that reaches us."
+    }
+  ],
+  "sources": [
+    "https://openstax.org/books/university-physics-volume-1/pages/17-7-the-doppler-effect"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Garden Hidden Inside the Same Fence",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "The same length of fence can hold very different gardens.",
+        "Pull this rectangle long and narrow.",
+        "Bring its sides toward balance, and more ground fits inside.",
+        "We have twelve units of fence.",
+        "The two different side lengths must add up to six.",
+        "One and five enclose five squares.",
+        "Two and four enclose eight.",
+        "Three and three enclose nine.",
+        "To see why the square wins, start with that square.",
+        "Add a little to its width and remove the same amount from its height.",
+        "The fence length stays unchanged.",
+        "We lose a strip along the top and gain a strip at the side.",
+        "The lost strip is just a little longer than the gained strip.",
+        "The difference is a small square.",
+        "If the change is one unit, the missing area is one square.",
+        "If the change is half a unit, the missing area is one quarter.",
+        "Any imbalance loses the square of that change.",
+        "So among rectangles with this fence length, the square holds the most area.",
+        "Other shapes are a different question.",
+        "Sometimes optimization means giving two competing dimensions room to meet."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "A rectangle with sides 3+x and 3−x has area 9−x², so the square maximizes area for perimeter 12.",
+    "question": "How can the same fence enclose more ground?",
+    "payoff": "A rectangle with sides 3+x and 3−x has area 9−x², so the square maximizes area for perimeter 12.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One relationship with a measured voice track; short paragraph gaps and no duration padding.",
+    "novelty_audit": "Reviewed 175 archived channel titles plus twenty events, nature, motion and quiet releases. Specific explanatory topic is new; this is not a full transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper and ink, subject-led imagery, persistent objects, motion for change and deliberate holds for comparisons.",
+      "episode_variation": "A rectangle changes with fixed perimeter, then a strip dissection reveals the square area lost to imbalance.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How can the same fence enclose more ground?",
+        "visual_action": "A rectangle changes with fixed perimeter, then a strip dissection reveals the square area lost to imbalance.",
+        "new_understanding": "A rectangle with sides 3+x and 3−x has area 9−x², so the square maximizes area for perimeter 12.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "The same length of fence can hold very different gardens. Pull this rectangle long and narrow. Bring its sides toward balance, and more ground fits inside.\n\nWe have twelve units of fence. The two different side lengths must add up to six. One and five enclose five squares. Two and four enclose eight. Three and three enclose nine.\n\nTo see why the square wins, start with that square. Add a little to its width and remove the same amount from its height. The fence length stays unchanged. We lose a strip along the top and gain a strip at the side.\n\nThe lost strip is just a little longer than the gained strip. The difference is a small square. If the change is one unit, the missing area is one square. If the change is half a unit, the missing area is one quarter.\n\nAny imbalance loses the square of that change. So among rectangles with this fence length, the square holds the most area. Other shapes are a different question. Sometimes optimization means giving two competing dimensions room to meet."
+    }
+  ],
+  "sources": [
+    "https://openstax.org/books/calculus-volume-1/pages/4-7-applied-optimization-problems"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

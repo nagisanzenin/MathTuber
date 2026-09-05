@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "A moving sound",
+      "end_cue": "Watch the places",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Verify fixed emission centers and continuous propagation in the opening."
+    },
+    {
+      "id": "2",
+      "start_cue": "In one beat",
+      "end_cue": "That creates",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Inspect wave travel minus or plus source travel."
+    },
+    {
+      "id": "3",
+      "start_cue": "When we let",
+      "end_cue": "The source itself",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Verify resumed phase and different spatial wave gaps."
+    }
+  ]
+}
