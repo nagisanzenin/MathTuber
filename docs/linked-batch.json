@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-06",
+  "profile": "ivisualizethings-workshop@0.3.0",
+  "videos": [
+    {
+      "project": "01-chaos",
+      "title": "Random Dots Can Draw a Fractal #math #Shorts",
+      "url": "https://www.youtube.com/shorts/PDwLNxlOyEE",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M22S",
+      "export_sha256": "3795844f8756259b25ad9ea00d406e16215dc1fc1cb68b17e25893681a81fa72",
+      "render_seconds": 94.82,
+      "reviewed_frames": 58,
+      "editorial": {
+        "decision": "release",
+        "opening": "A finished fractal immediately poses the random-versus-structured puzzle.",
+        "mechanism": "One moving point and its halfway image ground the corner-region map; the square contrast tests the rule.",
+        "readability": "The dark plotting field separates the point cloud; a half label identifies the mapped point, and later anchors use dark ink.",
+        "pacing": "The geometric explanation slows after the point buildup; second-level regions need inspection time.",
+        "sound": "Dry proof narration with quiet original boundary notes. Full decode and ASR reviewed; no subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "The infinite-set and burn-in caveats are verbal; a viewer unfamiliar with repeated maps may still need replay.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      },
+      "audio_token_similarity": 0.9978
+    },
+    {
+      "project": "02-pursuit",
+      "title": "Four Bugs Chase Each Other. How Far Do They Go? #math #Shorts",
+      "url": "https://www.youtube.com/shorts/PbSQO5r41bs",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M22S",
+      "export_sha256": "4520d307f2443dad5520bdd750f64be8eab33a964120f99cc67f478b30a3a0e8",
+      "render_seconds": 56.35,
+      "reviewed_frames": 58,
+      "editorial": {
+        "decision": "release",
+        "opening": "Four marked bugs and spiral traces make an unusual path-length question visible.",
+        "mechanism": "Exact trajectories map to perpendicular velocity arrows and complementary remaining/traveled bars.",
+        "readability": "A preview fill artifact was corrected to stroke-only opacity. The ending uses separate labeled curves at a two-to-one scale.",
+        "pacing": "The instantaneous-velocity explanation is the most demanding passage; the diagram holds while that claim is explained.",
+        "sound": "Dry proof narration with quiet original boundary notes. Full decode and ASR reviewed; no subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "There is no magnified near-center chase. Numerical truncation is disclosed; real comprehension of the velocity argument is unmeasured.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      },
+      "audio_token_similarity": 0.9876
+    },
+    {
+      "project": "03-reflection",
+      "title": "The Shortest Detour Is a Straight Line in Disguise #math #Shorts",
+      "url": "https://www.youtube.com/shorts/TM8UOK7zEoA",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M17S",
+      "export_sha256": "fe0d1d9cbc38c522096a542cc688eedf0c378ecbf5e1a77023fc22bfec34233d",
+      "render_seconds": 67.16,
+      "reviewed_frames": 48,
+      "editorial": {
+        "decision": "release",
+        "opening": "A movable riverbank touching point and live total length give a concrete minimization problem.",
+        "mechanism": "Physical and reflected routes share P; equal lengths survive movement, and a straight unfolded route supplies the proof.",
+        "readability": "A, B, B-prime and P are named. The total-length readout sits below the water, clear of captions.",
+        "pacing": "The fold-back and equal-angle reveal are separated; a changed destination ends with a new optimizer.",
+        "sound": "Dry proof narration with quiet original boundary notes. Full decode and ASR reviewed; no subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "The line is an ideal straight bank, and the map remains schematic. No viewer test establishes whether the mirror argument is intuitive.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      },
+      "audio_token_similarity": 0.9957
+    },
+    {
+      "project": "04-fair-game",
+      "title": "A Fair Coin Does Not Mean a 50\u201350 Finish #math #Shorts",
+      "url": "https://www.youtube.com/shorts/NeszFObfYEw",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M20S",
+      "export_sha256": "60b9f69514218e6ab083dad27f606bb951ec016588129ec097fd94ce8263d65a",
+      "render_seconds": 40.93,
+      "reviewed_frames": 53,
+      "editorial": {
+        "decision": "release",
+        "opening": "The claim distinguishes a fair next toss from an unequal chance of reaching a boundary.",
+        "mechanism": "A numbered token board stays linked to probability heights; the neighboring-average condition forces a line.",
+        "readability": "The board uses dark numerals; the obsolete left/right arrows disappear before the starting point moves to three or five.",
+        "pacing": "The averaging argument carries most of the cognitive load; this remains the most classroom-like episode.",
+        "sound": "Dry proof narration with quiet original boundary notes. Full decode and ASR reviewed; no subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "Probability height is introduced verbally before the graph is completed; the uniqueness argument may require replay for novices.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      },
+      "audio_token_similarity": 0.9853
+    },
+    {
+      "project": "05-missing-square",
+      "title": "Where Did This Extra Hole Come From? #math #Shorts",
+      "url": "https://www.youtube.com/shorts/tVGjxq004xg",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M22S",
+      "export_sha256": "694c24ef05a616f5f313e0591898123929d1e1d31cb43924323aad5abb8b988b",
+      "render_seconds": 85.22,
+      "reviewed_frames": 60,
+      "editorial": {
+        "decision": "release",
+        "opening": "A rigid rearrangement reveals a real unit hole without removing a piece.",
+        "mechanism": "Unequal slopes explain different boundaries; an explicitly magnified deviation inset shows their area difference.",
+        "readability": "The inset names inward and outward deviations around a dashed straight baseline. Main pieces and hole retain grid outlines.",
+        "pacing": "The initial rearrangement is quick, then repeated in both directions; the boundary comparison holds for the reasoning.",
+        "sound": "Dry proof narration with quiet original boundary notes. Full decode and ASR reviewed; no subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "The shallow 13-by-5 shape uses portrait space imperfectly; small slope differences rely on the labeled inset. No audience response is measured.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      },
+      "audio_token_similarity": 0.942
+    }
+  ],
+  "limitations": "Editorial assessment and sampled visual/technical audio review. No uninterrupted audiovisual viewing, subjective listening or actual audience test. Render timings are the final render pass only, not total production time."
+}
