@@ -39,7 +39,7 @@
         "This is a quadratic Bezier curve,",
         "built by repeated linear interpolation.",
         "The construction has a quiet consistency.",
-        "At fraction zero, every choice collapses to the first endpoint.",
+        "At fraction zero, the final point reaches the first endpoint.",
         "At fraction one, it reaches the last.",
         "The middle handle bends the stroke,",
         "even though the curve usually does not pass through that handle.",
@@ -93,7 +93,7 @@
       "id": "s01",
       "source": "scenes/s01.py",
       "class_name": "Film",
-      "narration": "A flowing curve can begin with nothing more than straight lines. Place three points on a page. The first and last are the ends of our stroke. The middle point is a handle. Now choose the same fraction along each of the two straight segments. Halfway on the first. Halfway on the second. Join those new points, and choose halfway once more. That final point lies on our curve. Let the fraction change smoothly from zero to one, keeping it the same at every stage. Watch the final point leave a trace. This is a quadratic Bezier curve, built by repeated linear interpolation. The construction has a quiet consistency. At fraction zero, every choice collapses to the first endpoint. At fraction one, it reaches the last. The middle handle bends the stroke, even though the curve usually does not pass through that handle. Move it, and the whole family of intermediate lines responds. We can also see why the curve stays inside the triangle formed by the three control points. Each new point stays on a segment between points already inside that triangle. Repeating the choice cannot carry it outside. This is one reason such curves are useful for drawing and design: a small set of handles gives a predictable shape. The fraction is not distance along the stroke, so moving it steadily need not mean constant drawing speed. Three points, the same small choice repeated, and a line learns to flow."
+      "narration": "A flowing curve can begin with nothing more than straight lines. Place three points on a page. The first and last are the ends of our stroke. The middle point is a handle. Now choose the same fraction along each of the two straight segments. Halfway on the first. Halfway on the second. Join those new points, and choose halfway once more. That final point lies on our curve. Let the fraction change smoothly from zero to one, keeping it the same at every stage. Watch the final point leave a trace. This is a quadratic Bezier curve, built by repeated linear interpolation. The construction has a quiet consistency. At fraction zero, the final point reaches the first endpoint. At fraction one, it reaches the last. The middle handle bends the stroke, even though the curve usually does not pass through that handle. Move it, and the whole family of intermediate lines responds. We can also see why the curve stays inside the triangle formed by the three control points. Each new point stays on a segment between points already inside that triangle. Repeating the choice cannot carry it outside. This is one reason such curves are useful for drawing and design: a small set of handles gives a predictable shape. The fraction is not distance along the stroke, so moving it steadily need not mean constant drawing speed. Three points, the same small choice repeated, and a line learns to flow."
     }
   ],
   "sources": [

@@ -20,7 +20,7 @@ class Film(Stage):
         self.play(Transform(straight,linepath(project(parallel),'secondary')),Transform(arc,linepath(project(great),'primary')),*[m.animate.move_to(p) for m,p in zip(marks,project([A,B]))],run_time=2)
         self.at('The horizontal map line');self.say('Latitude circle');equator=linepath(project([xyz(0,a) for a in np.linspace(-PI,PI,181)]),'muted',2);self.add(equator)
         self.at('Now take the plane');W=(B-math.cos(theta)*A)/math.sin(theta);whole=linepath(project([math.cos(a)*A+math.sin(a)*W for a in np.linspace(0,TAU,181)]),'primary',2).set_stroke(opacity=.35);self.add(whole);radii=VGroup(*[self.line(center,p,'muted',3) for p in project([A,B])]);self.play(Create(radii),run_time=1);self.add(Dot(center,radius=.065,color=self.palette['ink']),self.label('center',center+DOWN*.35,'ink','detail'));self.say('A plane through the center')
-        self.at('The shorter arc');self.play(Indicate(arc),run_time=1)
+        self.at('The shorter arc');self.play(arc.animate.set_stroke(width=8),run_time=.5);self.play(arc.animate.set_stroke(width=5),run_time=.5)
         self.at('Notice that it curves');self.say('The map changes the picture.')
         self.at('In our example');self.add(self.label('35° N • 130° longitude apart',[0,-2,0],'ink','detail'))
         self.at('following the latitude takes');self.add(self.label('latitude: 1.86 r',[0,-2.7,0],'secondary','label'))
@@ -30,7 +30,7 @@ class Film(Stage):
         def rotate_view(m,alpha):
             q=angle*alpha;rotation=np.eye(3)+math.sin(q)*K+(1-math.cos(q))*(K@K)
             points=np.array([center+r*np.r_[(rotation@basis@p)[:2],0] for p in great]);arc.set_points_as_corners(points);marks[0].move_to(points[0]);marks[1].move_to(points[-1])
-        self.play(UpdateFromAlphaFunc(arc,rotate_view),run_time=2);arc.set_stroke(width=8);sphere.set_stroke(opacity=.4)
+        self.remove(arc,marks);rotating=VGroup(arc,marks);self.add(rotating);self.play(UpdateFromAlphaFunc(rotating,rotate_view),run_time=2);arc.set_stroke(width=8);sphere.set_stroke(opacity=.4)
         self.at('Any sideways motion');self.say('Sideways motion adds distance.');self.add(self.label('required polar angle: θ',[0,-2,0],'ink','detail'),self.line(center,pole,'muted',2),self.line(center,dest,'muted',2),Arc(radius=.65,start_angle=PI/2,angle=-theta,arc_center=center,stroke_color=self.palette['ink'],stroke_width=2),self.label('θ',center+[.6,.6,0],'ink','detail'))
         self.at('This explanation assumes');self.say('A sphere. A surface route.')
         self.at('Real flight planning');self.say('Real journeys add constraints.')

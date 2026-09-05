@@ -26,7 +26,7 @@ class Film(Stage):
             pos=origin+[x*unit,y*unit,0];branches.add(Arrow(point.get_center(),pos,buff=.12,stroke_width=3,color=self.palette['secondary']),Circle(radius=.2,fill_color=self.palette['background'],fill_opacity=1,stroke_color=self.palette['ink']).move_to(pos),self.label(str(squared),pos,'ink','detail').scale(.8))
         self.play(LaggedStart(*[FadeIn(m) for m in branches],lag_ratio=.04),run_time=1.2)
         self.at('Their average is five');self.say('(9 + 1 + 5 + 5) / 4 = 5')
-        self.at('opposite steps cancel');self.play(Indicate(branches[:6]),run_time=.8);self.play(Indicate(branches[6:]),run_time=.8)
+        self.at('opposite steps cancel');self.play(Circumscribe(branches[:6],color=self.palette['secondary'],buff=.12),run_time=.8);self.play(Circumscribe(branches[6:],color=self.palette['secondary'],buff=.12),run_time=.8)
         self.at('Only one squared step');self.say('Mean distance² grows by 1.')
         self.at('After sixteen steps');self.play(*[FadeOut(m) for m in list(self.mobjects) if m is not self.caption and m is not dots],run_time=.5);self.remove(dots)
         for n,y,col in [(16,2.2,'primary'),(64,-.7,'secondary')]:
