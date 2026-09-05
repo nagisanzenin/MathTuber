@@ -11,3 +11,7 @@ Prepared 5 September 2026. A targeted synthesis of 41 sources and a proposed cre
 YouTube Shorts currently support up to three minutes. The proposed workflow also supports 4–5 minute regular videos when the explanation needs more room. [YouTube guidance](https://support.google.com/youtube/answer/15424877?hl=en)
 
 Core proposal: make enjoyable mathematical discoveries understandable, then evaluate attention, enjoyment, learning, and return behavior separately. Research informs defaults; audience evidence tests our adaptations.
+
+## Channel identity supplement
+
+[Channel profiles](CHANNEL-PROFILES.md) extends the evidence library with recognition, aesthetics, motion and sonic identity research. It separates established findings, adjacent evidence and channel-specific hypotheses, and proposes audience tests before treating a profile as validated. See the [first workshop applications](../workshop-batch.md) for implementation and release evidence.

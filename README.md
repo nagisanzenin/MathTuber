@@ -73,3 +73,5 @@ Watch the [five discovery examples and validation report](docs/discovery-batch.m
 Bind a portable channel identity with `profile-bind --project PATH --profile ivisualizethings-workshop`; inspect available definitions with `profile-list`. The candidate workshop profile includes editorial promise, visual/motion/audio guidance, annotated examples and optional Manim primitives. Each project pins its own snapshot, so profile changes invalidate rendering and review instead of silently changing old work. No platform-specific model API is required.
 
 See [profile commands and authoring](plugins/mathtuber/skills/mathtuber/references/profiles.md) and [research and evaluation plan](docs/research/CHANNEL-PROFILES.md). Profiles guide creative choices; they do not establish viewer enjoyment or learning.
+
+The [workshop batch](docs/workshop-batch.md) includes five published examples, a visual gallery, mathematical verification and explicit review limitations.
