@@ -87,3 +87,5 @@ Latest release: [five nature Shorts and reflection](docs/nature-batch.md), with 
 Latest release: [five motion Shorts and reflection](docs/motion-batch.md), with [editable sources](examples/motion).
 
 Latest release: [five quiet Shorts and reflection](docs/quiet-batch.md), with [editable sources](examples/quiet).
+
+Latest release: [five flow Shorts and reflection](docs/flow-batch.md), with [editable sources](examples/flow).

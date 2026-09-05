@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-06",
+  "cycle": 5,
+  "videos": [
+    {
+      "project": "01-doppler",
+      "title": "The Uneven Rings Left by a Moving Sound #math #Shorts",
+      "url": "https://www.youtube.com/shorts/yKoOkt2azfY",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M16S",
+      "export_sha256": "cf9e92ae0fd31b0ccd7d0152a3a751d3c569241c3a753ba21cc67c84c0a2832c",
+      "editorial": {
+        "decision": "release",
+        "opening": "Uneven wavefronts and a moving source appear immediately; the opening demonstrates the promised phenomenon.",
+        "mechanism": "Fixed emission centers, explicit inspection freeze, labeled ahead/behind gap construction, and fixed listener markers connect propagation to arrival rate. The process resumes at the same phase.",
+        "readability": "Wavefronts and captions remain separate; the gap bars now carry direct labels. Listener markers are visible but small.",
+        "pacing": "The measured 1.3-second paragraph gaps are shorter than the prior batch. A long still interval is purposeful while travel distances are compared.",
+        "sound": "Dry local narration. Full decode and independent ASR differences reviewed. No subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "Listeners are only small circles, and no audible pitch comparison accompanies the sound explanation. The travel bars still require a spatial connection to the wavefield. The source model is subsonic sound in still air, not a light Doppler derivation.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "02-light",
+      "title": "Why Distance Spreads a Little Light So Thin #math #Shorts",
+      "url": "https://www.youtube.com/shorts/6Y0WM4ao02Q",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M14S",
+      "export_sha256": "3f7cdd6709685f06428d4ad02d059b7e50fd186abc3f08a458e0b126583516c1",
+      "editorial": {
+        "decision": "release",
+        "opening": "The same light patch grows in the first seconds, giving a visible example before inverse-square terminology.",
+        "mechanism": "The enlarged original patch divides into four then nine areas; the separate inset was removed. One cell is highlighted where its share is explained.",
+        "readability": "The enlarged teal patch and direct subdivisions are legible at phone scale. Labels fade during changing geometry.",
+        "pacing": "One persistent ray bundle supports the explanation without a diagram-to-inset jump. Later idealization sentences hold a stable result.",
+        "sound": "Dry local narration. Full decode and independent ASR differences reviewed. No subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "The lamp remains a dot and the page a geometric patch, so the scene is still diagram-first. Fill color encodes the bundle rather than measured irradiance; a physical light-on-page comparison could make the opening more tangible. ASR heard 'and' for 'in' in one sentence, without changing the mathematical content.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "03-garden",
+      "title": "The Garden Hidden Inside the Same Fence #math #Shorts",
+      "url": "https://www.youtube.com/shorts/zpCHLHDucrM",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M11S",
+      "export_sha256": "0df6fcc5129b16e6d5cf8b702a73616d0dfd9d38e7fed7838aa8150f52dd9d12",
+      "editorial": {
+        "decision": "release",
+        "opening": "A rectangle changes area at fixed perimeter before numbers appear, making the constraint visible through motion.",
+        "mechanism": "Five, eight and nine cells lead to an attached strip dissection; rotating the matching piece leaves an exact square of lost area.",
+        "readability": "The cells, labels and dissection are distinct. Example labels fade as the shape changes, then return with the new value.",
+        "pacing": "The 70-second explanation has one question and one proof. The half-unit case gives a small extension after the unit example.",
+        "sound": "Dry local narration. Full decode and independent ASR differences reviewed. No subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "The garden is still an abstract rectangle without a recognizable fence or ground. A newcomer must keep track of removed versus gained strips, and the half-unit case is displayed without replaying its matching move. The claim applies only to rectangles.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "04-buoyancy",
+      "title": "The Water That Quietly Holds a Piece of Wood #math #Shorts",
+      "url": "https://www.youtube.com/shorts/XSX0sjEVnQw",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M21S",
+      "export_sha256": "371e59b1dd01d1516de32d101d5af768129f82e127a708ad593cf0ced9560a72",
+      "editorial": {
+        "decision": "release",
+        "opening": "A partially submerged block gives a recognizable state of balance, though its wood material is conveyed by narration rather than appearance.",
+        "mechanism": "The block and its replacement water occupy the same boundary. Top/bottom pressure and equal parcel-weight support precede the sixty/eighty percent comparison.",
+        "readability": "The water panel separates this composition from the geometry films. Percentages disappear during the depth change; the new value appears once settled.",
+        "pacing": "The deliberate stills support pressure and counterfactual comparisons. Lowering and settling are illustrative, not numerical free-motion simulation.",
+        "sound": "Dry local narration. Full decode and independent ASR differences reviewed. No subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "The wood is a coral rectangle, and the absent-water argument still asks the viewer to imagine a counterfactual. More recognizable material and an explicit physical displacement example could improve the everyday connection. No subjective listening or audience outcome is established.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "05-spiral",
+      "title": "A Spiral That Grows Without Forgetting Its Shape #math #Shorts",
+      "url": "https://www.youtube.com/shorts/0reqEqp9AO4",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M19S",
+      "export_sha256": "1a8059c958c910dc5aa4d1b70f2c3d4d4ea29ca822bff3dc3661c2da66a291a5",
+      "editorial": {
+        "decision": "release",
+        "opening": "The spiral now reaches a recognizable form within the opening seconds; the earlier tiny, slow opening was revised.",
+        "mechanism": "Larger radial examples show quarter-turn multiplication. The tangent/radial marker keeps its angle while moving, then a scaled and rotated copy aligns with the curve.",
+        "readability": "The constant-angle label uses dark ink after the low-contrast accent version was revised. Overlapping red and teal curves communicate alignment.",
+        "pacing": "The drawing and inspection marker have separate process phases; stable states support growth-factor and self-similarity comparisons.",
+        "sound": "Dry local narration. Full decode and independent ASR differences reviewed. No subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "The final curve is restrained but the explanation remains abstract. A closer view of the angle could help a novice distinguish tangent from outward radius. Natural resemblance is qualified and the chosen factor is explicitly not golden. Focused ASR did not reproduce the full-file duplicated word 'curve'.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    }
+  ]
+}
