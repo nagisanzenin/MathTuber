@@ -10,6 +10,7 @@ sys.path.insert(0, request["components"])
 sys.path.insert(0, request["project"])
 import components
 components.TARGET_DURATION = request["duration"]
+components.PROFILE = request.get("profile")
 with tempconfig({"pixel_width": request["width"], "pixel_height": request["height"],
                  "frame_rate": request["fps"], "frame_width": 8,
                  "frame_height": 8*request["height"]/request["width"],

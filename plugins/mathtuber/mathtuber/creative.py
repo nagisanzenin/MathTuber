@@ -2,6 +2,8 @@
 from .state import ProductionError, within, file_hash
 
 def validate_plan(project):
+    from .profiles import check
+    profile = check(project)
     plan = project.data.get("creative")
     if plan is None:
         return {"present": False, "scope": "legacy project; no creative contract"}
@@ -15,7 +17,7 @@ def validate_plan(project):
         for field in ("viewer_question", "visual_action", "new_understanding", "sound_intent"):
             if not isinstance(beat.get(field), str) or not beat[field].strip():
                 raise ProductionError("INVALID_PLAN", f"Missing beat {field}")
-    return {"present": True, "passed": True, "beats": len(beats), "scope": "contract completeness only; no quality or learning claim"}
+    return {"present": True, "passed": True, "beats": len(beats), "profile": profile, "scope": "contract completeness only; no quality or learning claim"}
 
 def soundtrack(project):
     spec = project.data.get("soundtrack")

@@ -9,6 +9,7 @@ import subprocess
 import sys
 import time
 from .captions import make_ass
+from .profiles import load as load_profile
 from .creative import validate_plan, soundtrack, validate_delivery
 from .state import ProductionError, digest, file_hash, within, atomic_json
 
@@ -88,6 +89,7 @@ def render_fingerprint(project, scene, quality, execution=None):
     if execution is None:
         previous = project.artifact(f"render:{quality}:{scene['id']}")
         execution = previous["metadata"].get("execution", "native") if previous else "native"
+    profile = load_profile(project)
     source = within(project.root, scene["source"])
     if not source.exists():
         raise ProductionError("SOURCE_REQUIRED", str(source))
@@ -101,7 +103,7 @@ def render_fingerprint(project, scene, quality, execution=None):
                 dependencies[str(path.relative_to(project.root))] = file_hash(path)
     audio = audio_for(project, scene)
     return digest({"dependencies": dependencies, "audio": audio["sha256"], "scene": scene,
-                   "format": project.data.get("format", {}), "quality": quality,
+                   "format": project.data.get("format", {}), "profile": profile, "quality": quality,
                    "worker": file_hash(ROOT / "workers/render.py"),
                    "components": file_hash(ROOT / "components.py"),
                    "runtime": runtime_versions(execution), "execution": execution})
@@ -137,7 +139,7 @@ def render(project, sid, quality, execution):
     output_dir.mkdir(parents=True, exist_ok=True)
     request = project.root / ".mathtuber/render-request.json"
     atomic_json(request, {"source": str(within(project.root, scene["source"])), "class_name": scene["class_name"],
-                          "duration": target, "width": width, "height": height, "fps": fps,
+                          "duration": target, "width": width, "height": height, "fps": fps, "profile": load_profile(project),
                           "media_dir": str(output_dir), "components": str(ROOT), "project": str(project.root)})
     timeout = project.data.get("budgets", {}).get("render_timeout_seconds", 600)
     if execution == "docker":

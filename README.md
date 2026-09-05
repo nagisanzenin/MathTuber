@@ -66,3 +66,10 @@ The editable `examples/odd-squares` project demonstrates a complete six-scene na
 The [research library](docs/research/README.md) informs the [creative workflow](plugins/mathtuber/skills/mathtuber/references/theory.md). New projects record audience-state beats, topic novelty, format rationale and review provenance. The engine supports an original sound layer with speech ducking and an explicit Shorts duration check. These are implemented production tools, not evidence that the resulting videos improve learning or retention.
 
 Watch the [five discovery examples and validation report](docs/discovery-batch.md). Their editable scene sources and narration are included under `examples/discovery`.
+
+
+## Channel profiles
+
+Bind a portable channel identity with `profile-bind --project PATH --profile ivisualizethings-workshop`; inspect available definitions with `profile-list`. The candidate workshop profile includes editorial promise, visual/motion/audio guidance, annotated examples and optional Manim primitives. Each project pins its own snapshot, so profile changes invalidate rendering and review instead of silently changing old work. No platform-specific model API is required.
+
+See [profile commands and authoring](plugins/mathtuber/skills/mathtuber/references/profiles.md) and [research and evaluation plan](docs/research/CHANNEL-PROFILES.md). Profiles guide creative choices; they do not establish viewer enjoyment or learning.

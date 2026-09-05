@@ -12,6 +12,7 @@ from . import __version__
 from .state import Project, ProductionError, read_json, atomic_json, create, digest, file_hash
 from . import media
 from .creative import validate_plan
+from . import profiles
 
 
 def doctor():
@@ -78,6 +79,11 @@ def record_review(project, data):
                 raise ProductionError("REVIEW_PROVENANCE", "Creative projects require method, coverage and limitations for each review domain")
         if not isinstance(data.get("audience_validation"), str) or not data["audience_validation"].strip():
             raise ProductionError("REVIEW_PROVENANCE", "State whether actual audience outcomes have been measured")
+    if project.data.get("channel_profile"):
+        profiles.check(project)
+        fit = data.get("profile_review", {})
+        if not isinstance(fit, dict) or any(not isinstance(fit.get(k), str) or not fit[k].strip() for k in ("identity", "variation", "exceptions", "limitations")):
+            raise ProductionError("PROFILE_REVIEW_REQUIRED", "Describe identity, variation, exceptions and limitations; do not infer audience recognition")
     if data["verdict"] == "accept":
         if data["findings"]:
             raise ProductionError("UNRESOLVED_FINDINGS", "Resolve findings before acceptance")
@@ -116,10 +122,12 @@ def publish(project, intent, credentials, dry_run):
 
 def perform(args):
     if args.command == "doctor": return doctor()
+    if args.command == "profile-list": return profiles.catalog()
     if args.command == "init": return create(args.project,read_json(args.manifest))
     project = Project(args.project)
     if args.command in ("status","next"): return status(project)
     if args.command == "plan-check": return validate_plan(project)
+    if args.command == "profile-check": return profiles.check(project)
     if args.command == "job-status":
         path = project.root / ".mathtuber/jobs" / f"{args.job}.json"
         data = read_json(path)
@@ -130,6 +138,7 @@ def perform(args):
                 atomic_json(path,data)
         return data
     with project.lock():
+        if args.command == "profile-bind": return profiles.bind(project,args.profile,args.replace)
         if args.command == "audio": return media.synthesize(project,args.scene)
         if args.command == "render": return media.render(project,args.scene,args.quality,args.execution)
         if args.command == "assemble": return media.assemble(project)
@@ -144,9 +153,13 @@ def parser():
     p.add_argument("--version",action="version",version=__version__)
     subs=p.add_subparsers(dest="command",required=True)
     subs.add_parser("doctor")
-    for name in ("init","status","next","plan-check","audio","render","assemble","verify","review-bundle","review-record","publish","job-status"):
+    subs.add_parser("profile-list")
+    for name in ("profile-bind","profile-check","init","status","next","plan-check","audio","render","assemble","verify","review-bundle","review-record","publish","job-status"):
         sub=subs.add_parser(name)
         sub.add_argument("--project",required=True)
+        if name == "profile-bind":
+            sub.add_argument("--profile",required=True)
+            sub.add_argument("--replace",action="store_true")
         if name == "init": sub.add_argument("--manifest",required=True)
         if name in ("audio","render","review-bundle"):
             sub.add_argument("--scene",required=name=="render",default="all" if name=="audio" else None)
