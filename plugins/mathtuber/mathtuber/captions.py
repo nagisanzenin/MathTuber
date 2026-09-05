@@ -15,11 +15,21 @@ def make_ass(srt,width=1080,height=1920):
            'Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding',
            f'Style: Default,Arial,{fontsize},&H00FFFFFF,&H00FFFFFF,&H00150E08,&H80150E08,-1,0,0,0,100,100,0,0,1,3,0,2,{round(width*.1)},{round(width*.1)},{margin},1','',
            '[Events]','Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text']
+    cues = []
     for block in re.split(r'\n\s*\n',srt.strip()):
         parts=block.splitlines()
         if len(parts)<3:continue
         start,end=parts[1].split(' --> ')
-        text=' '.join(parts[2:]);text=re.sub(r'\s+([,.!?;:])',r'\1',text)
+        text=' '.join(parts[2:]).strip()
+        # Synthesis can emit punctuation as a separate token at a chunk boundary.
+        if re.fullmatch(r'[.,!?;:…]+', text):
+            if cues:
+                cues[-1][1] = end
+                cues[-1][2] += text
+            continue
+        cues.append([start,end,text])
+    for start,end,text in cues:
+        text=re.sub(r'\s+([,.!?;:])',r'\1',text)
         text=text.replace('\\','/').replace('{','(').replace('}',')')
         text=r'\N'.join(textwrap.wrap(text,width=34,break_long_words=False,break_on_hyphens=False))
         lines.append(f'Dialogue: 0,{ass_time(start)},{ass_time(end)},Default,,0,0,0,,{text}')

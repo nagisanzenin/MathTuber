@@ -8,4 +8,11 @@ class CaptionTests(unittest.TestCase):
  def test_override_text_is_not_executable(self):
   ass=make_ass('1\n00:00:00,100 --> 00:00:01,200\nHello , {\\pos(1,2)} world.\n')
   self.assertNotIn('{\\pos',ass);self.assertIn('Hello,',ass);self.assertIn('0:00:00.10,0:00:01.20',ass)
+ def test_punctuation_only_cue_extends_previous_caption(self):
+  ass=make_ass('1\n00:00:01,000 --> 00:00:02,000\nCount six\n\n2\n00:00:02,000 --> 00:00:02,150\n.\n\n3\n00:00:02,150 --> 00:00:03,000\nNow count twelve.\n')
+  cues=[x for x in ass.splitlines() if x.startswith('Dialogue:')]
+  self.assertEqual(len(cues),2)
+  self.assertIn('0:00:01.00,0:00:02.15',cues[0]);self.assertTrue(cues[0].endswith('Count six.'))
+ def test_leading_punctuation_does_not_create_a_caption(self):
+  self.assertNotIn('Dialogue:',make_ass('1\n00:00:00,000 --> 00:00:00,100\n.\n'))
 if __name__=='__main__':unittest.main()
