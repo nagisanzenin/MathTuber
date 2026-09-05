@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-06",
+  "cycle": 4,
+  "videos": [
+    {
+      "project": "01-ellipse",
+      "title": "How an Ellipse Gathers Reflected Paths #math #Shorts",
+      "url": "https://www.youtube.com/shorts/YgC20_iNPyg",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M38S",
+      "export_sha256": "7d519ddb1d0ebac4f04b64eb79ab8947ccad60a1f489e97ae80f535e8ec5336e",
+      "editorial": {
+        "decision": "release",
+        "opening": "A ray reaches the second focus after reflection; the first changed direction demonstrates the question.",
+        "mechanism": "The fixed focal sum is unfolded; the perpendicular bisector and strict triangle inequality identify the tangent. Equal-angle cues explain the focal reflection under geometric idealization.",
+        "readability": "Comparison paths, tangent, focal points and captions remain separate in inspected previews. Supporting construction strokes are faint and require attention.",
+        "pacing": "About 98 seconds with four authored 1.1-second paragraph pauses; the proof remains the most demanding passage.",
+        "sound": "Dry local narration. Full decode and independent ASR differences reviewed. No subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "The helper-line proof is harder than the opening observation. A novice may need a closer view of the reflected endpoints and a clearer visual indication of which path is being compared. No actual learner or retention evidence.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "02-oscillator",
+      "title": "A Circle and a Spring Share One Rhythm #math #Shorts",
+      "url": "https://www.youtube.com/shorts/IH29TELSb8E",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M31S",
+      "export_sha256": "7957dc55e3063bc24e899fae8660c84e9a73cce7558f4b3af6996de95649bf90",
+      "editorial": {
+        "decision": "release",
+        "opening": "A point and its projected shadow immediately move together, showing the relationship before naming it.",
+        "mechanism": "Unequal projected steps lead to harmonic motion; restoring acceleration follows displacement. The amplitude comparison uses equal angular speed for its two demonstration turns.",
+        "readability": "Circle, shadow, spring and projected arrows stay distinct; zero force removes the arrow without corrupting its renderer object.",
+        "pacing": "About 90 seconds with authored paragraph pauses. Demonstrations stop at selected states and use illustrative angular speeds in different shots; this is not an uninterrupted physical simulation.",
+        "sound": "Dry local narration. Full decode and independent ASR differences reviewed. No subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "The force explanation has several successive representations. Freezing the center state can interrupt the felt rhythm, even when it helps inspect zero force. A continuous shared phase clock could better preserve the physical intuition.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "03-torus",
+      "title": "The Quiet Journey Inside a Ring #math #Shorts",
+      "url": "https://www.youtube.com/shorts/Ms4Gl4k9Fns",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M36S",
+      "export_sha256": "70dff1d6f73b0ccdf1ea31fb82cc9059204029a0e5b94a0c312d7e5da0bfae21",
+      "editorial": {
+        "decision": "release",
+        "opening": "The ring visibly grows from a circular sweep, replacing a less explanatory fade-in.",
+        "mechanism": "Cross-sectional area times centroid journey is justified by paired equal-area pieces with average radius R. The rotation axis stays outside the disk.",
+        "readability": "The axis and radii, paired pieces, formulas and captions remain separate. A premature full surface before the final sweep was repaired.",
+        "pacing": "About 95 seconds; paired pieces and average journey receive separate holds, and the final sweep completes within speech duration.",
+        "sound": "Dry local narration. Full decode and independent ASR differences reviewed. No subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "The little pieces and the three-dimensional ring are presented in different views. The viewer must mentally link them. The proof would be more tangible if two colored swept tubes stayed attached to their source pieces.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "04-inversion",
+      "title": "When Straight Lines Become Circular Arcs #math #Shorts",
+      "url": "https://www.youtube.com/shorts/891zC5Ji99A",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M31S",
+      "export_sha256": "65a91b8a284f5f0b898907df807f243ead8d3ede5943214628db7f43539cb4f8",
+      "editorial": {
+        "decision": "release",
+        "opening": "The opening promises a line-to-circle change but spends its first section explaining reciprocal point pairs.",
+        "mechanism": "Reciprocal radii, similar right triangles and a fixed diameter explain the circular image. The center exclusion and lines through the center are explicitly distinguished.",
+        "readability": "Moved labels away from the construction and removed the 2-to-one-half example when the points reached the unit circle. The final grid gives the rule an expressive result.",
+        "pacing": "About 91 seconds with paragraph pauses. The circle result appears around the middle after defining the mapping.",
+        "sound": "Dry local narration. Full decode and independent ASR differences reviewed. No subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "The result arrives too late for the most casual viewer. A faithful first-seconds preview of the transformed line would make the promise concrete. Similar-triangle reasoning still assumes some geometric familiarity.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "05-moon",
+      "title": "A Crescent Is a Relationship with Light #math #Shorts",
+      "url": "https://www.youtube.com/shorts/cZslMVwXrC4",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M39S",
+      "export_sha256": "168c9d66f244ce82dc67b33ce0c8e209ce2cf82b0008becbf17de914ada1284a",
+      "editorial": {
+        "decision": "release",
+        "opening": "A crescent in a restrained dark panel gives an immediate recognizable phenomenon.",
+        "mechanism": "The visible disk tracks the overlap of the Earth-facing and sunlit hemispheres. Quarter and full phases, a projected terminator, and explicit eclipse/tilt caveats support the model.",
+        "readability": "The upper phase view and lower orbit remain separated from captions. Warm paper surrounds a dark viewing field without decorative clutter.",
+        "pacing": "About 99 seconds with paragraph pauses. Phase changes settle before the next explanation; the closing cycle is deliberately accelerated.",
+        "sound": "Dry local narration. Full decode and independent ASR differences reviewed. No subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "The two views still require mental rotation. The Moon is an ideal illuminated-area drawing rather than a textured brightness rendering; hemisphere and observer orientation conventions could be made more explicit. The panel is elegant, but that is an editorial judgment, not a measured viewer response.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    }
+  ]
+}
