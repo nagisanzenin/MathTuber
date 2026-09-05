@@ -48,3 +48,7 @@ When a middle passage merely adds labels to an unchanged diagram, consult [visib
 When the user requests new topics, compare the proposed learning goal, governing relationship and visible operation against earlier project manifests and release reflections. A different title or setting does not make the same proof new. Record the closest earlier episode, the substantive difference, and a decision before synthesis or rendering. Use archived titles only as an initial search aid; explicitly record when earlier transcripts or project sources are unavailable. A failed comparison requires a replacement topic before publication.
 
 For example, two garden films both reassembling a fixed-perimeter rectangle to expose its squared area deficit are duplicates even with different narration. Changing that proposal to a semicircle construction of the geometric mean changes both the theorem and the proof operation. Keep a mechanism index alongside published examples so future agents can retrieve these relationships without repeatedly reading every frame.
+
+### When the films still feel like detached diagrams
+
+Apply [physical context](physical-context.md): prototype a recognizable subject and useful setting, preserve correspondence into the mathematical explanation, and inspect the result before expanding the batch. Treat the sequence as an editorial hypothesis; concrete-first is not a universal rule.
