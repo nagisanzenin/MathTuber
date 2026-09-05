@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "proof": "Independent uniform cut coordinates have constant joint density on the unit square. With sorted cuts x<y, all pieces are <1/2 exactly when x<1/2, y>1/2 and y-x<1/2. This is one triangle of area 1/8; reflected order gives another. Equality boundaries have probability zero. Triangle inequality is equivalent to longest piece < half the total.",
+  "checks": {
+    "success_area": "1/4",
+    "drawn_success_sides": [
+      1.8,
+      2.1,
+      2.1
+    ],
+    "failure_sides": [
+      1.2,
+      1.2,
+      3.6
+    ]
+  },
+  "limits": "Numerical checks supplement the stated general proof. No audience learning is inferred."
+}

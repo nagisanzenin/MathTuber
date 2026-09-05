@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Move This Dot. The Total Never Changes.",
+    "min_seconds": 60,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.96
+  },
+  "captions": {
+    "burn_in": true
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Equal-base triangle areas prove the sum of perpendicular distances equals the altitude.",
+    "question": "Why does the sum stay fixed?",
+    "payoff": "Equal-base triangle areas prove the sum of perpendicular distances equals the altitude.",
+    "transfer_prompt": "Predict the changed case shown at the end.",
+    "duration_rationale": "One continuous visual explanation; speech measured before render; no duration padding.",
+    "novelty_audit": "Checked refreshed channel upload titles on 2026-09-05; new uploads exclude previous topics. Reference remakes are local only. Title audit cannot prove absence inside all historic videos.",
+    "profile_application": {
+      "format": "visual-proof",
+      "signature": "Persistent objects, warm material palette, visible mechanism before symbolic summary.",
+      "episode_variation": "A moving point drives perpendicular segments and a conserved bar; actual triangles rotate into common-base orientation.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why does the sum stay fixed?",
+        "visual_action": "A moving point drives perpendicular segments and a conserved bar; actual triangles rotate into common-base orientation.",
+        "new_understanding": "Equal-base triangle areas prove the sum of perpendicular distances equals the altitude.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Move this dot anywhere inside the triangle. The three distances change, but their total refuses to move. These are perpendicular distances to the sides. And this triangle has three equal sides. Try pushing the dot toward a corner. One distance grows while the others shrink. Why should they balance perfectly? Join the dot to all three corners. We have divided the same big triangle into three smaller ones, with no gaps and no overlaps. Each little triangle uses one full side of the original as its base. Those three bases are equal. Now rotate the pieces so their bases face the same way. Their heights are exactly the three distances we were measuring. A triangle's area is half its base times its height. Because the bases match, adding these areas is the same as adding the heights, then multiplying by half the common base. But together the pieces still have the area of our original triangle. So their heights must add to the big triangle's height. Watch the dot move again. The colored distances trade length, while the total stays fixed. At the very top corner, two distances shrink to zero and the third becomes the full height. That extreme case was hiding the answer all along."
+    }
+  ],
+  "sources": [
+    "https://www.qedcat.com/articles/viviani.pdf"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.2.0",
+    "path": "assets/profile-3e36a990ff7127ab.json",
+    "sha256": "7facf7bb86b11bf5946231818c11a159fe14ffa87fef40f8fb5badf01d999ce6"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original CC0 synthesized boundary tones"
+  }
+}

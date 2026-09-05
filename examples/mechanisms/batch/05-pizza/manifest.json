@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Three Cuts Can Make Seven Pieces. What About Four?",
+    "min_seconds": 60,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.96
+  },
+  "captions": {
+    "burn_in": true
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Each distinct interior crossing adds another cut section; maximum regions grow by n for cut n.",
+    "question": "Why can three cuts make seven pieces?",
+    "payoff": "Each distinct interior crossing adds another cut section; maximum regions grow by n for cut n.",
+    "transfer_prompt": "Predict the changed case shown at the end.",
+    "duration_rationale": "One continuous visual explanation; speech measured before render; no duration padding.",
+    "novelty_audit": "Checked refreshed channel upload titles on 2026-09-05; new uploads exclude previous topics. Reference remakes are local only. Title audit cannot prove absence inside all historic videos.",
+    "profile_application": {
+      "format": "visual-proof",
+      "signature": "Persistent objects, warm material palette, visible mechanism before symbolic summary.",
+      "episode_variation": "Separate concurrent cuts, reveal the new central triangle, trace blade sections and add a fourth line.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why can three cuts make seven pieces?",
+        "visual_action": "Separate concurrent cuts, reveal the new central triangle, trace blade sections and add a fourth line.",
+        "new_understanding": "Each distinct interior crossing adds another cut section; maximum regions grow by n for cut n.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Three straight cuts. How many pieces can you make? Six is easy if every cut passes through the center. But slide the last cut away from that crossing. A tiny seventh piece appears. Keep the pizza flat. No stacking or moving pieces between cuts. How does one extra piece sneak in? Follow the last cut from one edge to the other. Each old line it crosses takes it into a new region. With two distinct crossings, the blade passes through three regions. It splits each one in two, adding three pieces. If all the lines meet at one point, those crossings merge. We lose one of the regions the new cut could split. Now try a fourth cut. Make it cross all three old cuts, at three different points inside the pizza. Those crossings divide the new cut into four sections. Four sections split four old regions. Seven becomes eleven. That is the maximum. A fourth straight line cannot cross each of three old straight lines more than once. For the next cut, predict the biggest increase. Five old-region sections means five extra pieces. Eleven becomes sixteen. The numbers come from new regions crossed, not from counting slices around the center."
+    }
+  ],
+  "sources": [
+    "https://mathworld.wolfram.com/CircleDivisionbyLines.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.2.0",
+    "path": "assets/profile-3e36a990ff7127ab.json",
+    "sha256": "7facf7bb86b11bf5946231818c11a159fe14ffa87fef40f8fb5badf01d999ce6"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original CC0 synthesized boundary tones"
+  }
+}

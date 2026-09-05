@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "proof": "Partition the equilateral triangle into three triangles with common base length s. Additivity gives s(d1+d2+d3)/2=sH/2. Rigid rotations preserve the areas. Hence the distance sum is H, including limiting vertex cases.",
+  "checks": {
+    "barycentric_samples": 231,
+    "max_error": 1.7763568394002505e-15,
+    "equal_side": 5,
+    "height": 4.330127018922193
+  },
+  "limits": "Numerical checks supplement the stated general proof. No audience learning is inferred."
+}

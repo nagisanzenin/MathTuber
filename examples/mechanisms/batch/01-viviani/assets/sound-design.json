@@ -1,0 +1,26 @@
+{
+  "license": "Original synthesized tones: CC0",
+  "intent": "Two quiet boundary notes; no bed or effects during proof. Artistic listening not measured.",
+  "events": [
+    {
+      "start": 0.08,
+      "duration": 0.28,
+      "frequency": 440
+    },
+    {
+      "start": 0.24,
+      "duration": 0.28,
+      "frequency": 660
+    },
+    {
+      "start": 71.805,
+      "duration": 0.28,
+      "frequency": 440
+    },
+    {
+      "start": 72.025,
+      "duration": 0.28,
+      "frequency": 660
+    }
+  ]
+}

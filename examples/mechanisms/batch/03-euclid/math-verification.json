@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "proof": "For integers a=qb+r, a common divisor of a,b divides r; a common divisor of b,r divides a. Thus gcd is preserved. The last nonzero remainder is 6. An aligned uniform square grid must have side dividing both integer lengths; even allowing real side lengths the final 6-wide strip bounds the maximum, and 6 is attained.",
+  "checks": {
+    "remainders": [
+      24,
+      6,
+      0
+    ],
+    "common_integer_sides": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "grid_tiles": 70
+  },
+  "limits": "Numerical checks supplement the stated general proof. No audience learning is inferred."
+}

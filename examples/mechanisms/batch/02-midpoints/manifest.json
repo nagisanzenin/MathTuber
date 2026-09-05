@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Hide a Parallelogram in Any Four-Sided Shape",
+    "min_seconds": 60,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.96
+  },
+  "captions": {
+    "burn_in": true
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Midpoint connections are parallel to the diagonals, hence form a parallelogram.",
+    "question": "Why do midpoint edges stay parallel?",
+    "payoff": "Midpoint connections are parallel to the diagonals, hence form a parallelogram.",
+    "transfer_prompt": "Predict the changed case shown at the end.",
+    "duration_rationale": "One continuous visual explanation; speech measured before render; no duration padding.",
+    "novelty_audit": "Checked refreshed channel upload titles on 2026-09-05; new uploads exclude previous topics. Reference remakes are local only. Title audit cannot prove absence inside all historic videos.",
+    "profile_application": {
+      "format": "visual-proof",
+      "signature": "Persistent objects, warm material palette, visible mechanism before symbolic summary.",
+      "episode_variation": "A deforming quadrilateral retains its midpoint shape; half-size triangles reveal the diagonal relation.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why do midpoint edges stay parallel?",
+        "visual_action": "A deforming quadrilateral retains its midpoint shape; half-size triangles reveal the diagonal relation.",
+        "new_understanding": "Midpoint connections are parallel to the diagonals, hence form a parallelogram.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Pull this corner wherever you like. The outer shape becomes crooked, but the little shape inside keeps its opposite sides parallel. Here is the only rule: put a dot exactly halfway along each edge, then connect those four dots. Try a completely different shape. The pattern survives. What is holding those sides in place? Draw just one diagonal across the original shape. Look at the triangle above it. Our two dots sit halfway along two of its sides. A half size copy of that triangle, centered at the top corner, lands exactly on those dots. So the line between them is parallel to the diagonal and half as long. Look below the same diagonal. The same argument makes the opposite inner edge parallel to that very same line, also half as long. Two edges, one shared direction. Now draw the other diagonal. It explains the remaining pair in exactly the same way. Both pairs of opposite sides are parallel. That is a parallelogram, even when the original shape looks nothing like one. Try pulling one corner inward. As long as we track the actual edge midpoints, the relationship still holds. The order was already there. We only needed to mark halfway."
+    }
+  ],
+  "sources": [
+    "https://www.cut-the-knot.org/Curriculum/Geometry/Varignon.shtml"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.2.0",
+    "path": "assets/profile-3e36a990ff7127ab.json",
+    "sha256": "7facf7bb86b11bf5946231818c11a159fe14ffa87fef40f8fb5badf01d999ce6"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original CC0 synthesized boundary tones"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Biggest Tile Is Hiding in the Leftovers",
+    "min_seconds": 60,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.96
+  },
+  "captions": {
+    "burn_in": true
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Euclidean remainders preserve common divisors; the greatest tile side is six.",
+    "question": "Which largest square tiles an 84 by 30 rectangle?",
+    "payoff": "Euclidean remainders preserve common divisors; the greatest tile side is six.",
+    "transfer_prompt": "Predict the changed case shown at the end.",
+    "duration_rationale": "One continuous visual explanation; speech measured before render; no duration padding.",
+    "novelty_audit": "Checked refreshed channel upload titles on 2026-09-05; new uploads exclude previous topics. Reference remakes are local only. Title audit cannot prove absence inside all historic videos.",
+    "profile_application": {
+      "format": "visual-proof",
+      "signature": "Persistent objects, warm material palette, visible mechanism before symbolic summary.",
+      "episode_variation": "Cut 30-unit squares, remove a 24-unit square, tile the remaining strip and reassemble.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Which largest square tiles an 84 by 30 rectangle?",
+        "visual_action": "Cut 30-unit squares, remove a 24-unit square, tile the remaining strip and reassemble.",
+        "new_understanding": "Euclidean remainders preserve common divisors; the greatest tile side is six.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "What is the biggest square tile that fits this rectangle perfectly? It is eighty four units wide and thirty tall. No cutting tiles, no gaps, and every tile must be the same size, with edges aligned to the rectangle. Guess ten? It fits the height, but leaves a strip along the width. Here is a faster way. Cut off the biggest square you can: thirty by thirty. Then another. We are left with a twenty four by thirty rectangle. Any tile size that worked before must fit this leftover, because removing whole thirty unit squares removes whole rows of those tiles. And any size that tiles the leftover and the thirty unit squares also tiles the original. The common tile sizes have not changed. Turn to the leftover. Remove a twenty four by twenty four square. The thin strip is six by twenty four. Now six unit squares fill it exactly. Nothing remains. Six is the answer. Work backward: six fits twenty four, thirty, and eighty four. And no larger common tile size could have survived that final six unit strip. Reveal the grid across the whole rectangle. This is Euclid's algorithm made visible: replace the big problem with its remainder, until the remainder disappears."
+    }
+  ],
+  "sources": [
+    "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Number_Theory_%28Barrus_and_Clark%29/01%3A_Chapters/1.08%3A_The_Euclidean_Algorithm"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.2.0",
+    "path": "assets/profile-3e36a990ff7127ab.json",
+    "sha256": "7facf7bb86b11bf5946231818c11a159fe14ffa87fef40f8fb5badf01d999ce6"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original CC0 synthesized boundary tones"
+  }
+}

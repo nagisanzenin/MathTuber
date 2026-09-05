@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Break a Stick Twice. Why Only One in Four Works?",
+    "min_seconds": 60,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.96
+  },
+  "captions": {
+    "burn_in": true
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "The success region has area one quarter for two independent uniform cut positions.",
+    "question": "When can three random pieces close into a triangle?",
+    "payoff": "The success region has area one quarter for two independent uniform cut positions.",
+    "transfer_prompt": "Predict the changed case shown at the end.",
+    "duration_rationale": "One continuous visual explanation; speech measured before render; no duration padding.",
+    "novelty_audit": "Checked refreshed channel upload titles on 2026-09-05; new uploads exclude previous topics. Reference remakes are local only. Title audit cannot prove absence inside all historic videos.",
+    "profile_application": {
+      "format": "visual-proof",
+      "signature": "Persistent objects, warm material palette, visible mechanism before symbolic summary.",
+      "episode_variation": "Physical segments close or fail; cut pairs map into a square and impossible regions are removed.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "When can three random pieces close into a triangle?",
+        "visual_action": "Physical segments close or fail; cut pairs map into a square and impossible regions are removed.",
+        "new_understanding": "The success region has area one quarter for two independent uniform cut positions.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Break a stick at two points. Can the three pieces close into a triangle? This one can. The pieces meet, with nothing left over. But move a cut too far, and the short pieces cannot reach around the longest. The rule is simple: no piece may be half the original stick or longer. Equality would only make a flat line. Now choose both cut positions independently and uniformly along the stick. That precise random rule matters. We can draw every possible pair of cuts as one point in a square. Left to right gives the first cut; bottom to top gives the second. Every equal area in this square is equally likely. If both cuts land in the left half, the right end piece is too long. Shade that quarter out. Both in the right half? The left end piece is too long. Shade that quarter too. Two opposite corners remain. But cuts more than half a stick apart leave an oversized middle piece. In each remaining corner, a diagonal slices away that failure region. Look at what survives: two little triangles. Each is half of a quarter square. Together they cover one quarter of the whole square. So exactly one in four random cut pairs can make a triangle. Different ways of choosing the cuts can give different odds. The picture proves this answer for independent uniform cuts."
+    }
+  ],
+  "sources": [
+    "https://www.maths.tcd.ie/pub/Maths/InterVarsity/intervarsity-97.pdf"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.2.0",
+    "path": "assets/profile-3e36a990ff7127ab.json",
+    "sha256": "7facf7bb86b11bf5946231818c11a159fe14ffa87fef40f8fb5badf01d999ce6"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original CC0 synthesized boundary tones"
+  }
+}

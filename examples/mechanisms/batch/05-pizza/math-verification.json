@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "proof": "The nth line has at most n-1 distinct crossings with old lines. These create at most n connected sections inside the disk, each splitting one old convex region. General position with intersections inside attains this, giving Rn=Rn-1+n. Hence R3=7,R4=11,R5=16. Concurrent crossings merge and reduce the increase.",
+  "checks": {
+    "distinct_sections_per_cut": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "regions": 11,
+    "fifth_max": 16,
+    "all_intersections_inside": true
+  },
+  "limits": "Numerical checks supplement the stated general proof. No audience learning is inferred."
+}

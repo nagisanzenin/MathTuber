@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "proof": "For ordered vertices A,B,C,D, consecutive midpoint differences are (C-A)/2 and (D-B)/2; the opposite midpoint differences are the same vectors. The half-scale triangle construction proves this geometrically, including the shown concave example.",
+  "checks": {
+    "convex_and_concave_examples": true,
+    "scaling_is_explicit": "Similarity is used here, not a claim of equal area."
+  },
+  "limits": "Numerical checks supplement the stated general proof. No audience learning is inferred."
+}
