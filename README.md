@@ -99,3 +99,5 @@ Latest release: [five focal-staging Shorts and reflection](docs/focal-batch.md),
 Latest release: [five material-presence Shorts and reflection](docs/material-batch.md), with [editable sources](examples/material).
 
 Latest release: [five visible-reasoning Shorts and reflection](docs/reasoning-batch.md), with [editable sources](examples/reasoning).
+
+Latest release: [five physical-context Shorts and reflection](docs/context-batch.md), with [editable sources](examples/context).

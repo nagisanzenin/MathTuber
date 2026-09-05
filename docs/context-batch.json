@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-06",
+  "cycle": 11,
+  "videos": [
+    {
+      "project": "01-river",
+      "title": "The River Adds Its Own Journey #math #Shorts",
+      "url": "https://www.youtube.com/shorts/WSN8jaN3giA",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M7S",
+      "export_sha256": "35880d73b8c6e7a47641ebf9cb6aa9a8d7a8be6312e4e4f3644a43bfb438dde1",
+      "editorial": {
+        "decision": "release",
+        "opening": "The boat crosses a visible river toward a marked destination; the downstream miss establishes a concrete question.",
+        "mechanism": "Shared clock ties water movement and boat trajectory to the same relative-velocity model; end-to-end arrows explain the miss, then an upstream heading cancels drift.",
+        "readability": "Velocity labels remain distinct from the boat trajectory; the thirty-degree note identifies the changed condition.",
+        "pacing": "Opening crossing and later corrected crossing bracket a fairly long vector explanation.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Only number-formatting differences appeared in this batch. No subjective listening.",
+        "remaining_weaknesses": "The scene is still a sparse illustrated diagram. Water detail is subdued, and the central explanation holds for long stretches. No evidence yet that viewers understand the two reference frames.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "02-camera",
+      "title": "A Little Darkness Makes a Picture #math #Shorts",
+      "url": "https://www.youtube.com/shorts/x-MhKdt4qo4",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M2S",
+      "export_sha256": "dc99e142c6a57db12db497bd0ac3e4cd8201a39d3a3c8144fc86b677f0d9daa6",
+      "editorial": {
+        "decision": "release",
+        "opening": "A candle and inverted image inside a dark chamber make the phenomenon recognizable immediately.",
+        "mechanism": "Two rays cross at one aperture; corresponding triangle shapes connect image and object height, and both screen and object distance change.",
+        "readability": "The ratio was enlarged and split into two lines after preview inspection. The side-view image is explicitly schematic.",
+        "pacing": "Ray tracing builds in stages before two changed-distance comparisons.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Only number-formatting differences appeared in this batch. No subjective listening.",
+        "remaining_weaknesses": "The candle is stylized and static. The long ratio sentence adds cognitive demand; the two-dimensional image glyph is not a literal physical cross-section of screen thickness.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "03-contours",
+      "title": "Reading a Hill Before Taking a Step #math #Shorts",
+      "url": "https://www.youtube.com/shorts/kHmEPk65-VQ",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT56S",
+      "export_sha256": "e669f1b7a1ac5e83927de5c063dd4350f68c374ecae662ef17e1aa6e4bcb41cb",
+      "editorial": {
+        "decision": "release",
+        "opening": "A shaded stack of height contours reads as a hill before the view turns overhead.",
+        "mechanism": "The same level rings map to their planar positions; a marker follows one contour and the local gradient stays perpendicular to its tangent at two points.",
+        "readability": "Restrained shaded rings support the physical-to-map connection; tangent, arrow and right-angle mark are separate.",
+        "pacing": "The projection transition and marker motion provide changes tied to the narration; the latter half has long static explanatory holds.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Only number-formatting differences appeared in this batch. No subjective listening.",
+        "remaining_weaknesses": "The gradient arrow is relatively small and viewers unfamiliar with a tangent may still need more support. The hill is an ideal paraboloid, not observed terrain. No tested transfer or navigation learning.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "04-siphon",
+      "title": "The Whole Journey Leads Downhill #math #Shorts",
+      "url": "https://www.youtube.com/shorts/II21Ktrc2wE",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M8S",
+      "export_sha256": "9e7a4f71c4fd3bca75fd6a9ddddf738bb903470e2a6d18207391306b457d0794",
+      "editorial": {
+        "decision": "release",
+        "opening": "A cutaway jar, pre-filled curved tube and lower bowl establish a recognizable physical arrangement.",
+        "mechanism": "The height marker connects reservoir surface to outlet; the ideal energy relation predicts a square-root speed change for two steady arrangements.",
+        "readability": "The stated assumptions separate endpoint head from crest height and acknowledge real pressure and friction limits.",
+        "pacing": "Continuous markers show flow, with a deliberate comparison between two outlet heights.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Only number-formatting differences appeared in this batch. No subjective listening.",
+        "remaining_weaknesses": "The tube and bowl movement is a schematic comparison, not a transient fluid simulation. Marker speed is illustrative and the small particles may be difficult to track on a phone. No volumetric accumulation is modeled.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "05-capstan",
+      "title": "A Gentle Curve Shares a Force #math #Shorts",
+      "url": "https://www.youtube.com/shorts/xDJAN2honaM",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M15S",
+      "export_sha256": "5576a656c9662ff91d2240543c5edfa63b9695de1d2411272cb6939a27a1d48f",
+      "editorial": {
+        "decision": "release",
+        "opening": "A wrapped wooden post, load and holding end establish the physical roles; a second wrap is added before the graph.",
+        "mechanism": "An exponential curve maps total wrap angle to limiting load/hold ratio for an illustrative friction coefficient; the ending returns to the wrapped subject.",
+        "readability": "Threshold labels distinguish maximum static friction from every resting state; one- and two-turn values are explicitly illustrative.",
+        "pacing": "A visible wrap change interrupts the early static setup; the graph and equation are more conventional explanatory passages.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Only number-formatting differences appeared in this batch. No subjective listening.",
+        "remaining_weaknesses": "The graph does not fully derive the local force balance. Helical rope rendering is illustrative, and the shallow contact pitch is not part of the ideal planar capstan calculation. The opening remains less active than the river.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    }
+  ]
+}
