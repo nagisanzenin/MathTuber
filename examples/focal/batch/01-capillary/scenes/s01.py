@@ -17,7 +17,7 @@ class Film(Stage):
         self.at('The raised water');down=Arrow(water[0].get_center()+RIGHT*.4,water[0].get_center()+RIGHT*.4+DOWN*.8,buff=0,color=self.palette['secondary']);self.play(GrowArrow(down),run_time=.6)
         self.at('Double the radius');ring2=Circle(radius=.9,color=self.palette['secondary'],stroke_width=5).move_to([1.3,-3.3,0]);self.play(Create(ring2),FadeOut(up),FadeOut(down),run_time=.8)
         self.at('But the cross');self.play(ring.animate.set_fill(self.palette['primary'],opacity=.25),ring2.animate.set_fill(self.palette['secondary'],opacity=.25),run_time=.7)
-        area=VGroup(self.label('1 area',ring.get_center(),'primary','label').scale(.8),self.label('4 areas',ring2.get_center(),'secondary','label'));self.play(FadeIn(area),run_time=.5)
+        area=VGroup(self.label('1',ring.get_center(),'primary','label').scale(.8),self.label('4',ring2.get_center(),'secondary','label'));self.play(FadeIn(area),run_time=.5)
         self.at('At the same');self.focus_outline(ring2,run_time=.7)
         self.at('The wider column');self.focus_outline(water[1],run_time=.7)
         self.at('For the same');self.play(FadeOut(ring),FadeOut(ring2),FadeOut(area),run_time=.5);eq=self.label('radius × rise = constant',[0,-2.9,0],'ink','claim').scale(.9);self.play(FadeIn(eq),run_time=.5)
