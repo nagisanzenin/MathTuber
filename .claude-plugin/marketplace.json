@@ -1,0 +1,13 @@
+{
+  "name": "mathtuber",
+  "owner": {
+    "name": "nagisanzenin"
+  },
+  "plugins": [
+    {
+      "name": "mathtuber",
+      "source": "./plugins/mathtuber",
+      "description": "Agentic math-video production with local rendering, speech, review and YouTube publishing."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-05",
+  "hardware": "Apple M2, 16 GiB unified memory",
+  "video_seconds": 131.488,
+  "format": "1080x1920 at 30 fps",
+  "scenes": 6,
+  "speech_batch_seconds": 94.31,
+  "final_scene_render_seconds": 90.11,
+  "mechanical_passed": true,
+  "semantic_audio_final_acceptance": false,
+  "note": "No comparative SmartUber benchmark. Timings exclude dependency/model downloads, authoring, preview and review."
+}

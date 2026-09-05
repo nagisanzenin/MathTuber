@@ -1,0 +1,24 @@
+---
+name: mathtuber
+description: Create, revise, review, resume, and optionally publish narrated mathematical animation videos with local Manim and speech tools. Use for math explainers, visual proofs, educational Shorts, and existing MathTuber projects.
+---
+
+# MathTuber
+
+You are the filmmaker and mathematical author. Use your native reasoning, research, file editing, and media-inspection tools. The engine performs mechanical work; it does not call an LLM or decide what makes a good explanation.
+
+Resolve the plugin root as the directory containing `scripts/engine.py`, two levels above this skill. Resolve symlinks first. An explicit `MATHTUBER_ROOT` may also identify it. Invoke `python3 <root>/scripts/engine.py`; never depend on the current working directory or a vendor-specific root variable. Run `doctor` once per new environment. If media dependencies are missing, use `<root>/scripts/setup.py` (requires uv and installed FFmpeg/TeX).
+
+Read [production.md](references/production.md) when creating or substantially revising a video. Read [commands.md](references/commands.md) for the exact manifest and commands. Read [publishing.md](references/publishing.md) only when uploading is requested.
+
+Choose actions based on the problem, current artifacts, and evidence. You may solve/storyboard in one pass or prototype a difficult visual before writing narration. Avoid rigid persona chains, redundant critiques, and large context dumps. Start with the requested outcome and existing channel profile. Default to English, 9:16, 1080×1920, 30 fps, and roughly 150 seconds for a 2–3 minute Short.
+
+For an existing project, call `status`/`next` and inspect current findings; preserve valid work. Narration, render, and export caches are checked by content. Re-render only invalidated scenes. Core commands emit JSON and return nonzero on failure. Long media operations support `--background`; follow the returned job ID with `job-status`.
+
+Inspect the actual media using your host's image/audio/video tools. `review-bundle` supplies timestamped PNGs and the clip/audio paths. A returned path alone is not an inspected image. Do not claim full motion/audio review from a contact sheet. Record the actual evidence hashes, limitations, and findings. If a modality cannot be inspected, mark it unavailable; never write a passing review to get around the publishing gate.
+
+The complete approved timeline must be present. Rendering success and automated measurements do not establish mathematical correctness. Fix the explanation when necessary, not just the code. A suggested starting limit is three repair cycles per scene; repeated identical failures call for a different approach. Never auto-accept exhausted retries.
+
+Use `--execution docker` for restricted rendering after pulling `manimcommunity/manim:v0.20.1`; the renderer has read-only scenes/assets, no network, and a writable output directory. Native rendering executes agent-authored Python as trusted code and is not an OS sandbox. Keep it within the requested project; do not read credentials from scene code. The publisher alone handles OAuth. Creation does not imply publication unless the user requested it or an applicable saved policy does. Respect existing authorization without inventing repeated confirmation steps.
+
+Return the final export, editable project path, concrete validation results, any remaining limitation, and YouTube URL when uploaded. Do not claim a quality/speed gain without a measured comparison.

@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Why consecutive odd numbers build perfect squares",
+    "min_seconds": 120,
+    "max_seconds": 175
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 1.0
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Scene1",
+      "narration": "One, three, five, seven. Add consecutive odd numbers, starting with one, and something surprising happens. The totals are always perfect squares. One plus three is four. Add five and you get nine. Add seven and you get sixteen. But why should a list of odd numbers have anything to do with squares? Let's build the answer, one tile at a time."
+    },
+    {
+      "id": "s02",
+      "source": "scenes/s02.py",
+      "class_name": "Scene2",
+      "narration": "Start with a single tile. It is already a square, with side length one. Now place three new tiles around its corner. One extends the top edge, one extends the right edge, and the last fills the corner. The three new tiles form an L. Together with the original tile, they make a two by two square. One plus three is four."
+    },
+    {
+      "id": "s03",
+      "source": "scenes/s03.py",
+      "class_name": "Scene3",
+      "narration": "To grow again, we need a longer L. Put two tiles along the top, two along the right, and one more in the corner. That is five new tiles. The two by two square has become a three by three square. Nothing was stretched or hidden. We just added the next odd number, and the entire area became the next perfect square."
+    },
+    {
+      "id": "s04",
+      "source": "scenes/s04.py",
+      "class_name": "Scene4",
+      "narration": "Now forget the particular numbers. Suppose our square has side length n, so it contains n squared tiles. To increase each side by one, add a row of n tiles, a column of n tiles, and a single corner tile. The border therefore contains two n plus one tiles. That is exactly the next odd number. This construction works for every positive integer n."
+    },
+    {
+      "id": "s05",
+      "source": "scenes/s05.py",
+      "class_name": "Scene5",
+      "narration": "The picture also explains an algebraic identity. The new square has area n plus one, all squared. The old square has area n squared. Their difference is the L shaped border: two n plus one. Expanding the new square gives n squared, plus two n, plus one. Subtract the old area, and only the border remains. Geometry and algebra are describing the same change."
+    },
+    {
+      "id": "s06",
+      "source": "scenes/s06.py",
+      "class_name": "Scene6",
+      "narration": "Starting from one tile, every new odd number adds exactly the border needed for the next square. After n steps, the side length is n and the area is n squared. So one plus three, plus five, all the way to two n minus one, equals n squared. The odd numbers are not merely producing square totals by coincidence. They are the successive borders that build a square."
+    }
+  ]
+}

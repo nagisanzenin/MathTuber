@@ -1,0 +1,14 @@
+{
+  "platform": "pi",
+  "version": "0.85.0",
+  "verification": "real loader and bash transport; simulated model",
+  "checks": {
+    "process_success": true,
+    "skill_discovered": true,
+    "skill_expanded": true,
+    "real_bash_result": true,
+    "two_model_requests": true
+  },
+  "passed": true,
+  "stderr": ""
+}

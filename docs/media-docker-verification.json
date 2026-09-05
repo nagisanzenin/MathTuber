@@ -1,0 +1,12 @@
+{
+  "execution": "docker",
+  "fixture": "generated tone, not speech-quality validation",
+  "checks": {
+    "render": true,
+    "cache_reused": true,
+    "assembly": true,
+    "mechanical": true,
+    "evidence": true
+  },
+  "passed": true
+}

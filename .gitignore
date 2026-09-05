@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+.env*
+*token*.json
+*secret*.json
+runs/
+media/
+*.mp4
+*.wav
+*.mp3
+*.sqlite*
+node_modules/

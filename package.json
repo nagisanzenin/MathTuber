@@ -1,0 +1,11 @@
+{
+  "name": "mathtuber",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Agentic math-video production with local rendering, speech, review and YouTube publishing.",
+  "pi": {
+    "skills": [
+      "./plugins/mathtuber/skills"
+    ]
+  }
+}

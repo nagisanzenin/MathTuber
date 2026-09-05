@@ -1,0 +1,20 @@
+{
+  "name": "mathtuber",
+  "interface": {
+    "displayName": "MathTuber"
+  },
+  "plugins": [
+    {
+      "name": "mathtuber",
+      "source": {
+        "source": "local",
+        "path": "./plugins/mathtuber"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
