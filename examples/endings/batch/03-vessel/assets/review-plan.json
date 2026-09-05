@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "A steady pour",
+      "end_cue": "Imagine a cone",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Check constant-volume animation and changing height rate."
+    },
+    {
+      "id": "2",
+      "start_cue": "For a perfect",
+      "end_cue": "This is geometry",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Check half-depth corresponds to eighth-volume."
+    },
+    {
+      "id": "3",
+      "start_cue": "Now place",
+      "end_cue": "The water keeps",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Compare equal-capacity vessels with matched inflow and exact height fractions."
+    }
+  ]
+}

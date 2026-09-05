@@ -1,0 +1,27 @@
+from scenes._shared.design import *
+class Film(Stage):
+    def construct(self):
+        a=ValueTracker(30*DEGREES);clock=self.process_clock(rate=.8);v=7.;g=9.8;o=np.array([-2.5,1.,0])
+        def point(t,theta):return o+np.array([v*np.cos(theta)*t,v*np.sin(theta)*t-.5*g*t*t,0])
+        def flight(theta):return 2*v*np.sin(theta)/g
+        basin=VGroup(Ellipse(width=6.1,height=.45,color=self.palette['primary'],fill_color=self.palette['primary'],fill_opacity=.13).move_to([0,.75,0]),ArcBetweenPoints([-3,.72,0],[3,.72,0],angle=PI/3,color=self.palette['muted']))
+        nozzle=always_redraw(lambda:self.line(o-.35*np.array([np.cos(a.get_value()),np.sin(a.get_value()),0]),o,'ink',9))
+        path=always_redraw(lambda:ParametricFunction(lambda t:point(t,a.get_value()),t_range=[0,flight(a.get_value())],color=self.palette['primary'],stroke_width=3,stroke_opacity=.45))
+        drops=always_redraw(lambda:VGroup(*[Dot(point((clock.value+i*flight(a.get_value())/15)%flight(a.get_value()),a.get_value()),radius=.043,color=self.palette['primary']) for i in range(15)]))
+        angle=always_redraw(lambda:self.label(f'{a.get_value()/DEGREES:.0f}°',[-2.4,1.75,0],'ink','label'))
+        self.add(basin,nozzle,path,drops,angle);self.at('A fountain can');self.wait(1);self.play(a.animate.set_value(60*DEGREES),run_time=2)
+        self.at('The taller');self.play(a.animate.set_value(30*DEGREES),run_time=1.5)
+        self.at('Imagine each');assumption=self.label('same speed • ideal model • slowed',[0,4.9,0],'muted','label').scale(.85);self.play(FadeIn(assumption),run_time=.5)
+        self.at('Gravity changes');vectors=VGroup(Arrow(o,o+[2*np.cos(a.get_value()),0,0],buff=0,color=self.palette['secondary']),Arrow(o,o+[0,2*np.sin(a.get_value()),0],buff=0,color=self.palette['accent']));self.play(FadeIn(vectors),run_time=.5)
+        self.at('A steeper');self.play(a.animate.set_value(60*DEGREES),FadeOut(vectors),run_time=2)
+        self.at('At thirty');self.play(a.animate.set_value(30*DEGREES),run_time=.6);low=ParametricFunction(lambda t:point(t,30*DEGREES),t_range=[0,flight(30*DEGREES)],color=self.palette['secondary']);self.play(Create(low),run_time=1)
+        self.at('At sixty');self.play(a.animate.set_value(60*DEGREES),run_time=1);high=ParametricFunction(lambda t:point(t,60*DEGREES),t_range=[0,flight(60*DEGREES)],color=self.palette['primary']);self.play(Create(high),run_time=1)
+        self.at('Those two');landing=point(flight(30*DEGREES),30*DEGREES);marker=Circle(radius=.16,color=self.palette['accent']).move_to(landing);self.play(Create(marker),run_time=.5)
+        self.at('Both drops');distance=self.line(o+[0,-1.6,0],landing+[0,-1.6,0],'ink',2);self.play(Create(distance),run_time=.5);distlabel=self.label('same horizontal distance',[0,-1.15,0],'ink','label');self.add(distlabel)
+        self.at('For this ideal');rule=self.label('range = (v² / g) sin(2θ)',[0,-2.05,0],'ink','claim').scale(.85);self.play(FadeIn(rule),run_time=.6)
+        self.at('Thirty and sixty');pair=self.label('sin 60° = sin 120°',[0,-2.9,0],'primary','label');self.play(FadeIn(pair),run_time=.5)
+        self.at('The symmetry');self.focus_outline(assumption,run_time=.6)
+        self.at('Now turn');self.play(FadeOut(rule),FadeOut(pair),FadeOut(distlabel),low.animate.set_stroke(opacity=.3),high.animate.set_stroke(opacity=.3),a.animate.set_value(45*DEGREES),run_time=2)
+        self.at('The landing');far=point(flight(45*DEGREES),45*DEGREES);self.play(marker.animate.move_to(far),run_time=1);delta=Arrow(landing+[0,-1.6,0],far+[0,-1.6,0],buff=0,color=self.palette['secondary']);self.play(GrowArrow(delta),run_time=.6)
+        self.at('Here the balance');note=self.label('45° • greatest ideal range',[0,-2.15,0],'ink','claim').scale(.9);self.play(FadeIn(note),run_time=.7)
+        self.at('A fountain offers');self.play(FadeOut(low),FadeOut(high),FadeOut(delta),FadeOut(distance),run_time=.8);self.finish()

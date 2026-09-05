@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "A fountain can",
+      "end_cue": "Imagine each",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Check continuous stream and recognizable basin."
+    },
+    {
+      "id": "2",
+      "start_cue": "At thirty",
+      "end_cue": "For this ideal",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Compare paths and shared landing."
+    },
+    {
+      "id": "3",
+      "start_cue": "Now turn",
+      "end_cue": "A fountain offers",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Resolve the changed angle and return to the fountain."
+    }
+  ]
+}

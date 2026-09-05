@@ -1,0 +1,31 @@
+from scenes._shared.design import *
+class Film(Stage):
+    def construct(self):
+        def leaf(center,color='primary',scale=1):
+         c=np.array(center);shape=VMobject(stroke_color=self.palette[color],stroke_width=3,fill_color=self.palette[color],fill_opacity=.25)
+         shape.set_points_as_corners([[-.65,0,0],[-.3,.3,0],[.3,.3,0],[.65,0,0],[.3,-.3,0],[-.3,-.3,0],[-.65,0,0]]);shape.make_smooth()
+         veins=VGroup(self.line([-.65,0,0],[.65,0,0],color,2),*[self.line([x,0,0],[x+.2,s*.2,0],color,1.5) for x in [-.3,0,.3] for s in [-1,1]])
+         return VGroup(shape,veins).scale(scale).move_to(c)
+        g=.45;vt=.65
+        def fall(t):return vt*vt/g*np.log(np.cosh(g*t/vt))
+        t=ValueTracker(0);x=ValueTracker(0);y=ValueTracker(3.8);motion=always_redraw(lambda:leaf([x.get_value(),y.get_value()-fall(t.get_value()),0],scale=1.4))
+        self.add(motion);self.at('A falling leaf');self.play(t.animate.set_value(3.6),run_time=3,rate_func=linear)
+        self.at('Air can turn');self.play(t.animate.set_value(6),run_time=2,rate_func=linear)
+        self.at('Imagine a leaf');self.remove(motion);center=np.array([0,1.8,0]);held=leaf(center,scale=1.6);self.play(FadeIn(held),run_time=.5);scope=self.label('force diagram • fixed shape',[0,4.5,0],'muted','label').scale(.85);self.play(FadeIn(scope),run_time=.4)
+        self.at('Gravity pulls');down=Arrow(center+[.15,-.5,0],center+[.15,-2,0],buff=0,color=self.palette['secondary']);self.play(GrowArrow(down),run_time=.5);weight=self.label('weight',[1.3,.35,0],'secondary','label');self.add(weight)
+        ratio=ValueTracker(.15);up=always_redraw(lambda:Arrow(center+[-.15,.5,0],center+[-.15,.5+1.5*ratio.get_value()**2,0],buff=0,color=self.palette['primary'],max_tip_length_to_length_ratio=.25))
+        self.at('As the leaf');self.add(up);draglabel=self.label('air drag',[-1.35,3.2,0],'primary','label');self.add(draglabel);self.play(ratio.animate.set_value(.5),run_time=1.8)
+        self.at('In this model');rule=self.label('drag ∝ speed²',[0,-1.5,0],'ink','claim');self.play(FadeIn(rule),ratio.animate.set_value(1),run_time=1.5)
+        self.at('Eventually the drag');self.focus_outline(VGroup(up,down),run_time=.7)
+        self.at('The forces nearly');balance=self.label('net force approaches zero',[0,-2.4,0],'ink','label');self.play(FadeIn(balance),run_time=.5)
+        self.at('The leaf keeps');self.wait(.2)
+        self.at('Balanced forces');self.focus_outline(balance,run_time=.6)
+        self.at('The speed approached');term=self.label('terminal speed',[0,-3.25,0],'primary','label');self.play(FadeIn(term),run_time=.5)
+        self.at('A real leaf');self.play(Rotate(held,.25),run_time=.8);self.play(Rotate(held,-.25),run_time=.8)
+        self.at('Our fixed-shape');self.focus_outline(scope,run_time=.6)
+        self.at('Now compare');self.play(*[FadeOut(m) for m in [held,up,down,weight,draglabel,rule,balance,term,scope]],run_time=.7);t.set_value(0)
+        left=always_redraw(lambda:leaf([-1.65,2.8-fall(t.get_value()),0],'primary',1.1));right=always_redraw(lambda:leaf([1.65,2.8-.5*g*t.get_value()**2,0],'secondary',1.1));self.add(left,right,self.label('in air',[-1.65,4,0],'primary','label'),self.label('no air',[1.65,4,0],'secondary','label'));line=self.line([-2.7,2.8,0],[2.7,2.8,0],'muted',1);self.add(line)
+        self.at('Release both');clock=self.process_clock(rate=.22);t.add_updater(lambda m:m.set_value(min(4,clock.value)));self.add(t);self.add(self.label('ideal trajectories • slowed',[0,5,0],'muted','label').scale(.8))
+        self.at('Without air');self.wait(.1)
+        self.at('That leaf keeps');gap=always_redraw(lambda:DashedLine([0,2.8-fall(max(.05,t.get_value())),0],[0,2.8-.5*g*max(.05,t.get_value())**2,0],color=self.palette['muted']));self.add(gap)
+        self.at('The gentle descent');end=self.label('air changes the journey',[0,-2.65,0],'ink','claim');self.play(FadeIn(end),run_time=.5);self.finish()

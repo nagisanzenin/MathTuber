@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Longer Journey That Makes a Basket Lighter",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A small pulley can make a hanging basket feel lighter to lift.",
+        "But it asks for a longer movement of the rope.",
+        "One end is fixed above.",
+        "The rope passes underneath a wheel attached to the basket.",
+        "Two strands support the load, each carrying the same tension.",
+        "For an ideal, slow lift, each strand supplies half the basket weight.",
+        "Watch the basket rise one metre.",
+        "Both supporting strands lose one metre of length.",
+        "The free end must move two metres to take up that rope.",
+        "Half the force is traded for twice the distance.",
+        "Force times distance gives the work for a steady lift.",
+        "The energy needed to raise the basket has not disappeared.",
+        "We are ignoring friction, stretching, and the weight of the wheel.",
+        "Now start again and move the free end only one metre.",
+        "The basket rises just half a metre.",
+        "The geometry keeps the same bargain, even for a smaller lift.",
+        "A simple machine changes the way we supply the effort, while the lifted basket still gains energy."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "An ideal single moving pulley halves force and doubles free-end displacement; it does not remove work.",
+    "question": "What does a pulley ask in exchange for less force?",
+    "payoff": "An ideal single moving pulley halves force and doubles free-end displacement; it does not remove work.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One relationship with a measured voice track; short paragraph gaps and no duration padding.",
+    "novelty_audit": "Reviewed 175 archived channel titles plus thirty events, nature, motion, quiet, flow and objects releases. Specific explanatory topic is new; this is not a full transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper and ink, subject-led imagery, recognizable objects, a visible change and resolution near the ending.",
+      "episode_variation": "A planted basket remains attached to its moving wheel, with visible rope-length conservation and a second smaller lift.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "What does a pulley ask in exchange for less force?",
+        "visual_action": "A planted basket remains attached to its moving wheel, with visible rope-length conservation and a second smaller lift.",
+        "new_understanding": "An ideal single moving pulley halves force and doubles free-end displacement; it does not remove work.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A small pulley can make a hanging basket feel lighter to lift. But it asks for a longer movement of the rope.\n\nOne end is fixed above. The rope passes underneath a wheel attached to the basket. Two strands support the load, each carrying the same tension. For an ideal, slow lift, each strand supplies half the basket weight.\n\nWatch the basket rise one metre. Both supporting strands lose one metre of length. The free end must move two metres to take up that rope. Half the force is traded for twice the distance.\n\nForce times distance gives the work for a steady lift. The energy needed to raise the basket has not disappeared. We are ignoring friction, stretching, and the weight of the wheel.\n\nNow start again and move the free end only one metre. The basket rises just half a metre. The geometry keeps the same bargain, even for a smaller lift. A simple machine changes the way we supply the effort, while the lifted basket still gains energy."
+    }
+  ],
+  "sources": [
+    "https://openstax.org/books/physics/pages/9-3-simple-machines"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

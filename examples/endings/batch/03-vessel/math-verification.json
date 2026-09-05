@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "method": "Independent derivation and numerical checks",
+  "claims": [
+    "For a cone with top radius R and height H, r=Rh/H, so V(h)=pi R\u00b2 h\u00b3/(3H\u00b2). For fraction f of total volume, h/H=f^(1/3). Half height contains one eighth volume; half volume gives about 79.37 percent height.",
+    "A comparison cylinder of the same height has radius R/sqrt(3), giving equal total capacity. Constant inflow gives linear volume growth in both, while its depth is linear only in the cylinder. No outflow or changing vessel geometry during the pour."
+  ],
+  "checks": [
+    {
+      "description": "Cylinder and cone total volumes agree",
+      "passed": true
+    },
+    {
+      "description": "Half depth is eighth capacity",
+      "passed": true
+    },
+    {
+      "description": "Half volume is approximately four fifths height",
+      "passed": true
+    },
+    {
+      "description": "Rate of rise decreases as cone fills",
+      "passed": true
+    }
+  ],
+  "limitations": "Numerical checks complement derivations. Idealized assumptions are stated; illustrative objects are not experimental data."
+}

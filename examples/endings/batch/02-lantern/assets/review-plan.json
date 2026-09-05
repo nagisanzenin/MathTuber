@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Step away",
+      "end_cue": "Imagine a tiny",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Check lamp and screen move without changing source."
+    },
+    {
+      "id": "2",
+      "start_cue": "Twice as far",
+      "end_cue": "Distance is squared",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Verify four equal patches and quarter intensity."
+    },
+    {
+      "id": "3",
+      "start_cue": "Move the screen",
+      "end_cue": "Bring the screen",
+      "end_offset": 3,
+      "samples": 9,
+      "purpose": "Resolve nine patches and return to the small illuminated face."
+    }
+  ]
+}

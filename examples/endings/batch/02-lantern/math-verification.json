@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "method": "Independent derivation and numerical checks",
+  "claims": [
+    "A fixed angular bundle has area proportional to distance squared. With conserved outgoing power, power per unit area is inversely proportional to distance squared. Multiplying distance by two or three gives one quarter or one ninth.",
+    "Side-view rays map to a separately labeled front-view patch. Shading represents energy, not perceptual brightness. The tiny-source, unobstructed propagation assumption excludes nearby reflections and extended-source effects."
+  ],
+  "checks": [
+    {
+      "description": "Area grows with square of linear dimension",
+      "passed": true
+    },
+    {
+      "description": "Power is conserved by intensity times area",
+      "passed": true
+    }
+  ],
+  "limitations": "Numerical checks complement derivations. Idealized assumptions are stated; illustrative objects are not experimental data."
+}

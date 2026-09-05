@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "method": "Independent derivation and numerical checks",
+  "claims": [
+    "With a massless frictionless wheel and rope in a quasistatic lift, two equal tensions support the load: 2T=W. Rope length is anchor_y + free_end_y - 2 wheel_y + pi radius, so free-end travel is twice load travel. Input work T(2h)=Wh.",
+    "The free end is pulled upward in this one-moving-wheel arrangement; no extra fixed wheel is shown. Acceleration, stretching, friction and wheel weight are neglected. The second demonstration halves both displacements."
+  ],
+  "checks": [
+    {
+      "description": "Animated rope length remains constant",
+      "passed": true
+    },
+    {
+      "description": "Work is conserved",
+      "passed": true
+    },
+    {
+      "description": "Second lift matches free-end travel",
+      "passed": true
+    }
+  ],
+  "limitations": "Numerical checks complement derivations. Idealized assumptions are stated; illustrative objects are not experimental data."
+}

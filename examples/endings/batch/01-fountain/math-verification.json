@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "method": "Independent derivation and numerical checks",
+  "claims": [
+    "Constant horizontal speed and vertical acceleration -g give flight time 2v sin(theta)/g when initial and final heights agree. Range is v\u00b2 sin(2theta)/g. Complementary angles agree; 45 degrees maximizes this range.",
+    "The stream shows slowed steady trajectories as the nozzle angle changes, not the transient flow after a real nozzle adjustment. Air drag, breakup and unequal endpoint heights are excluded."
+  ],
+  "checks": [
+    {
+      "description": "Thirty and sixty degrees share a landing",
+      "passed": true
+    },
+    {
+      "description": "Forty-five degrees reaches further",
+      "passed": true
+    },
+    {
+      "description": "Both return to the launch height",
+      "passed": true
+    }
+  ],
+  "limitations": "Numerical checks complement derivations. Idealized assumptions are stated; illustrative objects are not experimental data."
+}

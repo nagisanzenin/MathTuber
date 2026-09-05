@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Two Arches and One Quiet Landing",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A fountain can send water along two different arches and land in the same place.",
+        "The taller arch does not always reach further.",
+        "Imagine each drop leaving at the same speed, with air resistance set aside.",
+        "Gravity changes the upward motion, while the sideways motion stays steady.",
+        "A steeper launch buys more time in the air, but gives away sideways speed.",
+        "At thirty degrees, the drop travels low and wide.",
+        "At sixty degrees, it climbs higher and stays aloft longer.",
+        "Those two changes balance exactly.",
+        "Both drops return to the starting height at the same horizontal distance.",
+        "For this ideal model, range follows the sine of twice the launch angle.",
+        "Thirty and sixty degrees give the same value.",
+        "The symmetry belongs to equal launch speeds and equal landing heights.",
+        "Now turn the nozzle halfway between them, to forty-five degrees.",
+        "The landing point moves a little further out.",
+        "Here the balance of sideways speed and time gives the greatest range.",
+        "A fountain offers more than one way to reach the same place, and one angle that reaches furthest."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Equal speed and equal height give range proportional to sin twice the launch angle; complementary angles agree.",
+    "question": "Can two different fountain arches land together?",
+    "payoff": "Equal speed and equal height give range proportional to sin twice the launch angle; complementary angles agree.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One relationship with a measured voice track; short paragraph gaps and no duration padding.",
+    "novelty_audit": "Reviewed 175 archived channel titles plus thirty events, nature, motion, quiet, flow and objects releases. Specific explanatory topic is new; this is not a full transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper and ink, subject-led imagery, recognizable objects, a visible change and resolution near the ending.",
+      "episode_variation": "A continuous drop stream compares complementary angles, then moves to the visibly longest ideal range.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Can two different fountain arches land together?",
+        "visual_action": "A continuous drop stream compares complementary angles, then moves to the visibly longest ideal range.",
+        "new_understanding": "Equal speed and equal height give range proportional to sin twice the launch angle; complementary angles agree.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A fountain can send water along two different arches and land in the same place. The taller arch does not always reach further.\n\nImagine each drop leaving at the same speed, with air resistance set aside. Gravity changes the upward motion, while the sideways motion stays steady. A steeper launch buys more time in the air, but gives away sideways speed.\n\nAt thirty degrees, the drop travels low and wide. At sixty degrees, it climbs higher and stays aloft longer. Those two changes balance exactly. Both drops return to the starting height at the same horizontal distance.\n\nFor this ideal model, range follows the sine of twice the launch angle. Thirty and sixty degrees give the same value. The symmetry belongs to equal launch speeds and equal landing heights.\n\nNow turn the nozzle halfway between them, to forty-five degrees. The landing point moves a little further out. Here the balance of sideways speed and time gives the greatest range. A fountain offers more than one way to reach the same place, and one angle that reaches furthest."
+    }
+  ],
+  "sources": [
+    "https://openstax.org/books/college-physics-2e/pages/3-4-projectile-motion"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "method": "Independent derivation and numerical checks",
+  "claims": [
+    "The fixed-orientation quadratic-drag model is dv/dt=g-bv\u00b2, with unit mass and b=g/vt\u00b2. From rest v=vt tanh(gt/vt) and descent s=vt\u00b2/g log cosh(gt/vt). Gravity alone gives s=gt\u00b2/2.",
+    "The illustrative leaf is not a realistic flutter simulation. Force arrows show the limiting balance. Both comparison trajectories use the same time and gravity, with an explicitly slowed presentation clock. Equal forces imply zero acceleration, not zero speed."
+  ],
+  "checks": [
+    {
+      "description": "Position derivative matches speed",
+      "passed": true
+    },
+    {
+      "description": "Speed solves the drag equation",
+      "passed": true
+    },
+    {
+      "description": "Drag trajectory falls less far",
+      "passed": true
+    },
+    {
+      "description": "Terminal limit approaches vt",
+      "passed": true
+    }
+  ],
+  "limitations": "Numerical checks complement derivations. Idealized assumptions are stated; illustrative objects are not experimental data."
+}

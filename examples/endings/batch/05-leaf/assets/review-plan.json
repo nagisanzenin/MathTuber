@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "A falling leaf",
+      "end_cue": "Imagine a leaf",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Check slowing acceleration in the falling model."
+    },
+    {
+      "id": "2",
+      "start_cue": "As the leaf",
+      "end_cue": "The leaf keeps",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Check drag force growth and weight comparison."
+    },
+    {
+      "id": "3",
+      "start_cue": "Now compare",
+      "end_cue": "The gentle descent",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Compare model trajectories from rest under identical gravity."
+    }
+  ]
+}

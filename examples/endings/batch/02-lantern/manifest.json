@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Light Shared Between Nine Small Squares",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Step away from a small lantern and its light spreads into more space.",
+        "The lantern has not become weaker.",
+        "The same outgoing light is being shared.",
+        "Imagine a tiny source in clear space, with no nearby reflections.",
+        "Follow one small bundle of its light.",
+        "Twice as far away, the bundle is twice as wide and twice as tall.",
+        "That makes four times the area.",
+        "The same energy now passes through four equal patches instead of one.",
+        "Each patch receives one quarter as much light per second.",
+        "This is the inverse square relationship.",
+        "Distance is squared because the spreading happens across an area.",
+        "A real lantern has a shape, and walls can send light back.",
+        "The tiny-source model works best when distance is large compared with the lamp.",
+        "The shaded squares represent energy, not how brightness must look to your eyes.",
+        "Move the screen to three times the original distance.",
+        "The bundle now covers nine of the original patches.",
+        "Each receives one ninth as much.",
+        "Bring the screen close again, and the same light gathers into the smaller patch."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "For a small unobstructed source, light per area scales with inverse distance squared.",
+    "question": "Where does the light go as we step away?",
+    "payoff": "For a small unobstructed source, light per area scales with inverse distance squared.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One relationship with a measured voice track; short paragraph gaps and no duration padding.",
+    "novelty_audit": "Reviewed 175 archived channel titles plus thirty events, nature, motion, quiet, flow and objects releases. Specific explanatory topic is new; this is not a full transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper and ink, subject-led imagery, recognizable objects, a visible change and resolution near the ending.",
+      "episode_variation": "A recognizable lantern and side-view beam stay connected to an expanding front-view patch, ending at three distances and returning.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Where does the light go as we step away?",
+        "visual_action": "A recognizable lantern and side-view beam stay connected to an expanding front-view patch, ending at three distances and returning.",
+        "new_understanding": "For a small unobstructed source, light per area scales with inverse distance squared.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Step away from a small lantern and its light spreads into more space. The lantern has not become weaker. The same outgoing light is being shared.\n\nImagine a tiny source in clear space, with no nearby reflections. Follow one small bundle of its light. Twice as far away, the bundle is twice as wide and twice as tall. That makes four times the area.\n\nThe same energy now passes through four equal patches instead of one. Each patch receives one quarter as much light per second. This is the inverse square relationship. Distance is squared because the spreading happens across an area.\n\nA real lantern has a shape, and walls can send light back. The tiny-source model works best when distance is large compared with the lamp. The shaded squares represent energy, not how brightness must look to your eyes.\n\nMove the screen to three times the original distance. The bundle now covers nine of the original patches. Each receives one ninth as much. Bring the screen close again, and the same light gathers into the smaller patch."
+    }
+  ],
+  "sources": [
+    "https://openstax.org/books/astronomy-2e/pages/5-1-the-behavior-of-light"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

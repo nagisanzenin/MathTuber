@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "A small pulley",
+      "end_cue": "One end",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Check load attachment and continuous rope."
+    },
+    {
+      "id": "2",
+      "start_cue": "Watch the basket",
+      "end_cue": "Force times",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Verify one-metre load displacement with two-metre free-end movement."
+    },
+    {
+      "id": "3",
+      "start_cue": "Now start again",
+      "end_cue": "A simple machine",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Resolve half lift under one metre of rope travel."
+    }
+  ]
+}
