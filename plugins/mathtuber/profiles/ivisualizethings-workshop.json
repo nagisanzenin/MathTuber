@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "ivisualizethings-workshop",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "status": "candidate",
   "promise": "See the mechanism that makes a surprising mathematical result inevitable.",
   "audience": "Curious teens and adults; begin with concrete objects and state necessary prerequisites.",
@@ -43,7 +43,11 @@
     "Treat the payoff as a visible resolution, then offer a small transfer case.",
     "Prototype the hardest inference before complete production.",
     "Carry object identity across explanation beats; a persistent heading is optional.",
-    "Review every member of a batch before its first publication."
+    "Review every member of a batch before its first publication.",
+    "Explain the mapping between views before using it as evidence.",
+    "Fade replacement phrases; do not morph unrelated letter shapes.",
+    "Declare and sample every critical transition through its end.",
+    "Use topic-specific settings within the shared material and color language."
   ],
   "formats": {
     "visual-proof": "A concrete puzzle resolves through an invariant or transformation.",
@@ -86,6 +90,12 @@
       "prefer": "One active workspace; object-attached short labels; resize the workspace between exploration and proof. Short boundary tones, dry proof narration. See docs/research/MECHANISM-DIRECTION.md.",
       "avoid": "The same title/diagram/formula stack in every scene or decorative clicks unrelated to action.",
       "reason": "Channel identity comes from consistent decisions, not identical layouts."
+    },
+    {
+      "situation": "A concrete example becomes an abstract representation",
+      "prefer": "Keep one shared control or identified quantity visible; demonstrate its effect in both views.",
+      "avoid": "Replace the object with a completed graph and assume the viewer can translate.",
+      "reason": "Understanding the correspondence is part of the learning task."
     }
   ],
   "evidence": {

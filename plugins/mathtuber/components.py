@@ -69,3 +69,10 @@ class WorkshopScene(NarratedScene):
         if label is not None:
             group.add(self.lettering(str(label),color="background",max_width=width*.8).move_to(face))
         return group
+
+    def replace_label(self, previous, replacement, run_time=.4):
+        """Fade between phrases without distorting glyphs. Returns the new label."""
+        if previous is not None:
+            self.play(FadeOut(previous), run_time=run_time / 2)
+        self.play(FadeIn(replacement), run_time=run_time / 2 if previous is not None else run_time)
+        return replacement
