@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "In this simple model",
+      "end_cue": "Near the direction",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Keep the observer, fixed sunlight direction and phase disk consistent."
+    },
+    {
+      "id": "2",
+      "start_cue": "Near the direction",
+      "end_cue": "The Moon has not",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Compare crescent, quarter and full positions with illumination."
+    },
+    {
+      "id": "3",
+      "start_cue": "The boundary between",
+      "end_cue": "One unchanged sphere",
+      "end_offset": 3,
+      "samples": 9,
+      "purpose": "Inspect the projected terminator, edge-on diameter and complete phase cycle."
+    }
+  ]
+}

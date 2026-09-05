@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "method": "Independent analytic derivation with numerical checks, separate from rendered labels",
+  "claims": [
+    "A projected uniform circular motion x=A cos(omega t) has x second derivative = -omega squared x. Hooke restoring force -kx gives the same equation when omega squared=k/m. At x=0 acceleration is zero but velocity need not be.",
+    "Period 2pi/omega is independent of amplitude only in the ideal linear model; friction and nonlinear springs change the idealization."
+  ],
+  "checks": [
+    {
+      "description": "Numerical second derivative matches restoring acceleration",
+      "passed": true
+    },
+    {
+      "description": "Endpoint speed zero, center speed maximum",
+      "passed": true
+    },
+    {
+      "description": "Changing amplitude leaves the period unchanged",
+      "passed": true
+    }
+  ],
+  "limitations": "Numerical samples check implementations; general conclusions rest on the stated mathematical arguments."
+}

@@ -1,0 +1,35 @@
+from scenes._shared.design import *
+class Film(Stage):
+    def construct(self):
+        c=np.array([0,2.65,0]);R=ValueTracker(1.7);theta=ValueTracker(0)
+        def P():return c+R.get_value()*np.array([math.cos(theta.get_value()),math.sin(theta.get_value()),0])
+        def S():return np.array([P()[0],-.75,0])
+        ring=always_redraw(lambda:Circle(radius=R.get_value(),color=self.palette['muted'],stroke_width=2).move_to(c));dot=always_redraw(lambda:Dot(P(),radius=.095,color=self.palette['primary']));shadow=always_redraw(lambda:Dot(S(),radius=.12,color=self.palette['secondary']));guide=always_redraw(lambda:DashedLine(P(),S(),dash_length=.13,color=self.palette['muted'],stroke_width=1.8));rail=self.line([-2.7,-.75,0],[2.7,-.75,0],'muted',2)
+        self.add(ring,dot,shadow,guide,rail);self.play(theta.animate.set_value(TAU),run_time=6,rate_func=linear)
+        self.at('The shadow slows');self.play(theta.animate.set_value(2*TAU),run_time=5,rate_func=linear)
+        self.at('Nothing has told');self.play(theta.animate.set_value(3*TAU),run_time=5,rate_func=linear)
+        self.at('Equal turns make');ticks=VGroup(*[Dot(c+1.7*np.array([math.cos(t),math.sin(t),0]),radius=.042,color=self.palette['primary']) for t in np.linspace(0,TAU,13)[:-1]]);steps=VGroup(*[self.line([1.7*math.cos(t),-.93,0],[1.7*math.cos(t),-1.1,0],'secondary',3) for t in np.linspace(0,PI,7)]);self.play(FadeIn(ticks),FadeIn(steps),run_time=.7)
+        self.at('Near the edge');self.play(theta.animate.set_value(PI/3+3*TAU),run_time=3.3,rate_func=linear)
+        self.at('This is the shape');self.play(FadeOut(ticks),FadeOut(steps),run_time=.5);title=self.label('simple harmonic motion',[0,-2.6,0],'ink','label');self.play(FadeIn(title),run_time=.5)
+        def spring():
+            end=S();start=np.array([-3.2,-.75,0]);xs=np.linspace(start[0]+.2,end[0]-.2,17);pts=[start,start+RIGHT*.2]+[np.array([x,-.75+(.15 if i%2 else -.15),0]) for i,x in enumerate(xs)]+[end- RIGHT*.2,end];return VMobject(color=self.palette['ink'],stroke_width=2).set_points_as_corners(pts)
+        coil=always_redraw(spring)
+        self.at('An ideal spring can');self.play(FadeIn(coil),run_time=.7)
+        def restore():
+            pos=S();v= -.65*pos[0]*RIGHT
+            return VGroup(Arrow(pos,pos+v,buff=0,color=self.palette['accent'],stroke_width=4)) if abs(pos[0])>.03 else VGroup()
+        force=always_redraw(restore)
+        self.at('Farther from the middle');self.add(force);self.play(theta.animate.set_value(4*TAU),run_time=2.5,rate_func=linear)
+        self.at('At the middle');self.play(theta.animate.set_value(4*TAU+PI/2),run_time=1.6,rate_func=linear)
+        self.at('The moving mass');self.play(theta.animate.set_value(5*TAU),run_time=3.5,rate_func=linear)
+        self.at('The circle explains');self.play(FadeOut(title),FadeOut(coil),FadeOut(force),run_time=.7)
+        radial=always_redraw(lambda:Arrow(P(),P()+.65*(c-P()),buff=0,color=self.palette['accent'],stroke_width=4))
+        self.at('Uniform circular motion');self.add(radial);self.play(theta.animate.set_value(5*TAU+PI/3),run_time=2,rate_func=linear)
+        self.at('Project that arrow');self.add(force);self.play(theta.animate.set_value(6*TAU),run_time=2.6,rate_func=linear)
+        self.at('The result points');rule=self.label('acceleration ∝ −displacement',[0,-2.5,0],'ink','label');self.play(FadeIn(rule),run_time=.6);self.play(theta.animate.set_value(7*TAU),run_time=3.2,rate_func=linear)
+        self.at('That is exactly');self.add(coil);self.play(theta.animate.set_value(7*TAU+PI),run_time=2.4,rate_func=linear)
+        self.at('At a fixed angular speed');self.play(FadeOut(radial),FadeOut(force),FadeOut(rule),run_time=.5);self.play(R.animate.set_value(2.1),theta.animate.set_value(8*TAU+PI),run_time=4,rate_func=linear)
+        self.at('The shadow travels');self.play(theta.animate.set_value(9*TAU+PI),run_time=4,rate_func=linear)
+        self.at('This amplitude independence');note=self.label('ideal linear spring',[0,-2.5,0],'muted','detail');self.play(FadeIn(note),run_time=.5)
+        self.at('Friction and real springs');self.play(theta.animate.set_value(10*TAU+PI),run_time=3.4,rate_func=linear)
+        self.at('A circle and a spring');self.play(FadeOut(note),run_time=.5);self.play(theta.animate.set_value(11*TAU+PI),run_time=4.5,rate_func=linear);self.finish()

@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "A Circle and a Spring Share One Rhythm",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.86,
+    "paragraph_pause_seconds": 1.1
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A point travels evenly around a circle.",
+        "Its shadow moves along a straight line.",
+        "The shadow slows near each end, then returns through the middle.",
+        "Nothing has told the shadow when to turn.",
+        "That rhythm is already inside the circle.",
+        "Equal turns make unequal steps along the line.",
+        "Near the edge, another small turn barely changes the shadow position.",
+        "This is the shape of simple harmonic motion.",
+        "An ideal spring can give a mass the same rhythm.",
+        "Farther from the middle, the spring pulls back more strongly.",
+        "At the middle, its restoring force is zero.",
+        "The moving mass continues because it already has velocity.",
+        "The circle explains the acceleration too.",
+        "Uniform circular motion has an acceleration toward the center.",
+        "Project that arrow onto the line.",
+        "The result points toward the middle and grows with displacement.",
+        "That is exactly the rule for an ideal spring.",
+        "At a fixed angular speed, a wider circle takes the same time for one turn.",
+        "The shadow travels farther, but its period stays the same.",
+        "This amplitude independence belongs to the ideal linear model.",
+        "Friction and real springs can change the motion.",
+        "A circle and a spring can quietly share one mathematical rhythm."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Uniform circular motion projects to simple harmonic motion; acceleration is proportional to negative displacement.",
+    "question": "Why does a spring slow and return?",
+    "payoff": "Uniform circular motion projects to simple harmonic motion; acceleration is proportional to negative displacement.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One continuous scene with authored paragraph pauses; measured speech controls total duration. Pauses are purposeful, not duration padding.",
+    "novelty_audit": "Reviewed 175 archived channel titles plus fifteen events, nature and motion releases on 2026-09-06. Specific explanatory topic is new; not a transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper and ink, subject-led composition, an unfolding visual inference, and deliberate silence after key changes.",
+      "episode_variation": "Project a circle onto a spring rail; compare equal angular steps and projected inward acceleration.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why does a spring slow and return?",
+        "visual_action": "Project a circle onto a spring rail; compare equal angular steps and projected inward acceleration.",
+        "new_understanding": "Uniform circular motion projects to simple harmonic motion; acceleration is proportional to negative displacement.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A point travels evenly around a circle. Its shadow moves along a straight line. The shadow slows near each end, then returns through the middle.\n\nNothing has told the shadow when to turn. That rhythm is already inside the circle. Equal turns make unequal steps along the line. Near the edge, another small turn barely changes the shadow position.\n\nThis is the shape of simple harmonic motion. An ideal spring can give a mass the same rhythm. Farther from the middle, the spring pulls back more strongly. At the middle, its restoring force is zero. The moving mass continues because it already has velocity.\n\nThe circle explains the acceleration too. Uniform circular motion has an acceleration toward the center. Project that arrow onto the line. The result points toward the middle and grows with displacement. That is exactly the rule for an ideal spring.\n\nAt a fixed angular speed, a wider circle takes the same time for one turn. The shadow travels farther, but its period stays the same. This amplitude independence belongs to the ideal linear model. Friction and real springs can change the motion. A circle and a spring can quietly share one mathematical rhythm."
+    }
+  ],
+  "sources": [
+    "https://www.physics.uoguelph.ca/simple-harmonic-motion-and-circular-motion"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

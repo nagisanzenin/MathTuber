@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "method": "Independent analytic derivation with numerical checks, separate from rendered labels",
+  "claims": [
+    "For ellipse focal sum 2a, reflecting the second focus across the supporting line unfolds the focal path into length 2a. Every other point on that line has a strictly longer broken path by triangle inequality, hence lies outside the ellipse. The line is tangent and equal reflection angles send rays to the other focus.",
+    "Ideal planar specular reflection; this alone is not a full acoustic or optical wave model."
+  ],
+  "checks": [
+    {
+      "description": "401 ray reflections agree with the second focus",
+      "passed": true
+    },
+    {
+      "description": "401 points preserve focal sum",
+      "passed": true
+    },
+    {
+      "description": "Unfolded path length is 2a",
+      "passed": true
+    },
+    {
+      "description": "Other tested mirror points have strictly larger focal sums",
+      "passed": true
+    }
+  ],
+  "limitations": "Numerical samples check implementations; general conclusions rest on the stated mathematical arguments."
+}

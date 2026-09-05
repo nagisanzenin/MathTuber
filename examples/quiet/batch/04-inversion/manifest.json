@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "When Straight Lines Become Circular Arcs",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.86,
+    "paragraph_pause_seconds": 1.1
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A straight line can become a circle.",
+        "We only need a different rule for where each point goes.",
+        "This rule is called circle inversion.",
+        "Keep the direction from the center.",
+        "Change the distance to its reciprocal.",
+        "At distance two, the new point is at one half.",
+        "At one half, it goes to two.",
+        "Points on the unit circle stay where they are.",
+        "Apply the rule twice and every other point comes back.",
+        "Now place a line outside the circle.",
+        "Watch the image of a point sliding along it.",
+        "The image bends around a circle through the center.",
+        "We can see why with two right triangles.",
+        "The first triangle uses the nearest point on the line.",
+        "Invert that nearest point too.",
+        "Reciprocal distances make these triangles similar.",
+        "They share the angle at the center.",
+        "The right angle moves to the image point.",
+        "So the image sees a fixed diameter at a right angle.",
+        "That places it on the smaller circle.",
+        "There is one missing point.",
+        "No finite starting point reaches the center.",
+        "Going farther along the line only brings the image closer.",
+        "A line through the center behaves differently: it stays on that line.",
+        "For lines away from the center, a whole grid becomes a family of circular arcs.",
+        "The rule changes distances, yet gives straight lines a new kind of grace."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Circle inversion sends a line not through its center to a circle missing that center; a line through the center stays on itself.",
+    "question": "How does reciprocal distance bend a line?",
+    "payoff": "Circle inversion sends a line not through its center to a circle missing that center; a line through the center stays on itself.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One continuous scene with authored paragraph pauses; measured speech controls total duration. Pauses are purposeful, not duration padding.",
+    "novelty_audit": "Reviewed 175 archived channel titles plus fifteen events, nature and motion releases on 2026-09-06. Specific explanatory topic is new; not a transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper and ink, subject-led composition, an unfolding visual inference, and deliberate silence after key changes.",
+      "episode_variation": "Preserve radial direction, compare reciprocal point pairs and similar triangles, then invert a grid.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How does reciprocal distance bend a line?",
+        "visual_action": "Preserve radial direction, compare reciprocal point pairs and similar triangles, then invert a grid.",
+        "new_understanding": "Circle inversion sends a line not through its center to a circle missing that center; a line through the center stays on itself.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A straight line can become a circle. We only need a different rule for where each point goes. This rule is called circle inversion.\n\nKeep the direction from the center. Change the distance to its reciprocal. At distance two, the new point is at one half. At one half, it goes to two. Points on the unit circle stay where they are. Apply the rule twice and every other point comes back.\n\nNow place a line outside the circle. Watch the image of a point sliding along it. The image bends around a circle through the center. We can see why with two right triangles.\n\nThe first triangle uses the nearest point on the line. Invert that nearest point too. Reciprocal distances make these triangles similar. They share the angle at the center. The right angle moves to the image point. So the image sees a fixed diameter at a right angle. That places it on the smaller circle.\n\nThere is one missing point. No finite starting point reaches the center. Going farther along the line only brings the image closer. A line through the center behaves differently: it stays on that line. For lines away from the center, a whole grid becomes a family of circular arcs. The rule changes distances, yet gives straight lines a new kind of grace."
+    }
+  ],
+  "sources": [
+    "https://www.ms.uky.edu/~droyster/courses/fall96/math3181/notes/hyprgeom/node54.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Equal turns make",
+      "end_cue": "This is the shape",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Compare equal circular steps to unequal projected distances."
+    },
+    {
+      "id": "2",
+      "start_cue": "Farther from the middle",
+      "end_cue": "The circle explains",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Track restoring force at endpoints and zero force at the center."
+    },
+    {
+      "id": "3",
+      "start_cue": "Uniform circular motion",
+      "end_cue": "At a fixed angular speed",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Inspect radial and projected acceleration with persistent object identity."
+    }
+  ]
+}

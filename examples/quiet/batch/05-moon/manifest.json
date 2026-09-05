@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "A Crescent Is a Relationship with Light",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.86,
+    "paragraph_pause_seconds": 1.1
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "The crescent is not a piece missing from the Moon.",
+        "It is a meeting between light and a point of view.",
+        "The whole sphere is still there.",
+        "In this simple model, sunlight illuminates half the sphere.",
+        "We see another half: the side facing Earth.",
+        "The visible phase is where those two halves overlap.",
+        "As the Moon travels around Earth, that overlap changes.",
+        "Near the direction of the Sun, the illuminated side faces mostly away from us.",
+        "A little farther around, a crescent enters our view.",
+        "At a quarter of the cycle, we see half of the bright side.",
+        "The visible disk is half lit.",
+        "Yet sunlight still covers half of the whole sphere.",
+        "On the opposite side of Earth, the bright side faces us.",
+        "The disk looks full.",
+        "The Moon has not started making more light.",
+        "We are seeing more of its sunlit half.",
+        "Ordinary phases are not made by Earth casting a shadow.",
+        "Earth shadow causes a lunar eclipse, a different alignment.",
+        "The real orbit is tilted, so eclipses do not happen every month.",
+        "The boundary between day and night is a circle on this ideal sphere.",
+        "Seen at an angle, that boundary projects into a curved edge.",
+        "Seen edge on, it becomes a straight line across the disk.",
+        "This drawing shows illuminated area, not a realistic brightness map.",
+        "The familiar shapes return in a cycle of about twenty nine and a half days.",
+        "One unchanged sphere, and a slowly changing relationship with light."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Lunar phases arise from changing view of the sunlit hemisphere, not ordinary Earth shadows; the terminator is a projected circle.",
+    "question": "What changes when the Moon becomes a crescent?",
+    "payoff": "Lunar phases arise from changing view of the sunlit hemisphere, not ordinary Earth shadows; the terminator is a projected circle.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One continuous scene with authored paragraph pauses; measured speech controls total duration. Pauses are purposeful, not duration padding.",
+    "novelty_audit": "Reviewed 175 archived channel titles plus fifteen events, nature and motion releases on 2026-09-06. Specific explanatory topic is new; not a transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper and ink, subject-led composition, an unfolding visual inference, and deliberate silence after key changes.",
+      "episode_variation": "A phase disk and matching Earth-Moon geometry reveal the overlap of visible and illuminated hemispheres.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "What changes when the Moon becomes a crescent?",
+        "visual_action": "A phase disk and matching Earth-Moon geometry reveal the overlap of visible and illuminated hemispheres.",
+        "new_understanding": "Lunar phases arise from changing view of the sunlit hemisphere, not ordinary Earth shadows; the terminator is a projected circle.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "The crescent is not a piece missing from the Moon. It is a meeting between light and a point of view. The whole sphere is still there.\n\nIn this simple model, sunlight illuminates half the sphere. We see another half: the side facing Earth. The visible phase is where those two halves overlap. As the Moon travels around Earth, that overlap changes.\n\nNear the direction of the Sun, the illuminated side faces mostly away from us. A little farther around, a crescent enters our view. At a quarter of the cycle, we see half of the bright side. The visible disk is half lit. Yet sunlight still covers half of the whole sphere.\n\nOn the opposite side of Earth, the bright side faces us. The disk looks full. The Moon has not started making more light. We are seeing more of its sunlit half. Ordinary phases are not made by Earth casting a shadow. Earth shadow causes a lunar eclipse, a different alignment. The real orbit is tilted, so eclipses do not happen every month.\n\nThe boundary between day and night is a circle on this ideal sphere. Seen at an angle, that boundary projects into a curved edge. Seen edge on, it becomes a straight line across the disk. This drawing shows illuminated area, not a realistic brightness map. The familiar shapes return in a cycle of about twenty nine and a half days. One unchanged sphere, and a slowly changing relationship with light."
+    }
+  ],
+  "sources": [
+    "https://science.nasa.gov/moon/moon-phases/"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

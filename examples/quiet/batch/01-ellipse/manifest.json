@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "How an Ellipse Gathers Reflected Paths",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.86,
+    "paragraph_pause_seconds": 1.1
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A ray leaves one point and finds another.",
+        "Between them, it touches the wall of an ellipse.",
+        "Change its direction, and the reflected ray still finds the same place.",
+        "Those two points are the foci.",
+        "Every point on the ellipse has the same total distance to them.",
+        "A loop of string can keep that total fixed.",
+        "Now pause at one point on the curve.",
+        "We can unfold its broken path into a straight one.",
+        "Continue the first segment beyond the wall.",
+        "Give this new segment the same length as the second.",
+        "The total length has not changed.",
+        "Draw the perpendicular bisector between the second focus and its new copy.",
+        "This line is our candidate mirror.",
+        "The two equal segments meet it at equal angles.",
+        "Why does this mirror just touch the ellipse?",
+        "Move to another point on the mirror.",
+        "The distance to the focus equals the distance to its reflected copy.",
+        "So unfold that path too.",
+        "It now bends between the same two endpoints.",
+        "A bent route is longer than the straight route.",
+        "That point must lie outside the ellipse.",
+        "Only the original point gives the fixed total.",
+        "The candidate mirror is therefore tangent to the curve.",
+        "Equal angles explain why the ray reaches the second focus.",
+        "This is an ideal two dimensional reflection.",
+        "Real sound and light also involve surfaces and waves.",
+        "Yet this quiet geometry gives the ellipse a way to gather paths."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "The constant focal-distance sum and triangle inequality yield the tangent reflection property.",
+    "question": "Why does a reflected ray return to the second focus?",
+    "payoff": "The constant focal-distance sum and triangle inequality yield the tangent reflection property.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One continuous scene with authored paragraph pauses; measured speech controls total duration. Pauses are purposeful, not duration padding.",
+    "novelty_audit": "Reviewed 175 archived channel titles plus fifteen events, nature and motion releases on 2026-09-06. Specific explanatory topic is new; not a transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper and ink, subject-led composition, an unfolding visual inference, and deliberate silence after key changes.",
+      "episode_variation": "Unfold a focal path, form a candidate tangent mirror, and compare an off-contact bent path.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why does a reflected ray return to the second focus?",
+        "visual_action": "Unfold a focal path, form a candidate tangent mirror, and compare an off-contact bent path.",
+        "new_understanding": "The constant focal-distance sum and triangle inequality yield the tangent reflection property.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A ray leaves one point and finds another. Between them, it touches the wall of an ellipse. Change its direction, and the reflected ray still finds the same place.\n\nThose two points are the foci. Every point on the ellipse has the same total distance to them. A loop of string can keep that total fixed. Now pause at one point on the curve. We can unfold its broken path into a straight one.\n\nContinue the first segment beyond the wall. Give this new segment the same length as the second. The total length has not changed. Draw the perpendicular bisector between the second focus and its new copy. This line is our candidate mirror. The two equal segments meet it at equal angles.\n\nWhy does this mirror just touch the ellipse? Move to another point on the mirror. The distance to the focus equals the distance to its reflected copy. So unfold that path too. It now bends between the same two endpoints. A bent route is longer than the straight route. That point must lie outside the ellipse. Only the original point gives the fixed total.\n\nThe candidate mirror is therefore tangent to the curve. Equal angles explain why the ray reaches the second focus. This is an ideal two dimensional reflection. Real sound and light also involve surfaces and waves. Yet this quiet geometry gives the ellipse a way to gather paths."
+    }
+  ],
+  "sources": [
+    "https://academic.sun.ac.za/mathed/shoma/MATUNIT14_11.htm"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

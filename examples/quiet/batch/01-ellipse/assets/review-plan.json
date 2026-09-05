@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Continue the first",
+      "end_cue": "Why does this mirror",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Unfold the path and inspect the candidate mirror and equal-angle cues."
+    },
+    {
+      "id": "2",
+      "start_cue": "Move to another",
+      "end_cue": "The candidate mirror is",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Track the reflected comparison path and the strict triangle inequality."
+    },
+    {
+      "id": "3",
+      "start_cue": "This is an ideal",
+      "end_cue": "Yet this quiet",
+      "end_offset": 3,
+      "samples": 9,
+      "purpose": "Check the idealization and expressive final family of focal rays."
+    }
+  ]
+}

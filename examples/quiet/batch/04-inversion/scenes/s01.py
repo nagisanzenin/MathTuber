@@ -1,0 +1,38 @@
+from scenes._shared.design import *
+class Film(Stage):
+    def construct(self):
+        c=np.array([0,1.45,0]);scale=1.8
+        def pos(p):return c+scale*np.array([p[0],p[1],0])
+        def inv(p):return np.array(p)/np.dot(p,p)
+        unit=Circle(radius=scale,color=self.palette['muted'],stroke_width=2).move_to(c);origin=Dot(c,radius=.065,color=self.palette['ink']);self.add(unit,origin)
+        d=ValueTracker(2);u=np.array([math.cos(.6),math.sin(.6)]);first=always_redraw(lambda:Dot(pos(u*d.get_value()),radius=.085,color=self.palette['primary']));second=always_redraw(lambda:Dot(pos(u/d.get_value()),radius=.085,color=self.palette['secondary']));ray=always_redraw(lambda:self.line(c,pos(u*max(d.get_value(),1/d.get_value())),'muted',2));self.add(ray,first,second)
+        self.at('This rule is called');name=self.label('circle inversion',[0,4.55,0],'ink','label');self.play(FadeIn(name),run_time=.6)
+        self.at('Keep the direction');self.focus_outline(ray,run_time=.8)
+        self.at('Change the distance');rule=self.label('distance × image distance = 1',[0,-1.15,0],'ink','label');self.play(FadeIn(rule),run_time=.7)
+        self.at('At distance two');numbers=self.label('2 ↔ 1/2',[0,-2,0],'ink','label');self.play(FadeIn(numbers),run_time=.5)
+        self.at('At one half it');self.play(d.animate.set_value(.5),run_time=1.5)
+        self.at('Points on the unit');self.play(FadeOut(numbers),d.animate.set_value(1),run_time=1.5)
+        self.at('Apply the rule twice');self.play(d.animate.set_value(2),run_time=1);self.play(d.animate.set_value(.5),run_time=1)
+        self.at('Now place a line');self.play(*[FadeOut(x) for x in [first,second,ray,name,rule]],run_time=.6)
+        a=1.2;y=ValueTracker(-1.4);A=np.array([a,0]);Ai=inv(A)
+        line=self.line(pos([a,-1.8]),pos([a,1.8]),'primary',3);point=always_redraw(lambda:Dot(pos([a,y.get_value()]),radius=.085,color=self.palette['primary']));image=always_redraw(lambda:Dot(pos(inv([a,y.get_value()])),radius=.085,color=self.palette['secondary']));join=always_redraw(lambda:self.line(c,pos([a,y.get_value()]),'muted',1.5));trace=TracedPath(image.get_center,stroke_color=self.palette['secondary'],stroke_width=3)
+        self.add(line,point,image,join,trace)
+        self.at('Watch the image');self.play(y.animate.set_value(1.4),run_time=3,rate_func=linear)
+        self.at('The image bends');circle=Circle(radius=scale/(2*a),color=self.palette['secondary'],stroke_width=2).move_to(pos([1/(2*a),0]));self.play(Create(circle),run_time=1)
+        self.at('We can see why');self.play(y.animate.set_value(.95),run_time=1);trace.clear_updaters();self.remove(trace)
+        P=np.array([a,.95]);Pi=inv(P);self.at('The first triangle');large=VGroup(self.line(c,pos(A),'primary',3),self.line(pos(A),pos(P),'primary',3),self.line(pos(P),c,'primary',3));mark1=RightAngle(Line(pos(A),c),Line(pos(A),pos(P)),length=.16,color=self.palette['primary']);self.play(Create(large),Create(mark1),run_time=1)
+        self.at('Invert that nearest');adot=Dot(pos(Ai),radius=.07,color=self.palette['secondary']);small=VGroup(self.line(c,pos(Pi),'secondary',3),self.line(pos(Pi),pos(Ai),'secondary',3),self.line(pos(Ai),c,'secondary',3));self.play(FadeIn(adot),Create(small),run_time=1)
+        self.at('Reciprocal distances make');similar=self.label('same shape · different scale',[0,-2.45,0],'ink','label');self.play(FadeIn(similar),run_time=.7)
+        self.at('They share the angle');angle=Angle(Line(c,pos(A)),Line(c,pos(P)),radius=.4,color=self.palette['accent']);self.play(Create(angle),run_time=.7)
+        self.at('The right angle moves');mark2=RightAngle(Line(pos(Pi),c),Line(pos(Pi),pos(Ai)),length=.16,color=self.palette['secondary']);self.play(Create(mark2),run_time=.7)
+        self.at('So the image sees');self.focus_outline(small[2],run_time=.8)
+        self.at('That places it');self.focus_outline(circle,run_time=.8)
+        self.at('There is one missing');self.play(*[FadeOut(x) for x in [large,small,mark1,mark2,angle,adot,similar]],run_time=.7);hole=Circle(radius=.065,stroke_color=self.palette['ink'],stroke_width=2,fill_color=self.palette['background'],fill_opacity=1).move_to(c).set_z_index(10);self.remove(origin);self.add(hole);missing=self.label('center excluded',[-1.3,-1.15,0],'ink','detail');self.play(FadeIn(missing),run_time=.5)
+        self.at('Going farther along');self.play(y.animate.set_value(8),run_time=2.2,rate_func=linear)
+        self.at('A line through');self.play(*[FadeOut(x) for x in [line,point,image,join,circle,unit,missing]],run_time=.6);through=self.line(pos([-1.7,-.85]),pos([1.7,.85]),'muted',2);self.play(Create(through),run_time=.8)
+        self.at('For lines away');self.play(FadeOut(through),run_time=.4);pattern=VGroup()
+        for a0 in [-1.5,-1,-.65,.65,1,1.5]:
+            for orientation in [0,1]:
+                points=[pos(inv([a0,t] if orientation==0 else [t,a0])) for t in np.linspace(-18,18,361)];curve=VMobject(color=self.palette['primary' if orientation==0 else 'secondary'],stroke_width=1.8).set_points_smoothly(points);pattern.add(curve)
+        self.play(LaggedStart(*[Create(x) for x in pattern],lag_ratio=.08),run_time=4);self.add(hole)
+        self.at('The rule changes');self.finish()

@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Quiet Journey Inside a Ring",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.86,
+    "paragraph_pause_seconds": 1.1
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A small circle sweeps out a ring.",
+        "How much space is inside that ring?",
+        "Its answer follows the journey of one point: the center of the circle.",
+        "First, look at the circular cross section.",
+        "Its area is pi times the small radius squared.",
+        "Its center travels around a larger circle.",
+        "That journey is two pi times the larger radius.",
+        "Multiply the area by that distance, and you get the volume.",
+        "But the inner side travels less than the outer side.",
+        "Why is the center allowed to speak for both?",
+        "Take two equally small pieces, equally far from the center.",
+        "One travels at radius R minus s.",
+        "The other travels at radius R plus s.",
+        "Their two journey lengths average to two pi R.",
+        "Pair up the little pieces across the whole disk.",
+        "Every pair has the same average journey.",
+        "As the pieces become tiny, each swept tube contributes its area times its journey.",
+        "Adding them gives the whole cross section times two pi R.",
+        "That is the volume of the ring.",
+        "This is an example of the centroid theorem of Pappus.",
+        "The rotation axis must stay outside the disk.",
+        "If the disk crosses the axis, swept parts overlap and this simple argument fails.",
+        "For our ordinary ring, the center quietly accounts for every little journey.",
+        "One circle, carried around another, becomes a volume."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "For a disk of area pi r squared with external axis distance R, paired travel distances yield volume two pi squared R r squared.",
+    "question": "Why can one center determine a ring volume?",
+    "payoff": "For a disk of area pi r squared with external axis distance R, paired travel distances yield volume two pi squared R r squared.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One continuous scene with authored paragraph pauses; measured speech controls total duration. Pauses are purposeful, not duration padding.",
+    "novelty_audit": "Reviewed 175 archived channel titles plus fifteen events, nature and motion releases on 2026-09-06. Specific explanatory topic is new; not a transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper and ink, subject-led composition, an unfolding visual inference, and deliberate silence after key changes.",
+      "episode_variation": "A shaded torus reveals its generating disk, paired inner and outer area elements, and a final geometric sweep.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why can one center determine a ring volume?",
+        "visual_action": "A shaded torus reveals its generating disk, paired inner and outer area elements, and a final geometric sweep.",
+        "new_understanding": "For a disk of area pi r squared with external axis distance R, paired travel distances yield volume two pi squared R r squared.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A small circle sweeps out a ring. How much space is inside that ring? Its answer follows the journey of one point: the center of the circle.\n\nFirst, look at the circular cross section. Its area is pi times the small radius squared. Its center travels around a larger circle. That journey is two pi times the larger radius. Multiply the area by that distance, and you get the volume.\n\nBut the inner side travels less than the outer side. Why is the center allowed to speak for both? Take two equally small pieces, equally far from the center. One travels at radius R minus s. The other travels at radius R plus s. Their two journey lengths average to two pi R.\n\nPair up the little pieces across the whole disk. Every pair has the same average journey. As the pieces become tiny, each swept tube contributes its area times its journey. Adding them gives the whole cross section times two pi R. That is the volume of the ring.\n\nThis is an example of the centroid theorem of Pappus. The rotation axis must stay outside the disk. If the disk crosses the axis, swept parts overlap and this simple argument fails. For our ordinary ring, the center quietly accounts for every little journey. One circle, carried around another, becomes a volume."
+    }
+  ],
+  "sources": [
+    "https://web.mae.ufl.edu/uhk/PAPPUS.pdf"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

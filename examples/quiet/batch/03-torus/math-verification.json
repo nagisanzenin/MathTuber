@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "method": "Independent analytic derivation with numerical checks, separate from rendered labels",
+  "claims": [
+    "For external rotation axis R>r, every cross-section area element dA at radius rho sweeps volume 2pi rho dA. Symmetric pairs at R-s and R+s average to travel 2pi R. Integrating yields V=2pi R times pi r squared.",
+    "This is a limiting integral argument. Finite drawn squares illustrate pairs, not an exact finite tessellation. An axis crossing the disk creates overlaps and invalidates this simple argument."
+  ],
+  "checks": [
+    {
+      "description": "Axis stays outside disk",
+      "passed": true
+    },
+    {
+      "description": "Independent shell integration matches volume formula",
+      "passed": true
+    },
+    {
+      "description": "Paired travel average equals centroid journey",
+      "passed": true
+    }
+  ],
+  "limitations": "Numerical samples check implementations; general conclusions rest on the stated mathematical arguments."
+}

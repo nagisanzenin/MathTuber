@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "At distance two",
+      "end_cue": "Now place a line",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Check reciprocal distances, fixed unit circle and involution."
+    },
+    {
+      "id": "2",
+      "start_cue": "The first triangle",
+      "end_cue": "There is one missing",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Inspect similar triangles and the image right angle."
+    },
+    {
+      "id": "3",
+      "start_cue": "There is one missing",
+      "end_cue": "The rule changes",
+      "end_offset": 3,
+      "samples": 9,
+      "purpose": "Check the excluded center and the final family of arcs."
+    }
+  ]
+}

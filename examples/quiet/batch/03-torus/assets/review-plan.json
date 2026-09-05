@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "First look at",
+      "end_cue": "But the inner side",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Identify the cross section and its centroid travel distance."
+    },
+    {
+      "id": "2",
+      "start_cue": "Take two equally",
+      "end_cue": "This is an example",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Compare paired element journeys and the limiting area argument."
+    },
+    {
+      "id": "3",
+      "start_cue": "For our ordinary ring",
+      "end_cue": "One circle carried",
+      "end_offset": 3,
+      "samples": 9,
+      "purpose": "Inspect actual depth-sorted geometric sweep and final torus."
+    }
+  ]
+}

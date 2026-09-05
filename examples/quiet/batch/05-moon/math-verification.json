@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "method": "Independent analytic derivation with numerical checks, separate from rendered labels",
+  "claims": [
+    "Parallel sunlight illuminates a hemisphere of the ideal sphere outside eclipses. The view from Earth reveals the intersection with the visible hemisphere; phases follow changing Sun-Moon-observer angle.",
+    "With orbital elongation alpha in the simple distant-Sun model, projected illuminated disk fraction is (1-cos alpha)/2. The terminator projects to x=sign(sin alpha) cos alpha sqrt(1-y squared); its edge-on view is a diameter. The scene renders binary illuminated area, not photometric brightness.",
+    "Real lunar orbit tilt avoids monthly eclipses; ordinary phases are not Earth shadows. Synodic cycle approximately 29.5 days from NASA/USNO source. Orientation is illustrative, not a time/location-specific sky prediction."
+  ],
+  "checks": [
+    {
+      "description": "Independent strip-area integral matches phase fraction",
+      "passed": true
+    },
+    {
+      "description": "Quarter has half projected area and full has all projected area",
+      "passed": true
+    },
+    {
+      "description": "Terminator projects to a diameter at quarter",
+      "passed": true
+    }
+  ],
+  "limitations": "Numerical samples check implementations; general conclusions rest on the stated mathematical arguments."
+}

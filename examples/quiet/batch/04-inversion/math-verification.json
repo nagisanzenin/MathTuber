@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "method": "Independent analytic derivation with numerical checks, separate from rendered labels",
+  "claims": [
+    "For unit inversion p maps to p/|p| squared. Distances are reciprocal and a second inversion is identity. A line x=a nonzero maps to x prime squared + y prime squared = x prime/a: circle centered (1/(2a),0), radius 1/(2|a|), excluding origin.",
+    "Triangles OAP and OPprimeAprime share the angle at O and have proportional sides because reciprocal distances reverse the ratios; the image angle at Pprime is right. Lines through origin map to themselves with origin excluded. Only finite drawn line portions are sampled; the full circle minus origin represents the infinite line."
+  ],
+  "checks": [
+    {
+      "description": "Mapped line points satisfy circle equation",
+      "passed": true
+    },
+    {
+      "description": "Image triangle is right angled",
+      "passed": true
+    },
+    {
+      "description": "Two inversions return original points",
+      "passed": true
+    },
+    {
+      "description": "No finite sampled point maps to origin",
+      "passed": true
+    }
+  ],
+  "limitations": "Numerical samples check implementations; general conclusions rest on the stated mathematical arguments."
+}
