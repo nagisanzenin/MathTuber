@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "method": "Independent derivation and numerical checks",
+  "claims": [
+    "Each leg has distance d, so its time is d/u or d/v. Dividing total distance by total time gives 2/(1/u+1/v). With d=3 km and speeds 3 and 6 km/h, the average is 4 km/h. Equal-time travel instead gives the arithmetic mean.",
+    "Opening and worked traversals use a two-to-one duration ratio. Later bars represent time, not distance. This is a kinematic example, not advice to rush."
+  ],
+  "checks": [
+    {
+      "description": "Out-and-back result4",
+      "passed": true
+    },
+    {
+      "description": "Timebarwidths match durationratio",
+      "passed": true
+    },
+    {
+      "description": "Equal-time arithmetic average4.5",
+      "passed": true
+    },
+    {
+      "description": "Harmonic mean is bounded byinputs",
+      "passed": true
+    }
+  ],
+  "limitations": "Numerical checks complement the stated derivation; idealizations are explicit."
+}

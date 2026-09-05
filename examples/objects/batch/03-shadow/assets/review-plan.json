@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "A tree can",
+      "end_cue": "For this moment",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Recognize the tree and stick shadows."
+    },
+    {
+      "id": "2",
+      "start_cue": "Enlarge the small",
+      "end_cue": "Suppose a one",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Track a triangle scaling onto corresponding sides."
+    },
+    {
+      "id": "3",
+      "start_cue": "Suppose a one",
+      "end_cue": "As the sun rises",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Check the one-to-five height and shadow ratios."
+    }
+  ]
+}

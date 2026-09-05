@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Gentle Rhythm Between Two Steady Notes",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Two steady notes can make a sound that seems to breathe.",
+        "Here are two nearby pitches, played together.",
+        "Listen for the slow swelling.",
+        "Neither note is pulsing on its own.",
+        "Their vibrations keep sliding into agreement, then out again.",
+        "When they agree, their pushes add.",
+        "When they oppose each other, those pushes partly cancel.",
+        "We have slowed these two vibrations so you can follow their alignment.",
+        "The sound itself vibrates hundreds of times each second.",
+        "One note is two hundred and twenty hertz.",
+        "The other is two hundred and twenty-one.",
+        "It gains one whole vibration every second.",
+        "So their alignment returns once each second.",
+        "That difference, one hertz, is the rate of the beats.",
+        "Move the second note closer, to two hundred and twenty point five.",
+        "Now the swelling takes twice as long.",
+        "The beat rate is the difference between the two frequencies.",
+        "This is one way musicians can hear a small tuning mismatch.",
+        "As the notes meet, the beating slows away.",
+        "A gentle rhythm can come from the relationship between two steady things."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Nearby equal-amplitude tones have a beat rate equal to the absolute frequency difference.",
+    "question": "Why can two steady notes produce a slow pulse?",
+    "payoff": "Nearby equal-amplitude tones have a beat rate equal to the absolute frequency difference.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One relationship with a measured voice track; short paragraph gaps and no duration padding.",
+    "novelty_audit": "Reviewed 175 archived channel titles plus twenty-five events, nature, motion, quiet and flow releases. Specific explanatory topic is new; this is not a full transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper and ink, subject-led imagery, recognizable objects explicitly mapped to mathematical structure, selective listening windows.",
+      "episode_variation": "Two tuning-fork outlines lead to slow oscillations and an audible beat with aligned visible envelope.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why can two steady notes produce a slow pulse?",
+        "visual_action": "Two tuning-fork outlines lead to slow oscillations and an audible beat with aligned visible envelope.",
+        "new_understanding": "Nearby equal-amplitude tones have a beat rate equal to the absolute frequency difference.",
+        "sound_intent": "Original 220+221 Hz and220+220.5 Hz sine tones during two dedicated listening windows; no music bed."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Two steady notes can make a sound that seems to breathe. Here are two nearby pitches, played together. Listen for the slow swelling.\n\nNeither note is pulsing on its own. Their vibrations keep sliding into agreement, then out again. When they agree, their pushes add. When they oppose each other, those pushes partly cancel.\n\nWe have slowed these two vibrations so you can follow their alignment. The sound itself vibrates hundreds of times each second. One note is two hundred and twenty hertz. The other is two hundred and twenty-one. It gains one whole vibration every second.\n\nSo their alignment returns once each second. That difference, one hertz, is the rate of the beats. Move the second note closer, to two hundred and twenty point five. Now the swelling takes twice as long.\n\nThe beat rate is the difference between the two frequencies. This is one way musicians can hear a small tuning mismatch. As the notes meet, the beating slows away. A gentle rhythm can come from the relationship between two steady things.",
+      "paragraph_pauses": [
+        4.5,
+        0.45,
+        0.45,
+        5.0
+      ]
+    }
+  ],
+  "sources": [
+    "https://openstax.org/books/university-physics-volume-1/pages/17-6-beats"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original mathematical sine synthesis; CC0"
+  }
+}

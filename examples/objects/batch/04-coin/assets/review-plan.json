@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "A coin under water",
+      "end_cue": "Follow two rays",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Distinguish the stationary coin and its apparent position."
+    },
+    {
+      "id": "2",
+      "start_cue": "Follow two rays",
+      "end_cue": "That meeting point",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Follow refraction and backward ray extensions."
+    },
+    {
+      "id": "3",
+      "start_cue": "Looking nearly",
+      "end_cue": "This simple depth",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Check actual versus apparent depth with approximation stated."
+    }
+  ]
+}

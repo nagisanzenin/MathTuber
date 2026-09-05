@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "A Tree Measured by Its Smaller Companion",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A tree can be measured without climbing it.",
+        "Its shadow carries a copy of its height, stretched along the ground.",
+        "A little upright stick can tell us the scale.",
+        "For this moment, sunlight reaches both objects at the same angle.",
+        "The ground is level, and both stand upright.",
+        "The tree, its shadow, and a ray form a right triangle.",
+        "The stick makes a smaller triangle with the same angles.",
+        "Enlarge the small triangle until its shadow matches the large one.",
+        "Its height must enlarge by the same factor.",
+        "This is what similar triangles preserve: ratios between corresponding sides.",
+        "Suppose a one-metre stick casts a two-metre shadow.",
+        "A ten-metre tree shadow is five times as long.",
+        "The tree is therefore five times as tall as the stick: five metres.",
+        "We used a comparison, not the exact angle of the sun.",
+        "As the sun rises, both shadows shorten.",
+        "The ratio between the two heights still matches the ratio between their shadows.",
+        "Measure them at the same time, on level ground.",
+        "Something difficult to reach can become accessible through a smaller companion."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Equal sun angles and upright objects on level ground imply equal height and shadow ratios.",
+    "question": "How can a small stick measure a tall tree?",
+    "payoff": "Equal sun angles and upright objects on level ground imply equal height and shadow ratios.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One relationship with a measured voice track; short paragraph gaps and no duration padding.",
+    "novelty_audit": "Reviewed 175 archived channel titles plus twenty-five events, nature, motion, quiet and flow releases. Specific explanatory topic is new; this is not a full transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper and ink, subject-led imagery, recognizable objects explicitly mapped to mathematical structure, selective listening windows.",
+      "episode_variation": "Recognizable tree and stick retain the exact sides of aligned similar triangles.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How can a small stick measure a tall tree?",
+        "visual_action": "Recognizable tree and stick retain the exact sides of aligned similar triangles.",
+        "new_understanding": "Equal sun angles and upright objects on level ground imply equal height and shadow ratios.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A tree can be measured without climbing it. Its shadow carries a copy of its height, stretched along the ground. A little upright stick can tell us the scale.\n\nFor this moment, sunlight reaches both objects at the same angle. The ground is level, and both stand upright. The tree, its shadow, and a ray form a right triangle. The stick makes a smaller triangle with the same angles.\n\nEnlarge the small triangle until its shadow matches the large one. Its height must enlarge by the same factor. This is what similar triangles preserve: ratios between corresponding sides.\n\nSuppose a one-metre stick casts a two-metre shadow. A ten-metre tree shadow is five times as long. The tree is therefore five times as tall as the stick: five metres. We used a comparison, not the exact angle of the sun.\n\nAs the sun rises, both shadows shorten. The ratio between the two heights still matches the ratio between their shadows. Measure them at the same time, on level ground. Something difficult to reach can become accessible through a smaller companion."
+    }
+  ],
+  "sources": [
+    "https://pwg.gsfc.nasa.gov/stargaze/Lsundial.htm"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

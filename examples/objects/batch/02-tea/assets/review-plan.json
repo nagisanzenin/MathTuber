@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "A warm cup",
+      "end_cue": "Imagine a room",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Recognize the cup and the shrinking temperature gap."
+    },
+    {
+      "id": "2",
+      "start_cue": "Sixty becomes",
+      "end_cue": "Notice what",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Check exact gap halvings."
+    },
+    {
+      "id": "3",
+      "start_cue": "Connect those",
+      "end_cue": "The halving time",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Map the same temperature to its curve without losing the cup."
+    }
+  ]
+}

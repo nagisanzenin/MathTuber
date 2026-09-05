@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "A walk to",
+      "end_cue": "Let the pond",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Recognize home, pond, walking path."
+    },
+    {
+      "id": "2",
+      "start_cue": "At three kilometres",
+      "end_cue": "The slow part",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Observe proportional traversal durations."
+    },
+    {
+      "id": "3",
+      "start_cue": "Lay those times",
+      "end_cue": "The simple average",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Read the time bars and total-distance calculation."
+    }
+  ]
+}

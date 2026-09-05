@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Listen for the slow",
+      "end_cue": "Neither note",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Inspect speech-free tone demonstration and aligned visual envelope."
+    },
+    {
+      "id": "2",
+      "start_cue": "When they agree",
+      "end_cue": "We have slowed",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Inspect addition and cancellation."
+    },
+    {
+      "id": "3",
+      "start_cue": "Now the swelling",
+      "end_cue": "The beat rate",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Observe the slower second demonstration."
+    }
+  ]
+}

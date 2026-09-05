@@ -1,0 +1,28 @@
+{
+  "license": "Original mathematical sine synthesis; CC0",
+  "windows": [
+    {
+      "start": 9.125,
+      "end": 13.325,
+      "frequencies": [
+        220,
+        221
+      ],
+      "beat_hz": 1,
+      "peak": 0.18,
+      "fade_seconds": 0.08
+    },
+    {
+      "start": 58.925,
+      "end": 63.625,
+      "frequencies": [
+        220,
+        220.5
+      ],
+      "beat_hz": 0.5,
+      "peak": 0.18,
+      "fade_seconds": 0.08
+    }
+  ],
+  "subjective_listening": "Not established; signal and audiovisual timing require separate checks."
+}

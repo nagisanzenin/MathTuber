@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Coin That Looks Closer Than It Is",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A coin under water can look closer to the surface than it really is.",
+        "The coin has stayed still.",
+        "The light bringing its image to you has changed direction.",
+        "Follow two rays from the coin toward the surface.",
+        "As light leaves water for air, it bends away from the vertical normal.",
+        "Your eye traces those arriving rays backward in straight lines.",
+        "Those backward lines meet above the real coin.",
+        "That meeting point is a virtual image.",
+        "Light does not actually come from that point.",
+        "It only arrives as though it did.",
+        "The change happens at the water surface, not inside the coin.",
+        "Looking nearly straight down, the apparent depth is roughly three quarters of the real depth.",
+        "Water has a refractive index near four thirds, compared with about one for air.",
+        "The near-vertical depth ratio is the inverse of that index ratio.",
+        "A coin four units deep would look about three units deep.",
+        "This simple depth rule is an approximation for small viewing angles.",
+        "At wider angles, the geometry needs the full law of refraction.",
+        "A familiar object can stay exactly where it is, while the path of seeing changes."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "For near-normal viewing from air, apparent water depth is approximately real depth divided by water refractive index.",
+    "question": "Why does a submerged coin look shallower?",
+    "payoff": "For near-normal viewing from air, apparent water depth is approximately real depth divided by water refractive index.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "One relationship with a measured voice track; short paragraph gaps and no duration padding.",
+    "novelty_audit": "Reviewed 175 archived channel titles plus twenty-five events, nature, motion, quiet and flow releases. Specific explanatory topic is new; this is not a full transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper and ink, subject-led imagery, recognizable objects explicitly mapped to mathematical structure, selective listening windows.",
+      "episode_variation": "A coin and its virtual image remain attached to exact refracted and backward-extended rays.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why does a submerged coin look shallower?",
+        "visual_action": "A coin and its virtual image remain attached to exact refracted and backward-extended rays.",
+        "new_understanding": "For near-normal viewing from air, apparent water depth is approximately real depth divided by water refractive index.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A coin under water can look closer to the surface than it really is. The coin has stayed still. The light bringing its image to you has changed direction.\n\nFollow two rays from the coin toward the surface. As light leaves water for air, it bends away from the vertical normal. Your eye traces those arriving rays backward in straight lines. Those backward lines meet above the real coin.\n\nThat meeting point is a virtual image. Light does not actually come from that point. It only arrives as though it did. The change happens at the water surface, not inside the coin.\n\nLooking nearly straight down, the apparent depth is roughly three quarters of the real depth. Water has a refractive index near four thirds, compared with about one for air. The near-vertical depth ratio is the inverse of that index ratio. A coin four units deep would look about three units deep.\n\nThis simple depth rule is an approximation for small viewing angles. At wider angles, the geometry needs the full law of refraction. A familiar object can stay exactly where it is, while the path of seeing changes."
+    }
+  ],
+  "sources": [
+    "https://openstax.org/books/university-physics-volume-3/pages/1-3-refraction"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

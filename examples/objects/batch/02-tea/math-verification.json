@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "method": "Independent derivation and numerical checks",
+  "claims": [
+    "Newton cooling assumes dT/dt = \u2212k(T\u2212Ta). For constant surroundings Ta and factor k, the temperature gap is (T0\u2212Ta)e^(\u2212kt). Using one halving time as the time unit gives T = 20 + 60 \u00d7 2^(\u2212t).",
+    "The cup identifies tea; color and liquid level do not encode temperature. Evaporation and changing surroundings can violate the simple model."
+  ],
+  "checks": [
+    {
+      "description": "Temperature sequence is80,50,35,27.5",
+      "passed": true
+    },
+    {
+      "description": "Gap halves each equal step",
+      "passed": true
+    },
+    {
+      "description": "Derivative is proportional to negativegap",
+      "passed": true
+    }
+  ],
+  "limitations": "Numerical checks complement the stated derivation; idealizations are explicit."
+}

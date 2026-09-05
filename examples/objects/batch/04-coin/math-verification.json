@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "method": "Independent derivation and numerical checks",
+  "claims": [
+    "Snell law gives n_water sin(\u03b8_water) = n_air sin(\u03b8_air). A ray from axial depth d reaches the surface at x = d tan(\u03b8_water). Its backward extension has apparent depth x/tan(\u03b8_air). At small angles, apparent/real depth approaches n_air/n_water, approximately three quarters.",
+    "Symmetric rays meet at an axial virtual point; wider bundles are not perfectly stigmatic. Four-to-about-three is the near-normal limit. The displayed twelve-degree water rays use exact refraction and a ratio slightly below three quarters."
+  ],
+  "checks": [
+    {
+      "description": "Exact Snell law",
+      "passed": true
+    },
+    {
+      "description": "Virtual image is shallower",
+      "passed": true
+    },
+    {
+      "description": "Smallangle limit approaches.75",
+      "passed": true
+    },
+    {
+      "description": "Displayedray approximation error below3percent",
+      "passed": true
+    }
+  ],
+  "limitations": "Numerical checks complement the stated derivation; idealizations are explicit."
+}

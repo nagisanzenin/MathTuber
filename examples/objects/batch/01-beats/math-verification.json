@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "method": "Independent derivation and numerical checks",
+  "claims": [
+    "Cosine addition gives cos(2\u03c0 f1 t) + cos(2\u03c0 f2 t) = 2 cos(\u03c0 (f2\u2212f1)t) cos(\u03c0 (f1+f2)t). Absolute envelope maxima repeat every 1/|f2\u2212f1| seconds. Generated tones are mixed mono, not binaural beats.",
+    "Schematic carrier curves illustrate signed addition with slowed relative alignment. They do not depict calibrated 220 Hz motion. The listening-window circle follows the actual absolute envelope in real seconds."
+  ],
+  "checks": [
+    {
+      "description": "Sum-to-product identity",
+      "passed": true
+    },
+    {
+      "description": "Chosen beat periods are1and2seconds",
+      "passed": true
+    },
+    {
+      "description": "Opposed equal waves cancel",
+      "passed": true
+    }
+  ],
+  "limitations": "Numerical checks complement the stated derivation; idealizations are explicit."
+}

@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "method": "Independent derivation and numerical checks",
+  "claims": [
+    "Parallel sunlight, vertical objects and level ground produce right triangles with a shared sun angle. Similarity gives H/h = S/s. A one-metre stick casting a two-metre shadow implies a five-metre tree when its shadow is ten metres long.",
+    "Separate side-view panels share the scale and angle. Foliage stays below the measured highest point. Slope and changing sun angles between measurements are excluded."
+  ],
+  "checks": [
+    {
+      "description": "Height and shadow ratios both5",
+      "passed": true
+    },
+    {
+      "description": "Example scales correctly",
+      "passed": true
+    },
+    {
+      "description": "Sunrise shortens both at fixedheight",
+      "passed": true
+    }
+  ],
+  "limitations": "Numerical checks complement the stated derivation; idealizations are explicit."
+}
