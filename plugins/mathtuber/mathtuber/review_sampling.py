@@ -29,3 +29,19 @@ def interval_samples(plan, cues, duration):
         result.append({"id": key, "purpose": item["purpose"],
                        "times": [start + (end-start)*i/(n-1) for i in range(n)]})
     return result
+
+
+def ending_samples(duration, seconds=15, samples=9, fps=30):
+    """Sample the ending through its last decodable frame, including short films.
+
+    This is evidence coverage, never an automatic judgment of pacing or quality.
+    """
+    for name, value in (("duration", duration), ("seconds", seconds), ("fps", fps)):
+        if isinstance(value, bool) or not isinstance(value, (int, float)) or not math.isfinite(value) or value <= 0:
+            raise ValueError(f"{name} must be a finite positive number")
+    if type(samples) is not int or not 3 <= samples <= 121:
+        raise ValueError("An ending requires 3 to 121 samples")
+    end = max(0.0, duration - 1 / fps)
+    start = max(0.0, duration - seconds)
+    start = min(start, end)
+    return [start + (end - start) * i / (samples - 1) for i in range(samples)]
