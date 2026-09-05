@@ -31,3 +31,10 @@ Before final review, run `python3 <root>/scripts/ending_preview.py --project <pa
 ### Focal staging
 
 Use `WorkshopScene.stage_focus(subject, center, width, height)` when moving the same drawn object into a closer explanatory view helps. It uniformly fits an existing group into an authored rectangle, leaving camera and captions fixed. Include the reference level, partner or endpoint needed to understand the detail. Subjects with active updaters are rejected: pause their process, remove/rebuild geometry updaters with the new coordinate mapping, and resume deliberately. A bounding box is not an attention or aesthetic score. Inspect the entire transition and attached labels on the final export. See `docs/research/FOCAL-STAGING.md` in the repository for the evidence and its limits.
+
+
+### Material presence without losing the explanation
+
+A tangible bob or bead may use `WorkshopScene.bead(radius, color, layers=18)` for a restrained painted volume. The silhouette remains circular. It is a stylized depth cue, not a physical shading simulation. Probability dots, area comparisons, symbolic points and magnitude-encoded fills should remain unambiguous mathematical marks. Keep lighting orientation stable when moving an object; rotate an attached physical marker separately if needed.
+
+Before extending this treatment across an episode, render a small comparison and inspect both object recognition and the causal relation. Material richness and explanatory clarity are separate judgments. Preserve recognizable context while bringing relevant parts closer. Do not count perceived depth as evidence of learning, enjoyment or retention. Avoid fading in an object already visible in the opening: establish it once and let its actual motion begin.

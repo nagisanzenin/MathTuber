@@ -107,3 +107,14 @@ class WorkshopScene(NarratedScene):
         scale = fit_scale(float(subject.width), float(subject.height), width, height)
         self.play(subject.animate.scale(scale).move_to(center), run_time=run_time)
         return subject
+
+    def bead(self, radius=.25, color="primary", layers=18):
+        """Painted depth cue for tangible round objects, with profile colors.
+
+        Keep mathematical marks and magnitude encodings flat. This is stylized
+        shading, not a physical irradiance model. Moving it preserves its light
+        direction; rotate physical markers separately if needed.
+        """
+        from mathtuber.materials import painted_bead
+        return painted_bead(radius, self.palette.get(color,color),
+                            self.palette["ink"], self.palette["background"], layers)
