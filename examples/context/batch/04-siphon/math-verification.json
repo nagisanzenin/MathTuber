@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "method": "Independent model derivation and numerical checks, with stated idealizations and separate render review.",
+  "conditions": [
+    "Pre-filled continuous tube, ideal incompressible quasi-steady flow, large reservoir with negligible surface speed, same atmospheric pressure at upper surface and free outlet, negligible losses. Head1/4 are separate ideal steady comparisons; morph is not a transient simulation. Particle markers illustrate uniform tube flow, not volumetric discharge accounting. Crest pressure/cavitation limits and friction acknowledged."
+  ],
+  "checks": [
+    {
+      "name": "energy balance head1",
+      "actual": 9.81,
+      "expected": 9.81,
+      "passed": true
+    },
+    {
+      "name": "energy balance head4",
+      "actual": 39.24,
+      "expected": 39.24,
+      "passed": true
+    },
+    {
+      "name": "speed ratio fourfold head",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "outlet jet tangent and fall head1",
+      "actual": -0.6199999999999999,
+      "expected": -0.62,
+      "passed": true
+    },
+    {
+      "name": "outlet jet tangent and fall head4",
+      "actual": -0.6200000000000003,
+      "expected": -0.62,
+      "passed": true
+    }
+  ]
+}

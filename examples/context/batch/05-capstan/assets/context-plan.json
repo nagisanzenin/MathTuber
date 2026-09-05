@@ -1,0 +1,8 @@
+{
+  "physical_subject": "Why does wrapping rope around a post change the holding force?",
+  "relationship": "For ideal flexible rope with uniform friction at impending slip, the maximum tension ratio grows as exp(mu theta), theta in radians.",
+  "operation": "Show rope contact and unequal endpoint tensions, map total wrap angle to the limiting tension ratio, and return to two wraps.",
+  "closest_prior": "endings pulley and material springs",
+  "substantive_difference": "Frictional tension amplification around a fixed post, not frictionless mechanical advantage or spring force.",
+  "sequence_is_editorial_hypothesis": true
+}

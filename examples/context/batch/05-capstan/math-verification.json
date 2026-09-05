@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "method": "Independent model derivation and numerical checks, with stated idealizations and separate render review.",
+  "conditions": [
+    "Flexible rope, uniform friction mu0.2 illustrative only, ideal cylinder and impending slip toward load: Tload/Thold=exp(mu theta), theta radians. Static ratios below threshold need not equal this bound. Shallow helix is an illustrative rendering of successive ideal wraps, not an exact helical-contact force solution."
+  ],
+  "checks": [
+    {
+      "name": "one turn ratio",
+      "actual": 3.5135856242857333,
+      "expected": 3.513585624285733,
+      "passed": true
+    },
+    {
+      "name": "two turn ratio",
+      "actual": 12.345283939187368,
+      "expected": 12.345283939187368,
+      "passed": true
+    },
+    {
+      "name": "multiplication over equal turns",
+      "actual": 12.345283939187368,
+      "expected": 12.345283939187366,
+      "passed": true
+    },
+    {
+      "name": "equal increment factor 0.3",
+      "actual": 1.2214027581601699,
+      "expected": 1.2214027581601699,
+      "passed": true
+    },
+    {
+      "name": "equal increment factor 1.7",
+      "actual": 1.2214027581601699,
+      "expected": 1.2214027581601699,
+      "passed": true
+    },
+    {
+      "name": "equal increment factor 4.2",
+      "actual": 1.2214027581601699,
+      "expected": 1.2214027581601699,
+      "passed": true
+    }
+  ]
+}

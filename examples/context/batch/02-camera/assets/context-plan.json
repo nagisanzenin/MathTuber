@@ -1,0 +1,8 @@
+{
+  "physical_subject": "How does a tiny opening make an upside-down image?",
+  "relationship": "Ideal pinhole projection inverts the image and scales its height by screen distance divided by object distance.",
+  "operation": "Trace top and bottom rays through a pinhole while the candle and dark chamber remain recognizable; vary screen and object distance.",
+  "closest_prior": "focal/02-mirror and objects/04-coin: reflected and refracted rays",
+  "substantive_difference": "A lensless aperture selects straight rays and gives central projection; no focusing mirror or refraction.",
+  "sequence_is_editorial_hypothesis": true
+}

@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "method": "Independent model derivation and numerical checks, with stated idealizations and separate render review.",
+  "conditions": [
+    "Uniform steady current, boat speed relative to water fixed, ideal instantaneous steering between separate demonstrations. Shared slowed model clock. Straight reference banks are nominal; illustrated shore texture is not measurement."
+  ],
+  "checks": [
+    {
+      "name": "upstream horizontal cancellation",
+      "actual": 5.551115123125783e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "upstream speed norm",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "first crossing drift",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "second crossing vertical distance",
+      "actual": 4.0,
+      "expected": 4.0,
+      "passed": true
+    },
+    {
+      "name": "drawing first vector ratio",
+      "actual": 0.5,
+      "expected": 0.5,
+      "passed": true
+    },
+    {
+      "name": "drawing second vector magnitude",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    }
+  ]
+}

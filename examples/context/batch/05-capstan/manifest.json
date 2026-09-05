@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "A Gentle Curve Shares a Force",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A rope wrapped around a wooden post can hold more than the same rope hanging freely.",
+        "The post contributes friction all along the contact.",
+        "Imagine the rope just about to slip toward the load.",
+        "We compare the larger load-side tension with the smaller holding tension.",
+        "More wrap allows a larger ratio between them.",
+        "Here is the total wrap angle laid along a line.",
+        "At the slipping threshold, each equal extra angle multiplies the allowed tension ratio by the same factor.",
+        "This happens because a tighter part of the rope presses harder against the post.",
+        "For one illustrative friction coefficient, a full turn allows a ratio of about three and a half.",
+        "Two turns allow about twelve, because that factor multiplies again.",
+        "The ideal capstan equation expresses this exponential growth.",
+        "Below the slipping threshold, friction need not reach its maximum.",
+        "Real rope stiffness and changing surface conditions also matter.",
+        "This is a model of a flexible rope with uniform friction.",
+        "A gentle curve can change how a force is shared."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "For ideal flexible rope with uniform friction at impending slip, the maximum tension ratio grows as exp(mu theta), theta in radians.",
+    "question": "Why does wrapping rope around a post change the holding force?",
+    "payoff": "For ideal flexible rope with uniform friction at impending slip, the maximum tension ratio grows as exp(mu theta), theta in radians.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: endings pulley and material springs. Difference: Frictional tension amplification around a fixed post, not frictionless mechanical advantage or spring force.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Recognizable physical subject and useful setting; explicit connection to exact diagram; return to a changed physical condition. Restrained original vector artwork.",
+      "episode_variation": "Show rope contact and unequal endpoint tensions, map total wrap angle to the limiting tension ratio, and return to two wraps.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why does wrapping rope around a post change the holding force?",
+        "visual_action": "Show rope contact and unequal endpoint tensions, map total wrap angle to the limiting tension ratio, and return to two wraps.",
+        "new_understanding": "For ideal flexible rope with uniform friction at impending slip, the maximum tension ratio grows as exp(mu theta), theta in radians.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A rope wrapped around a wooden post can hold more than the same rope hanging freely. The post contributes friction all along the contact.\n\nImagine the rope just about to slip toward the load. We compare the larger load-side tension with the smaller holding tension. More wrap allows a larger ratio between them.\n\nHere is the total wrap angle laid along a line. At the slipping threshold, each equal extra angle multiplies the allowed tension ratio by the same factor. This happens because a tighter part of the rope presses harder against the post.\n\nFor one illustrative friction coefficient, a full turn allows a ratio of about three and a half. Two turns allow about twelve, because that factor multiplies again. The ideal capstan equation expresses this exponential growth.\n\nBelow the slipping threshold, friction need not reach its maximum. Real rope stiffness and changing surface conditions also matter. This is a model of a flexible rope with uniform friction. A gentle curve can change how a force is shared."
+    }
+  ],
+  "sources": [
+    "https://sciencedemonstrations.fas.harvard.edu/presentations/friction"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Whole Journey Leads Downhill",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Water rises over a bend, then falls into a lower bowl.",
+        "A siphon can do this when its tube is already full.",
+        "The useful height difference is not the height of the bend.",
+        "It is the drop from the upper water surface to the open outlet.",
+        "Gravity releases energy over that drop.",
+        "For an ideal steady flow, both ends meet the same air pressure.",
+        "The large upper reservoir moves so slowly that we neglect its surface speed.",
+        "Then gravitational energy becomes the moving water’s kinetic energy.",
+        "Speed squared equals twice gravity times the height drop.",
+        "Compare two steady arrangements.",
+        "Four times the drop gives twice the ideal exit speed, not four times.",
+        "Real tubes lose energy through friction.",
+        "The pressure at the crest also limits how high a siphon can rise.",
+        "Our picture keeps the reservoir level nearly fixed and leaves those losses aside.",
+        "The water climbs locally because the whole journey leads downhill."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Under the stated ideal conditions, exit speed is sqrt(2 g head); crest pressure and friction limit real siphons.",
+    "question": "How can siphon water rise over a bend?",
+    "payoff": "Under the stated ideal conditions, exit speed is sqrt(2 g head); crest pressure and friction limit real siphons.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: focal capillary rise and reasoning hydraulics. Difference: Flow driven by endpoint gravitational head via Bernoulli, not surface tension or static pressure multiplication.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Recognizable physical subject and useful setting; explicit connection to exact diagram; return to a changed physical condition. Restrained original vector artwork.",
+      "episode_variation": "Follow a pre-filled tube between a large reservoir and open outlet, mark the endpoint height drop, and compare ideal steady flows with one and four units of head.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How can siphon water rise over a bend?",
+        "visual_action": "Follow a pre-filled tube between a large reservoir and open outlet, mark the endpoint height drop, and compare ideal steady flows with one and four units of head.",
+        "new_understanding": "Under the stated ideal conditions, exit speed is sqrt(2 g head); crest pressure and friction limit real siphons.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Water rises over a bend, then falls into a lower bowl. A siphon can do this when its tube is already full.\n\nThe useful height difference is not the height of the bend. It is the drop from the upper water surface to the open outlet. Gravity releases energy over that drop.\n\nFor an ideal steady flow, both ends meet the same air pressure. The large upper reservoir moves so slowly that we neglect its surface speed. Then gravitational energy becomes the moving water’s kinetic energy.\n\nSpeed squared equals twice gravity times the height drop. Compare two steady arrangements. Four times the drop gives twice the ideal exit speed, not four times.\n\nReal tubes lose energy through friction. The pressure at the crest also limits how high a siphon can rise. Our picture keeps the reservoir level nearly fixed and leaves those losses aside. The water climbs locally because the whole journey leads downhill."
+    }
+  ],
+  "sources": [
+    "https://openstax.org/books/university-physics-volume-1/pages/14-6-bernoullis-equation"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

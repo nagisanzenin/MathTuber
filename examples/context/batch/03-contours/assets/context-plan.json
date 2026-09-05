@@ -1,0 +1,8 @@
+{
+  "physical_subject": "How does a contour map preserve a hill and reveal uphill?",
+  "relationship": "For a differentiable height field at a nonzero gradient, steepest local map-direction rise is perpendicular to the contour.",
+  "operation": "Rotate equal-height slices into a top view, move a marker along a level curve, and compare tangent and gradient at two points.",
+  "closest_prior": "nature globe geometry and motion clothoid curvature",
+  "substantive_difference": "Height level sets and the local height gradient, not surface geodesics or curvature.",
+  "sequence_is_editorial_hypothesis": true
+}

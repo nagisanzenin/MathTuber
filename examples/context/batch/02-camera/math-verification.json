@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "method": "Independent model derivation and numerical checks, with stated idealizations and separate render review.",
+  "conditions": [
+    "Ideal straight rays through infinitesimal aperture, planar screen. Candle image glyph is schematic in the cutaway side view; its vertical extent follows projection. Real finite aperture blur, brightness and diffraction acknowledged."
+  ],
+  "checks": [
+    {
+      "name": "ray passes aperture 2.6 2.6 -0.2",
+      "actual": 1.0000000000000002,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "ray passes aperture 2.6 2.6 2.2",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "image total height 2.6 2.6",
+      "actual": 2.4000000000000004,
+      "expected": 2.4,
+      "passed": true
+    },
+    {
+      "name": "ray passes aperture 2.6 3.25 -0.2",
+      "actual": 1.0000000000000002,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "ray passes aperture 2.6 3.25 2.2",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "image total height 2.6 3.25",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ray passes aperture 3.2 3.25 -0.2",
+      "actual": 1.0000000000000002,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "ray passes aperture 3.2 3.25 2.2",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "image total height 3.2 3.25",
+      "actual": 2.4375,
+      "expected": 2.4375,
+      "passed": true
+    }
+  ]
+}

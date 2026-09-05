@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Now look straight",
+      "end_cue": "Walk along",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "The same equal-height rings rotate into their map positions."
+    },
+    {
+      "id": "2",
+      "start_cue": "At this point",
+      "end_cue": "It describes",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Tangent and gradient are perpendicular at the marked location."
+    },
+    {
+      "id": "3",
+      "start_cue": "Move to another",
+      "end_cue": "A quiet set",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "A changed position updates the local direction."
+    }
+  ]
+}

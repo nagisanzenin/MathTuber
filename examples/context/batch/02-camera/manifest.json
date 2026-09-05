@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "A Little Darkness Makes a Picture",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Inside a dark box, a candle appears upside down.",
+        "A tiny opening has sorted the light.",
+        "We are looking at a simplified side view.",
+        "Light from the top of the candle travels straight through the opening.",
+        "It reaches the lower part of the screen.",
+        "Light from the bottom reaches the upper part.",
+        "The crossing happens at the hole.",
+        "No lens needs to turn the light around.",
+        "Only a narrow set of rays from each point gets through.",
+        "The two triangles have the same shape.",
+        "Image height divided by object height equals screen distance divided by object distance.",
+        "Move the screen farther from the hole, and the image grows.",
+        "Keep that screen still and move the candle farther away.",
+        "Now its image becomes smaller.",
+        "Real openings also trade brightness against blur and diffraction.",
+        "Here we are following the ideal straight rays.",
+        "A little darkness lets one arrangement of light become a picture."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Ideal pinhole projection inverts the image and scales its height by screen distance divided by object distance.",
+    "question": "How does a tiny opening make an upside-down image?",
+    "payoff": "Ideal pinhole projection inverts the image and scales its height by screen distance divided by object distance.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: focal/02-mirror and objects/04-coin: reflected and refracted rays. Difference: A lensless aperture selects straight rays and gives central projection; no focusing mirror or refraction.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Recognizable physical subject and useful setting; explicit connection to exact diagram; return to a changed physical condition. Restrained original vector artwork.",
+      "episode_variation": "Trace top and bottom rays through a pinhole while the candle and dark chamber remain recognizable; vary screen and object distance.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How does a tiny opening make an upside-down image?",
+        "visual_action": "Trace top and bottom rays through a pinhole while the candle and dark chamber remain recognizable; vary screen and object distance.",
+        "new_understanding": "Ideal pinhole projection inverts the image and scales its height by screen distance divided by object distance.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Inside a dark box, a candle appears upside down. A tiny opening has sorted the light.\n\nWe are looking at a simplified side view. Light from the top of the candle travels straight through the opening. It reaches the lower part of the screen. Light from the bottom reaches the upper part.\n\nThe crossing happens at the hole. No lens needs to turn the light around. Only a narrow set of rays from each point gets through.\n\nThe two triangles have the same shape. Image height divided by object height equals screen distance divided by object distance. Move the screen farther from the hole, and the image grows.\n\nKeep that screen still and move the candle farther away. Now its image becomes smaller. Real openings also trade brightness against blur and diffraction. Here we are following the ideal straight rays. A little darkness lets one arrangement of light become a picture."
+    }
+  ],
+  "sources": [
+    "https://people.csail.mit.edu/fredo/comp-photo-book/02-fundamentals-02-pinhole-image-formation-and-linear-perspective.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

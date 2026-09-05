@@ -1,0 +1,8 @@
+{
+  "physical_subject": "How can siphon water rise over a bend?",
+  "relationship": "Under the stated ideal conditions, exit speed is sqrt(2 g head); crest pressure and friction limit real siphons.",
+  "operation": "Follow a pre-filled tube between a large reservoir and open outlet, mark the endpoint height drop, and compare ideal steady flows with one and four units of head.",
+  "closest_prior": "focal capillary rise and reasoning hydraulics",
+  "substantive_difference": "Flow driven by endpoint gravitational head via Bernoulli, not surface tension or static pressure multiplication.",
+  "sequence_is_editorial_hypothesis": true
+}

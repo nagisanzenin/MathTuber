@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Light from the top",
+      "end_cue": "The crossing",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Both source heights cross through the aperture to opposite screen heights."
+    },
+    {
+      "id": "2",
+      "start_cue": "The two triangles",
+      "end_cue": "Move the screen",
+      "end_offset": 3,
+      "samples": 9,
+      "purpose": "Corresponding triangle geometry and magnification."
+    },
+    {
+      "id": "3",
+      "start_cue": "Keep that screen",
+      "end_cue": "A little darkness",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Object recedes with fixed screen, reducing image height."
+    }
+  ]
+}

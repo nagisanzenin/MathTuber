@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "We compare",
+      "end_cue": "Here is the total",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Physical contact and endpoint roles are identified."
+    },
+    {
+      "id": "2",
+      "start_cue": "At the slipping",
+      "end_cue": "Two turns",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Exponential curve represents the limiting ratio against wrap angle."
+    },
+    {
+      "id": "3",
+      "start_cue": "Two turns",
+      "end_cue": "Real rope",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "One and two complete wraps yield the stated threshold ratios."
+    }
+  ]
+}

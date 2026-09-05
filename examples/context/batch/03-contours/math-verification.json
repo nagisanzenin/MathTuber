@@ -1,0 +1,201 @@
+{
+  "passed": true,
+  "method": "Independent model derivation and numerical checks, with stated idealizations and separate render review.",
+  "conditions": [
+    "Smooth paraboloid z=3-0.3x\u00b2-0.6y\u00b2, level spacing0.3. Nonzero gradients at shown points. Steepest rate is per unit horizontal/map distance, local first-order property; not global route optimization. Oblique drawing is an illustrative projection."
+  ],
+  "checks": [
+    {
+      "name": "level set 0.0 0.2",
+      "actual": -4.85722573273506e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "level set 0.0 1.15",
+      "actual": 4.440892098500626e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "level set 0.0 2.5",
+      "actual": 4.440892098500626e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "level set 0.3 0.2",
+      "actual": 0.29999999999999943,
+      "expected": 0.3,
+      "passed": true
+    },
+    {
+      "name": "level set 0.3 1.15",
+      "actual": 0.30000000000000027,
+      "expected": 0.3,
+      "passed": true
+    },
+    {
+      "name": "level set 0.3 2.5",
+      "actual": 0.29999999999999927,
+      "expected": 0.3,
+      "passed": true
+    },
+    {
+      "name": "level set 0.6 0.2",
+      "actual": 0.5999999999999994,
+      "expected": 0.6,
+      "passed": true
+    },
+    {
+      "name": "level set 0.6 1.15",
+      "actual": 0.6000000000000005,
+      "expected": 0.6,
+      "passed": true
+    },
+    {
+      "name": "level set 0.6 2.5",
+      "actual": 0.6000000000000001,
+      "expected": 0.6,
+      "passed": true
+    },
+    {
+      "name": "level set 0.9 0.2",
+      "actual": 0.9000000000000002,
+      "expected": 0.8999999999999999,
+      "passed": true
+    },
+    {
+      "name": "level set 0.9 1.15",
+      "actual": 0.8999999999999995,
+      "expected": 0.8999999999999999,
+      "passed": true
+    },
+    {
+      "name": "level set 0.9 2.5",
+      "actual": 0.8999999999999997,
+      "expected": 0.8999999999999999,
+      "passed": true
+    },
+    {
+      "name": "level set 1.2 0.2",
+      "actual": 1.2000000000000002,
+      "expected": 1.2,
+      "passed": true
+    },
+    {
+      "name": "level set 1.2 1.15",
+      "actual": 1.2000000000000006,
+      "expected": 1.2,
+      "passed": true
+    },
+    {
+      "name": "level set 1.2 2.5",
+      "actual": 1.2000000000000004,
+      "expected": 1.2,
+      "passed": true
+    },
+    {
+      "name": "level set 1.5 0.2",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "level set 1.5 1.15",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "level set 1.5 2.5",
+      "actual": 1.5000000000000002,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "level set 1.8 0.2",
+      "actual": 1.8000000000000003,
+      "expected": 1.7999999999999998,
+      "passed": true
+    },
+    {
+      "name": "level set 1.8 1.15",
+      "actual": 1.8,
+      "expected": 1.7999999999999998,
+      "passed": true
+    },
+    {
+      "name": "level set 1.8 2.5",
+      "actual": 1.8000000000000003,
+      "expected": 1.7999999999999998,
+      "passed": true
+    },
+    {
+      "name": "level set 2.1 0.2",
+      "actual": 2.1,
+      "expected": 2.1,
+      "passed": true
+    },
+    {
+      "name": "level set 2.1 1.15",
+      "actual": 2.1000000000000005,
+      "expected": 2.1,
+      "passed": true
+    },
+    {
+      "name": "level set 2.1 2.5",
+      "actual": 2.1,
+      "expected": 2.1,
+      "passed": true
+    },
+    {
+      "name": "level set 2.4 0.2",
+      "actual": 2.4,
+      "expected": 2.4,
+      "passed": true
+    },
+    {
+      "name": "level set 2.4 1.15",
+      "actual": 2.4,
+      "expected": 2.4,
+      "passed": true
+    },
+    {
+      "name": "level set 2.4 2.5",
+      "actual": 2.4000000000000004,
+      "expected": 2.4,
+      "passed": true
+    },
+    {
+      "name": "level set 2.7 0.2",
+      "actual": 2.6999999999999997,
+      "expected": 2.6999999999999997,
+      "passed": true
+    },
+    {
+      "name": "level set 2.7 1.15",
+      "actual": 2.6999999999999997,
+      "expected": 2.6999999999999997,
+      "passed": true
+    },
+    {
+      "name": "level set 2.7 2.5",
+      "actual": 2.6999999999999997,
+      "expected": 2.6999999999999997,
+      "passed": true
+    },
+    {
+      "name": "tangent perpendicular 1.15",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "tangent perpendicular 2.5",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    }
+  ]
+}

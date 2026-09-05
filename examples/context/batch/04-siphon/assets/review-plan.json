@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "It is the drop",
+      "end_cue": "For an ideal",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Head is marked from upper surface to open outlet, not crest."
+    },
+    {
+      "id": "2",
+      "start_cue": "Then gravitational",
+      "end_cue": "Compare two",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Energy relation is stated with ideal assumptions."
+    },
+    {
+      "id": "3",
+      "start_cue": "Compare two",
+      "end_cue": "Real tubes",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Fourfold head produces double modeled flow speed."
+    }
+  ]
+}

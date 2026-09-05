@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The River Adds Its Own Journey",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "The boat points toward the opposite bank.",
+        "Yet its journey drifts to the right.",
+        "The river adds a movement of its own.",
+        "Imagine a steady current and a boat keeping a constant speed through the water.",
+        "Freeze the scene and draw those two movements.",
+        "In one second, the boat moves one unit across the water.",
+        "The water carries it half a unit downstream.",
+        "Put the arrows end to end.",
+        "The diagonal joins where the boat started to where it actually arrives.",
+        "This is vector addition: both direction and size matter.",
+        "To arrive directly opposite, point the boat a little upstream.",
+        "Its leftward movement can cancel the river’s rightward movement.",
+        "Here the current is half the boat’s speed, so a thirty degree turn is enough.",
+        "The remaining movement is straight across.",
+        "It is a little slower across than before, because some effort points upstream.",
+        "This ideal model ignores changes in current and steering.",
+        "Sometimes reaching a place begins by pointing somewhere else."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Ground velocity is the vector sum of boat velocity relative to water and water velocity relative to shore.",
+    "question": "Why does a boat drift away from the direction it points?",
+    "payoff": "Ground velocity is the vector sum of boat velocity relative to water and water velocity relative to shore.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: objects/05-walk: harmonic mean of trip speeds. Difference: This is two-dimensional frame-relative vector addition with an upstream cancellation, not averaging outbound and return speeds.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Recognizable physical subject and useful setting; explicit connection to exact diagram; return to a changed physical condition. Restrained original vector artwork.",
+      "episode_variation": "Keep the boat and banks recognizable, add water-relative and shore-relative displacement arrows, then aim upstream to cancel drift.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why does a boat drift away from the direction it points?",
+        "visual_action": "Keep the boat and banks recognizable, add water-relative and shore-relative displacement arrows, then aim upstream to cancel drift.",
+        "new_understanding": "Ground velocity is the vector sum of boat velocity relative to water and water velocity relative to shore.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "The boat points toward the opposite bank. Yet its journey drifts to the right. The river adds a movement of its own.\n\nImagine a steady current and a boat keeping a constant speed through the water. Freeze the scene and draw those two movements. In one second, the boat moves one unit across the water. The water carries it half a unit downstream.\n\nPut the arrows end to end. The diagonal joins where the boat started to where it actually arrives. This is vector addition: both direction and size matter.\n\nTo arrive directly opposite, point the boat a little upstream. Its leftward movement can cancel the river’s rightward movement. Here the current is half the boat’s speed, so a thirty degree turn is enough.\n\nThe remaining movement is straight across. It is a little slower across than before, because some effort points upstream. This ideal model ignores changes in current and steering. Sometimes reaching a place begins by pointing somewhere else."
+    }
+  ],
+  "sources": [
+    "https://openstax.org/books/college-physics-2e/pages/3-5-addition-of-velocities"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

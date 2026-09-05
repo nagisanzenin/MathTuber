@@ -420,6 +420,41 @@
       "learning_goal": "Equal-amplitude counterpropagating sinusoidal waves form fixed nodes spaced half a wavelength apart.",
       "visual_mechanism": null,
       "narration": "Some places on a vibrating string can stay still. That stillness can come from two waves traveling in opposite directions.\n\nSeparate their mathematical contributions for a moment. The upper wave travels right, and the lower one travels left. They have equal amplitude and wavelength. The actual displacement is their sum.\n\nAt this marked place, one contribution is up while the other is equally down. They cancel. As time passes, this point stays still. It is called a node.\n\nBetween the nodes, the contributions can reinforce each other. The string moves up and down, but the pattern does not travel sideways. The distance between neighboring nodes is half a wavelength.\n\nUse waves with half the wavelength. More still points now fit into the same space. This is an ideal model of waves adding together, shown slowly. A quiet point need not mean nothing is happening; it can be where two movements meet."
+    },
+    {
+      "project": "examples/context/batch/01-river",
+      "title": "The River Adds Its Own Journey",
+      "learning_goal": "Ground velocity is the vector sum of boat velocity relative to water and water velocity relative to shore.",
+      "visual_mechanism": null,
+      "narration": "The boat points toward the opposite bank. Yet its journey drifts to the right. The river adds a movement of its own.\n\nImagine a steady current and a boat keeping a constant speed through the water. Freeze the scene and draw those two movements. In one second, the boat moves one unit across the water. The water carries it half a unit downstream.\n\nPut the arrows end to end. The diagonal joins where the boat started to where it actually arrives. This is vector addition: both direction and size matter.\n\nTo arrive directly opposite, point the boat a little upstream. Its leftward movement can cancel the river\u2019s rightward movement. Here the current is half the boat\u2019s speed, so a thirty degree turn is enough.\n\nThe remaining movement is straight across. It is a little slower across than before, because some effort points upstream. This ideal model ignores changes in current and steering. Sometimes reaching a place begins by pointing somewhere else."
+    },
+    {
+      "project": "examples/context/batch/02-camera",
+      "title": "A Little Darkness Makes a Picture",
+      "learning_goal": "Ideal pinhole projection inverts the image and scales its height by screen distance divided by object distance.",
+      "visual_mechanism": null,
+      "narration": "Inside a dark box, a candle appears upside down. A tiny opening has sorted the light.\n\nWe are looking at a simplified side view. Light from the top of the candle travels straight through the opening. It reaches the lower part of the screen. Light from the bottom reaches the upper part.\n\nThe crossing happens at the hole. No lens needs to turn the light around. Only a narrow set of rays from each point gets through.\n\nThe two triangles have the same shape. Image height divided by object height equals screen distance divided by object distance. Move the screen farther from the hole, and the image grows.\n\nKeep that screen still and move the candle farther away. Now its image becomes smaller. Real openings also trade brightness against blur and diffraction. Here we are following the ideal straight rays. A little darkness lets one arrangement of light become a picture."
+    },
+    {
+      "project": "examples/context/batch/03-contours",
+      "title": "Reading a Hill Before Taking a Step",
+      "learning_goal": "For a differentiable height field at a nonzero gradient, steepest local map-direction rise is perpendicular to the contour.",
+      "visual_mechanism": null,
+      "narration": "A hill can become a drawing without losing its heights. Each of these lines follows one level.\n\nImagine slicing the hill at evenly spaced heights. Now look straight down. Those slices become a contour map.\n\nWalk along one contour, and your height stays the same. At this point, that direction lies along the tangent. The steepest uphill direction points across it, at a right angle.\n\nThis arrow is called the gradient. It describes the fastest increase in height per small step on the map. Closer contours mean the same rise happens over less ground.\n\nMove to another part of the hill. The uphill direction changes with the shape beneath you. This is a local guide, not a promise of the best whole route. A quiet set of lines lets us read a landscape before taking a step."
+    },
+    {
+      "project": "examples/context/batch/04-siphon",
+      "title": "The Whole Journey Leads Downhill",
+      "learning_goal": "Under the stated ideal conditions, exit speed is sqrt(2 g head); crest pressure and friction limit real siphons.",
+      "visual_mechanism": null,
+      "narration": "Water rises over a bend, then falls into a lower bowl. A siphon can do this when its tube is already full.\n\nThe useful height difference is not the height of the bend. It is the drop from the upper water surface to the open outlet. Gravity releases energy over that drop.\n\nFor an ideal steady flow, both ends meet the same air pressure. The large upper reservoir moves so slowly that we neglect its surface speed. Then gravitational energy becomes the moving water\u2019s kinetic energy.\n\nSpeed squared equals twice gravity times the height drop. Compare two steady arrangements. Four times the drop gives twice the ideal exit speed, not four times.\n\nReal tubes lose energy through friction. The pressure at the crest also limits how high a siphon can rise. Our picture keeps the reservoir level nearly fixed and leaves those losses aside. The water climbs locally because the whole journey leads downhill."
+    },
+    {
+      "project": "examples/context/batch/05-capstan",
+      "title": "A Gentle Curve Shares a Force",
+      "learning_goal": "For ideal flexible rope with uniform friction at impending slip, the maximum tension ratio grows as exp(mu theta), theta in radians.",
+      "visual_mechanism": null,
+      "narration": "A rope wrapped around a wooden post can hold more than the same rope hanging freely. The post contributes friction all along the contact.\n\nImagine the rope just about to slip toward the load. We compare the larger load-side tension with the smaller holding tension. More wrap allows a larger ratio between them.\n\nHere is the total wrap angle laid along a line. At the slipping threshold, each equal extra angle multiplies the allowed tension ratio by the same factor. This happens because a tighter part of the rope presses harder against the post.\n\nFor one illustrative friction coefficient, a full turn allows a ratio of about three and a half. Two turns allow about twelve, because that factor multiplies again. The ideal capstan equation expresses this exponential growth.\n\nBelow the slipping threshold, friction need not reach its maximum. Real rope stiffness and changing surface conditions also matter. This is a model of a flexible rope with uniform friction. A gentle curve can change how a force is shared."
     }
   ]
 }

@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "The boat points",
+      "end_cue": "Imagine a steady",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Heading differs from trajectory."
+    },
+    {
+      "id": "2",
+      "start_cue": "In one second",
+      "end_cue": "This is vector",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Exact head-to-tail displacement construction."
+    },
+    {
+      "id": "3",
+      "start_cue": "Its leftward",
+      "end_cue": "Sometimes reaching",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Upstream component cancels current; crossing speed decreases."
+    }
+  ]
+}

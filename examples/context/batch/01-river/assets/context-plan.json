@@ -1,0 +1,8 @@
+{
+  "physical_subject": "Why does a boat drift away from the direction it points?",
+  "relationship": "Ground velocity is the vector sum of boat velocity relative to water and water velocity relative to shore.",
+  "operation": "Keep the boat and banks recognizable, add water-relative and shore-relative displacement arrows, then aim upstream to cancel drift.",
+  "closest_prior": "objects/05-walk: harmonic mean of trip speeds",
+  "substantive_difference": "This is two-dimensional frame-relative vector addition with an upstream cancellation, not averaging outbound and return speeds.",
+  "sequence_is_editorial_hypothesis": true
+}
