@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "ivisualizethings-workshop",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "status": "candidate",
   "promise": "Discover beauty and useful insight through a gentle, precise mathematical way of seeing.",
   "audience": "Curious people, including viewers who feel intimidated by mathematics. Introduce prerequisites gently through concrete experiences.",
@@ -28,7 +28,18 @@
     "materials": "Warm paper, solid ceramic-like pieces, restrained depth, crisp boundaries. Geometry used as proof stays exact.",
     "motion": "Deliberate, continuous, legible transformations with quiet settling moments. Preserve mathematical identity and exact geometry. Avoid restless movement or cuts unrelated to an inference.",
     "voice": "Gentle and conversational. Invite noticing and wondering. Allow uncertainty. Avoid urgency, intelligence tests, shaming, exaggerated surprise, and claims that a difficult idea is obvious.",
-    "sound": "Silence is a valid default. Optional sparse soft material sounds or unobtrusive ambience, evaluated by actual listening when available. No compulsory chimes, ticking countdowns, loud reveals, or unsupported therapeutic claims."
+    "sound": "Silence is a valid default. Optional sparse soft material sounds or unobtrusive ambience, evaluated by actual listening when available. No compulsory chimes, ticking countdowns, loud reveals, or unsupported therapeutic claims.",
+    "captions": {
+      "font": "Avenir Next",
+      "font_size": 48,
+      "color": "#243944",
+      "outline_color": "#F3ECDD",
+      "outline": 1,
+      "bold": false,
+      "margin_bottom": 270,
+      "margin_side": 108,
+      "wrap_width": 34
+    }
   },
   "hard_constraints": [
     "Preserve counts, areas, incidence and probabilities used in the argument.",
@@ -56,7 +67,10 @@
     "Let beauty arise from an intelligible relationship, not decorative motion over an unexplained formula.",
     "Offer space to notice, conjecture, and understand; pacing may be calm without becoming static or repetitive.",
     "End with a small new way to see the world or an invitation to explore, rather than a demand for engagement.",
-    "Review emotional tone alongside correctness and legibility. Do not claim reduced anxiety or viewer delight without viewer evidence."
+    "Review emotional tone alongside correctness and legibility. Do not claim reduced anxiety or viewer delight without viewer evidence.",
+    "Keep the physical setting visible while deriving its mathematical relationship.",
+    "Reserve the caption region before composing the scene. Profile caption contrast must be reviewed on the actual background.",
+    "Choose explicit caption line boundaries for fragile noun phrases and lists; preview them before final rendering."
   ],
   "formats": {
     "visual-proof": "A concrete puzzle resolves through an invariant or transformation.",

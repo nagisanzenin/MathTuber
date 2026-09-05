@@ -2,6 +2,7 @@
 import re
 import textwrap
 from .state import ProductionError
+from .caption_style import resolve_style, ass_color
 
 def ass_time(value):
     hours,minutes,seconds=value.replace(',', '.').split(':')
@@ -9,19 +10,22 @@ def ass_time(value):
     h,total=divmod(total,360000);m,total=divmod(total,6000);s,cs=divmod(total,100)
     return f'{h}:{m:02}:{s:02}.{cs:02}'
 
-def make_ass(srt,width=1080,height=1920):
-    fontsize=round(height*44/1920);margin=round(height*225/1920)
+def make_ass(srt,width=1080,height=1920,style=None):
+    style=resolve_style(overrides=style)
+    fontsize=round(height*style['font_size']/1920);margin=round(height*style['margin_bottom']/1920)
+    side=round(width*style['margin_side']/1080)
+    color=ass_color(style['color']);outline_color=ass_color(style['outline_color'])
     lines=['[Script Info]','ScriptType: v4.00+',f'PlayResX: {width}',f'PlayResY: {height}','WrapStyle: 2','',
            '[V4+ Styles]',
            'Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding',
-           f'Style: Default,Arial,{fontsize},&H00FFFFFF,&H00FFFFFF,&H00150E08,&H80150E08,-1,0,0,0,100,100,0,0,1,3,0,2,{round(width*.1)},{round(width*.1)},{margin},1','',
+           f"Style: Default,{style['font']},{fontsize},{color},{color},{outline_color},&H80150E08,{-1 if style['bold'] else 0},0,0,0,100,100,0,0,1,{style['outline']*height/1920:g},0,2,{side},{side},{margin},1",'',
            '[Events]','Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text']
     cues = []
     for block in re.split(r'\n\s*\n',srt.strip()):
         parts=block.splitlines()
         if len(parts)<3:continue
         start,end=parts[1].split(' --> ')
-        text=' '.join(parts[2:]).strip()
+        text='\n'.join(parts[2:]).strip()
         # Synthesis can emit punctuation as a separate token at a chunk boundary.
         leading = re.match(r'^([.,!?;:…]+)\s*', text)
         if leading:
@@ -36,7 +40,7 @@ def make_ass(srt,width=1080,height=1920):
     for start,end,text in cues:
         text=re.sub(r'\s+([,.!?;:])',r'\1',text)
         text=text.replace('\\','/').replace('{','(').replace('}',')')
-        text=phrase_wrap(text)
+        text=phrase_wrap(text,style['wrap_width'])
         lines.append(f'Dialogue: 0,{ass_time(start)},{ass_time(end)},Default,,0,0,0,,{text}')
     return '\n'.join(lines)+'\n'
 
@@ -82,6 +86,11 @@ def caption_groups(words, phrases=None):
 
 def phrase_wrap(text, width=34):
     """Prefer a two-line phrase boundary; bounded heuristic, with safe long-text fallback."""
+    if '\n' in text:
+        lines=text.split('\n')
+        if len(lines)>2 or any(not x.strip() or len(x.strip())>width for x in lines):
+            raise ProductionError('CAPTION_LINES', 'Explicit captions need one or two nonempty lines within wrap_width')
+        return r"\N".join(x.strip() for x in lines)
     words = text.split()
     if len(text) <= width:
         return text

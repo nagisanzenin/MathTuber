@@ -9,6 +9,7 @@ import subprocess
 import sys
 import time
 from .captions import make_ass, caption_groups
+from .caption_style import resolve_style
 from .profiles import load as load_profile
 from .creative import validate_plan, soundtrack, validate_delivery
 from .state import ProductionError, digest, file_hash, within, atomic_json
@@ -189,7 +190,7 @@ def assembly_fingerprint(project):
     return digest({"scenes": [(s["id"], r["sha256"], a["sha256"]) for s,r,a in rows],
                    "soundtrack": soundtrack(project), "sound_worker": file_hash(ROOT / "mathtuber/creative.py"),
                    "format": project.data.get("format", {}), "captions": project.data.get("captions", True),
-                   "worker": file_hash(Path(__file__)), "caption_worker": file_hash(ROOT / "mathtuber/captions.py")})
+                   "worker": file_hash(Path(__file__)), "caption_worker": file_hash(ROOT / "mathtuber/captions.py"), "caption_style_worker": file_hash(ROOT / "mathtuber/caption_style.py")})
 
 def srt_time(seconds):
     ms = round(seconds * 1000)
@@ -221,10 +222,10 @@ def assemble(project):
             phrasing = settings.get("phrases", {}) if isinstance(settings, dict) else {}
             if not isinstance(phrasing, dict):
                 raise ProductionError("CAPTION_PHRASES", "captions.phrases must map scene IDs to phrase lists")
-            for group in caption_groups(words, phrasing.get(sid)):
+            for group_index, group in enumerate(caption_groups(words, phrasing.get(sid))):
                 start = offset + max(0, min(duration, group[0]["start"]))
                 end = offset + min(duration, max(group[-1]["end"], group[0]["start"]+.1))
-                text = " ".join(w["text"] for w in group)
+                text = phrasing[sid][group_index] if sid in phrasing else " ".join(w["text"] for w in group)
                 captions.append(f"{len(captions)+1}\n{srt_time(start)} --> {srt_time(end)}\n{text}\n")
         else:
             captions.append(f"{len(captions)+1}\n{srt_time(offset)} --> {srt_time(offset+duration)}\n{scene['narration']}\n")
@@ -246,7 +247,7 @@ def assemble(project):
     caption_settings = project.data.get("captions", {})
     if isinstance(caption_settings, dict) and caption_settings.get("burn_in"):
         fmt = project.data.get("format", {})
-        (export_dir / "captions.ass").write_text(make_ass(caption_path.read_text(), fmt.get("width",1080), fmt.get("height",1920)))
+        (export_dir / "captions.ass").write_text(make_ass(caption_path.read_text(), fmt.get("width",1080), fmt.get("height",1920), resolve_style(load_profile(project), caption_settings.get("style"))))
         burned = export_dir / "captioned.mp4"
         run(["ffmpeg", "-y", "-v", "error", "-i", "video.mp4", "-vf", "ass=captions.ass",
              "-af", "loudnorm=I=-16:LRA=7:TP=-1.5", "-ar", "48000", "-c:v", "libx264", "-preset", "fast",

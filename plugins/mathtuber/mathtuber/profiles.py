@@ -27,6 +27,8 @@ def validate(data):
     for field in ("materials", "motion", "voice", "sound"):
         if not isinstance(identity.get(field), str) or not identity[field].strip():
             fail(f"identity.{field} must be explicit")
+    from .caption_style import validate_style
+    validate_style(identity.get("captions", {}))
     typography = identity.get("type", {})
     if not isinstance(typography, dict) or any(not isinstance(typography.get(k), str) or not typography[k].strip() for k in ("font", "fallback")):
         fail("Specify font and fallback")
