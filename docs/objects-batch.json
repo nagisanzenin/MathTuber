@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-06",
+  "cycle": 6,
+  "videos": [
+    {
+      "project": "01-beats",
+      "title": "The Gentle Rhythm Between Two Steady Notes #math #Shorts",
+      "url": "https://www.youtube.com/shorts/buOe3erdRc4",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M21S",
+      "export_sha256": "04ebbcd142c9ac64db5647ad4dc8640dc9043af6b01668a2606d0b0e5b54b76a",
+      "editorial": {
+        "decision": "release",
+        "opening": "Two tuning forks and an invitation to listen introduce the relationship. The first tones begin at9.125seconds; opening still has a verbal lead-in.",
+        "mechanism": "Equal and opposed schematic waves visibly sum; exact1Hzand.5Hz envelopes appear during original tone windows. Schematic carrier motion is explicitly labeled.",
+        "readability": "Frequency labels were moved above the forks to remove waveform crossings. Caption text remains separate.",
+        "pacing": "Two speech-free windows preserve real-time beats, with short gaps elsewhere. Decoded envelopes match authored timing.",
+        "sound": "Local narration; beats film uses two original tone windows with verified final envelopes. Other films are dry. Full ASR reviewed, including repaired tea wording. No subjective listening.",
+        "remaining_weaknesses": "No subjective listening. The two forks remain rigid icons; the final formula holds for many seconds. An audible isolated-tone comparison could strengthen the claim that each note is steady.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "02-tea",
+      "title": "The Quiet Curve Inside a Cooling Cup #math #Shorts",
+      "url": "https://www.youtube.com/shorts/BMH8hlUNd8Q",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M11S",
+      "export_sha256": "17873b282a176f557499dc10f58eaf48a7b976ac638701d75c0707051f54d6a2",
+      "editorial": {
+        "decision": "release",
+        "opening": "A cup, handle and saucer provide a recognizable quiet scene. The gap readout begins changing.",
+        "mechanism": "The room-temperature baseline persists while gaps halve; the same tracker later maps to a curve.",
+        "readability": "Decimal readouts preserve27.5ratherthanroundingto28. Captions and equations occupy separate regions.",
+        "pacing": "The ambiguous word halve was replaced by cuts the remaining gap in half; updated full ASR recovered it.",
+        "sound": "Local narration; beats film uses two original tone windows with verified final envelopes. Other films are dry. Full ASR reviewed, including repaired tea wording. No subjective listening.",
+        "remaining_weaknesses": "Cup temperature is carried by a separate gauge; color is not a physical thermal rendering. The final cup and curve stay mostly still. No subjective prosody assessment.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "03-shadow",
+      "title": "A Tree Measured by Its Smaller Companion #math #Shorts",
+      "url": "https://www.youtube.com/shorts/p_lexXGyVnM",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M16S",
+      "export_sha256": "df98003c389789fd4b6a9daca9f9c87ca8a3c55494435a93187e364ae33774a1",
+      "editorial": {
+        "decision": "release",
+        "opening": "A sparse tree and stick introduce an accessible outdoor measurement.",
+        "mechanism": "The small triangle scales onto the large one, explicitly matching height and shadow. Both shadows later shorten together.",
+        "readability": "Foliage is contained below the actual measured height; numeric labels moved off the sides they measure.",
+        "pacing": "A comparison hold makes correspondence visible; scope conditions are narrated before the calculation.",
+        "sound": "Local narration; beats film uses two original tone windows with verified final envelopes. Other films are dry. Full ASR reviewed, including repaired tea wording. No subjective listening.",
+        "remaining_weaknesses": "The tree remains a sparse icon and the scene is a split side-view rather than an outdoor composition. A low initial shadow contrast may not communicate a natural shadow without the words.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "04-coin",
+      "title": "The Coin That Looks Closer Than It Is #math #Shorts",
+      "url": "https://www.youtube.com/shorts/QF0MEgTBT6s",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M18S",
+      "export_sha256": "ca4cbea9279deaf4888b8b9440671ad432a13f79a8c8c0e9e15f68e28c47274d",
+      "editorial": {
+        "decision": "release",
+        "opening": "A coin and its faint actual position show apparent displacement before rays appear.",
+        "mechanism": "Exact refracted rays and dashed backward extensions locate the virtual image; depth arrows distinguish actual and apparent.",
+        "readability": "Small-angle approximation is stated in narration and visible text. The two coins are small but separable.",
+        "pacing": "One path is built at a time, then held while the virtual-image distinction is explained.",
+        "sound": "Local narration; beats film uses two original tone windows with verified final envelopes. Other films are dry. Full ASR reviewed, including repaired tea wording. No subjective listening.",
+        "remaining_weaknesses": "No eye or near-normal viewing perspective is drawn. The initial two positions rely on narration to explain their meaning. Later footage repeats the same ray diagram.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "05-walk",
+      "title": "The Average Hidden in a Walk to the Pond #math #Shorts",
+      "url": "https://www.youtube.com/shorts/xP2UBmu3g00",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M17S",
+      "export_sha256": "99d1df3f6857d74d8bdc7a50a9287dd43d56af8666b2c78453ab75dfc608040f",
+      "editorial": {
+        "decision": "release",
+        "opening": "Home, pond and a walker introduce an everyday comparison.",
+        "mechanism": "Outward and return motion have a2:1durationratio; time bars make the weighting visible before the harmonic formula.",
+        "readability": "Labels fade during replacement. Equal-time bars replace unequal-time bars without stale duration labels.",
+        "pacing": "The numeric answer arrives before the general formula, followed by the equal-time contrast.",
+        "sound": "Local narration; beats film uses two original tone windows with verified final envelopes. Other films are dry. Full ASR reviewed, including repaired tea wording. No subjective listening.",
+        "remaining_weaknesses": "The walker slides without a gait, and the pond is only an ellipse. Symbols u and v are implicit as the two speeds. Much of the latter half is a static diagram.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    }
+  ]
+}
