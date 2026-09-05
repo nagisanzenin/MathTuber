@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "The same two",
+      "end_cue": "It depends",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Different extensions under the same pull."
+    },
+    {
+      "id": "2",
+      "start_cue": "So two springs",
+      "end_cue": "Between the two",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Compare extension markers against unloaded level."
+    },
+    {
+      "id": "3",
+      "start_cue": "Now double",
+      "end_cue": "The way",
+      "end_offset": 1.0,
+      "samples": 9,
+      "purpose": "Double load while preserving four-to-one extension ratio."
+    }
+  ]
+}

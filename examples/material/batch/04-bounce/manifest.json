@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Square Hidden in a Returning Ball",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A falling ball returns, but not to where it began.",
+        "Its bounce hides a square.",
+        "Ignore air resistance and imagine a rigid, still floor.",
+        "Suppose the upward speed after impact is half the downward speed before it.",
+        "That does not give half the original height.",
+        "Speed gained in falling grows with the square root of height.",
+        "Going back upward reverses that relationship.",
+        "Half the speed gives one quarter of the height.",
+        "This speed ratio is called the coefficient of restitution.",
+        "In this simple model, the height ratio is its square.",
+        "Energy also changes form during the collision, through deformation, warmth, and sound.",
+        "Try a speed ratio of three quarters instead.",
+        "The returned height becomes nine sixteenths, a little over half.",
+        "Real bounce ratios can vary with the ball, floor, and impact speed.",
+        "A small rise after a fall can tell us something about what happened at contact."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "For an ideal vertical bounce from a fixed floor without drag, returned height ratio equals restitution squared.",
+    "question": "What does half the rebound speed imply for height?",
+    "payoff": "For an ideal vertical bounce from a fixed floor without drag, returned height ratio equals restitution squared.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration for one mechanism; no fixed length padding.",
+    "novelty_audit": "Reviewed 175 archived titles and forty autonomous releases. These specific mechanisms are distinct; related pendulum/spring/rotation themes exist. This is a title audit, not a transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper, tangible painted objects, flat mathematical annotations, continuous processes and a resolved changed condition.",
+      "episode_variation": "Show continuous parabolic drop and rebound against exact height markers, then change the speed ratio.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "What does half the rebound speed imply for height?",
+        "visual_action": "Show continuous parabolic drop and rebound against exact height markers, then change the speed ratio.",
+        "new_understanding": "For an ideal vertical bounce from a fixed floor without drag, returned height ratio equals restitution squared.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A falling ball returns, but not to where it began. Its bounce hides a square.\n\nIgnore air resistance and imagine a rigid, still floor. Suppose the upward speed after impact is half the downward speed before it. That does not give half the original height.\n\nSpeed gained in falling grows with the square root of height. Going back upward reverses that relationship. Half the speed gives one quarter of the height.\n\nThis speed ratio is called the coefficient of restitution. In this simple model, the height ratio is its square. Energy also changes form during the collision, through deformation, warmth, and sound.\n\nTry a speed ratio of three quarters instead. The returned height becomes nine sixteenths, a little over half. Real bounce ratios can vary with the ball, floor, and impact speed. A small rise after a fall can tell us something about what happened at contact."
+    }
+  ],
+  "sources": [
+    "https://openstax.org/books/college-physics-2e/pages/8-5-inelastic-collisions-in-one-dimension"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

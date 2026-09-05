@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "method": "Independent equations and numeric checks against authored model; supplements source and rendered review.",
+  "conditions": [
+    "Single vertical rebound, fixed floor, no drag, instantaneous collision, constant selected restitution during this one impact. Height markers track the bottom of the ball above the floor, equal to the center displacement from contact. Subsequent bounces not modeled."
+  ],
+  "checks": [
+    {
+      "name": "rebound height ratio for 0.5",
+      "actual": 0.24999999999999994,
+      "expected": 0.25,
+      "passed": true
+    },
+    {
+      "name": "end of rebound floor 0.5",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "name": "rebound height ratio for 0.75",
+      "actual": 0.5625,
+      "expected": 0.5625,
+      "passed": true
+    },
+    {
+      "name": "end of rebound floor 0.75",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    }
+  ]
+}

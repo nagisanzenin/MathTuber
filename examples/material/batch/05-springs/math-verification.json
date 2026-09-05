@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "method": "Independent equations and numeric checks against authored model; supplements source and rendered review.",
+  "conditions": [
+    "Massless identical linear springs k=2; quasi-static controlled equal pull. Parallel crossbar stays horizontal and shares load equally. Comparing extension from unloaded endpoints, not absolute installed lengths. Transition is illustrative, not transient dynamics."
+  ],
+  "checks": [
+    {
+      "name": "extension ratio at force 1",
+      "actual": 4.0,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "name": "parallel total force at 1",
+      "actual": 1.0,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "name": "series force each at 1",
+      "actual": 1.0,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "name": "extension ratio at force 2",
+      "actual": 4.0,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "name": "parallel total force at 2",
+      "actual": 2.0,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "name": "series force each at 2",
+      "actual": 2.0,
+      "expected": 2,
+      "passed": true
+    }
+  ]
+}

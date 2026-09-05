@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Quiet Difference Made by a Connection",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "The same two springs can feel softer or stiffer.",
+        "It depends on how they share a pull.",
+        "Imagine identical, light springs stretched gently within their elastic range.",
+        "In a chain, each spring carries the full pull.",
+        "Both extensions add.",
+        "Put the springs side by side, and they share the load instead.",
+        "They stretch by the same amount.",
+        "Each needs to carry only half of an evenly shared pull.",
+        "So two springs in a chain stretch twice as much as one.",
+        "The side-by-side pair stretches half as much.",
+        "Between the two arrangements, that is a fourfold difference under the same pull.",
+        "Now double the pull while staying in the linear range.",
+        "Both total extensions double, and their ratio remains four.",
+        "We are comparing settled positions, not modeling the transient motion.",
+        "The way we connect small things can change how the whole system responds."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Series extensions add; parallel springs share load, producing different effective stiffness.",
+    "question": "Why do identical springs change stiffness when reconnected?",
+    "payoff": "Series extensions add; parallel springs share load, producing different effective stiffness.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration for one mechanism; no fixed length padding.",
+    "novelty_audit": "Reviewed 175 archived titles and forty autonomous releases. These specific mechanisms are distinct; related pendulum/spring/rotation themes exist. This is a title audit, not a transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper, tangible painted objects, flat mathematical annotations, continuous processes and a resolved changed condition.",
+      "episode_variation": "Compare two identical springs in series and parallel under the same controlled pull, with extension markers.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why do identical springs change stiffness when reconnected?",
+        "visual_action": "Compare two identical springs in series and parallel under the same controlled pull, with extension markers.",
+        "new_understanding": "Series extensions add; parallel springs share load, producing different effective stiffness.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "The same two springs can feel softer or stiffer. It depends on how they share a pull.\n\nImagine identical, light springs stretched gently within their elastic range. In a chain, each spring carries the full pull. Both extensions add.\n\nPut the springs side by side, and they share the load instead. They stretch by the same amount. Each needs to carry only half of an evenly shared pull.\n\nSo two springs in a chain stretch twice as much as one. The side-by-side pair stretches half as much. Between the two arrangements, that is a fourfold difference under the same pull.\n\nNow double the pull while staying in the linear range. Both total extensions double, and their ratio remains four. We are comparing settled positions, not modeling the transient motion. The way we connect small things can change how the whole system responds."
+    }
+  ],
+  "sources": [
+    "https://sepwww.stanford.edu/data/media/public/docs/sep77/francis2/paper_html/node2.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

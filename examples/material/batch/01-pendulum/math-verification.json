@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "method": "Independent equations and numeric checks against authored model; supplements source and rendered review.",
+  "conditions": [
+    "Simple pendulum, massless inextensible string, small angle .2 radians, no damping. Bob size is illustrative. Period ratios exact within harmonic approximation; no claim for large swings."
+  ],
+  "checks": [
+    {
+      "name": "fourfold length doubles period",
+      "actual": 2.0,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "name": "ninefold length triples period",
+      "actual": 2.9999999999999996,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "name": "authored second comparison length ratio",
+      "actual": 9.0,
+      "expected": 9,
+      "passed": true
+    },
+    {
+      "name": "angular approximation discrepancy at .2 rad",
+      "actual": 0.006653346024693918,
+      "expected": 0.006653346,
+      "passed": true
+    }
+  ]
+}

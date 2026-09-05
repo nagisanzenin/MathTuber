@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "method": "Independent equations and numeric checks against authored model; supplements source and rendered review.",
+  "conditions": [
+    "Uniform free isotropic positive thermal expansion. Linear coefficient relation only for small temperature change. Animation exaggerates expansion to18%; not a numerical prediction at a specified temperature. Ball remains unchanged."
+  ],
+  "checks": [
+    {
+      "name": "outer ratio",
+      "actual": 1.18,
+      "expected": 1.18,
+      "passed": true
+    },
+    {
+      "name": "inner ratio",
+      "actual": 1.18,
+      "expected": 1.18,
+      "passed": true
+    },
+    {
+      "name": "clearance after exaggerated expansion",
+      "actual": 0.15500000000000003,
+      "expected": 0.155,
+      "passed": true
+    },
+    {
+      "name": "cool ball initially too large and finally smaller",
+      "passed": true
+    }
+  ]
+}

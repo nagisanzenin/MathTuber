@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Different Lives Inside Two Circles",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Two round objects begin on the same slope.",
+        "Their insides can change how quickly they roll.",
+        "One is a solid cylinder.",
+        "The other is a thin hoop, with its mass near the rim.",
+        "We compare equal masses and radii, rolling without slipping.",
+        "Falling gives each object energy for both travel and spin.",
+        "Mass far from the axis makes rotation harder to change.",
+        "The hoop stores more rotational energy at the same forward speed.",
+        "From the same height, the cylinder therefore reaches a greater speed.",
+        "Here its acceleration is two thirds of gravity along the slope.",
+        "The hoop gets one half.",
+        "The difference comes from mass distribution, not a stronger pull of gravity.",
+        "Try releasing them again from farther up.",
+        "Both gain more speed, but the cylinder still arrives first.",
+        "Enough static friction is needed to keep both from slipping.",
+        "Inside a familiar circle, there can be a different way of moving."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Rotational inertia changes how gravitational energy divides between translation and rotation.",
+    "question": "Why does a solid cylinder roll down faster than a hoop?",
+    "payoff": "Rotational inertia changes how gravitational energy divides between translation and rotation.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration for one mechanism; no fixed length padding.",
+    "novelty_audit": "Reviewed 175 archived titles and forty autonomous releases. These specific mechanisms are distinct; related pendulum/spring/rotation themes exist. This is a title audit, not a transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper, tangible painted objects, flat mathematical annotations, continuous processes and a resolved changed condition.",
+      "episode_variation": "Two separate equal slopes compare matching circular silhouettes, internal mass distribution and continuous no-slip rotation.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why does a solid cylinder roll down faster than a hoop?",
+        "visual_action": "Two separate equal slopes compare matching circular silhouettes, internal mass distribution and continuous no-slip rotation.",
+        "new_understanding": "Rotational inertia changes how gravitational energy divides between translation and rotation.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Two round objects begin on the same slope. Their insides can change how quickly they roll.\n\nOne is a solid cylinder. The other is a thin hoop, with its mass near the rim. We compare equal masses and radii, rolling without slipping.\n\nFalling gives each object energy for both travel and spin. Mass far from the axis makes rotation harder to change. The hoop stores more rotational energy at the same forward speed.\n\nFrom the same height, the cylinder therefore reaches a greater speed. Here its acceleration is two thirds of gravity along the slope. The hoop gets one half. The difference comes from mass distribution, not a stronger pull of gravity.\n\nTry releasing them again from farther up. Both gain more speed, but the cylinder still arrives first. Enough static friction is needed to keep both from slipping. Inside a familiar circle, there can be a different way of moving."
+    }
+  ],
+  "sources": [
+    "https://openstax.org/books/university-physics-volume-1/pages/11-1-rolling-motion"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

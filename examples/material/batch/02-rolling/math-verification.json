@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "method": "Independent equations and numeric checks against authored model; supplements source and rendered review.",
+  "conditions": [
+    "Rigid solid cylinder I=mr\u00b2/2 and thin hoop I=mr\u00b2, same mass/radius, static friction sufficient; negligible rolling resistance. Drawing is side view. Trajectories stop for comparison at their endpoint, not a simulated impact."
+  ],
+  "checks": [
+    {
+      "name": "acceleration ratio",
+      "actual": 1.3333333333333333,
+      "expected": 1.3333333333333333,
+      "passed": true
+    },
+    {
+      "name": "translational plus rotational energy cylinder",
+      "actual": 2.3919787427725367,
+      "expected": 2.3919787427725367,
+      "passed": true
+    },
+    {
+      "name": "same final ramp position after moving release",
+      "actual": 4.300000000000001,
+      "expected": 4.3,
+      "passed": true
+    },
+    {
+      "name": "clockwise rotation has zero contact speed",
+      "passed": true,
+      "derivation": "For motion along ramp d and outward normal n, omega=-v/r, omega cross (-r n)=-v d, canceling center velocity."
+    }
+  ]
+}

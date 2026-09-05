@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "A small weight",
+      "end_cue": "Its rhythm",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Continuous opening motion and stable material shading."
+    },
+    {
+      "id": "2",
+      "start_cue": "Release them",
+      "end_cue": "Their masses",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Compare one long cycle to two short cycles."
+    },
+    {
+      "id": "3",
+      "start_cue": "Now compare",
+      "end_cue": "A quiet clock",
+      "end_offset": 1.0,
+      "samples": 9,
+      "purpose": "Inspect nine-to-one lengths and three-to-one periods."
+    }
+  ]
+}

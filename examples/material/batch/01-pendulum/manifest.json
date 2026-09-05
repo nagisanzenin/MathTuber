@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "A Quiet Clock Hidden in a Length",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A small weight swings, and finds its way back.",
+        "Its rhythm comes mostly from length, not heaviness.",
+        "Imagine a tiny bob on a light, unstretching string.",
+        "We keep the swings small and leave friction aside.",
+        "The distance runs from the pivot to the center of the bob.",
+        "Gravity pulls the bob toward the lowest point.",
+        "A longer pendulum turns through its angle more slowly.",
+        "The time for a full cycle grows with the square root of length.",
+        "Here are two strings, one four times as long.",
+        "Release them from the same small angle.",
+        "While the long one completes one cycle, the short one completes two.",
+        "Their masses do not enter this ideal period rule.",
+        "Now compare lengths of one and nine.",
+        "The longer pendulum takes three times as long for a cycle.",
+        "These are small-angle approximations, not rules for a huge swing.",
+        "A quiet clock can be hidden in a distance."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Within the small-angle ideal model, period scales with square root of length.",
+    "question": "How does pendulum length change its rhythm?",
+    "payoff": "Within the small-angle ideal model, period scales with square root of length.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration for one mechanism; no fixed length padding.",
+    "novelty_audit": "Reviewed 175 archived titles and forty autonomous releases. These specific mechanisms are distinct; related pendulum/spring/rotation themes exist. This is a title audit, not a transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper, tangible painted objects, flat mathematical annotations, continuous processes and a resolved changed condition.",
+      "episode_variation": "Compare small-angle pendulums at lengths one, four and nine with exact period ratios and painted bobs.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How does pendulum length change its rhythm?",
+        "visual_action": "Compare small-angle pendulums at lengths one, four and nine with exact period ratios and painted bobs.",
+        "new_understanding": "Within the small-angle ideal model, period scales with square root of length.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A small weight swings, and finds its way back. Its rhythm comes mostly from length, not heaviness.\n\nImagine a tiny bob on a light, unstretching string. We keep the swings small and leave friction aside. The distance runs from the pivot to the center of the bob.\n\nGravity pulls the bob toward the lowest point. A longer pendulum turns through its angle more slowly. The time for a full cycle grows with the square root of length.\n\nHere are two strings, one four times as long. Release them from the same small angle. While the long one completes one cycle, the short one completes two. Their masses do not enter this ideal period rule.\n\nNow compare lengths of one and nine. The longer pendulum takes three times as long for a cycle. These are small-angle approximations, not rules for a huge swing. A quiet clock can be hidden in a distance."
+    }
+  ],
+  "sources": [
+    "https://openstax.org/books/university-physics-volume-1/pages/15-4-pendulums"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

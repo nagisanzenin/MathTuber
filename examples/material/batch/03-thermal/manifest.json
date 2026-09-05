@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Empty Space That Grows with a Ring",
+    "min_seconds": 55,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Warm a metal ring evenly, and its hole grows too.",
+        "The empty space follows the expansion around it.",
+        "Imagine the hole filled by a matching disk.",
+        "If the whole piece expands freely, every length grows by the same proportion.",
+        "The imaginary disk would grow along with the rest.",
+        "Take that disk away again.",
+        "The boundary must still follow the same outward movement.",
+        "Adding a hole did not reverse the expansion.",
+        "For a small temperature change, the fractional growth is expansion coefficient times temperature change.",
+        "The inner and outer radii share that fraction.",
+        "Our animation exaggerates the change so that you can see it.",
+        "Now compare a cooler ball with the ring.",
+        "A small clearance can appear when the ring warms and the ball does not.",
+        "This assumes even heating, free expansion, and a material that expands with heat.",
+        "Sometimes understanding an empty space begins by imagining what could fill it."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Uniform free thermal expansion scales the hole along with the surrounding material.",
+    "question": "Does a hole shrink or grow when a metal ring expands?",
+    "payoff": "Uniform free thermal expansion scales the hole along with the surrounding material.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration for one mechanism; no fixed length padding.",
+    "novelty_audit": "Reviewed 175 archived titles and forty autonomous releases. These specific mechanisms are distinct; related pendulum/spring/rotation themes exist. This is a title audit, not a transcript audit.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper, tangible painted objects, flat mathematical annotations, continuous processes and a resolved changed condition.",
+      "episode_variation": "Fill an expanding ring with an imaginary disk, remove it, and compare the opening with an unchanged cooler ball.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Does a hole shrink or grow when a metal ring expands?",
+        "visual_action": "Fill an expanding ring with an imaginary disk, remove it, and compare the opening with an unchanged cooler ball.",
+        "new_understanding": "Uniform free thermal expansion scales the hole along with the surrounding material.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Warm a metal ring evenly, and its hole grows too. The empty space follows the expansion around it.\n\nImagine the hole filled by a matching disk. If the whole piece expands freely, every length grows by the same proportion. The imaginary disk would grow along with the rest.\n\nTake that disk away again. The boundary must still follow the same outward movement. Adding a hole did not reverse the expansion.\n\nFor a small temperature change, the fractional growth is expansion coefficient times temperature change. The inner and outer radii share that fraction. Our animation exaggerates the change so that you can see it.\n\nNow compare a cooler ball with the ring. A small clearance can appear when the ring warms and the ball does not. This assumes even heating, free expansion, and a material that expands with heat. Sometimes understanding an empty space begins by imagining what could fill it."
+    }
+  ],
+  "sources": [
+    "https://openstax.org/books/university-physics-volume-2/pages/1-3-thermal-expansion"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

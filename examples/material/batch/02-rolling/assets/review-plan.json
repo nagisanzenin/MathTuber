@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Two round",
+      "end_cue": "Their insides",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Opening physical translation and rotation."
+    },
+    {
+      "id": "2",
+      "start_cue": "From the same",
+      "end_cue": "The difference",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Compare equal starting conditions and acceleration."
+    },
+    {
+      "id": "3",
+      "start_cue": "Try releasing",
+      "end_cue": "Inside a familiar",
+      "end_offset": 1.0,
+      "samples": 9,
+      "purpose": "Compare a greater descent with the same distribution."
+    }
+  ]
+}

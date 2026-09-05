@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Warm a metal",
+      "end_cue": "The empty",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Both ring boundaries expand proportionally."
+    },
+    {
+      "id": "2",
+      "start_cue": "Imagine the hole",
+      "end_cue": "Take that disk",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Follow imaginary disk and material together."
+    },
+    {
+      "id": "3",
+      "start_cue": "Now compare",
+      "end_cue": "Sometimes understanding",
+      "end_offset": 1.0,
+      "samples": 9,
+      "purpose": "Distinguish unchanged ball from enlarged opening."
+    }
+  ]
+}

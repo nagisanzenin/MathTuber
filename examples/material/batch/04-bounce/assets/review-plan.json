@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "A falling",
+      "end_cue": "Its bounce",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Inspect drop, contact and rebound."
+    },
+    {
+      "id": "2",
+      "start_cue": "Half the speed",
+      "end_cue": "This speed ratio",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Quarter-height consequence."
+    },
+    {
+      "id": "3",
+      "start_cue": "Try a speed",
+      "end_cue": "A small rise",
+      "end_offset": 1.0,
+      "samples": 9,
+      "purpose": "Three-quarter speed gives nine-sixteenth height."
+    }
+  ]
+}
