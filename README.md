@@ -93,3 +93,5 @@ Latest release: [five flow Shorts and reflection](docs/flow-batch.md), with [edi
 Latest release: [five everyday-object Shorts and reflection](docs/objects-batch.md), with [editable sources](examples/objects).
 
 Latest release: [five meaningful-ending Shorts and reflection](docs/endings-batch.md), with [editable sources](examples/endings).
+
+Latest release: [five focal-staging Shorts and reflection](docs/focal-batch.md), with [editable sources](examples/focal).

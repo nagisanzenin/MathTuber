@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-06",
+  "cycle": 8,
+  "videos": [
+    {
+      "project": "01-capillary",
+      "title": "The Small Edge That Helps Water Climb #math #Shorts",
+      "url": "https://www.youtube.com/shorts/OVM8iROHfKk",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M8S",
+      "export_sha256": "fe79e4bda6b48354cc950a5bdb5e675a5c8c9d10c3999615c56ea2c7c13c958c",
+      "editorial": {
+        "decision": "release",
+        "opening": "Two liquid columns rise before the close view, with the thinner column ending higher.",
+        "mechanism": "The same reservoir and columns remain visible through enlargement; rim length versus cross-sectional area explains the inverse-radius equilibrium. A third-radius case resolves near the end.",
+        "readability": "Comparison circles were reduced to clear both reservoir and captions. The narrow-column height label was moved outside its walls; the wider label fits between its walls. Final area values were shortened to 1 and 4 inside their circles.",
+        "pacing": "The opening rise and final altered column are events, while the central explanation deliberately holds its reference level. Pause samples were independently checked.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed; focused checks recovered two omitted opening words and did not repeat an apparent gear-word duplication in full-file ASR. No subjective listening.",
+        "remaining_weaknesses": "The tubes are schematic vertical lines with exaggerated widths and no modeled meniscus or transient rise law. The circular area comparison is a separate view, and much of the middle is static. No audience recognition or aesthetic preference was measured.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "02-mirror",
+      "title": "A Bowl of Light and Its Return Journey #math #Shorts",
+      "url": "https://www.youtube.com/shorts/BgPW1qRgnjE",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M10S",
+      "export_sha256": "e1f2fe5d56a0d59c8ad32d668a291bae750053caedf078172f6215d4ae68c638",
+      "editorial": {
+        "decision": "release",
+        "opening": "Parallel rays now visibly gather in the opening, before the detailed reflection explanation.",
+        "mechanism": "A persistent parabolic cross section moves closer. The local normal and reflection follow the actual surface continuously as the meeting point moves; reversed paths resolve the final claim.",
+        "readability": "The focus label was moved off the ray bundle and arrowheads reduced to keep the focal point visible. Dense transition samples supplement the broader interval.",
+        "pacing": "The opening demonstration replaced a long wait for the first ray. The final ray directions are resolved, then the scene holds for the closing sentence.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed; focused checks recovered two omitted opening words and did not repeat an apparent gear-word duplication in full-file ASR. No subjective listening.",
+        "remaining_weaknesses": "The bowl remains a clean cross-sectional diagram, with no material environment or depth. The local normal is named but equal-angle arcs are not drawn. Sampled images do not establish felt pacing, prosody or learning.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "03-diffraction",
+      "title": "The Narrow Opening That Lets Light Spread #math #Shorts",
+      "url": "https://www.youtube.com/shorts/HzLfRRU7Tco",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M11S",
+      "export_sha256": "877e7242eb04c03a6e9e746722431b7aaa97ddd471bc1d881f030207da9febf4",
+      "editorial": {
+        "decision": "release",
+        "opening": "A soft light band supplies a concrete pattern, although the opening initially shows a static state rather than the width change.",
+        "mechanism": "First-minimum markers follow the analytic sinc-squared pattern as the slit narrows and widens. The screen coordinate is explicitly sine angle.",
+        "readability": "A changed-view redraw preserves the transformed band height and slit endpoints. Peak normalization and compressed brightness are disclosed; mathematical labels stay separate from captions. The light pattern sits on a dark screen so minima visibly correspond to darkness rather than unpainted cream paper.",
+        "pacing": "The key narrowing has dense intermediate samples; the final reopening visibly restores a narrower central band. Focused transcription recovered a word omitted by full-file ASR.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed; focused checks recovered two omitted opening words and did not repeat an apparent gear-word duplication in full-file ASR. No subjective listening.",
+        "remaining_weaknesses": "The relationship between the separate slit and far-field screen is diagrammatic, without propagated wavefronts. Brightness is a display encoding, and the first cancellation is explained rather than derived from paired wave contributions. No perceptual brightness or viewer understanding was tested.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "04-spin",
+      "title": "The Quiet Rhythm of Moving Inward #math #Shorts",
+      "url": "https://www.youtube.com/shorts/Q47PTJIiLtY",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M12S",
+      "export_sha256": "ee8ead0b44bcacf7403f83cd9f5494339decce75f6857df9c9c03b823e670b92",
+      "editorial": {
+        "decision": "release",
+        "opening": "Two colored weights turn on a visible platform, retaining their identities in a larger top view.",
+        "mechanism": "An analytic integral drives angular phase while both radii change. Nonzero platform inertia and the work of inward actuation are included in the explanation.",
+        "readability": "The radius label was moved clear of the radial line. The platform remains in view to explain why the total speed increase differs from the isolated point-weight scaling.",
+        "pacing": "Rotation continues through the final narration and outward movement rather than stopping at each cue. A focused transcription recovered the opening verb missed in full-file ASR.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed; focused checks recovered two omitted opening words and did not repeat an apparent gear-word duplication in full-file ASR. No subjective listening.",
+        "remaining_weaknesses": "The drawing omits the physical mechanism that pulls the weights inward and shows no hands or material texture. A substantial early section is a held diagram. No subjective listening, enjoyment or learning was measured.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "05-gears",
+      "title": "Two Circles Sharing a Mechanical Rhythm #math #Shorts",
+      "url": "https://www.youtube.com/shorts/UG0ry083oaA",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M5S",
+      "export_sha256": "9d6bb014d1b366cebbecb43744081069d733a4401c8645f238bbd0b47487694f",
+      "editorial": {
+        "decision": "release",
+        "opening": "Two meshing gear outlines turn immediately, with visibly different angular speeds.",
+        "mechanism": "The enlarged pair keeps the same tooth counts and locations. Complete rotations show one-small to half-large, then one-large to two-small, with opposite direction.",
+        "readability": "Tooth-count labels sit below their gears. Dense samples cover the first full rotation; the teeth are explicitly schematic and the rotation ratio conditional on correct engagement.",
+        "pacing": "The final gear motion continues during the closing sentence. Focused ASR did not repeat an apparent extra word in the full-file transcript.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed; focused checks recovered two omitted opening words and did not repeat an apparent gear-word duplication in full-file ASR. No subjective listening.",
+        "remaining_weaknesses": "No individual teeth are numbered, and the driver-role exchange has no motor or hand to show its cause. Tooth undercut, fillets and contact forces are not modeled. The algebraic statement uses speed magnitudes; opposite directions are explained separately. No viewer response was measured.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    }
+  ]
+}
