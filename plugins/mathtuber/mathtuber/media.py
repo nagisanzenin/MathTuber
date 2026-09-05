@@ -52,6 +52,7 @@ def audio_fingerprint(project, scene):
     if project.data.get("speech", {}).get("provider") == "wav":
         imported = file_hash(Path(scene["audio_source"]).expanduser())
     return digest({"narration": scene["narration"], "speech": project.data.get("speech", {}),
+                   "paragraph_pauses": scene.get("paragraph_pauses"),
                    "imported": imported, "worker": file_hash(ROOT / "workers/speech.py"),
                    "segments": file_hash(ROOT / "mathtuber/speech_segments.py")})
 

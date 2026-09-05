@@ -19,6 +19,13 @@ class SpeechTimelineTests(unittest.TestCase):
         cues=resolve_cues("self.at('Second')",words);self.assertEqual(cues['Second'],2.334)
         srt=scene_srt(dict(id='s01',narration='First. Second. Third.'),{'word_timing':{'words':words}},len(audio)/rate)
         self.assertIn('00:00:02,334 --> 00:00:03,134',srt[1])
+    def test_selective_listening_window_preserves_sample_timeline(self):
+        def synth(text): return np.ones(1000),1000,[dict(text=text,start=0,end=1)]
+        audio,rate,words,pauses=synthesize_paragraphs('One.\n\nTwo.\n\nThree.',synth,.4,[4.125,0])
+        self.assertEqual(len(audio),7125)
+        np.testing.assert_array_equal(audio[1000:5125],np.zeros(4125))
+        self.assertEqual([w['start'] for w in words],[0,5.125,6.125])
+        self.assertEqual(pauses[1],dict(start=6.125,end=6.125,after_paragraph=2))
     def test_incompatible_chunks_rejected(self):
         for bad in ['rate','channels','timing']:
             def synth(text):

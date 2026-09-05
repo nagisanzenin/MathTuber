@@ -8,14 +8,18 @@ import numpy as np
 import soundfile as sf
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from mathtuber.speech_segments import paragraph_plan, synthesize_paragraphs
+from mathtuber.speech_segments import paragraph_plan, pause_plan, synthesize_paragraphs
 
 request = json.loads(Path(sys.argv[1]).read_text())
 settings = request.get("speech", {})
 provider = settings.get("provider", "kokoro")
 pause_seconds = settings.get("paragraph_pause_seconds", 0)
 paragraph_plan("validate", pause_seconds)
-if provider == "wav" and pause_seconds:
+for item in request["items"]:
+    if "paragraph_pauses" in item["scene"] and not isinstance(item["scene"]["paragraph_pauses"], list):
+        raise ValueError("paragraph_pauses must be a list")
+    pause_plan(item["scene"]["narration"], pause_seconds, item["scene"].get("paragraph_pauses"))
+if provider == "wav" and (pause_seconds or any("paragraph_pauses" in item["scene"] for item in request["items"])):
     raise ValueError("paragraph_pause_seconds applies to synthesis, not imported audio")
 if provider == "kokoro":
     # Some macOS espeak wheels embed the build machine's data path.
@@ -58,8 +62,8 @@ for item in request["items"]:
     if provider == "wav":
         audio, rate = sf.read(item["scene"]["audio_source"])
         words, pauses = [], []
-    elif pause_seconds:
-        audio, rate, words, pauses = synthesize_paragraphs(item["scene"]["narration"], synthesize, pause_seconds)
+    elif pause_seconds or "paragraph_pauses" in item["scene"]:
+        audio, rate, words, pauses = synthesize_paragraphs(item["scene"]["narration"], synthesize, pause_seconds, item["scene"].get("paragraph_pauses"))
     else:
         audio, rate, words = synthesize(item["scene"]["narration"])
         pauses = []

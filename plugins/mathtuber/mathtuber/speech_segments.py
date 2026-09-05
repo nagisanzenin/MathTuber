@@ -12,10 +12,25 @@ def paragraph_plan(text, seconds=0):
         raise ValueError('Narration has no spoken paragraphs')
     return parts
 
-def synthesize_paragraphs(text, synthesize, seconds=0):
+def pause_plan(text, seconds=0, overrides=None):
+    """An explicit list has exactly one duration per paragraph boundary."""
+    parts = paragraph_plan(text, seconds)
+    if overrides is None:
+        return parts, [seconds] * (len(parts) - 1)
+    if not isinstance(overrides, list):
+        raise ValueError('paragraph_pauses must be a list of boundary durations')
+    # An explicit list requests paragraph segmentation even when default is zero.
+    parts = paragraph_plan(text, 1)
+    if len(overrides) != len(parts) - 1:
+        raise ValueError('paragraph_pauses must have one duration per paragraph boundary')
+    for duration in overrides:
+        paragraph_plan('validate', duration)
+    return parts, list(overrides)
+
+def synthesize_paragraphs(text, synthesize, seconds=0, overrides=None):
     """Keep timings in sample time, including silence between paragraphs only."""
     import numpy as np
-    parts = paragraph_plan(text, seconds)
+    parts, durations = pause_plan(text, seconds, overrides)
     arrays, words, pauses = [], [], []
     rate = None
     offset_samples = 0
@@ -33,7 +48,7 @@ def synthesize_paragraphs(text, synthesize, seconds=0):
         elif chunk_rate != rate or audio.shape[1:] != shape:
             raise ValueError('Paragraph audio formats differ')
         if i:
-            n = round(seconds * rate)
+            n = round(durations[i-1] * rate)
             pauses.append({'start': offset_samples/rate, 'end': (offset_samples+n)/rate, 'after_paragraph': i})
             arrays.append(np.zeros((n,) + shape, dtype=audio.dtype))
             offset_samples += n
