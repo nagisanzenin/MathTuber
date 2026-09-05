@@ -1,0 +1,4 @@
+{
+  "passed": true,
+  "proof": "8 by 8 board has 32 of each color. Removing opposite corners removes two of one color. Each legal domino covers adjacent opposite colors. 30 and 32 cannot form 31 opposite-color pairs. Relocation is explicitly counting, not tiling."
+}

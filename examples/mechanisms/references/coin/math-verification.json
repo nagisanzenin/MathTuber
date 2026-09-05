@@ -1,0 +1,4 @@
+{
+  "passed": true,
+  "proof": "No slip requires contact velocity zero: center speed equals r times angular speed. Outside center path length is 2\u03c0(R+r), so turns=(R+r)/r: 2 for R=r and 4 for R=3r."
+}

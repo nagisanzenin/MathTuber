@@ -22,11 +22,15 @@ def make_ass(srt,width=1080,height=1920):
         start,end=parts[1].split(' --> ')
         text=' '.join(parts[2:]).strip()
         # Synthesis can emit punctuation as a separate token at a chunk boundary.
-        if re.fullmatch(r'[.,!?;:…]+', text):
+        leading = re.match(r'^([.,!?;:…]+)\s*', text)
+        if leading:
             if cues:
-                cues[-1][1] = end
-                cues[-1][2] += text
-            continue
+                cues[-1][2] += leading.group(1)
+            text = text[leading.end():]
+            if not text:
+                if cues:
+                    cues[-1][1] = end
+                continue
         cues.append([start,end,text])
     for start,end,text in cues:
         text=re.sub(r'\s+([,.!?;:])',r'\1',text)

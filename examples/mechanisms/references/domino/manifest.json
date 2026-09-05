@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Make the pairing visible",
+    "min_seconds": 35,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.96
+  },
+  "captions": {
+    "burn_in": true
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Every domino requires one of each color; 30 versus 32 is impossible.",
+    "question": "Can matching area guarantee a tiling?",
+    "payoff": "Every domino requires one of each color; 30 versus 32 is impossible.",
+    "transfer_prompt": "Predict the changed case shown at the end.",
+    "duration_rationale": "One continuous visual explanation; speech measured before render; no duration padding.",
+    "novelty_audit": "Checked refreshed channel upload titles on 2026-09-05; new uploads exclude previous topics. Reference remakes are local only. Title audit cannot prove absence inside all historic videos.",
+    "profile_application": {
+      "format": "visual-proof",
+      "signature": "Persistent objects, warm material palette, visible mechanism before symbolic summary.",
+      "episode_variation": "Original squares move into explicit adjacent pairs; two remain unpaired.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Can matching area guarantee a tiling?",
+        "visual_action": "Original squares move into explicit adjacent pairs; two remain unpaired.",
+        "new_understanding": "Every domino requires one of each color; 30 versus 32 is impossible.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Can these dominoes cover the board? Remove two opposite corners. Sixty two squares remain, so the total area fits thirty one dominoes. But every domino covers two neighboring squares: one dark and one light. Watch what happens when we pair the colors. Keep every remaining square. Move each dark square beside one light square. We can make thirty pairs. And these two light squares are still waiting. There is no dark partner left. We rearranged the squares to count them, not to make a legal tiling. Any real tiling would also have to pair opposite colors. So none can exist. This is stronger than trying lots of arrangements. It rules out every arrangement. Matching area is not enough. Each piece also demands a matching pair."
+    }
+  ],
+  "sources": [
+    "https://wild.maths.org/chessboard-tiling"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.2.0",
+    "path": "assets/profile-3e36a990ff7127ab.json",
+    "sha256": "7facf7bb86b11bf5946231818c11a159fe14ffa87fef40f8fb5badf01d999ce6"
+  }
+}

@@ -16,3 +16,11 @@ class CaptionTests(unittest.TestCase):
  def test_leading_punctuation_does_not_create_a_caption(self):
   self.assertNotIn('Dialogue:',make_ass('1\n00:00:00,000 --> 00:00:00,100\n.\n'))
 if __name__=='__main__':unittest.main()
+
+class LeadingPunctuationTests(__import__('unittest').TestCase):
+    def test_leading_comma_attaches_to_previous_caption(self):
+        from mathtuber.captions import make_ass
+        result=make_ass('1\n00:00:00,000 --> 00:00:01,000\nCount them\n\n2\n00:00:01,000 --> 00:00:02,000\n, not tile them.\n')
+        self.assertIn('Count them,',result)
+        self.assertIn(',,not tile them.',result)
+        self.assertNotIn(',,\u002c not tile',result)

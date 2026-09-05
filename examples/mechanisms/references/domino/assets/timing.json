@@ -1,0 +1,11 @@
+{
+  "s01": {
+    "Remove two opposite": 2.075,
+    "one dark and one light": 11.012,
+    "Keep every remaining square": 14.963,
+    "Move each dark square": 16.85,
+    "these two light squares": 21.387,
+    "not to make a legal tiling": 28.275,
+    "rules out every arrangement": 38.413
+  }
+}
