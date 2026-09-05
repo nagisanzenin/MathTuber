@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Dice That Beat Each Other in a Circle",
+    "min_seconds": 75,
+    "max_seconds": 150
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 1.04
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Shot1",
+      "narration": "These four dice have no best choice. Blue beats orange more often than not. Orange beats purple. Purple beats green. And green beats blue. That sounds impossible if you imagine the dice sitting on a ranking from worst to best. But winning probabilities do not have to form a ranking. These are Efron's nontransitive dice. Every face is equally likely. Only the numbers are unusual."
+    },
+    {
+      "id": "s02",
+      "source": "scenes/s02.py",
+      "class_name": "Shot2",
+      "narration": "Look at blue against orange. Blue has four faces showing four, and two showing zero. Orange always shows three. So blue wins on four of its six faces: a two thirds chance. In this grid, each square is one equally likely pair of rolls. Twenty four of the thirty six pairs favor blue. The advantage is exact. It is not a lucky streak in a simulation."
+    },
+    {
+      "id": "s03",
+      "source": "scenes/s03.py",
+      "class_name": "Shot3",
+      "narration": "Now compare the rest. Orange beats purple whenever purple shows two, which happens four times out of six. Purple beats green two thirds of the time as well: its sixes always win, and its twos beat green's ones. Finally, green's fives always beat blue, and its ones beat blue's zeros. Count all thirty six pairs again, and every arrow in the circle has the same two thirds winning chance."
+    },
+    {
+      "id": "s04",
+      "source": "scenes/s04.py",
+      "class_name": "Shot4",
+      "narration": "So if you choose first, I can always pick a die that has an advantage over yours. Choose blue, and I choose green. Choose orange, and I choose blue. The trap is assuming that beats more often behaves like greater than. Ordinary numbers are transitive. These head to head probabilities are not. No loaded dice, and no guaranteed win on a single throw. Just rock, paper, scissors, written in numbers."
+    }
+  ],
+  "captions": {
+    "burn_in": true
+  }
+}

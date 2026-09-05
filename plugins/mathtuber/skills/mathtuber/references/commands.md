@@ -49,3 +49,5 @@ After inspecting evidence write a review file and call `review-record --project 
 Acceptance requires all four checks to pass, no findings, current evidence, and successful mechanical verification. This record is the reviewer's attestation, not an automatic proof of quality. Editing project inputs invalidates stale acceptance.
 
 Use `--execution docker` for the restricted container renderer. Scene helpers outside `scenes/_shared/` must be declared in `dependencies`, a list of project-relative file paths. Changes to one scene then preserve unrelated scene renders. Shared assets conservatively invalidate every scene.
+
+Set `"captions": {"burn_in": true}` in the manifest to burn readable portrait subtitles into the final export and normalize narration loudness. SRT and ASS remain editable beside the MP4. Final assembly includes this setting in its cache key.

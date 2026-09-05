@@ -8,6 +8,7 @@ import shutil
 import subprocess
 import sys
 import time
+from .captions import make_ass
 from .state import ProductionError, digest, file_hash, within, atomic_json
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -184,7 +185,7 @@ def assembly_fingerprint(project):
     rows = current_renders(project)
     return digest({"scenes": [(s["id"], r["sha256"], a["sha256"]) for s,r,a in rows],
                    "format": project.data.get("format", {}), "captions": project.data.get("captions", True),
-                   "worker": file_hash(Path(__file__))})
+                   "worker": file_hash(Path(__file__)), "caption_worker": file_hash(ROOT / "mathtuber/captions.py")})
 
 def srt_time(seconds):
     ms = round(seconds * 1000)
@@ -231,6 +232,16 @@ def assemble(project):
                       "-c", "copy", "-movflags", "+faststart", final])
     caption_path = export_dir / "captions.srt"
     caption_path.write_text("\n".join(captions))
+    caption_settings = project.data.get("captions", {})
+    if isinstance(caption_settings, dict) and caption_settings.get("burn_in"):
+        fmt = project.data.get("format", {})
+        (export_dir / "captions.ass").write_text(make_ass(caption_path.read_text(), fmt.get("width",1080), fmt.get("height",1920)))
+        burned = export_dir / "captioned.mp4"
+        run(["ffmpeg", "-y", "-v", "error", "-i", "video.mp4", "-vf", "ass=captions.ass",
+             "-af", "loudnorm=I=-16:LRA=7:TP=-1.5", "-ar", "48000", "-c:v", "libx264", "-preset", "fast",
+             "-crf", "19", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart",
+             "captioned.mp4"], timeout=1800, cwd=export_dir)
+        os.replace(burned, final)
     info = probe(final)
     if abs(info["duration"] - offset) > .25:
         raise ProductionError("ASSEMBLY_DURATION", "Assembled timeline differs from the complete scene timeline")

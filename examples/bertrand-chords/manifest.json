@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "One Circle, Three Correct Probabilities: Bertrand\u2019s Paradox",
+    "min_seconds": 75,
+    "max_seconds": 150
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 1.04
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Shot1",
+      "narration": "Pick a random chord of this circle. What is the chance it is longer than the side of an inscribed equilateral triangle? One third? One half? One quarter? All three can be correct. This is Bertrand's paradox. The missing information is hidden inside the word random. A chord can be chosen in several different ways, and those procedures do not produce the same distribution of lines."
+    },
+    {
+      "id": "s02",
+      "source": "scenes/s02.py",
+      "class_name": "Shot2",
+      "narration": "First method: fix one endpoint on the circle and choose the other uniformly around its circumference. By symmetry, fixing the first endpoint does not change the length distribution. The chord is long enough exactly when the second endpoint lies on this opposite arc. That arc occupies one third of the circumference. So this procedure gives a probability of one third. Here, equal amounts of angle get equal chances."
+    },
+    {
+      "id": "s03",
+      "source": "scenes/s03.py",
+      "class_name": "Shot3",
+      "narration": "Second method: choose a direction uniformly, then choose the chord's midpoint uniformly along a radius in that direction. Draw the chord perpendicular to the radius. The closer its midpoint is to the center, the longer the chord. It beats the triangle's side exactly when the midpoint is less than half a radius from the center. Half the allowed radial interval qualifies. This procedure gives one half. Equal radial distances now get equal chances."
+    },
+    {
+      "id": "s04",
+      "source": "scenes/s04.py",
+      "class_name": "Shot4",
+      "narration": "Third method: choose the midpoint uniformly by area anywhere inside the disk. The same geometric test still applies: the midpoint must lie inside the smaller disk of half the radius. But its area is only one quarter of the original disk. So this procedure gives one quarter. Nothing is wrong with probability. We changed the experiment while keeping the same vague wording. Before asking for the probability, say precisely how the randomness is produced."
+    }
+  ],
+  "captions": {
+    "burn_in": true
+  }
+}

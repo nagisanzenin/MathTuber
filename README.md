@@ -25,7 +25,7 @@ For Pi the explicit invocation is `/skill:mathtuber`. Claude/ZCode can expose th
 ## What runs locally
 
 - Manim 0.20.1 and FFmpeg: deterministic mathematical geometry, equations, motion and final encoding.
-- Kokoro 82M: tested English narration, batched model loading and predicted word timestamps for SRT captions.
+- Kokoro 82M: tested English narration, batched model loading and predicted word timestamps for SRT captions; optional burned subtitles and final loudness normalization.
 - SQLite and content hashes: resume, provenance, stale review detection, scene cache reuse and duplicate upload prevention.
 - Optional Docker rendering: no network, read-only inputs, limited writable output and no OAuth mount. Use `--execution docker` after `docker pull manimcommunity/manim:v0.20.1`.
 - Native rendering is faster to start but executes trusted agent-authored Python with the user's filesystem access.

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "100 Prisoners: The Loop Strategy That Changes Everything",
+    "min_seconds": 75,
+    "max_seconds": 150
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 1.04
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Shot1",
+      "narration": "One hundred prisoners. One hundred numbered boxes. Inside is a random shuffle of their numbers. Each prisoner may open only fifty boxes and must find their own number. They can agree on a plan beforehand, but cannot communicate during the search or leave the room changed. Everyone must succeed. Independent random guessing gives the group a chance of one half raised to the hundredth power. Almost nothing. But one strategy raises that chance above thirty percent."
+    },
+    {
+      "id": "s02",
+      "source": "scenes/s02.py",
+      "class_name": "Shot2",
+      "narration": "Start with the box bearing your own number. Read the number inside, then open the box with that label. Keep following the chain. Prisoner seven opens box seven, finds forty two, follows it to sixteen, then eighty three, and finally finds seven. Four openings. Because every number appears exactly once, the boxes form closed cycles. Following your cycle must eventually lead back to your own number."
+    },
+    {
+      "id": "s03",
+      "source": "scenes/s03.py",
+      "class_name": "Shot3",
+      "narration": "The catch is the fifty box limit. A prisoner succeeds exactly when their cycle has at most fifty members. So everyone succeeds if no cycle is longer than fifty. Here, a cycle of fifty two ruins the plan for its members. Here, all three cycles fit under the limit, so every prisoner succeeds. The strategy does not improve each person's individual chance beyond one half. It makes their successes depend on the same global structure."
+    },
+    {
+      "id": "s04",
+      "source": "scenes/s04.py",
+      "class_name": "Shot4",
+      "narration": "For a uniformly shuffled set of one hundred boxes, the probability of a cycle of length k, when k is greater than fifty, is one over k. Two such long cycles cannot coexist. So add those failure probabilities from fifty one through one hundred, then subtract from one. The result is about thirty one point two percent. Still risky, but enormously better than independent guessing. The rescue comes from coordinating failures, not from finding extra information."
+    }
+  ],
+  "captions": {
+    "burn_in": true
+  }
+}

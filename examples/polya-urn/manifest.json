@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Bag of Marbles That Refuses to Average Out",
+    "min_seconds": 75,
+    "max_seconds": 150
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 1.04
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Shot1",
+      "narration": "Put one red marble and one blue marble in a bag. Draw one at random, return it, and add another marble of the same color. Repeat. A color that gets ahead becomes more likely to be drawn again. You might expect the results to cluster around an even split, like independent coin flips. But this is Polya's urn. The draws reinforce each other. After four draws, something surprising happens."
+    },
+    {
+      "id": "s02",
+      "source": "scenes/s02.py",
+      "class_name": "Shot2",
+      "narration": "There are now six marbles in the bag. The number of red marbles could be one, two, three, four, or five. Every one of those five possibilities has exactly the same probability: one fifth. The extreme splits are just as likely as the balanced split. This flat distribution is exact. It is not noise from a small simulation. To see how it happens, compare an all red history with a mixed history."
+    },
+    {
+      "id": "s03",
+      "source": "scenes/s03.py",
+      "class_name": "Shot3",
+      "narration": "Four red draws in a row have probability one half, times two thirds, times three quarters, times four fifths. The factors cancel, leaving one fifth. Red, red, blue, blue has probability one half, times two thirds, times one quarter, times two fifths: only one thirtieth. But there are six possible orders containing two red draws and two blue draws. Each has that same probability. Six times one thirtieth gives one fifth again."
+    },
+    {
+      "id": "s04",
+      "source": "scenes/s04.py",
+      "class_name": "Shot4",
+      "narration": "More generally, after n draws, every possible number of red marbles from one through n plus one is equally likely. Histories with mixed colors have more possible orders, but each order is less likely. Those effects balance exactly. Red and blue remain symmetric across many experiments, yet one particular bag can become strongly lopsided. Reinforcement turns early luck into future advantage. Balanced rules do not guarantee a balanced outcome."
+    }
+  ],
+  "captions": {
+    "burn_in": true
+  }
+}

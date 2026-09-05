@@ -1,0 +1,21 @@
+{
+  "s01": {
+    "Along each outer edge": 8.262,
+    "Inside": 11.8,
+    "The challenge is impossible": 19.625
+  },
+  "s02": {
+    "Watch these legal colorings": 8.037,
+    "This is not a rule": 15.363
+  },
+  "s03": {
+    "A rainbow triangle": 7.812,
+    "So a path": 10.338,
+    "Some paths": 16.55
+  },
+  "s04": {
+    "You need an odd number": 7.225,
+    "Paths that connect": 13.438,
+    "Its path must end": 19.85
+  }
+}

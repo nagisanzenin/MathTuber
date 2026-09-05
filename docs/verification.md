@@ -17,7 +17,7 @@ The user explicitly accepted documentation/omniplugin conformance instead of ren
 
 ## Executed checks
 
-- 28 unit tests: state, path escapes, lock contention, cache invalidation, missing scenes, review evidence/acceptance gates and mocked YouTube publication/retry/visibility behavior.
+- 30 unit tests: state, path escapes, lock contention, cache invalidation, missing scenes, review evidence/acceptance gates and mocked YouTube publication/retry/visibility behavior.
 - Native Manim → FFmpeg fixture: render, cached rerender, complete assembly, decoding verification and evidence extraction all passed.
 - Docker Manim → FFmpeg fixture: the same checks passed with network disabled, read-only root/inputs and bounded resources.
 - Pi loader/protocol integration: all five checks passed using installed Pi, actual bash execution and a local simulated model endpoint. See `pi-verification.json`.
@@ -36,7 +36,7 @@ Legacy credentials were migrated using a restricted pickle allowlist into a prot
 
 Implemented: portable skill and manifests; shared local runtime; content-addressed artifacts; per-scene renders; batched Kokoro; measured narration timing; predicted word-timestamp SRT; native/Docker rendering; background jobs; atomic state; complete timeline assembly; mechanical checks; evidence bundle/review gate; resumable YouTube worker; legacy credential migration; editable example.
 
-Planned/experimental: generic MLX model-specific support, Gemini TTS fallback, local ASR/forced alignment, automated layout geometry diagnostics, advanced shot transitions, learned channel style profiles, parallel rendering across one project, scheduling/analytics and a calibrated quality benchmark. The engine currently serializes project writes to avoid races. SRT is provided as a separate artifact; captions are not burned into the video by default.
+Planned/experimental: generic MLX model-specific support, Gemini TTS fallback, local ASR/forced alignment, automated layout geometry diagnostics, advanced shot transitions, learned channel style profiles, parallel rendering across one project, scheduling/analytics and a calibrated quality benchmark. The engine currently serializes project writes to avoid races. SRT is provided as a separate artifact; `captions.burn_in=true` additionally creates ASS captions, burns them into the MP4 and normalizes loudness. This opt-in path was exercised on the 143-second necklace project.
 
 ## Primary references
 
@@ -49,3 +49,7 @@ Planned/experimental: generic MLX model-specific support, Gemini TTS fallback, l
 - [Gemini CLI extensions](https://geminicli.com/docs/extensions/writing-extensions/).
 - ZCode's installed `zcode-guide-plugin/skills/diagnosing-plugins/SKILL.md` and actual `plugins list`/`skills list` commands establish the supported inline directory format.
 - [Kokoro model](https://huggingface.co/hexgrad/Kokoro-82M), [Manim documentation](https://docs.manim.community/en/stable/).
+
+## Follow-up production validation
+
+The OAuth connection was renewed and real resumable uploads subsequently completed with public visibility confirmed by the YouTube API. The follow-up production used independent local faster-whisper transcription plus source/final audio signal measurements, sampled rendered frame inspection, measured speech cues, exact math enumeration/derivations and full-file decoding. This is an automated technical/content review, not a claim of subjective human listening or continuous human viewing. Account identifiers, upload credentials and channel inventories are kept outside this repository.

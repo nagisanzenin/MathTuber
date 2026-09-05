@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Rainbow Triangle You Cannot Erase: Sperner\u2019s Lemma",
+    "min_seconds": 75,
+    "max_seconds": 150
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 1.04
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Shot1",
+      "narration": "Can you color this triangular mesh without creating a little triangle that uses all three colors? Give the big corners red, blue, and yellow. Along each outer edge, use only the colors of its two corners. Inside, use any of the three colors you like. Try to avoid a rainbow triangle. Rearrange the interior. Make the mesh finer. The challenge is impossible. Sperner's lemma says a rainbow must remain."
+    },
+    {
+      "id": "s02",
+      "source": "scenes/s02.py",
+      "class_name": "Shot2",
+      "narration": "In fact, the number of rainbow triangles is always odd. One, three, five, or another odd number. It can never be zero. Watch these legal colorings change. Individual rainbow triangles appear and disappear, but the odd count survives. This is not a rule about this particular grid. It applies to any proper triangulation of the big triangle, as long as neighboring triangles share complete edges and the boundary coloring rule is respected."
+    },
+    {
+      "id": "s03",
+      "source": "scenes/s03.py",
+      "class_name": "Shot3",
+      "narration": "To see why, turn every red blue edge into a doorway. A triangle using only red and blue has either zero or two doorways. A rainbow triangle has exactly one. So a path through doorways can pass through an ordinary triangle, but it can end inside only at a rainbow. Some paths enter the big triangle and leave again. To force an endpoint inside, we need one last piece: an odd number of entrances."
+    },
+    {
+      "id": "s04",
+      "source": "scenes/s04.py",
+      "class_name": "Shot4",
+      "narration": "Walk along the outer red blue edge, starting at the red corner and ending at the blue corner. Every color change is a doorway. You need an odd number of changes to finish on the opposite color. The other two outer edges have no red blue doorways. Paths that connect two entrances use them up in pairs. An odd number leaves at least one entrance unmatched. Its path must end at a rainbow triangle. The colors can move. The parity cannot."
+    }
+  ],
+  "captions": {
+    "burn_in": true
+  }
+}
