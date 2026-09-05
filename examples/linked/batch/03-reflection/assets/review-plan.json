@@ -1,0 +1,20 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Reflect B across",
+      "end_cue": "Move the touching point again",
+      "end_offset": 4,
+      "samples": 9,
+      "purpose": "Link the physical and reflected segments while the point moves."
+    },
+    {
+      "id": "2",
+      "start_cue": "Fold the ghost segment back",
+      "end_cue": "equal angles with the bank",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Check the full rotation and final equal angles."
+    }
+  ]
+}

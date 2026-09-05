@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Where Did This Extra Hole Come From?",
+    "min_seconds": 60,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.96
+  },
+  "captions": {
+    "burn_in": true
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Unequal slopes change the enclosing area by one while the pieces retain area thirty-two.",
+    "question": "How can unchanged pieces acquire an empty square?",
+    "payoff": "Unequal slopes change the enclosing area by one while the pieces retain area thirty-two.",
+    "transfer_prompt": "Predict the changed case shown at the end.",
+    "duration_rationale": "One continuous visual explanation; speech measured before render; no duration padding.",
+    "novelty_audit": "Checked 170 channel upload titles on 2026-09-06. No matching topic title found; this is not a transcript audit.",
+    "profile_application": {
+      "format": "visual-proof",
+      "signature": "Persistent objects, warm material palette, visible mechanism before symbolic summary.",
+      "episode_variation": "Four exact grid pieces slide rigidly; matched slope examples and a labeled deviation inset expose the changed boundary.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How can unchanged pieces acquire an empty square?",
+        "visual_action": "Four exact grid pieces slide rigidly; matched slope examples and a labeled deviation inset expose the changed boundary.",
+        "new_understanding": "Unequal slopes change the enclosing area by one while the pieces retain area thirty-two.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Watch these four pieces. Slide them into a new arrangement, and a square hole appears. Nothing was removed. Nothing was stretched. So where did that extra space come from? Both arrangements seem to make the same big triangle: thirteen units across and five units high. But that word, triangle, is the trap. Look closely at the two sloping pieces. One rises three units while running eight across. The other rises two while running five. Those slopes are three eighths and two fifths. They are close, but they are not equal. So their slanted edges cannot form one straight line. In the first arrangement, the outline bends slightly inward. In the second, it bends slightly outward. Let us compare both outlines against a true straight diagonal. This lower view magnifies only the vertical deviation, twelve times, so the tiny difference becomes visible. The thin region between the two outlines has exactly one square unit of area. That is the space now occupied by the hole. The pieces always cover thirty two square units. The second outline encloses thirty three, including the empty square. No area was created. We changed the boundary while letting our eyes assume it stayed the same. Watch the pieces return. The hole closes as the outline bends back inward. Next time a rearrangement seems impossible, check the edge you assumed was straight."
+    }
+  ],
+  "sources": [
+    "https://sites.pitt.edu/~jdnorton/Goodies/Zurich_Notebook/solution.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.3.0",
+    "path": "assets/profile-3a2f9dd00bce2745.json",
+    "sha256": "ff6c8dd767d75644838f62bc8cc73629b9ab3bda735d956d9a6d157fc6baa4ec"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original CC0 synthesized boundary tones"
+  }
+}

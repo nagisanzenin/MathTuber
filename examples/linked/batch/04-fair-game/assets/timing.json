@@ -1,0 +1,19 @@
+{
+  "s01": {
+    "Heads adds one": 5.537,
+    "Tails takes one": 6.638,
+    "Reach six tokens": 8.238,
+    "Reach zero": 10.113,
+    "give each position a height": 18.8,
+    "Zero tokens means": 22.212,
+    "Six tokens means": 24.675,
+    "What height belongs": 26.738,
+    "one step left or one step right": 32.275,
+    "average of those two neighbors": 36.487,
+    "Each middle dot": 39.612,
+    "equal steps all the way": 44.138,
+    "Starting at two": 50.675,
+    "Move the start to three": 60.7,
+    "Start at five": 67.287
+  }
+}

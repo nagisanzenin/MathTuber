@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Start anywhere",
+      "end_cue": "other two choices",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Track the original point and its halfway image."
+    },
+    {
+      "id": "2",
+      "start_cue": "same halfway rule",
+      "end_cue": "finite dot picture",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Check the second-level corner construction."
+    },
+    {
+      "id": "3",
+      "start_cue": "four corners of a square",
+      "end_cue": "four corners of a square",
+      "end_offset": 5,
+      "samples": 9,
+      "purpose": "Check complete square coverage."
+    }
+  ]
+}

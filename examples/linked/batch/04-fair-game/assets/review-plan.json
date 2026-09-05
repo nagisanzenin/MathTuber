@@ -1,0 +1,20 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Each middle dot",
+      "end_cue": "Starting at two",
+      "end_offset": 3,
+      "samples": 9,
+      "purpose": "Averages become equally spaced heights and map to the board."
+    },
+    {
+      "id": "2",
+      "start_cue": "Move the start to three",
+      "end_cue": "Start at five",
+      "end_offset": 3,
+      "samples": 9,
+      "purpose": "Both representations must move to the same starting state."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Random Dots Can Draw a Fractal",
+    "min_seconds": 60,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.96
+  },
+  "captions": {
+    "burn_in": true
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Halfway maps force the gaps; randomness explores the resulting set.",
+    "question": "Why do random midpoint hops leave ordered holes?",
+    "payoff": "Halfway maps force the gaps; randomness explores the resulting set.",
+    "transfer_prompt": "Predict the changed case shown at the end.",
+    "duration_rationale": "One continuous visual explanation; speech measured before render; no duration padding.",
+    "novelty_audit": "Checked 170 channel upload titles on 2026-09-06. No matching topic title found; this is not a transcript audit.",
+    "profile_application": {
+      "format": "visual-proof",
+      "signature": "Persistent objects, warm material palette, visible mechanism before symbolic summary.",
+      "episode_variation": "Dark plotting field becomes a linked source-and-image triangle; a square provides a contrasting case.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why do random midpoint hops leave ordered holes?",
+        "visual_action": "Dark plotting field becomes a linked source-and-image triangle; a square provides a contrasting case.",
+        "new_understanding": "Halfway maps force the gaps; randomness explores the resulting set.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Can random choices draw something this organized? This pattern comes from one tiny rule. Pick one of three corners at random. Move halfway from your current dot toward that corner, and leave a mark. Pick again. Go halfway again. We never tell the dot to draw a triangle. Now speed it up. Hundreds of choices become thousands of marks. Yet the middle stays empty, and smaller empty triangles appear inside the pattern. Why does randomness leave such precise holes? Slow down and watch what one choice can do. Start anywhere inside the big triangle. Moving halfway toward the top corner puts you inside this smaller triangle. The other two choices land in the other two corner triangles. None can land in the central gap. That is the first missing triangle explained. Now apply the same halfway rule to those three regions. Each one becomes three smaller copies, leaving a new gap. The holes repeat at smaller scales. The random choices explore this self-similar set; the halfway rule creates its structure. Our finite dot picture only approximates that set. A starting point can also leave a few early stray marks, so we discard the first steps. What if we use four corners of a square instead? Their half-size copies cover the whole square. No central hole is forced. Randomness alone was never the artist. The geometry of the rule was."
+    }
+  ],
+  "sources": [
+    "https://arxiv.org/abs/1005.0322"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.3.0",
+    "path": "assets/profile-3a2f9dd00bce2745.json",
+    "sha256": "ff6c8dd767d75644838f62bc8cc73629b9ab3bda735d956d9a6d157fc6baa4ec"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original CC0 synthesized boundary tones"
+  }
+}

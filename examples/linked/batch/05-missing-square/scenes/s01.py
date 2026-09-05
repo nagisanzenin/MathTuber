@@ -1,0 +1,20 @@
+from scenes._shared.design import *
+class Film(Stage):
+    def construct(self):
+        s=.46;o=np.array([-2.99,.5,0]);xy=lambda x,y:o+np.array([x*s,y*s,0]);poly=lambda coords,col:self.poly(*[xy(x,y) for x,y in coords],color=col,opacity=.86)
+        red=poly([(0,0),(8,0),(8,3)],'secondary');green=poly([(8,3),(13,3),(13,5)],'primary');gold=poly([(8,0),(13,0),(13,1),(10,1),(10,2),(8,2)],'accent');sand=poly([(10,1),(13,1),(13,3),(8,3),(8,2),(10,2)],'surface');pieces=VGroup(red,green,gold,sand)
+        grid=VGroup(*[self.line(xy(x,0),xy(x,5),'muted',.6) for x in range(14)],*[self.line(xy(0,y),xy(13,y),'muted',.6) for y in range(6)]);self.add(grid,pieces)
+        self.at('Slide them');self.play(red.animate.shift(RIGHT*5*s+UP*2*s),green.animate.shift(LEFT*8*s+DOWN*3*s),gold.animate.shift(LEFT*3*s),sand.animate.shift(DOWN*s),run_time=2)
+        hole=Square(side_length=s,stroke_color=self.palette['ink'],stroke_width=3).move_to(xy(7.5,1.5));self.play(Create(hole),run_time=.4);self.say('Same pieces. A new hole?')
+        self.at('thirteen units across');self.add(self.label('13 units',[0,.1,0],'ink','detail'),self.label('5',[3.25,1.65,0],'ink','detail'))
+        self.at('two sloping pieces');self.play(Indicate(red),Indicate(green),run_time=1);self.say('Do these slopes really match?')
+        self.at('three units while running eight');rsmall=self.poly([-2.5,-2.5,0],[.7,-2.5,0],[.7,-1.3,0],color='secondary',opacity=.7);self.play(FadeIn(rsmall),run_time=.7);rl=self.label('rise 3 / run 8',[-.9,-2.95,0],'secondary','detail');self.add(rl)
+        self.at('two while running five');gsmall=self.poly([1,-2.5,0],[3,-2.5,0],[3,-1.7,0],color='primary',opacity=.7);self.play(FadeIn(gsmall),run_time=.7);gl=self.label('2 / 5',[2,-2.95,0],'primary','detail');self.add(gl)
+        self.at('not equal');self.say('3/8 = 0.375     2/5 = 0.4')
+        self.at('first arrangement');self.play(red.animate.shift(LEFT*5*s+DOWN*2*s),green.animate.shift(RIGHT*8*s+UP*3*s),gold.animate.shift(RIGHT*3*s),sand.animate.shift(UP*s),FadeOut(hole),run_time=1.5)
+        self.at('second it bends');self.play(red.animate.shift(RIGHT*5*s+UP*2*s),green.animate.shift(LEFT*8*s+DOWN*3*s),gold.animate.shift(LEFT*3*s),sand.animate.shift(DOWN*s),FadeIn(hole),run_time=1.5)
+        self.at('compare both outlines');self.play(FadeOut(rsmall),FadeOut(gsmall),FadeOut(rl),FadeOut(gl),run_time=.5);straight=self.line(xy(0,0),xy(13,5),'ink',2);first_outline=VGroup(self.line(xy(0,0),xy(8,3),'primary',2),self.line(xy(8,3),xy(13,5),'primary',2));self.play(Create(straight),Create(first_outline),run_time=.6)
+        self.at('magnifies only the vertical deviation');dev=lambda x,y:np.array([-2.99+x*s,-1.6+(y-5*x/13)*s*12,0]);low=[dev(0,0),dev(8,3),dev(13,5)];high=[dev(0,0),dev(5,2),dev(13,5)];band=self.poly(low[0],low[1],low[2],high[1],color='accent',opacity=.8);self.play(FadeIn(band),run_time=.8);baseline=DashedLine([-2.99,-1.6,0],[2.99,-1.6,0],color=self.palette['muted'],stroke_width=1);self.add(baseline,self.label('outward',[1,-.85,0],'ink','detail'),self.label('inward',[-1,-2.2,0],'ink','detail'));self.add(self.label('Vertical deviation ×12',[0,-2.8,0],'ink','detail'));self.say('The boundary changed.')
+        self.at('exactly one square unit');self.add(self.label('Area difference = 1',[0,-3.4,0],'ink','detail'));self.play(Indicate(band),Indicate(hole),run_time=1)
+        self.at('pieces always cover');self.say('32 in pieces + 1 hole = 33 enclosed')
+        self.at('Watch the pieces return');self.say('Watch the boundary change back.');self.play(red.animate.shift(LEFT*5*s+DOWN*2*s),green.animate.shift(RIGHT*8*s+UP*3*s),gold.animate.shift(RIGHT*3*s),sand.animate.shift(UP*s),FadeOut(hole),run_time=2);self.say('Check the edge you assumed was straight.');self.finish()

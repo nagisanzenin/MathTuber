@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "proof": "Rotational symmetry preserves a square. Relative velocity projected onto a side is -v: the chaser contributes -v and the target, moving along the perpendicular next side, contributes zero. Thus side length is L-vt until meeting, T=L/v, path length vT=L. Analytic positions r=(L/sqrt(2))q, angle=theta0-log(q), q=1-vt/L have speed v and aim at the next corner. The displayed truncation q=.008 is explicitly identified; the exact trajectory has infinitely many turns in finite time.",
+  "checks": {
+    "velocity_samples": 100,
+    "max_velocity_error": 3.7584749170449973e-10,
+    "initial_side": 4,
+    "speed": 1,
+    "meeting_time": 4,
+    "path_length": 4
+  },
+  "limits": "Independent calculation and source inspection; numerical checks supplement the general argument. No learning outcome inferred."
+}

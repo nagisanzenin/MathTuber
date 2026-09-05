@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "proof": "For triangle T, Fi(x)=(x+vi)/2 maps T into the ith half-size corner triangle. Every mapped point therefore avoids the open central triangle. Repeated images produce the nested Sierpinski construction. Independent random choices with positive probabilities visit the IFS attractor almost surely in the limiting sense, not as a finite complete drawing. Starting inside T can leave finite early points outside later approximants; discard burn-in. For a square the four half-size corner images cover the square, so there is no analogous forced central gap.",
+  "checks": {
+    "barycentric_samples": 5000,
+    "square_image_area": "1",
+    "illustration_points": 5000,
+    "burn_in": 30
+  },
+  "limits": "Independent calculation and source inspection; numerical checks supplement the general argument. No learning outcome inferred."
+}

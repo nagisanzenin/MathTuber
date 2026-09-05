@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Slide them",
+      "end_cue": "Slide them",
+      "end_offset": 3,
+      "samples": 9,
+      "purpose": "All four pieces must preserve shape and land around a unit hole."
+    },
+    {
+      "id": "2",
+      "start_cue": "magnifies only the vertical deviation",
+      "end_cue": "exactly one square unit",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "The magnified deviation inset must be labeled and correctly signed."
+    },
+    {
+      "id": "3",
+      "start_cue": "Watch the pieces return",
+      "end_cue": "Watch the pieces return",
+      "end_offset": 3,
+      "samples": 9,
+      "purpose": "Check the complete reverse dissection."
+    }
+  ]
+}

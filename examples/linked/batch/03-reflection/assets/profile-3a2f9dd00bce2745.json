@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "id": "ivisualizethings-workshop",
+  "version": "0.3.0",
+  "status": "candidate",
+  "promise": "See the mechanism that makes a surprising mathematical result inevitable.",
+  "audience": "Curious teens and adults; begin with concrete objects and state necessary prerequisites.",
+  "personality": "Playful mathematical workshop: curious, tactile, precise; viewer is an investigator.",
+  "identity": {
+    "colors": {
+      "background": "#F3ECDD",
+      "ink": "#243944",
+      "surface": "#E2D6BE",
+      "primary": "#187D8D",
+      "secondary": "#D85B42",
+      "accent": "#E5AA35",
+      "muted": "#697D81"
+    },
+    "type": {
+      "font": "Avenir Next",
+      "fallback": "DejaVu Sans",
+      "roles": {
+        "claim": 36,
+        "label": 28,
+        "detail": 23
+      }
+    },
+    "materials": "Warm paper, solid ceramic-like pieces, restrained depth, crisp boundaries. Geometry used as proof stays exact.",
+    "motion": "Stable identities. Move, pair, cut, unfold and rearrange to expose relationships. Attention cues are distinct from mathematical state changes.",
+    "voice": "Warm curiosity; concrete statements; pause at consequential inferences. No constant hype.",
+    "sound": "Soft wood clicks and glass-like resonances; optional short resolving motif. Silence protects difficult reasoning; score changes with the episode."
+  },
+  "hard_constraints": [
+    "Preserve counts, areas, incidence and probabilities used in the argument.",
+    "Never encode mathematical meaning by color alone.",
+    "Keep essential objects and labels readable with captions and platform UI.",
+    "Identify simulations, examples and proofs accurately."
+  ],
+  "preferences": [
+    "Let objects carry the opening question; avoid a branded intro delay.",
+    "Make the active mechanism large; use text to name an insight already made visible.",
+    "Keep the same material language but invent composition for each topic.",
+    "Treat the payoff as a visible resolution, then offer a small transfer case.",
+    "Prototype the hardest inference before complete production.",
+    "Carry object identity across explanation beats; a persistent heading is optional.",
+    "Review every member of a batch before its first publication.",
+    "Explain the mapping between views before using it as evidence.",
+    "Fade replacement phrases; do not morph unrelated letter shapes.",
+    "Declare and sample every critical transition through its end.",
+    "Use topic-specific settings within the shared material and color language."
+  ],
+  "formats": {
+    "visual-proof": "A concrete puzzle resolves through an invariant or transformation.",
+    "investigation": "Predict, manipulate, discover the mechanism, test a new case.",
+    "simulation": "Show the process and uncertainty; distinguish numerical evidence from proof."
+  },
+  "examples": [
+    {
+      "situation": "A matching argument",
+      "prefer": "Move identified objects into explicit one-to-one pairs; keep unmatched objects visible.",
+      "avoid": "Display the final formula over unrelated motion.",
+      "reason": "The correspondence is the explanation."
+    },
+    {
+      "situation": "A rearrangement proof",
+      "prefer": "Move the same exact pieces without scaling them.",
+      "avoid": "Morph unequal regions until they look equal.",
+      "reason": "Aesthetic deformation must not counterfeit conservation."
+    },
+    {
+      "situation": "A hard inference",
+      "prefer": "Reduce sound and hold the relevant relationship while the viewer reasons.",
+      "avoid": "Add a whoosh or cut merely because a fixed interval elapsed.",
+      "reason": "Pacing follows cognitive work, not a universal timer."
+    },
+    {
+      "situation": "Rolling coin: continuous reference",
+      "prefer": "Keep the marked wheel visible through orbit, center trace and radius comparison. See examples/mechanisms/references/coin.",
+      "avoid": "Reset to a text slide after revealing two spins.",
+      "reason": "The viewer can track the same object while its explanation changes."
+    },
+    {
+      "situation": "Domino: pairing reference",
+      "prefer": "Move the original 62 squares into 30 adjacent dark/light pairs and two visibly unpaired squares. See examples/mechanisms/references/domino.",
+      "avoid": "Replace pairing with two independent counted grids.",
+      "reason": "A one-to-one correspondence should be visible, not asserted."
+    },
+    {
+      "situation": "Composition, typography and sound",
+      "prefer": "One active workspace; object-attached short labels; resize the workspace between exploration and proof. Short boundary tones, dry proof narration. See docs/research/MECHANISM-DIRECTION.md.",
+      "avoid": "The same title/diagram/formula stack in every scene or decorative clicks unrelated to action.",
+      "reason": "Channel identity comes from consistent decisions, not identical layouts."
+    },
+    {
+      "situation": "A concrete example becomes an abstract representation",
+      "prefer": "Keep one shared control or identified quantity visible; demonstrate its effect in both views.",
+      "avoid": "Replace the object with a completed graph and assume the viewer can translate.",
+      "reason": "Understanding the correspondence is part of the learning task."
+    }
+  ],
+  "evidence": {
+    "status": "Design hypothesis informed by adjacent evidence; no audience validation yet.",
+    "references": [
+      "https://www.tandfonline.com/doi/full/10.1080/02650487.2026.2637295",
+      "https://research.tue.nl/en/publications/most-advanced-yet-acceptable-typicality-and-novelty-as-joint-pred/",
+      "https://doi.org/10.1037/aca0000870"
+    ],
+    "validation": "Test recognition, appeal, comprehension and production effort separately across topics."
+  },
+  "license": "Original profile and generated vector primitives: MIT. Font files are not distributed; use installed fonts under their own licenses."
+}

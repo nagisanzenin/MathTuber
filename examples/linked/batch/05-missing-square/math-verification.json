@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "proof": "The four polygons have exact areas 12,5,7,8 (total32). Rigid translations preserve them. The original enclosing polygon is (0,0),(13,0),(13,5),(8,3), area32. The second is (0,0),(13,0),(13,5),(5,2), area33. The translated polyomino cells cover the 8x2 lower rectangle except cell (7,1); triangles sit above it. Slopes3/8 and2/5 differ, so neither enclosing shape is a triangle. The deviation inset subtracts the straight baseline y=5x/13 and magnifies vertical deviation12x, explicitly labeled; it illustrates the area difference but is not an unscaled unit-area comparison.",
+  "checks": {
+    "piece_areas": [
+      12,
+      5,
+      7,
+      8
+    ],
+    "enclosing_areas": [
+      32,
+      33
+    ],
+    "hole_cell": [
+      7,
+      1
+    ],
+    "slopes": [
+      "3/8",
+      "2/5"
+    ],
+    "deviation_magnification": 12
+  },
+  "limits": "Independent calculation and source inspection; numerical checks supplement the general argument. No learning outcome inferred."
+}

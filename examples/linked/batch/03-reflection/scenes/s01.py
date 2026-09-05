@@ -1,0 +1,16 @@
+from scenes._shared.design import *
+class Film(Stage):
+    def construct(self):
+        A=np.array([-2.3,3.1,0]);B=np.array([2.1,1.6,0]);G=B*np.array([1,-1,1]);x=ValueTracker(-2.3);P=lambda:np.array([x.get_value(),0,0]);water=Rectangle(width=6.8,height=3.4,fill_color=self.palette['primary'],fill_opacity=.12,stroke_width=0).move_to(DOWN*1.7);bank=self.line([-3.4,0,0],[3.4,0,0],'primary',6);self.add(water,bank)
+        for xx in [-2.8,-1.3,.2,1.7,3]:self.add(self.line([xx,-2.9,0],[xx+.25,-2.9,0],'primary',2))
+        pins=VGroup(Dot(A,radius=.11,color=self.palette['ink']),Dot(B,radius=.11,color=self.palette['secondary']),self.label('A',A+UP*.35),self.label('B',B+UP*.35,'secondary'));path=always_redraw(lambda:VGroup(self.line(A,P(),'ink',6),self.line(P(),pins[1].get_center(),'secondary',6)));contact=always_redraw(lambda:Dot(P(),radius=.12,color=self.palette['accent']));plabel=always_redraw(lambda:self.label("P",P()+DOWN*.36,"ink","detail"));readout=always_redraw(lambda:self.label(f"Route length: {np.linalg.norm(A-P())+np.linalg.norm(pins[1].get_center()-P()):.2f}",[0,-3.9,0],"ink","detail"));self.add(pins,path,contact,plabel,readout);self.play(x.animate.set_value(2.1),run_time=2.5);self.play(x.animate.set_value(.1),run_time=1)
+        self.at('Drag the touching point');self.play(x.animate.set_value(-1.2),run_time=2);self.say('Which touching point is best?')
+        self.at('Reflect B across');ghost=Dot(G,radius=.1,color=self.palette['secondary']);gl=self.label('B′',G+DOWN*.35,'secondary');connector=DashedLine(B,G,color=self.palette['muted']);self.play(TransformFromCopy(pins[1],ghost),Create(connector),FadeIn(gl),run_time=1.2)
+        self.at('compare the two colored');mirror=always_redraw(lambda:self.line(P(),G,'secondary',4));self.add(mirror);self.say('PB = PB′')
+        self.at('Move the touching point again');self.play(x.animate.set_value(1.5),run_time=2);self.play(x.animate.set_value(-.8),run_time=2)
+        self.at('same total length');self.say('AP + PB = AP + PB′')
+        self.at('A straight line');ideal=self.line(A,G,'primary',3);self.play(Create(ideal),run_time=1)
+        self.at('Slide the touching point');opt=A[0]+(G[0]-A[0])*A[1]/(A[1]-G[1]);self.play(x.animate.set_value(opt),run_time=2.5);self.say('Unfold the route. Remove the bend.')
+        self.at('Fold the ghost segment back');mirror.clear_updaters();fold=self.line(P(),G,'secondary',7);self.remove(mirror);self.add(fold);angle1=math.atan2((G-P())[1],(G-P())[0]);angle2=math.atan2((B-P())[1],(B-P())[0]);self.play(Rotate(fold,angle2-angle1,about_point=P()),FadeOut(ideal),FadeOut(connector),run_time=2)
+        self.at('equal angles with the bank');alpha=math.atan2(B[1],B[0]-opt);arcs=VGroup(Arc(radius=.62,start_angle=0,angle=alpha,color=self.palette['ink']).shift(P()),Arc(radius=.62,start_angle=math.pi-alpha,angle=alpha,color=self.palette['ink']).shift(P()));self.play(Create(arcs),run_time=1);self.say('Equal angles emerge from reflection.')
+        self.at('Move B closer');self.play(FadeOut(arcs),FadeOut(fold),FadeOut(ghost),FadeOut(gl),run_time=.5);old=B.copy();B[:]=[2.1,.7,0];newopt=A[0]+(B[0]-A[0])*A[1]/(A[1]+B[1]);self.play(pins[1].animate.move_to(B),pins[3].animate.move_to(B+UP*.35),x.animate.set_value(newopt),run_time=2);self.finish()

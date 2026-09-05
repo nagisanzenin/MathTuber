@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "proof": "For A,B on the same side of a straight bank and G the reflection of B, every bank point P satisfies PB=PG. Therefore AP+PB=AP+PG>=AG by triangle inequality, with equality at the intersection of segment AG and the bank. This point lies inside the displayed bank. Reflection gives equal angles to the bank. The later B position changes the optimizer by the same formula.",
+  "checks": {
+    "bank_samples": 401,
+    "minimizer_x": 0.6021276595744687,
+    "minimum_distance": 6.438167441127949
+  },
+  "limits": "Independent calculation and source inspection; numerical checks supplement the general argument. No learning outcome inferred."
+}

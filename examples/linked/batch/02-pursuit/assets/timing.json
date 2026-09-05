@@ -1,0 +1,15 @@
+{
+  "s01": {
+    "starting square is four": 11.175,
+    "ignore the whole spiral": 18.613,
+    "Watch just one bug": 20.812,
+    "keep forming a smaller": 24.65,
+    "chasing bug moves directly": 27.688,
+    "target moves along": 31.625,
+    "Only the chaser": 39.013,
+    "Watch the remaining gap": 45.825,
+    "four seconds to vanish": 54.2,
+    "ever more tightly": 60.925,
+    "Double the starting square": 69.275
+  }
+}

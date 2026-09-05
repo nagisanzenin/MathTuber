@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "chasing bug moves directly",
+      "end_cue": "Only the chaser",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Perpendicular velocity arrows must meet the correct corners."
+    },
+    {
+      "id": "2",
+      "start_cue": "Watch the remaining gap",
+      "end_cue": "four seconds to vanish",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Both bars must stay linked to the same motion parameter."
+    },
+    {
+      "id": "3",
+      "start_cue": "Double the starting square",
+      "end_cue": "Double the starting square",
+      "end_offset": 4,
+      "samples": 9,
+      "purpose": "Check the two-to-one path scale comparison and labels."
+    }
+  ]
+}

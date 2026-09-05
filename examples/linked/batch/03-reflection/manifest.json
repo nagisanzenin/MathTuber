@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Shortest Detour Is a Straight Line in Disguise",
+    "min_seconds": 60,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.96
+  },
+  "captions": {
+    "burn_in": true
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Reflection preserves route length; the triangle inequality gives the minimizing point.",
+    "question": "Where should a shortest riverbank detour touch the bank?",
+    "payoff": "Reflection preserves route length; the triangle inequality gives the minimizing point.",
+    "transfer_prompt": "Predict the changed case shown at the end.",
+    "duration_rationale": "One continuous visual explanation; speech measured before render; no duration padding.",
+    "novelty_audit": "Checked 170 channel upload titles on 2026-09-06. No matching topic title found; this is not a transcript audit.",
+    "profile_application": {
+      "format": "visual-proof",
+      "signature": "Persistent objects, warm material palette, visible mechanism before symbolic summary.",
+      "episode_variation": "A river map retains physical and mirrored routes driven by the same touching point; unfolding exposes the straight path.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Where should a shortest riverbank detour touch the bank?",
+        "visual_action": "A river map retains physical and mirrored routes driven by the same touching point; unfolding exposes the straight path.",
+        "new_understanding": "Reflection preserves route length; the triangle inequality gives the minimizing point.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "You must go from point A to point B, but touch this straight riverbank on the way. Where should you turn? Directly below A? Below B? Somewhere in between? Drag the touching point and the route changes. There is one shortest route, and a mirror can reveal it. Reflect B across the riverbank. This ghost point is exactly as far below the bank as B is above it. Now compare the two colored segments from the touching point. One goes to B. The other goes to its reflection. They always have equal length. Move the touching point again. The equality survives, because reflection preserves distances from points on the mirror line. So every allowed river route has a matching route to the ghost, with exactly the same total length. The question becomes: what is the shortest route from A to the ghost? A straight line. Slide the touching point until the two segments line up. Any bend would make the journey longer, by the triangle inequality. Fold the ghost segment back across the bank. This gives the shortest real route. The incoming and outgoing paths make equal angles with the bank. We did not guess that rule; the reflection explains it. Move B closer to the water. The best touching point shifts too. The shortcut was not a clever estimate. It was changing the picture while preserving the distance we wanted to minimize."
+    }
+  ],
+  "sources": [
+    "https://old.maa.org/press/periodicals/convergence/historical-activities-for-calculus-module-3-optimization-herons-shortest-distance-problem"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.3.0",
+    "path": "assets/profile-3a2f9dd00bce2745.json",
+    "sha256": "ff6c8dd767d75644838f62bc8cc73629b9ab3bda735d956d9a6d157fc6baa4ec"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original CC0 synthesized boundary tones"
+  }
+}
