@@ -52,3 +52,7 @@ For example, two garden films both reassembling a fixed-perimeter rectangle to e
 ### When the films still feel like detached diagrams
 
 Apply [physical context](physical-context.md): prototype a recognizable subject and useful setting, preserve correspondence into the mathematical explanation, and inspect the result before expanding the batch. Treat the sequence as an editorial hypothesis; concrete-first is not a universal rule.
+
+### When sound can perform the explanation
+
+Use [explanatory listening](explanatory-listening.md) for explicit tones inside measured speech-free pauses. The shared score compiler preserves both action events and listening plans. Make the relationship visible for muted viewing and distinguish signal validation from subjective listening.

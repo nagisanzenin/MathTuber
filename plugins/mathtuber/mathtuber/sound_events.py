@@ -23,7 +23,12 @@ def resolve_events(plan, timing, duration):
         result.append({"time": at, "kind": kind, "frequency": frequency, "duration": length, "amplitude": gain})
     return result
 
-def write_score(path, events, duration, rate=24000):
+def write_score(path, events, duration, rate=24000, windows=()):
+    from .listening import add_windows
+    for event in events:
+        for window in windows:
+            if max(event['time'], window['time']) < min(event['time'] + event['duration'], window['time'] + window['duration']):
+                raise ProductionError("LISTENING_WINDOWS", "Action sound overlaps explanatory listening")
     samples = array("d", [0]) * math.ceil(duration * rate)
     for event in events:
         start = round(event["time"] * rate)
@@ -33,6 +38,7 @@ def write_score(path, events, duration, rate=24000):
             value = event["amplitude"] * envelope * (math.sin(math.tau * event["frequency"] * t) + .15 * math.sin(math.tau * event["frequency"] * 2.76 * t))
             if start + i < len(samples):
                 samples[start + i] += value
+    add_windows(samples, windows, rate)
     if max(map(abs, samples), default=0) >= 1:
         raise ProductionError("SOUND_EVENTS", "Overlapping sounds would clip")
     pcm = array("h", (round(s * 32767) for s in samples))
