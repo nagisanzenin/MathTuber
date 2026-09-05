@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-06",
+  "profile": "ivisualizethings-workshop@0.5.0",
+  "videos": [
+    {
+      "project": "01-ants",
+      "title": "Can Collisions Slow These Ants Down? #math #Shorts",
+      "url": "https://www.youtube.com/shorts/U6YIZcin5zo",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M21S",
+      "export_sha256": "fca93b6f7404728e06a7e0a3be32901d453611f6c4ecdc7d16fc2e543f936291",
+      "editorial": {
+        "decision": "release",
+        "opening": "Two visibly marked ants meet and reverse before the point model is introduced.",
+        "mechanism": "A paired bounce/crossing demonstration exchanges letter and color badges; separate moving paths expose exit times.",
+        "readability": "Starting markers are hollow rings and movers solid dots, with a legend; the crowded overview was reduced to point ants.",
+        "pacing": "The explanation holds at identity exchange and animates all five departures. The final pause caveat is mainly verbal.",
+        "sound": "Sparse original action sounds and mostly dry narration. Full decode and ASR differences reviewed; focused end recheck did not reproduce the extra closing phrase from the whole-pass coin transcription. No subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "The two-track model is schematic, and the badge exchange may still require replay. It is a precise puzzle more than an atmospheric nature scene.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "02-coins",
+      "title": "A Balance Has Three Ways to Answer #math #Shorts",
+      "url": "https://www.youtube.com/shorts/LJiUsMsiaUI",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M22S",
+      "export_sha256": "55192106100157a0d32dfeee0c5633dada2c83d05f13c967f5cbeadb94f2bf8a",
+      "editorial": {
+        "decision": "release",
+        "opening": "Nine numbered coins invite a small investigation; there is no timed countdown.",
+        "mechanism": "The balance exposes all three outcomes, then follows the balanced branch and identifies the heavier eighth coin.",
+        "readability": "Second-stage coins are enlarged; pans have visible links; caption number lists remain together.",
+        "pacing": "The conditional branches take time to explain. The opening still spends several seconds setting up rules.",
+        "sound": "Sparse original action sounds and mostly dry narration. Full decode and ASR differences reviewed; focused end recheck did not reproduce the extra closing phrase from the whole-pass coin transcription. No subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "This remains the most classroom-like film. A viewer seeking a peaceful observation of the world may find the puzzle framing less inviting.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "03-lockers",
+      "title": "Why Only Square Numbered Doors Stay Open #math #Shorts",
+      "url": "https://www.youtube.com/shorts/PA5kHNSXjj4",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M28S",
+      "export_sha256": "c1521dcf9844335715c35ba1daae20d79fdef4b2303c7472ba200e1cbe62dc6a",
+      "editorial": {
+        "decision": "release",
+        "opening": "Door leaves change shape as the grid evolves; the result is a recognizable square-number pattern.",
+        "mechanism": "The original grid becomes a small reference while divisors pair in the main workspace; the repeated square-root divisor is counted once.",
+        "readability": "Numbers remain readable, factor tokens use dark ink, and the inset sits below the heading.",
+        "pacing": "The early passes establish the rule and later passes accelerate. The algebraic pairing passage is deliberately quieter.",
+        "sound": "Sparse original action sounds and mostly dry narration. Full decode and ASR differences reviewed; focused end recheck did not reproduce the extra closing phrase from the whole-pass coin transcription. No subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "Door twelve is shown alongside its divisors rather than being toggled for every visit in close-up. The four-times-four uniqueness explanation remains partly verbal.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "04-width",
+      "title": "A Quiet Shape That Keeps the Same Width #math #Shorts",
+      "url": "https://www.youtube.com/shorts/VpID5nMCCIQ",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M26S",
+      "export_sha256": "20653dc649e940aad0c87c1764dc4129cca3c69d5cbbd4ed109a53afe8787a64",
+      "editorial": {
+        "decision": "release",
+        "opening": "A rounded triangle turns slowly between fixed rails, inviting observation without a quiz.",
+        "mechanism": "A compass construction connects the corner and opposite arc to the unchanged supporting-line distance.",
+        "readability": "The main geometry occupies most of the useful width; contact points and the radius are visible.",
+        "pacing": "The original construction and contact changes receive distinct beats; the ending returns to quiet turning.",
+        "sound": "Sparse original action sounds and mostly dry narration. Full decode and ASR differences reviewed; focused end recheck did not reproduce the extra closing phrase from the whole-pass coin transcription. No subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "Closest to the contemplative direction. The axle caveat is stated rather than demonstrated with a rolling wheel; the relationship between width and center radius could be made more tangible.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "05-stickers",
+      "title": "Why the Last Sticker Takes So Long #math #Shorts",
+      "url": "https://www.youtube.com/shorts/BrwK4slUC_M",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M29S",
+      "export_sha256": "5aa222df683f69ac85b42e8fb02b2ce35829ec3104992558232254b217e0d109",
+      "editorial": {
+        "decision": "release",
+        "opening": "An almost complete album receives duplicates, a familiar experience that can be observed without performing a test.",
+        "mechanism": "Missing types determine success probability; a remaining-wait recurrence explains six packets and expectation sums to 14.7.",
+        "readability": "Distinct sticker shapes and numbers avoid color-only meaning. The recurrence is enlarged, and the reference album sits clear of the heading.",
+        "pacing": "The warm opening shifts into a more formal equation explanation. Slower narration helps, but the shift may still lose a novice.",
+        "sound": "Sparse original action sounds and mostly dry narration. Full decode and ASR differences reviewed; focused end recheck did not reproduce the extra closing phrase from the whole-pass coin transcription. No subjective listening or claim of pleasing prosody.",
+        "remaining_weaknesses": "The recurrence is introduced as a completed equation; a visible return-to-the-same-state loop would bridge this inference better. The final practical metaphor is an invitation, not a universal life rule.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    }
+  ]
+}
