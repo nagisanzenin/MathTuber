@@ -64,3 +64,5 @@ The editable `examples/odd-squares` project demonstrates a complete six-scene na
 ## Evidence-informed production
 
 The [research library](docs/research/README.md) informs the [creative workflow](plugins/mathtuber/skills/mathtuber/references/theory.md). New projects record audience-state beats, topic novelty, format rationale and review provenance. The engine supports an original sound layer with speech ducking and an explicit Shorts duration check. These are implemented production tools, not evidence that the resulting videos improve learning or retention.
+
+Watch the [five discovery examples and validation report](docs/discovery-batch.md). Their editable scene sources and narration are included under `examples/discovery`.

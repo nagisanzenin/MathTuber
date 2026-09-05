@@ -28,8 +28,8 @@
     "question": "Do equally likely patterns take equally long?",
     "payoff": "By symmetry TT averages six and TH four; averages are not promises.",
     "transfer_prompt": "Does the answer survive swapping the labels?",
-    "duration_rationale": "Five causal beats with a prediction, visible mechanism, proof and transfer. Aim 120–175 seconds; no filler.",
-    "novelty_audit": "Compared with 150 archived channel titles and five most recent published topics. This specific mathematical mechanism has not appeared.",
+    "duration_rationale": "Five causal beats with a prediction, visible mechanism, proof and transfer. Aim 120\u2013175 seconds; no filler.",
+    "novelty_audit": "No matching specific topic was identified in 150 archived channel titles/descriptions and the latest five topics. This metadata audit is not exhaustive playback of every historical video.",
     "beats": [
       {
         "scene": "s01",

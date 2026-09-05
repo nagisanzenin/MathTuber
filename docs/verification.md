@@ -53,3 +53,7 @@ Planned/experimental: generic MLX model-specific support, Gemini TTS fallback, l
 ## Follow-up production validation
 
 The OAuth connection was renewed and real resumable uploads subsequently completed with public visibility confirmed by the YouTube API. The follow-up production used independent local faster-whisper transcription plus source/final audio signal measurements, sampled rendered frame inspection, measured speech cues, exact math enumeration/derivations and full-file decoding. This is an automated technical/content review, not a claim of subjective human listening or continuous human viewing. Account identifiers, upload credentials and channel inventories are kept outside this repository.
+
+## Evidence-informed discovery batch
+
+The subsequent [five-video batch](discovery-batch.md) completed public YouTube processing, 37 unit tests and scoped production review. The linked report records actual checks and their limits. The earlier historical checkpoints above remain as the development record.

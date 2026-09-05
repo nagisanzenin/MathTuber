@@ -1,0 +1,87 @@
+{
+  "videos": [
+    {
+      "topic": "Shuffle Too Perfectly and Nothing Changes #math #Shorts",
+      "url": "https://www.youtube.com/shorts/3LgUrUvPYJ4",
+      "seconds": 122.733,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "scenes": 5,
+      "video_sha256": "638d35cfcc73620c99e519665e5878255799dc0d7be9228fd69d89d3476d8131",
+      "privacy": "public",
+      "processing": "succeeded",
+      "final_clipped_fraction": 0.0
+    },
+    {
+      "topic": "The Chocolate Game You Can Win Without Knowing How #math #Shorts",
+      "url": "https://www.youtube.com/shorts/YiPvMk8QzSg",
+      "seconds": 117.173,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "scenes": 5,
+      "video_sha256": "b585d130e585e25c9a562a0d051111ee9b0133572ca4632ef9092d215a2fc370",
+      "privacy": "public",
+      "processing": "succeeded",
+      "final_clipped_fraction": 0.0
+    },
+    {
+      "topic": "Why 17 Is the Last Impossible Order #math #Shorts",
+      "url": "https://www.youtube.com/shorts/4gPifXiFujI",
+      "seconds": 119.875,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "scenes": 5,
+      "video_sha256": "70d2eaf1c240ca69524d7ef83c5a0a13702f48b319f92478c463de436e624f22",
+      "privacy": "public",
+      "processing": "succeeded",
+      "final_clipped_fraction": 0.0
+    },
+    {
+      "topic": "Two Equally Likely Coin Patterns. Different Waiting Times. #math #Shorts",
+      "url": "https://www.youtube.com/shorts/qhqm03eV6Ho",
+      "seconds": 117.633,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "scenes": 5,
+      "video_sha256": "ca2d4075a5f1dcbb28a988c46b3806220be447140ffd4a40a843f1fa613cbb3b",
+      "privacy": "public",
+      "processing": "succeeded",
+      "final_clipped_fraction": 0.0
+    },
+    {
+      "topic": "Count the Safe Paths by Flipping the Bad Ones #math #Shorts",
+      "url": "https://www.youtube.com/shorts/C-g-YNOgVFk",
+      "seconds": 117.366,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "scenes": 5,
+      "video_sha256": "99bb6a7755c3fffa86b52e3e60b22b030576ea6670f267aa902ec32049a8683b",
+      "privacy": "public",
+      "processing": "succeeded",
+      "final_clipped_fraction": 0.0
+    }
+  ],
+  "production": "Host-agent authorship; local Kokoro, Manim and FFmpeg; original sparse score",
+  "checks": "Exact math, sampled images, cue guard, independent ASR and complete decoded final audio/video",
+  "limits": [
+    "No subjective listening by the text/image host",
+    "No uninterrupted human viewing",
+    "No measured audience retention or learning improvement",
+    "Novelty audit uses channel metadata, not exhaustive replay of all prior videos"
+  ]
+}

@@ -29,7 +29,7 @@
     "payoff": "For six cards the first full return is four shuffles.",
     "transfer_prompt": "Does changing the deck change the answer?",
     "duration_rationale": "Five causal beats with a prediction, visible mechanism, proof and transfer. Aim 120\u2013175 seconds; no filler.",
-    "novelty_audit": "Compared with 150 archived channel titles and five most recent published topics. This specific mathematical mechanism has not appeared.",
+    "novelty_audit": "No matching specific topic was identified in 150 archived channel titles/descriptions and the latest five topics. This metadata audit is not exhaustive playback of every historical video.",
     "beats": [
       {
         "scene": "s01",
