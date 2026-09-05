@@ -1,0 +1,417 @@
+{
+  "as_of": "2026-09-05",
+  "method": "Targeted evidence synthesis, not a preregistered exhaustive systematic review. Primary papers, author/institution repositories, syntheses, official platform guidance and one explicitly labeled practitioner account. Search snippets used only when identifiable as author/publisher material; access depth recorded. No full copyrighted papers redistributed.",
+  "interpretation": "Study quality and relevance to math Shorts are separate. Effect sizes are study summaries, not additive gains or predicted channel lift. Proposed design rules require calibration.",
+  "sources": [
+    {
+      "id": "E01",
+      "citation": "Noetel et al. (2022)",
+      "title": "Multimedia Design for Learning: An Overview of Reviews With Meta-Meta-Analysis",
+      "url": "https://journals.sagepub.com/doi/10.3102/00346543211052329",
+      "design": "review of reviews",
+      "access": "publisher abstract and metadata",
+      "finding": "29 reviews encompassing 1,189 studies and 78,177 participants; positive effects for multiple design principles.",
+      "limits": "Broad instructional multimedia, not specifically feed-based math videos; overlapping syntheses are not independent replications."
+    },
+    {
+      "id": "E02",
+      "citation": "Fyfield, Henderson & Phillips (2022)",
+      "title": "Improving instructional video design: A systematic review",
+      "url": "https://ajet.org.au/index.php/AJET/article/view/7296",
+      "design": "systematic review",
+      "access": "publisher abstract",
+      "finding": "113 papers, 28 principles; coherence, segmentation and learner control supported across video contexts; modality and redundancy not supported as general video rules.",
+      "limits": "Heterogeneous methods; no dependable universal timing threshold or ranking of principles."
+    },
+    {
+      "id": "E03",
+      "citation": "Guo, Kim & Rubin (2014)",
+      "title": "How Video Production Affects Student Engagement",
+      "url": "https://juhokim.com/files/LAS2014-Engagement.pdf",
+      "design": "observational study",
+      "access": "author-hosted paper excerpts",
+      "finding": "6.9 million watching sessions in four edX courses; shorter videos and certain presentation styles associated with greater engagement.",
+      "limits": "MOOC engagement proxies, observational confounding, older desktop context; not proof of a six-minute cognitive limit or optimal Shorts length."
+    },
+    {
+      "id": "E04",
+      "citation": "Gruber, Gelman & Ranganath (2014)",
+      "title": "States of Curiosity Modulate Hippocampus-Dependent Learning",
+      "url": "https://escholarship.org/uc/item/2zd605r7",
+      "design": "laboratory experiment",
+      "access": "author repository abstract",
+      "finding": "High-curiosity states associated with better immediate and next-day memory for trivia answers and incidental information.",
+      "limits": "Laboratory trivia and memory, not a causal test of video hooks, virality or a dopamine-based editing recipe."
+    },
+    {
+      "id": "E05",
+      "citation": "Silvia (2005)",
+      "title": "What Is Interesting? Exploring the Appraisal Structure of Interest",
+      "url": "https://libres.uncg.edu/ir/uncg/f/P_Silvia_What_2005.pdf",
+      "design": "experimental research and theory",
+      "access": "author manuscript indexed text",
+      "finding": "Interest modeled through novelty/complexity and perceived capacity to understand.",
+      "limits": "Stimuli and appraisals differ from mathematical Shorts; neither universal optimal complexity nor cut timing established."
+    },
+    {
+      "id": "E06",
+      "citation": "Muller et al. (2008)",
+      "title": "Saying the wrong thing: improving learning with multimedia by including misconceptions",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2729.2007.00248.x",
+      "design": "randomized experiment",
+      "access": "publisher abstract",
+      "finding": "364 first-year physics students; misconception refutation and dialogue produced greater conceptual gains than concise exposition in this experiment.",
+      "limits": "Physics instruction and pre/post conceptual tests; not evidence that misleading hooks or prolonged confusion improve feed retention."
+    },
+    {
+      "id": "E07",
+      "citation": "Sinha & Kapur (2021)",
+      "title": "When Problem Solving Followed by Instruction Works",
+      "url": "https://journals.sagepub.com/doi/10.3102/00346543211019105",
+      "design": "meta-analysis",
+      "access": "publisher excerpts and author abstract in ERIC",
+      "finding": "53 studies, 166 comparisons; overall g=0.36 favoring problem solving before instruction, with implementation-dependent outcomes.",
+      "limits": "Structured problem-solving and consolidation; a brief rhetorical question is not the same intervention."
+    },
+    {
+      "id": "E08",
+      "citation": "Lodge et al. (2018)",
+      "title": "Understanding Difficulties and Resulting Confusion in Learning",
+      "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2018.00049/full",
+      "design": "integrative review",
+      "access": "full text sections",
+      "finding": "Confusion may support learning when resolved with suitable guidance; persistent unresolved confusion can become frustration or boredom.",
+      "limits": "Effects depend on prior knowledge, task and support. Deliberately obscuring an explanation is not justified."
+    },
+    {
+      "id": "E09",
+      "citation": "Höffler & Leutner (2007)",
+      "title": "Instructional animation versus static pictures: A meta-analysis",
+      "url": "https://www.leibniz-ipn.de/en/research/publications/instructional-animation-versus-static-pictures-a-meta-analysis",
+      "design": "meta-analysis",
+      "access": "institutional abstract",
+      "finding": "26 studies, 76 comparisons; overall d=0.37 favoring animation, with variation by representational purpose and task.",
+      "limits": "Moderators can co-vary; this does not prescribe photorealism for abstract mathematics."
+    },
+    {
+      "id": "E10",
+      "citation": "Berney & Bétrancourt (2016)",
+      "title": "Does animation enhance learning? A meta-analysis",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0360131516301336",
+      "design": "meta-analysis",
+      "access": "publisher results excerpts",
+      "finding": "61 experiments, 140 comparisons, 7,036 participants; overall animation benefit but most individual comparisons not statistically significant.",
+      "limits": "Animation is conditional, not automatically superior to a well-designed static display."
+    },
+    {
+      "id": "E11",
+      "citation": "Tversky, Morrison & Bétrancourt (2002)",
+      "title": "Animation: can it facilitate?",
+      "url": "https://faculty.washington.edu/aragon/classes/hcde411/w13/readings/Tversky_AnimationFacilitate_IJHCS02.pdf",
+      "design": "review and design theory",
+      "access": "paper excerpts",
+      "finding": "Graphics should match the concept and remain perceivable and interpretable; transient motion can undermine comprehension.",
+      "limits": "Foundational theory, not an experimentally validated Shorts production specification."
+    },
+    {
+      "id": "E12",
+      "citation": "Soderstrom & Bjork (2015)",
+      "title": "Learning Versus Performance: An Integrative Review",
+      "url": "https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/11/soderstorm_ra_learningvsperformance.pdf",
+      "design": "integrative review",
+      "access": "author-hosted paper excerpts",
+      "finding": "Immediate performance and subjective fluency can diverge from durable retention and transfer.",
+      "limits": "Watching time, confidence and immediate quizzes alone cannot establish long-term learning."
+    },
+    {
+      "id": "E13",
+      "citation": "Szpunar, Khan & Schacter (2013)",
+      "title": "Interpolated memory tests reduce mind wandering and improve learning of online lectures",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.1221764110",
+      "design": "two experiments",
+      "access": "publisher methods and abstract",
+      "finding": "Tests between lecture segments reduced mind wandering and improved learning in the studied online lecture setting.",
+      "limits": "Roughly 22-minute lecture with actual responses; silent prediction in a Short is a proposed adaptation."
+    },
+    {
+      "id": "E14",
+      "citation": "Bisra et al. (2018)",
+      "title": "Inducing Self-Explanation: A Meta-Analysis",
+      "url": "https://doi.org/10.1007/s10648-018-9434-x",
+      "design": "meta-analysis",
+      "access": "author abstract via ERIC",
+      "finding": "69 effects from 64 reports; mean g=0.55 for self-explanation prompts.",
+      "limits": "Learners actually generated explanations; merely showing a prompt does not demonstrate participation."
+    },
+    {
+      "id": "E15",
+      "citation": "Dahlstrom (2014)",
+      "title": "Using narratives and storytelling to communicate science with nonexpert audiences",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.1320645111",
+      "design": "research synthesis",
+      "access": "publisher full text sections",
+      "finding": "Narrative organizes causality, events and characters; can engage nonexperts but also gives individual examples persuasive force.",
+      "limits": "Narrative is not evidence of a general theorem; salient anecdotes can distort statistical understanding."
+    },
+    {
+      "id": "E16",
+      "citation": "Berger & Milkman (2012)",
+      "title": "What Makes Online Content Viral?",
+      "url": "https://doi.org/10.1509/jmr.10.0353",
+      "design": "observational analysis and experiments",
+      "access": "publisher abstract",
+      "finding": "Emotional activation associated with sharing in news data, with experimental support for effects on transmission.",
+      "limits": "News/email and experimental transmission are not math Shorts retention or learning; emotion types are not interchangeable."
+    },
+    {
+      "id": "E17",
+      "citation": "Brom, Stárková & D’Mello (2018)",
+      "title": "How effective is emotional design?",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1747938X18302148",
+      "design": "meta-analysis",
+      "access": "publisher discussion and conclusion",
+      "finding": "Pleasant colors and/or anthropomorphic instructional graphics showed learning benefits; affective mediation was less settled.",
+      "limits": "Specific design manipulations; no universal best palette, mascot or rationale for unrelated decoration."
+    },
+    {
+      "id": "E18",
+      "citation": "Sundararajan & Adesope (2020)",
+      "title": "Keep It Coherent: A Meta-Analysis of the Seductive Details Effect",
+      "url": "https://doi.org/10.1007/s10648-020-09522-4",
+      "design": "meta-analysis",
+      "access": "author abstract via ERIC",
+      "finding": "Interesting irrelevant details can impair learning; effects vary by material and methodology.",
+      "limits": "Does not imply every beautiful, humorous or emotionally meaningful element is irrelevant."
+    },
+    {
+      "id": "E19",
+      "citation": "Johnson & Steinerberger (2019)",
+      "title": "Intuitions about mathematical beauty",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31015078/",
+      "design": "three studies",
+      "access": "author abstract",
+      "finding": "Laypeople made systematic aesthetic judgments of simple mathematical arguments; elegance, profundity and clarity related to judgments.",
+      "limits": "Selected arguments and judgments, not evidence of universal taste or increased watch time."
+    },
+    {
+      "id": "E20",
+      "citation": "Hidi & Renninger (2006)",
+      "title": "The Four-Phase Model of Interest Development",
+      "url": "https://www.tandfonline.com/doi/abs/10.1207/s15326985ep4102_4",
+      "design": "theoretical synthesis",
+      "access": "publisher abstract",
+      "finding": "Distinguishes triggered and maintained situational interest from developing individual interest.",
+      "limits": "A framework for development, not a validated subscriber conversion model."
+    },
+    {
+      "id": "E21",
+      "citation": "Bunquin & Cohen (2026)",
+      "title": "When scientists ’Tok",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/09636625261469057",
+      "design": "observational content analysis",
+      "access": "publisher and PubMed abstracts",
+      "finding": "1,025 science TikToks from 113 creators; humor and imitation positively associated with engagement metrics in multilevel models.",
+      "limits": "Associations, not causal effects; no comprehension test and no proof that adding memes improves mathematics learning."
+    },
+    {
+      "id": "E22",
+      "citation": "Facilitating knowledge construction in informal learning (2023)",
+      "title": "A study of TikTok scientific, educational videos",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0360131523001732",
+      "design": "observational analysis with classifiers",
+      "access": "publisher abstract",
+      "finding": "114 videos and 259,508 comments; most comments social; informational content, original audio and analytic language associated with more knowledge-related discussion.",
+      "limits": "Classifier labels and commenter self-selection; discussion is not representative viewer learning."
+    },
+    {
+      "id": "E23",
+      "citation": "Rein (2023)",
+      "title": "Making Science Education More Accessible",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37640135/",
+      "design": "single-channel case study",
+      "access": "author abstract",
+      "finding": "Analysis of 150 sampled science TikToks explores associations among video characteristics and engagement.",
+      "limits": "Successful single creator; selection and platform effects limit generalization."
+    },
+    {
+      "id": "E24",
+      "citation": "The Reel Deal (2025)",
+      "title": "Designing and Evaluating LLM-Generated Short-Form Educational Videos",
+      "url": "https://arxiv.org/html/2509.05962v1",
+      "design": "between-subject user study; arXiv version",
+      "access": "full text including limitations",
+      "finding": "62 university students, introductory programming; structured generated reels improved immediate quizzes and efficiency relative to selected longer videos.",
+      "limits": "Bundle of format/content changes; brief quiz, limited population, no durable-learning test. Do not infer a pure duration effect."
+    },
+    {
+      "id": "E25",
+      "citation": "Cristobal et al. (2026)",
+      "title": "PaperTok: Exploring the Use of Generative AI for Creating Short-form Videos for Research Communication",
+      "url": "https://arxiv.org/html/2601.18218v1",
+      "design": "CHI 2026 mixed-methods study",
+      "access": "full text sections; DOI listed in manuscript",
+      "finding": "Formative N=8, researchers N=18 and audience N=100; tested an iterative AI authoring system, highlighting perceived engagement and demand for granular control.",
+      "limits": "Comparisons with other generation tools; perceived informational value is not measured mathematical transfer."
+    },
+    {
+      "id": "E26",
+      "citation": "Zhang et al. (2026)",
+      "title": "Educational Short Videos: Bibliometric Trends, Thematic Structure, and Operationalisation",
+      "url": "https://arxiv.org/abs/2608.06932",
+      "design": "bibliometric mapping; preprint",
+      "access": "abstract",
+      "finding": "2,169 indexed records through June 11, 2026; inconsistent operationalization of shortness and outcomes.",
+      "limits": "Maps the field rather than estimates causal effectiveness. Preprint status."
+    },
+    {
+      "id": "E27",
+      "citation": "YouTube Help (accessed 2026-09-05)",
+      "title": "Search and discovery tips — Shorts",
+      "url": "https://support.google.com/youtube/answer/11914225?co=YOUTUBE._YTVideoType%3Dshorts&hl=en-GB",
+      "design": "official platform documentation",
+      "access": "full page",
+      "finding": "Ranking uses watch choice, viewing duration/percentage and satisfaction signals, with personalization and competition.",
+      "limits": "No public universal winning threshold, exact weighting or guarantee of distribution."
+    },
+    {
+      "id": "E28",
+      "citation": "YouTube Help (accessed 2026-09-05)",
+      "title": "Understand your YouTube content performance",
+      "url": "https://support.google.com/youtube/answer/12220281?co=GENIE.Platform%3DDesktop&hl=en-9",
+      "design": "official metric documentation",
+      "access": "page excerpts",
+      "finding": "Shorts average duration and percentage viewed use engaged views and corresponding watch time.",
+      "limits": "Denominators differ from all feed exposures; do not equate completion among stayers with reach or understanding."
+    },
+    {
+      "id": "E29",
+      "citation": "Cheah et al. (2022)",
+      "title": "Background Music and Cognitive Task Performance",
+      "url": "https://journals.sagepub.com/doi/10.1177/20592043221134392",
+      "design": "systematic review",
+      "access": "publisher text excerpts",
+      "finding": "Music effects depend on tasks, music and populations; lyrics and demanding tasks can be problematic.",
+      "limits": "Cognitive-task performance is not the whole audiovisual entertainment experience."
+    },
+    {
+      "id": "E30",
+      "citation": "de la Mora Velasco et al. (2023)",
+      "title": "The impact of background music on learners",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/03057356231153070",
+      "design": "meta-analysis",
+      "access": "publisher abstract",
+      "finding": "47 studies, 71 effects, overall d=0.314 favoring background music across heterogeneous learning settings.",
+      "limits": "Timing, tasks and music differ; does not establish that continuous music improves narrated mathematical explanations."
+    },
+    {
+      "id": "E31",
+      "citation": "Moreno & Mayer (2000)",
+      "title": "A coherence effect in multimedia learning: The case for minimizing irrelevant sounds",
+      "url": "https://tecfa.unige.ch/tecfa/teaching/methodo/Moreno_Mayer00.pdf",
+      "design": "experiments",
+      "access": "paper results excerpts",
+      "finding": "Extraneous audio harmed some retention and transfer outcomes; sound-effect results varied across experiments.",
+      "limits": "Older software and particular sounds; not a ban on sparse, meaningful event sounds."
+    },
+    {
+      "id": "E32",
+      "citation": "Ansani et al. (2020)",
+      "title": "How Soundtracks Shape What We See",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7575867/",
+      "design": "between-subject experiment",
+      "access": "paper methods and abstract excerpts",
+      "finding": "N=118, alternative soundtracks for a film scene changed aspects of interpretation and perception.",
+      "limits": "Film emotion and character interpretation; no math-learning claim."
+    },
+    {
+      "id": "E33",
+      "citation": "Marty-Dugas et al. (2024)",
+      "title": "Instructor enthusiasm in online lectures",
+      "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1339815/full",
+      "design": "two randomized studies",
+      "access": "full methods, results and limitations",
+      "finding": "Vocal enthusiasm increased reported engagement; second study increased intention to watch another lecture; no conclusive quiz benefit.",
+      "limits": "22-minute university lecture; intentions are not actual returns. Null quiz result is not proof of zero effect."
+    },
+    {
+      "id": "E34",
+      "citation": "I am Alexa, your virtual tutor! (2022)",
+      "title": "Text-to-speech voice enthusiasm in multimedia learning",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9361884/",
+      "design": "experiment",
+      "access": "indexed author text excerpts",
+      "finding": "Synthetic speech can convey emotional tone; investigated enthusiasm as a multimedia design feature.",
+      "limits": "Specific engine and setting; cannot rank current local TTS systems or validate present-day voice quality."
+    },
+    {
+      "id": "E35",
+      "citation": "Smith (2012)",
+      "title": "The Attentional Theory of Cinematic Continuity",
+      "url": "https://ualresearchonline.arts.ac.uk/id/eprint/21187/",
+      "design": "film-perception theory",
+      "access": "author repository abstract and manuscript excerpts",
+      "finding": "Attention and perceptual expectations help explain continuity across cuts.",
+      "limits": "Film theory informs a design analogy; no fixed edit rate established for mathematics."
+    },
+    {
+      "id": "E36",
+      "citation": "Silas et al. (accepted version accessed 2026-09-05)",
+      "title": "The Recall and Recognition of Sonic Logos",
+      "url": "https://www.repository.cam.ac.uk/items/903c50f3-6d66-4721-af94-7c037073b139",
+      "design": "experimental research",
+      "access": "institutional abstract; full text embargoed",
+      "finding": "90 sonic logos, N=1,860; recognition and sung recall reflect different aspects of melodic structure.",
+      "limits": "Sonic-logo memory is not channel loyalty; best signature must be tested in context."
+    },
+    {
+      "id": "E37",
+      "citation": "W3C WAI (accessed 2026-09-05)",
+      "title": "Understanding Captions (Prerecorded)",
+      "url": "https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded.html",
+      "design": "accessibility guidance",
+      "access": "full page",
+      "finding": "Synchronized captions make spoken and meaningful non-speech audio accessible.",
+      "limits": "Accessibility rationale, not an empirical engagement optimization study."
+    },
+    {
+      "id": "E38",
+      "citation": "Zheng et al. (2023)",
+      "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+      "url": "https://arxiv.org/abs/2306.05685",
+      "design": "benchmark research",
+      "access": "author abstract",
+      "finding": "Documents position, verbosity and self-enhancement biases in model judging alongside useful agreement in studied tasks.",
+      "limits": "Chat-response judgments do not validate simulated human responses to audiovisual entertainment."
+    },
+    {
+      "id": "E39",
+      "citation": "Take caution in using LLMs as human surrogates (2025)",
+      "title": "Human-surrogate validation research",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12184514/",
+      "design": "empirical research",
+      "access": "indexed author text excerpts",
+      "finding": "Compares model response distributions with human data and identifies limits to substitution.",
+      "limits": "Specific tasks and models; supports calibration requirements rather than claims about all future models."
+    },
+    {
+      "id": "E40",
+      "citation": "3Blue1Brown (2021)",
+      "title": "SoME1 results",
+      "url": "https://www.3blue1brown.com/blog/some1-results/",
+      "design": "practitioner account",
+      "access": "creator article",
+      "finding": "Highlights motivation, clarity, topic selection and non-obvious insights in mathematical exposition.",
+      "limits": "Expert creative judgment and selected examples; not a controlled test of causal effectiveness."
+    },
+    {
+      "id": "E41",
+      "citation": "YouTube Help (accessed 2026-09-05)",
+      "title": "Understand three-minute YouTube Shorts",
+      "url": "https://support.google.com/youtube/answer/15424877?hl=en",
+      "design": "official platform documentation",
+      "access": "full page",
+      "finding": "Current square/vertical Shorts limit is 180 seconds. Over-one-minute Shorts with active copyright claims are blocked.",
+      "limits": "Platform constraint, not an optimal educational duration; recheck when publishing."
+    }
+  ]
+}

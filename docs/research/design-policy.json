@@ -1,0 +1,107 @@
+{
+  "version": "research-proposal-1",
+  "as_of": "2026-09-05",
+  "status": "proposal_not_implemented",
+  "objectives": [
+    "enjoyment",
+    "understanding",
+    "voluntary_engagement",
+    "trust",
+    "channel_recognition",
+    "production_efficiency"
+  ],
+  "hard_constraints": [
+    "mathematical_integrity",
+    "no_misleading_visual_claim",
+    "essential_content_accessible",
+    "valid_media",
+    "authorized_publication"
+  ],
+  "rule_types": [
+    "product_requirement",
+    "evidence_informed_default",
+    "channel_hypothesis",
+    "aesthetic_choice",
+    "platform_constraint"
+  ],
+  "format_policy": {
+    "youtube_short": {
+      "max_encoded_seconds": 180,
+      "aspect_ratio": "square_or_vertical",
+      "source_id": "E41"
+    },
+    "youtube_regular": {
+      "preferred_seconds_if_needed": [
+        240,
+        300
+      ],
+      "aspect_ratio": "choose_for_explanation"
+    },
+    "principle": "Select duration from the complete learning promise and real animatic timing; do not accelerate narration to force fit."
+  },
+  "viewer_state_fields": [
+    "presumed_knowledge",
+    "live_question",
+    "outcome_uncertainty",
+    "representation_uncertainty",
+    "focal_object",
+    "intended_inference",
+    "known_after",
+    "misreading_risk"
+  ],
+  "review_statuses": [
+    "observed_pass",
+    "observed_fail",
+    "unassessed",
+    "not_applicable"
+  ],
+  "review_provenance": [
+    "mathematical_calculation",
+    "source_reading",
+    "sampled_frames",
+    "continuous_video_inspection",
+    "asr_transcript",
+    "audio_signal_analysis",
+    "actual_listening",
+    "human_audience_observation",
+    "controlled_experiment"
+  ],
+  "provenance_rule": "Never substitute one modality for another without declaring the limit. Model audience predictions are hypotheses.",
+  "sound_policy": {
+    "stems": [
+      "narration",
+      "music",
+      "event_sounds"
+    ],
+    "per_beat_intent_required": true,
+    "silence_allowed": true,
+    "starting_lyric_policy": "avoid_under_dense_narration",
+    "mix_test": [
+      "phone_speaker",
+      "headphones",
+      "low_volume",
+      "mono"
+    ],
+    "scientific_universal_loudness_or_tempo": null
+  },
+  "experiment_policy": {
+    "first_step": "formative_comprehension_test",
+    "causal_learning_comparison": "independent_random_assignment",
+    "pairwise_preference": "randomize_order_and_report_carryover",
+    "organic_platform_comparison": "observational",
+    "primary_outcome_required": true,
+    "stopping_rule_required": true,
+    "minimum_worthwhile_effect_required": true,
+    "sample_size": "justify_from_design_and_pilot_variance",
+    "report_uncertainty": true
+  },
+  "standing_authorization": "Honor existing user scope; publication policy and audience-validation claims remain distinct.",
+  "prohibited_inferences": [
+    "render_success_implies_entertainment_quality",
+    "asr_pass_implies_good_delivery",
+    "model_personas_equal_human_sample",
+    "completion_implies_learning",
+    "simulation_implies_exact_proof",
+    "one_viral_video_validates_all_style_choices"
+  ]
+}

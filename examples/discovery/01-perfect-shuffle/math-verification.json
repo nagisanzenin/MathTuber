@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "method": "Exact permutation enumeration and modular identity",
+  "first_returns": {
+    "6": 4,
+    "8": 3,
+    "52": 8
+  },
+  "identity": "256 = 5*51 + 1",
+  "caveat": "Perfect out-shuffle, equal halves, bottom position fixed separately."
+}

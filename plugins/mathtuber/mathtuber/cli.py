@@ -11,6 +11,7 @@ import uuid
 from . import __version__
 from .state import Project, ProductionError, read_json, atomic_json, create, digest, file_hash
 from . import media
+from .creative import validate_plan
 
 
 def doctor():
@@ -69,6 +70,14 @@ def record_review(project, data):
         path = Path(item["path"]).resolve()
         if not path.is_relative_to(project.root) or not path.is_file() or file_hash(path) != item["sha256"]:
             raise ProductionError("INVALID_EVIDENCE", "Evidence path/hash mismatch")
+    if project.data.get("creative"):
+        methods = data.get("methods", {})
+        for domain in ("math", "visual", "timing", "audio"):
+            method = methods.get(domain, {})
+            if not method.get("method") or not method.get("coverage") or not isinstance(method.get("limitations"), list):
+                raise ProductionError("REVIEW_PROVENANCE", "Creative projects require method, coverage and limitations for each review domain")
+        if not isinstance(data.get("audience_validation"), str) or not data["audience_validation"].strip():
+            raise ProductionError("REVIEW_PROVENANCE", "State whether actual audience outcomes have been measured")
     if data["verdict"] == "accept":
         if data["findings"]:
             raise ProductionError("UNRESOLVED_FINDINGS", "Resolve findings before acceptance")
@@ -110,6 +119,7 @@ def perform(args):
     if args.command == "init": return create(args.project,read_json(args.manifest))
     project = Project(args.project)
     if args.command in ("status","next"): return status(project)
+    if args.command == "plan-check": return validate_plan(project)
     if args.command == "job-status":
         path = project.root / ".mathtuber/jobs" / f"{args.job}.json"
         data = read_json(path)
@@ -134,7 +144,7 @@ def parser():
     p.add_argument("--version",action="version",version=__version__)
     subs=p.add_subparsers(dest="command",required=True)
     subs.add_parser("doctor")
-    for name in ("init","status","next","audio","render","assemble","verify","review-bundle","review-record","publish","job-status"):
+    for name in ("init","status","next","plan-check","audio","render","assemble","verify","review-bundle","review-record","publish","job-status"):
         sub=subs.add_parser(name)
         sub.add_argument("--project",required=True)
         if name == "init": sub.add_argument("--manifest",required=True)

@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "method": "Enumerate all paths through n=8; verify transform is injective, has correct counts, and inverse recovers every bad path",
+  "counts": {
+    "1": {
+      "all": 2,
+      "bad": 1,
+      "safe": 1
+    },
+    "2": {
+      "all": 6,
+      "bad": 4,
+      "safe": 2
+    },
+    "3": {
+      "all": 20,
+      "bad": 15,
+      "safe": 5
+    },
+    "4": {
+      "all": 70,
+      "bad": 56,
+      "safe": 14
+    },
+    "5": {
+      "all": 252,
+      "bad": 210,
+      "safe": 42
+    },
+    "6": {
+      "all": 924,
+      "bad": 792,
+      "safe": 132
+    },
+    "7": {
+      "all": 3432,
+      "bad": 3003,
+      "safe": 429
+    },
+    "8": {
+      "all": 12870,
+      "bad": 11440,
+      "safe": 1430
+    }
+  },
+  "general_proof": "At the first y=x+1 crossing, swapping the prefix creates n+1 right and n-1 up steps. Inverse swaps the prefix at first x=y+1 crossing. This defines a bijection for every positive n."
+}

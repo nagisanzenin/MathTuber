@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Count the Safe Paths by Flipping the Bad Ones",
+    "min_seconds": 100,
+    "max_seconds": 179.5
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 1.0
+  },
+  "captions": {
+    "burn_in": true
+  },
+  "creative": {
+    "audience": "Curious adults and teens; no prior specialist terminology.",
+    "learning_goal": "Understand a reflection bijection that subtracts bad lattice paths to obtain the Catalan count.",
+    "question": "How many routes avoid the fence?",
+    "payoff": "For n=4 the count is 70 minus 56 equals14.",
+    "transfer_prompt": "Does this work beyond one tiny grid?",
+    "duration_rationale": "Five causal beats with a prediction, visible mechanism, proof and transfer. Aim 120–175 seconds; no filler.",
+    "novelty_audit": "Compared with 150 archived channel titles and five most recent published topics. This specific mathematical mechanism has not appeared.",
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How many routes avoid the fence?",
+        "visual_action": "Robot route grid and forbidden half-plane; ask count.",
+        "new_understanding": "Count unrestricted paths and subtract a bijective image of bad ones.",
+        "sound_intent": "Original restrained motif at opening/payoff; short tactile event accents. Silence protects proof steps."
+      },
+      {
+        "scene": "s02",
+        "viewer_question": "What does reflecting a bad prefix change?",
+        "visual_action": "Reflect a prefix at first crossing, then translate suffix to new endpoint.",
+        "new_understanding": "Swapping a first-crossing prefix changes totals to four right and two up.",
+        "sound_intent": "Original restrained motif at opening/payoff; short tactile event accents. Silence protects proof steps."
+      },
+      {
+        "scene": "s03",
+        "viewer_question": "Could two routes collapse into one?",
+        "visual_action": "Show inverse prefix reflection at first x=y+1 crossing.",
+        "new_understanding": "The inverse reflection proves an exact bijection.",
+        "sound_intent": "Original restrained motif at opening/payoff; short tactile event accents. Silence protects proof steps."
+      },
+      {
+        "scene": "s04",
+        "viewer_question": "How many routes are safe?",
+        "visual_action": "Subtract 15 from 20 and draw all five valid paths separately.",
+        "new_understanding": "20 minus 15 equals five safe routes.",
+        "sound_intent": "Original restrained motif at opening/payoff; short tactile event accents. Silence protects proof steps."
+      },
+      {
+        "scene": "s05",
+        "viewer_question": "Does this work beyond one tiny grid?",
+        "visual_action": "Show n=4 counts and connect to reversible counting.",
+        "new_understanding": "For n=4 the count is 70 minus 56 equals14.",
+        "sound_intent": "Original restrained motif at opening/payoff; short tactile event accents. Silence protects proof steps."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Shot1",
+      "narration": "This robot needs three steps right and three steps up to get home. But it must never go above the diagonal fence. How many safe routes are there? There are twenty routes if we ignore the fence. Drawing them all gets messy. Here is a stranger approach: count the forbidden routes by turning each one into a different kind of route. A mirror will do the bookkeeping for us."
+    },
+    {
+      "id": "s02",
+      "source": "scenes/s02.py",
+      "class_name": "Shot2",
+      "narration": "Watch this route cross above the diagonal for the first time. At that moment it has taken one more up step than right step. Freeze there. Reflect just the beginning of the route: swap every up step with a right step, and every right step with an up step. Leave the remaining moves unchanged. The transformed route now has four right steps and two up steps. Its endpoint moved, but no information was lost."
+    },
+    {
+      "id": "s03",
+      "source": "scenes/s03.py",
+      "class_name": "Shot3",
+      "narration": "Why can we count these new routes instead? Every forbidden route produces exactly one transformed route. And we can undo it. Starting from a route with four right steps and two up steps, find the first moment it has one more right step than up step. Reflect that beginning back. You recover a forbidden route to the original destination. This is a one to one pairing, not an approximation."
+    },
+    {
+      "id": "s04",
+      "source": "scenes/s04.py",
+      "class_name": "Shot4",
+      "narration": "Now the counting is easy. A six step route with three up steps can place those steps in twenty ways. A six step route with two up steps can place them in fifteen ways. The fifteen transformed routes count exactly the fifteen forbidden routes. Subtract, and five safe routes remain. Watch all five stay on or below the fence. We did not need to inspect twenty routes one by one."
+    },
+    {
+      "id": "s05",
+      "source": "scenes/s05.py",
+      "class_name": "Shot5",
+      "narration": "The same mirror works for any equal number of right and up steps. With four of each, there are seventy unrestricted routes and fifty six forbidden ones, leaving fourteen safe routes. These counts begin one, two, five, fourteen: the Catalan numbers. The powerful idea is the pairing. When a collection is hard to count, transform its objects into something easier, and prove you can always transform them back."
+    }
+  ],
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original MathTuber tone synthesis; CC0"
+  }
+}

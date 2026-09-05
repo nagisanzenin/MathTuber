@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Why 17 Is the Last Impossible Order",
+    "min_seconds": 100,
+    "max_seconds": 179.5
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 1.0
+  },
+  "captions": {
+    "burn_in": true
+  },
+  "creative": {
+    "audience": "Curious adults and teens; no prior specialist terminology.",
+    "learning_goal": "Use residues and four consecutive reachable integers to prove all later order sizes are possible.",
+    "question": "How can there be a last impossible order?",
+    "payoff": "3/5 has last gap seven; 4/6 leaves infinitely many odd gaps.",
+    "transfer_prompt": "When does this method fail?",
+    "duration_rationale": "Five causal beats with a prediction, visible mechanism, proof and transfer. Aim 120–175 seconds; no filler.",
+    "novelty_audit": "Compared with 150 archived channel titles and five most recent published topics. This specific mathematical mechanism has not appeared.",
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How can there be a last impossible order?",
+        "visual_action": "Cookie boxes physically combine to eleven; seventeen stays empty.",
+        "new_understanding": "Finite seeds can support an infinite constructive proof.",
+        "sound_intent": "Original restrained motif at opening/payoff; short tactile event accents. Silence protects proof steps."
+      },
+      {
+        "scene": "s02",
+        "viewer_question": "Have we ruled out every way to make 17?",
+        "visual_action": "Exhaust zero, one, two, then too many seven-box cases.",
+        "new_understanding": "17 is impossible by exhaustive cases on seven-box counts.",
+        "sound_intent": "Original restrained motif at opening/payoff; short tactile event accents. Silence protects proof steps."
+      },
+      {
+        "scene": "s03",
+        "viewer_question": "What is special about four consecutive successes?",
+        "visual_action": "Construct 18, 19, 20, 21 with visible colored box lengths.",
+        "new_understanding": "18 through 21 are constructible.",
+        "sound_intent": "Original restrained motif at opening/payoff; short tactile event accents. Silence protects proof steps."
+      },
+      {
+        "scene": "s04",
+        "viewer_question": "Why does the pattern continue forever?",
+        "visual_action": "Extend four residue columns by +4 to cover all later integers.",
+        "new_understanding": "Adding four covers every remainder class from 18 onward.",
+        "sound_intent": "Original restrained motif at opening/payoff; short tactile event accents. Silence protects proof steps."
+      },
+      {
+        "scene": "s05",
+        "viewer_question": "When does this method fail?",
+        "visual_action": "Transfer to 3/5, then show parity obstruction for 4/6.",
+        "new_understanding": "3/5 has last gap seven; 4/6 leaves infinitely many odd gaps.",
+        "sound_intent": "Original restrained motif at opening/payoff; short tactile event accents. Silence protects proof steps."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Shot1",
+      "narration": "This shop sells cookies only in boxes of four and seven. You can buy as many boxes as you want, but you cannot split a box. An order of eleven is easy. An order of seventeen is impossible. Here is the stranger claim: seventeen is the last impossible order. Every larger whole number works. Not just the next hundred. Forever. How could a tiny patch of numbers prove something about infinity?"
+    },
+    {
+      "id": "s02",
+      "source": "scenes/s02.py",
+      "class_name": "Shot2",
+      "narration": "Start by checking seventeen. With no seven box, you would need seventeen to be a multiple of four. It is not. With one seven box, ten cookies remain. With two seven boxes, three remain. Neither ten nor three is a multiple of four. Three seven boxes already give twenty one, which is too many. We have exhausted every possibility, so seventeen really cannot be made."
+    },
+    {
+      "id": "s03",
+      "source": "scenes/s03.py",
+      "class_name": "Shot3",
+      "narration": "Now build the next four orders. Eighteen is two sevens and a four. Nineteen is a seven and three fours. Twenty is five fours. Twenty one is three sevens. Four consecutive numbers, all possible. Why should four in a row matter? Because we are allowed to add another box of four to any order we have already built."
+    },
+    {
+      "id": "s04",
+      "source": "scenes/s04.py",
+      "class_name": "Shot4",
+      "narration": "Add four to eighteen and you get twenty two. Add four to nineteen and you get twenty three. The other two become twenty four and twenty five. Repeat. Each column keeps climbing by four, and the columns cover every remainder after division by four. Any whole number from eighteen onward lands in one of these columns. This is a proof for all future orders, using just four starting points."
+    },
+    {
+      "id": "s05",
+      "source": "scenes/s05.py",
+      "class_name": "Shot5",
+      "narration": "Try a new shop: boxes of three and five. Look for three consecutive possible orders. Eight, nine, and ten all work. Add threes forever, and seven is the last impossible order. But boxes of four and six behave differently. Every box has an even number of cookies, so every odd order stays impossible. The important question was not how far we checked. It was whether our construction can keep going without leaving a gap."
+    }
+  ],
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original MathTuber tone synthesis; CC0"
+  }
+}

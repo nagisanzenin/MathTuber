@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Two Equally Likely Coin Patterns. Different Waiting Times.",
+    "min_seconds": 100,
+    "max_seconds": 179.5
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 1.0
+  },
+  "captions": {
+    "burn_in": true
+  },
+  "creative": {
+    "audience": "Curious adults and teens; no prior specialist terminology.",
+    "learning_goal": "Distinguish fixed-window probability from waiting time using retained progress in HT versus HH.",
+    "question": "Do equally likely patterns take equally long?",
+    "payoff": "By symmetry TT averages six and TH four; averages are not promises.",
+    "transfer_prompt": "Does the answer survive swapping the labels?",
+    "duration_rationale": "Five causal beats with a prediction, visible mechanism, proof and transfer. Aim 120–175 seconds; no filler.",
+    "novelty_audit": "Compared with 150 archived channel titles and five most recent published topics. This specific mathematical mechanism has not appeared.",
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Do equally likely patterns take equally long?",
+        "visual_action": "Two coin-pattern targets and a fair quarter-probability prediction.",
+        "new_understanding": "Fixed-window probability and waiting time are different quantities.",
+        "sound_intent": "Original restrained motif at opening/payoff; short tactile event accents. Silence protects proof steps."
+      },
+      {
+        "scene": "s02",
+        "viewer_question": "What does a failed attempt leave behind?",
+        "visual_action": "Animate a head persisting for HT versus tail resetting HH.",
+        "new_understanding": "HT retains a starting head; HH loses progress after a tail.",
+        "sound_intent": "Original restrained motif at opening/payoff; short tactile event accents. Silence protects proof steps."
+      },
+      {
+        "scene": "s03",
+        "viewer_question": "Why does HT average four?",
+        "visual_action": "First-head waiting tree and sequential two-plus-two expectation.",
+        "new_understanding": "Two sequential geometric waits sum to four.",
+        "sound_intent": "Original restrained motif at opening/payoff; short tactile event accents. Silence protects proof steps."
+      },
+      {
+        "scene": "s04",
+        "viewer_question": "Where do the extra two flips for HH come from?",
+        "visual_action": "Two-state arrows and substitution yield six.",
+        "new_understanding": "A=1+(A+B)/2 and B=1+A/2 imply A=6.",
+        "sound_intent": "Original restrained motif at opening/payoff; short tactile event accents. Silence protects proof steps."
+      },
+      {
+        "scene": "s05",
+        "viewer_question": "Does the answer survive swapping the labels?",
+        "visual_action": "Mirror H/T labels and give transfer answer; show distribution caveat.",
+        "new_understanding": "By symmetry TT averages six and TH four; averages are not promises.",
+        "sound_intent": "Original restrained motif at opening/payoff; short tactile event accents. Silence protects proof steps."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Shot1",
+      "narration": "Flip a fair coin until you see heads followed by heads. I will flip until I see heads followed by tails. Which of us should expect to finish sooner? Both patterns have probability one quarter in any fixed pair of flips. So equal waiting times sounds reasonable. But heads then tails takes four flips on average. Two heads takes six. The missing idea is what happens when an attempt almost succeeds."
+    },
+    {
+      "id": "s02",
+      "source": "scenes/s02.py",
+      "class_name": "Shot2",
+      "narration": "Compare the two targets after we have just seen a head. For heads then tails, a tail finishes. Another head does not finish, but it keeps us ready: that new head can start the next attempt. For two heads, another head finishes. A tail wipes out our progress. We have to find a new first head. A failed attempt can either preserve a useful beginning or destroy it."
+    },
+    {
+      "id": "s03",
+      "source": "scenes/s03.py",
+      "class_name": "Shot3",
+      "narration": "For heads then tails, the average time to the first head is two flips. Why two? If E is the expected wait, we spend one flip. Half the time we finish; half the time we are back where we started. So E equals one plus half of E, which gives two. Once a head arrives, we wait for a tail. That also takes two flips on average. Two plus two gives four."
+    },
+    {
+      "id": "s04",
+      "source": "scenes/s04.py",
+      "class_name": "Shot4",
+      "narration": "For two heads, use two states. A means the expected flips left from a fresh start. B means the expected flips left after a head. From A, we spend one flip, then either stay at A or reach B. From B, we spend one flip, then either finish or reset to A. These give two equations. Substitute B into the first, and A becomes six. The reset has a measurable cost."
+    },
+    {
+      "id": "s05",
+      "source": "scenes/s05.py",
+      "class_name": "Shot5",
+      "narration": "This is an average over repeated games, not a promise for the next game. Two heads can still arrive on the first two flips. Now predict two tails versus tails then heads. Swap the names heads and tails and nothing about a fair coin changes. Two tails still averages six; tails then heads averages four. Equal chances in a fixed window do not imply equal waiting times. To understand waiting, track what a failure leaves behind."
+    }
+  ],
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original MathTuber tone synthesis; CC0"
+  }
+}

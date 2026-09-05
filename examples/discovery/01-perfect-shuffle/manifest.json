@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Shuffle Too Perfectly and Nothing Changes",
+    "min_seconds": 100,
+    "max_seconds": 179.5
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 1.0
+  },
+  "captions": {
+    "burn_in": true
+  },
+  "creative": {
+    "audience": "Curious adults and teens; no prior specialist terminology.",
+    "learning_goal": "Follow a deterministic permutation and explain why eight perfect out-shuffles restore 52 cards.",
+    "question": "Can a shuffle undo itself?",
+    "payoff": "For six cards the first full return is four shuffles.",
+    "transfer_prompt": "Does changing the deck change the answer?",
+    "duration_rationale": "Five causal beats with a prediction, visible mechanism, proof and transfer. Aim 120\u2013175 seconds; no filler.",
+    "novelty_audit": "Compared with 150 archived channel titles and five most recent published topics. This specific mathematical mechanism has not appeared.",
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Can a shuffle undo itself?",
+        "visual_action": "Eight cards visibly split, interleave and return after three rounds.",
+        "new_understanding": "Perfect mixing can be periodic.",
+        "sound_intent": "Original restrained motif at opening/payoff; short tactile event accents. Silence protects proof steps."
+      },
+      {
+        "scene": "s02",
+        "viewer_question": "Where does one card go?",
+        "visual_action": "Highlight one persistent card through 1 \u2192 2 \u2192 4 \u2192 1.",
+        "new_understanding": "Each card follows a permutation orbit.",
+        "sound_intent": "Original restrained motif at opening/payoff; short tactile event accents. Silence protects proof steps."
+      },
+      {
+        "scene": "s03",
+        "viewer_question": "What rule controls 52 cards?",
+        "visual_action": "Show 52 ordered card lines; reduce position 60 to9 by subtracting51.",
+        "new_understanding": "The rule is doubling modulo 51 with the bottom fixed.",
+        "sound_intent": "Original restrained motif at opening/payoff; short tactile event accents. Silence protects proof steps."
+      },
+      {
+        "scene": "s04",
+        "viewer_question": "Why exactly eight?",
+        "visual_action": "Factor256 into5\u00d751+1; remove five lap markers and show the modular identity.",
+        "new_understanding": "256 = 5\u00d751 + 1 restores all positions.",
+        "sound_intent": "Original restrained motif at opening/payoff; short tactile event accents. Silence protects proof steps."
+      },
+      {
+        "scene": "s05",
+        "viewer_question": "Does changing the deck change the answer?",
+        "visual_action": "Show six-card orbit and distinguish exact from ordinary shuffling.",
+        "new_understanding": "For six cards the first full return is four shuffles.",
+        "sound_intent": "Original restrained motif at opening/payoff; short tactile event accents. Silence protects proof steps."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Shot1",
+      "narration": "Can shuffling make a deck less mixed? Watch these eight cards. Split them exactly in half, then alternate one card from each half. Keep the top card on top. Do it again. And once more. They are back in their original order. No card was secretly moved. This is a perfect out shuffle. The surprise is not that it mixes badly. It is that the mixing has a clock."
+    },
+    {
+      "id": "s02",
+      "source": "scenes/s02.py",
+      "class_name": "Shot2",
+      "narration": "Slow it down. Number the positions from zero to seven. The first half goes into the even positions: zero, two, four, six. The second half fills the gaps. Follow just the card at position one. After one shuffle it sits at two. After the next, four. After the third, one again. That card has completed a three step orbit. The apparent mess is a collection of loops."
+    },
+    {
+      "id": "s03",
+      "source": "scenes/s03.py",
+      "class_name": "Shot3",
+      "narration": "Now use a full deck of fifty two cards. Number its positions from zero to fifty one. Except for the bottom card, a perfect out shuffle doubles the position and wraps around after fifty one. For example, position thirty becomes sixty, then wraps to nine. The bottom card stays fixed. We have replaced fifty two moving objects with one rule: double, then take the remainder."
+    },
+    {
+      "id": "s04",
+      "source": "scenes/s04.py",
+      "class_name": "Shot4",
+      "narration": "After eight shuffles, every moving position has been multiplied by two hundred fifty six. Here is the reason that number matters. Two hundred fifty six is five times fifty one, plus one. So wrapping around fifty one erases the five full turns and leaves exactly the starting position. Every card returns together. Eight is the first return for the whole deck, not just a lucky card. Perfect order was hiding inside the shuffle."
+    },
+    {
+      "id": "s05",
+      "source": "scenes/s05.py",
+      "class_name": "Shot5",
+      "narration": "But this only works for an exact out shuffle: equal halves, perfect alternation, and the top card staying on top. A sloppy shuffle follows a different rule. Try the same idea with six cards. Track position one: two, four, three, one. Four shuffles, not three or eight. So the number of shuffles is not magic. It is the length of a mathematical loop. Perfect shuffling follows a rule. It is not random."
+    }
+  ],
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original MathTuber tone synthesis; CC0"
+  }
+}

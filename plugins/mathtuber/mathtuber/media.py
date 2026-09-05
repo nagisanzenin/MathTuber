@@ -9,6 +9,7 @@ import subprocess
 import sys
 import time
 from .captions import make_ass
+from .creative import validate_plan, soundtrack, validate_delivery
 from .state import ProductionError, digest, file_hash, within, atomic_json
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -184,6 +185,7 @@ def current_renders(project, quality="final"):
 def assembly_fingerprint(project):
     rows = current_renders(project)
     return digest({"scenes": [(s["id"], r["sha256"], a["sha256"]) for s,r,a in rows],
+                   "soundtrack": soundtrack(project), "sound_worker": file_hash(ROOT / "mathtuber/creative.py"),
                    "format": project.data.get("format", {}), "captions": project.data.get("captions", True),
                    "worker": file_hash(Path(__file__)), "caption_worker": file_hash(ROOT / "mathtuber/captions.py")})
 
@@ -195,6 +197,7 @@ def srt_time(seconds):
     return f"{h:02}:{m:02}:{s:02},{ms:03}"
 
 def assemble(project):
+    validate_plan(project)
     rows = current_renders(project)
     fp = assembly_fingerprint(project)
     cached = project.artifact("export", fp)
@@ -232,6 +235,12 @@ def assemble(project):
                       "-c", "copy", "-movflags", "+faststart", final])
     caption_path = export_dir / "captions.srt"
     caption_path.write_text("\n".join(captions))
+    score = soundtrack(project)
+    if score:
+        run(["ffmpeg", "-y", "-v", "error", "-i", "video.mp4", "-i", score["path"],
+             "-filter_complex", f"[0:a]asplit=2[voice][side];[1:a]volume={score['gain_db']}dB,apad[bed];[bed][side]sidechaincompress=threshold=0.025:ratio=6:attack=15:release=250[duck];[voice][duck]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-16:LRA=7:TP=-1.5[out]",
+             "-map", "0:v:0", "-map", "[out]", "-c:v", "copy", "-c:a", "aac", "-ar", "48000", "-b:a", "192k", "-t", str(offset), "mixed.mp4"], timeout=1800, cwd=export_dir)
+        os.replace(export_dir / "mixed.mp4", final)
     caption_settings = project.data.get("captions", {})
     if isinstance(caption_settings, dict) and caption_settings.get("burn_in"):
         fmt = project.data.get("format", {})
@@ -245,6 +254,7 @@ def assemble(project):
     info = probe(final)
     if abs(info["duration"] - offset) > .25:
         raise ProductionError("ASSEMBLY_DURATION", "Assembled timeline differs from the complete scene timeline")
+    validate_delivery(project, info["duration"])
     maximum = project.data.get("brief", {}).get("max_seconds", 180)
     minimum = project.data.get("brief", {}).get("min_seconds", 0)
     if not minimum <= info["duration"] <= maximum:
@@ -260,6 +270,7 @@ def verify(project):
     if not artifact:
         raise ProductionError("ASSEMBLY_REQUIRED", "Assemble the current complete timeline")
     info = probe(artifact["absolute_path"])
+    validate_delivery(project, info["duration"])
     brief = project.data.get("brief", {})
     if not brief.get("min_seconds", 0) <= info["duration"] <= brief.get("max_seconds", 180):
         raise ProductionError("DURATION_BUDGET", "Export duration does not meet the current brief")

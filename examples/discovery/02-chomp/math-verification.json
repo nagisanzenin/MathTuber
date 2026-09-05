@@ -1,0 +1,89 @@
+{
+  "passed": true,
+  "method": "Exact minimax for small rectangles plus exhaustive inclusion identity for illustrative boards",
+  "rectangles": [
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      5,
+      4
+    ]
+  ],
+  "general_proof": "If corner bite does not win, a winning reply removes a rectangle that includes the original corner. Playing that reply immediately leaves the identical losing state for the opponent, contradicting second-player forced win. Finite impartial game has no draws.",
+  "square_strategy": "Remove x>=1,y>=1. The two equal arms remain; mirror every safe move.",
+  "limitation": "Finite minimax supports examples; general statement relies on the inclusion/strategy-stealing proof, not simulation."
+}

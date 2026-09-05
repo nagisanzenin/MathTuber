@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Chocolate Game You Can Win Without Knowing How",
+    "min_seconds": 100,
+    "max_seconds": 179.5
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 1.0
+  },
+  "captions": {
+    "burn_in": true
+  },
+  "creative": {
+    "audience": "Curious adults and teens; no prior specialist terminology.",
+    "learning_goal": "Understand strategy stealing and the distinction between existence and an explicit strategy.",
+    "question": "Who can force a win?",
+    "payoff": "A square has an explicit mirror strategy; the existence proof is broader.",
+    "transfer_prompt": "Does existence tell us how to play?",
+    "duration_rationale": "Five causal beats with a prediction, visible mechanism, proof and transfer. Aim 120–175 seconds; no filler.",
+    "novelty_audit": "Compared with 150 archived channel titles and five most recent published topics. This specific mathematical mechanism has not appeared.",
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Who can force a win?",
+        "visual_action": "Chocolate board: poison and first bite; invite prediction.",
+        "new_understanding": "The claim concerns every nontrivial rectangular bar.",
+        "sound_intent": "Original restrained motif at opening/payoff; short tactile event accents. Silence protects proof steps."
+      },
+      {
+        "scene": "s02",
+        "viewer_question": "What exactly is a legal bite?",
+        "visual_action": "Remove an upper-right rectangle while preserving remaining tiles.",
+        "new_understanding": "Finite perfect-information play has no draws.",
+        "sound_intent": "Original restrained motif at opening/payoff; short tactile event accents. Silence protects proof steps."
+      },
+      {
+        "scene": "s03",
+        "viewer_question": "What would a winning reply imply?",
+        "visual_action": "Nibble top-right, then mark hypothetical reply B and its region.",
+        "new_understanding": "Every reply rectangle includes the original top-right corner.",
+        "sound_intent": "Original restrained motif at opening/payoff; short tactile event accents. Silence protects proof steps."
+      },
+      {
+        "scene": "s04",
+        "viewer_question": "Can we reach that shape in one bite?",
+        "visual_action": "Rewind and compare identical residual shapes with opposite player to move.",
+        "new_understanding": "The supposedly winning reply can be stolen as the opening.",
+        "sound_intent": "Original restrained motif at opening/payoff; short tactile event accents. Silence protects proof steps."
+      },
+      {
+        "scene": "s05",
+        "viewer_question": "Does existence tell us how to play?",
+        "visual_action": "Construct equal arms on a square and animate a mirrored pair of moves.",
+        "new_understanding": "A square has an explicit mirror strategy; the existence proof is broader.",
+        "sound_intent": "Original restrained motif at opening/payoff; short tactile event accents. Silence protects proof steps."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Shot1",
+      "narration": "This chocolate bar comes with a trap. The bottom left square is poisoned. Two players take turns choosing a square, then eating it and every square above and to its right. Whoever eats the poison loses. Before we play, make a guess. Can the first player always force a win on a rectangular bar bigger than one square? The answer is yes. And the proof does not tell us which move to make."
+    },
+    {
+      "id": "s02",
+      "source": "scenes/s02.py",
+      "class_name": "Shot2",
+      "narration": "First, look at one move. Choose this square. The whole rectangle above and to its right disappears. The remaining bar can have steps, but there are no random events. Every turn removes chocolate, so the game must end. With perfect play, one player has a winning strategy. There is no draw. Now we will test the claim that the second player can always win."
+    },
+    {
+      "id": "s03",
+      "source": "scenes/s03.py",
+      "class_name": "Shot3",
+      "narration": "Imagine I begin with the smallest possible bite: just the top right square. If you really have a winning strategy as the second player, you must have a winning reply. Call your chosen square B. Your bite removes B and everything above and to its right. Notice what your bite includes: the corner I already ate. Remember the shape that is left. That shape is the entire trick."
+    },
+    {
+      "id": "s04",
+      "source": "scenes/s04.py",
+      "class_name": "Shot4",
+      "narration": "Rewind. Instead of nibbling the corner, I could have chosen B immediately. My single bite would leave exactly the same shape as our two previous bites. But now you would be the player facing it. I have stolen the position that was supposed to make your reply a winning move. That contradicts the claim that the second player can force a win. So the first player must have a winning strategy."
+    },
+    {
+      "id": "s05",
+      "source": "scenes/s05.py",
+      "class_name": "Shot5",
+      "narration": "There is a catch worth keeping. We proved a winning opening exists; we did not compute it for every rectangle. On a square bar, there is an easy example: remove everything above and right of the square diagonally next to the poison. This leaves two equal arms. Mirror every safe move across the diagonal, and your opponent eventually faces only poison. A proof of existence and a recipe for playing are different kinds of knowledge."
+    }
+  ],
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original MathTuber tone synthesis; CC0"
+  }
+}

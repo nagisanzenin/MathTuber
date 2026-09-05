@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "method": "Exact rational substitution into first-step expectation equations",
+  "HH": {
+    "fresh": 6,
+    "after_head": 4
+  },
+  "HT": {
+    "first_head": 2,
+    "following_tail": 2,
+    "sum": 4
+  },
+  "caveats": [
+    "Independent fair tosses",
+    "Expectations are not guaranteed finish times",
+    "Equal probability in fixed two-toss windows is1/4 for each pattern"
+  ]
+}
