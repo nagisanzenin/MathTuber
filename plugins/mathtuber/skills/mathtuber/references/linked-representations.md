@@ -30,3 +30,9 @@ Put `assets/review-plan.json` in the project with `intervals`: each item has `id
 Five different mechanisms: random halfway hops, four equal-speed pursuers, a route unfolded by reflection, a bounded fair random walk, and a missing-square dissection. Verify each mathematical argument independently. A finite simulation is an illustration, not a probability proof.
 
 Before release, write a per-film judgment of opening, mechanism, readability, pacing, sound scope and remaining weaknesses. Review the complete batch before the first upload. After release, compare early exits and retention around the mapping with previous episodes, accounting for topic and audience differences. Ask actual viewers to explain the key relation and predict a changed case. Neither retention nor an agent's enthusiasm alone proves learning. We have not performed these audience tests; no causal lift is claimed.
+
+## Example-to-rule checks after cycle fifteen
+
+Before generalizing, identify what each quantity retains from the worked example. Preserve the same identified objects through regrouping or simplification, and show the scope of the conclusion. Inspect the actual mapping and the ending in a complete prototype before expanding a batch. Extra examples and detail do not automatically improve understanding; no universal concrete-first sequence follows from the evidence.
+
+When an `always_redraw` mobject was removed by `FadeOut`, its tracker may have changed while its updater was inactive. Call its recursive `update(0)` before `FadeIn`, or rebuild it from current state. Inspect the first visible frames after reappearance for stale numbers, labels, units and bounds. A correct settled endpoint does not certify the transition.
