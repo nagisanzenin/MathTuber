@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-06",
+  "cycle": 20,
+  "videos": [
+    {
+      "project": "01-ensemble",
+      "title": "Why Averaging Predictions Can Reduce Squared Error #math #Shorts",
+      "url": "https://www.youtube.com/shorts/UH8ALX7OrVk",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M13S",
+      "export_sha256": "f76e476710ca19b9802d513ddcd8723bb137c197202d9e78b4a371a56650691c",
+      "editorial": {
+        "decision": "release",
+        "opening": "Sparse squared-error graph introduces predictions 1 and 3 against target 2.",
+        "mechanism": "Chord midpoint and gold gap distinguish mean loss from loss of the mean; spelled-out prediction difference remains readable. Changed target 1 retains prediction 2; repaired ending labels now explicitly say best loss 0, loss of average 1 and average model loss 2.",
+        "readability": "Current sampled evidence inspected at phone-sized tiles; limitations recorded below.",
+        "pacing": "Cue-based staged explanation with brief transitions; new-case endings reuse the mechanism; some concluding holds remain static.",
+        "sound": "Full source ASR actually read against all narration; numeric formatting, joined RS/SR punctuation, dependence/dependents, others/other is and waiting/weighting tokens do not alter identified mathematics. Source and final signal measurements inspected. No subjective listening.",
+        "remaining_weaknesses": "Opening assumes familiarity with graphs and squared error. The general identity is displayed rather than derived step by step; several middle holds are static.",
+        "audience_evidence": "Not measured; no retention, learning or preference claim."
+      }
+    },
+    {
+      "project": "02-order",
+      "title": "The Same Two Operations Can Lead Somewhere Else #math #Shorts",
+      "url": "https://www.youtube.com/shorts/RnL2D5tlPDY",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M8S",
+      "export_sha256": "ce607664cafcb76f5bde2d70931ba55dde2969e43de8163b0926a745d9f17e05",
+      "editorial": {
+        "decision": "release",
+        "opening": "A single point and explicit operation order pose the comparison.",
+        "mechanism": "Coordinates track stretch then rotation to (-1,2) and reverse order to (-2,1); coral reference retains the first result. Uniform scaling resets the example; both paths reach (-2,2). Captions and labels are separated in sampled frames.",
+        "readability": "Current sampled evidence inspected at phone-sized tiles; limitations recorded below.",
+        "pacing": "Cue-based staged explanation with brief transitions; new-case endings reuse the mechanism; some concluding holds remain static.",
+        "sound": "Full source ASR actually read against all narration; numeric formatting, joined RS/SR punctuation, dependence/dependents, others/other is and waiting/weighting tokens do not alter identified mathematics. Source and final signal measurements inspected. No subjective listening.",
+        "remaining_weaknesses": "Small moving dots are less arresting than a tangible object. Matrix entries are not introduced; operational notation relies on narration and prerequisites.",
+        "audience_evidence": "Not measured; no retention, learning or preference claim."
+      }
+    },
+    {
+      "project": "03-sums",
+      "title": "Why Seven Has Six Ways to Arrive #math #Shorts",
+      "url": "https://www.youtube.com/shorts/QD16nB5neAU",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M10S",
+      "export_sha256": "b2189330839263abbb642f1bcde83cc9a770b1b7f2f6a4370a2d6093cb2ba97e",
+      "editorial": {
+        "decision": "release",
+        "opening": "A six-by-six grid sets out ordered independent dice outcomes.",
+        "mechanism": "Six anti-diagonal cells versus one corner support the probability comparison; histogram heights rise 1 through 6 then fall. Copying the roll clears the previous distribution and marks only six diagonal outcomes; the final zero probability for seven is explicit.",
+        "readability": "Current sampled evidence inspected at phone-sized tiles; limitations recorded below.",
+        "pacing": "Cue-based staged explanation with brief transitions; new-case endings reuse the mechanism; some concluding holds remain static.",
+        "sound": "Full source ASR actually read against all narration; numeric formatting, joined RS/SR punctuation, dependence/dependents, others/other is and waiting/weighting tokens do not alter identified mathematics. Source and final signal measurements inspected. No subjective listening.",
+        "remaining_weaknesses": "Histogram emerges as a whole rather than showing every diagonal becoming a bar. Opening is diagrammatic and the general convolution explanation has a static hold.",
+        "audience_evidence": "Not measured; no retention, learning or preference claim."
+      }
+    },
+    {
+      "project": "04-sampling",
+      "title": "Why a Rarely Seen Item Can Carry More Weight #math #Shorts",
+      "url": "https://www.youtube.com/shorts/Dk6o9A7DDE0",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M15S",
+      "export_sha256": "cb5dc7a512a510a0a36460b84a9d955c8bff512790fea10497fa590aa66c6ffb",
+      "editorial": {
+        "decision": "release",
+        "opening": "Three separated value cards introduce total 12.",
+        "mechanism": "Inclusion probabilities align with cards; weighted values 4,16,24 and expectation 12 remain distinct. Zero inclusion dims the last value and replaces the old estimates; ending explicitly distinguishes unbiasedness from exactness in every sample.",
+        "readability": "Current sampled evidence inspected at phone-sized tiles; limitations recorded below.",
+        "pacing": "Cue-based staged explanation with brief transitions; new-case endings reuse the mechanism; some concluding holds remain static.",
+        "sound": "Full source ASR actually read against all narration; numeric formatting, joined RS/SR punctuation, dependence/dependents, others/other is and waiting/weighting tokens do not alter identified mathematics. Source and final signal measurements inspected. No subjective listening.",
+        "remaining_weaknesses": "Long stretches of arithmetic remain static. The known total is shown to the teaching audience; the inaccessible value is dimmed rather than completely concealed.",
+        "audience_evidence": "Not measured; no retention, learning or preference claim."
+      }
+    },
+    {
+      "project": "05-memory",
+      "title": "When Waiting Longer Does Not Bring Success Closer #math #Shorts",
+      "url": "https://www.youtube.com/shorts/8DgM19zXYLg",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M9S",
+      "export_sha256": "172aaaf8e223d7bec77b05a8327c45fa40c1dcd59a63158a034924b690838676",
+      "editorial": {
+        "decision": "release",
+        "opening": "Five past-failure counters make the question concrete.",
+        "mechanism": "Future failure probabilities 3/4 and 9/16 accompany tail-ratio cancellation; past counters disappear only with cancellation. Without-replacement reset uses one success and three failure tokens; removing two failures leaves next-success probability 1/2.",
+        "readability": "Current sampled evidence inspected at phone-sized tiles; limitations recorded below.",
+        "pacing": "Cue-based staged explanation with brief transitions; new-case endings reuse the mechanism; some concluding holds remain static.",
+        "sound": "Full source ASR actually read against all narration; numeric formatting, joined RS/SR punctuation, dependence/dependents, others/other is and waiting/weighting tokens do not alter identified mathematics. Source and final signal measurements inspected. No subjective listening.",
+        "remaining_weaknesses": "Past versus future counters initially depend on narration for interpretation. The algebraic middle and final hold could be more expressive; no audience response measured.",
+        "audience_evidence": "Not measured; no retention, learning or preference claim."
+      }
+    }
+  ]
+}

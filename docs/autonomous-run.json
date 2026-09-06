@@ -1,0 +1,1009 @@
+{
+  "date": "2026-09-06",
+  "completed_cycles": 20,
+  "published_videos": 100,
+  "unique_video_urls": 100,
+  "scope": "Each batch independently read back public and processed at release; not a fresh simultaneous readback of every earlier video.",
+  "batches": [
+    {
+      "id": "events",
+      "videos": [
+        {
+          "project": "01-ants",
+          "title": "Can Collisions Slow These Ants Down? #math #Shorts",
+          "url": "https://www.youtube.com/shorts/U6YIZcin5zo",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M21S",
+          "export_sha256": "fca93b6f7404728e06a7e0a3be32901d453611f6c4ecdc7d16fc2e543f936291"
+        },
+        {
+          "project": "02-coins",
+          "title": "A Balance Has Three Ways to Answer #math #Shorts",
+          "url": "https://www.youtube.com/shorts/LJiUsMsiaUI",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M22S",
+          "export_sha256": "55192106100157a0d32dfeee0c5633dada2c83d05f13c967f5cbeadb94f2bf8a"
+        },
+        {
+          "project": "03-lockers",
+          "title": "Why Only Square Numbered Doors Stay Open #math #Shorts",
+          "url": "https://www.youtube.com/shorts/PA5kHNSXjj4",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M28S",
+          "export_sha256": "c1521dcf9844335715c35ba1daae20d79fdef4b2303c7472ba200e1cbe62dc6a"
+        },
+        {
+          "project": "04-width",
+          "title": "A Quiet Shape That Keeps the Same Width #math #Shorts",
+          "url": "https://www.youtube.com/shorts/VpID5nMCCIQ",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M26S",
+          "export_sha256": "20653dc649e940aad0c87c1764dc4129cca3c69d5cbbd4ed109a53afe8787a64"
+        },
+        {
+          "project": "05-stickers",
+          "title": "Why the Last Sticker Takes So Long #math #Shorts",
+          "url": "https://www.youtube.com/shorts/BrwK4slUC_M",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M29S",
+          "export_sha256": "5aa222df683f69ac85b42e8fb02b2ce35829ec3104992558232254b217e0d109"
+        }
+      ]
+    },
+    {
+      "id": "nature",
+      "videos": [
+        {
+          "project": "01-diffusion",
+          "title": "The Quiet Rhythm of Spreading #math #Shorts",
+          "url": "https://www.youtube.com/shorts/txC2R1d3_cI",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M32S",
+          "export_sha256": "5143deb881caed764038119c6d6304e3b8223be681b89470834fc2b59a0794c3"
+        },
+        {
+          "project": "02-soap",
+          "title": "Why Soap Films Meet at 120 Degrees #math #Shorts",
+          "url": "https://www.youtube.com/shorts/emdyPrpKHlI",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M35S",
+          "export_sha256": "8540264a18d8ea9128e382ede74a25bbc87d2673352679fece6533216f0e0a04"
+        },
+        {
+          "project": "03-rainbow",
+          "title": "The Geometry That Gathers a Rainbow #math #Shorts",
+          "url": "https://www.youtube.com/shorts/g2POd_ScOSA",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M33S",
+          "export_sha256": "a87c103854bb8e8ef68904b79b0875bed8ef4f7c2ed6cfa7e5d425d755d0ab9c"
+        },
+        {
+          "project": "04-bezier",
+          "title": "A Curve Made from Straight-Line Choices #math #Shorts",
+          "url": "https://www.youtube.com/shorts/CVIKlfBhzAw",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M33S",
+          "export_sha256": "c480af75bc59b630113f44cfa4084ac5697c95f7616e176b5fac99b8426c83df"
+        },
+        {
+          "project": "05-globe",
+          "title": "When the Shortest Route Looks Curved #math #Shorts",
+          "url": "https://www.youtube.com/shorts/pGVzJf5iR3M",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M39S",
+          "export_sha256": "76e6e07313c7f6383500479a3d3268e3e0e0341d33a68d41f2aa77bfd6d9f9c9"
+        }
+      ]
+    },
+    {
+      "id": "motion",
+      "videos": [
+        {
+          "project": "01-mobile",
+          "title": "The Quiet Mathematics of a Balanced Mobile #math #Shorts",
+          "url": "https://www.youtube.com/shorts/DPxiXHUnILI",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M20S",
+          "export_sha256": "793ea5ba252933119b207eb68c0f77cfa1fb69b547007ca6e96f5b688494d0cc"
+        },
+        {
+          "project": "02-polarizers",
+          "title": "How a Third Filter Lets Light Through #math #Shorts",
+          "url": "https://www.youtube.com/shorts/xtLhBW1Bblo",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M37S",
+          "export_sha256": "d2a2b2da86e8660882627c2af45756dac7630f32c010844aa144f8713c13c2b8"
+        },
+        {
+          "project": "03-clothoid",
+          "title": "The Curve That Lets a Turn Arrive Gently #math #Shorts",
+          "url": "https://www.youtube.com/shorts/dI9yY67NFbE",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M28S",
+          "export_sha256": "c48307c4ca55aa51df9536c6cab812ea43ce57d9a1b9b76d1175f34e6a0c9347"
+        },
+        {
+          "project": "04-moire",
+          "title": "A Larger Pattern Hidden Between Two Sheets #math #Shorts",
+          "url": "https://www.youtube.com/shorts/G9qlxO7_KYk",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M26S",
+          "export_sha256": "658b0ac7de8e30c7df78d81785089d1401c64b302383d23a0a6643a16598bc03"
+        },
+        {
+          "project": "05-orbit",
+          "title": "The Even Rhythm Inside an Uneven Orbit #math #Shorts",
+          "url": "https://www.youtube.com/shorts/QjmBc877DZg",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M33S",
+          "export_sha256": "96148057a6868ca54e7dc795d0f072c67cc2de976c48df576d07080ce9097ac6"
+        }
+      ]
+    },
+    {
+      "id": "quiet",
+      "videos": [
+        {
+          "project": "01-ellipse",
+          "title": "How an Ellipse Gathers Reflected Paths #math #Shorts",
+          "url": "https://www.youtube.com/shorts/YgC20_iNPyg",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M38S",
+          "export_sha256": "7d519ddb1d0ebac4f04b64eb79ab8947ccad60a1f489e97ae80f535e8ec5336e"
+        },
+        {
+          "project": "02-oscillator",
+          "title": "A Circle and a Spring Share One Rhythm #math #Shorts",
+          "url": "https://www.youtube.com/shorts/IH29TELSb8E",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M31S",
+          "export_sha256": "7957dc55e3063bc24e899fae8660c84e9a73cce7558f4b3af6996de95649bf90"
+        },
+        {
+          "project": "03-torus",
+          "title": "The Quiet Journey Inside a Ring #math #Shorts",
+          "url": "https://www.youtube.com/shorts/Ms4Gl4k9Fns",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M36S",
+          "export_sha256": "70dff1d6f73b0ccdf1ea31fb82cc9059204029a0e5b94a0c312d7e5da0bfae21"
+        },
+        {
+          "project": "04-inversion",
+          "title": "When Straight Lines Become Circular Arcs #math #Shorts",
+          "url": "https://www.youtube.com/shorts/891zC5Ji99A",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M31S",
+          "export_sha256": "65a91b8a284f5f0b898907df807f243ead8d3ede5943214628db7f43539cb4f8"
+        },
+        {
+          "project": "05-moon",
+          "title": "A Crescent Is a Relationship with Light #math #Shorts",
+          "url": "https://www.youtube.com/shorts/cZslMVwXrC4",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M39S",
+          "export_sha256": "168c9d66f244ce82dc67b33ce0c8e209ce2cf82b0008becbf17de914ada1284a"
+        }
+      ]
+    },
+    {
+      "id": "flow",
+      "videos": [
+        {
+          "project": "01-doppler",
+          "title": "The Uneven Rings Left by a Moving Sound #math #Shorts",
+          "url": "https://www.youtube.com/shorts/yKoOkt2azfY",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M16S",
+          "export_sha256": "cf9e92ae0fd31b0ccd7d0152a3a751d3c569241c3a753ba21cc67c84c0a2832c"
+        },
+        {
+          "project": "02-light",
+          "title": "Why Distance Spreads a Little Light So Thin #math #Shorts",
+          "url": "https://www.youtube.com/shorts/6Y0WM4ao02Q",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M14S",
+          "export_sha256": "3f7cdd6709685f06428d4ad02d059b7e50fd186abc3f08a458e0b126583516c1"
+        },
+        {
+          "project": "03-garden",
+          "title": "The Garden Hidden Inside the Same Fence #math #Shorts",
+          "url": "https://www.youtube.com/shorts/zpCHLHDucrM",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M11S",
+          "export_sha256": "0df6fcc5129b16e6d5cf8b702a73616d0dfd9d38e7fed7838aa8150f52dd9d12"
+        },
+        {
+          "project": "04-buoyancy",
+          "title": "The Water That Quietly Holds a Piece of Wood #math #Shorts",
+          "url": "https://www.youtube.com/shorts/XSX0sjEVnQw",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M21S",
+          "export_sha256": "371e59b1dd01d1516de32d101d5af768129f82e127a708ad593cf0ced9560a72"
+        },
+        {
+          "project": "05-spiral",
+          "title": "A Spiral That Grows Without Forgetting Its Shape #math #Shorts",
+          "url": "https://www.youtube.com/shorts/0reqEqp9AO4",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M19S",
+          "export_sha256": "1a8059c958c910dc5aa4d1b70f2c3d4d4ea29ca822bff3dc3661c2da66a291a5"
+        }
+      ]
+    },
+    {
+      "id": "objects",
+      "videos": [
+        {
+          "project": "01-beats",
+          "title": "The Gentle Rhythm Between Two Steady Notes #math #Shorts",
+          "url": "https://www.youtube.com/shorts/buOe3erdRc4",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M21S",
+          "export_sha256": "04ebbcd142c9ac64db5647ad4dc8640dc9043af6b01668a2606d0b0e5b54b76a"
+        },
+        {
+          "project": "02-tea",
+          "title": "The Quiet Curve Inside a Cooling Cup #math #Shorts",
+          "url": "https://www.youtube.com/shorts/BMH8hlUNd8Q",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M11S",
+          "export_sha256": "17873b282a176f557499dc10f58eaf48a7b976ac638701d75c0707051f54d6a2"
+        },
+        {
+          "project": "03-shadow",
+          "title": "A Tree Measured by Its Smaller Companion #math #Shorts",
+          "url": "https://www.youtube.com/shorts/p_lexXGyVnM",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M16S",
+          "export_sha256": "df98003c389789fd4b6a9daca9f9c87ca8a3c55494435a93187e364ae33774a1"
+        },
+        {
+          "project": "04-coin",
+          "title": "The Coin That Looks Closer Than It Is #math #Shorts",
+          "url": "https://www.youtube.com/shorts/QF0MEgTBT6s",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M18S",
+          "export_sha256": "ca4cbea9279deaf4888b8b9440671ad432a13f79a8c8c0e9e15f68e28c47274d"
+        },
+        {
+          "project": "05-walk",
+          "title": "The Average Hidden in a Walk to the Pond #math #Shorts",
+          "url": "https://www.youtube.com/shorts/xP2UBmu3g00",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M17S",
+          "export_sha256": "99d1df3f6857d74d8bdc7a50a9287dd43d56af8666b2c78453ab75dfc608040f"
+        }
+      ]
+    },
+    {
+      "id": "endings",
+      "videos": [
+        {
+          "project": "01-fountain",
+          "title": "Two Arches and One Quiet Landing #math #Shorts",
+          "url": "https://www.youtube.com/shorts/7tnatS_WvrE",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M16S",
+          "export_sha256": "15562a29f2dcbdbe5d152315870579998811e9c041e84979d122f7a264273831"
+        },
+        {
+          "project": "02-lantern",
+          "title": "The Light Shared Between Nine Small Squares #math #Shorts",
+          "url": "https://www.youtube.com/shorts/E4RL4OdFteQ",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M15S",
+          "export_sha256": "60c76126d6807d11dd12f1daccbb7adf3abd31f24dd3005e9d23a379a3e3ce1a"
+        },
+        {
+          "project": "03-vessel",
+          "title": "A Steady Pour and an Unsteady Rise #math #Shorts",
+          "url": "https://www.youtube.com/shorts/v9DWYzRrgQE",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M17S",
+          "export_sha256": "44596831e18abebda9462379814ec20ce69399176cc62a6dff7673fb804607c6"
+        },
+        {
+          "project": "04-pulley",
+          "title": "The Longer Journey That Makes a Basket Lighter #math #Shorts",
+          "url": "https://www.youtube.com/shorts/4Kr62L9pve4",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M8S",
+          "export_sha256": "9ed7efd26456dc173a7c58578e9f207ea355fc843f2b7570156372859fec9491"
+        },
+        {
+          "project": "05-leaf",
+          "title": "The Invisible Balance in a Falling Leaf #math #Shorts",
+          "url": "https://www.youtube.com/shorts/8P7c_XUNYWs",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M11S",
+          "export_sha256": "4ee42fb043626001ccb78e2b20609bc74dfcc9eb2ea1d0e435b6a2f3a9a369a9"
+        }
+      ]
+    },
+    {
+      "id": "focal",
+      "videos": [
+        {
+          "project": "01-capillary",
+          "title": "The Small Edge That Helps Water Climb #math #Shorts",
+          "url": "https://www.youtube.com/shorts/OVM8iROHfKk",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M8S",
+          "export_sha256": "fe79e4bda6b48354cc950a5bdb5e675a5c8c9d10c3999615c56ea2c7c13c958c"
+        },
+        {
+          "project": "02-mirror",
+          "title": "A Bowl of Light and Its Return Journey #math #Shorts",
+          "url": "https://www.youtube.com/shorts/BgPW1qRgnjE",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M10S",
+          "export_sha256": "e1f2fe5d56a0d59c8ad32d668a291bae750053caedf078172f6215d4ae68c638"
+        },
+        {
+          "project": "03-diffraction",
+          "title": "The Narrow Opening That Lets Light Spread #math #Shorts",
+          "url": "https://www.youtube.com/shorts/HzLfRRU7Tco",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M11S",
+          "export_sha256": "877e7242eb04c03a6e9e746722431b7aaa97ddd471bc1d881f030207da9febf4"
+        },
+        {
+          "project": "04-spin",
+          "title": "The Quiet Rhythm of Moving Inward #math #Shorts",
+          "url": "https://www.youtube.com/shorts/Q47PTJIiLtY",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M12S",
+          "export_sha256": "ee8ead0b44bcacf7403f83cd9f5494339decce75f6857df9c9c03b823e670b92"
+        },
+        {
+          "project": "05-gears",
+          "title": "Two Circles Sharing a Mechanical Rhythm #math #Shorts",
+          "url": "https://www.youtube.com/shorts/UG0ry083oaA",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M5S",
+          "export_sha256": "9d6bb014d1b366cebbecb43744081069d733a4401c8645f238bbd0b47487694f"
+        }
+      ]
+    },
+    {
+      "id": "material",
+      "videos": [
+        {
+          "project": "01-pendulum",
+          "title": "A Quiet Clock Hidden in a Length #math #Shorts",
+          "url": "https://www.youtube.com/shorts/87HeataDcK0",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M2S",
+          "export_sha256": "e751da779613929f202df6b61174c441e48f597ca5db271ef8f4db45e8a36e2d"
+        },
+        {
+          "project": "02-rolling",
+          "title": "The Different Lives Inside Two Circles #math #Shorts",
+          "url": "https://www.youtube.com/shorts/xihfIIeWXoE",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M4S",
+          "export_sha256": "8597d7bab9faa3b9dd7b426fe4e2ed3adc1e1c523d0672b925d2d27220e2d624"
+        },
+        {
+          "project": "03-thermal",
+          "title": "The Empty Space That Grows with a Ring #math #Shorts",
+          "url": "https://www.youtube.com/shorts/5hcZywPMCc4",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M5S",
+          "export_sha256": "809acc9755921879ddd3afb618e9d21841cf0ee2336de7ce83e1175124c3941c"
+        },
+        {
+          "project": "04-bounce",
+          "title": "The Square Hidden in a Returning Ball #math #Shorts",
+          "url": "https://www.youtube.com/shorts/bzcIvYdrxlk",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M4S",
+          "export_sha256": "39b622f64fd4d4acddee1d9803fa3e0f60a0e945de4a48dede687d0422df8636"
+        },
+        {
+          "project": "05-springs",
+          "title": "The Quiet Difference Made by a Connection #math #Shorts",
+          "url": "https://www.youtube.com/shorts/dUXbPq68l3Q",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M",
+          "export_sha256": "491b11b4630205c72af8586becbc186184cc5a9eaa033168f3eab7f20732600e"
+        }
+      ]
+    },
+    {
+      "id": "reasoning",
+      "videos": [
+        {
+          "project": "01-shear",
+          "title": "The Space That Survives a Changing Outline #math #Shorts",
+          "url": "https://www.youtube.com/shorts/jjwKgyfHtN0",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT50S",
+          "export_sha256": "ff363ce24253fa17bf35e337f5384ba894be81c7dccecf5d0fcbe61d7af76f00"
+        },
+        {
+          "project": "02-mean",
+          "title": "The Quiet Average Hidden in a Semicircle #math #Shorts",
+          "url": "https://www.youtube.com/shorts/znWhSbWxo7Q",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT58S",
+          "export_sha256": "86599135fa09b719bf9c30a79975bced2091ff0ec739b0a2c6f544012f4aacb4"
+        },
+        {
+          "project": "03-bisector",
+          "title": "An Equal Angle with an Unequal Secret #math #Shorts",
+          "url": "https://www.youtube.com/shorts/If0KwJiAcVw",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT58S",
+          "export_sha256": "73eea6c8e3ae2183acea97cc6bb5e5da46e53781ee3e937509ed3418976c3a95"
+        },
+        {
+          "project": "04-hydraulics",
+          "title": "A Gentle Push and the Price of a Larger Force #math #Shorts",
+          "url": "https://www.youtube.com/shorts/ZHVDu12xzDg",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M2S",
+          "export_sha256": "0fe471fb5f274994159dc014408ccaf529fb094344b475558c91ade2561f5417"
+        },
+        {
+          "project": "05-waves",
+          "title": "Stillness Made from Two Moving Waves #math #Shorts",
+          "url": "https://www.youtube.com/shorts/W_nQOvGqrAM",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M5S",
+          "export_sha256": "1f410b775e49b3ee8e1ed31923ef889fc0e4b7a8a4ea14f03d81df5d290e8446"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "videos": [
+        {
+          "project": "01-river",
+          "title": "The River Adds Its Own Journey #math #Shorts",
+          "url": "https://www.youtube.com/shorts/WSN8jaN3giA",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M7S",
+          "export_sha256": "35880d73b8c6e7a47641ebf9cb6aa9a8d7a8be6312e4e4f3644a43bfb438dde1"
+        },
+        {
+          "project": "02-camera",
+          "title": "A Little Darkness Makes a Picture #math #Shorts",
+          "url": "https://www.youtube.com/shorts/x-MhKdt4qo4",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M2S",
+          "export_sha256": "dc99e142c6a57db12db497bd0ac3e4cd8201a39d3a3c8144fc86b677f0d9daa6"
+        },
+        {
+          "project": "03-contours",
+          "title": "Reading a Hill Before Taking a Step #math #Shorts",
+          "url": "https://www.youtube.com/shorts/kHmEPk65-VQ",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT56S",
+          "export_sha256": "e669f1b7a1ac5e83927de5c063dd4350f68c374ecae662ef17e1aa6e4bcb41cb"
+        },
+        {
+          "project": "04-siphon",
+          "title": "The Whole Journey Leads Downhill #math #Shorts",
+          "url": "https://www.youtube.com/shorts/II21Ktrc2wE",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M8S",
+          "export_sha256": "9e7a4f71c4fd3bca75fd6a9ddddf738bb903470e2a6d18207391306b457d0794"
+        },
+        {
+          "project": "05-capstan",
+          "title": "A Gentle Curve Shares a Force #math #Shorts",
+          "url": "https://www.youtube.com/shorts/xDJAN2honaM",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M15S",
+          "export_sha256": "5576a656c9662ff91d2240543c5edfa63b9695de1d2411272cb6939a27a1d48f"
+        }
+      ]
+    },
+    {
+      "id": "listening",
+      "videos": [
+        {
+          "project": "01-bottle",
+          "title": "The Note Inside an Empty Space #math #Shorts",
+          "url": "https://www.youtube.com/shorts/jO7aWiZ65kA",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M16S",
+          "export_sha256": "089f0d0664619fcaa1661c5a270312f986ca9971c9f41e2066ed90f8c161729d"
+        },
+        {
+          "project": "02-chimes",
+          "title": "A Small Cut Changes the Song #math #Shorts",
+          "url": "https://www.youtube.com/shorts/2Qy7xWNTUN4",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M15S",
+          "export_sha256": "c4a94b9613a7b5d22afe02f6816b5970e096fd53fbb1dd30ea91767d8f416c65"
+        },
+        {
+          "project": "03-echo",
+          "title": "A Distance Hidden in a Quiet Gap #math #Shorts",
+          "url": "https://www.youtube.com/shorts/FDf78HitFWE",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M7S",
+          "export_sha256": "a67a870d3a53d2fc34eacf6ecbd7d1251496ded794b2d689520c09aa799e1869"
+        },
+        {
+          "project": "04-missing",
+          "title": "The Pitch That Can Outlive Its Lowest Tone #math #Shorts",
+          "url": "https://www.youtube.com/shorts/bdujDJYncac",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M24S",
+          "export_sha256": "d88de25aa71a617bb9aae692b3e5285e7117494b625faca47bb985d42da746c9"
+        },
+        {
+          "project": "05-pluck",
+          "title": "Where a Small Gesture Begins #math #Shorts",
+          "url": "https://www.youtube.com/shorts/eump53cJ4ng",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M12S",
+          "export_sha256": "9cfed1b6dcfd90d2c4ef348a07032b85f4525d0f221a5758e3530bfe1fb8ad60"
+        }
+      ]
+    },
+    {
+      "id": "traces",
+      "videos": [
+        {
+          "project": "01-involute",
+          "title": "The Curve Left by a Quiet Thread #math #Shorts",
+          "url": "https://www.youtube.com/shorts/6wma0DuG1KM",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M2S",
+          "export_sha256": "b34c4b802dfc44d8096757cbe03a23bbf34e2f1c5cc3f714c12731c6202f7c95"
+        },
+        {
+          "project": "02-trammel",
+          "title": "Two Straight Tracks and One Gentle Curve #math #Shorts",
+          "url": "https://www.youtube.com/shorts/f4jCzmJCRCo",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M3S",
+          "export_sha256": "9e4ecf92c9f5636a230b9b9d0ab5af150ef280da331978983a34076b772b53a5"
+        },
+        {
+          "project": "03-pantograph",
+          "title": "The Rods That Quietly Copy a Shape #math #Shorts",
+          "url": "https://www.youtube.com/shorts/wiMezgsmeJg",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M3S",
+          "export_sha256": "ac91551d4e3a7102cab52841f8e96ffd15dae3cc03fc06cf01671f0007934003"
+        },
+        {
+          "project": "04-tractrix",
+          "title": "The Curve at the End of a Taut Thread #math #Shorts",
+          "url": "https://www.youtube.com/shorts/iymwPIz6Z0w",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M5S",
+          "export_sha256": "5259baa0a89987e1467c9ffa36dc33df29213c31c83cc1deec7dc4396c156e12"
+        },
+        {
+          "project": "05-offset",
+          "title": "The Same Step Can Reach Different Heights #math #Shorts",
+          "url": "https://www.youtube.com/shorts/R39XXP2403Y",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT59S",
+          "export_sha256": "124a4b2b731d705578ad964972ee1a644f83650d95f2d8e8b7b878125037909c"
+        }
+      ]
+    },
+    {
+      "id": "patterns",
+      "videos": [
+        {
+          "project": "01-truchet",
+          "title": "A Little Agreement at Every Edge #math #Shorts",
+          "url": "https://www.youtube.com/shorts/MKwCWWqd03U",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M2S",
+          "export_sha256": "451d8d0147b675048628a1a9c611c46f29046179a3567583716303228f86a669"
+        },
+        {
+          "project": "02-packing",
+          "title": "The Triangle Between Round Stones #math #Shorts",
+          "url": "https://www.youtube.com/shorts/xZlYenBurlg",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M6S",
+          "export_sha256": "bac5883c421ca015e0a66d86b9d8e1713acae3d6abe3b2f694c1f950d8502359"
+        },
+        {
+          "project": "03-weave",
+          "title": "A Diagonal Without a Diagonal Thread #math #Shorts",
+          "url": "https://www.youtube.com/shorts/1JxTlt5p-us",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M7S",
+          "export_sha256": "2b1d4a4204d05b2e8c8c72f745ad98571b9c9b440d6a299b5dde846eb305a776"
+        },
+        {
+          "project": "04-surface",
+          "title": "Straight Lines Can Gather into a Curve #math #Shorts",
+          "url": "https://www.youtube.com/shorts/UOGUNuEyzTQ",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M11S",
+          "export_sha256": "f119803ea280c0f5a7f2e2f0e34c495498e1d5beb75c5cbfc1bea82a132ac671"
+        },
+        {
+          "project": "05-rose",
+          "title": "Why Some Mathematical Flowers Retrace #math #Shorts",
+          "url": "https://www.youtube.com/shorts/UFnb2ePokjM",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M8S",
+          "export_sha256": "d4204d46c0da67285f81e8bca586b93aa11563f09108d112c35ac285a4bbe0c9"
+        }
+      ]
+    },
+    {
+      "id": "observations",
+      "videos": [
+        {
+          "project": "01-flags",
+          "title": "When a Flag Is Usually a False Alarm #math #Shorts",
+          "url": "https://www.youtube.com/shorts/shSD57QpB10",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M23S",
+          "export_sha256": "a73dd74d2f35bc7cc33915a128d802a8a05a33a5ab6d6983bf66cc2d0c4b260f"
+        },
+        {
+          "project": "02-median",
+          "title": "Why the Middle Minimizes the Total Error #math #Shorts",
+          "url": "https://www.youtube.com/shorts/1GA7uuFoq6c",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M31S",
+          "export_sha256": "3b59cb7b8dcbc40232da49236cf712f26db59c787486277d14ed1f7f47b7b0d8"
+        },
+        {
+          "project": "03-reservoir",
+          "title": "A Fair Sample Without Keeping the Whole Stream #math #Shorts",
+          "url": "https://www.youtube.com/shorts/hFoXSKxZtXk",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M26S",
+          "export_sha256": "693b958428e990f7669120ea4692d5847f5f1537f78436c9027dd5d5bf4fb897"
+        },
+        {
+          "project": "04-cancel",
+          "title": "An Infinite Sum with Only Two Loose Ends #math #Shorts",
+          "url": "https://www.youtube.com/shorts/CJFIIstOjAU",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M28S",
+          "export_sha256": "dc0c44a0758d9bf2d489b340a636c7637725f75a9a85d0cdeedd1d7e9c772ae1"
+        },
+        {
+          "project": "05-order",
+          "title": "The Same Work, Less Waiting #math #Shorts",
+          "url": "https://www.youtube.com/shorts/MTbQ0BQNOjU",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M26S",
+          "export_sha256": "74a9df23a78a7a3d71ef25844f5087ff0593bc524de9a68fa26ea62802223e35"
+        }
+      ]
+    },
+    {
+      "id": "relations",
+      "videos": [
+        {
+          "project": "01-remainders",
+          "title": "Two Remainders Remember a Number #math #Shorts",
+          "url": "https://www.youtube.com/shorts/MqS6xrCW4ls",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M39S",
+          "export_sha256": "632297ca5ad8d2d86f2d5e832c168cc6f0d14be1cb5859c6640c54f53a07fd55"
+        },
+        {
+          "project": "02-edges",
+          "title": "A Small Subtraction Finds an Edge #math #Shorts",
+          "url": "https://www.youtube.com/shorts/DQbJJOJo57Y",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M32S",
+          "export_sha256": "535576a64a633a2aef4c384f5743d19626918570b55a4c9a435ccf297671db2f"
+        },
+        {
+          "project": "03-levels",
+          "title": "When Multiplication Becomes a Step #math #Shorts",
+          "url": "https://www.youtube.com/shorts/BarW4H3Arss",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M40S",
+          "export_sha256": "e7af3c28e3db83eb1756298de9cdafce409f9de2df04eb4117567dba0fef7f80"
+        },
+        {
+          "project": "04-balance",
+          "title": "Moving States, Steady Probabilities #math #Shorts",
+          "url": "https://www.youtube.com/shorts/4hEqliopNFE",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M41S",
+          "export_sha256": "5861662404f1c6ae34f2ff65c7270cefc00cee8ec95cc8860d5581f9b85a7bc3"
+        },
+        {
+          "project": "05-capacity",
+          "title": "The Limit Between the Endpoints #math #Shorts",
+          "url": "https://www.youtube.com/shorts/XgVRDOltDY8",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M27S",
+          "export_sha256": "453ae177d8edb8607c07f9c9fe026a7a0b21c38e66f76ed5402b1d8ba5ec3ef5"
+        }
+      ]
+    },
+    {
+      "id": "contrasts",
+      "videos": [
+        {
+          "project": "01-scaling",
+          "title": "A Different Unit Can Change the Nearest Neighbor #math #Shorts",
+          "url": "https://www.youtube.com/shorts/UKhMMdSx4IQ",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M46S",
+          "export_sha256": "8508cfa2580bf6c3018e980fdd3c0fd7bb019919d744879849232d8ff957b973"
+        },
+        {
+          "project": "02-conditioning",
+          "title": "When a Tiny Measurement Change Moves the Answer #math #Shorts",
+          "url": "https://www.youtube.com/shorts/1PJeOCcu5SI",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M41S",
+          "export_sha256": "7dc45edab4c0376b26691367224ff52eb4b2f4d8ff906fe89f2a63cc94fb1336"
+        },
+        {
+          "project": "03-approximation",
+          "title": "Fractions Guided by a Difference of One #math #Shorts",
+          "url": "https://www.youtube.com/shorts/50H93LmK0rk",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M40S",
+          "export_sha256": "8f3b5176aa4177e66d9b4a211d4a94dcbfb822c6cba73917c9e76d79734b8c03"
+        },
+        {
+          "project": "04-jars",
+          "title": "Four Counters, Three Jars, Fifteen Possibilities #math #Shorts",
+          "url": "https://www.youtube.com/shorts/K99XNd2h1wc",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M39S",
+          "export_sha256": "4593b421dd15f93b2da998a89c1aec7714476ccbcbb9e659937b21d5bee2beb2"
+        },
+        {
+          "project": "05-redundancy",
+          "title": "When Two Backups Share One Weakness #math #Shorts",
+          "url": "https://www.youtube.com/shorts/IELpiDlj6xg",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M31S",
+          "export_sha256": "e7a94977c3200afc9a929fe021f43f6429c32ea329dafe78fc30ed26d9f1b9af"
+        }
+      ]
+    },
+    {
+      "id": "applications",
+      "videos": [
+        {
+          "project": "01-softmax",
+          "title": "Huge Scores, the Same Small Probabilities #math #Shorts",
+          "url": "https://www.youtube.com/shorts/Je93ysGkhFw",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M37S",
+          "export_sha256": "281c09045e6d1037183bfddcf159dfdb441beac5f01a037160ed1e6026be4b71"
+        },
+        {
+          "project": "02-arrays",
+          "title": "Why an Expensive Move Can Still Be Cheap Overall #math #Shorts",
+          "url": "https://www.youtube.com/shorts/gwm7zKe6WDU",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M44S",
+          "export_sha256": "7c4357a0a61131c7d72e32ccc156d3f040f15f2733cbce404803cb6ef62fbfb0"
+        },
+        {
+          "project": "03-overlap",
+          "title": "The People Hidden in Two Overlapping Lists #math #Shorts",
+          "url": "https://www.youtube.com/shorts/bteUiWgSk8E",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M28S",
+          "export_sha256": "758ac8dae703bb9e39ce8a1104fe3f746d14976b52aa80dd2181e0ed6e659709"
+        },
+        {
+          "project": "04-response",
+          "title": "Learning a Group Pattern from Noisy Answers #math #Shorts",
+          "url": "https://www.youtube.com/shorts/n3qTIyF8R1w",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M46S",
+          "export_sha256": "6de47bd01c546719ec40f9e22719407d95b7a5ed9543e2116e47f50476bf00d6"
+        },
+        {
+          "project": "05-percent",
+          "title": "Why Equal Percentages Do Not Undo Each Other #math #Shorts",
+          "url": "https://www.youtube.com/shorts/ST4jdCYQ4jg",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M31S",
+          "export_sha256": "88b1b2777748028201ddd7850e9df0861cd190e145a7c227a81da31b10324fb0"
+        }
+      ]
+    },
+    {
+      "id": "arguments",
+      "videos": [
+        {
+          "project": "01-forecast",
+          "title": "A Score That Rewards Honest Uncertainty #math #Shorts",
+          "url": "https://www.youtube.com/shorts/mwJBQGJwG9Y",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M14S",
+          "export_sha256": "da88511b49b6f0b8bf3e276fb6a43f76dcafe1130dbf65a228f1ca5b2867a940"
+        },
+        {
+          "project": "02-nim",
+          "title": "The Binary Balance Hidden in Three Piles #math #Shorts",
+          "url": "https://www.youtube.com/shorts/c8uMkHhKtqA",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M21S",
+          "export_sha256": "438846b4042d2138784111872ba55f47ae5d10a09a6c1229be200aefa9340b3e"
+        },
+        {
+          "project": "03-diagonal",
+          "title": "The Sequence Missing from Every Infinite List #math #Shorts",
+          "url": "https://www.youtube.com/shorts/n_KDFsULeAs",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M12S",
+          "export_sha256": "266432a2f518692038a4a37af3084625858d192aa9546cc2aa6c01e9fc9d24cd"
+        },
+        {
+          "project": "04-bracket",
+          "title": "A Root Found by Keeping One Promise #math #Shorts",
+          "url": "https://www.youtube.com/shorts/GkirLgGKqVA",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M10S",
+          "export_sha256": "cdbb42c1605273674ae197ac4bb358a558e081a6303dce3834af75d03c10ef6f"
+        },
+        {
+          "project": "05-quadrature",
+          "title": "Why the Middle Measurement Counts Four Times #math #Shorts",
+          "url": "https://www.youtube.com/shorts/ahXvDo1wRKY",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M17S",
+          "export_sha256": "bf368de1402f247537791d5ea60767a89a8a272146ea920e627bb8794d7399a3"
+        }
+      ]
+    },
+    {
+      "id": "synthesis",
+      "videos": [
+        {
+          "project": "01-ensemble",
+          "title": "Why Averaging Predictions Can Reduce Squared Error #math #Shorts",
+          "url": "https://www.youtube.com/shorts/UH8ALX7OrVk",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M13S",
+          "export_sha256": "f76e476710ca19b9802d513ddcd8723bb137c197202d9e78b4a371a56650691c"
+        },
+        {
+          "project": "02-order",
+          "title": "The Same Two Operations Can Lead Somewhere Else #math #Shorts",
+          "url": "https://www.youtube.com/shorts/RnL2D5tlPDY",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M8S",
+          "export_sha256": "ce607664cafcb76f5bde2d70931ba55dde2969e43de8163b0926a745d9f17e05"
+        },
+        {
+          "project": "03-sums",
+          "title": "Why Seven Has Six Ways to Arrive #math #Shorts",
+          "url": "https://www.youtube.com/shorts/QD16nB5neAU",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M10S",
+          "export_sha256": "b2189330839263abbb642f1bcde83cc9a770b1b7f2f6a4370a2d6093cb2ba97e"
+        },
+        {
+          "project": "04-sampling",
+          "title": "Why a Rarely Seen Item Can Carry More Weight #math #Shorts",
+          "url": "https://www.youtube.com/shorts/Dk6o9A7DDE0",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M15S",
+          "export_sha256": "cb5dc7a512a510a0a36460b84a9d955c8bff512790fea10497fa590aa66c6ffb"
+        },
+        {
+          "project": "05-memory",
+          "title": "When Waiting Longer Does Not Bring Success Closer #math #Shorts",
+          "url": "https://www.youtube.com/shorts/8DgM19zXYLg",
+          "privacy": "public",
+          "processing": "succeeded",
+          "duration": "PT1M9S",
+          "export_sha256": "172aaaf8e223d7bec77b05a8327c45fa40c1dcd59a63158a034924b690838676"
+        }
+      ]
+    }
+  ]
+}

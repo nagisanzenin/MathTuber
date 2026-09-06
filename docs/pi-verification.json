@@ -9,6 +9,5 @@
     "real_bash_result": true,
     "two_model_requests": true
   },
-  "passed": true,
-  "stderr": ""
+  "passed": true
 }

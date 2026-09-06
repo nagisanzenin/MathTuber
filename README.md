@@ -81,42 +81,8 @@ The [workshop batch](docs/workshop-batch.md) includes five published examples, a
 
 The [mechanism batch and reflection](docs/mechanism-batch.md) adds five new public Shorts, continuous-scene source projects, local reference remakes, and workshop profile 0.2. The [concrete direction guide](docs/research/MECHANISM-DIRECTION.md) supplies reference frames and anti-examples. `publish_batch.py` checks all current technical and editorial reviews before the first upload.
 
-Earlier release: [five linked-representation Shorts and reflection](docs/linked-batch.md), with [research update](docs/research/LINKED-REPRESENTATIONS.md) and [editable examples](examples/linked).
+Latest release: [final synthesis batch](docs/synthesis-batch.md). [All release reports](docs/release-index.md).
 
-Earlier release: [five events Shorts and reflection](docs/events-batch.md), with [editable sources](examples/events).
+[Plugin handoff and known limits](docs/FINAL-READINESS.md) · [Current platform verification](docs/verification.md) · [Independent model evaluation protocol](docs/HANDOFF-EVALUATION.md).
 
-Earlier release: [five nature Shorts and reflection](docs/nature-batch.md), with [editable sources](examples/nature).
-
-Earlier release: [five motion Shorts and reflection](docs/motion-batch.md), with [editable sources](examples/motion).
-
-Earlier release: [five quiet Shorts and reflection](docs/quiet-batch.md), with [editable sources](examples/quiet).
-
-Earlier release: [five flow Shorts and reflection](docs/flow-batch.md), with [editable sources](examples/flow).
-
-Earlier release: [five everyday-object Shorts and reflection](docs/objects-batch.md), with [editable sources](examples/objects).
-
-Earlier release: [five meaningful-ending Shorts and reflection](docs/endings-batch.md), with [editable sources](examples/endings).
-
-Earlier release: [five focal-staging Shorts and reflection](docs/focal-batch.md), with [editable sources](examples/focal).
-
-Earlier release: [five material-presence Shorts and reflection](docs/material-batch.md), with [editable sources](examples/material).
-
-Earlier release: [five visible-reasoning Shorts and reflection](docs/reasoning-batch.md), with [editable sources](examples/reasoning).
-
-Earlier release: [five physical-context Shorts and reflection](docs/context-batch.md), with [editable sources](examples/context).
-
-Earlier release: [five acoustic Shorts and reflection](docs/listening-batch.md), with [editable sources](examples/listening).
-
-Earlier release: [five geometric-construction Shorts and reflection](docs/traces-batch.md), with [editable sources](examples/traces).
-
-Earlier release: [five patterns Shorts and reflection](docs/patterns-batch.md), with [editable sources](examples/patterns).
-
-Earlier release: [five mathematical observations Shorts and reflection](docs/observations-batch.md), with [editable sources](examples/observations).
-
-Earlier release: [five mathematical relationships Shorts and reflection](docs/relations-batch.md), with [editable sources](examples/relations).
-
-Earlier release: [five mathematical contrast Shorts and reflection](docs/contrasts-batch.md), with [editable sources](examples/contrasts).
-
-Earlier release: [five applications and reflection](docs/applications-batch.md), with [editable sources](examples/applications).
-
-Latest release: [five mathematical arguments and reflection](docs/arguments-batch.md), with [editable sources](examples/arguments).
+[Completed autonomous run: 20 cycles / 100 videos](docs/AUTONOMOUS-RUN.md).

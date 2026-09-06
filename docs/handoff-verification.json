@@ -1,5 +1,5 @@
 {
-  "commit": "0cf0d4f55f748bc7d19f28937d71a52adc1b517e",
+  "commit": "a6897c7dea120c28f1b7c0eebf8c55b0f35c6c86",
   "scope": "Clean tracked-file archive, generic skill install and cross-directory native media smoke on existing macOS shared runtime; not clean OS/bootstrap or real host-model test.",
   "checks": {
     "tracked_archive_only": true,
