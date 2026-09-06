@@ -69,6 +69,11 @@ for item in request["items"]:
         pauses = []
     if not np.isfinite(audio).all() or len(audio) == 0:
         raise ValueError("Invalid speech samples")
+    # Attenuate exceptional model peaks before integer PCM conversion clips them.
+    # Apply one gain to the whole scene; preserve timing, silence and dynamics.
+    input_peak = float(np.max(np.abs(audio)))
+    pcm_gain = min(1.0, .98 / input_peak) if input_peak else 1.0
+    audio = audio * pcm_gain
     # Add a short intentional breathing margin at the end.
     silence = np.zeros((int(rate * settings.get("tail_seconds", .25)),) + audio.shape[1:])
     audio = np.concatenate([audio, silence])
@@ -77,5 +82,6 @@ for item in request["items"]:
     tmp = path.with_suffix(".tmp.wav")
     sf.write(tmp, audio, rate, subtype="PCM_16")
     os.replace(tmp, path)
-    timing = {"method": "synthesis_predicted" if words else "unavailable", "words": words, "paragraph_pauses": pauses}
+    timing = {"method": "synthesis_predicted" if words else "unavailable", "words": words, "paragraph_pauses": pauses,
+              "pcm_headroom": {"input_peak": input_peak, "gain": pcm_gain, "peak_ceiling": .98}}
     path.with_suffix(".words.json").write_text(json.dumps(timing, indent=2))
