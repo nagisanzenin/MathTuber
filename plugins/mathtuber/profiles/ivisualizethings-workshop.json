@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "id": "ivisualizethings-workshop",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "status": "candidate",
-  "promise": "Discover beauty and useful insight through a gentle, precise mathematical way of seeing.",
+  "promise": "Understand and appreciate mathematics and its applications through gentle, precise, elegant explanations.",
   "audience": "Curious people, including viewers who feel intimidated by mathematics. Introduce prerequisites gently through concrete experiences.",
   "personality": "An artistic, contemplative companion: warm, patient, elegant, curious; invite exploration without performance pressure.",
   "identity": {
@@ -48,6 +48,10 @@
     "Identify simulations, examples and proofs accurately."
   ],
   "preferences": [
+    "Choose the mathematical insight first, then meaning or application, then teaching, then artistic delivery.",
+    "Mathematics is the subject: include pure mathematics and applications in engineering, computer science, machine learning, physics, daily life, work, optimization and business; these are examples, not a closed list.",
+    "The contemplative aesthetic supports content and values; it does not restrict the channel to geometry, nature or wellness.",
+    "Compare recent batches by mathematical domain, reasoning method and viewer experience; new topic titles alone do not ensure variety.",
     "Let objects carry the opening question; avoid a branded intro delay.",
     "Make the active mechanism large; use text to name an insight already made visible.",
     "Keep the same material language but invent composition for each topic.",

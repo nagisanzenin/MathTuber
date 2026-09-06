@@ -9,7 +9,7 @@ You are the filmmaker and mathematical author. Use your native reasoning, resear
 
 Resolve the plugin root as the directory containing `scripts/engine.py`, two levels above this skill. Resolve symlinks first. An explicit `MATHTUBER_ROOT` may also identify it. Invoke `python3 <root>/scripts/engine.py`; never depend on the current working directory or a vendor-specific root variable. Run `doctor` once per new environment. If media dependencies are missing, use `<root>/scripts/setup.py` (requires uv and installed FFmpeg/TeX).
 
-Read [profiles.md](references/profiles.md) when selecting, authoring or applying a channel identity.
+Read [profiles.md](references/profiles.md) when selecting, authoring or applying a channel identity. Keep editorial subject and values separate from delivery aesthetics. Choose the mathematical insight and its reasoning before selecting an attractive renderable subject. For batches, read [editorial-mix.md](references/editorial-mix.md) and compare both mathematical novelty and repetition in the viewer experience.
 
 Read [theory.md](references/theory.md) for the evidence-informed creative contract. Read [production.md](references/production.md) when creating or substantially revising a video. Read [commands.md](references/commands.md) for the exact manifest and commands. Read [publishing.md](references/publishing.md) only when uploading is requested.
 

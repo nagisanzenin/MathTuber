@@ -13,3 +13,5 @@ Iterate the key visual, explanation and script together. Prototype a consequenti
 A profile project review additionally records `profile_review` strings for identity, variation, exceptions and limitations. Describe evidence and departures; no numeric brand-fit score. Agent inspection does not measure audience recognition. Keep full-motion review and subjective listening coverage honest.
 
 The research and proposed viewer experiments are in repository docs/research/CHANNEL-PROFILES.md. Compare recognition, appeal and comprehension separately; real viewer testing is still needed.
+
+Keep subject scope and mathematical values distinct from delivery aesthetics. The bundled workshop profile applies its calm style across mathematics and applications, not only geometry. See [editorial-mix.md](editorial-mix.md) when planning a slate.

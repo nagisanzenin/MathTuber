@@ -1,11 +1,17 @@
-# A gentle mathematical way of seeing
+# Mathematics first, delivered with care
 
-The channel exists to inspire affection for mathematics: the joy of noticing a pattern, trying an idea, understanding a mechanism, and finding a useful perspective on the world. Its artistic direction is elegant, spacious and contemplative, crossing mathematics and science. This is a channel identity, not a promise of mental-health treatment or a claim to represent a religious tradition.
+The channel exists to inspire affection for mathematics: the joy of noticing a pattern, trying an idea, understanding a mechanism, and finding a useful perspective on the world. Mathematics is the subject, including its applications in engineering, computer science, machine learning, physics, daily life, work, optimization and business. The elegant, spacious, contemplative aesthetic is how we deliver that content and those values; it does not select or restrict the subject matter. This is a channel identity, not a promise of mental-health treatment or a claim to represent a religious tradition.
+
+## Editorial priorities
+
+Choose a worthwhile mathematical insight first, its meaning or application second, an understandable explanation third, and the artistic treatment in service of those choices. Pure mathematics needs no forced practical justification. Every film must answer: what mathematics will the viewer understand afterward, and what visible reasoning earns that understanding? A soothing message, attractive curve or generic life lesson alone is insufficient.
+
+Plan across mathematics, not only across geometry topics. Review recent batches by mathematical domain, reasoning method, application and viewer experience. Distinct theorems can still feel repetitive when their images and narrative moves are interchangeable. For the next five-film batch, deliberately span probability, statistics, discrete mathematics/computer science, algebra and optimization. This is a corrective editorial experiment, not a permanent equal-share quota or a restriction on channels with different scopes.
 
 ## Editorial commitments
 
 - Invite viewers into a small observation. A question is an invitation, not a timed test. Avoid “only geniuses”, “obvious”, “you failed”, and manufactured urgency.
-- Make the insight visible. Maintain exact geometry, readable relationships, and clear distinctions between an example, simulation, and proof.
+- Make the insight visible. Maintain exact mathematical quantities, readable relationships, and clear distinctions between an example, simulation, and proof.
 - Give the important transformation room. Use negative space, stable composition, restrained materials, and gentle motion; avoid tiny diagrams buried under text.
 - Let pauses serve noticing or reasoning. Do not stretch an unchanged frame just to seem peaceful.
 - Use a warm speaking voice, meaningful caption phrases, and restrained sound. Silence can carry an insight. Music is optional and never evidence of educational or therapeutic benefit.
@@ -24,4 +30,6 @@ The channel direction itself is an explicit creative preference. We do not need 
 
 For each film: What would a novice notice first? Where would I lose the reasoning? Does motion reveal a relationship? Does the voice welcome uncertainty? Is there a quiet moment of understanding? Does the ending change how I see something? Record observations separately from predicted viewer reactions.
 
-The authorized autonomous run is capped at twenty cycles including the current batch. Stop earlier if repeated, substantive attempts no longer produce meaningful improvements in correctness, novice clarity, artistic coherence, or production reliability. Document what was tried and the remaining limits. Do not declare perfection or use a subjective score as proof of audience impact. Publication requires actual review of each complete batch; the numerical cap is not a quota.
+The latest authorization is five additional cycles after the fourteen completed cycles: cycles fifteen through nineteen, five videos each. This replaces the earlier twenty-cycle cap. Finish with a plugin readiness review of portability, documentation, review fidelity and publication reliability; production volume alone does not establish project completion. Stop earlier if repeated, substantive attempts no longer produce meaningful improvements in correctness, novice clarity, artistic coherence, or production reliability. Document what was tried and the remaining limits. Do not declare perfection or use a subjective score as proof of audience impact. Publication requires actual review of each complete batch; the numerical cap is not a quota.
+
+Application areas are examples, not an exhaustive whitelist. Machine learning is explicitly in scope; biology, medicine, music, economics, games, social systems and other fields are welcome when a worthwhile mathematical relationship drives the explanation. Choose for insight and watchability, with accurate assumptions and evidence, rather than expanding into generic commentary about a field.
