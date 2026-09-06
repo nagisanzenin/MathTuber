@@ -14,7 +14,7 @@ class Film(Stage):
         curve=always_redraw(lambda:VMobject().set_points_as_corners([[x,value(x),0] for x in np.linspace(-3,3,401)]).set_stroke(INK,3));self.add(Line([-3.2,-.4,0],[3.2,-.4,0],color='#B6B39E',stroke_width=1),curve)
         status=always_redraw(lambda:self.label('all four present' if removed.get_value()<.01 else 'no 220 Hz component' if removed.get_value()>.99 else 'removing 220 Hz',[0,-3.4,0]).scale(.85));self.add(status)
         def compare(a,b):
-            removed.set_value(0);self.wait(self.listen(a));self.play(removed.animate.set_value(1),run_time=.4);self.wait(self.listen(b))
+            self.play(removed.animate.set_value(0),run_time=.35);self.wait(self.listen(a));self.play(removed.animate.set_value(1),run_time=.4);self.wait(self.listen(b))
         self.at('This sound contains');self.at('We will remove');self.at('The sound changes');compare('all','missing')
         self.at('The first mixture');self.play(removed.animate.set_value(0),run_time=.4);self.at('The second contains');self.play(removed.animate.set_value(1),run_time=.4);self.at('There is no');self.wait(.5)
         self.at('Yet its whole pattern');guides=VGroup(*[DashedLine([x,-1.8,0],[x,1.1,0],color=CORAL,stroke_width=2) for x in [-3,0,3]]);self.play(FadeIn(guides),run_time=.6)
