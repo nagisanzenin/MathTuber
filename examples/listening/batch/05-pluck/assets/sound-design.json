@@ -1,0 +1,53 @@
+{
+  "license": "Original synthesis; CC0",
+  "events": [],
+  "windows": [
+    {
+      "id": "middle",
+      "meaning": "First six modal displacement coefficients for pluck fraction 0.5",
+      "time": 9.75,
+      "duration": 2.5,
+      "fade_seconds": 0.05,
+      "tones": [
+        {
+          "frequency_hz": 220,
+          "amplitude": 0.09726833629664426
+        },
+        {
+          "frequency_hz": 660,
+          "amplitude": 0.010807592921849362
+        },
+        {
+          "frequency_hz": 1100,
+          "amplitude": 0.0038907334518657704
+        }
+      ]
+    },
+    {
+      "id": "third",
+      "meaning": "First six modal displacement coefficients for pluck fraction 0.3333333333333333",
+      "time": 47.175,
+      "duration": 2.5,
+      "fade_seconds": 0.05,
+      "tones": [
+        {
+          "frequency_hz": 220,
+          "amplitude": 0.09476645649383464
+        },
+        {
+          "frequency_hz": 440,
+          "amplitude": 0.023691614123458663
+        },
+        {
+          "frequency_hz": 880,
+          "amplitude": 0.005922903530864663
+        },
+        {
+          "frequency_hz": 1100,
+          "amplitude": 0.0037906582597533878
+        }
+      ]
+    }
+  ],
+  "subjective_listening": "Not established by synthesis or signal validation; record separately during review."
+}

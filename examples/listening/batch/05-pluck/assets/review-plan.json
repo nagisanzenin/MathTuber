@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Listen to a simple",
+      "end_cue": "A string has",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Midpoint synthetic mode weights and slowed string."
+    },
+    {
+      "id": "2",
+      "start_cue": "Now pluck one third",
+      "end_cue": "The allowed frequencies",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "New pluck selects different missing modes."
+    },
+    {
+      "id": "3",
+      "start_cue": "Here is the one-third",
+      "end_cue": "When that sine",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Tone mixture and modal coefficient selection."
+    }
+  ]
+}

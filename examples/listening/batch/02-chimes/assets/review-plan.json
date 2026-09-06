@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Here is a simple",
+      "end_cue": "These tubes bend",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Adjacent chime tones identify the moving subject."
+    },
+    {
+      "id": "2",
+      "start_cue": "The ends move",
+      "end_cue": "The shorter tube",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Bending nodes and inverse-square length relation."
+    },
+    {
+      "id": "3",
+      "start_cue": "Hear that comparison",
+      "end_cue": "A real chime",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Repeated side-by-side tone comparison."
+    }
+  ]
+}

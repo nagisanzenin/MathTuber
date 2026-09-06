@@ -1,0 +1,102 @@
+[
+  {
+    "id": "all",
+    "scene": "s01",
+    "paragraph_pause": 0,
+    "offset": 0.15,
+    "duration": 2.3,
+    "fade_seconds": 0.05,
+    "tones": [
+      {
+        "frequency_hz": 220,
+        "amplitude": 0.04
+      },
+      {
+        "frequency_hz": 440,
+        "amplitude": 0.04
+      },
+      {
+        "frequency_hz": 660,
+        "amplitude": 0.04
+      },
+      {
+        "frequency_hz": 880,
+        "amplitude": 0.04
+      }
+    ],
+    "meaning": "Same base repetition; components [1, 2, 3, 4]"
+  },
+  {
+    "id": "missing",
+    "scene": "s01",
+    "paragraph_pause": 0,
+    "offset": 3,
+    "duration": 2.3,
+    "fade_seconds": 0.05,
+    "tones": [
+      {
+        "frequency_hz": 440,
+        "amplitude": 0.046188021535170064
+      },
+      {
+        "frequency_hz": 660,
+        "amplitude": 0.046188021535170064
+      },
+      {
+        "frequency_hz": 880,
+        "amplitude": 0.046188021535170064
+      }
+    ],
+    "meaning": "Same base repetition; components [2, 3, 4]"
+  },
+  {
+    "id": "all-again",
+    "scene": "s01",
+    "paragraph_pause": 3,
+    "offset": 0.15,
+    "duration": 2.3,
+    "fade_seconds": 0.05,
+    "tones": [
+      {
+        "frequency_hz": 220,
+        "amplitude": 0.04
+      },
+      {
+        "frequency_hz": 440,
+        "amplitude": 0.04
+      },
+      {
+        "frequency_hz": 660,
+        "amplitude": 0.04
+      },
+      {
+        "frequency_hz": 880,
+        "amplitude": 0.04
+      }
+    ],
+    "meaning": "Same base repetition; components [1, 2, 3, 4]"
+  },
+  {
+    "id": "missing-again",
+    "scene": "s01",
+    "paragraph_pause": 3,
+    "offset": 3,
+    "duration": 2.3,
+    "fade_seconds": 0.05,
+    "tones": [
+      {
+        "frequency_hz": 440,
+        "amplitude": 0.046188021535170064
+      },
+      {
+        "frequency_hz": 660,
+        "amplitude": 0.046188021535170064
+      },
+      {
+        "frequency_hz": 880,
+        "amplitude": 0.046188021535170064
+      }
+    ],
+    "meaning": "Same base repetition; components [2, 3, 4]"
+  }
+]

@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "A Distance Hidden in a Quiet Gap",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A sound reaches the cliff and comes back.",
+        "The quiet gap between the two sounds contains a distance.",
+        "Listen to this one-second round trip.",
+        "The pulse has to travel both ways.",
+        "Half the waiting time belongs to the outward journey.",
+        "The other half belongs to the return.",
+        "At twenty degrees Celsius, the speed of sound is about three hundred and forty-three metres per second.",
+        "A one-second echo delay puts this cliff about one hundred and seventy-two metres away.",
+        "We divide by two because the sound covers the distance twice.",
+        "Move the listener halfway toward the same cliff.",
+        "The round trip is now half as long.",
+        "Hear how the reply arrives sooner.",
+        "Distance is sound speed times delay, divided by two.",
+        "This model keeps the air still and the source and cliff stationary during each pulse.",
+        "Our tones are synthetic markers, not field recordings.",
+        "Even a moment of waiting can tell us the shape of a place."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "For colocated stationary transmitter and receiver, reflector distance is half the product of sound speed and round-trip delay.",
+    "question": "What does the delay of an echo reveal about distance?",
+    "payoff": "For colocated stationary transmitter and receiver, reflector distance is half the product of sound speed and round-trip delay.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: flow/01-doppler: moving source changes wave spacing; objects/05-walk: harmonic average. Difference: Stationary pulse time of flight estimates geometric distance using two path legs, not moving-source pitch or unequal-speed averaging.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Physical acoustic subjects, explicit speech-free comparisons, equivalent visible mathematics; original vector geometry and analytic tones.",
+      "episode_variation": "Send and return one marker along the same measured path, then halve distance and delay.",
+      "exceptions": [
+        "Synthesis illustrates selected frequencies, not a recorded instrument.",
+        "Slowed vibration is explicitly labeled."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "What does the delay of an echo reveal about distance?",
+        "visual_action": "Send and return one marker along the same measured path, then halve distance and delay.",
+        "new_understanding": "For colocated stationary transmitter and receiver, reflector distance is half the product of sound speed and round-trip delay.",
+        "sound_intent": "Explicit listening windows in measured narration pauses; no music bed."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A sound reaches the cliff and comes back. The quiet gap between the two sounds contains a distance. Listen to this one-second round trip.\n\nThe pulse has to travel both ways. Half the waiting time belongs to the outward journey. The other half belongs to the return.\n\nAt twenty degrees Celsius, the speed of sound is about three hundred and forty-three metres per second. A one-second echo delay puts this cliff about one hundred and seventy-two metres away. We divide by two because the sound covers the distance twice.\n\nMove the listener halfway toward the same cliff. The round trip is now half as long. Hear how the reply arrives sooner.\n\nDistance is sound speed times delay, divided by two. This model keeps the air still and the source and cliff stationary during each pulse. Our tones are synthetic markers, not field recordings. Even a moment of waiting can tell us the shape of a place.",
+      "paragraph_pauses": [
+        1.6,
+        0.45,
+        0.45,
+        1.2
+      ]
+    }
+  ],
+  "sources": [
+    "https://openstax.org/books/college-physics-2e/pages/17-2-speed-of-sound-frequency-and-wavelength"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

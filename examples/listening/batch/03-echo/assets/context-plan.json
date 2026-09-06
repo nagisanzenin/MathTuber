@@ -1,0 +1,8 @@
+{
+  "physical_subject": "What does the delay of an echo reveal about distance?",
+  "relationship": "For colocated stationary transmitter and receiver, reflector distance is half the product of sound speed and round-trip delay.",
+  "operation": "Send and return one marker along the same measured path, then halve distance and delay.",
+  "closest_prior": "flow/01-doppler: moving source changes wave spacing; objects/05-walk: harmonic average",
+  "substantive_difference": "Stationary pulse time of flight estimates geometric distance using two path legs, not moving-source pitch or unequal-speed averaging.",
+  "sequence_is_editorial_hypothesis": true
+}

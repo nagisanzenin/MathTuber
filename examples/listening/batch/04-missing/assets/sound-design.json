@@ -1,0 +1,99 @@
+{
+  "license": "Original synthesis; CC0",
+  "events": [],
+  "windows": [
+    {
+      "id": "all",
+      "meaning": "Same base repetition; components [1, 2, 3, 4]",
+      "time": 10.5,
+      "duration": 2.3,
+      "fade_seconds": 0.05,
+      "tones": [
+        {
+          "frequency_hz": 220,
+          "amplitude": 0.04
+        },
+        {
+          "frequency_hz": 440,
+          "amplitude": 0.04
+        },
+        {
+          "frequency_hz": 660,
+          "amplitude": 0.04
+        },
+        {
+          "frequency_hz": 880,
+          "amplitude": 0.04
+        }
+      ]
+    },
+    {
+      "id": "missing",
+      "meaning": "Same base repetition; components [2, 3, 4]",
+      "time": 13.35,
+      "duration": 2.3,
+      "fade_seconds": 0.05,
+      "tones": [
+        {
+          "frequency_hz": 440,
+          "amplitude": 0.046188021535170064
+        },
+        {
+          "frequency_hz": 660,
+          "amplitude": 0.046188021535170064
+        },
+        {
+          "frequency_hz": 880,
+          "amplitude": 0.046188021535170064
+        }
+      ]
+    },
+    {
+      "id": "all-again",
+      "meaning": "Same base repetition; components [1, 2, 3, 4]",
+      "time": 59.3,
+      "duration": 2.3,
+      "fade_seconds": 0.05,
+      "tones": [
+        {
+          "frequency_hz": 220,
+          "amplitude": 0.04
+        },
+        {
+          "frequency_hz": 440,
+          "amplitude": 0.04
+        },
+        {
+          "frequency_hz": 660,
+          "amplitude": 0.04
+        },
+        {
+          "frequency_hz": 880,
+          "amplitude": 0.04
+        }
+      ]
+    },
+    {
+      "id": "missing-again",
+      "meaning": "Same base repetition; components [2, 3, 4]",
+      "time": 62.15,
+      "duration": 2.3,
+      "fade_seconds": 0.05,
+      "tones": [
+        {
+          "frequency_hz": 440,
+          "amplitude": 0.046188021535170064
+        },
+        {
+          "frequency_hz": 660,
+          "amplitude": 0.046188021535170064
+        },
+        {
+          "frequency_hz": 880,
+          "amplitude": 0.046188021535170064
+        }
+      ]
+    }
+  ],
+  "subjective_listening": "Not established by synthesis or signal validation; record separately during review."
+}

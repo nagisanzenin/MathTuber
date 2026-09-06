@@ -1,0 +1,52 @@
+[
+  {
+    "id": "middle",
+    "scene": "s01",
+    "paragraph_pause": 0,
+    "offset": 0.15,
+    "duration": 2.5,
+    "fade_seconds": 0.05,
+    "tones": [
+      {
+        "frequency_hz": 220,
+        "amplitude": 0.09726833629664426
+      },
+      {
+        "frequency_hz": 660,
+        "amplitude": 0.010807592921849362
+      },
+      {
+        "frequency_hz": 1100,
+        "amplitude": 0.0038907334518657704
+      }
+    ],
+    "meaning": "First six modal displacement coefficients for pluck fraction 0.5"
+  },
+  {
+    "id": "third",
+    "scene": "s01",
+    "paragraph_pause": 3,
+    "offset": 0.15,
+    "duration": 2.5,
+    "fade_seconds": 0.05,
+    "tones": [
+      {
+        "frequency_hz": 220,
+        "amplitude": 0.09476645649383464
+      },
+      {
+        "frequency_hz": 440,
+        "amplitude": 0.023691614123458663
+      },
+      {
+        "frequency_hz": 880,
+        "amplitude": 0.005922903530864663
+      },
+      {
+        "frequency_hz": 1100,
+        "amplitude": 0.0037906582597533878
+      }
+    ],
+    "meaning": "First six modal displacement coefficients for pluck fraction 0.3333333333333333"
+  }
+]

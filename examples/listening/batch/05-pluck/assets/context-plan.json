@@ -1,0 +1,8 @@
+{
+  "physical_subject": "Why can moving a pluck change timbre without changing the string tuning?",
+  "relationship": "Ideal triangular pluck modal coefficients include sin(n pi d/L), eliminating even modes at the midpoint and multiples of three at one third.",
+  "operation": "Change the triangular starting displacement from midpoint to one third; show the corresponding missing modes and hear a synthetic six-mode mixture.",
+  "closest_prior": "reasoning/05-waves: two-wave fixed nodes; old Fourier makes music title",
+  "substantive_difference": "Initial triangular displacement selects modal amplitudes while frequencies remain fixed. Central operation is changing pluck location, not forming standing nodes or arbitrary Fourier sums. Earlier Fourier transcript unavailable.",
+  "sequence_is_editorial_hypothesis": true
+}

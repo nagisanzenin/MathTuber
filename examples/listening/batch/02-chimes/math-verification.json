@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "method": "Independent analytical relationships and numerical boundary, periodicity or coefficient checks; rendered correspondence reviewed separately.",
+  "conditions": [
+    "Slender uniform free-free Euler-Bernoulli beams, same material and cross-section, selected lowest bending mode; f proportional to L^-2. Nodal support approximate. Deflections exaggerated/slowed; pure synthesized mode tone excludes full modal spectrum and decay."
+  ],
+  "checks": [
+    {
+      "name": "free-free characteristic",
+      "actual": 0.9999999999999847,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "end bending moment",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "end shear",
+      "actual": -7.105427357601002e-15,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "length ratio frequency",
+      "actual": 2.0000000000000004,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "node displacement",
+      "actual": 4.440892098500626e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "drawn approximate node",
+      "actual": 0.22415752270235764,
+      "expected": 0.2242,
+      "passed": true
+    },
+    {
+      "name": "node displacement",
+      "actual": -1.7763568394002505e-15,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "drawn approximate node",
+      "actual": 0.7758424772976418,
+      "expected": 0.7758,
+      "passed": true
+    }
+  ]
+}

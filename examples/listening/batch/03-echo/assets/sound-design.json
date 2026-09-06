@@ -1,0 +1,59 @@
+{
+  "license": "Original synthesis; CC0",
+  "events": [],
+  "windows": [
+    {
+      "id": "emit",
+      "meaning": "Emission marker",
+      "time": 10.15,
+      "duration": 0.08,
+      "fade_seconds": 0.01,
+      "tones": [
+        {
+          "frequency_hz": 660,
+          "amplitude": 0.12
+        }
+      ]
+    },
+    {
+      "id": "echo",
+      "meaning": "Same marker returns one second later",
+      "time": 11.15,
+      "duration": 0.08,
+      "fade_seconds": 0.01,
+      "tones": [
+        {
+          "frequency_hz": 660,
+          "amplitude": 0.065
+        }
+      ]
+    },
+    {
+      "id": "near-emit",
+      "meaning": "Closer emission",
+      "time": 47.1,
+      "duration": 0.08,
+      "fade_seconds": 0.01,
+      "tones": [
+        {
+          "frequency_hz": 660,
+          "amplitude": 0.12
+        }
+      ]
+    },
+    {
+      "id": "near-echo",
+      "meaning": "Half-distance return after half a second",
+      "time": 47.6,
+      "duration": 0.08,
+      "fade_seconds": 0.01,
+      "tones": [
+        {
+          "frequency_hz": 660,
+          "amplitude": 0.065
+        }
+      ]
+    }
+  ],
+  "subjective_listening": "Not established by synthesis or signal validation; record separately during review."
+}

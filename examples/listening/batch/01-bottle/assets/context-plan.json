@@ -1,0 +1,8 @@
+{
+  "physical_subject": "How does changing only the air volume change a bottle resonance?",
+  "relationship": "With fixed effective neck geometry, Helmholtz resonance frequency is proportional to inverse square root of cavity air volume.",
+  "operation": "Keep a neck visible while cavity air volume becomes one quarter; hear and see a doubled modeled frequency.",
+  "closest_prior": "quiet/02-oscillator: spring-circle rhythm; material/05-springs: connection stiffness",
+  "substantive_difference": "New compressible cavity and neck-inertia mechanism with inverse-root air-volume scaling; not projection or spring wiring.",
+  "sequence_is_editorial_hypothesis": true
+}

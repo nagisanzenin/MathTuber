@@ -1,0 +1,62 @@
+[
+  {
+    "id": "long",
+    "scene": "s01",
+    "paragraph_pause": 0,
+    "offset": 0.15,
+    "duration": 2.2,
+    "fade_seconds": 0.05,
+    "tones": [
+      {
+        "frequency_hz": 220,
+        "amplitude": 0.1
+      }
+    ],
+    "meaning": "Longer chime reference"
+  },
+  {
+    "id": "short",
+    "scene": "s01",
+    "paragraph_pause": 0,
+    "offset": 2.8,
+    "duration": 2.2,
+    "fade_seconds": 0.05,
+    "tones": [
+      {
+        "frequency_hz": 440,
+        "amplitude": 0.1
+      }
+    ],
+    "meaning": "Length divided by square root two"
+  },
+  {
+    "id": "long-again",
+    "scene": "s01",
+    "paragraph_pause": 3,
+    "offset": 0.15,
+    "duration": 2.2,
+    "fade_seconds": 0.05,
+    "tones": [
+      {
+        "frequency_hz": 220,
+        "amplitude": 0.1
+      }
+    ],
+    "meaning": "Adjacent replay longer chime"
+  },
+  {
+    "id": "short-again",
+    "scene": "s01",
+    "paragraph_pause": 3,
+    "offset": 2.8,
+    "duration": 2.2,
+    "fade_seconds": 0.05,
+    "tones": [
+      {
+        "frequency_hz": 440,
+        "amplitude": 0.1
+      }
+    ],
+    "meaning": "Adjacent replay shorter chime"
+  }
+]

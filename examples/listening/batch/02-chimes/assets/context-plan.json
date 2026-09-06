@@ -1,0 +1,8 @@
+{
+  "physical_subject": "Why does shortening a chime raise its bending frequency strongly?",
+  "relationship": "At fixed material and cross-section, corresponding slender free-free beam bending frequencies scale as inverse length squared.",
+  "operation": "Hear adjacent ideal modal tones while exact free-free beam shapes and unequal lengths remain visible.",
+  "closest_prior": "reasoning/05-waves: fixed nodes of counterpropagating waves; old Chladni title",
+  "substantive_difference": "Beam flexural dispersion and inverse-square length scaling differ from string interference or plate patterns.",
+  "sequence_is_editorial_hypothesis": true
+}

@@ -1,0 +1,8 @@
+{
+  "physical_subject": "Can a pitch remain when its matching spectral component is absent?",
+  "relationship": "A mixture of 440, 660 and 880 Hz repeats at 220 Hz despite lacking a 220 Hz component, and can evoke a missing-fundamental pitch.",
+  "operation": "Remove the first of four components while preserving a waveform period; compare adjacent synthesized mixtures and distinguish physical frequencies from perceived pitch.",
+  "closest_prior": "old Fourier makes music title; objects/01-beats",
+  "substantive_difference": "Central operation removes a spectral fundamental while preserving period and separates perception from component presence; not generic Fourier construction or nearby-frequency beating. Earlier Fourier transcript unavailable.",
+  "sequence_is_editorial_hypothesis": true
+}

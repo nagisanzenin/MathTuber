@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Listen before",
+      "end_cue": "The air near",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Reference tone and slowly moving neck air."
+    },
+    {
+      "id": "2",
+      "start_cue": "Keep the neck",
+      "end_cue": "These are synthesized",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Cavity volume changes while neck remains fixed."
+    },
+    {
+      "id": "3",
+      "start_cue": "Hear the larger",
+      "end_cue": "It assumes small",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Second tone and inverse-square-root comparison."
+    }
+  ]
+}

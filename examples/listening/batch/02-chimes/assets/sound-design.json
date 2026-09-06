@@ -1,0 +1,59 @@
+{
+  "license": "Original synthesis; CC0",
+  "events": [],
+  "windows": [
+    {
+      "id": "long",
+      "meaning": "Longer chime reference",
+      "time": 10.025,
+      "duration": 2.2,
+      "fade_seconds": 0.05,
+      "tones": [
+        {
+          "frequency_hz": 220,
+          "amplitude": 0.1
+        }
+      ]
+    },
+    {
+      "id": "short",
+      "meaning": "Length divided by square root two",
+      "time": 12.675,
+      "duration": 2.2,
+      "fade_seconds": 0.05,
+      "tones": [
+        {
+          "frequency_hz": 440,
+          "amplitude": 0.1
+        }
+      ]
+    },
+    {
+      "id": "long-again",
+      "meaning": "Adjacent replay longer chime",
+      "time": 52.1,
+      "duration": 2.2,
+      "fade_seconds": 0.05,
+      "tones": [
+        {
+          "frequency_hz": 220,
+          "amplitude": 0.1
+        }
+      ]
+    },
+    {
+      "id": "short-again",
+      "meaning": "Adjacent replay shorter chime",
+      "time": 54.75,
+      "duration": 2.2,
+      "fade_seconds": 0.05,
+      "tones": [
+        {
+          "frequency_hz": 440,
+          "amplitude": 0.1
+        }
+      ]
+    }
+  ],
+  "subjective_listening": "Not established by synthesis or signal validation; record separately during review."
+}

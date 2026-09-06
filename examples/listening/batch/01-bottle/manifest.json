@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Note Inside an Empty Space",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "An empty bottle has a note hidden in its air.",
+        "This gentle tone represents one possible resonance.",
+        "Listen before we change the space inside.",
+        "The air near the neck moves like a small mass.",
+        "The air in the body compresses and pushes back.",
+        "Together, they behave rather like a spring and a weight.",
+        "Keep the neck the same, and add water below it.",
+        "The remaining air is harder to compress by the same amount.",
+        "When only a quarter of the air volume remains, the resonance frequency doubles.",
+        "Here, two hundred and twenty vibrations per second become four hundred and forty.",
+        "These are synthesized tones, not recordings of the bottle.",
+        "Hear the larger space, then the smaller one.",
+        "The rule is an inverse square root: frequency grows as air volume shrinks.",
+        "It assumes small vibrations and a bottle much smaller than the sound wavelength.",
+        "Real neck shape and losses matter too.",
+        "A little empty space can have a voice of its own."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "With fixed effective neck geometry, Helmholtz resonance frequency is proportional to inverse square root of cavity air volume.",
+    "question": "How does changing only the air volume change a bottle resonance?",
+    "payoff": "With fixed effective neck geometry, Helmholtz resonance frequency is proportional to inverse square root of cavity air volume.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: quiet/02-oscillator: spring-circle rhythm; material/05-springs: connection stiffness. Difference: New compressible cavity and neck-inertia mechanism with inverse-root air-volume scaling; not projection or spring wiring.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Physical acoustic subjects, explicit speech-free comparisons, equivalent visible mathematics; original vector geometry and analytic tones.",
+      "episode_variation": "Keep a neck visible while cavity air volume becomes one quarter; hear and see a doubled modeled frequency.",
+      "exceptions": [
+        "Synthesis illustrates selected frequencies, not a recorded instrument.",
+        "Slowed vibration is explicitly labeled."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How does changing only the air volume change a bottle resonance?",
+        "visual_action": "Keep a neck visible while cavity air volume becomes one quarter; hear and see a doubled modeled frequency.",
+        "new_understanding": "With fixed effective neck geometry, Helmholtz resonance frequency is proportional to inverse square root of cavity air volume.",
+        "sound_intent": "Explicit listening windows in measured narration pauses; no music bed."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "An empty bottle has a note hidden in its air. This gentle tone represents one possible resonance. Listen before we change the space inside.\n\nThe air near the neck moves like a small mass. The air in the body compresses and pushes back. Together, they behave rather like a spring and a weight.\n\nKeep the neck the same, and add water below it. The remaining air is harder to compress by the same amount. When only a quarter of the air volume remains, the resonance frequency doubles.\n\nHere, two hundred and twenty vibrations per second become four hundred and forty. These are synthesized tones, not recordings of the bottle. Hear the larger space, then the smaller one.\n\nThe rule is an inverse square root: frequency grows as air volume shrinks. It assumes small vibrations and a bottle much smaller than the sound wavelength. Real neck shape and losses matter too. A little empty space can have a voice of its own.",
+      "paragraph_pauses": [
+        2.9,
+        0.45,
+        0.45,
+        6.3
+      ]
+    }
+  ],
+  "sources": [
+    "https://phys.unsw.edu.au/jw/Helmholtz.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

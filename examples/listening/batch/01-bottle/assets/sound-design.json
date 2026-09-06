@@ -1,0 +1,46 @@
+{
+  "license": "Original synthesis; CC0",
+  "events": [],
+  "windows": [
+    {
+      "id": "full",
+      "meaning": "Reference resonance at air volume V",
+      "time": 10.75,
+      "duration": 2.5,
+      "fade_seconds": 0.05,
+      "tones": [
+        {
+          "frequency_hz": 220,
+          "amplitude": 0.1
+        }
+      ]
+    },
+    {
+      "id": "return-full",
+      "meaning": "Adjacent reference before quarter-volume comparison",
+      "time": 50.75,
+      "duration": 2.5,
+      "fade_seconds": 0.05,
+      "tones": [
+        {
+          "frequency_hz": 220,
+          "amplitude": 0.1
+        }
+      ]
+    },
+    {
+      "id": "quarter",
+      "meaning": "Quarter volume doubles resonance",
+      "time": 54.050000000000004,
+      "duration": 2.5,
+      "fade_seconds": 0.05,
+      "tones": [
+        {
+          "frequency_hz": 440,
+          "amplitude": 0.1
+        }
+      ]
+    }
+  ],
+  "subjective_listening": "Not established by synthesis or signal validation; record separately during review."
+}

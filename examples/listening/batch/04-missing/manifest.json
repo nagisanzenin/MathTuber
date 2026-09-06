@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Pitch That Can Outlive Its Lowest Tone",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "This sound contains four separate frequencies.",
+        "We will remove the lowest one.",
+        "The sound changes color, but you may still hear a similar low pitch.",
+        "The first mixture includes two hundred and twenty hertz, and three higher multiples.",
+        "The second contains only four hundred and forty, six hundred and sixty, and eight hundred and eighty.",
+        "There is no two hundred and twenty hertz tone in that second mixture.",
+        "Yet its whole pattern still repeats two hundred and twenty times each second.",
+        "Two, three, and four vibrations all fit into the same repeating interval.",
+        "Our sense of pitch can follow that shared repetition.",
+        "This is called the missing fundamental.",
+        "It separates the frequencies physically present from the pitch a listener may perceive.",
+        "Compare the two mixtures once more.",
+        "The shapes differ, but their repeating interval is the same.",
+        "Listeners and playback systems can change how convincing this sounds.",
+        "You do not have to hear the effect to follow the pattern.",
+        "Sometimes a relationship remains even after one part is taken away."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "A mixture of 440, 660 and 880 Hz repeats at 220 Hz despite lacking a 220 Hz component, and can evoke a missing-fundamental pitch.",
+    "question": "Can a pitch remain when its matching spectral component is absent?",
+    "payoff": "A mixture of 440, 660 and 880 Hz repeats at 220 Hz despite lacking a 220 Hz component, and can evoke a missing-fundamental pitch.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: old Fourier makes music title; objects/01-beats. Difference: Central operation removes a spectral fundamental while preserving period and separates perception from component presence; not generic Fourier construction or nearby-frequency beating. Earlier Fourier transcript unavailable.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Physical acoustic subjects, explicit speech-free comparisons, equivalent visible mathematics; original vector geometry and analytic tones.",
+      "episode_variation": "Remove the first of four components while preserving a waveform period; compare adjacent synthesized mixtures and distinguish physical frequencies from perceived pitch.",
+      "exceptions": [
+        "Synthesis illustrates selected frequencies, not a recorded instrument.",
+        "Slowed vibration is explicitly labeled."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Can a pitch remain when its matching spectral component is absent?",
+        "visual_action": "Remove the first of four components while preserving a waveform period; compare adjacent synthesized mixtures and distinguish physical frequencies from perceived pitch.",
+        "new_understanding": "A mixture of 440, 660 and 880 Hz repeats at 220 Hz despite lacking a 220 Hz component, and can evoke a missing-fundamental pitch.",
+        "sound_intent": "Explicit listening windows in measured narration pauses; no music bed."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "This sound contains four separate frequencies. We will remove the lowest one. The sound changes color, but you may still hear a similar low pitch.\n\nThe first mixture includes two hundred and twenty hertz, and three higher multiples. The second contains only four hundred and forty, six hundred and sixty, and eight hundred and eighty. There is no two hundred and twenty hertz tone in that second mixture.\n\nYet its whole pattern still repeats two hundred and twenty times each second. Two, three, and four vibrations all fit into the same repeating interval. Our sense of pitch can follow that shared repetition.\n\nThis is called the missing fundamental. It separates the frequencies physically present from the pitch a listener may perceive. Compare the two mixtures once more.\n\nThe shapes differ, but their repeating interval is the same. Listeners and playback systems can change how convincing this sounds. You do not have to hear the effect to follow the pattern. Sometimes a relationship remains even after one part is taken away.",
+      "paragraph_pauses": [
+        5.6,
+        0.45,
+        0.45,
+        5.6
+      ]
+    }
+  ],
+  "sources": [
+    "https://phys.unsw.edu.au/jw/musFAQ.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

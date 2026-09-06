@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Listen to this",
+      "end_cue": "The pulse has",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "One-second visual and audible round trip."
+    },
+    {
+      "id": "2",
+      "start_cue": "Half the waiting",
+      "end_cue": "We divide by two",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Two path legs and approximate distance."
+    },
+    {
+      "id": "3",
+      "start_cue": "Move the listener",
+      "end_cue": "Distance is sound",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Half-distance echo arrives after half a second."
+    }
+  ]
+}

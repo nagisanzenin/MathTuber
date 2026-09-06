@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "method": "Independent analytical relationships and numerical boundary, periodicity or coefficient checks; rendered correspondence reviewed separately.",
+  "conditions": [
+    "Stationary colocated source/receiver and cliff for each pulse, still uniform air at about20C, sound speed343m/s. Approximate displayed ranges172m and86m are rounded. Synthetic short-tone markers and bead stand for a pulse, not resolved pressure or a recording. Return gain illustrative, not a spreading calculation."
+  ],
+  "checks": [
+    {
+      "name": "one-second range",
+      "actual": 171.5,
+      "expected": 171.5,
+      "passed": true
+    },
+    {
+      "name": "half-second range",
+      "actual": 85.75,
+      "expected": 85.75,
+      "passed": true
+    },
+    {
+      "name": "first screen pulse speed",
+      "actual": 9.6,
+      "expected": 9.6,
+      "passed": true
+    },
+    {
+      "name": "second screen pulse speed",
+      "actual": 9.6,
+      "expected": 9.6,
+      "passed": true
+    }
+  ]
+}

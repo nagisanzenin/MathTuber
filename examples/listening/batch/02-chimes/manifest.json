@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "A Small Cut Changes the Song",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Two wind chimes share the same material and thickness.",
+        "One is shorter, and its bending note is higher.",
+        "Here is a simple tone for each chime.",
+        "These tubes bend sideways when struck.",
+        "The ends move, while two places along each tube barely move.",
+        "We show that bending slowly so its shape is visible.",
+        "For this ideal beam model, frequency follows one divided by length squared.",
+        "Make the length about seventy-one percent as large, and the frequency doubles.",
+        "The shorter tube is not half as long.",
+        "Here the lengths differ by a factor of the square root of two.",
+        "Their modeled notes are two hundred and twenty, and four hundred and forty hertz.",
+        "Hear that comparison again.",
+        "These pure tones represent the lowest bending mode.",
+        "A real chime adds other modes and a changing decay.",
+        "The rule assumes slender tubes with the same material and cross-section.",
+        "A small change in length can make a larger change in the sound."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "At fixed material and cross-section, corresponding slender free-free beam bending frequencies scale as inverse length squared.",
+    "question": "Why does shortening a chime raise its bending frequency strongly?",
+    "payoff": "At fixed material and cross-section, corresponding slender free-free beam bending frequencies scale as inverse length squared.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: reasoning/05-waves: fixed nodes of counterpropagating waves; old Chladni title. Difference: Beam flexural dispersion and inverse-square length scaling differ from string interference or plate patterns.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Physical acoustic subjects, explicit speech-free comparisons, equivalent visible mathematics; original vector geometry and analytic tones.",
+      "episode_variation": "Hear adjacent ideal modal tones while exact free-free beam shapes and unequal lengths remain visible.",
+      "exceptions": [
+        "Synthesis illustrates selected frequencies, not a recorded instrument.",
+        "Slowed vibration is explicitly labeled."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why does shortening a chime raise its bending frequency strongly?",
+        "visual_action": "Hear adjacent ideal modal tones while exact free-free beam shapes and unequal lengths remain visible.",
+        "new_understanding": "At fixed material and cross-section, corresponding slender free-free beam bending frequencies scale as inverse length squared.",
+        "sound_intent": "Explicit listening windows in measured narration pauses; no music bed."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Two wind chimes share the same material and thickness. One is shorter, and its bending note is higher. Here is a simple tone for each chime.\n\nThese tubes bend sideways when struck. The ends move, while two places along each tube barely move. We show that bending slowly so its shape is visible.\n\nFor this ideal beam model, frequency follows one divided by length squared. Make the length about seventy-one percent as large, and the frequency doubles. The shorter tube is not half as long.\n\nHere the lengths differ by a factor of the square root of two. Their modeled notes are two hundred and twenty, and four hundred and forty hertz. Hear that comparison again.\n\nThese pure tones represent the lowest bending mode. A real chime adds other modes and a changing decay. The rule assumes slender tubes with the same material and cross-section. A small change in length can make a larger change in the sound.",
+      "paragraph_pauses": [
+        5.3,
+        0.45,
+        0.45,
+        5.3
+      ]
+    }
+  ],
+  "sources": [
+    "https://acoustics.org/2psa9-acoustic-transients-from-the-impact-force-excitation-of-beams-and-wind-chimes-peter-stepanishen/"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

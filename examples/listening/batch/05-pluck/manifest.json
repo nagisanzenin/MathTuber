@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Where a Small Gesture Begins",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "The same string can sound different depending on where we pluck it.",
+        "Its length and tension have not changed.",
+        "Listen to a simple midpoint pluck.",
+        "A string has many possible vibration patterns.",
+        "The starting shape decides how strongly each one joins the motion.",
+        "A midpoint pluck leaves out the even-numbered modes.",
+        "Now pluck one third of the way along.",
+        "Modes three, six, and nine drop out instead.",
+        "Their pattern has a still point exactly where this ideal pluck begins.",
+        "The allowed frequencies stay the same.",
+        "What changes is their share in the mixture.",
+        "Here is the one-third pluck, using the first six modeled modes.",
+        "Mathematically, each share includes the sine of mode number times pi times the pluck fraction.",
+        "When that sine is zero, that mode is absent.",
+        "Real strings and instrument bodies add more detail than these synthesized illustrations.",
+        "Where a small gesture begins can change the character of the whole sound."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Ideal triangular pluck modal coefficients include sin(n pi d/L), eliminating even modes at the midpoint and multiples of three at one third.",
+    "question": "Why can moving a pluck change timbre without changing the string tuning?",
+    "payoff": "Ideal triangular pluck modal coefficients include sin(n pi d/L), eliminating even modes at the midpoint and multiples of three at one third.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: reasoning/05-waves: two-wave fixed nodes; old Fourier makes music title. Difference: Initial triangular displacement selects modal amplitudes while frequencies remain fixed. Central operation is changing pluck location, not forming standing nodes or arbitrary Fourier sums. Earlier Fourier transcript unavailable.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Physical acoustic subjects, explicit speech-free comparisons, equivalent visible mathematics; original vector geometry and analytic tones.",
+      "episode_variation": "Change the triangular starting displacement from midpoint to one third; show the corresponding missing modes and hear a synthetic six-mode mixture.",
+      "exceptions": [
+        "Synthesis illustrates selected frequencies, not a recorded instrument.",
+        "Slowed vibration is explicitly labeled."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why can moving a pluck change timbre without changing the string tuning?",
+        "visual_action": "Change the triangular starting displacement from midpoint to one third; show the corresponding missing modes and hear a synthetic six-mode mixture.",
+        "new_understanding": "Ideal triangular pluck modal coefficients include sin(n pi d/L), eliminating even modes at the midpoint and multiples of three at one third.",
+        "sound_intent": "Explicit listening windows in measured narration pauses; no music bed."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "The same string can sound different depending on where we pluck it. Its length and tension have not changed. Listen to a simple midpoint pluck.\n\nA string has many possible vibration patterns. The starting shape decides how strongly each one joins the motion. A midpoint pluck leaves out the even-numbered modes.\n\nNow pluck one third of the way along. Modes three, six, and nine drop out instead. Their pattern has a still point exactly where this ideal pluck begins.\n\nThe allowed frequencies stay the same. What changes is their share in the mixture. Here is the one-third pluck, using the first six modeled modes.\n\nMathematically, each share includes the sine of mode number times pi times the pluck fraction. When that sine is zero, that mode is absent. Real strings and instrument bodies add more detail than these synthesized illustrations. Where a small gesture begins can change the character of the whole sound.",
+      "paragraph_pauses": [
+        2.9,
+        0.45,
+        0.45,
+        2.9
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.acs.psu.edu/drussell/Demos/Pluck-Fourier/Pluck-Fourier.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

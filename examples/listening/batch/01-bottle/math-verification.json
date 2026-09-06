@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "method": "Independent analytical relationships and numerical boundary, periodicity or coefficient checks; rendered correspondence reviewed separately.",
+  "conditions": [
+    "Small-amplitude lumped Helmholtz cavity, fixed effective neck length and area, cavity dimensions much smaller than wavelength; losses neglected. Bottle is labeled schematic, water level illustrates cavity-volume change rather than calibrated vessel volume. Neck vibration is illustrative slow motion, not literal acoustic speed. Tones represent selected resonances, not a recorded bottle."
+  ],
+  "checks": [
+    {
+      "name": "reference resonance",
+      "actual": 219.99999999999997,
+      "expected": 220.0,
+      "passed": true
+    },
+    {
+      "name": "quarter volume resonance",
+      "actual": 439.99999999999994,
+      "expected": 440.0,
+      "passed": true
+    },
+    {
+      "name": "stiffness ratio for fixed displaced volume",
+      "actual": 4.0,
+      "expected": 4.0,
+      "passed": true
+    }
+  ]
+}

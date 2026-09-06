@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "method": "Independent analytical relationships and numerical boundary, periodicity or coefficient checks; rendered correspondence reviewed separately.",
+  "conditions": [
+    "Exact periodic sine mixture, integer multiples2,3,4 of220Hz. Finite playback windows have fade-related spectral leakage; absent fundamental refers to the analytic carrier mixture. Missing-fundamental pitch is a possible percept, not guaranteed for each listener or playback system. Visible waveform and audible mix normalized consistently at both endpoint states."
+  ],
+  "checks": [
+    {
+      "name": "periodicity error",
+      "actual": 2.348121697082206e-14,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "220Hz Fourier component",
+      "actual": 8.326672684688674e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "GCD frequency",
+      "actual": 220.0,
+      "expected": 220.0,
+      "passed": true
+    }
+  ]
+}

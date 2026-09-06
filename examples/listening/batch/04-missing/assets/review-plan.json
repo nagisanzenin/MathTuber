@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "The sound changes",
+      "end_cue": "The first mixture",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Adjacent mixtures with and without first component."
+    },
+    {
+      "id": "2",
+      "start_cue": "There is no",
+      "end_cue": "Our sense of pitch",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Missing spectral component and repeated waveform interval."
+    },
+    {
+      "id": "3",
+      "start_cue": "Compare the two",
+      "end_cue": "Listeners and playback",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Replay and period comparison without requiring a perceptual response."
+    }
+  ]
+}

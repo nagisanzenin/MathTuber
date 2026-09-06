@@ -1,0 +1,213 @@
+{
+  "passed": true,
+  "method": "Independent analytical relationships and numerical boundary, periodicity or coefficient checks; rendered correspondence reviewed separately.",
+  "conditions": [
+    "Ideal fixed string, small transverse triangular initial displacement and release from rest. Tension and length fixed. Visual motion uses12 modes; audible illustration uses first6 coefficient magnitudes, with common sine phases rather than a literal pickup recording. Missing modes and frequency weights preserved; real radiation, pickup transfer, stiffness and body resonances excluded."
+  ],
+  "checks": [
+    {
+      "name": "pluck integral r0.5000 n1",
+      "actual": 0.8105694691387022,
+      "expected": 0.8105694691553689,
+      "passed": true
+    },
+    {
+      "name": "pluck integral r0.5000 n2",
+      "actual": 2.4816532646682024e-17,
+      "expected": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "name": "absent r0.5000 n2",
+      "actual": 2.4816532646682024e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "pluck integral r0.5000 n3",
+      "actual": -0.09006327434874468,
+      "expected": -0.09006327436541138,
+      "passed": true
+    },
+    {
+      "name": "pluck integral r0.5000 n4",
+      "actual": -1.2408266323341012e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "absent r0.5000 n4",
+      "actual": -1.2408266323341012e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "pluck integral r0.5000 n5",
+      "actual": 0.03242277876554809,
+      "expected": 0.032422778782214744,
+      "passed": true
+    },
+    {
+      "name": "pluck integral r0.5000 n6",
+      "actual": 8.272177548894008e-18,
+      "expected": 1.3877787807814457e-17,
+      "passed": true
+    },
+    {
+      "name": "absent r0.5000 n6",
+      "actual": 8.272177548894008e-18,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "pluck integral r0.5000 n7",
+      "actual": -0.01654223406405515,
+      "expected": -0.016542234080721828,
+      "passed": true
+    },
+    {
+      "name": "pluck integral r0.5000 n8",
+      "actual": -6.204133161670506e-18,
+      "expected": -2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "name": "absent r0.5000 n8",
+      "actual": -6.204133161670506e-18,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "pluck integral r0.5000 n9",
+      "actual": 0.010007030483193855,
+      "expected": 0.010007030499860532,
+      "passed": true
+    },
+    {
+      "name": "pluck integral r0.5000 n10",
+      "actual": 4.963306529336405e-18,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "absent r0.5000 n10",
+      "actual": 4.963306529336405e-18,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "pluck integral r0.5000 n11",
+      "actual": -0.006698921232551258,
+      "expected": -0.006698921249217952,
+      "passed": true
+    },
+    {
+      "name": "pluck integral r0.5000 n12",
+      "actual": -4.136088774447004e-18,
+      "expected": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "name": "absent r0.5000 n12",
+      "actual": -4.136088774447004e-18,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "pluck integral r0.3333 n1",
+      "actual": 0.7897204707819554,
+      "expected": 0.7897204707765427,
+      "passed": true
+    },
+    {
+      "name": "pluck integral r0.3333 n2",
+      "actual": 0.19743011769548888,
+      "expected": 0.19743011769007623,
+      "passed": true
+    },
+    {
+      "name": "pluck integral r0.3333 n3",
+      "actual": 1.240826632334101e-17,
+      "expected": -1.249000902703301e-16,
+      "passed": true
+    },
+    {
+      "name": "absent r0.3333 n3",
+      "actual": 1.240826632334101e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "pluck integral r0.3333 n4",
+      "actual": -0.0493575294238722,
+      "expected": -0.049357529418459625,
+      "passed": true
+    },
+    {
+      "name": "pluck integral r0.3333 n5",
+      "actual": -0.03158881883127823,
+      "expected": -0.03158881882586548,
+      "passed": true
+    },
+    {
+      "name": "pluck integral r0.3333 n6",
+      "actual": -6.204133161670505e-18,
+      "expected": 2.498001805406602e-16,
+      "passed": true
+    },
+    {
+      "name": "absent r0.3333 n6",
+      "actual": -6.204133161670505e-18,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "pluck integral r0.3333 n7",
+      "actual": 0.016116744301672557,
+      "expected": 0.01611674429626004,
+      "passed": true
+    },
+    {
+      "name": "pluck integral r0.3333 n8",
+      "actual": 0.012339382355968062,
+      "expected": 0.012339382350555261,
+      "passed": true
+    },
+    {
+      "name": "pluck integral r0.3333 n9",
+      "actual": 4.136088774447004e-18,
+      "expected": -3.95516952522712e-16,
+      "passed": true
+    },
+    {
+      "name": "absent r0.3333 n9",
+      "actual": 4.136088774447004e-18,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "pluck integral r0.3333 n10",
+      "actual": -0.007897204707819547,
+      "expected": -0.007897204702407103,
+      "passed": true
+    },
+    {
+      "name": "pluck integral r0.3333 n11",
+      "actual": -0.006526615461007907,
+      "expected": -0.00652661545559503,
+      "passed": true
+    },
+    {
+      "name": "pluck integral r0.3333 n12",
+      "actual": -3.1020665808352526e-18,
+      "expected": 5.273559366969494e-16,
+      "passed": true
+    },
+    {
+      "name": "absent r0.3333 n12",
+      "actual": -3.1020665808352526e-18,
+      "expected": 0.0,
+      "passed": true
+    }
+  ]
+}
