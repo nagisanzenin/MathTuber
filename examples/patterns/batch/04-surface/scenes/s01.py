@@ -1,0 +1,25 @@
+from scenes._shared.design import *
+class Film(Stage):
+    def construct(self):
+        TEAL=self.palette['primary'];CORAL=self.palette['secondary'];INK=self.palette['ink'];R=2.65;H=2.7;phi=ValueTracker(PI/3);yaw=ValueTracker(.15)
+        def xyz(t,z):return np.array([R*np.cos(t),R*np.sin(t),z])
+        def proj(p):
+         x,y,z=p;c=np.cos(yaw.get_value());s=np.sin(yaw.get_value());return np.array([x*c-y*s,z+.24*(x*s+y*c)+.7,0])
+        def hoop(z):return VMobject(stroke_color='#A88E65',stroke_width=8).set_points_as_corners([proj(xyz(t,z)) for t in np.linspace(0,TAU,181)])
+        def wire(t,color=TEAL,width=2):return Line(proj(xyz(t,-H)),proj(xyz(t+phi.get_value(),H)),color=color,stroke_width=width)
+        def sculpture():return VGroup(hoop(-H),*[wire(t) for t in np.linspace(0,TAU,48,endpoint=False)],hoop(H))
+        shape=always_redraw(sculpture);self.add(shape);selected=always_redraw(lambda:wire(.5,CORAL,5));self.add(selected)
+        self.at('This curved shape');self.play(yaw.animate.set_value(.5),run_time=2.3,rate_func=smooth);self.at('Each line joins');self.at('The lines are straight');self.play(yaw.animate.set_value(.8),run_time=2.8,rate_func=smooth)
+        self.at('Let the upper');self.play(phi.animate.set_value(2*PI/3),run_time=3,rate_func=smooth);self.at('Each line follows');self.at('Together they');label=self.label('straight lines · curved surface',[0,-3.6,0],role='claim');self.play(FadeIn(label),run_time=.4);self.at('We are redrawing')
+        self.at('Look down from above');shape.clear_updaters();selected.clear_updaters();self.play(FadeOut(VGroup(shape,selected,label)),run_time=.6)
+        O=np.array([0,.65,0]);circle=Circle(radius=R,color='#A88E65',stroke_width=6).move_to(O);A=O+R*np.array([np.cos(-PI/3),np.sin(-PI/3),0]);B=O+R*np.array([np.cos(PI/3),np.sin(PI/3),0]);M=(A+B)/2;chord=Line(A,B,color=CORAL,stroke_width=5);dots=VGroup(*[Dot(p,radius=.085,color=INK) for p in (O,A,B)]);self.add(circle,chord,dots);label=self.label('view from above',[0,4.55,0],role='claim');self.play(FadeIn(label),run_time=.3)
+        self.at('Its endpoints lie');self.at('Halfway up');mid=Dot(M,radius=.1,color=CORAL);self.play(FadeIn(mid),run_time=.5);radius=Line(O,M,color=TEAL,stroke_width=5);self.play(Create(radius),run_time=.6)
+        self.at('That midpoint');full=Line(O,B,color=INK,stroke_width=3);self.play(Create(full),run_time=.6)
+        self.at('Here the endpoints');angle=Arc(radius=.75,start_angle=-PI/3,angle=2*PI/3,arc_center=O,color=CORAL,stroke_width=3);self.play(Create(angle),run_time=.5);anglelabel=self.label('120°',[-.2,-.1,0]);self.play(FadeIn(anglelabel),run_time=.3)
+        self.at('Half the angle');self.play(FadeOut(angle),FadeOut(anglelabel),run_time=.3);angle=Arc(radius=.75,start_angle=0,angle=PI/3,arc_center=O,color=TEAL,stroke_width=3);anglelabel=self.label('60°',[.95,1.55,0]);self.play(Create(angle),FadeIn(anglelabel),run_time=.4)
+        self.at('The middle radius');label=self.replace_label(label,self.label('middle radius = half the ring radius',[0,4.55,0],role='claim'),.4)
+        self.at('Every line has');waist=Circle(radius=R/2,color=TEAL,stroke_width=4).move_to(O);self.play(Create(waist),run_time=1.8)
+        self.at('Return to the whole');self.play(FadeOut(VGroup(circle,chord,dots,mid,radius,full,angle,anglelabel,waist,label)),run_time=.7);shape=always_redraw(sculpture);self.add(shape)
+        self.at('Many straight paths');self.play(yaw.animate.set_value(1.4),run_time=2.8,rate_func=smooth)
+        self.at('This is part');label=self.label('one-sheeted hyperboloid',[0,-3.6,0],role='claim');self.play(FadeIn(label),run_time=.4)
+        self.at('Straightness belongs');self.play(yaw.animate.set_value(1.9),run_time=3,rate_func=smooth);self.finish()

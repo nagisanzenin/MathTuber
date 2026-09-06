@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "A Little Agreement at Every Edge",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Follow one line through these tiles.",
+        "It bends, meets a neighbor, and keeps going.",
+        "A whole pattern grows from one small choice.",
+        "Lift a single tile from the middle.",
+        "Two curved strokes touch the middle of all four edges.",
+        "Turn the tile a quarter turn.",
+        "The curves change partners, but those four meeting places stay fixed.",
+        "Put the tile back and look closely at one join.",
+        "A curve arrives from one tile.",
+        "Exactly one curve carries it onward through the next.",
+        "There is no loose end here, and no fork to choose.",
+        "Now follow a complete path.",
+        "It can return to its beginning and form a loop.",
+        "Or it can reach the outside edge.",
+        "On a finite board like this, those are the two possibilities.",
+        "Turn a different tile and the routes can change.",
+        "The same midpoint rule still joins every neighbor.",
+        "This is a Truchet tile pattern.",
+        "A little agreement at each edge holds the whole drawing together."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "A midpoint pairing gives degree two at every interior join; finite components are loops or boundary-to-boundary paths.",
+    "question": "Why do these tile paths never end inside the pattern?",
+    "payoff": "A midpoint pairing gives degree two at every interior join; finite components are loops or boundary-to-boundary paths.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Penrose tiling; moire; seven bridges. Difference: Local degree-two connectivity of disjoint quarter arcs, not aperiodicity, beat bands or Euler route existence.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "An original whole pattern, an identified local rule, and a return to the same image with a visible global consequence.",
+      "episode_variation": "Follow an actual connected path, lift and turn its local tile, enlarge a seam, then distinguish a loop from an outer-edge route.",
+      "exceptions": [
+        "Ideal geometry, not a material simulation.",
+        "No music bed; eventual audio review scope explicitly recorded."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why do these tile paths never end inside the pattern?",
+        "visual_action": "Follow an actual connected path, lift and turn its local tile, enlarge a seam, then distinguish a loop from an outer-edge route.",
+        "new_understanding": "A midpoint pairing gives degree two at every interior join; finite components are loops or boundary-to-boundary paths.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Follow one line through these tiles. It bends, meets a neighbor, and keeps going. A whole pattern grows from one small choice.\n\nLift a single tile from the middle. Two curved strokes touch the middle of all four edges. Turn the tile a quarter turn. The curves change partners, but those four meeting places stay fixed.\n\nPut the tile back and look closely at one join. A curve arrives from one tile. Exactly one curve carries it onward through the next. There is no loose end here, and no fork to choose.\n\nNow follow a complete path. It can return to its beginning and form a loop. Or it can reach the outside edge. On a finite board like this, those are the two possibilities.\n\nTurn a different tile and the routes can change. The same midpoint rule still joins every neighbor. This is a Truchet tile pattern. A little agreement at each edge holds the whole drawing together."
+    }
+  ],
+  "sources": [
+    "https://archive.bridgesmathart.org/2011/bridges2011-581.pdf"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

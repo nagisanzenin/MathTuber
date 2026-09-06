@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Follow the drawing",
+      "end_cue": "Here is the reason",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Three petals traced over first half turn and explicitly retraced."
+    },
+    {
+      "id": "2",
+      "start_cue": "Here is the reason",
+      "end_cue": "Now let the distance",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Opposite direction and negative radial sign place the same point."
+    },
+    {
+      "id": "3",
+      "start_cue": "Now let the distance",
+      "end_cue": "For a whole number",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Even frequency reaches opposite points and adds four petals."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Let the upper",
+      "end_cue": "Look down from above",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Straight segment endpoints follow rotation; no fixed-length rod assumption."
+    },
+    {
+      "id": "2",
+      "start_cue": "Look down from above",
+      "end_cue": "Every line has",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Top view and chord midpoint connect the ring radius to half-height radius."
+    },
+    {
+      "id": "3",
+      "start_cue": "Return to the whole",
+      "end_cue": "Straightness belongs",
+      "end_offset": 3,
+      "samples": 9,
+      "purpose": "The same chord argument determines the ruled surface waist."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Straight Lines Can Gather into a Curve",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "This curved shape is drawn entirely with straight lines.",
+        "Each line joins a point on the lower ring to one on the upper ring.",
+        "The lines are straight, even where the whole shape bends inward.",
+        "Let the upper meeting points turn around their ring.",
+        "Each line follows its two endpoints.",
+        "Together they make a narrower waist.",
+        "We are redrawing ideal line segments, not stretching fixed length rods.",
+        "Look down from above at just one line.",
+        "Its endpoints lie on the same circle.",
+        "Halfway up the shape, we are halfway along this chord.",
+        "That midpoint is closer to the center than either endpoint.",
+        "Here the endpoints are one hundred twenty degrees apart.",
+        "Half the angle is sixty degrees.",
+        "The middle radius is now half the ring radius.",
+        "Every line has the same inward reach, rotated around the center.",
+        "Return to the whole shape.",
+        "Many straight paths share one curved outline.",
+        "This is part of a one sheeted hyperboloid.",
+        "Straightness belongs to each line; curvature can belong to the way they gather."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "At half height, a chord joining ring points separated by angle phi has midpoint radius R cos(phi/2); rotating this line yields a one-sheeted hyperboloid for 0<phi<pi.",
+    "question": "How can straight segments form a curved waist?",
+    "payoff": "At half height, a chord joining ring points separated by angle phi has midpoint radius R cos(phi/2); rotating this line yields a one-sheeted hyperboloid for 0<phi<pi.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: saddle points and Hessians; straight interpolation Bezier. Difference: A ruled surface with a circular waist comes from ring-chord midpoints, not local optimization or a planar Bezier construction.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "An original whole pattern, an identified local rule, and a return to the same image with a visible global consequence.",
+      "episode_variation": "Rotate endpoint correspondence on equal rings, inspect the projected chord midpoint, and recover the surface.",
+      "exceptions": [
+        "Ideal geometry, not a material simulation.",
+        "No music bed; eventual audio review scope explicitly recorded."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How can straight segments form a curved waist?",
+        "visual_action": "Rotate endpoint correspondence on equal rings, inspect the projected chord midpoint, and recover the surface.",
+        "new_understanding": "At half height, a chord joining ring points separated by angle phi has midpoint radius R cos(phi/2); rotating this line yields a one-sheeted hyperboloid for 0<phi<pi.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "This curved shape is drawn entirely with straight lines. Each line joins a point on the lower ring to one on the upper ring. The lines are straight, even where the whole shape bends inward.\n\nLet the upper meeting points turn around their ring. Each line follows its two endpoints. Together they make a narrower waist. We are redrawing ideal line segments, not stretching fixed length rods.\n\nLook down from above at just one line. Its endpoints lie on the same circle. Halfway up the shape, we are halfway along this chord. That midpoint is closer to the center than either endpoint.\n\nHere the endpoints are one hundred twenty degrees apart. Half the angle is sixty degrees. The middle radius is now half the ring radius. Every line has the same inward reach, rotated around the center.\n\nReturn to the whole shape. Many straight paths share one curved outline. This is part of a one sheeted hyperboloid. Straightness belongs to each line; curvature can belong to the way they gather."
+    }
+  ],
+  "sources": [
+    "https://virtualmathmuseum.org/docs/RuledSurfaces.pdf"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

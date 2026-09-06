@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Triangle Between Round Stones",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Round stones can make two different rhythms.",
+        "First, place them in straight rows.",
+        "Now let each row settle into the gaps below.",
+        "The stones have not shrunk.",
+        "Their neighbors are still just touching.",
+        "But the rows can sit closer together.",
+        "Look at three neighboring centers.",
+        "Each pair is two radii apart.",
+        "They form an equilateral triangle.",
+        "Split it down the middle.",
+        "Its height is the radius times the square root of three, instead of two.",
+        "A repeating cell keeps the same width.",
+        "Its height falls to about eighty seven percent.",
+        "The same circle area occupies less space around it.",
+        "Across a large repeating pattern, coverage rises from about seventy nine percent to ninety one percent.",
+        "Those numbers compare ideal equal circles in two repeating arrangements.",
+        "A small tray has edges, so its exact count is another question.",
+        "Look again at the staggered rows.",
+        "The quieter gaps are a consequence of a triangle."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Square and triangular circle lattices have cell areas 4r² and 2√3r², hence cover fractions π/4 and π/(2√3).",
+    "question": "Why do staggered rows of equal circles leave less empty space?",
+    "payoff": "Square and triangular circle lattices have cell areas 4r² and 2√3r², hence cover fractions π/4 and π/(2√3).",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Why bee use hexagons; garden fixed perimeter. Difference: Equal-circle lattice density via touching-center triangle, not honeycomb perimeter efficiency or rectangle-area optimization.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "An original whole pattern, an identified local rule, and a return to the same image with a visible global consequence.",
+      "episode_variation": "Settle alternate rows, enlarge a triangle of touching centers, and compare repeating-cell heights and coverage.",
+      "exceptions": [
+        "Ideal geometry, not a material simulation.",
+        "No music bed; eventual audio review scope explicitly recorded."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why do staggered rows of equal circles leave less empty space?",
+        "visual_action": "Settle alternate rows, enlarge a triangle of touching centers, and compare repeating-cell heights and coverage.",
+        "new_understanding": "Square and triangular circle lattices have cell areas 4r² and 2√3r², hence cover fractions π/4 and π/(2√3).",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Round stones can make two different rhythms. First, place them in straight rows. Now let each row settle into the gaps below.\n\nThe stones have not shrunk. Their neighbors are still just touching. But the rows can sit closer together.\n\nLook at three neighboring centers. Each pair is two radii apart. They form an equilateral triangle. Split it down the middle. Its height is the radius times the square root of three, instead of two.\n\nA repeating cell keeps the same width. Its height falls to about eighty seven percent. The same circle area occupies less space around it. Across a large repeating pattern, coverage rises from about seventy nine percent to ninety one percent.\n\nThose numbers compare ideal equal circles in two repeating arrangements. A small tray has edges, so its exact count is another question. Look again at the staggered rows. The quieter gaps are a consequence of a triangle."
+    }
+  ],
+  "sources": [
+    "https://bpb-us-w2.wpmucdn.com/u.osu.edu/dist/d/120857/files/2022/11/Sphere_Packing-4.pdf"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

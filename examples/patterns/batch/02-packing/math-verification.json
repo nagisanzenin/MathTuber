@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "method": "Independent equations and numeric samples checked against authored scene coordinates and claims.",
+  "checks": [
+    {
+      "name": "Continuous settling never overlaps equal circles",
+      "max_error": 9.992007221626409e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "Triangular fundamental cell area",
+      "max_error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "Coverage numeric percentage",
+      "max_error": 4.483524662646232e-11,
+      "tolerance": 1e-08,
+      "passed": true
+    }
+  ],
+  "assumptions": [
+    "Ideal equal planar circles; periodic coverage excludes boundary effects. No proof of global optimality or finite tray count claimed.",
+    "Interpolation uses row height r sqrt(4-t\u00b2), preserving nearest-neighbor contact during the shift."
+  ]
+}

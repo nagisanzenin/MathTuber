@@ -1,0 +1,8 @@
+{
+  "physical_subject": "Why do staggered rows of equal circles leave less empty space?",
+  "relationship": "Square and triangular circle lattices have cell areas 4r\u00b2 and 2\u221a3r\u00b2, hence cover fractions \u03c0/4 and \u03c0/(2\u221a3).",
+  "operation": "Settle alternate rows, enlarge a triangle of touching centers, and compare repeating-cell heights and coverage.",
+  "closest_prior": "Why bee use hexagons; garden fixed perimeter",
+  "substantive_difference": "Equal-circle lattice density via touching-center triangle, not honeycomb perimeter efficiency or rectangle-area optimization.",
+  "sequence_is_editorial_hypothesis": true
+}

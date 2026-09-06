@@ -1,0 +1,23 @@
+{
+  "s01": {
+    "Follow one line": 0.35,
+    "It bends": 2.5,
+    "A whole pattern": 5.625,
+    "Lift a single": 9.4,
+    "Two curved strokes": 11.65,
+    "Turn the tile": 15.213,
+    "The curves change": 17.488,
+    "Put the tile back": 22.85,
+    "A curve arrives": 25.938,
+    "Exactly one curve": 28.425,
+    "There is no loose": 32.075,
+    "Now follow": 36.45,
+    "It can return": 38.55,
+    "Or it can": 41.4,
+    "On a finite": 43.888,
+    "Turn a different": 48.8,
+    "The same midpoint": 52.062,
+    "This is a Truchet": 55.625,
+    "A little agreement": 57.862
+  }
+}

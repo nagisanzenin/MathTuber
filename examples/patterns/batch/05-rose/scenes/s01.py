@@ -1,0 +1,22 @@
+from scenes._shared.design import *
+class Film(Stage):
+    def construct(self):
+        TEAL=self.palette['primary'];CORAL=self.palette['secondary'];INK=self.palette['ink'];R=2.65;O=np.array([0,.65,0]);q=ValueTracker(0);n=3
+        def point(t,k):return O+R*np.cos(k*t)*np.array([np.cos(t),np.sin(t),0])
+        def flower(k,color=TEAL,opacity=1):return VMobject(stroke_color=color,stroke_width=4,stroke_opacity=opacity).set_points_as_corners([point(t,k) for t in np.linspace(0,TAU,1601)])
+        background=flower(3,opacity=.18);self.add(background);trace=self.trace_curve(lambda t:point(t,3),q.get_value,0,TAU,1601,stroke_width=5);pen=always_redraw(lambda:Dot(point(q.get_value(),3),radius=.09,color=CORAL));direction=always_redraw(lambda:Arrow(O,O+3.1*np.array([np.cos(q.get_value()),np.sin(q.get_value()),0]),buff=0,color=INK,stroke_width=2));radius=always_redraw(lambda:Line(O,point(q.get_value(),3),color=CORAL,stroke_width=3));self.add(trace,direction,radius,pen)
+        self.at('A turning direction');self.play(q.animate.set_value(.22),run_time=2.7,rate_func=linear);self.at('Here the distance');self.play(q.animate.set_value(.48),run_time=2.7,rate_func=linear);self.at('When it becomes');self.play(q.animate.set_value(.85),run_time=2.4,rate_func=linear)
+        self.at('Follow the drawing');self.play(q.animate.set_value(PI),run_time=2,rate_func=linear);self.at('Three petals');label=self.label('half a turn · 3 petals',[0,-3.1,0],role='claim');self.play(FadeIn(label),run_time=.4)
+        self.at('Continue through');trace.clear_updaters();q.set_value(PI);again=self.trace_curve(lambda t:point(t,3),q.get_value,PI,TAU,1001,color='secondary',stroke_width=3);self.add(again);self.play(q.animate.set_value(TAU),run_time=2,rate_func=linear);self.at('The point follows')
+        self.at('Here is the reason');self.play(FadeOut(VGroup(trace,again,pen,direction,radius)),run_time=.5);t=PI/12;P=point(t,3);a=Arrow(O,O+3.1*np.array([np.cos(t),np.sin(t),0]),buff=0,color=INK,stroke_width=3);mark=Dot(P,radius=.12,color=CORAL);rad=Line(O,P,color=CORAL,stroke_width=4);self.add(a,mark,rad);label=self.replace_label(label,self.label('direction + distance',[0,-3.1,0],role='claim'),.3)
+        self.at('After half a turn, the direction');self.play(Rotate(a,PI,about_point=O),run_time=2)
+        self.at('The distance also');sign=self.label('positive → negative',[0,4.5,0]);self.play(FadeIn(sign),run_time=.4)
+        self.at('Those two reversals');self.focus_outline(mark,buff=.12,run_time=1);label=self.replace_label(label,self.label('two reversals · same point',[0,-3.1,0],role='claim'),.4)
+        self.at('Now let the distance');self.play(FadeOut(VGroup(background,a,mark,rad,sign,label)),run_time=.5);q=ValueTracker(PI/8);back4=flower(4,opacity=.15);self.add(back4);first=self.trace_curve(lambda t:point(t,4),q.get_value,PI/8,PI+PI/8,1001,stroke_width=5);pen4=always_redraw(lambda:Dot(point(q.get_value(),4),radius=.09,color=CORAL));self.add(first,pen4);self.play(q.animate.set_value(PI+PI/8),run_time=3,rate_func=linear)
+        self.at('After half a turn, its sign');label=self.label('4 cycles · same distance sign',[0,-3.1,0],role='claim');self.play(FadeIn(label),run_time=.4)
+        self.at('The reversed direction');pair=VGroup(*[Dot(point(t+off,4),radius=.1,color=CORAL) for off in (0,PI)]);diameter=DashedLine(point(t,4),point(t+PI,4),color=INK,stroke_width=2);self.play(FadeIn(pair),Create(diameter),run_time=.6)
+        self.at('The second half adds');first.clear_updaters();second=self.trace_curve(lambda t:point(t,4),q.get_value,PI+PI/8,TAU+PI/8,1001,color='secondary',stroke_width=5);self.add(second);self.play(q.animate.set_value(TAU+PI/8),run_time=3,rate_func=linear);self.play(FadeOut(pair),FadeOut(diameter),FadeOut(pen4),run_time=.3);label=self.replace_label(label,self.label('4 + 4 = 8 petals',[0,-3.1,0],role='claim'),.4)
+        self.at('For a whole number');self.play(FadeOut(VGroup(back4,first,second,label)),run_time=.4)
+        left=flower(3).scale(.53).move_to([-1.75,1,0]);right=flower(4,CORAL).scale(.53).move_to([1.75,1,0]);odd=self.label('3 cycles · 3 petals',[-1.75,-1.0,0]).scale(.65);even=self.label('4 cycles · 8 petals',[1.75,-1.0,0]).scale(.65);self.play(Create(left),FadeIn(odd),run_time=2,rate_func=linear)
+        self.at('Even counts add');self.play(Create(right),FadeIn(even),run_time=2,rate_func=linear)
+        self.at('A small difference');self.at('You can find');self.finish()

@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "method": "Independent equations and numeric samples checked against authored scene coordinates and claims.",
+  "checks": [
+    {
+      "name": "Crossing order diagonal invariance and four-row period",
+      "max_error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "Equal spacing yields45degrees",
+      "max_error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "Wider columns reduce physical band angle",
+      "passed": true,
+      "angle_degrees": 40.763605200941164
+    }
+  ],
+  "assumptions": [
+    "Ideal schematic 2/2 interlacing, not fiber physics; color/occlusion indicate which thread is above. Bands are sets of aligned visible patches."
+  ]
+}

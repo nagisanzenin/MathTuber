@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "A Diagonal Without a Diagonal Thread",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "These diagonal bands are made from straight threads.",
+        "No thread travels along the diagonal.",
+        "The slant comes from how they take turns.",
+        "Keep the upright threads in place.",
+        "Pass a crossing thread over two, then under two.",
+        "For the next row, shift that same pattern one place.",
+        "Keep repeating the little sideways step.",
+        "A visible patch in one row moves one place across in the next.",
+        "Those patches line up along a diagonal.",
+        "The diagonal belongs to the pattern, not to a single thread.",
+        "After four rows, the crossing order returns.",
+        "There are four possible starting places in this over two, under two repeat.",
+        "With equally spaced rows and columns, one step up and one across makes a forty five degree band.",
+        "Spread the upright threads farther apart.",
+        "The crossing order stays the same, but the band becomes less steep.",
+        "This is one simple twill weave.",
+        "Sometimes a line we see is an agreement between many smaller gestures."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "The crossing indicator (column−row) modulo four shifts the visible patches diagonally; physical spacing determines the band angle.",
+    "question": "How can upright and horizontal threads make diagonal bands?",
+    "payoff": "The crossing indicator (column−row) modulo four shifts the visible patches diagonally; physical spacing determines the band angle.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: moire sheets; lattice multiplication. Difference: A discrete interlacing repeat produces diagonal bands, not interference alignment or arithmetic diagonals.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "An original whole pattern, an identified local rule, and a return to the same image with a visible global consequence.",
+      "episode_variation": "Reveal successive over-two under-two rows, shift one place each row, identify the four-row repeat and change spacing.",
+      "exceptions": [
+        "Ideal geometry, not a material simulation.",
+        "No music bed; eventual audio review scope explicitly recorded."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How can upright and horizontal threads make diagonal bands?",
+        "visual_action": "Reveal successive over-two under-two rows, shift one place each row, identify the four-row repeat and change spacing.",
+        "new_understanding": "The crossing indicator (column−row) modulo four shifts the visible patches diagonally; physical spacing determines the band angle.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "These diagonal bands are made from straight threads. No thread travels along the diagonal. The slant comes from how they take turns.\n\nKeep the upright threads in place. Pass a crossing thread over two, then under two. For the next row, shift that same pattern one place. Keep repeating the little sideways step.\n\nA visible patch in one row moves one place across in the next. Those patches line up along a diagonal. The diagonal belongs to the pattern, not to a single thread.\n\nAfter four rows, the crossing order returns. There are four possible starting places in this over two, under two repeat. With equally spaced rows and columns, one step up and one across makes a forty five degree band.\n\nSpread the upright threads farther apart. The crossing order stays the same, but the band becomes less steep. This is one simple twill weave. Sometimes a line we see is an agreement between many smaller gestures."
+    }
+  ],
+  "sources": [
+    "https://collection.sciencemuseumgroup.org.uk/objects/co8415632/twill-weave-rayon-fabric"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Why Some Mathematical Flowers Retrace",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A turning direction and a changing distance can draw a flower.",
+        "Here the distance rises and falls three times in one turn.",
+        "When it becomes negative, the point lies behind the turning direction.",
+        "Follow the drawing through half a turn.",
+        "Three petals are already complete.",
+        "Continue through the second half.",
+        "The point follows the same petals again.",
+        "Here is the reason.",
+        "After half a turn, the direction points the opposite way.",
+        "The distance also changes sign.",
+        "Those two reversals put the point back in the same place.",
+        "Now let the distance rise and fall four times per turn.",
+        "After half a turn, its sign stays the same.",
+        "The reversed direction therefore sends the point to the opposite place.",
+        "The second half adds four new petals, making eight.",
+        "For a whole number of cycles, odd counts retrace after half a turn.",
+        "Even counts add an opposite set.",
+        "A small difference in how a rhythm returns changes the whole flower.",
+        "You can find structure inside the ornament."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "For integer n, p(theta+pi)=(-1)^(n+1)p(theta), so odd n retraces while even n adds opposite petals.",
+    "question": "Why does three cycles make three petals, but four makes eight?",
+    "payoff": "For integer n, p(theta+pi)=(-1)^(n+1)p(theta), so odd n retraces while even n adds opposite petals.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: circular projection oscillator; logarithmic spiral. Difference: Polar radius sign and half-turn parity determine petal duplication, not harmonic acceleration or multiplicative radial growth.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "An original whole pattern, an identified local rule, and a return to the same image with a visible global consequence.",
+      "episode_variation": "Trace r=R cos(n theta), compare half turns and show the sign and direction reversals for odd and even n.",
+      "exceptions": [
+        "Ideal geometry, not a material simulation.",
+        "No music bed; eventual audio review scope explicitly recorded."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why does three cycles make three petals, but four makes eight?",
+        "visual_action": "Trace r=R cos(n theta), compare half turns and show the sign and direction reversals for odd and even n.",
+        "new_understanding": "For integer n, p(theta+pi)=(-1)^(n+1)p(theta), so odd n retraces while even n adds opposite petals.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A turning direction and a changing distance can draw a flower. Here the distance rises and falls three times in one turn. When it becomes negative, the point lies behind the turning direction.\n\nFollow the drawing through half a turn. Three petals are already complete. Continue through the second half. The point follows the same petals again.\n\nHere is the reason. After half a turn, the direction points the opposite way. The distance also changes sign. Those two reversals put the point back in the same place.\n\nNow let the distance rise and fall four times per turn. After half a turn, its sign stays the same. The reversed direction therefore sends the point to the opposite place. The second half adds four new petals, making eight.\n\nFor a whole number of cycles, odd counts retrace after half a turn. Even counts add an opposite set. A small difference in how a rhythm returns changes the whole flower. You can find structure inside the ornament."
+    }
+  ],
+  "sources": [
+    "https://mathworld.wolfram.com/RoseCurve.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

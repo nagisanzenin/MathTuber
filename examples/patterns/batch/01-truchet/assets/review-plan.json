@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Lift a single",
+      "end_cue": "Put the tile back",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Quarter turn preserves exact meeting places."
+    },
+    {
+      "id": "2",
+      "start_cue": "Put the tile back",
+      "end_cue": "Now follow",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Enlarged neighboring arcs explain continuation without a fork."
+    },
+    {
+      "id": "3",
+      "start_cue": "Turn a different",
+      "end_cue": "This is a Truchet",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Tile rotation re-pairs routes while retaining midpoint connectivity."
+    }
+  ]
+}

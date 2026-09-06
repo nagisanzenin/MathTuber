@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "method": "Independent equations and numeric samples checked against authored scene coordinates and claims.",
+  "checks": [
+    {
+      "name": "Odd/even half-turn relation n1through14",
+      "max_error": 2.6348376301275274e-14,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "Distinct petal tips3and8",
+      "max_error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    }
+  ],
+  "assumptions": [
+    "Polar r=R cos(n theta), positive integer n. Negative radius places point opposite the chosen ray.",
+    "The four-cycle trace starts at radius zero theta=pi/8, so its first half-turn contains four complete center-to-center petals. Equal parameter speed is not constant drawing speed. A curve with odd n is retraced over the second half turn."
+  ]
+}

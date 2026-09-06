@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "method": "Independent equations and numeric samples checked against authored scene coordinates and claims.",
+  "checks": [
+    {
+      "name": "All sampled straight rulings lie on stated hyperboloid",
+      "max_error": 2.4424906541753444e-15,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "Chord midpoint radius R cos(phi/2)",
+      "max_error": 1.1102230246251565e-15,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "120degree twist yields half radius",
+      "max_error": 1.1102230246251565e-16,
+      "tolerance": 1e-09,
+      "passed": true
+    }
+  ],
+  "assumptions": [
+    "Ideal variable-length segments between equal coaxial rings; not fixed-length rods or elastic string physics.",
+    "Nondegenerate hyperboloid for0<phi<pi. Orthographic schematic projection."
+  ]
+}

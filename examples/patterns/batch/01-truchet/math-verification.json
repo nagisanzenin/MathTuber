@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "method": "Independent equations and numeric samples checked against authored scene coordinates and claims.",
+  "checks": [
+    {
+      "name": "Exact joins across all512 three-by-three fields",
+      "max_error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "All512 fields checked",
+      "max_error": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    }
+  ],
+  "assumptions": [
+    "Finite rectangular field, disjoint quarter arcs, midpoint endpoints; loops or boundary-to-boundary paths, not all loops."
+  ]
+}

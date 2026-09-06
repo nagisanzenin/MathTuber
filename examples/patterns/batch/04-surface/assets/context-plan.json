@@ -1,0 +1,8 @@
+{
+  "physical_subject": "How can straight segments form a curved waist?",
+  "relationship": "At half height, a chord joining ring points separated by angle phi has midpoint radius R cos(phi/2); rotating this line yields a one-sheeted hyperboloid for 0<phi<pi.",
+  "operation": "Rotate endpoint correspondence on equal rings, inspect the projected chord midpoint, and recover the surface.",
+  "closest_prior": "saddle points and Hessians; straight interpolation Bezier",
+  "substantive_difference": "A ruled surface with a circular waist comes from ring-chord midpoints, not local optimization or a planar Bezier construction.",
+  "sequence_is_editorial_hypothesis": true
+}

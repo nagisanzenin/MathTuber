@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Pass a crossing",
+      "end_cue": "A visible patch",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Over/under occlusion and successive offset rows."
+    },
+    {
+      "id": "2",
+      "start_cue": "A visible patch",
+      "end_cue": "After four rows",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Diagonal is aligned patches, not an added physical thread."
+    },
+    {
+      "id": "3",
+      "start_cue": "Spread the upright",
+      "end_cue": "This is one",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Wider spacing changes angle while preserving crossing order."
+    }
+  ]
+}

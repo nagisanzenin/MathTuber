@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Now let each",
+      "end_cue": "Look at three",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Equal radii and non-overlap during row staggering."
+    },
+    {
+      "id": "2",
+      "start_cue": "Look at three",
+      "end_cue": "A repeating cell",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Three touching centers imply equilateral height sqrt3 times radius."
+    },
+    {
+      "id": "3",
+      "start_cue": "A repeating cell",
+      "end_cue": "Those numbers",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Fundamental cell and stated infinite periodic coverage."
+    }
+  ]
+}

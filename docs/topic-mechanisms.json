@@ -525,6 +525,41 @@
       "learning_goal": "A fixed ray-wise offset from a line creates a conchoid branch; its perpendicular height gain is the step length times cosine of the angle from the normal.",
       "visual_mechanism": "Compare equal steps along rotating rays with equal perpendicular steps from a straight guide.",
       "narration": "A rotating ray crosses a straight guide. From the crossing, take the same fixed step along the ray. That moving endpoint draws a curve.\n\nThe step keeps its length while its direction changes. It is measured along the ray, not straight upward from the guide. That small distinction matters.\n\nTurn the ray upright. The whole step now adds height. Tilt it sixty degrees away from upright. Only half the step now contributes to height.\n\nCompare with a different rule: always take the step straight upward. Those endpoints would sit on a straight line parallel to the guide. Both rules use the same step length, but they measure in different directions.\n\nReturn to the slanting step. Its trace is one branch of a conchoid. As the direction changes, the height changes with it. Even a simple instruction can contain a hidden choice of geometry."
+    },
+    {
+      "project": "examples/patterns/batch/01-truchet",
+      "title": "A Little Agreement at Every Edge",
+      "learning_goal": "A midpoint pairing gives degree two at every interior join; finite components are loops or boundary-to-boundary paths.",
+      "visual_mechanism": "Follow an actual connected path, lift and turn its local tile, enlarge a seam, then distinguish a loop from an outer-edge route.",
+      "narration": "Follow one line through these tiles. It bends, meets a neighbor, and keeps going. A whole pattern grows from one small choice.\n\nLift a single tile from the middle. Two curved strokes touch the middle of all four edges. Turn the tile a quarter turn. The curves change partners, but those four meeting places stay fixed.\n\nPut the tile back and look closely at one join. A curve arrives from one tile. Exactly one curve carries it onward through the next. There is no loose end here, and no fork to choose.\n\nNow follow a complete path. It can return to its beginning and form a loop. Or it can reach the outside edge. On a finite board like this, those are the two possibilities.\n\nTurn a different tile and the routes can change. The same midpoint rule still joins every neighbor. This is a Truchet tile pattern. A little agreement at each edge holds the whole drawing together."
+    },
+    {
+      "project": "examples/patterns/batch/02-packing",
+      "title": "The Triangle Between Round Stones",
+      "learning_goal": "Square and triangular circle lattices have cell areas 4r² and 2√3r², hence cover fractions π/4 and π/(2√3).",
+      "visual_mechanism": "Settle alternate rows, enlarge a triangle of touching centers, and compare repeating-cell heights and coverage.",
+      "narration": "Round stones can make two different rhythms. First, place them in straight rows. Now let each row settle into the gaps below.\n\nThe stones have not shrunk. Their neighbors are still just touching. But the rows can sit closer together.\n\nLook at three neighboring centers. Each pair is two radii apart. They form an equilateral triangle. Split it down the middle. Its height is the radius times the square root of three, instead of two.\n\nA repeating cell keeps the same width. Its height falls to about eighty seven percent. The same circle area occupies less space around it. Across a large repeating pattern, coverage rises from about seventy nine percent to ninety one percent.\n\nThose numbers compare ideal equal circles in two repeating arrangements. A small tray has edges, so its exact count is another question. Look again at the staggered rows. The quieter gaps are a consequence of a triangle."
+    },
+    {
+      "project": "examples/patterns/batch/03-weave",
+      "title": "A Diagonal Without a Diagonal Thread",
+      "learning_goal": "The crossing indicator (column−row) modulo four shifts the visible patches diagonally; physical spacing determines the band angle.",
+      "visual_mechanism": "Reveal successive over-two under-two rows, shift one place each row, identify the four-row repeat and change spacing.",
+      "narration": "These diagonal bands are made from straight threads. No thread travels along the diagonal. The slant comes from how they take turns.\n\nKeep the upright threads in place. Pass a crossing thread over two, then under two. For the next row, shift that same pattern one place. Keep repeating the little sideways step.\n\nA visible patch in one row moves one place across in the next. Those patches line up along a diagonal. The diagonal belongs to the pattern, not to a single thread.\n\nAfter four rows, the crossing order returns. There are four possible starting places in this over two, under two repeat. With equally spaced rows and columns, one step up and one across makes a forty five degree band.\n\nSpread the upright threads farther apart. The crossing order stays the same, but the band becomes less steep. This is one simple twill weave. Sometimes a line we see is an agreement between many smaller gestures."
+    },
+    {
+      "project": "examples/patterns/batch/04-surface",
+      "title": "Straight Lines Can Gather into a Curve",
+      "learning_goal": "At half height, a chord joining ring points separated by angle phi has midpoint radius R cos(phi/2); rotating this line yields a one-sheeted hyperboloid for 0<phi<pi.",
+      "visual_mechanism": "Rotate endpoint correspondence on equal rings, inspect the projected chord midpoint, and recover the surface.",
+      "narration": "This curved shape is drawn entirely with straight lines. Each line joins a point on the lower ring to one on the upper ring. The lines are straight, even where the whole shape bends inward.\n\nLet the upper meeting points turn around their ring. Each line follows its two endpoints. Together they make a narrower waist. We are redrawing ideal line segments, not stretching fixed length rods.\n\nLook down from above at just one line. Its endpoints lie on the same circle. Halfway up the shape, we are halfway along this chord. That midpoint is closer to the center than either endpoint.\n\nHere the endpoints are one hundred twenty degrees apart. Half the angle is sixty degrees. The middle radius is now half the ring radius. Every line has the same inward reach, rotated around the center.\n\nReturn to the whole shape. Many straight paths share one curved outline. This is part of a one sheeted hyperboloid. Straightness belongs to each line; curvature can belong to the way they gather."
+    },
+    {
+      "project": "examples/patterns/batch/05-rose",
+      "title": "Why Some Mathematical Flowers Retrace",
+      "learning_goal": "For integer n, p(theta+pi)=(-1)^(n+1)p(theta), so odd n retraces while even n adds opposite petals.",
+      "visual_mechanism": "Trace r=R cos(n theta), compare half turns and show the sign and direction reversals for odd and even n.",
+      "narration": "A turning direction and a changing distance can draw a flower. Here the distance rises and falls three times in one turn. When it becomes negative, the point lies behind the turning direction.\n\nFollow the drawing through half a turn. Three petals are already complete. Continue through the second half. The point follows the same petals again.\n\nHere is the reason. After half a turn, the direction points the opposite way. The distance also changes sign. Those two reversals put the point back in the same place.\n\nNow let the distance rise and fall four times per turn. After half a turn, its sign stays the same. The reversed direction therefore sends the point to the opposite place. The second half adds four new petals, making eight.\n\nFor a whole number of cycles, odd counts retrace after half a turn. Even counts add an opposite set. A small difference in how a rhythm returns changes the whole flower. You can find structure inside the ornament."
     }
   ]
 }

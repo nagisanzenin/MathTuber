@@ -1,0 +1,8 @@
+{
+  "physical_subject": "How can upright and horizontal threads make diagonal bands?",
+  "relationship": "The crossing indicator (column\u2212row) modulo four shifts the visible patches diagonally; physical spacing determines the band angle.",
+  "operation": "Reveal successive over-two under-two rows, shift one place each row, identify the four-row repeat and change spacing.",
+  "closest_prior": "moire sheets; lattice multiplication",
+  "substantive_difference": "A discrete interlacing repeat produces diagonal bands, not interference alignment or arithmetic diagonals.",
+  "sequence_is_editorial_hypothesis": true
+}

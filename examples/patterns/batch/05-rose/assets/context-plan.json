@@ -1,0 +1,8 @@
+{
+  "physical_subject": "Why does three cycles make three petals, but four makes eight?",
+  "relationship": "For integer n, p(theta+pi)=(-1)^(n+1)p(theta), so odd n retraces while even n adds opposite petals.",
+  "operation": "Trace r=R cos(n theta), compare half turns and show the sign and direction reversals for odd and even n.",
+  "closest_prior": "circular projection oscillator; logarithmic spiral",
+  "substantive_difference": "Polar radius sign and half-turn parity determine petal duplication, not harmonic acceleration or multiplicative radial growth.",
+  "sequence_is_editorial_hypothesis": true
+}

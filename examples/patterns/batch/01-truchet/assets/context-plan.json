@@ -1,0 +1,8 @@
+{
+  "physical_subject": "Why do these tile paths never end inside the pattern?",
+  "relationship": "A midpoint pairing gives degree two at every interior join; finite components are loops or boundary-to-boundary paths.",
+  "operation": "Follow an actual connected path, lift and turn its local tile, enlarge a seam, then distinguish a loop from an outer-edge route.",
+  "closest_prior": "Penrose tiling; moire; seven bridges",
+  "substantive_difference": "Local degree-two connectivity of disjoint quarter arcs, not aperiodicity, beat bands or Euler route existence.",
+  "sequence_is_editorial_hypothesis": true
+}
