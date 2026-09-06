@@ -106,4 +106,6 @@ Earlier release: [five acoustic Shorts and reflection](docs/listening-batch.md),
 
 Earlier release: [five geometric-construction Shorts and reflection](docs/traces-batch.md), with [editable sources](examples/traces).
 
-Latest release: [five patterns Shorts and reflection](docs/patterns-batch.md), with [editable sources](examples/patterns).
+Earlier release: [five patterns Shorts and reflection](docs/patterns-batch.md), with [editable sources](examples/patterns).
+
+Latest release: [five mathematical observations Shorts and reflection](docs/observations-batch.md), with [editable sources](examples/observations).

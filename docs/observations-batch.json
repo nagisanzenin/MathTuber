@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-06",
+  "cycle": 15,
+  "videos": [
+    {
+      "project": "01-flags",
+      "title": "When a Flag Is Usually a False Alarm #math #Shorts",
+      "url": "https://www.youtube.com/shorts/shSD57QpB10",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M23S",
+      "export_sha256": "a73dd74d2f35bc7cc33915a128d802a8a05a33a5ab6d6983bf66cc2d0c4b260f",
+      "editorial": {
+        "decision": "release",
+        "opening": "Ten envelope icons acquire nine flags before the conditioning question. The opening establishes a concrete group instead of a floating percentage.",
+        "mechanism": "Exact class counts produce a flagged-only tray of nine true and ninety-nine false flags. A second prevalence makes precision one half at unchanged conditional rates. Rounded precision uses an approximation sign.",
+        "readability": "Labels distinguish the two groups and shapes supplement color. The recall/precision ending states each denominator directly.",
+        "pacing": "The numeric worked example has deliberate holds. A direct filtering-rate sentence replaced a phrase repeatedly omitted by independent transcription.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Homophone, number-formatting and minor inflection transcription differences were read against the intended script; no mathematical change identified. No subjective listening.",
+        "remaining_weaknesses": "The first full tray arrives only after the count setup. Later boxes and definitions are more instructional than evocative. No evidence yet that novices retain the distinction.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "02-median",
+      "title": "Why the Middle Minimizes the Total Error #math #Shorts",
+      "url": "https://www.youtube.com/shorts/1GA7uuFoq6c",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M31S",
+      "export_sha256": "3b59cb7b8dcbc40232da49236cf712f26db59c787486277d14ed1f7f47b7b0d8",
+      "editorial": {
+        "decision": "release",
+        "opening": "Five observations and a prediction pointer introduce a small decision. The axis is initially still; the mathematical question does most of the opening work.",
+        "mechanism": "Moving predictions compare total absolute distances, then paired endpoints supply an attained lower bound. The outside observation moves to fourteen without moving the median.",
+        "readability": "Numeric readouts are hidden during changes and explicitly refreshed before fading back in. Current transition samples must show the new prediction, all five distances and their matching sum. Endpoint, bound and total change together at the ending. The generalization is an odd ordered list and a constant prediction under absolute-error loss.",
+        "pacing": "Two concrete moves precede the proof. The general argument and closing machine-learning connection need more reading than the earlier numeric example.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Homophone, number-formatting and minor inflection transcription differences were read against the intended script; no mathematical change identified. No subjective listening.",
+        "remaining_weaknesses": "The endpoint pairing is a diagram of the argument, not a rich physical event. The ML connection is substantive but brief; unfamiliar viewers may not know why a loss function matters.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "03-reservoir",
+      "title": "A Fair Sample Without Keeping the Whole Stream #math #Shorts",
+      "url": "https://www.youtube.com/shorts/hFoXSKxZtXk",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M26S",
+      "export_sha256": "693b958428e990f7669120ea4692d5847f5f1537f78436c9027dd5d5bf4fb897",
+      "editorial": {
+        "decision": "release",
+        "opening": "A message enters a single storage box. The limited-memory problem is stated before naming the algorithm.",
+        "mechanism": "A labeled possible run is separated from the probabilities of all possible stored messages. Replacement and survival give equal thirds, then quarters and the single-item invariant for n at least two.",
+        "readability": "Survival labels clear the arrows. The ending removes alternative cards and shows one stored item plus the counter.",
+        "pacing": "The card replacements introduce the operation before multiplication. Several proof states remain still while their meaning is narrated.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Homophone, number-formatting and minor inflection transcription differences were read against the intended script; no mathematical change identified. No subjective listening.",
+        "remaining_weaknesses": "A probabilistic algorithm is difficult to infer from one illustrated run. The labeled probability diagram addresses that risk, but the general algebra remains demanding without prior probability fluency.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "04-cancel",
+      "title": "An Infinite Sum with Only Two Loose Ends #math #Shorts",
+      "url": "https://www.youtube.com/shorts/CJFIIstOjAU",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M28S",
+      "export_sha256": "dc0c44a0758d9bf2d489b340a636c7637725f75a9a85d0cdeedd1d7e9c772ae1",
+      "editorial": {
+        "decision": "release",
+        "opening": "A vertical sequence of fractions appears progressively; neighboring products explain the denominators.",
+        "mechanism": "A common-denominator identity precedes finite equal-and-opposite cancellation. Separate outlines identify only each matched pair. Adding a fifth term moves the loose end; the limit follows the finite formula.",
+        "readability": "The fifth-term heading changes with the added term, and spoken denominators explicitly identify the quantity n plus one. Signs remain attached to their terms.",
+        "pacing": "A numerical identity comes before the symbolic version. Cancellations are sequential, but the final symbolic limit section is mostly static.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Homophone, number-formatting and minor inflection transcription differences were read against the intended script; no mathematical change identified. No subjective listening.",
+        "remaining_weaknesses": "This is the most algebra-heavy film in the batch. Thin written symbols and substantial formula reading may still lose viewers who fear notation. A successful cancellation animation is not evidence of understanding convergence.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "05-order",
+      "title": "The Same Work, Less Waiting #math #Shorts",
+      "url": "https://www.youtube.com/shorts/MTbQ0BQNOjU",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M26S",
+      "export_sha256": "74a9df23a78a7a3d71ef25844f5087ff0593bc524de9a68fa26ea62802223e35",
+      "editorial": {
+        "decision": "release",
+        "opening": "Three job durations establish the same workload. Their proportional schedule bars make the completion-time objective visible.",
+        "mechanism": "Both orders finish all work at nine, but their completion sums differ. The same pair of blocks visibly swaps; the relative-time algebra then explains the saving and the unchanged later jobs.",
+        "readability": "The proof names its time origin. Assumptions and deadline/weight limitations remain visible at the ending.",
+        "pacing": "The concrete pair moves before the general statement. The assumption section is necessarily slower and more verbal.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Homophone, number-formatting and minor inflection transcription differences were read against the intended script; no mathematical change identified. No subjective listening.",
+        "remaining_weaknesses": "The final third resembles a small lecture slide. The arbitrary job blocks offer less human context than a familiar task situation, and no audience result establishes that the objective feels meaningful.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    }
+  ]
+}
