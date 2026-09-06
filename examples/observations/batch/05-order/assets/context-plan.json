@@ -1,0 +1,8 @@
+{
+  "physical_subject": "How can the same workload have a smaller sum of completion times?",
+  "relationship": "Shortest processing time first minimizes the sum of completion times on one machine when all jobs are ready, equally weighted, and have no setup or precedence constraints.",
+  "operation": "Compare identified job blocks and finish marks; isolate an adjacent interchange and prove the saving.",
+  "closest_prior": "Earlier Little law, optimal stopping, traveling salesman and gradient descent",
+  "substantive_difference": "Single-machine adjacent-exchange proof for total completion time; not steady-state queues, route length or stopping strategy.",
+  "sequence_is_editorial_hypothesis": true
+}

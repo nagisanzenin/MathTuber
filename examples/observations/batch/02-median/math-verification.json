@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "independent_argument": "For each outside pair a\u2264b, |a\u2212q|+|b\u2212q|\u2265b\u2212a with equality inside [a,b]. The middle observation lies in every paired interval and contributes zero unpaired error, so it attains their simultaneous lower bound. The argument also allows repeated observations.",
+  "checks": {
+    "exhaustive_five_point_multisets": 252,
+    "tested_half_step_predictions": "-1 through 7",
+    "example_errors": [
+      13,
+      12,
+      13
+    ],
+    "changed_extreme_optimum": 4,
+    "changed_error": 17
+  },
+  "limitations": "Exact finite checks supplement the stated argument; not a claim about audience understanding."
+}

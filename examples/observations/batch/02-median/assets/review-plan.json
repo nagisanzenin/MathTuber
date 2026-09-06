@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "At three",
+      "end_cue": "pair the smallest",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Distances and total update consistently; examples are not claimed as proof."
+    },
+    {
+      "id": "2",
+      "start_cue": "pair the smallest",
+      "end_cue": "This pairing",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Outside pair bounds and zero middle error give the attained minimum."
+    },
+    {
+      "id": "3",
+      "start_cue": "Now move",
+      "end_cue": "A different loss",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Moving the largest observation changes error but not the median."
+    }
+  ]
+}

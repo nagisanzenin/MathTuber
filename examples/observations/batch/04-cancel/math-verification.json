@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "independent_argument": "The common-denominator identity telescopes in each finite N-term sum to 1\u22121/(N+1). The remainder tends to zero, so the sequence of partial sums converges to one; no rearrangement of an infinite expression is required.",
+  "checks": {
+    "exact_partial_sums": "N=1 through 1000",
+    "four_terms": "4/5",
+    "gaps": {
+      "4": "1/5",
+      "9": "1/10",
+      "99": "1/100"
+    }
+  },
+  "limitations": "Exact finite checks supplement the stated argument; not a claim about audience understanding."
+}

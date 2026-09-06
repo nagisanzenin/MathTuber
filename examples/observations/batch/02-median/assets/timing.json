@@ -1,0 +1,25 @@
+{
+  "s01": {
+    "You need one": 0.325,
+    "Suppose each": 6.7,
+    "Where should": 9.887,
+    "At three": 14.275,
+    "Move to four": 17.7,
+    "Move to five": 20.975,
+    "But checking": 24.225,
+    "pair the smallest": 28.25,
+    "Wherever the prediction": 31.338,
+    "Pair two with six": 35.963,
+    "Both pairs": 41.625,
+    "The only unpaired": 44.638,
+    "Put the prediction there": 47.562,
+    "This pairing": 52.275,
+    "Each outside pair": 57.75,
+    "The middle observation reaches": 63.038,
+    "That is why": 66.625,
+    "Now move": 71.6,
+    "The total error grows": 75.588,
+    "In machine learning": 80.125,
+    "A different loss": 86.35
+  }
+}

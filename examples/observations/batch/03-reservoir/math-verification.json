@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "independent_argument": "Base case retains the first item. At n\u22652 each old item has probability 1/(n\u22121) and survives independently of its identity with probability (n\u22121)/n. Its final probability and that of the newcomer are both 1/n. This proves the single-item case; it does not infer general subset uniformity from marginals.",
+  "checks": {
+    "exact_probability_vectors": "n=1 through 100",
+    "illustrated_replacements": "A retained initially; B replaces A; C does not replace B, one possible run",
+    "memory": "one item plus count; diagram may display possible outcomes"
+  },
+  "limitations": "Exact finite checks supplement the stated argument; not a claim about audience understanding."
+}

@@ -1,0 +1,8 @@
+{
+  "physical_subject": "Why can a filter catch most unwanted messages while most flags are wrong?",
+  "relationship": "Recall and precision condition on different groups; fixed 90% true-positive and 10% false-positive rates give precision 9/108 at 1% prevalence and 90/180 at 10% prevalence.",
+  "operation": "Route exact hypothetical counts into a flagged subset, preserve the denominator, then change the class prevalence.",
+  "closest_prior": "Earlier probability-as-area, Simpson paradox and broad ML loss-function titles",
+  "substantive_difference": "Class-conditional rates versus positive-prediction precision, with a prevalence change; no subgroup reversal or model-training tutorial.",
+  "sequence_is_editorial_hypothesis": true
+}

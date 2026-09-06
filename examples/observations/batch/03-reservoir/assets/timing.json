@@ -1,0 +1,23 @@
+{
+  "s01": {
+    "Suppose messages": 0.325,
+    "You want every": 4.987,
+    "Keep the first": 11.5,
+    "When the second": 13.225,
+    "When the third arrives": 18.312,
+    "A smaller chance": 22.475,
+    "But an earlier": 26.625,
+    "After two messages": 30.338,
+    "Either stays": 35.163,
+    "One half times": 40.663,
+    "The new message": 43.612,
+    "With four messages": 47.65,
+    "Each earlier chance": 51.788,
+    "At step n": 57.312,
+    "The same cancellation": 61.275,
+    "This is reservoir": 66.225,
+    "The letters here": 69.988,
+    "It can sample": 76.6,
+    "Equal chances": 81.163
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "physical_subject": "How can one stored message remain a fair sample of a stream with unknown length?",
+  "relationship": "At step n, replace with probability 1/n; an old item has chance 1/(n\u22121) times survival (n\u22121)/n = 1/n.",
+  "operation": "One illustrated stream followed by exact probabilities for every possible stored message; compare replacement with survival.",
+  "closest_prior": "Earlier coin patterns, coupon collection and P\u00f3lya urn titles",
+  "substantive_difference": "Uniform one-item streaming sample via replacement-survival induction; no waiting-time or reinforcement process.",
+  "sequence_is_editorial_hypothesis": true
+}

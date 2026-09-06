@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Run the longest",
+      "end_cue": "Why does",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Same jobs and total workload; different completion marks and sums."
+    },
+    {
+      "id": "2",
+      "start_cue": "Look at just",
+      "end_cue": "In general",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "The two-job exchange preserves the last finish and decreases the earlier finish."
+    },
+    {
+      "id": "3",
+      "start_cue": "In general",
+      "end_cue": "This assumes",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "General saving a\u2212b and unchanged later jobs imply sorted optimality."
+    }
+  ]
+}

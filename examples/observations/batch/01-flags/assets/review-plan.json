@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Ten are unwanted",
+      "end_cue": "Now look only",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Counts follow the two stated conditional rates."
+    },
+    {
+      "id": "2",
+      "start_cue": "Now look only",
+      "end_cue": "Change the batch",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Only the flagged subset enters the precision denominator."
+    },
+    {
+      "id": "3",
+      "start_cue": "Change the batch",
+      "end_cue": "Recall is the share",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Prevalence changes while conditional filtering rates remain fixed."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "When the second",
+      "end_cue": "But an earlier",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "One labeled illustrative run, not evidence of the probability claim."
+    },
+    {
+      "id": "2",
+      "start_cue": "After two messages",
+      "end_cue": "With four messages",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Preserve one-half input probabilities and multiply by two-thirds survival."
+    },
+    {
+      "id": "3",
+      "start_cue": "With four messages",
+      "end_cue": "This is reservoir",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "All four final possibilities agree; general algebra represents survival."
+    }
+  ]
+}

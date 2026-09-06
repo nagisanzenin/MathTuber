@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Same Work, Less Waiting",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Three jobs are ready for one machine: six minutes, two minutes, and one minute.",
+        "All the work takes nine minutes.",
+        "But the order changes how long the jobs wait to finish.",
+        "Run the longest first.",
+        "The jobs finish at six, eight, and nine minutes.",
+        "Their completion times add to twenty three.",
+        "Now run the shortest first.",
+        "They finish at one, three, and nine, adding to thirteen.",
+        "Why does the swap help?",
+        "Look at just a long job followed by a short one.",
+        "The first finishes after six minutes, and the second after eight.",
+        "Swap them: the first finish is now at two, while the final finish stays at eight.",
+        "Four minutes disappear from the total completion time.",
+        "In general, swapping an adjacent long job before a short job saves their length difference.",
+        "Everything after the pair starts at the same time as before.",
+        "Remove every reversed pair, and the jobs end up ordered from shortest to longest.",
+        "That minimizes the sum of completion times.",
+        "This assumes all jobs are ready, one machine, equal importance, and no setup delays or dependencies.",
+        "Deadlines and unequal importance can change the best order.",
+        "The amount of work did not shrink.",
+        "We changed the order so less of that work delays other jobs."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Shortest processing time first minimizes the sum of completion times on one machine when all jobs are ready, equally weighted, and have no setup or precedence constraints.",
+    "question": "How can the same workload have a smaller sum of completion times?",
+    "payoff": "Shortest processing time first minimizes the sum of completion times on one machine when all jobs are ready, equally weighted, and have no setup or precedence constraints.",
+    "transfer_prompt": "Follow the changed case using the relationship established in the explanation.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Earlier Little law, optimal stopping, traveling salesman and gradient descent. Difference: Single-machine adjacent-exchange proof for total completion time; not steady-state queues, route length or stopping strategy.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Mathematical insight first; a concrete action introduces the question, identified quantities carry the reasoning, and a changed case tests the result.",
+      "episode_variation": "Compare identified job blocks and finish marks; isolate an adjacent interchange and prove the saving.",
+      "exceptions": [
+        "Original exact schematic representations, not a material simulation.",
+        "Dry narration; subjective listening and audience outcomes remain unmeasured."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How can the same workload have a smaller sum of completion times?",
+        "visual_action": "Compare identified job blocks and finish marks; isolate an adjacent interchange and prove the saving.",
+        "new_understanding": "Shortest processing time first minimizes the sum of completion times on one machine when all jobs are ready, equally weighted, and have no setup or precedence constraints.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Three jobs are ready for one machine: six minutes, two minutes, and one minute. All the work takes nine minutes. But the order changes how long the jobs wait to finish.\n\nRun the longest first. The jobs finish at six, eight, and nine minutes. Their completion times add to twenty three. Now run the shortest first. They finish at one, three, and nine, adding to thirteen.\n\nWhy does the swap help? Look at just a long job followed by a short one. The first finishes after six minutes, and the second after eight. Swap them: the first finish is now at two, while the final finish stays at eight. Four minutes disappear from the total completion time.\n\nIn general, swapping an adjacent long job before a short job saves their length difference. Everything after the pair starts at the same time as before. Remove every reversed pair, and the jobs end up ordered from shortest to longest. That minimizes the sum of completion times.\n\nThis assumes all jobs are ready, one machine, equal importance, and no setup delays or dependencies. Deadlines and unequal importance can change the best order. The amount of work did not shrink. We changed the order so less of that work delays other jobs."
+    }
+  ],
+  "sources": [
+    "https://people.csail.mit.edu/karger/Papers/scheduling.pdf"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

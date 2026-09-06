@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "independent_argument": "An adjacent inverted pair a>b beginning at t contributes 2t+2a+b to total completion time. Swapping gives 2t+2b+a, saving a\u2212b; later jobs are unchanged. Repeated exchanges remove all inversions. This assumes all jobs available on one machine with equal weights, no setup times or dependencies.",
+  "checks": {
+    "example_totals": [
+      23,
+      13
+    ],
+    "two_job_saving": 4,
+    "exhaustive_permutations": "12 six-job instances",
+    "makespan_unchanged": 9
+  },
+  "limitations": "Exact finite checks supplement the stated argument; not a claim about audience understanding."
+}

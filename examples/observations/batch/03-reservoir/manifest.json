@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "A Fair Sample Without Keeping the Whole Stream",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Suppose messages arrive one at a time, and you can keep only one.",
+        "You want every message to have the same chance, even though you do not know when the stream will end.",
+        "Keep the first message.",
+        "When the second arrives, replace the stored message with probability one half.",
+        "When the third arrives, replace it with probability one third.",
+        "A smaller chance for the newcomer may seem unfair.",
+        "But an earlier message has already survived a selection.",
+        "After two messages, A and B each have probability one half.",
+        "Either stays only when the third message is not chosen: probability two thirds.",
+        "One half times two thirds is one third.",
+        "The new message also has probability one third.",
+        "With four messages, replace with probability one quarter.",
+        "Each earlier chance becomes one third times three quarters, which is one quarter.",
+        "At step n, the replacement chance is one divided by n.",
+        "The same cancellation keeps every message equally likely.",
+        "This is reservoir sampling with one stored item.",
+        "The letters here explain the possible outcomes; the algorithm keeps just one message and a counter.",
+        "It can sample a large data stream without storing the whole stream.",
+        "Equal chances come from balancing arrival with survival."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "At step n, replace with probability 1/n; an old item has chance 1/(n−1) times survival (n−1)/n = 1/n.",
+    "question": "How can one stored message remain a fair sample of a stream with unknown length?",
+    "payoff": "At step n, replace with probability 1/n; an old item has chance 1/(n−1) times survival (n−1)/n = 1/n.",
+    "transfer_prompt": "Follow the changed case using the relationship established in the explanation.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Earlier coin patterns, coupon collection and Pólya urn titles. Difference: Uniform one-item streaming sample via replacement-survival induction; no waiting-time or reinforcement process.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Mathematical insight first; a concrete action introduces the question, identified quantities carry the reasoning, and a changed case tests the result.",
+      "episode_variation": "One illustrated stream followed by exact probabilities for every possible stored message; compare replacement with survival.",
+      "exceptions": [
+        "Original exact schematic representations, not a material simulation.",
+        "Dry narration; subjective listening and audience outcomes remain unmeasured."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How can one stored message remain a fair sample of a stream with unknown length?",
+        "visual_action": "One illustrated stream followed by exact probabilities for every possible stored message; compare replacement with survival.",
+        "new_understanding": "At step n, replace with probability 1/n; an old item has chance 1/(n−1) times survival (n−1)/n = 1/n.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Suppose messages arrive one at a time, and you can keep only one. You want every message to have the same chance, even though you do not know when the stream will end.\n\nKeep the first message. When the second arrives, replace the stored message with probability one half. When the third arrives, replace it with probability one third. A smaller chance for the newcomer may seem unfair.\n\nBut an earlier message has already survived a selection. After two messages, A and B each have probability one half. Either stays only when the third message is not chosen: probability two thirds. One half times two thirds is one third. The new message also has probability one third.\n\nWith four messages, replace with probability one quarter. Each earlier chance becomes one third times three quarters, which is one quarter. At step n, the replacement chance is one divided by n. The same cancellation keeps every message equally likely.\n\nThis is reservoir sampling with one stored item. The letters here explain the possible outcomes; the algorithm keeps just one message and a counter. It can sample a large data stream without storing the whole stream. Equal chances come from balancing arrival with survival."
+    }
+  ],
+  "sources": [
+    "https://people.orie.cornell.edu/prs233/orie-6125/algorithms/reservoir-sampling.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

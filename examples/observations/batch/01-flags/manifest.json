@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "When a Flag Is Usually a False Alarm",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Your message filter catches nine out of ten unwanted messages.",
+        "That sounds reassuring.",
+        "But when it flags a message, how often is the flag right?",
+        "Consider a made-up batch of one thousand messages.",
+        "Ten are unwanted, and nine hundred ninety are ordinary.",
+        "The filter catches nine of the ten unwanted messages.",
+        "Suppose it also flags one in ten ordinary messages.",
+        "That makes ninety nine false alarms.",
+        "Now look only inside the flagged tray.",
+        "There are nine unwanted messages and ninety nine ordinary ones.",
+        "Nine out of one hundred eight flags are right: about eight percent.",
+        "Catching most unwanted messages is a different question from trusting a flag.",
+        "Change the batch: now one hundred messages are unwanted and nine hundred are ordinary.",
+        "The filtering rates stay the same.",
+        "We get ninety true flags and ninety false alarms.",
+        "This time, half the flags are right.",
+        "Recall is the share of actual unwanted messages that we catch.",
+        "Precision is the share of flags that are right.",
+        "These are invented counts, not measurements of a real product.",
+        "When you read a model metric, ask which group is underneath the fraction."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Recall and precision condition on different groups; fixed 90% true-positive and 10% false-positive rates give precision 9/108 at 1% prevalence and 90/180 at 10% prevalence.",
+    "question": "Why can a filter catch most unwanted messages while most flags are wrong?",
+    "payoff": "Recall and precision condition on different groups; fixed 90% true-positive and 10% false-positive rates give precision 9/108 at 1% prevalence and 90/180 at 10% prevalence.",
+    "transfer_prompt": "Follow the changed case using the relationship established in the explanation.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Earlier probability-as-area, Simpson paradox and broad ML loss-function titles. Difference: Class-conditional rates versus positive-prediction precision, with a prevalence change; no subgroup reversal or model-training tutorial.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Mathematical insight first; a concrete action introduces the question, identified quantities carry the reasoning, and a changed case tests the result.",
+      "episode_variation": "Route exact hypothetical counts into a flagged subset, preserve the denominator, then change the class prevalence.",
+      "exceptions": [
+        "Original exact schematic representations, not a material simulation.",
+        "Dry narration; subjective listening and audience outcomes remain unmeasured."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why can a filter catch most unwanted messages while most flags are wrong?",
+        "visual_action": "Route exact hypothetical counts into a flagged subset, preserve the denominator, then change the class prevalence.",
+        "new_understanding": "Recall and precision condition on different groups; fixed 90% true-positive and 10% false-positive rates give precision 9/108 at 1% prevalence and 90/180 at 10% prevalence.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Your message filter catches nine out of ten unwanted messages. That sounds reassuring. But when it flags a message, how often is the flag right?\n\nConsider a made-up batch of one thousand messages. Ten are unwanted, and nine hundred ninety are ordinary. The filter catches nine of the ten unwanted messages. Suppose it also flags one in ten ordinary messages. That makes ninety nine false alarms.\n\nNow look only inside the flagged tray. There are nine unwanted messages and ninety nine ordinary ones. Nine out of one hundred eight flags are right: about eight percent. Catching most unwanted messages is a different question from trusting a flag.\n\nChange the batch: now one hundred messages are unwanted and nine hundred are ordinary. The filtering rates stay the same. We get ninety true flags and ninety false alarms. This time, half the flags are right.\n\nRecall is the share of actual unwanted messages that we catch. Precision is the share of flags that are right. These are invented counts, not measurements of a real product. When you read a model metric, ask which group is underneath the fraction."
+    }
+  ],
+  "sources": [
+    "https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

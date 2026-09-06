@@ -1,0 +1,8 @@
+{
+  "physical_subject": "Why does the median minimize equal-cost absolute prediction error?",
+  "relationship": "For a finite ordered odd-size sample, outside-pair distance bounds plus the unpaired middle observation prove that the median minimizes the sum of absolute errors.",
+  "operation": "Compare three guesses, then pair ordered observations to prove a lower bound attained at the middle value.",
+  "closest_prior": "Earlier harmonic mean film and historical ML Loss functions title",
+  "substantive_difference": "Finite ordered-pair proof for the absolute-error minimizer, not average speed or a generic introduction to loss. Historical loss-video transcript unavailable, so broad overlap remains possible.",
+  "sequence_is_editorial_hypothesis": true
+}

@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "independent_argument": "Precision conditions on predicted positives: TP/(TP+FP), whereas recall conditions on actual positives. With fixed conditional rates, changing prevalence changes the relative sizes of the two sources of flags.",
+  "checks": {
+    "invented_examples": [
+      [
+        10,
+        990,
+        9,
+        99,
+        "1/12"
+      ],
+      [
+        100,
+        900,
+        90,
+        90,
+        "1/2"
+      ]
+    ],
+    "total": 1000,
+    "recall": "9/10",
+    "false_positive_rate": "1/10"
+  },
+  "limitations": "Exact finite checks supplement the stated argument; not a claim about audience understanding."
+}

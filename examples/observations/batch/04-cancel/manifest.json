@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "An Infinite Sum with Only Two Loose Ends",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Here is a sum that keeps growing: one half, one sixth, one twelfth, one twentieth.",
+        "The denominators come from neighboring whole numbers multiplied together.",
+        "How can we understand the whole sum without adding every fraction?",
+        "Try writing one sixth as one half minus one third.",
+        "Use a common denominator: three sixths minus two sixths.",
+        "The same idea works for any neighboring pair.",
+        "One divided by n, minus one divided by the quantity n plus one, leaves one divided by their product.",
+        "Write the first four terms this way.",
+        "The negative half meets the next positive half.",
+        "The thirds cancel too, and then the quarters.",
+        "Only the first one and the final negative fifth remain.",
+        "The sum is four fifths.",
+        "Add another term: one fifth minus one sixth.",
+        "The old loose end cancels, and a new one takes its place.",
+        "After N terms, the sum is one minus one divided by the quantity N plus one.",
+        "That is an exact statement about a finite sum.",
+        "As N grows, the remaining gap approaches zero.",
+        "The infinite sum therefore converges to one.",
+        "This is called telescoping.",
+        "We first simplify each finite sum, then take its limit.",
+        "A long calculation can become manageable when we see what disappears."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "The first N reciprocal neighboring products sum to 1−1/(N+1), so their infinite series converges to one.",
+    "question": "How can the sum of reciprocal neighboring products be simplified?",
+    "payoff": "The first N reciprocal neighboring products sum to 1−1/(N+1), so their infinite series converges to one.",
+    "transfer_prompt": "Follow the changed case using the relationship established in the explanation.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Earlier geometric infinite square, sums of integers, fundamental theorem of calculus. Difference: Algebraic telescoping of reciprocal products via finite partial fractions rather than area or an arithmetic progression.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Mathematical insight first; a concrete action introduces the question, identified quantities carry the reasoning, and a changed case tests the result.",
+      "episode_variation": "Split identified terms into signed fractions; cancel finite pairs before taking a limit.",
+      "exceptions": [
+        "Original exact schematic representations, not a material simulation.",
+        "Dry narration; subjective listening and audience outcomes remain unmeasured."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How can the sum of reciprocal neighboring products be simplified?",
+        "visual_action": "Split identified terms into signed fractions; cancel finite pairs before taking a limit.",
+        "new_understanding": "The first N reciprocal neighboring products sum to 1−1/(N+1), so their infinite series converges to one.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Here is a sum that keeps growing: one half, one sixth, one twelfth, one twentieth. The denominators come from neighboring whole numbers multiplied together. How can we understand the whole sum without adding every fraction?\n\nTry writing one sixth as one half minus one third. Use a common denominator: three sixths minus two sixths. The same idea works for any neighboring pair. One divided by n, minus one divided by the quantity n plus one, leaves one divided by their product.\n\nWrite the first four terms this way. The negative half meets the next positive half. The thirds cancel too, and then the quarters. Only the first one and the final negative fifth remain. The sum is four fifths.\n\nAdd another term: one fifth minus one sixth. The old loose end cancels, and a new one takes its place. After N terms, the sum is one minus one divided by the quantity N plus one. That is an exact statement about a finite sum.\n\nAs N grows, the remaining gap approaches zero. The infinite sum therefore converges to one. This is called telescoping. We first simplify each finite sum, then take its limit. A long calculation can become manageable when we see what disappears."
+    }
+  ],
+  "sources": [
+    "https://openstax.org/books/calculus-volume-2/pages/5-2-infinite-series"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

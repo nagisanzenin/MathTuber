@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Why the Middle Minimizes the Total Error",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "You need one prediction for these five observations: one, two, four, six, and nine.",
+        "Suppose each unit of error costs the same.",
+        "Where should you put the prediction to make the total error smallest?",
+        "At three, the five distances add to thirteen.",
+        "Move to four, and the total falls to twelve.",
+        "Move to five, and it rises to thirteen again.",
+        "But checking three guesses is not a proof.",
+        "First, pair the smallest observation with the largest.",
+        "Wherever the prediction sits between them, its two distances add to eight.",
+        "Pair two with six: those distances add to four when the prediction lies between them.",
+        "Both pairs are already as short as they can be.",
+        "The only unpaired observation is four.",
+        "Put the prediction there, and its own error becomes zero.",
+        "This pairing argument works for any ordered list with an odd number of observations.",
+        "Each outside pair has a lower bound equal to the gap between its endpoints.",
+        "The middle observation reaches every bound at once.",
+        "That is why the median minimizes total absolute error.",
+        "Now move the largest observation from nine to fourteen.",
+        "The total error grows, but the middle observation stays four.",
+        "In machine learning, this is the simplest constant prediction under absolute-error loss.",
+        "A different loss function asks a different optimization question."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "For a finite ordered odd-size sample, outside-pair distance bounds plus the unpaired middle observation prove that the median minimizes the sum of absolute errors.",
+    "question": "Why does the median minimize equal-cost absolute prediction error?",
+    "payoff": "For a finite ordered odd-size sample, outside-pair distance bounds plus the unpaired middle observation prove that the median minimizes the sum of absolute errors.",
+    "transfer_prompt": "Follow the changed case using the relationship established in the explanation.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Earlier harmonic mean film and historical ML Loss functions title. Difference: Finite ordered-pair proof for the absolute-error minimizer, not average speed or a generic introduction to loss. Historical loss-video transcript unavailable, so broad overlap remains possible.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Mathematical insight first; a concrete action introduces the question, identified quantities carry the reasoning, and a changed case tests the result.",
+      "episode_variation": "Compare three guesses, then pair ordered observations to prove a lower bound attained at the middle value.",
+      "exceptions": [
+        "Original exact schematic representations, not a material simulation.",
+        "Dry narration; subjective listening and audience outcomes remain unmeasured."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why does the median minimize equal-cost absolute prediction error?",
+        "visual_action": "Compare three guesses, then pair ordered observations to prove a lower bound attained at the middle value.",
+        "new_understanding": "For a finite ordered odd-size sample, outside-pair distance bounds plus the unpaired middle observation prove that the median minimizes the sum of absolute errors.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "You need one prediction for these five observations: one, two, four, six, and nine. Suppose each unit of error costs the same. Where should you put the prediction to make the total error smallest?\n\nAt three, the five distances add to thirteen. Move to four, and the total falls to twelve. Move to five, and it rises to thirteen again. But checking three guesses is not a proof.\n\nFirst, pair the smallest observation with the largest. Wherever the prediction sits between them, its two distances add to eight. Pair two with six: those distances add to four when the prediction lies between them. Both pairs are already as short as they can be. The only unpaired observation is four. Put the prediction there, and its own error becomes zero.\n\nThis pairing argument works for any ordered list with an odd number of observations. Each outside pair has a lower bound equal to the gap between its endpoints. The middle observation reaches every bound at once. That is why the median minimizes total absolute error.\n\nNow move the largest observation from nine to fourteen. The total error grows, but the middle observation stays four. In machine learning, this is the simplest constant prediction under absolute-error loss. A different loss function asks a different optimization question."
+    }
+  ],
+  "sources": [
+    "https://statproofbook.github.io/P/med-mae.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

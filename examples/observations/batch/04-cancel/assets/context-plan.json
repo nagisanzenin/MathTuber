@@ -1,0 +1,8 @@
+{
+  "physical_subject": "How can the sum of reciprocal neighboring products be simplified?",
+  "relationship": "The first N reciprocal neighboring products sum to 1\u22121/(N+1), so their infinite series converges to one.",
+  "operation": "Split identified terms into signed fractions; cancel finite pairs before taking a limit.",
+  "closest_prior": "Earlier geometric infinite square, sums of integers, fundamental theorem of calculus",
+  "substantive_difference": "Algebraic telescoping of reciprocal products via finite partial fractions rather than area or an arithmetic progression.",
+  "sequence_is_editorial_hypothesis": true
+}

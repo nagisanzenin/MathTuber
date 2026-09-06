@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Try writing",
+      "end_cue": "Write the first",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Common denominator gives the partial fraction identity."
+    },
+    {
+      "id": "2",
+      "start_cue": "Write the first",
+      "end_cue": "Add another term",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Only equal and opposite interior terms disappear."
+    },
+    {
+      "id": "3",
+      "start_cue": "Add another term",
+      "end_cue": "The infinite sum",
+      "end_offset": 2,
+      "samples": 9,
+      "purpose": "Finite remainder changes before limit; no informal infinite cancellation."
+    }
+  ]
+}
