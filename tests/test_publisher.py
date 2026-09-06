@@ -130,4 +130,21 @@ class PublisherTests(unittest.TestCase):
             return upload
         self.api.insert=resume;self.invoke()
         self.assertEqual(json.loads(self.receipt.read_text())['state'],'published')
+    def test_read_only_status_never_updates_a_video_or_receipt(self):
+        self.receipt.write_text(json.dumps({'state':'published','video_id':'video'}))
+        before=self.receipt.read_bytes();self.request['status_only']=True
+        output=StringIO()
+        with redirect_stdout(output),self.assertRaises(SystemExit):self.invoke()
+        result=json.loads(output.getvalue())
+        self.assertEqual(result['state'],'observed')
+        self.assertEqual(result['privacy'],'private')
+        self.assertEqual(result['processing'],'succeeded')
+        self.assertEqual(self.api.inserts,0);self.assertEqual(self.api.updates,[])
+        self.assertEqual(self.receipt.read_bytes(),before)
+    def test_read_only_status_without_video_does_not_upload(self):
+        self.request['status_only']=True
+        output=StringIO()
+        with redirect_stdout(output),self.assertRaises(SystemExit):self.invoke()
+        self.assertEqual(json.loads(output.getvalue())['state'],'not_uploaded')
+        self.assertEqual(self.api.inserts,0);self.assertEqual(self.api.updates,[])
 if __name__=='__main__':unittest.main()

@@ -21,7 +21,7 @@ def save(data):
     os.chmod(tmp,0o600)
     os.replace(tmp,receipt)
 state=json.loads(receipt.read_text()) if receipt.exists() else {}
-if waiting(state):
+if waiting(state) and not req.get('status_only'):
     print(json.dumps(public_receipt(state)))
     sys.exit(0)
 creds=Credentials.from_authorized_user_file(config["token_path"])
@@ -40,6 +40,23 @@ intent=req["intent"]
 if intent["channel_id"] not in [x["id"] for x in channels]:
     raise RuntimeError("CHANNEL_MISMATCH: credentials do not own the requested channel")
 video_id=state.get("video_id")
+if req.get('status_only'):
+    if not video_id:
+        result=public_receipt(state)
+        result.setdefault('state','not_uploaded')
+    else:
+        items=youtube.videos().list(part='snippet,status,processingDetails,contentDetails',id=video_id).execute().get('items',[])
+        if not items:
+            result={'state':'not_found','video_id':video_id}
+        else:
+            item=items[0]
+            result={'state':'observed','video_id':video_id,'url':f'https://www.youtube.com/watch?v={video_id}',
+                    'title':item.get('snippet',{}).get('title'),
+                    'privacy':item.get('status',{}).get('privacyStatus'),
+                    'processing':item.get('processingDetails',{}).get('processingStatus'),
+                    'duration':item.get('contentDetails',{}).get('duration')}
+    print(json.dumps(result))
+    sys.exit(0)
 if not video_id:
     if state.get("state") == "starting" and not state.get("session_uri"):
         raise RuntimeError("UPLOAD_UNCERTAIN: prior upload initiation was interrupted; reconcile before retry")
