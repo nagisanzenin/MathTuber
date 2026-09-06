@@ -1,0 +1,5 @@
+# Continuous explanatory construction
+
+Use a shared geometric parameter for the moving subject and its retained trace. `WorkshopScene.trace_curve(point_at, parameter_callable, start, end, samples)` caches a parameter-space polyline; add the returned object to the scene. It supports rewinds without retaining stale future points. Check approximation error and alignment with the live subject at final output size. Uniform parameter sampling is not uniform speed. A process clock or explicit animation must drive motion through waits.
+
+A taut thread, constrained rod or rolling contact should expose a relationship. Pause at a meaningful state to measure or compare. Explain rewinds and changes of assumptions; retain only references needed to understand the operation. Neither more motion nor more simplicity is a universal improvement. Research on apparent movement and street-art appreciation motivates an editorial experiment, not a claim about Shorts learning or calmness. See the repository research note CONTINUOUS-CONSTRUCTION.md for sources and limits.

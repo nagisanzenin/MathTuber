@@ -108,6 +108,24 @@ class WorkshopScene(NarratedScene):
         self.play(subject.animate.scale(scale).move_to(center), run_time=run_time)
         return subject
 
+    def trace_curve(self, point_at, parameter, start=0.0, end=1.0,
+                    samples=601, color="primary", stroke_width=4):
+        """Return an updating cached polyline; add it to the scene explicitly.
+
+        `parameter` is a callable. Keep its range inside start/end. Sampling
+        error depends on the curve: inspect live-point alignment at the intended
+        output size. The cache uses parameter space, not constant arc speed.
+        """
+        from mathtuber.curve_trace import CurveTrace
+        trace = CurveTrace(point_at, start, end, samples)
+        item = VMobject(stroke_color=self.palette.get(color, color),
+                        stroke_width=stroke_width)
+        def update(line):
+            line.set_points_as_corners(trace.through(float(parameter())))
+        update(item)
+        item.add_updater(update)
+        return item
+
     def bead(self, radius=.25, color="primary", layers=18):
         """Painted depth cue for tangible round objects, with profile colors.
 
