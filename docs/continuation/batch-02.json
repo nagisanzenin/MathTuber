@@ -1,0 +1,74 @@
+{
+  "checked_at": "2026-09-06T11:20:34.194059+00:00",
+  "complete": true,
+  "completed": 5,
+  "total": 5,
+  "videos": [
+    {
+      "state": "observed",
+      "video_id": "tjnb8fl1xKo",
+      "url": "https://www.youtube.com/watch?v=tjnb8fl1xKo",
+      "title": "The Odd Loop That Makes Two Colors Impossible #math #Shorts",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M18S",
+      "project": "06-colors",
+      "export_sha256": "cd61f076c62b87f77b9ec39a01aebcd3726a539f922f0a2dc1bd42876d3de722",
+      "requested_privacy": "public",
+      "complete": true
+    },
+    {
+      "state": "observed",
+      "video_id": "KMkFvrPi2LU",
+      "url": "https://www.youtube.com/watch?v=KMkFvrPi2LU",
+      "title": "Why Six Multiplications Return to One #math #Shorts",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M27S",
+      "project": "07-seven",
+      "export_sha256": "468dee27cdf08c286c944963ccd31f811d4ef627976434726e0d05d49bd5b0b9",
+      "requested_privacy": "public",
+      "complete": true
+    },
+    {
+      "state": "observed",
+      "video_id": "4aOEhedK8xI",
+      "url": "https://www.youtube.com/watch?v=4aOEhedK8xI",
+      "title": "What Changes When You Keep the Better of Two Draws? #math #Shorts",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M26S",
+      "project": "08-maximum",
+      "export_sha256": "48d48a4daedefa6071724ba28a226109615463f867b560b36cc3411ae9e947d4",
+      "requested_privacy": "public",
+      "complete": true
+    },
+    {
+      "state": "observed",
+      "video_id": "u8dLfbVxLSo",
+      "url": "https://www.youtube.com/watch?v=u8dLfbVxLSo",
+      "title": "Same Direction, Different Similarity Scores #math #Shorts",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M23S",
+      "project": "09-direction",
+      "export_sha256": "8dca09f0084fb52f7c74f3cf213e3c534325c851f484ee664fdd2c8e0f309ac8",
+      "requested_privacy": "public",
+      "complete": true
+    },
+    {
+      "state": "observed",
+      "video_id": "Q1SmKuUxcgo",
+      "url": "https://www.youtube.com/watch?v=Q1SmKuUxcgo",
+      "title": "A Tangent Can Guess Where a Curve Crosses Zero #math #Shorts",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M20S",
+      "project": "10-tangent",
+      "export_sha256": "c924550e9e1fd3c6df21bb4dc025380327c0153bb1f3d4acf4eccd1cf0b2bf57",
+      "requested_privacy": "public",
+      "complete": true
+    }
+  ],
+  "method": "Read-only YouTube status and processing queries for exact current-export receipts; no video insert or update."
+}
