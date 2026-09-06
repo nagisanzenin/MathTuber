@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Why an Expensive Move Can Still Be Cheap Overall",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A growing list sometimes has to move everything.",
+        "Why is adding one more item usually cheap?",
+        "Imagine storage with one slot. We write the first item.",
+        "The second item needs more room. Double the capacity and copy the old item.",
+        "The third item needs an array of four slots, after copying two old items.",
+        "The fourth item fits without another move.",
+        "For the fifth item, double again. Copy four items into eight slots.",
+        "The next three appends simply use the empty space.",
+        "Eight appends have written eight new items and copied seven old ones.",
+        "That is fifteen item operations in this simple cost model.",
+        "The expensive copies happen at capacities one, two, four, eight, and so on.",
+        "Each copied block is twice the previous size.",
+        "All the earlier blocks together are smaller than the last block.",
+        "After any number of appends, total copying is less than twice the number of items.",
+        "Adding one write per item gives less than three operations per append, averaged over the whole sequence.",
+        "This is amortized analysis. It does not promise that every individual append is fast.",
+        "We count item writes and copies, not actual seconds or every memory-management cost.",
+        "Now the eight slots are full. What happens to item nine?",
+        "Eight old items must move, and the new item is written. Nine operations at once.",
+        "Item ten then fits with just one write.",
+        "Occasional expensive moves can coexist with a small total cost. The empty space buys time before the next move."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Doubling capacity bounds total item copying by less than2n across n appends; including writes yields less than3n operations, although one append can cost linear time.",
+    "question": "How can growing a list be cheap when some appends copy every item?",
+    "payoff": "Doubling capacity bounds total item copying by less than2n across n appends; including writes yields less than3n operations, although one append can cost linear time.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Earlier algorithm titles and geometric series explanation. Difference: Amortized sequence cost versus individual operation cost is the learning goal; this is not search, sorting or infinite summation.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Recognizable physical subject and useful setting; explicit connection to exact diagram; return to a changed physical condition. Restrained original vector artwork.",
+      "episode_variation": "Show filled and spare slots, copying at capacity doubling, an exact running cost, geometric blocks and the contrasting ninth and tenth append.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How can growing a list be cheap when some appends copy every item?",
+        "visual_action": "Show filled and spare slots, copying at capacity doubling, an exact running cost, geometric blocks and the contrasting ninth and tenth append.",
+        "new_understanding": "Doubling capacity bounds total item copying by less than2n across n appends; including writes yields less than3n operations, although one append can cost linear time.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A growing list sometimes has to move everything. Why is adding one more item usually cheap? Imagine storage with one slot. We write the first item.\n\nThe second item needs more room. Double the capacity and copy the old item. The third item needs an array of four slots, after copying two old items. The fourth item fits without another move.\n\nFor the fifth item, double again. Copy four items into eight slots. The next three appends simply use the empty space. Eight appends have written eight new items and copied seven old ones. That is fifteen item operations in this simple cost model.\n\nThe expensive copies happen at capacities one, two, four, eight, and so on. Each copied block is twice the previous size. All the earlier blocks together are smaller than the last block. After any number of appends, total copying is less than twice the number of items. Adding one write per item gives less than three operations per append, averaged over the whole sequence.\n\nThis is amortized analysis. It does not promise that every individual append is fast. We count item writes and copies, not actual seconds or every memory-management cost.\n\nNow the eight slots are full. What happens to item nine? Eight old items must move, and the new item is written. Nine operations at once. Item ten then fits with just one write. Occasional expensive moves can coexist with a small total cost. The empty space buys time before the next move."
+    }
+  ],
+  "sources": [
+    "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/79a07dc1cb47d76dae2ffedc701e3d2b_MIT6_006S20_lec2.pdf"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

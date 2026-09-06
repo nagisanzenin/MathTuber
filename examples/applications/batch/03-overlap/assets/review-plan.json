@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "But these three",
+      "end_cue": "That is six",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Only extra copies disappear; all eight distinct identifiers survive."
+    },
+    {
+      "id": "2",
+      "start_cue": "The subtraction",
+      "end_cue": "Now imagine",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "People in both groups remain counted once."
+    },
+    {
+      "id": "3",
+      "start_cue": "If that person",
+      "end_cue": "Before adding",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Additional existing membership increases overlap; a new person does not."
+    }
+  ]
+}

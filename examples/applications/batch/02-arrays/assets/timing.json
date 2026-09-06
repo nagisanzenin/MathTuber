@@ -1,0 +1,25 @@
+{
+  "s01": {
+    "A growing list": 0.325,
+    "Why is adding": 3.6,
+    "Imagine storage": 6.562,
+    "The second": 11.375,
+    "The third": 16.837,
+    "The fourth": 22.163,
+    "For the fifth": 25.8,
+    "The next three": 30.788,
+    "Eight appends": 34.325,
+    "That is fifteen": 38.763,
+    "The expensive": 43.8,
+    "Each copied": 49.438,
+    "All the earlier": 52.75,
+    "After any number": 56.6,
+    "Adding one write": 61.975,
+    "This is amortized": 69.325,
+    "We count item": 75.725,
+    "Now the eight": 82.7,
+    "Eight old items": 86.487,
+    "Item ten": 92.263,
+    "Occasional expensive": 95.175
+  }
+}

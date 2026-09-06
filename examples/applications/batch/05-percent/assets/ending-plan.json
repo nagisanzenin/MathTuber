@@ -1,0 +1,7 @@
+{
+  "original_case": "20percent decrease",
+  "changed_condition": "50percent decrease",
+  "viewer_inference": "What increase reverses the decrease?",
+  "resolution": "100percent of remaining50 restores100",
+  "prerequisite": "Percentage base is the current amount"
+}

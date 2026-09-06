@@ -1,0 +1,8 @@
+{
+  "physical_subject": "Can deliberately flipped answers still estimate a group proportion?",
+  "relationship": "Binary randomized response retaining truth with probability3/4 yields expected yes fraction1/4+p/2, invertible for an unbiased aggregate estimate, with sampling error and limited privacy.",
+  "operation": "Four equally likely cards show truth-dependent response probabilities; expected counts separate signal and noise; an all-no group still produces some yes reports.",
+  "closest_prior": "Earlier false-alarm Bayes example, noisy prediction and secret-sharing titles",
+  "substantive_difference": "This explains deliberate response randomization and aggregate debiasing; it does not infer an individual condition or reconstruct a shared secret.",
+  "sequence_is_editorial_hypothesis": true
+}

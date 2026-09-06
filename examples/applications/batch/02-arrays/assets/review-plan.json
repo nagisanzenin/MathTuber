@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "The second",
+      "end_cue": "Eight appends",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Capacity doubles only when full; copying costs1,2,4 for eight appends."
+    },
+    {
+      "id": "2",
+      "start_cue": "The expensive",
+      "end_cue": "This is amortized",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Geometric copy blocks support a total rather than per-operation bound."
+    },
+    {
+      "id": "3",
+      "start_cue": "Now the eight",
+      "end_cue": "Occasional expensive",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Ninth append copies8 and writes1; tenth only writes1."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "method": "Independent exact arithmetic and explicit derivation, separate from animation code",
+  "checks": {
+    "amounts": [
+      100,
+      80,
+      96
+    ],
+    "restoring_increase": "25%",
+    "half_restoring_increase": "100%"
+  },
+  "general_argument": "A positive starting amount X retained by factor a>0 becomes aX; restoring X requires factor1/a, hence fractional increase1/a-1. With a=0 restoration by multiplication is impossible. Equal decrease/increase p gives(1-p)(1+p)=1-p^2.",
+  "limits": "Fixed-width vessel makes height proportional to amount. No financial recommendation or claim about physical evaporation rates.",
+  "sources": [
+    "https://openstax.org/books/prealgebra-2e/pages/6-1-understand-percent"
+  ]
+}

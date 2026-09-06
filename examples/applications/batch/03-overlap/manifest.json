@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The People Hidden in Two Overlapping Lists",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Two lists can contain fewer people than their lengths suggest.",
+        "Six people joined the drawing workshop. Five joined the music workshop.",
+        "Three people joined both. How many different people joined at least one?",
+        "Put the two lists side by side. Adding their lengths gives eleven entries.",
+        "But these three names appear twice.",
+        "Pair each repeated name with its other copy.",
+        "Keep one copy of each person and remove the duplicates.",
+        "Eight different people remain.",
+        "That is six plus five, minus three.",
+        "The subtraction does not remove people who enjoy both workshops.",
+        "It removes their extra count. They still belong in our answer.",
+        "This is the two-set inclusion and exclusion rule.",
+        "Count the first group, add the second, then subtract their overlap once.",
+        "Someone in one group is counted once. Someone in both is counted twice and corrected back to once.",
+        "Now imagine one more person joins the music workshop.",
+        "If that person is already on the drawing list, how does the total change?",
+        "The music count grows by one, but the overlap also grows by one. The total stays eight.",
+        "If instead a completely new person joins, the overlap stays three.",
+        "Then the total becomes nine.",
+        "Before adding two counts, ask whether they count some of the same things."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "For two finite sets, union count equals the sum of counts minus the intersection. A new membership may leave the distinct-person count unchanged.",
+    "question": "Six names and five names, with three shared: how many different people?",
+    "payoff": "For two finite sets, union count equals the sum of counts minus the intersection. A new membership may leave the distinct-person count unchanged.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Earlier stars-and-bars allocation counting and probability-area titles. Difference: Correcting duplicated identities in a union differs from counting configurations or probability areas.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Recognizable physical subject and useful setting; explicit connection to exact diagram; return to a changed physical condition. Restrained original vector artwork.",
+      "episode_variation": "Pair identified duplicate cards, remove only extra copies, and compare a new membership with a genuinely new person.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Six names and five names, with three shared: how many different people?",
+        "visual_action": "Pair identified duplicate cards, remove only extra copies, and compare a new membership with a genuinely new person.",
+        "new_understanding": "For two finite sets, union count equals the sum of counts minus the intersection. A new membership may leave the distinct-person count unchanged.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Two lists can contain fewer people than their lengths suggest. Six people joined the drawing workshop. Five joined the music workshop. Three people joined both. How many different people joined at least one?\n\nPut the two lists side by side. Adding their lengths gives eleven entries. But these three names appear twice. Pair each repeated name with its other copy. Keep one copy of each person and remove the duplicates. Eight different people remain.\n\nThat is six plus five, minus three. The subtraction does not remove people who enjoy both workshops. It removes their extra count. They still belong in our answer.\n\nThis is the two-set inclusion and exclusion rule. Count the first group, add the second, then subtract their overlap once. Someone in one group is counted once. Someone in both is counted twice and corrected back to once.\n\nNow imagine one more person joins the music workshop. If that person is already on the drawing list, how does the total change? The music count grows by one, but the overlap also grows by one. The total stays eight.\n\nIf instead a completely new person joins, the overlap stays three. Then the total becomes nine. Before adding two counts, ask whether they count some of the same things."
+    }
+  ],
+  "sources": [
+    "https://discrete.openmathbooks.org/dmoi2/sec_counting-addmult.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

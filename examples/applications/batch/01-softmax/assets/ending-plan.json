@@ -1,0 +1,7 @@
+{
+  "original_case": "scores1,2",
+  "changed_condition": "increase only second score to3",
+  "viewer_inference": "Does a changed gap retain the same shares?",
+  "resolution": "second share grows from73%to88%",
+  "prerequisite": "Normalized weights and common factor cancellation"
+}

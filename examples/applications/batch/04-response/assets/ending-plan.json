@@ -1,0 +1,7 @@
+{
+  "original_case": "true fraction80percent",
+  "changed_condition": "all true answers no",
+  "viewer_inference": "Can any reported yes remain?",
+  "resolution": "25percent expected yes from randomization",
+  "prerequisite": "Expected frequency differs from exact finite count"
+}

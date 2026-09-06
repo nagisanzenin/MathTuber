@@ -1,0 +1,7 @@
+{
+  "original_case": "6drawing5music3overlap8distinct",
+  "changed_condition": "one existing member versus one new person joins music",
+  "viewer_inference": "Does another membership mean another person?",
+  "resolution": "8versus9 distinct people",
+  "prerequisite": "One person can belong to both lists"
+}

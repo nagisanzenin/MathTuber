@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Learning a Group Pattern from Noisy Answers",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A noisy answer can still help reveal a group pattern.",
+        "Imagine a yes or no survey with a private random rule.",
+        "Three times out of four, report the true answer. One time out of four, flip it.",
+        "A true yes is reported as yes with probability three quarters.",
+        "A true no is also sometimes reported as yes: one quarter of the time.",
+        "So a reported yes does not reveal the original answer with certainty.",
+        "Suppose the true yes fraction is eighty percent.",
+        "Out of one hundred responses, the eighty true yes answers contribute sixty reported yes answers on average.",
+        "The twenty true no answers contribute another five on average.",
+        "Together, that is sixty five reported yes answers on average.",
+        "We can undo this predictable bias at the group level.",
+        "The expected reported fraction is one quarter plus one half of the true fraction.",
+        "Subtract one quarter, then double. Sixty five percent becomes an estimate of eighty percent.",
+        "A finite sample still fluctuates. Correcting the bias does not remove random error.",
+        "Try a group where every true answer is no.",
+        "Would every report be no?",
+        "No. One quarter of the reports are still yes on average.",
+        "That baseline comes from the random rule itself.",
+        "The method is called randomized response. It offers limited statistical privacy, not perfect secrecy.",
+        "Repeated reports can reveal more, and reliable estimates need enough data.",
+        "Sometimes we learn about a group by deliberately learning less about each person."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Binary randomized response retaining truth with probability3/4 yields expected yes fraction1/4+p/2, invertible for an unbiased aggregate estimate, with sampling error and limited privacy.",
+    "question": "Can deliberately flipped answers still estimate a group proportion?",
+    "payoff": "Binary randomized response retaining truth with probability3/4 yields expected yes fraction1/4+p/2, invertible for an unbiased aggregate estimate, with sampling error and limited privacy.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Earlier false-alarm Bayes example, noisy prediction and secret-sharing titles. Difference: This explains deliberate response randomization and aggregate debiasing; it does not infer an individual condition or reconstruct a shared secret.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Recognizable physical subject and useful setting; explicit connection to exact diagram; return to a changed physical condition. Restrained original vector artwork.",
+      "episode_variation": "Four equally likely cards show truth-dependent response probabilities; expected counts separate signal and noise; an all-no group still produces some yes reports.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Can deliberately flipped answers still estimate a group proportion?",
+        "visual_action": "Four equally likely cards show truth-dependent response probabilities; expected counts separate signal and noise; an all-no group still produces some yes reports.",
+        "new_understanding": "Binary randomized response retaining truth with probability3/4 yields expected yes fraction1/4+p/2, invertible for an unbiased aggregate estimate, with sampling error and limited privacy.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A noisy answer can still help reveal a group pattern. Imagine a yes or no survey with a private random rule. Three times out of four, report the true answer. One time out of four, flip it.\n\nA true yes is reported as yes with probability three quarters. A true no is also sometimes reported as yes: one quarter of the time. So a reported yes does not reveal the original answer with certainty.\n\nSuppose the true yes fraction is eighty percent. Out of one hundred responses, the eighty true yes answers contribute sixty reported yes answers on average. The twenty true no answers contribute another five on average. Together, that is sixty five reported yes answers on average.\n\nWe can undo this predictable bias at the group level. The expected reported fraction is one quarter plus one half of the true fraction. Subtract one quarter, then double. Sixty five percent becomes an estimate of eighty percent. A finite sample still fluctuates. Correcting the bias does not remove random error.\n\nTry a group where every true answer is no. Would every report be no? No. One quarter of the reports are still yes on average. That baseline comes from the random rule itself.\n\nThe method is called randomized response. It offers limited statistical privacy, not perfect secrecy. Repeated reports can reveal more, and reliable estimates need enough data. Sometimes we learn about a group by deliberately learning less about each person."
+    }
+  ],
+  "sources": [
+    "https://docs.opendp.org/en/stable/api/user-guide/measurements/randomized-response.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

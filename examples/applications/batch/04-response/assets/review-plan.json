@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "A true yes",
+      "end_cue": "Suppose the true",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Both truths can produce yes, with probabilities3/4 and1/4."
+    },
+    {
+      "id": "2",
+      "start_cue": "Out of one hundred",
+      "end_cue": "A finite sample",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Expected60plus5reports and aggregate inversion are exact expectations, not deterministic samples."
+    },
+    {
+      "id": "3",
+      "start_cue": "Try a group",
+      "end_cue": "The method",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "An all-no group still has expected25percent yes reports."
+    }
+  ]
+}

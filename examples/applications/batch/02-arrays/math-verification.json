@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "method": "Independent exact arithmetic and explicit derivation, separate from animation code",
+  "checks": {
+    "prefixes_checked": 10000,
+    "first_ten": [
+      1,
+      2,
+      3,
+      1,
+      5,
+      1,
+      1,
+      1,
+      9,
+      1
+    ],
+    "eight_total": 15
+  },
+  "general_argument": "Before n appends finish, copied capacities form1+2+...+2^k=2^(k+1)-1 with2^k<n; hence copies<2n. Adding n writes gives total<3n. Individual resizing still costs n item operations at that step.",
+  "limits": "Item-copy/write model only; allocation, object-copy details and wall-clock latency are excluded. No deletions.",
+  "sources": [
+    "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/79a07dc1cb47d76dae2ffedc701e3d2b_MIT6_006S20_lec2.pdf"
+  ]
+}

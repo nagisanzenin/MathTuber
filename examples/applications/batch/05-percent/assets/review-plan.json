@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Removing twenty",
+      "end_cue": "We can see",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Exact relative heights show100to80to96 with different percentage bases."
+    },
+    {
+      "id": "2",
+      "start_cue": "To restore",
+      "end_cue": "In general",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Adding20to80 is25percent and restores100."
+    },
+    {
+      "id": "3",
+      "start_cue": "Try a larger",
+      "end_cue": "Before comparing",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Half remaining requires a100percent increase to restore the original."
+    }
+  ]
+}

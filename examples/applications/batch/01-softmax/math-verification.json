@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "method": "Independent exact arithmetic and explicit derivation, separate from animation code",
+  "checks": {
+    "shares": [
+      0.2689414213699951,
+      0.7310585786300049
+    ],
+    "shifted": [
+      0.2689414213699951,
+      0.7310585786300049
+    ],
+    "changed_gap": [
+      0.11920292202211755,
+      0.8807970779778823
+    ],
+    "exp1000_overflow": true
+  },
+  "general_argument": "For finite real scores, exp(x_i+c)=exp(c)exp(x_i); the positive common factor cancels from numerator and denominator. Taking c=-max(x) bounds each exponential by1 and leaves at least one equal to1.",
+  "limits": "Finite-precision tiny terms may underflow; normalized scores alone do not prove calibrated model probabilities.",
+  "sources": [
+    "https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.softmax.html"
+  ]
+}

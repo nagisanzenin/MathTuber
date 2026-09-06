@@ -1,0 +1,8 @@
+{
+  "physical_subject": "Six names and five names, with three shared: how many different people?",
+  "relationship": "For two finite sets, union count equals the sum of counts minus the intersection. A new membership may leave the distinct-person count unchanged.",
+  "operation": "Pair identified duplicate cards, remove only extra copies, and compare a new membership with a genuinely new person.",
+  "closest_prior": "Earlier stars-and-bars allocation counting and probability-area titles",
+  "substantive_difference": "Correcting duplicated identities in a union differs from counting configurations or probability areas.",
+  "sequence_is_editorial_hypothesis": true
+}

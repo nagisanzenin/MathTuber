@@ -1,0 +1,25 @@
+{
+  "s01": {
+    "A noisy answer": 0.35,
+    "Imagine a yes": 3.875,
+    "Three times": 8.025,
+    "A true yes": 14.6,
+    "A true no": 19.15,
+    "So a reported": 24.75,
+    "Suppose the true": 30.65,
+    "Out of one hundred": 34.125,
+    "The twenty": 41.788,
+    "Together": 46.163,
+    "We can undo": 51.7,
+    "The expected": 54.9,
+    "Subtract one quarter": 60.1,
+    "A finite sample": 66.625,
+    "Try a group": 73.85,
+    "Would every": 76.75,
+    "No. One quarter": 78.625,
+    "That baseline": 82.688,
+    "The method": 86.65,
+    "Repeated reports": 94.387,
+    "Sometimes we learn": 99.775
+  }
+}

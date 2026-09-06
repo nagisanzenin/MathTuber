@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Huge Scores, the Same Small Probabilities",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "These two scores become two shares that add to one.",
+        "A machine learning model often uses a rule called softmax.",
+        "Exponentiate each score, then divide by the total.",
+        "For scores one and two, the shares are about twenty seven percent and seventy three percent.",
+        "Now add nine hundred ninety nine to both scores.",
+        "The new scores are one thousand and one thousand one.",
+        "Do the shares change?",
+        "They do not. The difference between the scores is still one.",
+        "Adding the same amount multiplies both exponential weights by the same factor.",
+        "That factor cancels when we divide by their sum.",
+        "But a computer can struggle with the enormous intermediate weights.",
+        "In ordinary double precision, exponentiating one thousand overflows.",
+        "We can subtract the largest score from every score first.",
+        "Our scores become minus one and zero.",
+        "The weights are now about zero point three six eight, and exactly one.",
+        "Divide by their total. The original shares return.",
+        "This rewrite keeps the largest exponential weight at one.",
+        "It avoids overflow from large positive scores, though very tiny weights can still underflow.",
+        "Try one different change. Start again with scores one and two.",
+        "This time increase only the second score to three.",
+        "Now the gap is two. The second share grows to about eighty eight percent.",
+        "A common shift changes the numbers we compute with. A changed gap changes the answer."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious viewers comfortable with fractions; exponentiation is introduced as the scoring rule.",
+    "learning_goal": "Softmax is invariant to a common additive shift. Subtracting the maximum avoids exponential overflow; changing a relative score changes the normalized weights.",
+    "question": "Does adding the same amount to both scores change softmax?",
+    "payoff": "Softmax is invariant to a common additive shift. Subtracting the maximum avoids exponential overflow; changing a relative score changes the normalized weights.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Earlier neural-network overview and unit-sensitive nearest-neighbor film. Difference: This proves softmax shift invariance and contrasts it with a changed score gap, not distance normalization or neural-network training.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Recognizable physical subject and useful setting; explicit connection to exact diagram; return to a changed physical condition. Restrained original vector artwork.",
+      "episode_variation": "Persistent share bar stays fixed under a common score shift; subtracting the maximum preserves its values; changing only one score visibly changes the bar.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Does adding the same amount to both scores change softmax?",
+        "visual_action": "Persistent share bar stays fixed under a common score shift; subtracting the maximum preserves its values; changing only one score visibly changes the bar.",
+        "new_understanding": "Softmax is invariant to a common additive shift. Subtracting the maximum avoids exponential overflow; changing a relative score changes the normalized weights.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "These two scores become two shares that add to one. A machine learning model often uses a rule called softmax. Exponentiate each score, then divide by the total.\n\nFor scores one and two, the shares are about twenty seven percent and seventy three percent. Now add nine hundred ninety nine to both scores. The new scores are one thousand and one thousand one. Do the shares change?\n\nThey do not. The difference between the scores is still one. Adding the same amount multiplies both exponential weights by the same factor. That factor cancels when we divide by their sum.\n\nBut a computer can struggle with the enormous intermediate weights. In ordinary double precision, exponentiating one thousand overflows. We can subtract the largest score from every score first. Our scores become minus one and zero. The weights are now about zero point three six eight, and exactly one. Divide by their total. The original shares return.\n\nThis rewrite keeps the largest exponential weight at one. It avoids overflow from large positive scores, though very tiny weights can still underflow.\n\nTry one different change. Start again with scores one and two. This time increase only the second score to three. Now the gap is two. The second share grows to about eighty eight percent. A common shift changes the numbers we compute with. A changed gap changes the answer."
+    }
+  ],
+  "sources": [
+    "https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.softmax.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

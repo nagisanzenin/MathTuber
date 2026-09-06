@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "method": "Independent exact arithmetic and explicit derivation, separate from animation code",
+  "checks": {
+    "example_union": 8,
+    "existing_membership": 8,
+    "new_person": 9,
+    "finite_pairs": 4096
+  },
+  "general_argument": "Each element belonging to exactly one set contributes1. Each element in both contributes2-1=1. Outside elements contribute0. Summing indicators proves the identity for every finite pair.",
+  "limits": "Historical title checks cannot establish full transcript novelty.",
+  "sources": [
+    "https://discrete.openmathbooks.org/dmoi2/sec_counting-addmult.html"
+  ]
+}

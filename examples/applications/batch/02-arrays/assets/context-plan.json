@@ -1,0 +1,8 @@
+{
+  "physical_subject": "How can growing a list be cheap when some appends copy every item?",
+  "relationship": "Doubling capacity bounds total item copying by less than2n across n appends; including writes yields less than3n operations, although one append can cost linear time.",
+  "operation": "Show filled and spare slots, copying at capacity doubling, an exact running cost, geometric blocks and the contrasting ninth and tenth append.",
+  "closest_prior": "Earlier algorithm titles and geometric series explanation",
+  "substantive_difference": "Amortized sequence cost versus individual operation cost is the learning goal; this is not search, sorting or infinite summation.",
+  "sequence_is_editorial_hypothesis": true
+}

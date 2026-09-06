@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Now add",
+      "end_cue": "But a computer",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Common shift preserves the displayed probability shares."
+    },
+    {
+      "id": "2",
+      "start_cue": "We can subtract",
+      "end_cue": "This rewrite",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Shifted weights match the original normalized shares."
+    },
+    {
+      "id": "3",
+      "start_cue": "Try one different",
+      "end_cue": "A common shift",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Changing only the second score changes the gap and bar proportions."
+    }
+  ]
+}

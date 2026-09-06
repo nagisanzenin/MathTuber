@@ -1,0 +1,8 @@
+{
+  "physical_subject": "Does adding the same amount to both scores change softmax?",
+  "relationship": "Softmax is invariant to a common additive shift. Subtracting the maximum avoids exponential overflow; changing a relative score changes the normalized weights.",
+  "operation": "Persistent share bar stays fixed under a common score shift; subtracting the maximum preserves its values; changing only one score visibly changes the bar.",
+  "closest_prior": "Earlier neural-network overview and unit-sensitive nearest-neighbor film",
+  "substantive_difference": "This proves softmax shift invariance and contrasts it with a changed score gap, not distance normalization or neural-network training.",
+  "sequence_is_editorial_hypothesis": true
+}

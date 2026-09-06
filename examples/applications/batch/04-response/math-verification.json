@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "method": "Independent exact arithmetic and explicit derivation, separate from animation code",
+  "checks": {
+    "expected_yes_per100": 65,
+    "all_no_expected_fraction": "1/4",
+    "privacy_epsilon": 1.0986122886681098
+  },
+  "general_argument": "Conditioning on truth gives E[Y]=3p/4+(1-p)/4=1/4+p/2. Linearity of expectation makes2(samplemean-1/4) unbiased. Each output likelihood ratio is at most3, giving epsilon=ln3 for one response under this mechanism.",
+  "limits": "Counts are expectations, not guaranteed observations. Finite estimates fluctuate and may leave[0,1]. Repeated releases compose privacy loss; no perfect secrecy claim.",
+  "sources": [
+    "https://docs.opendp.org/en/stable/api/user-guide/measurements/randomized-response.html"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Why Equal Percentages Do Not Undo Each Other",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Take away twenty percent, then add twenty percent. Do you return to the start?",
+        "Begin with one hundred units of water.",
+        "Removing twenty percent leaves eighty units.",
+        "Now add twenty percent of what remains.",
+        "Twenty percent of eighty is sixteen, so the new amount is ninety six.",
+        "The percentages match, but their reference amounts do not.",
+        "We can see the reason without any mystery.",
+        "The first operation multiplies by zero point eight.",
+        "The second multiplies by one point two.",
+        "Their product is zero point nine six, not one.",
+        "To restore the original one hundred units, we need to add twenty units to eighty.",
+        "Twenty is one quarter of eighty.",
+        "So reversing a twenty percent decrease requires a twenty five percent increase.",
+        "In general, keeping a fraction of the original requires multiplying by its reciprocal to return.",
+        "This assumes a positive amount remains. Nothing can multiply zero back into the original positive amount.",
+        "Try a larger change. Remove half of the original water.",
+        "Fifty units remain. What percentage increase restores one hundred?",
+        "We need another fifty, equal to the entire remaining amount. That is a one hundred percent increase.",
+        "Before comparing percentages, notice what each percentage is a percentage of."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Successive percentage changes multiply their factors. The inverse of retaining0.8 is multiplying1.25, because percentage changes use the current base.",
+    "question": "Does a twenty-percent increase undo a twenty-percent decrease?",
+    "payoff": "Successive percentage changes multiply their factors. The inverse of retaining0.8 is multiplying1.25, because percentage changes use the current base.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Earlier percentage-flip arithmetic and varying water-height films. Difference: This explains multiplicative reversal and changing reference amounts in a fixed-width container; it is not swapping a percent with its base or variable cross-sectional height.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Recognizable physical subject and useful setting; explicit connection to exact diagram; return to a changed physical condition. Restrained original vector artwork.",
+      "episode_variation": "One fixed-width water vessel keeps the original level marked while amounts change; the final half-empty case requires doubling the remainder.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Does a twenty-percent increase undo a twenty-percent decrease?",
+        "visual_action": "One fixed-width water vessel keeps the original level marked while amounts change; the final half-empty case requires doubling the remainder.",
+        "new_understanding": "Successive percentage changes multiply their factors. The inverse of retaining0.8 is multiplying1.25, because percentage changes use the current base.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Take away twenty percent, then add twenty percent. Do you return to the start? Begin with one hundred units of water. Removing twenty percent leaves eighty units.\n\nNow add twenty percent of what remains. Twenty percent of eighty is sixteen, so the new amount is ninety six. The percentages match, but their reference amounts do not.\n\nWe can see the reason without any mystery. The first operation multiplies by zero point eight. The second multiplies by one point two. Their product is zero point nine six, not one.\n\nTo restore the original one hundred units, we need to add twenty units to eighty. Twenty is one quarter of eighty. So reversing a twenty percent decrease requires a twenty five percent increase.\n\nIn general, keeping a fraction of the original requires multiplying by its reciprocal to return. This assumes a positive amount remains. Nothing can multiply zero back into the original positive amount.\n\nTry a larger change. Remove half of the original water. Fifty units remain. What percentage increase restores one hundred? We need another fifty, equal to the entire remaining amount. That is a one hundred percent increase. Before comparing percentages, notice what each percentage is a percentage of."
+    }
+  ],
+  "sources": [
+    "https://openstax.org/books/prealgebra-2e/pages/6-1-understand-percent"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}
