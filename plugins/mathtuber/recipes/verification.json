@@ -1,0 +1,20 @@
+{
+  "runtime": "Manim0.20.1 on existing macOS media runtime",
+  "recipes": [
+    {
+      "source": "outline_restore.py",
+      "source_sha256": "969c0624eadf4840160c484e6618c4dede39c91469aa08075a8d659f958ec44b",
+      "native_render_exit": 0,
+      "in_scene_assertions": "passed",
+      "visual_inspection": "Five sampled frames at2fps inspected; outline stays unfilled and marker label follows without a stationary duplicate. Not continuous playback."
+    },
+    {
+      "source": "attached_marker.py",
+      "source_sha256": "c3643d54320ae42a4ead53a04cd956dee703645c4f3633ca9d2e95bd4375070c",
+      "native_render_exit": 0,
+      "in_scene_assertions": "passed",
+      "visual_inspection": "Five sampled frames at2fps inspected; outline stays unfilled and marker label follows without a stationary duplicate. Not continuous playback."
+    }
+  ],
+  "not_claimed": "No lower-model evaluation or creative-quality result."
+}
