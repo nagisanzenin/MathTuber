@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-06",
+  "cycle": 18,
+  "videos": [
+    {
+      "project": "01-softmax",
+      "title": "Huge Scores, the Same Small Probabilities #math #Shorts",
+      "url": "https://www.youtube.com/shorts/Je93ysGkhFw",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M37S",
+      "export_sha256": "281c09045e6d1037183bfddcf159dfdb441beac5f01a037160ed1e6026be4b71",
+      "editorial": {
+        "decision": "release",
+        "opening": "Two scores and a split bar introduce normalized shares.",
+        "mechanism": "A common shift leaves the bar unchanged; maximum subtraction preserves shares with finite weights. Old percentages disappear before the changed-gap transition; the final bar reaches about12/88.",
+        "readability": "Current sampled evidence inspected at phone-sized tiles; limitations recorded below.",
+        "pacing": "Cue-based staged explanation with brief transitions; new-case endings reuse the mechanism; some concluding holds remain static.",
+        "sound": "Full source ASR actually read against all narration; numeric formatting, join/joined inflection, write/right homophone and one repeated time token do not alter identified mathematics. Source and final signal measurements inspected. No subjective listening.",
+        "remaining_weaknesses": "Exponentiation is a prerequisite; the bar alone does not derive the cancellation. Not every frame inspected; no continuous audiovisual playback, subjective listening or audience validation.",
+        "audience_evidence": "Not measured; no retention, learning or preference claim."
+      }
+    },
+    {
+      "project": "02-arrays",
+      "title": "Why an Expensive Move Can Still Be Cheap Overall #math #Shorts",
+      "url": "https://www.youtube.com/shorts/gwm7zKe6WDU",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M44S",
+      "export_sha256": "7c4357a0a61131c7d72e32ccc156d3f040f15f2733cbce404803cb6ef62fbfb0",
+      "editorial": {
+        "decision": "release",
+        "opening": "An empty slot introduces a growing list; opening remains visually sparse.",
+        "mechanism": "Copying into larger storage preserves numbered item identity, with explicit written/copied costs. Geometric blocks support total copying below 2n; ninth and tenth insertions distinguish individual from amortized cost.",
+        "readability": "Current sampled evidence inspected at phone-sized tiles; limitations recorded below.",
+        "pacing": "Cue-based staged explanation with brief transitions; new-case endings reuse the mechanism; some concluding holds remain static.",
+        "sound": "Full source ASR actually read against all narration; numeric formatting, join/joined inflection, write/right homophone and one repeated time token do not alter identified mathematics. Source and final signal measurements inspected. No subjective listening.",
+        "remaining_weaknesses": "Individual item numerals are small at phone tile scale. Geometric-series generalization needs attentive narration; no viewer learning evidence. Not every frame inspected. No continuous audiovisual playback or subjective listening.",
+        "audience_evidence": "Not measured; no retention, learning or preference claim."
+      }
+    },
+    {
+      "project": "03-overlap",
+      "title": "The People Hidden in Two Overlapping Lists #math #Shorts",
+      "url": "https://www.youtube.com/shorts/bteUiWgSk8E",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M28S",
+      "export_sha256": "758ac8dae703bb9e39ce8a1104fe3f746d14976b52aa80dd2181e0ed6e659709",
+      "editorial": {
+        "decision": "release",
+        "opening": "Two visibly overlapping lists establish a concrete counting question.",
+        "mechanism": "Matching duplicates are paired and only extra copies removed, preserving eight unique people. A previously stale total is now hidden before person nine appears; existing and new membership endings differ correctly.",
+        "readability": "Current sampled evidence inspected at phone-sized tiles; limitations recorded below.",
+        "pacing": "Cue-based staged explanation with brief transitions; new-case endings reuse the mechanism; some concluding holds remain static.",
+        "sound": "Full source ASR actually read against all narration; numeric formatting, join/joined inflection, write/right homophone and one repeated time token do not alter identified mathematics. Source and final signal measurements inspected. No subjective listening.",
+        "remaining_weaknesses": "Midsection holds the same eight-person diagram for several explanatory sentences. Not every frame inspected; no continuous audiovisual playback, subjective listening or audience validation.",
+        "audience_evidence": "Not measured; no retention, learning or preference claim."
+      }
+    },
+    {
+      "project": "04-response",
+      "title": "Learning a Group Pattern from Noisy Answers #math #Shorts",
+      "url": "https://www.youtube.com/shorts/n3qTIyF8R1w",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M46S",
+      "export_sha256": "6de47bd01c546719ec40f9e22719407d95b7a5ed9543e2116e47f50476bf00d6",
+      "editorial": {
+        "decision": "release",
+        "opening": "Four keep/flip cards introduce the private random mechanism.",
+        "mechanism": "True yes/no branches and expected counts distinguish probabilities from a realized sample. The all-no ending retains a quarter expected yes reports; finite error and privacy limits are explicit.",
+        "readability": "Current sampled evidence inspected at phone-sized tiles; limitations recorded below.",
+        "pacing": "Cue-based staged explanation with brief transitions; new-case endings reuse the mechanism; some concluding holds remain static.",
+        "sound": "Full source ASR actually read against all narration; numeric formatting, join/joined inflection, write/right homophone and one repeated time token do not alter identified mathematics. Source and final signal measurements inspected. No subjective listening.",
+        "remaining_weaknesses": "Middle section relies on arithmetic text rather than a continuously transforming group diagram. Opening keep/flip distinction relies on text, not color; no audience validation. Not every frame inspected. No continuous audiovisual playback or subjective listening.",
+        "audience_evidence": "Not measured; no retention, learning or preference claim."
+      }
+    },
+    {
+      "project": "05-percent",
+      "title": "Why Equal Percentages Do Not Undo Each Other #math #Shorts",
+      "url": "https://www.youtube.com/shorts/ST4jdCYQ4jg",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M31S",
+      "export_sha256": "88b1b2777748028201ddd7850e9df0861cd190e145a7c227a81da31b10324fb0",
+      "editorial": {
+        "decision": "release",
+        "opening": "A water amount anchors the question about reversing equal percentages.",
+        "mechanism": "Fixed-width levels show100to80to96, with an original-level reference and correct changing bases. The old25percent formula disappears before the half-empty case; doubling50 restores100.",
+        "readability": "Current sampled evidence inspected at phone-sized tiles; limitations recorded below.",
+        "pacing": "Cue-based staged explanation with brief transitions; new-case endings reuse the mechanism; some concluding holds remain static.",
+        "sound": "Full source ASR actually read against all narration; numeric formatting, join/joined inflection, write/right homophone and one repeated time token do not alter identified mathematics. Source and final signal measurements inspected. No subjective listening.",
+        "remaining_weaknesses": "Four-percent height difference is subtle at phone scale; labels supply numerical precision. Not every frame inspected; no continuous audiovisual playback, subjective listening or audience validation.",
+        "audience_evidence": "Not measured; no retention, learning or preference claim."
+      }
+    }
+  ]
+}
