@@ -7,6 +7,7 @@ import shutil
 import subprocess
 p=argparse.ArgumentParser()
 p.add_argument("--home",default=os.environ.get("MATHTUBER_RUNTIME_HOME",str(Path.home()/".local/share/mathtuber")))
+p.add_argument("--with-review",action="store_true",help="Install optional independent local speech recognition")
 a=p.parse_args()
 if not shutil.which("uv"): raise SystemExit("Install uv from https://docs.astral.sh/uv/getting-started/installation/")
 missing=[x for x in ("ffmpeg","ffprobe","latex","dvisvgm","espeak-ng") if not shutil.which(x)]
@@ -16,4 +17,6 @@ if not env.exists(): subprocess.run(["uv","venv","--python","3.12",str(env)],che
 python=env/("Scripts/python.exe" if os.name=="nt" else "bin/python")
 requirements=Path(__file__).resolve().parents[1]/"requirements-media.txt"
 subprocess.run(["uv","pip","install","--python",str(python),"-r",str(requirements)],check=True)
+if a.with_review:
+    subprocess.run(["uv","pip","install","--python",str(python),"-r",str(requirements.with_name('requirements-review.txt'))],check=True)
 print(f"Media runtime ready: {python}")

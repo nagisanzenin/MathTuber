@@ -25,6 +25,10 @@ Research update: 6 September 2026. This extends, rather than replaces, [mechanis
 
 Put `assets/review-plan.json` in the project with `intervals`: each item has `id`, `start_cue`, `end_cue`, optional `start_offset` and `end_offset` in seconds, `samples` (at least 3), and `purpose`. Cues must exist in the compiled timing map. `mathtuber.review_sampling.interval_samples` resolves and validates the entire interval; it does not silently clip an invalid range. Include all difficult mappings, rearrangements and the ending, not only the first transformation. A host may use these times with FFmpeg or its own video tools. The sampler produces evidence locations, never an acceptance decision.
 
+The bundled extractor is `python3 <root>/scripts/visual_review.py --project <path>`. It selects the shared media runtime and requires a current final export, `assets/timing.json` from `compile_cues.py`, and the authored review plan. For multiple scenes, each interval must also name its `scene`; cue times remain local to that scene, and the extractor adds the assembled timeline offset. The single-scene format above remains valid.
+
+Read the returned `evidence.json`, then actually open its sheets with the host's image/video tools. It supplies distributed frames, eight opening samples, every cue sampled 1.7 seconds afterward, every critical interval through its end, and the ending through the final decodable video frame. `--cue-offset` changes the cue sample offset. Sheets contain at most eight timestamped phone-size tiles per page and preserve the source aspect ratio. Source export and individual files are hashed; unchanged, intact evidence can be reused. Record only the files actually inspected and retain the limits of sampled viewing. This command neither creates inspection claims nor records acceptance.
+
 ## Next batch and evaluation
 
 Five different mechanisms: random halfway hops, four equal-speed pursuers, a route unfolded by reflection, a bounded fair random walk, and a missing-square dissection. Verify each mathematical argument independently. A finite simulation is an illustration, not a probability proof.

@@ -30,7 +30,7 @@ For Pi the explicit invocation is `/skill:mathtuber`. Claude/ZCode can expose th
 - Optional Docker rendering: no network, read-only inputs, limited writable output and no OAuth mount. Use `--execution docker` after `docker pull manimcommunity/manim:v0.20.1`.
 - Native rendering is faster to start but executes trusted agent-authored Python with the user's filesystem access.
 
-The engine imports existing WAV narration too. The generic MLX adapter is experimental and not a claim that every Qwen/MLX model works. Gemini TTS, local ASR, voice cloning and music are future/optional integrations, not hidden requirements.
+The engine imports existing WAV narration too. Optional independent local ASR is available through `setup.py --with-review` and `audio_review.py --project PATH --final`; it reports hash-bound transcripts, discrepancies and signal measurements without accepting the film. The generic MLX adapter is experimental and not a claim that every Qwen/MLX model works. Gemini TTS and voice cloning remain future/experimental integrations. Original synthesized sound layers are supported; no generated music service is required.
 
 ## Architecture and quality
 
