@@ -4,6 +4,10 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+from contextlib import nullcontext, redirect_stdout
+from io import StringIO
+from types import SimpleNamespace
+import sys
 from unittest.mock import patch
 
 SCRIPT=Path(__file__).resolve().parents[1]/'plugins/mathtuber/scripts/publish_batch.py'
@@ -39,5 +43,14 @@ class BatchGateTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             path=Path(tmp)/'batch.json';path.write_text('{"projects":[]}')
             with self.assertRaises(batch.ProductionError):batch.prepare(path)
+    def test_quota_wait_stops_before_later_batch_members(self):
+        ready=[(SimpleNamespace(root=Path(name),lock=nullcontext),{}, {'id':name}) for name in ('a','b','c')]
+        results=[{'state':'published'},{'state':'quota_wait','retry_not_before':'2026-09-06T07:10:00Z'}]
+        output=StringIO()
+        with patch.object(batch,'prepare',return_value=ready),patch.object(batch,'publish',side_effect=results) as publish,patch.object(sys,'argv',['publish_batch','--batch','fixture.json','--publish','--credentials','fixture-config']),redirect_stdout(output):
+            self.assertEqual(batch.main(),2)
+        self.assertEqual(publish.call_count,2)
+        self.assertIn('quota_wait',output.getvalue())
+        self.assertNotIn('"project": "c"',output.getvalue())
 
 if __name__=='__main__':unittest.main()

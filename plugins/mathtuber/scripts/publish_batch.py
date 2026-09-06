@@ -54,7 +54,11 @@ def main():
                 project,intent,_=current[index]
                 with project.lock():result=publish(project,intent,args.credentials,False)
                 print(json.dumps({'project':project.root.name,'result':result}),flush=True)
+                if result.get('state') == 'quota_wait':
+                    # The account/project quota also affects later batch members.
+                    # Keep the partial results and resume this batch after reset.
+                    return 2
     except ProductionError as exc:
         print(str(exc),file=sys.stderr);sys.exit(1)
 
-if __name__=='__main__':main()
+if __name__=='__main__':sys.exit(main())

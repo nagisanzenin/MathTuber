@@ -8,6 +8,9 @@ from google.oauth2.credentials import Credentials
 from google.auth.transport.requests import Request
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
+from googleapiclient.errors import HttpError
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from mathtuber.youtube_retry import quota_retry, waiting, public_receipt
 
 req=json.loads(Path(sys.argv[1]).read_text())
 config=json.loads(Path(req["credentials_config"]).read_text())
@@ -18,6 +21,9 @@ def save(data):
     os.chmod(tmp,0o600)
     os.replace(tmp,receipt)
 state=json.loads(receipt.read_text()) if receipt.exists() else {}
+if waiting(state):
+    print(json.dumps(public_receipt(state)))
+    sys.exit(0)
 creds=Credentials.from_authorized_user_file(config["token_path"])
 if creds.expired and creds.refresh_token:
     creds.refresh(Request())
@@ -49,7 +55,21 @@ if not video_id:
         save({"state":"starting","intent_id":req["intent_id"]})
     response=None
     while response is None:
-        _,response=upload.next_chunk(num_retries=3)
+        try:
+            _,response=upload.next_chunk(num_retries=0)
+        except HttpError as exc:
+            retry=quota_retry(exc)
+            if retry:
+                state.update(state='quota_wait',intent_id=req['intent_id'],**retry)
+                if upload.resumable_uri:
+                    state['session_uri']=upload.resumable_uri
+                save(state)
+                print(json.dumps(public_receipt(state)))
+                sys.exit(0)
+            if upload.resumable_uri:
+                state.update(state='uploading',session_uri=upload.resumable_uri,intent_id=req['intent_id'])
+                save(state)
+            raise RuntimeError('YOUTUBE_HTTP_ERROR: upload stopped; retain receipt and reconcile before retry') from None
         state={"state":"uploading","session_uri":upload.resumable_uri,"intent_id":req["intent_id"]}
         if response:
             video_id=response["id"]
@@ -65,7 +85,7 @@ for _ in range(60):
 else:
     state.update(state="processing",video_id=video_id)
     save(state)
-    print(json.dumps(state))
+    print(json.dumps(public_receipt(state)))
     sys.exit(0)
 youtube.videos().update(part="snippet,status",body={"id":video_id,
     "snippet":{"title":intent["title"],"description":intent.get("description",""),"categoryId":"27","tags":intent.get("tags",[])},
@@ -79,4 +99,4 @@ for delay in (0, 1, 2, 4, 8):
 state={"state":"published" if actual==intent["privacy"] else "visibility_pending",
        "video_id":video_id,"url":f"https://www.youtube.com/watch?v={video_id}","privacy":actual,"intent_id":req["intent_id"]}
 save(state)
-print(json.dumps(state))
+print(json.dumps(public_receipt(state)))
