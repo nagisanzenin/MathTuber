@@ -117,4 +117,6 @@ Earlier release: [five mathematical relationships Shorts and reflection](docs/re
 
 Earlier release: [five mathematical contrast Shorts and reflection](docs/contrasts-batch.md), with [editable sources](examples/contrasts).
 
-Latest release: [five applications and reflection](docs/applications-batch.md), with [editable sources](examples/applications).
+Earlier release: [five applications and reflection](docs/applications-batch.md), with [editable sources](examples/applications).
+
+Latest release: [five mathematical arguments and reflection](docs/arguments-batch.md), with [editable sources](examples/arguments).

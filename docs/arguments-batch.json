@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-06",
+  "cycle": 19,
+  "videos": [
+    {
+      "project": "01-forecast",
+      "title": "A Score That Rewards Honest Uncertainty #math #Shorts",
+      "url": "https://www.youtube.com/shorts/mwJBQGJwG9Y",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M14S",
+      "export_sha256": "da88511b49b6f0b8bf3e276fb6a43f76dcafe1130dbf65a228f1ca5b2867a940",
+      "editorial": {
+        "decision": "release",
+        "opening": "The sparse number line introduces an uncertain probability; its numbers now contrast against the background.",
+        "mechanism": "Outcome errors and weighted expectation match .16; certainty .20 is larger. The .8 to .5 changed case retires the old equation before moving the curve; new minimum and expression match.",
+        "readability": "Current sampled evidence inspected at phone-sized tiles; limitations recorded below.",
+        "pacing": "Cue-based staged explanation with brief transitions; new-case endings reuse the mechanism; some concluding holds remain static.",
+        "sound": "Full source ASR actually read against all narration; numeric formatting, Brier/Breyer spelling, an/and, buy/by, omitted changing/now and repeated losses/small tokens do not alter identified mathematics. Source and final signal measurements inspected. No subjective listening.",
+        "remaining_weaknesses": "Opening remains visually sparse; numerical expectation is explained mainly by text. No continuous playback, subjective audio listening or audience data.",
+        "audience_evidence": "Not measured; no retention, learning or preference claim."
+      }
+    },
+    {
+      "project": "02-nim",
+      "title": "The Binary Balance Hidden in Three Piles #math #Shorts",
+      "url": "https://www.youtube.com/shorts/c8uMkHhKtqA",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M21S",
+      "export_sha256": "438846b4042d2138784111872ba55f47ae5d10a09a6c1229be200aefa9340b3e",
+      "editorial": {
+        "decision": "release",
+        "opening": "Three recognizable stone piles establish the game.",
+        "mechanism": "Binary rows and XOR follow3,4,5 to1,4,5; changed reply1,2,5 to1,2,3 is consistent. Moved highest-bit note no longer overlaps captions in inspected frames.",
+        "readability": "Current sampled evidence inspected at phone-sized tiles; limitations recorded below.",
+        "pacing": "Cue-based staged explanation with brief transitions; new-case endings reuse the mechanism; some concluding holds remain static.",
+        "sound": "Full source ASR actually read against all narration; numeric formatting, Brier/Breyer spelling, an/and, buy/by, omitted changing/now and repeated losses/small tokens do not alter identified mathematics. Source and final signal measurements inspected. No subjective listening.",
+        "remaining_weaknesses": "General highest-bit proof remains verbally dense and mostly static; binary row-to-pile mapping may require attention. No continuous playback, subjective audio listening or audience data.",
+        "audience_evidence": "Not measured; no retention, learning or preference claim."
+      }
+    },
+    {
+      "project": "03-diagonal",
+      "title": "The Sequence Missing from Every Infinite List #math #Shorts",
+      "url": "https://www.youtube.com/shorts/n_KDFsULeAs",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M12S",
+      "export_sha256": "266432a2f518692038a4a37af3084625858d192aa9546cc2aa6c01e9fc9d24cd",
+      "editorial": {
+        "decision": "release",
+        "opening": "Row numbers and bit strings establish the proposed list.",
+        "mechanism": "Flipped diagonal bits construct100110; the universal row argument explicitly exceeds the finite display. Inserting the old missing sequence produces a new missing001000; highlights and rows remain consistent.",
+        "readability": "Current sampled evidence inspected at phone-sized tiles; limitations recorded below.",
+        "pacing": "Cue-based staged explanation with brief transitions; new-case endings reuse the mechanism; some concluding holds remain static.",
+        "sound": "Full source ASR actually read against all narration; numeric formatting, Brier/Breyer spelling, an/and, buy/by, omitted changing/now and repeated losses/small tokens do not alter identified mathematics. Source and final signal measurements inspected. No subjective listening.",
+        "remaining_weaknesses": "Proof label is close to captions but separated in viewed samples. Infinite quantification needs sustained attention. No continuous playback, subjective listening or audience data.",
+        "audience_evidence": "Not measured; no retention, learning or preference claim."
+      }
+    },
+    {
+      "project": "04-bracket",
+      "title": "A Root Found by Keeping One Promise #math #Shorts",
+      "url": "https://www.youtube.com/shorts/GkirLgGKqVA",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M10S",
+      "export_sha256": "cdbb42c1605273674ae197ac4bb358a558e081a6303dce3834af75d03c10ef6f",
+      "editorial": {
+        "decision": "release",
+        "opening": "A sign-changing bracket introduces the root question.",
+        "mechanism": "Four halvings preserve the root and yield[1.25,1.3125]; width1/16 and midpoint error1/32 match. The stale intermediate bracket label is retired before further tests. The changed discontinuous graph never meets zero, supporting the continuity limitation.",
+        "readability": "Current sampled evidence inspected at phone-sized tiles; limitations recorded below.",
+        "pacing": "Cue-based staged explanation with brief transitions; new-case endings reuse the mechanism; some concluding holds remain static.",
+        "sound": "Full source ASR actually read against all narration; numeric formatting, Brier/Breyer spelling, an/and, buy/by, omitted changing/now and repeated losses/small tokens do not alter identified mathematics. Source and final signal measurements inspected. No subjective listening.",
+        "remaining_weaknesses": "The final narrow bracket becomes small at phone size; text supplies the exact endpoints. No continuous playback, subjective listening or audience data.",
+        "audience_evidence": "Not measured; no retention, learning or preference claim."
+      }
+    },
+    {
+      "project": "05-quadrature",
+      "title": "Why the Middle Measurement Counts Four Times #math #Shorts",
+      "url": "https://www.youtube.com/shorts/ahXvDo1wRKY",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M17S",
+      "export_sha256": "bf368de1402f247537791d5ea60767a89a8a272146ea920e627bb8794d7399a3",
+      "editorial": {
+        "decision": "release",
+        "opening": "A parabola and three heights set up an area question.",
+        "mechanism": "Trapezoid4 and midpoint2 combine into8/3; the1,4,1 weights match the stated interval width. Quartic example explicitly labels vertical rescaling;20/3 differs from32/5 and old area labels are absent.",
+        "readability": "Current sampled evidence inspected at phone-sized tiles; limitations recorded below.",
+        "pacing": "Cue-based staged explanation with brief transitions; new-case endings reuse the mechanism; some concluding holds remain static.",
+        "sound": "Full source ASR actually read against all narration; numeric formatting, Brier/Breyer spelling, an/and, buy/by, omitted changing/now and repeated losses/small tokens do not alter identified mathematics. Source and final signal measurements inspected. No subjective listening.",
+        "remaining_weaknesses": "Quadratic-basis explanation remains verbal rather than showing three integrated components. No continuous playback, subjective listening or audience data.",
+        "audience_evidence": "Not measured; no retention, learning or preference claim."
+      }
+    }
+  ]
+}
