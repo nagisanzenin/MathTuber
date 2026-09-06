@@ -105,8 +105,21 @@ def publish(project, intent, credentials, dry_run):
         raise ProductionError("PUBLISH_INTENT_REQUIRED", "Provide authorized channel, title and visibility")
     if intent["privacy"] not in ("private","unlisted","public"):
         raise ProductionError("INVALID_PRIVACY", "private, unlisted or public required")
-    if not 1 <= len(intent["title"]) <= 100:
-        raise ProductionError("INVALID_TITLE", "Title must contain 1–100 characters")
+    title = intent["title"]
+    if not isinstance(title, str) or not 1 <= len(title) <= 100 or any(c in title for c in "<>"):
+        raise ProductionError("INVALID_TITLE", "Title must contain 1–100 characters without angle brackets")
+    description = intent.get("description", "")
+    if not isinstance(description, str) or any(c in description for c in "<>"):
+        raise ProductionError("INVALID_DESCRIPTION", "Description must be text without angle brackets; spell inequalities in words")
+    try:
+        title.encode("utf-8")
+        description_bytes = description.encode("utf-8")
+    except UnicodeEncodeError:
+        raise ProductionError("INVALID_METADATA", "Title and description must be valid UTF-8") from None
+    # YouTube limits description bytes, not Python characters. Validate in the
+    # dry run too, so batch preparation rejects bad metadata before any upload.
+    if len(description_bytes) > 5000:
+        raise ProductionError("INVALID_DESCRIPTION", "Description must fit within 5000 UTF-8 bytes")
     identity = digest({"sha256":export["sha256"],"channel_id":intent["channel_id"]})
     if dry_run:
         return {"dry_run":True,"intent_id":identity,"export_sha256":export["sha256"],"intent":intent}

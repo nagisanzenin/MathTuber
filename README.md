@@ -78,30 +78,32 @@ The [workshop batch](docs/workshop-batch.md) includes five published examples, a
 
 The [mechanism batch and reflection](docs/mechanism-batch.md) adds five new public Shorts, continuous-scene source projects, local reference remakes, and workshop profile 0.2. The [concrete direction guide](docs/research/MECHANISM-DIRECTION.md) supplies reference frames and anti-examples. `publish_batch.py` checks all current technical and editorial reviews before the first upload.
 
-Latest release: [five linked-representation Shorts and reflection](docs/linked-batch.md), with [research update](docs/research/LINKED-REPRESENTATIONS.md) and [editable examples](examples/linked).
+Earlier release: [five linked-representation Shorts and reflection](docs/linked-batch.md), with [research update](docs/research/LINKED-REPRESENTATIONS.md) and [editable examples](examples/linked).
 
-Latest release: [five events Shorts and reflection](docs/events-batch.md), with [editable sources](examples/events).
+Earlier release: [five events Shorts and reflection](docs/events-batch.md), with [editable sources](examples/events).
 
-Latest release: [five nature Shorts and reflection](docs/nature-batch.md), with [editable sources](examples/nature).
+Earlier release: [five nature Shorts and reflection](docs/nature-batch.md), with [editable sources](examples/nature).
 
-Latest release: [five motion Shorts and reflection](docs/motion-batch.md), with [editable sources](examples/motion).
+Earlier release: [five motion Shorts and reflection](docs/motion-batch.md), with [editable sources](examples/motion).
 
-Latest release: [five quiet Shorts and reflection](docs/quiet-batch.md), with [editable sources](examples/quiet).
+Earlier release: [five quiet Shorts and reflection](docs/quiet-batch.md), with [editable sources](examples/quiet).
 
-Latest release: [five flow Shorts and reflection](docs/flow-batch.md), with [editable sources](examples/flow).
+Earlier release: [five flow Shorts and reflection](docs/flow-batch.md), with [editable sources](examples/flow).
 
-Latest release: [five everyday-object Shorts and reflection](docs/objects-batch.md), with [editable sources](examples/objects).
+Earlier release: [five everyday-object Shorts and reflection](docs/objects-batch.md), with [editable sources](examples/objects).
 
-Latest release: [five meaningful-ending Shorts and reflection](docs/endings-batch.md), with [editable sources](examples/endings).
+Earlier release: [five meaningful-ending Shorts and reflection](docs/endings-batch.md), with [editable sources](examples/endings).
 
-Latest release: [five focal-staging Shorts and reflection](docs/focal-batch.md), with [editable sources](examples/focal).
+Earlier release: [five focal-staging Shorts and reflection](docs/focal-batch.md), with [editable sources](examples/focal).
 
-Latest release: [five material-presence Shorts and reflection](docs/material-batch.md), with [editable sources](examples/material).
+Earlier release: [five material-presence Shorts and reflection](docs/material-batch.md), with [editable sources](examples/material).
 
-Latest release: [five visible-reasoning Shorts and reflection](docs/reasoning-batch.md), with [editable sources](examples/reasoning).
+Earlier release: [five visible-reasoning Shorts and reflection](docs/reasoning-batch.md), with [editable sources](examples/reasoning).
 
-Latest release: [five physical-context Shorts and reflection](docs/context-batch.md), with [editable sources](examples/context).
+Earlier release: [five physical-context Shorts and reflection](docs/context-batch.md), with [editable sources](examples/context).
 
-Latest release: [five acoustic Shorts and reflection](docs/listening-batch.md), with [editable sources](examples/listening).
+Earlier release: [five acoustic Shorts and reflection](docs/listening-batch.md), with [editable sources](examples/listening).
 
-Latest release: [five geometric-construction Shorts and reflection](docs/traces-batch.md), with [editable sources](examples/traces).
+Earlier release: [five geometric-construction Shorts and reflection](docs/traces-batch.md), with [editable sources](examples/traces).
+
+Latest release: [five patterns Shorts and reflection](docs/patterns-batch.md), with [editable sources](examples/patterns).

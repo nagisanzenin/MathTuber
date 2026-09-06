@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-06",
+  "cycle": 14,
+  "videos": [
+    {
+      "project": "01-truchet",
+      "title": "A Little Agreement at Every Edge #math #Shorts",
+      "url": "https://www.youtube.com/shorts/MKwCWWqd03U",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M2S",
+      "export_sha256": "451d8d0147b675048628a1a9c611c46f29046179a3567583716303228f86a669",
+      "editorial": {
+        "decision": "release",
+        "opening": "A whole tile field and a moving route appear immediately.",
+        "mechanism": "The lifted tile and enlarged seam support degree-two continuation; loop and boundary route are shown separately.",
+        "readability": "Edge marks, a dashed seam and retained field make the local-to-global relation inspectable.",
+        "pacing": "Motion is paced to measured speech, with held joins and a final route after the tile change.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Homophone, number-formatting and minor inflection transcription differences were read against the intended script; no mathematical change identified. No subjective listening.",
+        "remaining_weaknesses": "The transition to the enlarged seam is still a cut; many abstract curves and the repeated calm voice may feel impersonal. No viewer response measured.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "02-packing",
+      "title": "The Triangle Between Round Stones #math #Shorts",
+      "url": "https://www.youtube.com/shorts/xZlYenBurlg",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M6S",
+      "export_sha256": "bac5883c421ca015e0a66d86b9d8e1713acae3d6abe3b2f694c1f950d8502359",
+      "editorial": {
+        "decision": "release",
+        "opening": "Equal round pieces introduce a recognizable arrangement, though the opening stays still for several seconds.",
+        "mechanism": "Nonoverlapping row settling, a triangle of touching centers and a periodic cell connect geometry to coverage.",
+        "readability": "The enlarged triangle and Pythagorean equation are readable; small repeating-cell geometry still asks the viewer to transfer scales.",
+        "pacing": "The calculation and caveats occupy a relatively static second half.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Homophone, number-formatting and minor inflection transcription differences were read against the intended script; no mathematical change identified. No subjective listening.",
+        "remaining_weaknesses": "The density numbers need more beginner support than the row-spacing intuition. The ornamental stones look more like polished beads than a real tray; no global optimality proof or finite count claim.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "03-weave",
+      "title": "A Diagonal Without a Diagonal Thread #math #Shorts",
+      "url": "https://www.youtube.com/shorts/1JxTlt5p-us",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M7S",
+      "export_sha256": "2b1d4a4204d05b2e8c8c72f745ad98571b9c9b440d6a299b5dde846eb305a776",
+      "editorial": {
+        "decision": "release",
+        "opening": "Thicker ribbons now visibly interlace and suggest a textile.",
+        "mechanism": "Over-two under-two rows shift by one position, aligned patches form a diagonal, and a four-row repeat is highlighted.",
+        "readability": "Occlusion distinguishes crossings; widening uses a neutral label before changing the angle.",
+        "pacing": "Rows accumulate before the diagonal and repeat explanations; final spacing changes preserve the crossing order.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Homophone, number-formatting and minor inflection transcription differences were read against the intended script; no mathematical change identified. No subjective listening.",
+        "remaining_weaknesses": "Thin highlight outlines remain subtle against a dense weave. This is a schematic material, and the reflection sentence is more poetic than practically specific.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "04-surface",
+      "title": "Straight Lines Can Gather into a Curve #math #Shorts",
+      "url": "https://www.youtube.com/shorts/UOGUNuEyzTQ",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M11S",
+      "export_sha256": "f119803ea280c0f5a7f2e2f0e34c495498e1d5beb75c5cbfc1bea82a132ac671",
+      "editorial": {
+        "decision": "release",
+        "opening": "Straight lines form a visibly curved waist with a strong original silhouette.",
+        "mechanism": "A selected line maps to a top-view chord; the midpoint radius and 120-degree endpoint separation explain the waist.",
+        "readability": "The revised 60-degree label clears the angle arc; the view change and equal rings are identified.",
+        "pacing": "Endpoint rotation, held chord reasoning and return to the surface follow speech.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Homophone, number-formatting and minor inflection transcription differences were read against the intended script; no mathematical change identified. No subjective listening.",
+        "remaining_weaknesses": "The top view replaces rather than continuously transforms the sculpture; the half-radius result assumes elementary triangle knowledge. Surface name adds vocabulary with little everyday relevance.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "05-rose",
+      "title": "Why Some Mathematical Flowers Retrace #math #Shorts",
+      "url": "https://www.youtube.com/shorts/UFnb2ePokjM",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M8S",
+      "export_sha256": "d4204d46c0da67285f81e8bca586b93aa11563f09108d112c35ac285a4bbe0c9",
+      "editorial": {
+        "decision": "release",
+        "opening": "A turning direction and signed distance begin tracing a flower.",
+        "mechanism": "Two reversals explain odd retracing; the four-cycle phase begins at zero radius so four whole petals precede four opposite petals.",
+        "readability": "Separate direction arrow, point and signed-distance label support the mapping; final side-by-side comparison recalls three versus eight.",
+        "pacing": "Cue overruns were repaired; the ending now draws a comparison instead of holding a single unchanged flower.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Homophone, number-formatting and minor inflection transcription differences were read against the intended script; no mathematical change identified. No subjective listening.",
+        "remaining_weaknesses": "Negative radial distance is a substantial prerequisite for a novice. The introductory statement gives no graph of the radial rhythm. Finite images and correct formulas cannot establish delight or understanding.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    }
+  ]
+}
