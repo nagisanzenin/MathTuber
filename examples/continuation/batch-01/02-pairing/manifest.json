@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Which Pairings Make the Largest Total?",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.95,
+    "paragraph_pause_seconds": 0.5
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Two lists contain one, two, three and two, four, six.",
+        "Pair one number from each list, multiply each pair, and add.",
+        "Which pairing gives the largest total?",
+        "Start by matching small with large.",
+        "One times six, two times four, three times two.",
+        "The total is twenty.",
+        "Now exchange the partners of the smallest and largest numbers.",
+        "One gets two.",
+        "Three gets six.",
+        "The middle pair stays still.",
+        "The total becomes twenty eight.",
+        "The gain is not an accident.",
+        "The difference between three and one is two.",
+        "The difference between six and two is four.",
+        "Their product is eight, exactly the gain from the exchange.",
+        "In general, two pairs improve when the larger first number gets the larger second number.",
+        "The gain is the product of the two differences, so it cannot be negative.",
+        "Keep removing reversed pairs and both lists end up in the same order.",
+        "That arrangement maximizes the sum of products.",
+        "Opposite orders minimize it.",
+        "If two numbers in either exchanged pair are equal, one difference is zero.",
+        "Swapping then changes nothing.",
+        "The rule comes from a local exchange we can see, repeated until no helpful exchange remains."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; basic arithmetic, no specialist training.",
+    "learning_goal": "For sorted real sequences, same-order pairing maximizes sum of products; reverse minimizes. Exchange gain(a2−a1)(b2−b1)≥0; equality when one difference zero.",
+    "question": "Two lists contain one, two, three and two, four, six.",
+    "payoff": "For sorted real sequences, same-order pairing maximizes sum of products; reverse minimizes. Exchange gain(a2−a1)(b2−b1)≥0; equality when one difference zero.",
+    "transfer_prompt": "The ending changes one condition and visibly resolves it.",
+    "duration_rationale": "Measured narration with short deliberate inspection pauses; no fixed-duration padding.",
+    "novelty_audit": "Prior shortest-job scheduling also uses an exchange argument, but optimizes completion-time sums. Here movable paired products expose the rearrangement inequality and its equality case. Compared all available repository manifests and narration; unavailable channel transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper, Avenir lettering, teal/coral/gold semantic colors, caption-safe layout and deliberate transformations.",
+      "episode_variation": "Two rows of numbered cards with persistent connectors; swap partner cards and reveal the change in each product.",
+      "exceptions": [
+        "Exact rectangular tiles and straight lines preserve mathematical structure.",
+        "Dry narration; no untested music bed."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Two lists contain one, two, three and two, four, six.",
+        "visual_action": "Two rows of numbered cards with persistent connectors; swap partner cards and reveal the change in each product.",
+        "new_understanding": "For sorted real sequences, same-order pairing maximizes sum of products; reverse minimizes. Exchange gain(a2−a1)(b2−b1)≥0; equality when one difference zero.",
+        "sound_intent": "Dry gentle narration with brief inspection pauses; no music or effects."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Two lists contain one, two, three and two, four, six. Pair one number from each list, multiply each pair, and add. Which pairing gives the largest total?\n\nStart by matching small with large. One times six, two times four, three times two. The total is twenty.\n\nNow exchange the partners of the smallest and largest numbers. One gets two. Three gets six. The middle pair stays still. The total becomes twenty eight.\n\nThe gain is not an accident. The difference between three and one is two. The difference between six and two is four. Their product is eight, exactly the gain from the exchange.\n\nIn general, two pairs improve when the larger first number gets the larger second number. The gain is the product of the two differences, so it cannot be negative.\n\nKeep removing reversed pairs and both lists end up in the same order. That arrangement maximizes the sum of products. Opposite orders minimize it.\n\nIf two numbers in either exchanged pair are equal, one difference is zero. Swapping then changes nothing. The rule comes from a local exchange we can see, repeated until no helpful exchange remains."
+    }
+  ],
+  "sources": [],
+  "required_profile": "ivisualizethings-workshop",
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  }
+}

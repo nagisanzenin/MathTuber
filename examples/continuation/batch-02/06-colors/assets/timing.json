@@ -1,0 +1,16 @@
+{
+  "s01": {
+    "Make one corner": 8.037,
+    "Its neighbor": 9.6,
+    "The next is teal": 11.375,
+    "The final connection": 14.225,
+    "Now try a triangle": 19.7,
+    "Teal, coral, teal": 21.475,
+    "The last connection": 23.3,
+    "Each edge switches": 32.95,
+    "This obstruction is also": 45.55,
+    "An edge joining equal": 57.837,
+    "So two colors work": 64.825,
+    "A single new diagonal": 71.413
+  }
+}

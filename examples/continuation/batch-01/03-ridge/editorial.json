@@ -1,0 +1,11 @@
+{
+  "export_sha256": "3bb245e57bba3d459e72ef05689120ecedea65da7300c599ec0c5e006036b83a",
+  "decision": "release",
+  "opening": "A model chooses some error to reduce its full objective.",
+  "mechanism": "Squared-distance areas move from0+16to4+4; completing square proves minimum, penaltystrength changes optimum.",
+  "readability": "Moving marker labeled weight, not target; dark formula rows avoid duplicate text.",
+  "pacing": "Measured cue-based transformations with inspection holds; limits: Assumes squared error and basic algebra; a one-point model does not establish test performance.",
+  "sound": "Complete source ASR read against narration, including quantities and mathematical claims. Number formatting and occasional letter/function-word transcription differences remain; ASR is fallible. Source and final signal measurements checked for clipping. No subjective listening or prosody claim.",
+  "remaining_weaknesses": "Assumes squared error and basic algebra; a one-point model does not establish test performance.",
+  "audience_evidence": "Not measured: no viewer retention, learning, preference or channel-recognition test."
+}

@@ -1,0 +1,11 @@
+{
+  "export_sha256": "48d48a4daedefa6071724ba28a226109615463f867b560b36cc3411ae9e947d4",
+  "decision": "release",
+  "opening": "Keep the better of two equally likely draws.",
+  "mechanism": "4by4maximumgrid has counts1,3,5,7; weightedmean3.125; dependentcopieddraw leavesdiagonalmean2.5.",
+  "readability": "Colored nested borders expose counting structure; ending suppresses impossible off-diagonal cells.",
+  "pacing": "Measured cue-based transformations with inspection holds; limits: Row and column positions imply values1to4 without separate headers; counts are explicit in cells.",
+  "sound": "Complete source ASR read against narration, including quantities and mathematical claims. Number formatting and occasional letter/function-word transcription differences remain; ASR is fallible. Source and final signal measurements checked for clipping. No subjective listening or prosody claim.",
+  "remaining_weaknesses": "Row and column positions imply values1to4 without separate headers; counts are explicit in cells.",
+  "audience_evidence": "Not measured: no viewer retention, learning, preference or channel-recognition test."
+}

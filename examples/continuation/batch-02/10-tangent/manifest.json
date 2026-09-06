@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "A Tangent Can Guess Where a Curve Crosses Zero",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.95,
+    "paragraph_pause_seconds": 0.5
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "We want the positive number whose square is two.",
+        "Can the curve help us improve a guess?",
+        "Draw y equals x squared minus two.",
+        "Start at x equals two.",
+        "The curve is two units above zero there, and its slope is four.",
+        "Follow the tangent line down to the horizontal axis.",
+        "Dropping two at a slope of four means moving left by one half.",
+        "The next guess is one and a half.",
+        "At that point the curve is one quarter above zero, and its slope is three.",
+        "The next correction is one twelfth.",
+        "Our new guess is seventeen twelfths, about one point four one six seven.",
+        "Each step replaces the nearby curve by its tangent and solves the simpler linear problem.",
+        "This is Newton's method: subtract the function value divided by its derivative.",
+        "For this curve, the update is the average of x and two divided by x.",
+        "Starting from two, the guesses approach the square root of two.",
+        "But a tangent is a local approximation, not a universal promise.",
+        "Start at zero instead.",
+        "The tangent is horizontal and never reaches the axis, so the formula divides by zero.",
+        "Choosing a starting point matters.",
+        "The geometry explains both the quick improvement and this failure."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; basic arithmetic, no specialist training.",
+    "learning_goal": "Newton forf=x²−2 givesxnext=(x+2/x)/2;x0=2→3/2→17/12. Positive iterates from2 stay above√2 and decrease. At0 derivativezero prohibits update.",
+    "question": "We want the positive number whose square is two.",
+    "payoff": "Newton forf=x²−2 givesxnext=(x+2/x)/2;x0=2→3/2→17/12. Positive iterates from2 stay above√2 and decrease. At0 derivativezero prohibits update.",
+    "transfer_prompt": "The ending changes one condition and visibly resolves it.",
+    "duration_rationale": "Measured narration with short deliberate inspection pauses; no fixed-duration padding.",
+    "novelty_audit": "Prior bisection maintains a root bracket; Newton uses local tangent linearization and has a zero-derivative failure rather than an interval-halving guarantee. Compared all available repository manifests and narration; unavailable channel transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper, Avenir lettering, teal/coral/gold semantic colors, caption-safe layout and deliberate transformations.",
+      "episode_variation": "Curve with tangent triangles shows vertical error converted to horizontal correction; a flat tangent atzero demonstrates the limit.",
+      "exceptions": [
+        "Exact rectangular tiles and straight lines preserve mathematical structure.",
+        "Dry narration; no untested music bed."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "We want the positive number whose square is two.",
+        "visual_action": "Curve with tangent triangles shows vertical error converted to horizontal correction; a flat tangent atzero demonstrates the limit.",
+        "new_understanding": "Newton forf=x²−2 givesxnext=(x+2/x)/2;x0=2→3/2→17/12. Positive iterates from2 stay above√2 and decrease. At0 derivativezero prohibits update.",
+        "sound_intent": "Dry gentle narration with brief inspection pauses; no music or effects."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "We want the positive number whose square is two. Can the curve help us improve a guess?\n\nDraw y equals x squared minus two. Start at x equals two. The curve is two units above zero there, and its slope is four.\n\nFollow the tangent line down to the horizontal axis. Dropping two at a slope of four means moving left by one half. The next guess is one and a half.\n\nAt that point the curve is one quarter above zero, and its slope is three. The next correction is one twelfth. Our new guess is seventeen twelfths, about one point four one six seven.\n\nEach step replaces the nearby curve by its tangent and solves the simpler linear problem. This is Newton's method: subtract the function value divided by its derivative.\n\nFor this curve, the update is the average of x and two divided by x. Starting from two, the guesses approach the square root of two.\n\nBut a tangent is a local approximation, not a universal promise. Start at zero instead. The tangent is horizontal and never reaches the axis, so the formula divides by zero. Choosing a starting point matters. The geometry explains both the quick improvement and this failure."
+    }
+  ],
+  "sources": [],
+  "required_profile": "ivisualizethings-workshop",
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  }
+}

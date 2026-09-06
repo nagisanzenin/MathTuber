@@ -1,0 +1,11 @@
+{
+  "export_sha256": "c8d07e976fe2570a269032aee57af15d17b88fa2d2ae4f4643ef14217bdca881",
+  "decision": "release",
+  "opening": "Two ways of sampling the same small network produce different averages.",
+  "mechanism": "Star degree-weighted endpoint sample gives2.5vs1.6; regular cycle restores equality.",
+  "readability": "Dark central-name cards and sparse graph separate identities from degree counts.",
+  "pacing": "Measured cue-based transformations with inspection holds; limits: Expectation and variance notation appears quickly; examples carry more of the explanation than algebra for beginners.",
+  "sound": "Complete source ASR read against narration, including quantities and mathematical claims. Number formatting and occasional letter/function-word transcription differences remain; ASR is fallible. Source and final signal measurements checked for clipping. No subjective listening or prosody claim.",
+  "remaining_weaknesses": "Expectation and variance notation appears quickly; examples carry more of the explanation than algebra for beginners.",
+  "audience_evidence": "Not measured: no viewer retention, learning, preference or channel-recognition test."
+}

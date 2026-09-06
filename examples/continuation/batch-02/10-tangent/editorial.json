@@ -1,0 +1,11 @@
+{
+  "export_sha256": "c924550e9e1fd3c6df21bb4dc025380327c0153bb1f3d4acf4eccd1cf0b2bf57",
+  "decision": "release",
+  "opening": "A curve suggests a better square-root guess.",
+  "mechanism": "Tangent intersections give2to1.5to17/12; derivativezero at0 breaks update.",
+  "readability": "Start marker label no longer suggests currentguess remains2; tangent and curve use separate colors.",
+  "pacing": "Measured cue-based transformations with inspection holds; limits: Numeric axes have ticks but few explicit numeric labels; slope discussion expects graph familiarity.",
+  "sound": "Complete source ASR read against narration, including quantities and mathematical claims. Number formatting and occasional letter/function-word transcription differences remain; ASR is fallible. Source and final signal measurements checked for clipping. No subjective listening or prosody claim.",
+  "remaining_weaknesses": "Numeric axes have ticks but few explicit numeric labels; slope discussion expects graph familiarity.",
+  "audience_evidence": "Not measured: no viewer retention, learning, preference or channel-recognition test."
+}

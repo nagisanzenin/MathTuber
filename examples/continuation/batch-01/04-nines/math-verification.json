@@ -1,0 +1,6 @@
+{
+  "method": "Independent exact computations and general argument",
+  "passed": true,
+  "proof": "Exact product and remainder checks. Since10=1mod9, all nonnegative powers10^k=1mod9; summing place values proves digit-sum congruence. Error\u221227 supplies blind spot.",
+  "limitations": "Finite checks supplement stated algebra/counting argument; no audience learning test."
+}

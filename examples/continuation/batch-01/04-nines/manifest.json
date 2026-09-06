@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Why Adding Digits Can Catch a Wrong Answer",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.95,
+    "paragraph_pause_seconds": 0.5
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Can the digits of a number help check a multiplication, without repeating the whole calculation?",
+        "Take two hundred forty seven.",
+        "It is two hundreds, four tens, and seven ones.",
+        "A hundred leaves remainder one when divided by nine.",
+        "So does ten.",
+        "Replace each hundred and each ten by one.",
+        "The remainder is unchanged.",
+        "Our digit sum is thirteen, which leaves remainder four.",
+        "The original number also leaves four.",
+        "Now check two hundred forty seven times three.",
+        "Four times three leaves remainder three.",
+        "The proposed answer, seven hundred forty one, has digit sum twelve.",
+        "That also leaves three, so it passes this check.",
+        "Change the answer to seven hundred forty two.",
+        "Its digit sum is thirteen.",
+        "The remainders disagree, so this answer must be wrong.",
+        "But passing is not proof.",
+        "Swap the last two digits of the correct answer.",
+        "Seven hundred fourteen has the same digit sum, and passes, even though it is wrong.",
+        "The reason is place value.",
+        "Every power of ten is one more than a multiple of nine.",
+        "Digit sums preserve the remainder, and any error that changes the answer by a multiple of nine can slip through.",
+        "A small check catches some mistakes, not all of them."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; basic arithmetic, no specialist training.",
+    "learning_goal": "10^k≡1mod9 implies digit-sum congruence;247×3=741,742 fails remainder,714 passes though wrong because difference−27.",
+    "question": "Can the digits of a number help check a multiplication, without repeating the whole calculation?",
+    "payoff": "10^k≡1mod9 implies digit-sum congruence;247×3=741,742 fails remainder,714 passes though wrong because difference−27.",
+    "transfer_prompt": "The ending changes one condition and visibly resolves it.",
+    "duration_rationale": "Measured narration with short deliberate inspection pauses; no fixed-duration padding.",
+    "novelty_audit": "Prior Chinese remainders reconstructs a residue and parity checks locate flips. This uses decimal place-value reduction mod9 and digit transposition blind spots. Compared all available repository manifests and narration; unavailable channel transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper, Avenir lettering, teal/coral/gold semantic colors, caption-safe layout and deliberate transformations.",
+      "episode_variation": "Hundreds/tens/ones cards lose multiples of nine, then correct/incorrect/transposed answers undergo the same compact check.",
+      "exceptions": [
+        "Exact rectangular tiles and straight lines preserve mathematical structure.",
+        "Dry narration; no untested music bed."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Can the digits of a number help check a multiplication, without repeating the whole calculation?",
+        "visual_action": "Hundreds/tens/ones cards lose multiples of nine, then correct/incorrect/transposed answers undergo the same compact check.",
+        "new_understanding": "10^k≡1mod9 implies digit-sum congruence;247×3=741,742 fails remainder,714 passes though wrong because difference−27.",
+        "sound_intent": "Dry gentle narration with brief inspection pauses; no music or effects."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Can the digits of a number help check a multiplication, without repeating the whole calculation?\n\nTake two hundred forty seven. It is two hundreds, four tens, and seven ones. A hundred leaves remainder one when divided by nine. So does ten.\n\nReplace each hundred and each ten by one. The remainder is unchanged. Our digit sum is thirteen, which leaves remainder four. The original number also leaves four.\n\nNow check two hundred forty seven times three. Four times three leaves remainder three. The proposed answer, seven hundred forty one, has digit sum twelve. That also leaves three, so it passes this check.\n\nChange the answer to seven hundred forty two. Its digit sum is thirteen. The remainders disagree, so this answer must be wrong.\n\nBut passing is not proof. Swap the last two digits of the correct answer. Seven hundred fourteen has the same digit sum, and passes, even though it is wrong.\n\nThe reason is place value. Every power of ten is one more than a multiple of nine. Digit sums preserve the remainder, and any error that changes the answer by a multiple of nine can slip through. A small check catches some mistakes, not all of them."
+    }
+  ],
+  "sources": [],
+  "required_profile": "ivisualizethings-workshop",
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  }
+}

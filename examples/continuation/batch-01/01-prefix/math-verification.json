@@ -1,0 +1,6 @@
+{
+  "method": "Independent exact computations and general argument",
+  "passed": true,
+  "proof": "Explicit prefix-free leaf codes verified pairwise, exact weighted lengths14 vs16, swapped cost20, equal frequency average9/4. No claim that all messages compress after codebook overhead.",
+  "limitations": "Finite checks supplement stated algebra/counting argument; no audience learning test."
+}

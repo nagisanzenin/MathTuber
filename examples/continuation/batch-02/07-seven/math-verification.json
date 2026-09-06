@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "method": "Exact enumeration/arithmetic plus general argument",
+  "proof": "Exact modular permutation,3^6mod7 and2^5mod6 computed. For primep and nonzeroa,ai=ajmodp impliesi=jmodp; finite injective map permutes1..p\u22121. Their product is a unitmodp, so cancel to obtaina^(p\u22121)=1. Composite6counterexample invalidates unconditional extension.",
+  "limitations": "No audience learning or retention measurement."
+}

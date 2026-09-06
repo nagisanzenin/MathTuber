@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "method": "Exact enumeration/arithmetic plus general argument",
+  "proof": "Exact rational Newtonsteps2\u21923/2\u219217/12. Tangent intercept x\u2212f/fprime. For positive x, (x+2/x)/2\u2265\u221a2; forx\u2265\u221a2 update\u2264x, giving decreasing bounded sequence from2 whose positive limit solvesL\u00b2=2. At0derivativezero; no global convergence claim.",
+  "limitations": "No audience learning or retention measurement."
+}

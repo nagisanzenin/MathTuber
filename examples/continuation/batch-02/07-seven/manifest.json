@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Why Six Multiplications Return to One",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.95,
+    "paragraph_pause_seconds": 0.5
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Multiply three by itself six times.",
+        "The result is seven hundred twenty nine, which leaves remainder one when divided by seven.",
+        "Why should that happen?",
+        "Look at the six nonzero remainders: one through six.",
+        "Multiply each by three, then take the remainder after dividing by seven.",
+        "We get three, six, two, five, one, four.",
+        "The order changed, but the collection did not.",
+        "Multiplication by three permutes the nonzero remainders.",
+        "Multiply every entry in each row.",
+        "The lower product is the upper product times six copies of three, modulo seven.",
+        "But the rows contain exactly the same factors.",
+        "We can cancel their common product because none of its factors is divisible by the prime seven.",
+        "What remains says three to the sixth leaves remainder one.",
+        "The same argument works with any nonzero remainder modulo a prime.",
+        "Multiplication cannot merge two remainders, because a prime dividing their multiplied difference must divide the difference itself.",
+        "This is Fermat's little theorem.",
+        "The prime condition matters.",
+        "Modulo six, multiplying one through five by two creates repeats and a zero.",
+        "Two to the fifth leaves remainder two, not one.",
+        "The rearrangement proof tells us both why the theorem works and where it breaks."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; basic arithmetic, no specialist training.",
+    "learning_goal": "3^6=1mod7 follows from permutation of nonzero residues and cancellable product; for primep andp∤a,a^(p−1)=1modp. Mod6 witha2 fails both permutation and claimed exponent5.",
+    "question": "Multiply three by itself six times.",
+    "payoff": "3^6=1mod7 follows from permutation of nonzero residues and cancellable product; for primep andp∤a,a^(p−1)=1modp. Mod6 witha2 fails both permutation and claimed exponent5.",
+    "transfer_prompt": "The ending changes one condition and visibly resolves it.",
+    "duration_rationale": "Measured narration with short deliberate inspection pauses; no fixed-duration padding.",
+    "novelty_audit": "Prior CRT reconstructs a residue; this uses multiplicative permutation and cancellation to prove Fermat, not reconstruction or decimal digit checks. Compared all available repository manifests and narration; unavailable channel transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper, Avenir lettering, teal/coral/gold semantic colors, caption-safe layout and deliberate transformations.",
+      "episode_variation": "Six residue cards reorder into their multiplied values, then matched products cancel; composite-modulus row visibly develops duplicates and zero.",
+      "exceptions": [
+        "Exact rectangular tiles and straight lines preserve mathematical structure.",
+        "Dry narration; no untested music bed."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Multiply three by itself six times.",
+        "visual_action": "Six residue cards reorder into their multiplied values, then matched products cancel; composite-modulus row visibly develops duplicates and zero.",
+        "new_understanding": "3^6=1mod7 follows from permutation of nonzero residues and cancellable product; for primep andp∤a,a^(p−1)=1modp. Mod6 witha2 fails both permutation and claimed exponent5.",
+        "sound_intent": "Dry gentle narration with brief inspection pauses; no music or effects."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Multiply three by itself six times. The result is seven hundred twenty nine, which leaves remainder one when divided by seven. Why should that happen?\n\nLook at the six nonzero remainders: one through six. Multiply each by three, then take the remainder after dividing by seven. We get three, six, two, five, one, four.\n\nThe order changed, but the collection did not. Multiplication by three permutes the nonzero remainders.\n\nMultiply every entry in each row. The lower product is the upper product times six copies of three, modulo seven. But the rows contain exactly the same factors.\n\nWe can cancel their common product because none of its factors is divisible by the prime seven. What remains says three to the sixth leaves remainder one.\n\nThe same argument works with any nonzero remainder modulo a prime. Multiplication cannot merge two remainders, because a prime dividing their multiplied difference must divide the difference itself. This is Fermat's little theorem.\n\nThe prime condition matters. Modulo six, multiplying one through five by two creates repeats and a zero. Two to the fifth leaves remainder two, not one. The rearrangement proof tells us both why the theorem works and where it breaks."
+    }
+  ],
+  "sources": [],
+  "required_profile": "ivisualizethings-workshop",
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  }
+}

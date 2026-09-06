@@ -1,0 +1,6 @@
+{
+  "method": "Independent exact computations and general argument",
+  "passed": true,
+  "proof": "All6 pairings checked. General exchange gain (b-a)(d-c) is nonnegative for sorted pairs. Adjacent inversion removal reaches same order, proving maximum; reversed order proves minimum. Equality case from zero difference.",
+  "limitations": "Finite checks supplement stated algebra/counting argument; no audience learning test."
+}

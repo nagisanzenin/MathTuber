@@ -1,0 +1,6 @@
+{
+  "method": "Independent exact computations and general argument",
+  "passed": true,
+  "proof": "Five-node star degrees exact. An endpoint samples nodei with probability di/sumdj, giving sumdi\u00b2/sumdi. Variance identity proves >=mean for positive mean. Equal-degree cycle attains equality. Not a statement about each individual.",
+  "limitations": "Finite checks supplement stated algebra/counting argument; no audience learning test."
+}

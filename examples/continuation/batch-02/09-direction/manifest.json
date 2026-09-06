@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Same Direction, Different Similarity Scores",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.95,
+    "paragraph_pause_seconds": 0.5
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Two arrows point in exactly the same direction, but one is ten times longer.",
+        "Should a similarity score treat them the same?",
+        "Let our reference arrow be one step right.",
+        "Compare an arrow two steps right and one step up.",
+        "Their dot product is two.",
+        "Stretch the second arrow ten times.",
+        "It becomes twenty steps right and ten steps up.",
+        "The direction is unchanged, but the dot product becomes twenty.",
+        "A dot product mixes direction with length.",
+        "Divide by the product of both arrow lengths, and that scale factor cancels.",
+        "The result is cosine similarity.",
+        "For the first comparison, the score is two divided by the square root of five.",
+        "For the stretched arrow, it is twenty divided by ten times the square root of five.",
+        "The scores agree.",
+        "Now turn the arrow upward, perpendicular to the reference.",
+        "The dot product and cosine similarity are both zero.",
+        "Turn it directly left and cosine similarity becomes minus one.",
+        "This is useful when direction matters and magnitude should be ignored, as in some vector comparisons in machine learning.",
+        "It is a choice about representation, not a guarantee of meaningful similarity.",
+        "A zero vector has no direction, so this formula is undefined for it."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; basic arithmetic, no specialist training.",
+    "learning_goal": "Cosine(u,v)=(u·v)/normu normv is invariant under positive scaling of either nonzero vector;u(1,0),v(2,1),10v yield2/sqrt5; perpendicular0,opposite−1,zero undefined.",
+    "question": "Two arrows point in exactly the same direction, but one is ten times longer.",
+    "payoff": "Cosine(u,v)=(u·v)/normu normv is invariant under positive scaling of either nonzero vector;u(1,0),v(2,1),10v yield2/sqrt5; perpendicular0,opposite−1,zero undefined.",
+    "transfer_prompt": "The ending changes one condition and visibly resolves it.",
+    "duration_rationale": "Measured narration with short deliberate inspection pauses; no fixed-duration padding.",
+    "novelty_audit": "Prior nearest-neighbor unit normalization rescales feature axes; cosine removes whole-vector magnitude and retains angle. Distinct invariance and geometry. Compared all available repository manifests and narration; unavailable channel transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper, Avenir lettering, teal/coral/gold semantic colors, caption-safe layout and deliberate transformations.",
+      "episode_variation": "A direction arrow stretches on the same ray with dot-product readout; normalized copies align, then rotate to perpendicular and opposite.",
+      "exceptions": [
+        "Exact rectangular tiles and straight lines preserve mathematical structure.",
+        "Dry narration; no untested music bed."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Two arrows point in exactly the same direction, but one is ten times longer.",
+        "visual_action": "A direction arrow stretches on the same ray with dot-product readout; normalized copies align, then rotate to perpendicular and opposite.",
+        "new_understanding": "Cosine(u,v)=(u·v)/normu normv is invariant under positive scaling of either nonzero vector;u(1,0),v(2,1),10v yield2/sqrt5; perpendicular0,opposite−1,zero undefined.",
+        "sound_intent": "Dry gentle narration with brief inspection pauses; no music or effects."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Two arrows point in exactly the same direction, but one is ten times longer. Should a similarity score treat them the same?\n\nLet our reference arrow be one step right. Compare an arrow two steps right and one step up. Their dot product is two.\n\nStretch the second arrow ten times. It becomes twenty steps right and ten steps up. The direction is unchanged, but the dot product becomes twenty.\n\nA dot product mixes direction with length. Divide by the product of both arrow lengths, and that scale factor cancels. The result is cosine similarity.\n\nFor the first comparison, the score is two divided by the square root of five. For the stretched arrow, it is twenty divided by ten times the square root of five. The scores agree.\n\nNow turn the arrow upward, perpendicular to the reference. The dot product and cosine similarity are both zero. Turn it directly left and cosine similarity becomes minus one.\n\nThis is useful when direction matters and magnitude should be ignored, as in some vector comparisons in machine learning. It is a choice about representation, not a guarantee of meaningful similarity. A zero vector has no direction, so this formula is undefined for it."
+    }
+  ],
+  "sources": [],
+  "required_profile": "ivisualizethings-workshop",
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  }
+}

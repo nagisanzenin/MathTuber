@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Odd Loop That Makes Two Colors Impossible",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.95,
+    "paragraph_pause_seconds": 0.5
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Can we color every dot with one of two colors, so every connection joins different colors?",
+        "Start with this square.",
+        "Make one corner teal.",
+        "Its neighbor must be coral.",
+        "The next is teal, and the last is coral.",
+        "The final connection works.",
+        "Four steps bring us back with the right color.",
+        "Now try a triangle.",
+        "Teal, coral, teal.",
+        "The last connection joins two teal dots.",
+        "Changing the first color only exchanges the names of the colors; it does not remove the conflict.",
+        "Each edge switches the required color.",
+        "An even loop switches an even number of times and returns consistently.",
+        "An odd loop asks the starting dot to be the opposite of itself.",
+        "This obstruction is also the whole story.",
+        "In a graph with no odd cycle, choose a starting dot in each connected piece.",
+        "Color dots by whether their distance from that start is even or odd.",
+        "An edge joining equal parities would create an odd closed walk, which contains an odd cycle.",
+        "So two colors work exactly when the graph has no odd cycle.",
+        "This is called a bipartite graph.",
+        "A single new diagonal turns our square into two triangles, and destroys the possibility."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; basic arithmetic, no specialist training.",
+    "learning_goal": "A finite undirected loopless graph is bipartite iff no odd cycle. Alternating parity proves obstruction; shortest-distance parity proves sufficiency via odd closed walk. Square valid, triangle and diagonalized square invalid.",
+    "question": "Can we color every dot with one of two colors, so every connection joins different colors?",
+    "payoff": "A finite undirected loopless graph is bipartite iff no odd cycle. Alternating parity proves obstruction; shortest-distance parity proves sufficiency via odd closed walk. Square valid, triangle and diagonalized square invalid.",
+    "transfer_prompt": "The ending changes one condition and visibly resolves it.",
+    "duration_rationale": "Measured narration with short deliberate inspection pauses; no fixed-duration padding.",
+    "novelty_audit": "Prior domino coloring uses a fixed board invariant; this colors arbitrary graph vertices and characterizes the exact obstruction by odd cycles. Compared all available repository manifests and narration; unavailable channel transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper, Avenir lettering, teal/coral/gold semantic colors, caption-safe layout and deliberate transformations.",
+      "episode_variation": "Persistent square and triangle take alternating colors, with the closing edge revealing conflict; add a diagonal to an already valid coloring.",
+      "exceptions": [
+        "Exact rectangular tiles and straight lines preserve mathematical structure.",
+        "Dry narration; no untested music bed."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Can we color every dot with one of two colors, so every connection joins different colors?",
+        "visual_action": "Persistent square and triangle take alternating colors, with the closing edge revealing conflict; add a diagonal to an already valid coloring.",
+        "new_understanding": "A finite undirected loopless graph is bipartite iff no odd cycle. Alternating parity proves obstruction; shortest-distance parity proves sufficiency via odd closed walk. Square valid, triangle and diagonalized square invalid.",
+        "sound_intent": "Dry gentle narration with brief inspection pauses; no music or effects."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Can we color every dot with one of two colors, so every connection joins different colors?\n\nStart with this square. Make one corner teal. Its neighbor must be coral. The next is teal, and the last is coral. The final connection works. Four steps bring us back with the right color.\n\nNow try a triangle. Teal, coral, teal. The last connection joins two teal dots. Changing the first color only exchanges the names of the colors; it does not remove the conflict.\n\nEach edge switches the required color. An even loop switches an even number of times and returns consistently. An odd loop asks the starting dot to be the opposite of itself.\n\nThis obstruction is also the whole story. In a graph with no odd cycle, choose a starting dot in each connected piece. Color dots by whether their distance from that start is even or odd. An edge joining equal parities would create an odd closed walk, which contains an odd cycle.\n\nSo two colors work exactly when the graph has no odd cycle. This is called a bipartite graph. A single new diagonal turns our square into two triangles, and destroys the possibility."
+    }
+  ],
+  "sources": [],
+  "required_profile": "ivisualizethings-workshop",
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "method": "Independent exact computations and general argument",
+  "passed": true,
+  "proof": "Exact stationary weights checked for three lambda values. Objective equals (1+lambda)(w-4/(1+lambda))\u00b2+16lambda/(1+lambda), so positive quadratic coefficient proves unique global minimum for lambda>=0. No generalization claim.",
+  "limitations": "Finite checks supplement stated algebra/counting argument; no audience learning test."
+}

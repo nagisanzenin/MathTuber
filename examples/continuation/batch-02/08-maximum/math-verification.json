@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "method": "Exact enumeration/arithmetic plus general argument",
+  "proof": "Enumerated16ordered pairs;maxcounts1,3,5,7;expectation25/8. Number withmax\u2264k isk\u00b2, difference2k\u22121. Equal copied draws restrict to4diagonal outcomes, mean5/2.",
+  "limitations": "No audience learning or retention measurement."
+}

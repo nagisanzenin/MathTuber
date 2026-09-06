@@ -1,0 +1,20 @@
+{
+  "intervals": [
+    {
+      "id": "0",
+      "start_cue": "At weight four",
+      "end_cue": "The two squared distances",
+      "end_offset": 0,
+      "samples": 5,
+      "purpose": "Inspect the explanatory operation, correspondence and its completed endpoint."
+    },
+    {
+      "id": "1",
+      "start_cue": "We can turn the penalty",
+      "end_cue": "It does not guarantee",
+      "end_offset": 0,
+      "samples": 5,
+      "purpose": "Inspect the explanatory operation, correspondence and its completed endpoint."
+    }
+  ]
+}

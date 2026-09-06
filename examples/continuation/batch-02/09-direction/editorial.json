@@ -1,0 +1,11 @@
+{
+  "export_sha256": "8dca09f0084fb52f7c74f3cf213e3c534325c851f484ee664fdd2c8e0f309ac8",
+  "decision": "release",
+  "opening": "Collinear arrows differ tenfold in length before comparison with a reference.",
+  "mechanism": "Dot product changes2to20; normdivisioncancelspositivescale; perpendicular,opposite,zero cases separate meanings.",
+  "readability": "Opening repaired to match narration; reduced scale of long arrow explicitly labeled.",
+  "pacing": "Measured cue-based transformations with inspection holds; limits: Large stretched arrow uses a labeled reduced scale; vector-representation usefulness is illustrative, not evaluated.",
+  "sound": "Complete source ASR read against narration, including quantities and mathematical claims. Number formatting and occasional letter/function-word transcription differences remain; ASR is fallible. Source and final signal measurements checked for clipping. No subjective listening or prosody claim.",
+  "remaining_weaknesses": "Large stretched arrow uses a labeled reduced scale; vector-representation usefulness is illustrative, not evaluated.",
+  "audience_evidence": "Not measured: no viewer retention, learning, preference or channel-recognition test."
+}

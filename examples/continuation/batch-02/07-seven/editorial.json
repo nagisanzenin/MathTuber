@@ -1,0 +1,11 @@
+{
+  "export_sha256": "468dee27cdf08c286c944963ccd31f811d4ef627976434726e0d05d49bd5b0b9",
+  "decision": "release",
+  "opening": "A large power has a surprisingly small remainder.",
+  "mechanism": "Multiplication permutes nonzero prime residues; commonproduct cancellation leadsFermat;mod6fails.",
+  "readability": "Residue cards visibly sort back into same collection; formulas use dark readable text.",
+  "pacing": "Measured cue-based transformations with inspection holds; limits: Modular cancellation and prime divisibility are prerequisites; algebra occupies a substantial static passage.",
+  "sound": "Complete source ASR read against narration, including quantities and mathematical claims. Number formatting and occasional letter/function-word transcription differences remain; ASR is fallible. Source and final signal measurements checked for clipping. No subjective listening or prosody claim.",
+  "remaining_weaknesses": "Modular cancellation and prime divisibility are prerequisites; algebra occupies a substantial static passage.",
+  "audience_evidence": "Not measured: no viewer retention, learning, preference or channel-recognition test."
+}

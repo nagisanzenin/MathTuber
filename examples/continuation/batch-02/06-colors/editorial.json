@@ -1,0 +1,11 @@
+{
+  "export_sha256": "cd61f076c62b87f77b9ec39a01aebcd3726a539f922f0a2dc1bd42876d3de722",
+  "decision": "release",
+  "opening": "A two-color assignment becomes impossible on a triangle.",
+  "mechanism": "Alternating colors close on even cycles and conflict on odd cycles; distanceparity gives converse, diagonal breaks square.",
+  "readability": "Color changes and gold conflict edge are readable beside persistent captions.",
+  "pacing": "Measured cue-based transformations with inspection holds; limits: The general odd-walk argument is spoken and summarized in text rather than fully constructed.",
+  "sound": "Complete source ASR read against narration, including quantities and mathematical claims. Number formatting and occasional letter/function-word transcription differences remain; ASR is fallible. Source and final signal measurements checked for clipping. No subjective listening or prosody claim.",
+  "remaining_weaknesses": "The general odd-walk argument is spoken and summarized in text rather than fully constructed.",
+  "audience_evidence": "Not measured: no viewer retention, learning, preference or channel-recognition test."
+}

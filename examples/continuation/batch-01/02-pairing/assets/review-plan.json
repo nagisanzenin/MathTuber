@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "0",
+      "start_cue": "Now exchange",
+      "end_cue": "The difference between three",
+      "end_offset": 0,
+      "samples": 5,
+      "purpose": "Inspect the explanatory operation, correspondence and its completed endpoint."
+    },
+    {
+      "id": "1",
+      "start_cue": "In general",
+      "end_cue": "Keep removing reversed",
+      "end_offset": 0,
+      "samples": 5,
+      "purpose": "Inspect the explanatory operation, correspondence and its completed endpoint."
+    },
+    {
+      "id": "2",
+      "start_cue": "If two numbers",
+      "end_cue": "If two numbers",
+      "end_offset": 3,
+      "samples": 5,
+      "purpose": "Inspect the explanatory operation, correspondence and its completed endpoint."
+    }
+  ]
+}

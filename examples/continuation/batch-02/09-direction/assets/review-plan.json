@@ -1,0 +1,20 @@
+{
+  "intervals": [
+    {
+      "id": "0",
+      "start_cue": "Stretch the second",
+      "end_cue": "A dot product mixes",
+      "end_offset": 0,
+      "samples": 5,
+      "purpose": "Inspect the operation and endpoint, not just the opening."
+    },
+    {
+      "id": "1",
+      "start_cue": "Now turn the arrow",
+      "end_cue": "This is useful",
+      "end_offset": 0,
+      "samples": 5,
+      "purpose": "Inspect the operation and endpoint, not just the opening."
+    }
+  ]
+}

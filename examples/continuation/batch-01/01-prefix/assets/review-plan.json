@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "0",
+      "start_cue": "Follow the branches",
+      "end_cue": "The four letter A symbols",
+      "end_offset": 0,
+      "samples": 5,
+      "purpose": "Inspect the explanatory operation, correspondence and its completed endpoint."
+    },
+    {
+      "id": "1",
+      "start_cue": "Swap the lengths",
+      "end_cue": "Short paths are scarce",
+      "end_offset": 0,
+      "samples": 5,
+      "purpose": "Inspect the explanatory operation, correspondence and its completed endpoint."
+    },
+    {
+      "id": "2",
+      "start_cue": "If all four symbols",
+      "end_cue": "Compression depends",
+      "end_offset": 0,
+      "samples": 5,
+      "purpose": "Inspect the explanatory operation, correspondence and its completed endpoint."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "checked_at": "2026-09-06T11:16:36.149996+00:00",
+  "complete": true,
+  "completed": 5,
+  "total": 5,
+  "videos": [
+    {
+      "state": "observed",
+      "video_id": "S3kPVZE9_Rw",
+      "url": "https://www.youtube.com/watch?v=S3kPVZE9_Rw",
+      "title": "Why Common Letters Deserve Shorter Codes #math #Shorts",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M24S",
+      "project": "01-prefix",
+      "export_sha256": "6b5721b9d6995ff48efc09d643b3c8123450ba7140399192b6ab3eb2da1aa146",
+      "requested_privacy": "public",
+      "complete": true
+    },
+    {
+      "state": "observed",
+      "video_id": "6UsE85w5et4",
+      "url": "https://www.youtube.com/watch?v=6UsE85w5et4",
+      "title": "Which Pairings Make the Largest Total? #math #Shorts",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M18S",
+      "project": "02-pairing",
+      "export_sha256": "edc62cf616be67814c44fd9b8e968c37674771c2d5f2e438648a66498aa58588",
+      "requested_privacy": "public",
+      "complete": true
+    },
+    {
+      "state": "observed",
+      "video_id": "-eQdnl84y6k",
+      "url": "https://www.youtube.com/watch?v=-eQdnl84y6k",
+      "title": "Why a Model Might Choose a Worse Fit #math #Shorts",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M17S",
+      "project": "03-ridge",
+      "export_sha256": "3bb245e57bba3d459e72ef05689120ecedea65da7300c599ec0c5e006036b83a",
+      "requested_privacy": "public",
+      "complete": true
+    },
+    {
+      "state": "observed",
+      "video_id": "KPqFG5P-1Eg",
+      "url": "https://www.youtube.com/watch?v=KPqFG5P-1Eg",
+      "title": "Why Adding Digits Can Catch a Wrong Answer #math #Shorts",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M22S",
+      "project": "04-nines",
+      "export_sha256": "a7a5b5541a7827ce09634033c610ef1938b647a6b35c9df060262fb57b8b0103",
+      "requested_privacy": "public",
+      "complete": true
+    },
+    {
+      "state": "observed",
+      "video_id": "oIjfQFHd9Og",
+      "url": "https://www.youtube.com/watch?v=oIjfQFHd9Og",
+      "title": "Why Popular People Appear More Often in Your Sample #math #Shorts",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M19S",
+      "project": "05-friends",
+      "export_sha256": "c8d07e976fe2570a269032aee57af15d17b88fa2d2ae4f4643ef14217bdca881",
+      "requested_privacy": "public",
+      "complete": true
+    }
+  ],
+  "method": "Read-only YouTube status and processing queries for exact current-export receipts; no video insert or update."
+}

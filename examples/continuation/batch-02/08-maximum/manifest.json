@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "What Changes When You Keep the Better of Two Draws?",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.95,
+    "paragraph_pause_seconds": 0.5
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Draw a number from one through four, all equally likely.",
+        "Its average is two and a half.",
+        "Now draw twice independently and keep the larger number.",
+        "What is the new average?",
+        "There are sixteen equally likely ordered pairs.",
+        "Each cell in this grid is one pair.",
+        "Write the larger of its row and column numbers in the cell.",
+        "Only one cell has maximum one.",
+        "Three have maximum two.",
+        "Five have maximum three.",
+        "Seven have maximum four.",
+        "Why the odd counts?",
+        "A maximum at most two means both draws lie in the first two choices.",
+        "That gives a two by two square.",
+        "Expanding from a square of side k minus one to side k adds two k minus one cells.",
+        "Weight each possible maximum by its count.",
+        "One times one, two times three, three times five, and four times seven.",
+        "Fifty, divided by sixteen.",
+        "The new average is three point one two five.",
+        "It is larger because the rule discards the smaller draw, not because either individual draw changed.",
+        "If we copy the first draw instead of making an independent second draw, only the four diagonal cells remain possible.",
+        "Their maximum is just the original draw.",
+        "The average returns to two and a half.",
+        "Two opportunities help differently when they are really the same opportunity."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; basic arithmetic, no specialist training.",
+    "learning_goal": "For two independent uniform1..4 draws,max distribution counts1,3,5,7;Emax50/16=25/8 versus5/2. CDF(k)=k²/16; copied draws giveuniform max.",
+    "question": "Draw a number from one through four, all equally likely.",
+    "payoff": "For two independent uniform1..4 draws,max distribution counts1,3,5,7;Emax50/16=25/8 versus5/2. CDF(k)=k²/16; copied draws giveuniform max.",
+    "transfer_prompt": "The ending changes one condition and visibly resolves it.",
+    "duration_rationale": "Measured narration with short deliberate inspection pauses; no fixed-duration padding.",
+    "novelty_audit": "Prior dice sums use antidiagonal counts and convolution; this max order statistic uses nested square boundaries, with a different aggregation rule and expectation. Compared all available repository manifests and narration; unavailable channel transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper, Avenir lettering, teal/coral/gold semantic colors, caption-safe layout and deliberate transformations.",
+      "episode_variation": "Grid cells encode maxima; concentric L-shaped boundaries become count groups and then a weighted total; copied-draw diagonal remains.",
+      "exceptions": [
+        "Exact rectangular tiles and straight lines preserve mathematical structure.",
+        "Dry narration; no untested music bed."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Draw a number from one through four, all equally likely.",
+        "visual_action": "Grid cells encode maxima; concentric L-shaped boundaries become count groups and then a weighted total; copied-draw diagonal remains.",
+        "new_understanding": "For two independent uniform1..4 draws,max distribution counts1,3,5,7;Emax50/16=25/8 versus5/2. CDF(k)=k²/16; copied draws giveuniform max.",
+        "sound_intent": "Dry gentle narration with brief inspection pauses; no music or effects."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Draw a number from one through four, all equally likely. Its average is two and a half. Now draw twice independently and keep the larger number. What is the new average?\n\nThere are sixteen equally likely ordered pairs. Each cell in this grid is one pair. Write the larger of its row and column numbers in the cell.\n\nOnly one cell has maximum one. Three have maximum two. Five have maximum three. Seven have maximum four.\n\nWhy the odd counts? A maximum at most two means both draws lie in the first two choices. That gives a two by two square. Expanding from a square of side k minus one to side k adds two k minus one cells.\n\nWeight each possible maximum by its count. One times one, two times three, three times five, and four times seven. Fifty, divided by sixteen. The new average is three point one two five.\n\nIt is larger because the rule discards the smaller draw, not because either individual draw changed.\n\nIf we copy the first draw instead of making an independent second draw, only the four diagonal cells remain possible. Their maximum is just the original draw. The average returns to two and a half. Two opportunities help differently when they are really the same opportunity."
+    }
+  ],
+  "sources": [],
+  "required_profile": "ivisualizethings-workshop",
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  }
+}

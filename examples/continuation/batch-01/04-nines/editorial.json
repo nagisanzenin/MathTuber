@@ -1,0 +1,11 @@
+{
+  "export_sha256": "a7a5b5541a7827ce09634033c610ef1938b647a6b35c9df060262fb57b8b0103",
+  "decision": "release",
+  "opening": "Digit sums pose an everyday checking question.",
+  "mechanism": "Place-value remainder invariance explains247;742failsbut714passes, so check is one-sided.",
+  "readability": "Digits move to exchange positions; remaining equations stay separate from captions.",
+  "pacing": "Measured cue-based transformations with inspection holds; limits: Several arithmetic passages remain static; no full decimal multiplication animation.",
+  "sound": "Complete source ASR read against narration, including quantities and mathematical claims. Number formatting and occasional letter/function-word transcription differences remain; ASR is fallible. Source and final signal measurements checked for clipping. No subjective listening or prosody claim.",
+  "remaining_weaknesses": "Several arithmetic passages remain static; no full decimal multiplication animation.",
+  "audience_evidence": "Not measured: no viewer retention, learning, preference or channel-recognition test."
+}

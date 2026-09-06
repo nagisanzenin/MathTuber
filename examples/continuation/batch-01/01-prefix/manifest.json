@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Why Common Letters Deserve Shorter Codes",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.95,
+    "paragraph_pause_seconds": 0.5
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Eight symbols need sixteen bits if every symbol gets two bits.",
+        "Can we use fewer without making the message ambiguous?",
+        "Our message contains four letter A symbols, two B symbols, one C, and one D.",
+        "Give letter A the code zero.",
+        "Give B one zero.",
+        "Give C one one zero, and D one one one.",
+        "Follow the branches.",
+        "Every symbol sits at a leaf.",
+        "No complete code is the beginning of another, so we know exactly when a symbol ends.",
+        "The four letter A symbols now cost four bits.",
+        "The two B symbols cost four more.",
+        "C and D cost three each.",
+        "Fourteen bits altogether, instead of sixteen.",
+        "Why give the common symbol the short path?",
+        "Swap the lengths for letter A and letter C.",
+        "Three extra copies of letter A each pay two extra bits.",
+        "The total rises by six.",
+        "Short paths are scarce.",
+        "Spending them on frequent symbols reduces the weighted cost.",
+        "Huffman coding builds such a tree by repeatedly joining the two least frequent groups.",
+        "There is a boundary to this saving.",
+        "If all four symbols appear equally often, these same lengths average two and a quarter bits.",
+        "A fixed two bit code is better.",
+        "Compression depends on the pattern in the source, and this count excludes the cost of telling the receiver the codebook."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; basic arithmetic, no specialist training.",
+    "learning_goal": "Prefix-free codes 0,10,110,111 encode counts4,2,1,1 in14 bits versus16; exchanging lengths1 and3 for counts4 and1 adds6. Equal frequencies cost2.25 bits with this tree versus2 fixed.",
+    "question": "Eight symbols need sixteen bits if every symbol gets two bits.",
+    "payoff": "Prefix-free codes 0,10,110,111 encode counts4,2,1,1 in14 bits versus16; exchanging lengths1 and3 for counts4 and1 adds6. Equal frequencies cost2.25 bits with this tree versus2 fixed.",
+    "transfer_prompt": "The ending changes one condition and visibly resolves it.",
+    "duration_rationale": "Measured narration with short deliberate inspection pauses; no fixed-duration padding.",
+    "novelty_audit": "Prior parity adds redundancy for error location. This removes expected representation cost with prefix-free variable lengths; different goal and tree operation. Compared all available repository manifests and narration; unavailable channel transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper, Avenir lettering, teal/coral/gold semantic colors, caption-safe layout and deliberate transformations.",
+      "episode_variation": "A branch tree becomes a codebook; repeated symbol tokens map to counted bit lengths. Exchange common and rare lengths, then change the frequencies.",
+      "exceptions": [
+        "Exact rectangular tiles and straight lines preserve mathematical structure.",
+        "Dry narration; no untested music bed."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Eight symbols need sixteen bits if every symbol gets two bits.",
+        "visual_action": "A branch tree becomes a codebook; repeated symbol tokens map to counted bit lengths. Exchange common and rare lengths, then change the frequencies.",
+        "new_understanding": "Prefix-free codes 0,10,110,111 encode counts4,2,1,1 in14 bits versus16; exchanging lengths1 and3 for counts4 and1 adds6. Equal frequencies cost2.25 bits with this tree versus2 fixed.",
+        "sound_intent": "Dry gentle narration with brief inspection pauses; no music or effects."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Eight symbols need sixteen bits if every symbol gets two bits. Can we use fewer without making the message ambiguous?\n\nOur message contains four letter A symbols, two B symbols, one C, and one D. Give letter A the code zero. Give B one zero. Give C one one zero, and D one one one.\n\nFollow the branches. Every symbol sits at a leaf. No complete code is the beginning of another, so we know exactly when a symbol ends.\n\nThe four letter A symbols now cost four bits. The two B symbols cost four more. C and D cost three each. Fourteen bits altogether, instead of sixteen.\n\nWhy give the common symbol the short path? Swap the lengths for letter A and letter C. Three extra copies of letter A each pay two extra bits. The total rises by six.\n\nShort paths are scarce. Spending them on frequent symbols reduces the weighted cost. Huffman coding builds such a tree by repeatedly joining the two least frequent groups.\n\nThere is a boundary to this saving. If all four symbols appear equally often, these same lengths average two and a quarter bits. A fixed two bit code is better. Compression depends on the pattern in the source, and this count excludes the cost of telling the receiver the codebook."
+    }
+  ],
+  "sources": [
+    "https://algs4.cs.princeton.edu/55compression/index.php"
+  ],
+  "required_profile": "ivisualizethings-workshop",
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  }
+}

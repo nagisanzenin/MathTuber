@@ -1,0 +1,20 @@
+{
+  "intervals": [
+    {
+      "id": "0",
+      "start_cue": "Replace each hundred",
+      "end_cue": "Now check",
+      "end_offset": 0,
+      "samples": 5,
+      "purpose": "Inspect the explanatory operation, correspondence and its completed endpoint."
+    },
+    {
+      "id": "1",
+      "start_cue": "Swap the last two",
+      "end_cue": "Every power of ten",
+      "end_offset": 0,
+      "samples": 5,
+      "purpose": "Inspect the explanatory operation, correspondence and its completed endpoint."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "intervals": [
+    {
+      "id": "0",
+      "start_cue": "Now put a name",
+      "end_cue": "For any undirected network",
+      "end_offset": 0,
+      "samples": 5,
+      "purpose": "Inspect the explanatory operation, correspondence and its completed endpoint."
+    },
+    {
+      "id": "1",
+      "start_cue": "If everyone has the same",
+      "end_cue": "It does not say every",
+      "end_offset": 0,
+      "samples": 5,
+      "purpose": "Inspect the explanatory operation, correspondence and its completed endpoint."
+    }
+  ]
+}
