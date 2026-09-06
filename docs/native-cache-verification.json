@@ -1,0 +1,55 @@
+{
+  "checked_at": "2026-09-06",
+  "checks": [
+    {
+      "host": "Codex",
+      "version": "0.1.0+codex.20260906062634",
+      "installed_cache_matches_source": [
+        "scripts/compile_cues.py",
+        "scripts/audio_review.py",
+        "scripts/visual_review.py",
+        "scripts/publication_status.py",
+        "mathtuber/youtube_retry.py",
+        "skills/mathtuber/SKILL.md",
+        "skills/mathtuber/references/production.md"
+      ],
+      "doctor_from_unrelated_cwd_exit": 0,
+      "scope": "Actual native local-marketplace reinstall and cached file/command checks. Existing shared runtime reused. No new host-model invocation."
+    },
+    {
+      "host": "Claude Code",
+      "version": "0.1.0+codex.20260906062634",
+      "installed_cache_matches_source": [
+        "scripts/compile_cues.py",
+        "scripts/audio_review.py",
+        "scripts/visual_review.py",
+        "scripts/publication_status.py",
+        "mathtuber/youtube_retry.py",
+        "skills/mathtuber/SKILL.md",
+        "skills/mathtuber/references/production.md"
+      ],
+      "doctor_from_unrelated_cwd_exit": 0,
+      "scope": "Native marketplace refresh and versioned plugin update; cached tools match current source. Existing runtime reused. No model or OAuth invocation."
+    }
+  ],
+  "zcode": "Current native plugins list reports mathtuber@inline enabled with one skill. Inline source is this repository. No model call.",
+  "pi": "Current pi list resolves the installed local package to this repository. Loader transport rerun recorded separately.",
+  "not_claimed": [
+    "New real-model autonomous filmmaking on all platforms",
+    "Clean OS or fresh model downloads",
+    "Gemini authenticated extension load"
+  ],
+  "pi_transport": {
+    "platform": "pi",
+    "version": "0.85.0",
+    "verification": "real loader and bash transport; simulated model",
+    "checks": {
+      "process_success": true,
+      "skill_discovered": true,
+      "skill_expanded": true,
+      "real_bash_result": true,
+      "two_model_requests": true
+    },
+    "passed": true
+  }
+}
