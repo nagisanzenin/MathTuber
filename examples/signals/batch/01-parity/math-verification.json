@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "method": "Exact enumeration and algebraic proof; not audience validation.",
+  "checks": [
+    "All16 single data-bit flips identify the correct row and column.",
+    "Four shown rectangle corners preserve all parity checks. Assumes check bits intact."
+  ]
+}

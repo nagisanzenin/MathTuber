@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "method": "Exact enumeration and algebraic proof; not audience validation.",
+  "checks": [
+    "Two-route Nash split2000/2000 costs65; deviating by one driver costs65.01.",
+    "With zero directed A\u2192B connector, replacing any fixed45 edge by a variable edge costs at most40: shortcut route strictly dominates both old routes. All4000 use it; cost80; unilateral alternative85.",
+    "Coordinated old split still feasible after addition; final connector visually suppressed to show nonuse, not physical removal."
+  ]
+}

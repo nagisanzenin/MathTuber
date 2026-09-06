@@ -1,0 +1,20 @@
+{
+  "intervals": [
+    {
+      "id": "0",
+      "start_cue": "Now flip this bit",
+      "end_cue": "Flip it back",
+      "end_offset": 3,
+      "samples": 9,
+      "purpose": "Inspect object correspondence, changing quantities and endpoint."
+    },
+    {
+      "id": "1",
+      "start_cue": "Watch four bits",
+      "end_cue": "All the parity",
+      "end_offset": 4,
+      "samples": 9,
+      "purpose": "Inspect object correspondence, changing quantities and endpoint."
+    }
+  ]
+}

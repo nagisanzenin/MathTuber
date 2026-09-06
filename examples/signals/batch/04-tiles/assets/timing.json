@@ -1,0 +1,18 @@
+{
+  "s01": {
+    "For a path of one": 9.475,
+    "For two squares": 11.95,
+    "Instead of guessing": 17.625,
+    "If a five square": 20.775,
+    "Every filling of four": 26.888,
+    "If it ends with a long": 31.875,
+    "Every filling of three": 36.513,
+    "These two groups": 41.075,
+    "So the number for five": 46.25,
+    "The counts grow": 51.55,
+    "Add one more square": 60.675,
+    "Thirteen in total": 67.0,
+    "These are Fibonacci": 69.625,
+    "A number pattern": 77.875
+  }
+}

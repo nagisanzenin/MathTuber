@@ -1,0 +1,17 @@
+{
+  "s01": {
+    "Arrange the bits": 6.45,
+    "Then do the same": 12.662,
+    "Now flip this bit": 20.225,
+    "Its row": 22.75,
+    "So does its column": 25.225,
+    "Follow the failed": 31.075,
+    "Flip it back": 36.425,
+    "This demonstration assumes": 44.8,
+    "Watch four bits": 54.025,
+    "Every affected row": 57.738,
+    "Every affected column": 60.312,
+    "All the parity": 63.062,
+    "Redundancy can reveal": 68.325
+  }
+}

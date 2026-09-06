@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "0",
+      "start_cue": "Without a shortcut",
+      "end_cue": "Now connect",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Inspect object correspondence, changing quantities and endpoint."
+    },
+    {
+      "id": "1",
+      "start_cue": "Now connect",
+      "end_cue": "Forty plus forty is eighty",
+      "end_offset": 4,
+      "samples": 9,
+      "purpose": "Inspect object correspondence, changing quantities and endpoint."
+    },
+    {
+      "id": "2",
+      "start_cue": "The old sixty five",
+      "end_cue": "This is Braess",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Inspect object correspondence, changing quantities and endpoint."
+    }
+  ]
+}

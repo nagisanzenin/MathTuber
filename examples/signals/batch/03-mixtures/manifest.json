@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Better in Every Group, Worse Overall?",
+    "min_seconds": 50,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.9,
+    "paragraph_pause_seconds": 0.5
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Team A does better on easy tasks.",
+        "It also does better on hard tasks.",
+        "Could team B still have the better overall success rate?",
+        "These are invented numbers.",
+        "On easy tasks, A succeeds nine times out of ten: ninety percent.",
+        "B succeeds eighty times out of one hundred: eighty percent.",
+        "On hard tasks, A succeeds twenty times out of one hundred: twenty percent.",
+        "B succeeds once out of ten: ten percent.",
+        "A leads in both groups.",
+        "Now put the groups together.",
+        "A has twenty nine successes in one hundred ten attempts.",
+        "About twenty six percent.",
+        "B has eighty one successes in one hundred ten attempts.",
+        "About seventy four percent.",
+        "The ranking reverses.",
+        "The key is the mixture.",
+        "A did mostly hard tasks.",
+        "B did mostly easy tasks.",
+        "An overall rate weights each group by how many attempts it contains.",
+        "It is not the simple average of the two percentages.",
+        "Give both teams the same mixture instead: half easy, half hard.",
+        "A's weighted rate becomes fifty five percent.",
+        "B's becomes forty five percent.",
+        "The reversal disappears.",
+        "This is Simpson's paradox.",
+        "Before comparing a single percentage, look at what went into it.",
+        "These totals alone cannot tell us what caused the difference."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; basic arithmetic, no specialist training.",
+    "learning_goal": "Unequal subgroup weights can reverse success-rate rankings; equal weights preserve the two strict subgroup inequalities. No causal inference from this table.",
+    "question": "Team A does better on easy tasks.",
+    "payoff": "Unequal subgroup weights can reverse success-rate rankings; equal weights preserve the two strict subgroup inequalities. No causal inference from this table.",
+    "transfer_prompt": "The ending changes one condition and visibly resolves it.",
+    "duration_rationale": "Measured narration with short deliberate inspection pauses; no fixed-duration padding.",
+    "novelty_audit": "Closest prior: base-rate precision and inverse inclusion weighting. Distinct: aggregation reversal caused by different case mixes; exact subgroup tables. Compared all available repository manifests and narration; unavailable channel transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper, Avenir lettering, teal/coral/gold semantic colors, caption-safe layout and deliberate transformations.",
+      "episode_variation": "Success bars scale by attempts; groups combine visibly; equal mixture restores ranking.",
+      "exceptions": [
+        "Exact rectangular tiles and straight lines preserve mathematical structure.",
+        "Dry narration; no untested music bed."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Team A does better on easy tasks.",
+        "visual_action": "Success bars scale by attempts; groups combine visibly; equal mixture restores ranking.",
+        "new_understanding": "Unequal subgroup weights can reverse success-rate rankings; equal weights preserve the two strict subgroup inequalities. No causal inference from this table.",
+        "sound_intent": "Dry gentle narration with brief inspection pauses; no music or effects."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Team A does better on easy tasks. It also does better on hard tasks. Could team B still have the better overall success rate?\n\nThese are invented numbers. On easy tasks, A succeeds nine times out of ten: ninety percent. B succeeds eighty times out of one hundred: eighty percent.\n\nOn hard tasks, A succeeds twenty times out of one hundred: twenty percent. B succeeds once out of ten: ten percent. A leads in both groups.\n\nNow put the groups together. A has twenty nine successes in one hundred ten attempts. About twenty six percent. B has eighty one successes in one hundred ten attempts. About seventy four percent. The ranking reverses.\n\nThe key is the mixture. A did mostly hard tasks. B did mostly easy tasks. An overall rate weights each group by how many attempts it contains. It is not the simple average of the two percentages.\n\nGive both teams the same mixture instead: half easy, half hard. A's weighted rate becomes fifty five percent. B's becomes forty five percent. The reversal disappears.\n\nThis is Simpson's paradox. Before comparing a single percentage, look at what went into it. These totals alone cannot tell us what caused the difference."
+    }
+  ],
+  "sources": [],
+  "required_profile": "ivisualizethings-workshop",
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  }
+}

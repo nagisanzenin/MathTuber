@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Where Fibonacci Numbers Come From Without a Spiral",
+    "min_seconds": 50,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.9,
+    "paragraph_pause_seconds": 0.5
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "How many ways can we fill this little path?",
+        "We have tiles one square long and tiles two squares long.",
+        "No gaps, and no overlaps.",
+        "For a path of one square, there is one way.",
+        "For two squares, there are two ways: two short tiles, or one long tile.",
+        "Instead of guessing a pattern, look at the last tile.",
+        "If a five square path ends with a short tile, everything before it is a four square path.",
+        "Every filling of four gives exactly one filling of this kind.",
+        "If it ends with a long tile, the part before it has three squares.",
+        "Every filling of three gives exactly one of that kind.",
+        "These two groups cannot overlap.",
+        "Every filling must belong to one of them.",
+        "So the number for five is the number for four plus the number for three.",
+        "The counts grow as one, two, three, five, eight.",
+        "Those eight arrangements are all the possibilities for our five square path.",
+        "Add one more square.",
+        "Five arrangements can end in a long tile, and eight can end in a short tile.",
+        "Thirteen in total.",
+        "These are Fibonacci numbers, appearing because every complete arrangement has exactly two possible kinds of ending.",
+        "A number pattern becomes a reason when we can separate the possibilities."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; basic arithmetic, no specialist training.",
+    "learning_goal": "Length-n tilings by unit and double tiles split bijectively by last tile: T_n=T_(n\u22121)+T_(n\u22122), T_0=T_1=1.",
+    "question": "How many ways can we fill this little path?",
+    "payoff": "Length-n tilings by unit and double tiles split bijectively by last tile: T_n=T_(n\u22121)+T_(n\u22122), T_0=T_1=1.",
+    "transfer_prompt": "The ending changes one condition and visibly resolves it.",
+    "duration_rationale": "Measured narration with short deliberate inspection pauses; no fixed-duration padding.",
+    "novelty_audit": "Closest prior: domino color invariant and stars-and-bars. Distinct: exhaustive recurrence by last tile with variable tile lengths; no geometric color obstruction. Compared all available repository manifests and narration; unavailable channel transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper, Avenir lettering, teal/coral/gold semantic colors, caption-safe layout and deliberate transformations.",
+      "episode_variation": "Actual tiled strips grouped by final piece; append one or two cells without duplicating fillings.",
+      "exceptions": [
+        "Exact rectangular tiles and straight lines preserve mathematical structure.",
+        "Dry narration; no untested music bed."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How many ways can we fill this little path?",
+        "visual_action": "Actual tiled strips grouped by final piece; append one or two cells without duplicating fillings.",
+        "new_understanding": "Length-n tilings by unit and double tiles split bijectively by last tile: T_n=T_(n\u22121)+T_(n\u22122), T_0=T_1=1.",
+        "sound_intent": "Dry gentle narration with brief inspection pauses; no music or effects."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "How many ways can we fill this little path? We have tiles one square long and tiles two squares long. No gaps, and no overlaps.\n\nFor a path of one square, there is one way. For two squares, there are two ways: two short tiles, or one long tile.\n\nInstead of guessing a pattern, look at the last tile. If a five square path ends with a short tile, everything before it is a four square path. Every filling of four gives exactly one filling of this kind.\n\nIf it ends with a long tile, the part before it has three squares. Every filling of three gives exactly one of that kind.\n\nThese two groups cannot overlap. Every filling must belong to one of them. So the number for five is the number for four plus the number for three.\n\nThe counts grow as one, two, three, five, eight. Those eight arrangements are all the possibilities for our five square path.\n\nAdd one more square. Five arrangements can end in a long tile, and eight can end in a short tile. Thirteen in total.\n\nThese are Fibonacci numbers, appearing because every complete arrangement has exactly two possible kinds of ending. A number pattern becomes a reason when we can separate the possibilities."
+    }
+  ],
+  "sources": [],
+  "required_profile": "ivisualizethings-workshop",
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  }
+}

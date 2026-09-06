@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Shortcut That Makes Everyone Slower",
+    "min_seconds": 50,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.9,
+    "paragraph_pause_seconds": 0.5
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A new shortcut opens.",
+        "Every driver chooses a faster route for themselves.",
+        "Somehow, everyone ends up slower.",
+        "Here is an ideal traffic network with four thousand drivers.",
+        "The two teal road sections take one minute for every hundred drivers using them.",
+        "Each coral section always takes forty five minutes.",
+        "Without a shortcut, traffic splits evenly between the two routes.",
+        "Each driver spends twenty minutes on a teal section, then forty five on a coral one.",
+        "Sixty five minutes altogether.",
+        "Now connect the two middle junctions with a zero minute shortcut.",
+        "That is an idealization, not a realistic road length.",
+        "A teal section never takes more than forty minutes, even with all four thousand drivers.",
+        "So each driver prefers using both teal sections and skipping the forty five minute sections.",
+        "Everyone makes that choice.",
+        "Both teal sections now carry all four thousand drivers.",
+        "Forty plus forty is eighty minutes.",
+        "The shortcut has made the stable outcome fifteen minutes slower.",
+        "One driver cannot fix this by switching back.",
+        "Their alternative takes forty plus forty five: eighty five minutes.",
+        "The old sixty five minute arrangement is still possible if everyone coordinates to ignore the shortcut.",
+        "More options did not remove it.",
+        "They changed the incentives.",
+        "This is Braess's paradox: a better choice for each person need not create a better outcome together."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; basic arithmetic, no specialist training.",
+    "learning_goal": "Braess network with 4000 atomic drivers, variable edge cost n/100, fixed45, zero connector: original equilibrium65, new dominant-route equilibrium80, unilateral alternative85.",
+    "question": "A new shortcut opens.",
+    "payoff": "Braess network with 4000 atomic drivers, variable edge cost n/100, fixed45, zero connector: original equilibrium65, new dominant-route equilibrium80, unilateral alternative85.",
+    "transfer_prompt": "The ending changes one condition and visibly resolves it.",
+    "duration_rationale": "Measured narration with short deliberate inspection pauses; no fixed-duration padding.",
+    "novelty_audit": "Closest prior: max-flow cut bound and shortest-job scheduling. Distinct: selfish routing equilibrium versus coordinated feasible flow; edge costs depend on flow. Compared all available repository manifests and narration; unavailable channel transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper, Avenir lettering, teal/coral/gold semantic colors, caption-safe layout and deliberate transformations.",
+      "episode_variation": "Persistent four-junction road map with flow-dependent travel labels and a new connector.",
+      "exceptions": [
+        "Exact rectangular tiles and straight lines preserve mathematical structure.",
+        "Dry narration; no untested music bed."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "A new shortcut opens.",
+        "visual_action": "Persistent four-junction road map with flow-dependent travel labels and a new connector.",
+        "new_understanding": "Braess network with 4000 atomic drivers, variable edge cost n/100, fixed45, zero connector: original equilibrium65, new dominant-route equilibrium80, unilateral alternative85.",
+        "sound_intent": "Dry gentle narration with brief inspection pauses; no music or effects."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A new shortcut opens. Every driver chooses a faster route for themselves. Somehow, everyone ends up slower.\n\nHere is an ideal traffic network with four thousand drivers. The two teal road sections take one minute for every hundred drivers using them. Each coral section always takes forty five minutes.\n\nWithout a shortcut, traffic splits evenly between the two routes. Each driver spends twenty minutes on a teal section, then forty five on a coral one. Sixty five minutes altogether.\n\nNow connect the two middle junctions with a zero minute shortcut. That is an idealization, not a realistic road length.\n\nA teal section never takes more than forty minutes, even with all four thousand drivers. So each driver prefers using both teal sections and skipping the forty five minute sections.\n\nEveryone makes that choice. Both teal sections now carry all four thousand drivers. Forty plus forty is eighty minutes. The shortcut has made the stable outcome fifteen minutes slower.\n\nOne driver cannot fix this by switching back. Their alternative takes forty plus forty five: eighty five minutes.\n\nThe old sixty five minute arrangement is still possible if everyone coordinates to ignore the shortcut. More options did not remove it. They changed the incentives. This is Braess's paradox: a better choice for each person need not create a better outcome together."
+    }
+  ],
+  "sources": [
+    "https://www.cs.cornell.edu/~rafael/networks-html/chapter7.html"
+  ],
+  "required_profile": "ivisualizethings-workshop",
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  }
+}

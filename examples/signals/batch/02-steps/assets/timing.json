@@ -1,0 +1,20 @@
+{
+  "s01": {
+    "Here is a tiny": 8.85,
+    "At any position": 16.675,
+    "Gradient descent subtracts": 20.8,
+    "With a step size of one quarter": 25.8,
+    "Then one half Each update": 29.263,
+    "Each update halves": 30.588,
+    "Now use a step size": 34.3,
+    "Two becomes minus one": 36.925,
+    "then one half The point": 38.6,
+    "The point crosses": 39.987,
+    "With a step size of one, two": 48.0,
+    "Make the step even larger": 55.15,
+    "For this particular loss": 63.85,
+    "We need that multiplier": 70.075,
+    "So a positive step": 73.65,
+    "Real models": 77.537
+  }
+}

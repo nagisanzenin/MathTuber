@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "method": "Exact enumeration and algebraic proof; not audience validation.",
+  "checks": [
+    "Derivative of x\u00b2 is2x; x_next=(1\u22122\u03b7)x. A nonzero initial point converges iff |1\u22122\u03b7|<1, equivalent to0<\u03b7<1.",
+    "Sequences for \u03b7=.25,.75,1,1.1 independently computed; .75 crosses but converges,1 cycles,1.1 diverges."
+  ]
+}

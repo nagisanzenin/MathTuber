@@ -1,0 +1,20 @@
+{
+  "intervals": [
+    {
+      "id": "0",
+      "start_cue": "If a five square",
+      "end_cue": "These two groups",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Inspect object correspondence, changing quantities and endpoint."
+    },
+    {
+      "id": "1",
+      "start_cue": "Add one more square",
+      "end_cue": "These are Fibonacci",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Inspect object correspondence, changing quantities and endpoint."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "intervals": [
+    {
+      "id": "0",
+      "start_cue": "With a step size of one quarter",
+      "end_cue": "Now use a step size",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Inspect object correspondence, changing quantities and endpoint."
+    },
+    {
+      "id": "1",
+      "start_cue": "Now use a step size",
+      "end_cue": "With a step size of one, two",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Inspect object correspondence, changing quantities and endpoint."
+    },
+    {
+      "id": "2",
+      "start_cue": "With a step size of one, two",
+      "end_cue": "Make the step even larger",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Inspect object correspondence, changing quantities and endpoint."
+    },
+    {
+      "id": "3",
+      "start_cue": "Make the step even larger",
+      "end_cue": "For this particular loss",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Inspect object correspondence, changing quantities and endpoint."
+    }
+  ]
+}

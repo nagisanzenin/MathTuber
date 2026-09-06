@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "method": "Exact enumeration and algebraic proof; not audience validation.",
+  "checks": [
+    "9/10>.8 and20/100>.1; totals29/110\u224826.4% and81/110\u224873.6% reverse.",
+    "Equal subgroup weighting yields55% versus45%; invented data, no causal inference."
+  ]
+}

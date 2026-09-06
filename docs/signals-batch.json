@@ -1,0 +1,76 @@
+{
+  "checked_at": "2026-09-06T10:25:03.274540+00:00",
+  "publication_verified": true,
+  "episodes": [
+    {
+      "project": "01-parity",
+      "title": "How a Grid Can Find One Broken Bit",
+      "url": "https://www.youtube.com/watch?v=qKQ1DIeeHsc",
+      "export_sha256": "004cf165415566361dd713e9813df2b54d2eac7b1f8469ea0f4a80f982775a3e",
+      "privacy": "public",
+      "processing": "succeeded",
+      "reflection": {
+        "opening": "The persistent bit grid poses a location question.",
+        "mechanism": "Single flipped bit changes row and column parity; crossing finds it. Four corner changes preserve checks; intact-check assumption stated.",
+        "readability": "Grid enlarged after prototype review; checks and captions occupy separate regions.",
+        "remaining_weaknesses": "The initial definition is still fairly static; viewers must count ones and understand evenness."
+      }
+    },
+    {
+      "project": "02-steps",
+      "title": "Why Learning Can Get Worse When Steps Get Bigger",
+      "url": "https://www.youtube.com/watch?v=b8HkGlFtp7o",
+      "export_sha256": "33dcc5993ddbfa85bf4781cc557b0a012325714c4a6439b824b04d6fc6ee41b6",
+      "privacy": "public",
+      "processing": "succeeded",
+      "reflection": {
+        "opening": "A point above the bowl asks why a downhill update can fail.",
+        "mechanism": "Four explicit step sizes separate monotone convergence, convergent oscillation, a two-cycle and divergence. Exact multiplier gives the bowl-specific threshold.",
+        "readability": "Repaired stale trails and synchronized the spoken one/half/minus-one states; ending resets to convergent motion.",
+        "remaining_weaknesses": "The explanation presumes basic graph/slope familiarity. A one-parameter bowl does not represent the full difficulty of neural-network optimization."
+      }
+    },
+    {
+      "project": "03-mixtures",
+      "title": "Better in Every Group, Worse Overall?",
+      "url": "https://www.youtube.com/watch?v=wenlwsfk9e8",
+      "export_sha256": "21e2041e8f73491a2165ec3398e51758b3d487054d9365c7d3e23ac845b5219b",
+      "privacy": "public",
+      "processing": "succeeded",
+      "reflection": {
+        "opening": "Visible subgroup rates establish the two comparisons before aggregation.",
+        "mechanism": "Success rectangles merge into totals29 and81; differing attempt counts explain reversal. Equal subgroup weighting yields55% versus45%; no causal conclusion claimed.",
+        "readability": "Removed lingering source rectangles after the merge; equal-mixture bars and captions have clear space.",
+        "remaining_weaknesses": "The opening is comparatively dense and several arithmetic passages are static. Invented data isolates the mechanism rather than depicting a real team comparison."
+      }
+    },
+    {
+      "project": "04-tiles",
+      "title": "Where Fibonacci Numbers Come From Without a Spiral",
+      "url": "https://www.youtube.com/watch?v=aqlX9Oe78ec",
+      "export_sha256": "ad1d3663e6a98cdd5e2873a44d31b985c7c40094f7c6c5f48e6f92add52fdf3f",
+      "privacy": "public",
+      "processing": "succeeded",
+      "reflection": {
+        "opening": "A five-cell path and two tile lengths make a concrete counting task.",
+        "mechanism": "Enumerated four-cell and three-cell fillings gain final tiles; disjoint last-tile classes establish the recurrence and eight arrangements. Six-cell example gives13.",
+        "readability": "Headings now identify length4/3 before appending, then endings1/2; final strips explicitly labeled examples from classes.",
+        "remaining_weaknesses": "Grouped fillings are small at phone size. The six-cell ending illustrates the classes instead of displaying all thirteen complete arrangements."
+      }
+    },
+    {
+      "project": "05-roads",
+      "title": "The Shortcut That Makes Everyone Slower",
+      "url": "https://www.youtube.com/watch?v=saLfi-Dd_4w",
+      "export_sha256": "e3b08e652925bdeca75041de7cda23c50835a20474ba2ec1b285f83754934572",
+      "privacy": "public",
+      "processing": "succeeded",
+      "reflection": {
+        "opening": "A four-junction map poses an unexpected shortcut outcome.",
+        "mechanism": "Variable edge costs, fixed45 sections and the zero connector give65\u219280; unilateral alternative85 distinguishes equilibrium from coordinated feasible routing.",
+        "readability": "Defined n, labeled the previous65-minute baseline during the change, retained the unused connector faintly in the coordinated ending.",
+        "remaining_weaknesses": "The map is schematic, with individual moving markers representing routes, not a full4000-agent traffic simulation. The opening and later comparison include static holds."
+      }
+    }
+  ]
+}

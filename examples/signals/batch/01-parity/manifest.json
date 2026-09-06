@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "How a Grid Can Find One Broken Bit",
+    "min_seconds": 50,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.9,
+    "paragraph_pause_seconds": 0.5
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "One tiny bit changes during a message.",
+        "Can the message tell us exactly where?",
+        "Arrange the bits in a grid.",
+        "Add one extra bit to each row, so the number of ones is even.",
+        "Then do the same for each column.",
+        "These extra bits are a small amount of deliberate redundancy.",
+        "Now flip this bit from zero to one.",
+        "Its row has an odd number of ones.",
+        "So does its column.",
+        "Every other row and column still passes the check.",
+        "Follow the failed row and the failed column.",
+        "Their crossing locates the changed bit.",
+        "Flip it back, and both checks become even again.",
+        "We found the error without keeping a second copy of the whole message.",
+        "This demonstration assumes exactly one data bit changed and the check bits arrived intact.",
+        "More errors need more care.",
+        "Watch four bits at the corners of a rectangle change together.",
+        "Every affected row changes twice.",
+        "Every affected column changes twice.",
+        "All the parity checks still pass, even though the message is different.",
+        "Redundancy can reveal a mistake.",
+        "The pattern of redundancy decides which mistakes remain invisible."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; basic arithmetic, no specialist training.",
+    "learning_goal": "Row and column even-parity checks locate one data-bit flip when check bits are intact; four rectangle-corner flips preserve all checks.",
+    "question": "One tiny bit changes during a message.",
+    "payoff": "Row and column even-parity checks locate one data-bit flip when check bits are intact; four rectangle-corner flips preserve all checks.",
+    "transfer_prompt": "The ending changes one condition and visibly resolves it.",
+    "duration_rationale": "Measured narration with short deliberate inspection pauses; no fixed-duration padding.",
+    "novelty_audit": "Closest prior: balance-scale information and Nim XOR. Distinct: spatial error syndrome and an undetectable rectangle, not suspect branching or winning moves. Compared all available repository manifests and narration; unavailable channel transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper, Avenir lettering, teal/coral/gold semantic colors, caption-safe layout and deliberate transformations.",
+      "episode_variation": "One persistent grid; failed row and column cross; four corner flips demonstrate the limit.",
+      "exceptions": [
+        "Exact rectangular tiles and straight lines preserve mathematical structure.",
+        "Dry narration; no untested music bed."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "One tiny bit changes during a message.",
+        "visual_action": "One persistent grid; failed row and column cross; four corner flips demonstrate the limit.",
+        "new_understanding": "Row and column even-parity checks locate one data-bit flip when check bits are intact; four rectangle-corner flips preserve all checks.",
+        "sound_intent": "Dry gentle narration with brief inspection pauses; no music or effects."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "One tiny bit changes during a message. Can the message tell us exactly where?\n\nArrange the bits in a grid. Add one extra bit to each row, so the number of ones is even. Then do the same for each column. These extra bits are a small amount of deliberate redundancy.\n\nNow flip this bit from zero to one. Its row has an odd number of ones. So does its column. Every other row and column still passes the check.\n\nFollow the failed row and the failed column. Their crossing locates the changed bit. Flip it back, and both checks become even again. We found the error without keeping a second copy of the whole message.\n\nThis demonstration assumes exactly one data bit changed and the check bits arrived intact. More errors need more care.\n\nWatch four bits at the corners of a rectangle change together. Every affected row changes twice. Every affected column changes twice. All the parity checks still pass, even though the message is different.\n\nRedundancy can reveal a mistake. The pattern of redundancy decides which mistakes remain invisible."
+    }
+  ],
+  "sources": [
+    "https://www-net.cs.umass.edu/kurose_ross/interactive/2d_parity.php"
+  ],
+  "required_profile": "ivisualizethings-workshop",
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  }
+}

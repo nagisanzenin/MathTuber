@@ -1,0 +1,20 @@
+{
+  "intervals": [
+    {
+      "id": "0",
+      "start_cue": "Now put the groups",
+      "end_cue": "The key is the mixture",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Inspect object correspondence, changing quantities and endpoint."
+    },
+    {
+      "id": "1",
+      "start_cue": "Give both teams",
+      "end_cue": "This is Simpson",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Inspect object correspondence, changing quantities and endpoint."
+    }
+  ]
+}

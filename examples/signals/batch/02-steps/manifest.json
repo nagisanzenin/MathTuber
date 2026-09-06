@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Why Learning Can Get Worse When Steps Get Bigger",
+    "min_seconds": 50,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.9,
+    "paragraph_pause_seconds": 0.5
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A learning algorithm can point downhill and still move further from the answer.",
+        "The direction is only half the story.",
+        "Here is a tiny model with one adjustable number.",
+        "Its loss is that number squared.",
+        "Zero is the best answer.",
+        "At any position, the slope is twice the number.",
+        "Gradient descent subtracts a step size times that slope.",
+        "Start at two.",
+        "With a step size of one quarter, the next number is one.",
+        "Then one half.",
+        "Each update halves the distance to zero.",
+        "Now use a step size of three quarters.",
+        "Two becomes minus one, then one half.",
+        "The point crosses the valley, but the jumps still shrink.",
+        "Crossing the answer is not automatically a failure.",
+        "With a step size of one, two becomes minus two, then two again.",
+        "The algorithm never settles.",
+        "Make the step even larger, and the jumps grow.",
+        "The direction still came from the slope.",
+        "The distance ruined the improvement.",
+        "For this particular loss, each update multiplies the number by one minus twice the step size.",
+        "We need that multiplier between minus one and one.",
+        "So a positive step smaller than one converges here.",
+        "Real models have different curvature; this threshold belongs to this bowl."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; basic arithmetic, no specialist training.",
+    "learning_goal": "For loss x\u00b2, gradient descent gives x_next=(1\u22122\u03b7)x; convergence for nonzero start iff 0<\u03b7<1. Oscillation can converge.",
+    "question": "A learning algorithm can point downhill and still move further from the answer.",
+    "payoff": "For loss x\u00b2, gradient descent gives x_next=(1\u22122\u03b7)x; convergence for nonzero start iff 0<\u03b7<1. Oscillation can converge.",
+    "transfer_prompt": "The ending changes one condition and visibly resolves it.",
+    "duration_rationale": "Measured narration with short deliberate inspection pauses; no fixed-duration padding.",
+    "novelty_audit": "Closest prior: gradient contour direction and squared-loss ensembles. Distinct: discrete update stability and overshoot, not direction geometry or averaging predictions. Compared all available repository manifests and narration; unavailable channel transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Warm paper, Avenir lettering, teal/coral/gold semantic colors, caption-safe layout and deliberate transformations.",
+      "episode_variation": "One bowl and persistent point; shrinking, crossing, repeating and growing updates.",
+      "exceptions": [
+        "Exact rectangular tiles and straight lines preserve mathematical structure.",
+        "Dry narration; no untested music bed."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "A learning algorithm can point downhill and still move further from the answer.",
+        "visual_action": "One bowl and persistent point; shrinking, crossing, repeating and growing updates.",
+        "new_understanding": "For loss x\u00b2, gradient descent gives x_next=(1\u22122\u03b7)x; convergence for nonzero start iff 0<\u03b7<1. Oscillation can converge.",
+        "sound_intent": "Dry gentle narration with brief inspection pauses; no music or effects."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A learning algorithm can point downhill and still move further from the answer. The direction is only half the story.\n\nHere is a tiny model with one adjustable number. Its loss is that number squared. Zero is the best answer. At any position, the slope is twice the number.\n\nGradient descent subtracts a step size times that slope. Start at two. With a step size of one quarter, the next number is one. Then one half. Each update halves the distance to zero.\n\nNow use a step size of three quarters. Two becomes minus one, then one half. The point crosses the valley, but the jumps still shrink. Crossing the answer is not automatically a failure.\n\nWith a step size of one, two becomes minus two, then two again. The algorithm never settles.\n\nMake the step even larger, and the jumps grow. The direction still came from the slope. The distance ruined the improvement.\n\nFor this particular loss, each update multiplies the number by one minus twice the step size. We need that multiplier between minus one and one. So a positive step smaller than one converges here. Real models have different curvature; this threshold belongs to this bowl."
+    }
+  ],
+  "sources": [
+    "https://d2l.ai/chapter_optimization/gd.html"
+  ],
+  "required_profile": "ivisualizethings-workshop",
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  }
+}

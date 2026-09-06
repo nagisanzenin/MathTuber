@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "method": "Exact enumeration and algebraic proof; not audience validation.",
+  "checks": [
+    "Exhaustive tiling enumeration for lengths0..6 yields1,1,2,3,5,8,13.",
+    "Bijective proof: remove final1 or2; disjoint exhaustive groups with unique reconstruction. Ending six-cell strips illustrate classes, not all13 arrangements."
+  ]
+}
