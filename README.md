@@ -103,3 +103,5 @@ Latest release: [five visible-reasoning Shorts and reflection](docs/reasoning-ba
 Latest release: [five physical-context Shorts and reflection](docs/context-batch.md), with [editable sources](examples/context).
 
 Latest release: [five acoustic Shorts and reflection](docs/listening-batch.md), with [editable sources](examples/listening).
+
+Latest release: [five geometric-construction Shorts and reflection](docs/traces-batch.md), with [editable sources](examples/traces).

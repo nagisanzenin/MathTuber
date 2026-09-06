@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-06",
+  "cycle": 13,
+  "videos": [
+    {
+      "project": "01-involute",
+      "title": "The Curve Left by a Quiet Thread #math #Shorts",
+      "url": "https://www.youtube.com/shorts/6wma0DuG1KM",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M2S",
+      "export_sha256": "b34c4b802dfc44d8096757cbe03a23bbf34e2f1c5cc3f714c12731c6202f7c95",
+      "editorial": {
+        "decision": "release",
+        "opening": "A taut thread begins drawing immediately; the object gives the curve a visible cause.",
+        "mechanism": "Tangent and arc length are shown separately; one-to-two released units distinguish thread length from distance to the center.",
+        "readability": "Larger spool and muted earlier trace keep the active arc visible; captions sit below the construction.",
+        "pacing": "Measured pauses at tangency and length comparison; the explicitly narrated rewind permits a new measurement.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Homophone, article, number-formatting and curve-name transcription differences were read against the intended script; no mathematical change identified. No subjective listening.",
+        "remaining_weaknesses": "The final curve is attractive as geometry but the film still has a sparse diagrammatic setting. An isolated still does not communicate the mechanism.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "02-trammel",
+      "title": "Two Straight Tracks and One Gentle Curve #math #Shorts",
+      "url": "https://www.youtube.com/shorts/f4jCzmJCRCo",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M3S",
+      "export_sha256": "9e4ecf92c9f5636a230b9b9d0ab5af150ef280da331978983a34076b772b53a5",
+      "editorial": {
+        "decision": "release",
+        "opening": "Two constrained sliders create a curved trace from straight tracks.",
+        "mechanism": "The pen divides the fixed bar one-to-two, producing unequal horizontal/vertical reach; moving it to the midpoint gives a circle.",
+        "readability": "The earlier ellipse remains subdued behind the circle; one active color carries the new trace.",
+        "pacing": "The drawing pauses to compare the two reaches before completing the contour.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Homophone, article, number-formatting and curve-name transcription differences were read against the intended script; no mathematical change identified. No subjective listening.",
+        "remaining_weaknesses": "Viewers must follow several moving points. The tiny slider bodies and purely technical setting may limit emotional appeal.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "03-pantograph",
+      "title": "The Rods That Quietly Copy a Shape #math #Shorts",
+      "url": "https://www.youtube.com/shorts/wiMezgsmeJg",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M3S",
+      "export_sha256": "ac91551d4e3a7102cab52841f8e96ffd15dae3cc03fc06cf01671f0007934003",
+      "editorial": {
+        "decision": "release",
+        "opening": "Two points leave matching shapes at different scales.",
+        "mechanism": "Similar triangles explain the enlargement; a small triangle visibly scales about the fixed pivot before the linkage resumes.",
+        "readability": "Plain-language side relation replaces small A/D labels and symbolic ratios. Fixed pivot and copying points remain distinct.",
+        "pacing": "Motion alternates with a longer explanatory pause; a reverse tracing role ends with a half-size copy.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Homophone, article, number-formatting and curve-name transcription differences were read against the intended script; no mathematical change identified. No subjective listening.",
+        "remaining_weaknesses": "The linkage is the most cognitively demanding construction here. Parallel directions and similar triangles may still need slower explanation for a novice.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "04-tractrix",
+      "title": "The Curve at the End of a Taut Thread #math #Shorts",
+      "url": "https://www.youtube.com/shorts/iymwPIz6Z0w",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M5S",
+      "export_sha256": "5259baa0a89987e1467c9ffa36dc33df29213c31c83cc1deec7dc4396c156e12",
+      "editorial": {
+        "decision": "release",
+        "opening": "A taut thread pulls a point behind a straight moving end.",
+        "mechanism": "The thread gives the tangent direction and fixed tangent length; a shorter thread leaves a comparison trace closer to the guide.",
+        "readability": "The guide was centered; original and shorter traces remain distinguishable.",
+        "pacing": "The tangent is inspected at rest, then motion resumes; the restart is explicitly narrated.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Homophone, article, number-formatting and curve-name transcription differences were read against the intended script; no mathematical change identified. No subjective listening.",
+        "remaining_weaknesses": "The visible gap becomes very small near the end. Finite pixels cannot demonstrate the no-contact limit; the analytic model supports that qualification.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "05-offset",
+      "title": "The Same Step Can Reach Different Heights #math #Shorts",
+      "url": "https://www.youtube.com/shorts/R39XXP2403Y",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT59S",
+      "export_sha256": "124a4b2b731d705578ad964972ee1a644f83650d95f2d8e8b7b878125037909c",
+      "editorial": {
+        "decision": "release",
+        "opening": "A fixed step rotates with a ray and leaves an unexpected curve.",
+        "mechanism": "Upright versus sixty-degree steps compare full and half projected height; a perpendicular-step comparison reveals a different locus.",
+        "readability": "The larger step makes the height comparison visible; neutral labels during rotation prevent a premature half-height claim.",
+        "pacing": "The important tilt is completed before the half-height statement; two direction rules are compared before returning to the original trace.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Homophone, article, number-formatting and curve-name transcription differences were read against the intended script; no mathematical change identified. No subjective listening.",
+        "remaining_weaknesses": "The unfamiliar name conchoid is optional vocabulary; viewers may retain only the more useful distinction between length and vertical height.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    }
+  ]
+}
