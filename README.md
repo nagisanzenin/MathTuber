@@ -111,4 +111,6 @@ Earlier release: [five geometric-construction Shorts and reflection](docs/traces
 
 Earlier release: [five patterns Shorts and reflection](docs/patterns-batch.md), with [editable sources](examples/patterns).
 
-Latest release: [five mathematical observations Shorts and reflection](docs/observations-batch.md), with [editable sources](examples/observations).
+Earlier release: [five mathematical observations Shorts and reflection](docs/observations-batch.md), with [editable sources](examples/observations).
+
+Latest release: [five mathematical relationships Shorts and reflection](docs/relations-batch.md), with [editable sources](examples/relations).

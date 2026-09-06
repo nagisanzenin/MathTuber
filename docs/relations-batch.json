@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-06",
+  "cycle": 16,
+  "videos": [
+    {
+      "project": "01-remainders",
+      "title": "Two Remainders Remember a Number #math #Shorts",
+      "url": "https://www.youtube.com/shorts/MqS6xrCW4ls",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M39S",
+      "export_sha256": "632297ca5ad8d2d86f2d5e832c168cc6f0d14be1cb5859c6640c54f53a07fd55",
+      "editorial": {
+        "decision": "release",
+        "opening": "Eight counters create an approachable finite puzzle before notation.",
+        "mechanism": "The same count is regrouped and its two remainders mapped to a grid; adding fifteen preserves both.",
+        "readability": "Identified counts, row/column labels and an explicit nonnegative-count family carry meaning beyond color.",
+        "pacing": "Measured narration with paragraph breathing space; inference needs a hold at the residue grid.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Homophone, number-formatting and minor inflection transcription differences were read against the intended script; no mathematical change identified. No subjective listening.",
+        "remaining_weaknesses": "The fifteen-cell correspondence asks for sustained attention and the divisibility argument assumes elementary factors. It is a worked investigation, not evidence that a novice mastered the general theorem.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "02-edges",
+      "title": "A Small Subtraction Finds an Edge #math #Shorts",
+      "url": "https://www.youtube.com/shorts/DQbJJOJo57Y",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M32S",
+      "export_sha256": "535576a64a633a2aef4c384f5743d19626918570b55a4c9a435ccf297671db2f",
+      "editorial": {
+        "decision": "release",
+        "opening": "A high-contrast image offers a recognizable object before signed arithmetic.",
+        "mechanism": "A two-pixel subtraction follows boundaries, then weights, translation and offset examples show what the operation preserves.",
+        "readability": "Pixel values and signed differences make the shading redundant; old arithmetic must disappear before the window moves.",
+        "pacing": "One persistent row reduces scene changes, but the vocabulary at the end is dense.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Homophone, number-formatting and minor inflection transcription differences were read against the intended script; no mathematical change identified. No subjective listening.",
+        "remaining_weaknesses": "The ending is still mostly symbolic. Cross-correlation and learned filters may be too much terminology for a casual first encounter. No measured retention or learning advantage.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "03-levels",
+      "title": "When Multiplication Becomes a Step #math #Shorts",
+      "url": "https://www.youtube.com/shorts/BarW4H3Arss",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M40S",
+      "export_sha256": "e7af3c28e3db83eb1756298de9cdafce409f9de2df04eb4117567dba0fef7f80",
+      "editorial": {
+        "decision": "release",
+        "opening": "Four powers on a linear chart make the range problem visible.",
+        "mechanism": "The same ratios map to exponents and decibels; a cascade connects multiplication to addition, then positive power maps below the reference.",
+        "readability": "A stated reference and units distinguish power, ratios and relative levels.",
+        "pacing": "The film uses distinct sections but several settled formula views are long.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Homophone, number-formatting and minor inflection transcription differences were read against the intended script; no mathematical change identified. No subjective listening.",
+        "remaining_weaknesses": "This is the most slide-like film of the batch. The cascade is mathematical, with little lived context; elegance and usefulness are not yet demonstrated audience responses.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "04-balance",
+      "title": "Moving States, Steady Probabilities #math #Shorts",
+      "url": "https://www.youtube.com/shorts/4hEqliopNFE",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M41S",
+      "export_sha256": "5861662404f1c6ae34f2ff65c7270cefc00cee8ec95cc8860d5581f9b85a7bc3",
+      "editorial": {
+        "decision": "release",
+        "opening": "A moving dot and stationary proportions introduce a productive distinction.",
+        "mechanism": "Equal sixths exchange between states; a different start and exact contraction explain convergence for this particular chain.",
+        "readability": "One path and probability mass are explicitly separated; state labels and a target reference prevent color-only interpretation.",
+        "pacing": "The argument moves from fractions to a short symbolic derivation and returns to the process.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Homophone, number-formatting and minor inflection transcription differences were read against the intended script; no mathematical change identified. No subjective listening.",
+        "remaining_weaknesses": "The contraction formula still requires algebra. A moving sample path is illustrative, not statistical evidence, and no claim about every Markov chain converging is made.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "05-capacity",
+      "title": "The Limit Between the Endpoints #math #Shorts",
+      "url": "https://www.youtube.com/shorts/XgVRDOltDY8",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M27S",
+      "export_sha256": "453ae177d8edb8607c07f9c9fe026a7a0b21c38e66f76ed5402b1d8ba5ec3ef5",
+      "editorial": {
+        "decision": "release",
+        "opening": "Seven units at both ends but a six-unit limit poses a concrete contradiction to resolve.",
+        "mechanism": "One directed network supports both a cut bound and an attaining routing, then a targeted change raises the optimum.",
+        "readability": "Capacity notation changes explicitly to flow/capacity; route packets must leave the destination label clear.",
+        "pacing": "The graph remains stable as evidence accumulates, but checking all five edge labels takes attention.",
+        "sound": "Dry local narration. All full ASR transcripts reviewed. Homophone, number-formatting and minor inflection transcription differences were read against the intended script; no mathematical change identified. No subjective listening.",
+        "remaining_weaknesses": "The abstract network omits a tangible delivery or communication setting. Packet motion illustrates route assignment rather than physical time, and audience understanding is unmeasured.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    }
+  ]
+}
