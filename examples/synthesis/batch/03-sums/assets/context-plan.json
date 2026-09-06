@@ -1,0 +1,8 @@
+{
+  "physical_subject": "Why are equal dice not equal totals?",
+  "relationship": "Independent uniform dice have triangular sum counts; copied identical results retain uniform marginals but only even sums.",
+  "operation": "A36cell joint grid collects diagonal sum events and then collapses to copied-result diagonal dependence.",
+  "closest_prior": "Earlier nontransitive dice and image convolution",
+  "substantive_difference": "Probability convolution for sums and explicit same-marginal dependence counterexample, not dice tournaments or edge filtering.",
+  "sequence_is_editorial_hypothesis": true
+}

@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Stretch first",
+      "end_cue": "Reset to",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "First composition."
+    },
+    {
+      "id": "2",
+      "start_cue": "Reset to",
+      "end_cue": "Matrices record",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Reverse order from identical input."
+    },
+    {
+      "id": "3",
+      "start_cue": "Now stretch both",
+      "end_cue": "Some transformations",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Commuting uniform-scale contrast."
+    }
+  ]
+}

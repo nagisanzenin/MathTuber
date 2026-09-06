@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "checks": [
+    "R(x,y)=(\u2212y,x),S(x,y)=(2x,y); RS=(0,\u22121;2,0),SR=(0,\u22122;1,0). Their displayed outputs differ.",
+    "R(2v)=2R(v) by linearity for every vector;121 grid checks supplement this general identity. Column-vector convention rightmost first."
+  ],
+  "method": "Independent exact arithmetic and algebraic derivation; finite checks supplement general arguments."
+}

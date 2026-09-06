@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "checks": [
+    "1331 integer cases agree with exact expansion: ((a\u2212y)^2+(b\u2212y)^2)/2\u2212((a+b)/2\u2212y)^2=(a\u2212b)^2/4. Expansion cancels y for all real a,b,y.",
+    "a=1,b=3,y=2: individual average loss1, ensemble0. y=1: best0, ensemble1, average2. Convexity applies pointwise, no model independence required."
+  ],
+  "method": "Independent exact arithmetic and algebraic derivation; finite checks supplement general arguments."
+}

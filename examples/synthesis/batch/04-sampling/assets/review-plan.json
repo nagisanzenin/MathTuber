@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Choose exactly",
+      "end_cue": "Instead divide",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Unequal inclusion changes naive expectation."
+    },
+    {
+      "id": "2",
+      "start_cue": "Instead divide",
+      "end_cue": "Now make",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Reciprocal weighting cancels selection probabilities."
+    },
+    {
+      "id": "3",
+      "start_cue": "Now make",
+      "end_cue": "Known positive",
+      "end_offset": 4,
+      "samples": 9,
+      "purpose": "Zero inclusion violates identifiability."
+    }
+  ]
+}

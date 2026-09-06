@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": [
+    "All36 independent equiprobable ordered pairs counted. Six sum7,one sum2;counts1,2,3,4,5,6,5,4,3,2,1.",
+    "Partitioning event X+Y=s into disjoint pairs gives sum of joint probabilities; independence factors each joint probability.",
+    "Copied uniform die yields6 equiprobable matching pairs,even sums2..12,never7; marginals remainuniform."
+  ],
+  "method": "Independent exact arithmetic and algebraic derivation; finite checks supplement general arguments."
+}

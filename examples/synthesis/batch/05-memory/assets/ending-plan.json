@@ -1,0 +1,7 @@
+{
+  "original_case": "Does a long unsuccessful wait change the remaining chance?",
+  "changed_condition": "Now draw from a bag with one success token and three failures, without replacement.",
+  "viewer_inference": "Removing failures changes the state. A model has no memory only when its assumptions make the past irrelevant to what remains.",
+  "resolution": "Independent fixed-p Bernoulli trials have P(T>m+n|T>m)=(1\u2212p)^n. Without replacement changes the next-success probability.",
+  "prerequisite": "Operations introduced explicitly in this film"
+}

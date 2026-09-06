@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "When Waiting Longer Does Not Bring Success Closer",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Five failures have passed. Is success now closer?",
+        "Suppose every attempt succeeds with chance one quarter, independently of the others.",
+        "One more failure has chance three quarters.",
+        "Two more failures have chance nine sixteenths. This does not change after five failures.",
+        "Let T be the attempt of the first success.",
+        "The chance T exceeds n is three quarters to the power n.",
+        "Given five failures, the chance of two more is the chance of seven divided by the chance of five.",
+        "The first five factors cancel, leaving three quarters squared. This is the memoryless property.",
+        "It describes this fixed probability model, not every kind of waiting.",
+        "Now draw from a bag with one success token and three failures, without replacement.",
+        "After two failures, two tokens remain. The next chance of success is one half, not one quarter.",
+        "Removing failures changes the state. A model has no memory only when its assumptions make the past irrelevant to what remains."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Independent fixed-p Bernoulli trials have P(T>m+n|T>m)=(1−p)^n. Without replacement changes the next-success probability.",
+    "question": "Does a long unsuccessful wait change the remaining chance?",
+    "payoff": "Independent fixed-p Bernoulli trials have P(T>m+n|T>m)=(1−p)^n. Without replacement changes the next-success probability.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Earlier coin pattern waiting and bus inspection paradox. Difference: Memorylessness of first-success fixed-probability trials contrasted with sampling without replacement; not pattern-overlap waiting or length-biased observation.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Recognizable physical subject and useful setting; explicit connection to exact diagram; return to a changed physical condition. Restrained original vector artwork.",
+      "episode_variation": "Failure factors cancel in a conditional probability; removing tokens supplies a contrasting stateful process.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Does a long unsuccessful wait change the remaining chance?",
+        "visual_action": "Failure factors cancel in a conditional probability; removing tokens supplies a contrasting stateful process.",
+        "new_understanding": "Independent fixed-p Bernoulli trials have P(T>m+n|T>m)=(1−p)^n. Without replacement changes the next-success probability.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Five failures have passed. Is success now closer? Suppose every attempt succeeds with chance one quarter, independently of the others.\n\nOne more failure has chance three quarters. Two more failures have chance nine sixteenths. This does not change after five failures.\n\nLet T be the attempt of the first success. The chance T exceeds n is three quarters to the power n. Given five failures, the chance of two more is the chance of seven divided by the chance of five. The first five factors cancel, leaving three quarters squared. This is the memoryless property.\n\nIt describes this fixed probability model, not every kind of waiting.\n\nNow draw from a bag with one success token and three failures, without replacement. After two failures, two tokens remain. The next chance of success is one half, not one quarter. Removing failures changes the state. A model has no memory only when its assumptions make the past irrelevant to what remains."
+    }
+  ],
+  "sources": [
+    "https://www.statlect.com/probability-distributions/geometric-distribution"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Why a Rarely Seen Item Can Carry More Weight",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A sample can favor some items and still estimate a total fairly.",
+        "Imagine three items with values two, four, and six. Their true total is twelve.",
+        "Choose exactly one. The first has chance one half, and the others one quarter each.",
+        "The observed value alone averages only three point five.",
+        "Instead divide the observed value by its chance of inclusion.",
+        "The possible estimates become four, sixteen, and twenty four.",
+        "Weight these by one half, one quarter, and one quarter. The average is twelve.",
+        "Each item contributes its value divided by its chance, but only when it appears.",
+        "In expectation, that chance cancels. Add across items and the true total returns. This is the Horvitz Thompson idea.",
+        "Now make the last item impossible to sample.",
+        "No finite weight can recover a value that is never observed without extra assumptions.",
+        "Known positive inclusion probabilities are essential. And unbiased means right on average, not right in every sample. Our three estimates already showed the variation."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "E[sum I_i y_i/pi_i]=sum y_i for known positive inclusion probabilities. Unbiasedness is not low variance or samplewise exactness.",
+    "question": "Can unequal selection still recover a total on average?",
+    "payoff": "E[sum I_i y_i/pi_i]=sum y_i for known positive inclusion probabilities. Unbiasedness is not low variance or samplewise exactness.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Earlier uniform reservoir sampling and randomized response. Difference: Correct unequal inclusion weights for a finite total; not uniform sample selection or privacy randomization.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Recognizable physical subject and useful setting; explicit connection to exact diagram; return to a changed physical condition. Restrained original vector artwork.",
+      "episode_variation": "Three value cards acquire inclusion probabilities and reciprocal weights; a zero-probability item reveals missing information.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Can unequal selection still recover a total on average?",
+        "visual_action": "Three value cards acquire inclusion probabilities and reciprocal weights; a zero-probability item reveals missing information.",
+        "new_understanding": "E[sum I_i y_i/pi_i]=sum y_i for known positive inclusion probabilities. Unbiasedness is not low variance or samplewise exactness.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A sample can favor some items and still estimate a total fairly. Imagine three items with values two, four, and six. Their true total is twelve.\n\nChoose exactly one. The first has chance one half, and the others one quarter each. The observed value alone averages only three point five.\n\nInstead divide the observed value by its chance of inclusion. The possible estimates become four, sixteen, and twenty four. Weight these by one half, one quarter, and one quarter. The average is twelve.\n\nEach item contributes its value divided by its chance, but only when it appears. In expectation, that chance cancels. Add across items and the true total returns. This is the Horvitz Thompson idea.\n\nNow make the last item impossible to sample. No finite weight can recover a value that is never observed without extra assumptions. Known positive inclusion probabilities are essential. And unbiased means right on average, not right in every sample. Our three estimates already showed the variation."
+    }
+  ],
+  "sources": [
+    "https://homepages.ecs.vuw.ac.nz/~rarnold/STAT392/SampleSurveysBook/_book/simple-random-sampling.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "physical_subject": "Does reversing a pair of transformations preserve their result?",
+  "relationship": "R(x,y)=(\u2212y,x), S(x,y)=(2x,y): RS(1,1)=(\u22121,2), SR(1,1)=(\u22122,1). Uniform scale2I commutes withR.",
+  "operation": "A single point follows two explicit operation orders; uniform scaling supplies a commuting changed case.",
+  "closest_prior": "Earlier space-warper matrices and shear-area explanations",
+  "substantive_difference": "Order of composition and an explicit commuting exception rather than matrix introduction or area preservation.",
+  "sequence_is_editorial_hypothesis": true
+}

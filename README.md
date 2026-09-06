@@ -57,7 +57,7 @@ python3 -m unittest discover -s tests -p 'test_*.py' -v
 python3 tests/integration_media.py --project /tmp/mathtuber-fixture --execution native
 python3 tests/integration_handoff.py --output /tmp/mathtuber-handoff.json
 python3 tests/integration_media.py --project /tmp/mathtuber-docker --execution docker
-python3 tests/integration_pi.py
+python3 tests/integration_pi.py --output /tmp/mathtuber-pi.json
 ```
 
 The media fixture uses a tone to test mechanics, not voice quality. Pi integration uses the real installed Pi loader and tools against a local model-protocol fixture, not a real model account. See the verification document before interpreting these as end-to-end platform claims.

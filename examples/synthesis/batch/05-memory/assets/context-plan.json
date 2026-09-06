@@ -1,0 +1,8 @@
+{
+  "physical_subject": "Does a long unsuccessful wait change the remaining chance?",
+  "relationship": "Independent fixed-p Bernoulli trials have P(T>m+n|T>m)=(1\u2212p)^n. Without replacement changes the next-success probability.",
+  "operation": "Failure factors cancel in a conditional probability; removing tokens supplies a contrasting stateful process.",
+  "closest_prior": "Earlier coin pattern waiting and bus inspection paradox",
+  "substantive_difference": "Memorylessness of first-success fixed-probability trials contrasted with sampling without replacement; not pattern-overlap waiting or length-biased observation.",
+  "sequence_is_editorial_hypothesis": true
+}

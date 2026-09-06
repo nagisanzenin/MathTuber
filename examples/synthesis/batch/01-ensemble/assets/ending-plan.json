@@ -1,0 +1,7 @@
+{
+  "original_case": "When does combining two predictions help?",
+  "changed_condition": "Now let the correct answer be one instead.",
+  "viewer_inference": "It still beats the average loss of two, but it does not beat the best model. An exact guarantee can be useful without promising everything.",
+  "resolution": "For two scalar predictions and any fixed target, average squared loss minus squared loss of the average equals (a\u2212b)\u00b2/4. It need not beat the better model.",
+  "prerequisite": "Operations introduced explicitly in this film"
+}

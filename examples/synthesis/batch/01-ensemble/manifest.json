@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Why Averaging Predictions Can Reduce Squared Error",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Two models predict one and three. The correct answer is two.",
+        "Their squared errors are both one. But their average prediction is exactly right.",
+        "Draw squared error as a curve over the prediction.",
+        "Join the two predictions on that curve. The middle of the joining line gives their average loss.",
+        "The curve below gives the loss of their average prediction. It cannot be higher.",
+        "For any two predictions, the gap is one quarter of their squared difference.",
+        "The correct answer cancels out of this gap. This comparison holds for any target.",
+        "This is a two point example of convexity, and Jensen's inequality.",
+        "It explains one benefit of averaging model outputs under squared error.",
+        "It compares with the average loss, not necessarily with the better model.",
+        "Now let the correct answer be one instead.",
+        "The first model is perfect. The average prediction has squared error one.",
+        "It still beats the average loss of two, but it does not beat the best model. An exact guarantee can be useful without promising everything."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "For two scalar predictions and any fixed target, average squared loss minus squared loss of the average equals (a−b)²/4. It need not beat the better model.",
+    "question": "When does combining two predictions help?",
+    "payoff": "For two scalar predictions and any fixed target, average squared loss minus squared loss of the average equals (a−b)²/4. It need not beat the better model.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Earlier loss, bias-variance and crowds films. Difference: Pointwise convexity guarantee for two scalar predictions; explicitly distinguishes average loss from the best model.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Recognizable physical subject and useful setting; explicit connection to exact diagram; return to a changed physical condition. Restrained original vector artwork.",
+      "episode_variation": "A chord and convex squared-error curve separate average loss from loss of average; the target moves to expose the limitation.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "When does combining two predictions help?",
+        "visual_action": "A chord and convex squared-error curve separate average loss from loss of average; the target moves to expose the limitation.",
+        "new_understanding": "For two scalar predictions and any fixed target, average squared loss minus squared loss of the average equals (a−b)²/4. It need not beat the better model.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Two models predict one and three. The correct answer is two. Their squared errors are both one. But their average prediction is exactly right.\n\nDraw squared error as a curve over the prediction. Join the two predictions on that curve. The middle of the joining line gives their average loss. The curve below gives the loss of their average prediction. It cannot be higher.\n\nFor any two predictions, the gap is one quarter of their squared difference. The correct answer cancels out of this gap. This comparison holds for any target. This is a two point example of convexity, and Jensen's inequality.\n\nIt explains one benefit of averaging model outputs under squared error. It compares with the average loss, not necessarily with the better model.\n\nNow let the correct answer be one instead. The first model is perfect. The average prediction has squared error one. It still beats the average loss of two, but it does not beat the best model. An exact guarantee can be useful without promising everything."
+    }
+  ],
+  "sources": [
+    "https://www.probabilitycourse.com/chapter6/6_2_5_jensen%27s_inequality.php"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

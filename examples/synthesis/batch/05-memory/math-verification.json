@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": [
+    "T=first successful attempt, support1,2,...; P(T>n)=(1\u2212p)^n from n independent failures. Tail ratio cancels for any nonnegative m,n and0<p<1.",
+    "100 exact p=1/4 tail-ratio checks;two further failures9/16 even afterfive failures.",
+    "One success andthree failure tokens without replacement:aftertwo failuresone success amongtwo remains,next chance1/2."
+  ],
+  "method": "Independent exact arithmetic and algebraic derivation; finite checks supplement general arguments."
+}

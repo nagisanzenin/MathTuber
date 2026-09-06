@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "One more",
+      "end_cue": "Let T",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Same future independent trials."
+    },
+    {
+      "id": "2",
+      "start_cue": "The chance T",
+      "end_cue": "It describes",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Conditional tail factors cancel."
+    },
+    {
+      "id": "3",
+      "start_cue": "Now draw",
+      "end_cue": "Removing failures",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Without replacement changes state."
+    }
+  ]
+}

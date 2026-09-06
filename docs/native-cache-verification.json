@@ -3,33 +3,17 @@
   "checks": [
     {
       "host": "Codex",
-      "version": "0.1.0+codex.20260906062634",
-      "installed_cache_matches_source": [
-        "scripts/compile_cues.py",
-        "scripts/audio_review.py",
-        "scripts/visual_review.py",
-        "scripts/publication_status.py",
-        "mathtuber/youtube_retry.py",
-        "skills/mathtuber/SKILL.md",
-        "skills/mathtuber/references/production.md"
-      ],
+      "version": "0.1.0+codex.20260906082039",
+      "source_files_matching": 71,
       "doctor_from_unrelated_cwd_exit": 0,
-      "scope": "Actual native local-marketplace reinstall and cached file/command checks. Existing shared runtime reused. No new host-model invocation."
+      "scope": "All non-bytecode plugin source files match installed native cache. Existing shared runtime; no model call."
     },
     {
       "host": "Claude Code",
-      "version": "0.1.0+codex.20260906062634",
-      "installed_cache_matches_source": [
-        "scripts/compile_cues.py",
-        "scripts/audio_review.py",
-        "scripts/visual_review.py",
-        "scripts/publication_status.py",
-        "mathtuber/youtube_retry.py",
-        "skills/mathtuber/SKILL.md",
-        "skills/mathtuber/references/production.md"
-      ],
+      "version": "0.1.0+codex.20260906082039",
+      "source_files_matching": 71,
       "doctor_from_unrelated_cwd_exit": 0,
-      "scope": "Native marketplace refresh and versioned plugin update; cached tools match current source. Existing runtime reused. No model or OAuth invocation."
+      "scope": "All non-bytecode plugin source files match installed native cache. Existing shared runtime; no model call."
     }
   ],
   "zcode": "Current native plugins list reports mathtuber@inline enabled with one skill. Inline source is this repository. No model call.",

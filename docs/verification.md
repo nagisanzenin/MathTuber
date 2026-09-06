@@ -1,6 +1,6 @@
-# Implementation and verification — 2026-09-05
+# Current implementation and verification
 
-This is the implementation record. `architecture.md` includes a broader target roadmap; not every researched adapter or feature is implemented.
+Checked 2026-09-06. MathTuber provides one complete local plugin, host adapters and evidence-scoped production/publication tools. The host model supplies reasoning and creative work. Platform installation is not proof of autonomous filmmaking quality.
 
 ## Platform compatibility
 
@@ -15,71 +15,34 @@ This is the implementation record. `architecture.md` includes a broader target r
 
 The user explicitly accepted documentation/omniplugin conformance instead of renewed Claude/Pi logins. No claim that all six hosts have completed a real-model video production. Skills do not give a text-only host audio/video perception: media review uses capabilities of the selected host.
 
-## Executed checks
+## Final verification
 
-- 30 unit tests: state, path escapes, lock contention, cache invalidation, missing scenes, review evidence/acceptance gates and mocked YouTube publication/retry/visibility behavior.
-- Native Manim → FFmpeg fixture: render, cached rerender, complete assembly, decoding verification and evidence extraction all passed.
-- Docker Manim → FFmpeg fixture: the same checks passed with network disabled, read-only root/inputs and bounded resources.
-- Pi loader/protocol integration: all five checks passed using installed Pi, actual bash execution and a local simulated model endpoint. See `pi-verification.json`.
-- Codex plugin validator and skill validator passed.
-- A real six-scene English Kokoro/Manim proof exported successfully at 1080×1920, 30 fps, **131.488 seconds**. All scenes and speech tracks are present; full decode and duration checks passed.
+- 128 unit tests passed on the current implementation: state, caching, review gates, scene helpers, speech/caption timing, media sampling and publication/retry behavior.
+- Codex and Claude native caches were refreshed. All 71 non-bytecode plugin source files matched each installed cache; each cached engine ran doctor from an unrelated working directory. [Cache evidence](native-cache-verification.json).
+- Real Pi loader, skill expansion and bash transport passed all five checks against a local simulated model endpoint. [Pi evidence](pi-verification.json).
+- Plugin and skill validators passed. Generic installation and native media can be reproduced with `tests/integration_handoff.py`; its committed archive revision and scope are recorded in [handoff evidence](handoff-verification.json).
+- Live YouTube uploads, successful processing and public visibility are independently verified in the batch release reports. The initial OAuth failure is resolved and belongs only to the historical record.
 
-On Apple M2 / 16 GiB, the six-section speech batch took **94.31s** and final scene rendering took **90.11s** summed across scene workers. This excludes setup/downloads, authoring, previews, assembly and review. These are first-run measurements of this project, not a comparative performance claim. Dependencies and model weights are shared across plugin hosts. Cache fixtures demonstrate skipped identical rendering; unit tests demonstrate local scene edits preserve unrelated render fingerprints and preserve speech.
+Existing macOS dependencies were reused. These checks do not establish clean operating-system bootstrap, current Docker behavior on every machine, authenticated generation on every host, or competence of a weaker model. The earlier Docker fixture and bounded real Codex model smoke remain historical evidence, not fresh cross-platform full-film evaluations.
 
-The root agent inspected 18 actual sampled frames via a contact sheet. The square-growth construction and algebra are consistent and readable in the samples. This is sampled visual review, not full motion or acoustic review. Final acceptance was deliberately not fabricated; publication remains gated. No claim of vastly superior quality has yet been validated against the old channel with matched prompts and human ratings.
+## Available production capabilities
 
-## YouTube readiness
+Shared local Kokoro speech, imported WAV narration, Manim rendering, native and Docker execution paths, content-addressed artifacts, per-project serialization, measured speech cues, optional burned captions/loudness normalization, original synthesized sound layers, pinned channel profiles, background jobs, full-file mechanical verification, local optional ASR, sampled visual evidence, explicit current review gates, resumable YouTube upload, quota waiting and independent publication readback are implemented.
 
-Legacy credentials were migrated using a restricted pickle allowlist into a protected JSON file outside Git. A read-only channel-readiness check failed with Google `RefreshError`: that existing OAuth connection requires reconnection before a live upload. No upload was attempted. Mocked publisher tests cover channel mismatch, uncertain initialization, receipt reuse, metadata updates and public-to-private changes. Live resumable upload and Google processing remain unverified.
+The plugin includes navigation, searchable repair notes, tested scene primitives and runnable recipes. [Knowledge handoff evaluation](HANDOFF-EVALUATION.md) defines a controlled evaluation for another model; that evaluation has not been completed. No transcript or successful render automatically approves a film.
 
-## Implemented versus planned
+TikTok publishing, Gemini TTS, general model-specific MLX compatibility, automatic perceptual layout checking, analytics-driven optimization and a calibrated audience-quality benchmark remain unimplemented or experimental. Media perception comes from the host; a text-only host does not gain vision or hearing by installing the plugin.
 
-Implemented: portable skill and manifests; shared local runtime; content-addressed artifacts; per-scene renders; batched Kokoro; measured narration timing; predicted word-timestamp SRT; native/Docker rendering; background jobs; atomic state; complete timeline assembly; mechanical checks; evidence bundle/review gate; resumable YouTube worker; legacy credential migration; editable example.
+## Reproduce
 
-Planned/experimental: generic MLX model-specific support, Gemini TTS fallback, local ASR/forced alignment, automated layout geometry diagnostics, advanced shot transitions, learned channel style profiles, parallel rendering across one project, scheduling/analytics and a calibrated quality benchmark. The engine currently serializes project writes to avoid races. SRT is provided as a separate artifact; `captions.burn_in=true` additionally creates ASS captions, burns them into the MP4 and normalizes loudness. This opt-in path was exercised on the 143-second necklace project.
+Run from the repository root using the configured media Python for native media checks:
 
-## Primary references
+```sh
+python3 -m unittest discover -s tests -p 'test_*.py'
+python3 tests/integration_handoff.py --output /tmp/mathtuber-handoff.json
+python3 tests/integration_pi.py --output /tmp/mathtuber-pi.json
+```
 
-- [Omniplugin](https://github.com/nagisanzenin/omniplugin), inspected commit `3b72803214fd3fc3becbc68ea2d31b9d9d4999bf`.
-- [SmartUber](https://github.com/nagisanzenin/smartuber), inspected commit `7bc16868319b8422efdc24e207975777d8896bd0`.
-- [Codex plugin format](https://developers.openai.com/plugins/build/plugins).
-- [Claude Code plugins](https://code.claude.com/docs/en/plugins).
-- [Pi packages](https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/packages.md); runtime checks additionally used the actual installed `@earendil-works/pi-coding-agent` docs.
-- [OpenCode skills](https://opencode.ai/docs/skills/).
-- [Gemini CLI extensions](https://geminicli.com/docs/extensions/writing-extensions/).
-- ZCode's installed `zcode-guide-plugin/skills/diagnosing-plugins/SKILL.md` and actual `plugins list`/`skills list` commands establish the supported inline directory format.
-- [Kokoro model](https://huggingface.co/hexgrad/Kokoro-82M), [Manim documentation](https://docs.manim.community/en/stable/).
+The handoff fixture extracts committed files only, installs the generic skill twice, resolves the full plugin, runs from another directory with spaces, renders and assembles a four-second tone fixture, checks caching and decoding, and confirms that an unreviewed film remains unaccepted. A tone fixture tests mechanics, not speech or editorial quality. Optional ASR explicitly disabled during that fixture is reported as unavailable.
 
-## Follow-up production validation
-
-The OAuth connection was renewed and real resumable uploads subsequently completed with public visibility confirmed by the YouTube API. The follow-up production used independent local faster-whisper transcription plus source/final audio signal measurements, sampled rendered frame inspection, measured speech cues, exact math enumeration/derivations and full-file decoding. This is an automated technical/content review, not a claim of subjective human listening or continuous human viewing. Account identifiers, upload credentials and channel inventories are kept outside this repository.
-
-## Evidence-informed discovery batch
-
-The subsequent [five-video batch](discovery-batch.md) completed public YouTube processing, 37 unit tests and scoped production review. The linked report records actual checks and their limits. The earlier historical checkpoints above remain as the development record.
-
-## Portable review and quota recovery — 2026-09-06
-
-The shared publisher now records a definite daily quota rejection as `quota_wait`, preserves any resumable session, and stops batch publication with exit code 2. It returns the pending wait without API calls until the Pacific reset plus ten minutes. Unknown initialization outcomes still stop for reconciliation. The quota change passed 109 unit tests and CI; the daily rejection itself was encountered in live production, while after-reset recovery is covered by simulated transport and awaits a live reset. Published receipts remain authoritative; a partial batch is not a completed release.
-
-Independent audio inspection is now a bundled command, rather than a private batch helper. `scripts/audio_review.py` uses current artifact fingerprints, local optional faster-whisper, complete source text comparisons and source/final signal measurements. It never writes a review verdict. A real 98.1-second production export was checked through the portable command: the entire source transcript was read, reported differences were number formatting, and both source and final measured clipping fractions were zero. This remains technical/transcription evidence, not subjective listening. The report binds the exact source and final hashes; the accepted export was unchanged.
-
-The current suite has 116 unit tests. Three additional real-worker audio-inspection tests cover stale input rejection, opposing stereo peaks and changed mathematical wording without requiring an ASR download. ASR inference was exercised on the existing macOS runtime and cached model weights; this does not establish fresh installation or real-model filmmaking on every host.
-
-`scripts/visual_review.py` now bundles final distributed frames, opening samples, all compiled cues, every declared critical interval and the final video frame. It handles scene-local cue offsets in multi-scene timelines, rejects incomplete interval mappings, preserves aspect ratio and paginates sheets. A real FFmpeg fixture checks landscape geometry, page splitting, hashes and final-frame extraction. The real 98.1-second film produced 77 sampled frames in 14 pages; four selected pages were actually inspected for opening, cue, interval and final-frame output. This tool validation is separate from the film's earlier final acceptance and is not a claim that all newly extracted samples were viewed.
-
-The subsequent publication-status addition brings the unit suite to 120 tests. `scripts/publication_status.py` independently reads visibility, processing and duration for the exact current-export receipt. A live five-entry readback correctly reported one public/processed video, one quota wait and three unattempted videos, without inserting or updating a video. Transport tests enforce the read-only path; report tests require both correct visibility and successful processing. Clean-install/handoff checks and the final readiness report remain pending after the authorized production cycles.
-
-## Committed archive handoff smoke
-
-[Machine-readable check results](handoff-verification.json).
-
-A tracked-file archive of commit `0cf0d4f55f748bc7d19f28937d71a52adc1b517e` was extracted into a separate directory with spaces. The generic skill installer ran twice without duplicating or overwriting the skill; resolving that symlink found the complete plugin. From another working directory, engine doctor, portable command entry points and the real native four-second media fixture passed: imported tone, render, cached rerender, assembly, full decode and frame extraction. The resulting film remained unaccepted. Audio inspection correctly reported ASR unavailable when explicitly disabled. This reused the existing macOS runtime; it was not a clean OS installation, host-model test or speech-quality evaluation. The reproducible check is now `tests/integration_handoff.py` and intentionally tests committed files only.
-
-The handoff review exposed overly broad doctor readiness: render-package detection alone could hide missing narration dependencies. Doctor now lists capability-specific dependency gaps and explicitly excludes authentication, model downloads and runtime import success from its claim. Regression tests cover render-only installations, optional ASR and Pacific timezone availability. The suite now has 123 unit tests; the real current runtime reports all listed dependencies present. Final native-host installation/update checks and the cycle-twenty readiness report remain outstanding.
-
-## Current native cache update check
-
-The versioned Codex and Claude caches were refreshed on 2026-09-06. Seven representative engine/skill files match current source byte-for-byte, and each installed engine executed doctor successfully from an unrelated directory. Claude initially reported the old version as current; advancing its manifest version and refreshing its local marketplace resolved that stale installation. See [native cache evidence](native-cache-verification.json). Existing media dependencies were reused; no model or OAuth call was made. Start a fresh host session to load updated skills. ZCode's native loader still reports the inline plugin enabled with one skill; Pi's installed package resolves to the local repository.
-
-Cue preflight now checks missing/repeated literal phrases against narration before synthesis without reading audio or replacing measured timings. Two regression tests cover complete diagnostics and preservation of real timing artifacts. The unit suite has 125 tests; CI passed for commit `ca5b70d`. This script check is not pronunciation or synchronization review.
+[Historical checkpoints and primary references](verification-history.md) preserve earlier observations without treating them as current status. [Architecture](architecture.md) includes a broader roadmap; it is not an implementation checklist marked complete.

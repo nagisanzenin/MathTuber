@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "To total seven",
+      "end_cue": "Collect the pairs",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Count disjoint pairs."
+    },
+    {
+      "id": "2",
+      "start_cue": "Collect the pairs",
+      "end_cue": "Now use",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Counts form convolution."
+    },
+    {
+      "id": "3",
+      "start_cue": "Now use",
+      "end_cue": "The totals are",
+      "end_offset": 5,
+      "samples": 9,
+      "purpose": "Dependence invalidates product probabilities."
+    }
+  ]
+}

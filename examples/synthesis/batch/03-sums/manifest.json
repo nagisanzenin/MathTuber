@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Why Seven Has Six Ways to Arrive",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Two fair dice do not make equally likely totals.",
+        "Every ordered pair is equally likely. There are thirty six pairs.",
+        "To total seven, the first die can be one and the second six.",
+        "Or two and five. Continue along this diagonal. Six different pairs work.",
+        "To total two, only one and one work. So seven is six times as likely as two.",
+        "Collect the pairs for every total. Their counts rise to six and fall again.",
+        "For independent dice, multiply the probabilities inside each pair, then add across pairs with the same sum.",
+        "This operation is convolution. It combines distributions when independent quantities are added.",
+        "Now use the same die twice: copy its result instead of rolling independently.",
+        "Each individual result is still uniform, but only matching pairs can occur.",
+        "The totals are two, four, six, eight, ten and twelve, each with probability one sixth. Seven is impossible. Same individual distributions, different dependence, different sum."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Independent uniform dice have triangular sum counts; copied identical results retain uniform marginals but only even sums.",
+    "question": "Why are equal dice not equal totals?",
+    "payoff": "Independent uniform dice have triangular sum counts; copied identical results retain uniform marginals but only even sums.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Earlier nontransitive dice and image convolution. Difference: Probability convolution for sums and explicit same-marginal dependence counterexample, not dice tournaments or edge filtering.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Recognizable physical subject and useful setting; explicit connection to exact diagram; return to a changed physical condition. Restrained original vector artwork.",
+      "episode_variation": "A36cell joint grid collects diagonal sum events and then collapses to copied-result diagonal dependence.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why are equal dice not equal totals?",
+        "visual_action": "A36cell joint grid collects diagonal sum events and then collapses to copied-result diagonal dependence.",
+        "new_understanding": "Independent uniform dice have triangular sum counts; copied identical results retain uniform marginals but only even sums.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Two fair dice do not make equally likely totals. Every ordered pair is equally likely. There are thirty six pairs.\n\nTo total seven, the first die can be one and the second six. Or two and five. Continue along this diagonal. Six different pairs work. To total two, only one and one work. So seven is six times as likely as two.\n\nCollect the pairs for every total. Their counts rise to six and fall again. For independent dice, multiply the probabilities inside each pair, then add across pairs with the same sum. This operation is convolution. It combines distributions when independent quantities are added.\n\nNow use the same die twice: copy its result instead of rolling independently. Each individual result is still uniform, but only matching pairs can occur. The totals are two, four, six, eight, ten and twelve, each with probability one sixth. Seven is impossible. Same individual distributions, different dependence, different sum."
+    }
+  ],
+  "sources": [
+    "https://dlsun.github.io/probability/sums-discrete.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

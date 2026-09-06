@@ -1,0 +1,7 @@
+{
+  "original_case": "Why are equal dice not equal totals?",
+  "changed_condition": "Now use the same die twice: copy its result instead of rolling independently.",
+  "viewer_inference": "The totals are two, four, six, eight, ten and twelve, each with probability one sixth. Seven is impossible. Same individual distributions, different dependence, different sum.",
+  "resolution": "Independent uniform dice have triangular sum counts; copied identical results retain uniform marginals but only even sums.",
+  "prerequisite": "Operations introduced explicitly in this film"
+}

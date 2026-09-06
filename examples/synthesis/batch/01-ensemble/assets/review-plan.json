@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Join the two",
+      "end_cue": "For any two predictions",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Distinguish the two averages geometrically."
+    },
+    {
+      "id": "2",
+      "start_cue": "For any two predictions",
+      "end_cue": "It explains",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Nonnegative exact gap."
+    },
+    {
+      "id": "3",
+      "start_cue": "Now let",
+      "end_cue": "It still beats",
+      "end_offset": 4,
+      "samples": 9,
+      "purpose": "Changed target disproves best-model claim."
+    }
+  ]
+}

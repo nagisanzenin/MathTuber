@@ -1,0 +1,7 @@
+{
+  "original_case": "Does reversing a pair of transformations preserve their result?",
+  "changed_condition": "Now stretch both directions equally instead.",
+  "viewer_inference": "Some transformations commute, and others do not. Order matters because operations act on the state the previous operation leaves behind.",
+  "resolution": "R(x,y)=(\u2212y,x), S(x,y)=(2x,y): RS(1,1)=(\u22121,2), SR(1,1)=(\u22122,1). Uniform scale2I commutes withR.",
+  "prerequisite": "Operations introduced explicitly in this film"
+}

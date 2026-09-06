@@ -1,0 +1,8 @@
+{
+  "physical_subject": "When does combining two predictions help?",
+  "relationship": "For two scalar predictions and any fixed target, average squared loss minus squared loss of the average equals (a\u2212b)\u00b2/4. It need not beat the better model.",
+  "operation": "A chord and convex squared-error curve separate average loss from loss of average; the target moves to expose the limitation.",
+  "closest_prior": "Earlier loss, bias-variance and crowds films",
+  "substantive_difference": "Pointwise convexity guarantee for two scalar predictions; explicitly distinguishes average loss from the best model.",
+  "sequence_is_editorial_hypothesis": true
+}

@@ -1,0 +1,8 @@
+{
+  "physical_subject": "Can unequal selection still recover a total on average?",
+  "relationship": "E[sum I_i y_i/pi_i]=sum y_i for known positive inclusion probabilities. Unbiasedness is not low variance or samplewise exactness.",
+  "operation": "Three value cards acquire inclusion probabilities and reciprocal weights; a zero-probability item reveals missing information.",
+  "closest_prior": "Earlier uniform reservoir sampling and randomized response",
+  "substantive_difference": "Correct unequal inclusion weights for a finite total; not uniform sample selection or privacy randomization.",
+  "sequence_is_editorial_hypothesis": true
+}

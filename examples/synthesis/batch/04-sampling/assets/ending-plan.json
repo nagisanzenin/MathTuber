@@ -1,0 +1,7 @@
+{
+  "original_case": "Can unequal selection still recover a total on average?",
+  "changed_condition": "Now make the last item impossible to sample.",
+  "viewer_inference": "Known positive inclusion probabilities are essential. And unbiased means right on average, not right in every sample. Our three estimates already showed the variation.",
+  "resolution": "E[sum I_i y_i/pi_i]=sum y_i for known positive inclusion probabilities. Unbiasedness is not low variance or samplewise exactness.",
+  "prerequisite": "Operations introduced explicitly in this film"
+}

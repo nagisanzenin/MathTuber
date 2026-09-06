@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Same Two Operations Can Lead Somewhere Else",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Stretch sideways, then turn. Is that the same as turning, then stretching?",
+        "Start with the point one, one. A sideways stretch doubles only its horizontal coordinate.",
+        "Stretch first. The point becomes two, one.",
+        "Now rotate a quarter turn counterclockwise. It becomes minus one, two.",
+        "Reset to the same starting point.",
+        "Rotate first. One, one becomes minus one, one.",
+        "Then stretch sideways. The result is minus two, one. Same ingredients, different destination.",
+        "Matrices record these operations. The rightmost matrix acts first on a column vector.",
+        "Rotation after stretch is R S. Stretch after rotation is S R. They are different here.",
+        "Now stretch both directions equally instead.",
+        "Doubling every coordinate before or after the turn gives minus two, two.",
+        "Some transformations commute, and others do not. Order matters because operations act on the state the previous operation leaves behind."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "R(x,y)=(−y,x), S(x,y)=(2x,y): RS(1,1)=(−1,2), SR(1,1)=(−2,1). Uniform scale2I commutes withR.",
+    "question": "Does reversing a pair of transformations preserve their result?",
+    "payoff": "R(x,y)=(−y,x), S(x,y)=(2x,y): RS(1,1)=(−1,2), SR(1,1)=(−2,1). Uniform scale2I commutes withR.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Earlier space-warper matrices and shear-area explanations. Difference: Order of composition and an explicit commuting exception rather than matrix introduction or area preservation.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Recognizable physical subject and useful setting; explicit connection to exact diagram; return to a changed physical condition. Restrained original vector artwork.",
+      "episode_variation": "A single point follows two explicit operation orders; uniform scaling supplies a commuting changed case.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Does reversing a pair of transformations preserve their result?",
+        "visual_action": "A single point follows two explicit operation orders; uniform scaling supplies a commuting changed case.",
+        "new_understanding": "R(x,y)=(−y,x), S(x,y)=(2x,y): RS(1,1)=(−1,2), SR(1,1)=(−2,1). Uniform scale2I commutes withR.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Stretch sideways, then turn. Is that the same as turning, then stretching? Start with the point one, one. A sideways stretch doubles only its horizontal coordinate.\n\nStretch first. The point becomes two, one. Now rotate a quarter turn counterclockwise. It becomes minus one, two.\n\nReset to the same starting point. Rotate first. One, one becomes minus one, one. Then stretch sideways. The result is minus two, one. Same ingredients, different destination.\n\nMatrices record these operations. The rightmost matrix acts first on a column vector. Rotation after stretch is R S. Stretch after rotation is S R. They are different here.\n\nNow stretch both directions equally instead. Doubling every coordinate before or after the turn gives minus two, two. Some transformations commute, and others do not. Order matters because operations act on the state the previous operation leaves behind."
+    }
+  ],
+  "sources": [
+    "https://math.libretexts.org/Bookshelves/Linear_Algebra/Interactive_Linear_Algebra_(Margalit_and_Rabinoff)/03:_Linear_Transformations_and_Matrix_Algebra/3.04:_Matrix_Multiplication"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}
