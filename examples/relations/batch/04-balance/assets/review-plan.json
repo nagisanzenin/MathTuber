@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Now follow",
+      "end_cue": "It means",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Probability mass is distinct from a realized path; equal sixths cross in opposite directions and preserve totals."
+    },
+    {
+      "id": "2",
+      "start_cue": "Start in state A",
+      "end_cue": "Call the current",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Starting in A gives1then3/4then11/16, approaching the fixed2/3reference."
+    },
+    {
+      "id": "3",
+      "start_cue": "Next time",
+      "end_cue": "This conclusion",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "The update law implies contraction of the difference from the fixed point; limiting bar is identified as an approach."
+    }
+  ]
+}

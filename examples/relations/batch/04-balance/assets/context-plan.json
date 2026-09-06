@@ -1,0 +1,8 @@
+{
+  "physical_subject": "How can a moving random process have a stationary distribution?",
+  "relationship": "For A-to-B probability1/4 and B-to-A probability1/2, the stationary probabilities are2/3and1/3; the update p_next=1/2+p/4 shrinks the gap from2/3byonequarter.",
+  "operation": "Distinguish one possible dot path from probability mass; exchange equal sixths and show contraction of the gap from the stationary probability.",
+  "closest_prior": "Random-walk diffusion, Polya urn, stationary waves and reservoir sampling",
+  "substantive_difference": "A finite two-state Markov stationary distribution and explicit contraction, rather than spatial RMS spreading, reinforced random sampling, wave interference or reservoir selection.",
+  "sequence_is_editorial_hypothesis": true
+}

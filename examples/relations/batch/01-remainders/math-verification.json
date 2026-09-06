@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "checks": [
+    "All15counts map bijectively to3\u00d75remainderpairs.",
+    "Remainders(2,3) select8mod15.",
+    "Adding15 preserves both remainders.",
+    "Exact bounded enumeration confirms equivalence of equal pairs and difference divisible15.",
+    "Each tested interval of15consecutive integers has exactly one solution."
+  ],
+  "proof": "Equal remainders imply the difference is divisible by3 and5. These primes are distinct, so the difference is divisible by15. Conversely adding15k preserves both remainders. Enumerating the15residuepairs establishes existence for every pair for these divisors. General CRT is named as context, not presented as proved for all coprime moduli.",
+  "limits": [
+    "Finite enumeration supplements the explicit integer divisibility argument.",
+    "Unique integer requires a specified15consecutive-integer interval; without it the solution is a residue class."
+  ],
+  "sources": [
+    "https://dlmf.nist.gov/27.15",
+    "https://nrich.maths.org/articles/chinese-remainder-theorem"
+  ]
+}

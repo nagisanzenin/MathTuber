@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": [
+    "Relative to 1 mW, powers 1, 10, 100 and 1000 mW have levels 0, 10, 20 and 30 dB.",
+    "Cascaded power gains of two and five produce a gain of ten, or 10 dB.",
+    "Positive power 0.1 mW has relative level -10 dB."
+  ],
+  "proof": "For positive ratios r = 10^a and s = 10^b, their product is 10^(a+b). Therefore log10(rs) = log10(r) + log10(s). Multiplication by ten gives the power-level difference in decibels.",
+  "limits": [
+    "Power ratios require a stated reference. The film makes no claim about perceived loudness, field-amplitude ratios, or adding simultaneous sources."
+  ],
+  "sources": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-8"
+  ]
+}

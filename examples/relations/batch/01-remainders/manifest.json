@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Two Remainders Remember a Number",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "These two leftovers can remember a number.",
+        "Group these counters in threes, and two remain.",
+        "Regroup the same counters in fives, and three remain.",
+        "Suppose you forget the count but keep those two remainders.",
+        "Which counts could they describe?",
+        "Among zero through fourteen, leaving two after division by three allows two, five, eight, eleven, and fourteen.",
+        "Only eight also leaves three after division by five.",
+        "This table gives every count a pair of remainders.",
+        "The row tells what remains after division by three; the column, after division by five.",
+        "Follow eight into row two, column three.",
+        "Every cell has exactly one count from zero through fourteen.",
+        "Why does the pattern repeat after fifteen?",
+        "Adding fifteen adds five complete groups of three, or three complete groups of five.",
+        "Neither remainder changes.",
+        "So eight, twenty three, and thirty eight all fit the same clues.",
+        "Conversely, two counts with the same remainders must differ by a multiple of three and a multiple of five.",
+        "Because three and five share no factor larger than one, their difference must be a multiple of fifteen.",
+        "The clues identify exactly one count in each block of fifteen consecutive integers.",
+        "This is a small case of the Chinese remainder theorem.",
+        "Coprime divisors let separate remainders work together.",
+        "Without a known range, they remember a repeating family, not one unique integer."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "For divisors three and five, a pair of remainders determines one residue class modulo fifteen; specifying an interval of fifteen consecutive integers determines one integer.",
+    "question": "How much of a count survives when only two remainders remain?",
+    "payoff": "For divisors three and five, a pair of remainders determines one residue class modulo fifteen; specifying an interval of fifteen consecutive integers determines one integer.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Euclidean algorithm, RSA, Frobenius orders, and modulo-four weave. Difference: Residue-pair reconstruction and uniqueness in a known interval, rather than common divisors, encryption, nonnegative coin representation, or a decorative modular pattern.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Mathematics first; persistent identified counters show exactly what the notation retains.",
+      "episode_variation": "Regroup the same eight counters, map candidate counts into a residue grid, and preserve the remainders when a block of fifteen is added.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How much of a count survives when only two remainders remain?",
+        "visual_action": "Regroup the same eight counters, map candidate counts into a residue grid, and preserve the remainders when a block of fifteen is added.",
+        "new_understanding": "For divisors three and five, a pair of remainders determines one residue class modulo fifteen; specifying an interval of fifteen consecutive integers determines one integer.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "These two leftovers can remember a number. Group these counters in threes, and two remain. Regroup the same counters in fives, and three remain.\n\nSuppose you forget the count but keep those two remainders. Which counts could they describe? Among zero through fourteen, leaving two after division by three allows two, five, eight, eleven, and fourteen. Only eight also leaves three after division by five.\n\nThis table gives every count a pair of remainders. The row tells what remains after division by three; the column, after division by five. Follow eight into row two, column three. Every cell has exactly one count from zero through fourteen.\n\nWhy does the pattern repeat after fifteen? Adding fifteen adds five complete groups of three, or three complete groups of five. Neither remainder changes. So eight, twenty three, and thirty eight all fit the same clues.\n\nConversely, two counts with the same remainders must differ by a multiple of three and a multiple of five. Because three and five share no factor larger than one, their difference must be a multiple of fifteen. The clues identify exactly one count in each block of fifteen consecutive integers.\n\nThis is a small case of the Chinese remainder theorem. Coprime divisors let separate remainders work together. Without a known range, they remember a repeating family, not one unique integer."
+    }
+  ],
+  "sources": [
+    "https://dlmf.nist.gov/27.15",
+    "https://nrich.maths.org/articles/chinese-remainder-theorem",
+    "https://nrich.maths.org/articles/chinese-remainder-theorem"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

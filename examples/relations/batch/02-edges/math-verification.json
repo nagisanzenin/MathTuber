@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": [
+    "Original signed differences: [0, 0, 6, 0, 0, -6, 0].",
+    "Shifted differences: [0, 0, 0, 6, 0, 0, -6].",
+    "Adding one to every pixel leaves all differences unchanged."
+  ],
+  "proof": "For y[j] = x[j+1] - x[j], an equal additive offset cancels algebraically. Translating an interior edge translates the response under the same stride-one weights. The displayed examples were checked exactly.",
+  "limits": [
+    "This is a hand-set filter, not a trained object recognizer. Arbitrary learned filters, padding, clipping and complete networks need not share its offset invariance."
+  ],
+  "sources": [
+    "https://d2l.ai/chapter_convolutional-neural-networks/conv-layer.html"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Separate the source",
+      "end_cue": "Can we actually",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "The cut crosses exactly S\u2192B,A\u2192B,A\u2192T; forward capacities add to6."
+    },
+    {
+      "id": "2",
+      "start_cue": "Send two along",
+      "end_cue": "We have both",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Three route assignments yield capacity-respecting conserved flow SA3,SB3,AT2,AB1,BT4."
+    },
+    {
+      "id": "3",
+      "start_cue": "Now increase",
+      "end_cue": "A useful improvement",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "RaisingABcapacity to2 supports one more middle-route unit; all displayed flows and cut bound change consistently."
+    }
+  ]
+}

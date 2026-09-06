@@ -1,0 +1,27 @@
+from scenes._shared.design import *
+class Film(Stage):
+    def construct(self):
+        INK=self.palette['ink'];TEAL=self.palette['primary'];CORAL=self.palette['secondary']
+        def txt(s,p,role='label',color='ink'):return self.label(s,p,color,role)
+        vals=[1,10,100,1000];bars=VGroup(*[Rectangle(width=.7,height=v/1000*4,fill_color=TEAL,fill_opacity=.75,stroke_width=0).move_to([-2.4+i*1.6,-.3+v/1000*2,0]) for i,v in enumerate(vals)]);base_line=Line([-3,-.3,0],[3,-.3,0],color=INK,stroke_width=2);labels=VGroup(*[txt(str(v),[-2.4+i*1.6,-.9,0]) for i,v in enumerate(vals)]);units=txt('power in milliwatts',[0,-1.7,0]);self.add(bars,base_line,labels,units)
+        self.at('Each of these');self.play(Circumscribe(bars[3],color=CORAL),run_time=.8)
+        self.at('On a linear');self.at('We can measure');self.play(FadeOut(VGroup(bars,base_line,units)),run_time=.5);positions=[[-1.8,4.2-i*1.35,0] for i in range(4)];self.play(*[labels[i].animate.move_to(positions[i]) for i in range(4)],run_time=1)
+        head=txt('power / reference',[0,5.3,0],'claim');self.play(FadeIn(head),run_time=.4);powers=VGroup(*[txt('10'+sup,[.8,4.2-i*1.35,0],'claim') for i,sup in enumerate(['⁰','¹','²','³'])]);joins=VGroup(*[Arrow([-1,4.2-i*1.35,0],[.1,4.2-i*1.35,0],buff=.1,color=INK,stroke_width=2) for i in range(4)])
+        self.at('Take one milliwatt');reference=txt('reference = 1 mW',[0,-1.25,0]);self.play(FadeIn(reference),FadeIn(powers[0]),Create(joins[0]),run_time=.5)
+        self.at('Ten milliwatts');self.play(FadeIn(powers[1]),Create(joins[1]),run_time=.5)
+        self.at('A hundred');self.play(FadeIn(VGroup(powers[2],powers[3])),Create(VGroup(joins[2],joins[3])),run_time=.8)
+        self.at('The base ten');loglabel=txt('log₁₀ reads the exponent',[0,-2.5,0],'claim');self.play(FadeIn(loglabel),run_time=.5)
+        self.at('For power levels');self.play(FadeOut(loglabel),FadeOut(powers),FadeOut(joins),run_time=.4);db=VGroup(*[txt(f'{i*10} dB',[1.7,4.2-i*1.35,0],'claim','secondary') for i in range(4)]);self.play(FadeIn(db),run_time=.6);formula=txt('level = 10 log₁₀(P / P₀) dB',[0,-2.5,0],'claim');self.play(FadeIn(formula),run_time=.5)
+        self.at('The same four');self.at('Equal steps');self.at('This also')
+        powerlabels=VGroup(*[txt(f'{v} mW',[-2.4+i*2.4,3.5,0],'claim') for i,v in enumerate([1,2,10])]);arrows=VGroup(*[Arrow([-1.5+i*2.4,3.5,0],[-.9+i*2.4,3.5,0],buff=.06,color=INK,stroke_width=2) for i in range(2)]);gainlabels=VGroup(txt('×2',[-1.2,4.3,0],'claim','primary'),txt('×5',[1.2,4.3,0],'claim','secondary'))
+        self.at('Suppose one stage');self.play(FadeOut(VGroup(labels,head,reference,db,formula)),run_time=.6);self.play(FadeIn(powerlabels),Create(arrows),FadeIn(gainlabels),run_time=.8)
+        self.at('Together they');overall=txt('×2 ×5 = ×10',[0,2,0],'claim');self.play(FadeIn(overall),run_time=.4)
+        self.at('The first gain');gains=VGroup(txt('≈ 3.01 dB',[-1.65,.3,0],'claim','primary'),txt('≈ 6.99 dB',[1.65,.3,0],'claim','secondary'));self.play(FadeIn(gains),run_time=.6)
+        self.at('Their levels');sumlabel=txt('10 log₁₀2 + 10 log₁₀5 = 10 dB',[0,-1.25,0],'claim');self.play(FadeIn(sumlabel),run_time=.5)
+        self.at('Why addition');self.play(FadeOut(VGroup(overall,gains,sumlabel)),run_time=.4)
+        self.at('A factor of ten');exp=txt('10ᵃ × 10ᵇ = 10ᵃ⁺ᵇ',[0,1.1,0],'claim');self.play(FadeIn(exp),run_time=.5)
+        self.at('Logarithms read');logs=txt('log₁₀(rs) = log₁₀r + log₁₀s',[0,-.5,0],'claim');positive=txt('positive ratios r and s',[0,-1.4,0]);self.play(FadeIn(VGroup(logs,positive)),run_time=.6)
+        self.at('Now reduce');self.play(FadeOut(VGroup(powerlabels,arrows,gainlabels,exp,logs,positive)),run_time=.6)
+        levels=VGroup(*[VGroup(Line([-2.8,3.9-i*1.6,0],[2.8,3.9-i*1.6,0],color=INK,stroke_width=1.5),txt(p,[-1.9,4.25-i*1.6,0]),txt(l,[1.9,4.25-i*1.6,0],'claim','secondary')) for i,(p,l) in enumerate([('10 mW','+10 dB'),('1 mW','0 dB'),('0.1 mW','−10 dB')])]);self.play(FadeIn(levels),run_time=.7);ref=txt('relative to 1 mW',[0,-2,0]);self.play(FadeIn(ref),run_time=.4)
+        self.at('Its level');self.play(Circumscribe(levels[2][2],color=CORAL),run_time=.8)
+        self.at('The power is');self.at('A logarithmic');self.finish()

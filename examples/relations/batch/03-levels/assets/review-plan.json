@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "We can measure",
+      "end_cue": "For power levels",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Reference and powers correspond to explicitly displayed powers of ten."
+    },
+    {
+      "id": "2",
+      "start_cue": "Suppose one stage",
+      "end_cue": "Now reduce",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Two gain stages retain their power-ratio meaning while logarithms turn the product into a sum."
+    },
+    {
+      "id": "3",
+      "start_cue": "Now reduce",
+      "end_cue": "A logarithmic",
+      "end_offset": 1,
+      "samples": 9,
+      "purpose": "Positive power below the reference maps to a negative relative level."
+    }
+  ]
+}

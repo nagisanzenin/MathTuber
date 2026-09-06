@@ -1,0 +1,8 @@
+{
+  "physical_subject": "How can a computer locate a brightness boundary using only local arithmetic?",
+  "relationship": "The valid stride-one filter [-1,+1] returns signed neighboring intensity differences, shifts its response with an interior translated edge, and cancels equal additive offsets.",
+  "operation": "Carry a row of the same image into neighbor subtraction, reuse signed weights, shift the strip and add a common brightness offset.",
+  "closest_prior": "Sliding-window algorithm, dot products, JPEG compression and broad neural-network introduction",
+  "substantive_difference": "A signed local finite-difference filter, its translated response and cancellation of an additive offset; not sliding-window sum optimization, vector alignment, frequency compression or a complete neural network.",
+  "sequence_is_editorial_hypothesis": true
+}

@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Group these",
+      "end_cue": "Which counts",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "The same eight counters regroup into threes then fives with exactly two and three left over."
+    },
+    {
+      "id": "2",
+      "start_cue": "This table",
+      "end_cue": "Why does",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Each of the fifteen counts moves to its own row modulo3 and column modulo5."
+    },
+    {
+      "id": "3",
+      "start_cue": "Adding fifteen",
+      "end_cue": "Conversely two",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Fifteen added counters regroup completely under both divisors; eight plus successive fifteens retains both clues."
+    }
+  ]
+}

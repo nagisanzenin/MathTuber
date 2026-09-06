@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "A Small Subtraction Finds an Edge",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A computer can find these boundaries with subtraction.",
+        "Look at one row of this simple image.",
+        "The numbers are pixel intensities: two in the dark region, eight in the light region.",
+        "Take two neighbors, and subtract the left value from the right.",
+        "Two minus two gives zero.",
+        "At the first boundary, eight minus two gives six.",
+        "Inside the light strip, eight minus eight gives zero.",
+        "At the other boundary, two minus eight gives negative six.",
+        "The same little rule works at every position.",
+        "We can write it as two weights: negative one and positive one.",
+        "Multiply each pixel by its weight, then add.",
+        "Reusing these weights makes a map of local changes.",
+        "Move the light strip one pixel to the right.",
+        "Both boundary responses move one place too.",
+        "The rule did not need a separate version for each location.",
+        "Now add one to every pixel intensity.",
+        "Three and nine replace two and eight.",
+        "The difference is still six.",
+        "An equal addition cancels in this filter; it does not change the contrast.",
+        "This sliding multiply and sum is cross correlation, the operation commonly called convolution in neural networks.",
+        "Here we chose the weights by hand.",
+        "A trained network learns many filters from data.",
+        "One small subtraction detects a change; recognizing an object requires much more."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "The valid stride-one filter [-1,+1] returns signed neighboring intensity differences, shifts its response with an interior translated edge, and cancels equal additive offsets.",
+    "question": "How can a computer locate a brightness boundary using only local arithmetic?",
+    "payoff": "The valid stride-one filter [-1,+1] returns signed neighboring intensity differences, shifts its response with an interior translated edge, and cancels equal additive offsets.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Sliding-window algorithm, dot products, JPEG compression and broad neural-network introduction. Difference: A signed local finite-difference filter, its translated response and cancellation of an additive offset; not sliding-window sum optimization, vector alignment, frequency compression or a complete neural network.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Same image row and same local arithmetic stay visible through the transformed examples.",
+      "episode_variation": "Carry a row of the same image into neighbor subtraction, reuse signed weights, shift the strip and add a common brightness offset.",
+      "exceptions": [
+        "Pixel shading intentionally encodes intensity; exact numeric labels provide a redundant reading.",
+        "Hand-set filter demonstrates arithmetic; no training or object recognition claim."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How can a computer locate a brightness boundary using only local arithmetic?",
+        "visual_action": "Carry a row of the same image into neighbor subtraction, reuse signed weights, shift the strip and add a common brightness offset.",
+        "new_understanding": "The valid stride-one filter [-1,+1] returns signed neighboring intensity differences, shifts its response with an interior translated edge, and cancels equal additive offsets.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A computer can find these boundaries with subtraction. Look at one row of this simple image. The numbers are pixel intensities: two in the dark region, eight in the light region.\n\nTake two neighbors, and subtract the left value from the right. Two minus two gives zero. At the first boundary, eight minus two gives six. Inside the light strip, eight minus eight gives zero. At the other boundary, two minus eight gives negative six.\n\nThe same little rule works at every position. We can write it as two weights: negative one and positive one. Multiply each pixel by its weight, then add. Reusing these weights makes a map of local changes.\n\nMove the light strip one pixel to the right. Both boundary responses move one place too. The rule did not need a separate version for each location.\n\nNow add one to every pixel intensity. Three and nine replace two and eight. The difference is still six. An equal addition cancels in this filter; it does not change the contrast.\n\nThis sliding multiply and sum is cross correlation, the operation commonly called convolution in neural networks. Here we chose the weights by hand. A trained network learns many filters from data. One small subtraction detects a change; recognizing an object requires much more."
+    }
+  ],
+  "sources": [
+    "https://d2l.ai/chapter_convolutional-neural-networks/conv-layer.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

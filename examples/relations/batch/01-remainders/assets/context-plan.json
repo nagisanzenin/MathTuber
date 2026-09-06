@@ -1,0 +1,8 @@
+{
+  "physical_subject": "How much of a count survives when only two remainders remain?",
+  "relationship": "For divisors three and five, a pair of remainders determines one residue class modulo fifteen, and a known interval of fifteen consecutive integers determines one integer.",
+  "operation": "Regroup the same eight counters, map candidate counts into a residue grid, and preserve the remainders when a block of fifteen is added.",
+  "closest_prior": "Euclidean algorithm, RSA, Frobenius orders, and modulo-four weave",
+  "substantive_difference": "Residue-pair reconstruction and uniqueness in a known interval, rather than common divisors, encryption, nonnegative coin representation, or a decorative modular pattern.",
+  "sequence_is_editorial_hypothesis": true
+}

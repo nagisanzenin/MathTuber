@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Take two",
+      "end_cue": "The same little",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Window, selected neighboring intensities, arithmetic and signed output refer to the same pair."
+    },
+    {
+      "id": "2",
+      "start_cue": "Move the light",
+      "end_cue": "Now add one",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Both edges shift one pixel and both signed responses shift one location under the same weights."
+    },
+    {
+      "id": "3",
+      "start_cue": "Now add one",
+      "end_cue": "This sliding",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Every input gains one while all adjacent differences remain unchanged."
+    }
+  ]
+}

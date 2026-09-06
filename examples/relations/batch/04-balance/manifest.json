@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Moving States, Steady Probabilities",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "This dot can keep changing state while its probabilities settle.",
+        "At each step, the next state depends only on where it is now.",
+        "From A, it moves to B with probability one quarter.",
+        "From B, it returns to A with probability one half.",
+        "Otherwise, it stays where it is.",
+        "Now follow probabilities, not one particular path.",
+        "Suppose the chance of A is two thirds, and B is one third.",
+        "One quarter of the probability in state A moves to B: one sixth in total.",
+        "Half of the B probability moves to A: also one sixth.",
+        "Equal probability moves both ways, so the distribution stays the same.",
+        "That is a stationary distribution.",
+        "It does not mean the dot stops moving.",
+        "It means the chances of finding it in A or B do not change.",
+        "Will a different starting point approach this balance?",
+        "Start in state A with probability one.",
+        "After one step, the chance of A is three quarters.",
+        "After two steps, it is eleven sixteenths, closer to two thirds.",
+        "Call the current chance of A, p.",
+        "Next time, we keep three quarters of p, and gain half of the remaining probability.",
+        "That is one half plus one quarter of p.",
+        "Subtract two thirds from both sides: the gap from balance becomes one quarter as large each step.",
+        "So this chain approaches the same balance from any starting probability.",
+        "This conclusion uses these transition rules; not every Markov chain settles.",
+        "The motion can continue while the proportions become steady."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "For A-to-B probability 1/4 and B-to-A probability 1/2, the stationary probabilities are 2/3 and 1/3; the update p_next = 1/2 + p/4 shrinks the gap from 2/3 by one quarter.",
+    "question": "How can a moving random process have a stationary distribution?",
+    "payoff": "For A-to-B probability 1/4 and B-to-A probability 1/2, the stationary probabilities are 2/3 and 1/3; the update p_next = 1/2 + p/4 shrinks the gap from 2/3 by one quarter.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Random-walk diffusion, Polya urn, stationary waves and reservoir sampling. Difference: A finite two-state Markov stationary distribution and explicit contraction, rather than spatial RMS spreading, reinforced random sampling, wave interference or reservoir selection.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Recognizable physical subject and useful setting; explicit connection to exact diagram; return to a changed physical condition. Restrained original vector artwork.",
+      "episode_variation": "Distinguish one possible dot path from probability mass; exchange equal sixths and show contraction of the gap from the stationary probability.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How can a moving random process have a stationary distribution?",
+        "visual_action": "Distinguish one possible dot path from probability mass; exchange equal sixths and show contraction of the gap from the stationary probability.",
+        "new_understanding": "For A-to-B probability 1/4 and B-to-A probability 1/2, the stationary probabilities are 2/3 and 1/3; the update p_next = 1/2 + p/4 shrinks the gap from 2/3 by one quarter.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "This dot can keep changing state while its probabilities settle. At each step, the next state depends only on where it is now. From A, it moves to B with probability one quarter. From B, it returns to A with probability one half. Otherwise, it stays where it is.\n\nNow follow probabilities, not one particular path. Suppose the chance of A is two thirds, and B is one third. One quarter of the probability in state A moves to B: one sixth in total. Half of the B probability moves to A: also one sixth. Equal probability moves both ways, so the distribution stays the same.\n\nThat is a stationary distribution. It does not mean the dot stops moving. It means the chances of finding it in A or B do not change.\n\nWill a different starting point approach this balance? Start in state A with probability one. After one step, the chance of A is three quarters. After two steps, it is eleven sixteenths, closer to two thirds.\n\nCall the current chance of A, p. Next time, we keep three quarters of p, and gain half of the remaining probability. That is one half plus one quarter of p. Subtract two thirds from both sides: the gap from balance becomes one quarter as large each step.\n\nSo this chain approaches the same balance from any starting probability. This conclusion uses these transition rules; not every Markov chain settles. The motion can continue while the proportions become steady."
+    }
+  ],
+  "sources": [
+    "https://www.probabilitycourse.com/chapter11/11_2_6_stationary_and_limiting_distributions.php"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

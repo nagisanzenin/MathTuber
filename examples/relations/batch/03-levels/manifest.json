@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "When Multiplication Becomes a Step",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Each of these powers is ten times the previous one.",
+        "On a linear scale, the smallest almost disappear.",
+        "We can measure the number of multiplication steps instead.",
+        "Take one milliwatt as our reference.",
+        "Ten milliwatts is one factor of ten above it.",
+        "A hundred is two factors, and a thousand is three.",
+        "The base ten logarithm gives those exponents: zero, one, two, and three.",
+        "For power levels in decibels, multiply that exponent by ten.",
+        "The same four powers become zero, ten, twenty, and thirty decibels relative to our reference.",
+        "Equal steps now mean equal ratios, not equal amounts of power.",
+        "This also makes a chain of gains easier to combine.",
+        "Suppose one stage doubles the power, and the next multiplies it by five.",
+        "Together they multiply power by ten.",
+        "The first gain is about three point zero one decibels; the second, six point nine nine.",
+        "Their levels add to ten decibels.",
+        "Why addition?",
+        "A factor of ten to the power a, followed by ten to the power b, gives ten to the power a plus b.",
+        "Logarithms read those exponents, so multiplying ratios adds their logarithms.",
+        "Now reduce the power below the reference, to one tenth of a milliwatt.",
+        "Its level is negative ten decibels.",
+        "The power is still positive; the negative sign says below the reference.",
+        "A logarithmic scale keeps proportions visible across very different sizes."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "For positive power ratios, levels in decibels equal ten times the base-ten logarithm; cascaded multiplicative power gains add in decibels and negative relative levels still represent positive power.",
+    "question": "Why do equal decibel steps represent equal power ratios?",
+    "payoff": "For positive power ratios, levels in decibels equal ten times the base-ten logarithm; cascaded multiplicative power gains add in decibels and negative relative levels still represent positive power.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Logarithmic spiral, piano tuning, Rule of72 and inverse-square light. Difference: Logarithmic measurement and composition of power ratios; not spiral shape, tuning ratios, exponential doubling-time estimation or radiative spreading.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Recognizable physical subject and useful setting; explicit connection to exact diagram; return to a changed physical condition. Restrained original vector artwork.",
+      "episode_variation": "Carry the same four powers from a linear chart into exponent levels, then compose two actual gain stages and compare a below-reference power.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why do equal decibel steps represent equal power ratios?",
+        "visual_action": "Carry the same four powers from a linear chart into exponent levels, then compose two actual gain stages and compare a below-reference power.",
+        "new_understanding": "For positive power ratios, levels in decibels equal ten times the base-ten logarithm; cascaded multiplicative power gains add in decibels and negative relative levels still represent positive power.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Each of these powers is ten times the previous one. On a linear scale, the smallest almost disappear. We can measure the number of multiplication steps instead.\n\nTake one milliwatt as our reference. Ten milliwatts is one factor of ten above it. A hundred is two factors, and a thousand is three. The base ten logarithm gives those exponents: zero, one, two, and three.\n\nFor power levels in decibels, multiply that exponent by ten. The same four powers become zero, ten, twenty, and thirty decibels relative to our reference. Equal steps now mean equal ratios, not equal amounts of power.\n\nThis also makes a chain of gains easier to combine. Suppose one stage doubles the power, and the next multiplies it by five. Together they multiply power by ten. The first gain is about three point zero one decibels; the second, six point nine nine. Their levels add to ten decibels.\n\nWhy addition? A factor of ten to the power a, followed by ten to the power b, gives ten to the power a plus b. Logarithms read those exponents, so multiplying ratios adds their logarithms.\n\nNow reduce the power below the reference, to one tenth of a milliwatt. Its level is negative ten decibels. The power is still positive; the negative sign says below the reference. A logarithmic scale keeps proportions visible across very different sizes."
+    }
+  ],
+  "sources": [
+    "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-8"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": [
+    "All integer feasible flows and all four cuts were enumerated for both networks.",
+    "Initial routing SA=3, SB=3, AT=2, AB=1, BT=4 attains the cut bound of six.",
+    "Raising AB capacity to two allows SA=4, SB=3, AT=2, AB=2, BT=5 and a cut bound of seven."
+  ],
+  "proof": "Every source-to-destination unit must cross the cut with S and A on its source side. Its forward capacities bound total flow by 3 + middle + 2. The displayed capacity-respecting conserved routing attains this bound, proving optimality even among real-valued flows.",
+  "limits": [
+    "Moving packets illustrate routes, not measured physical rates. This is a directed capacity model, not a hydraulic-pressure or travel-time model. The film proves the concrete example and names the general theorem."
+  ],
+  "sources": [
+    "https://courses.csail.mit.edu/6.854/19/Scribe/s6-maxflow/s6-maxflow.html"
+  ]
+}

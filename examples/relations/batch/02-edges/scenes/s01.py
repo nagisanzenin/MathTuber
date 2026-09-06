@@ -1,0 +1,33 @@
+from scenes._shared.design import *
+class Film(Stage):
+    def construct(self):
+        INK=self.palette['ink'];TEAL=self.palette['primary'];CORAL=self.palette['secondary'];BG=self.palette['background'];values=[2,2,2,8,8,8,2,2]
+        def txt(s,p,role='label',color='ink'):return self.label(s,p,color,role)
+        def shade(v):return interpolate_color(ManimColor('#243944'),ManimColor('#FAF7EF'),v/10)
+        def pixel(v,p,size=.7):return Square(side_length=size,fill_color=shade(v),fill_opacity=1,stroke_color=INK,stroke_width=1).move_to(p)
+        imagegrid=VGroup(*[pixel(values[c],[-2.45+c*.7,4.1-r*.7,0]) for r in range(4) for c in range(8)])
+        self.add(imagegrid)
+        self.at('A computer');bounds=VGroup(*[Line([-2.8+c*.7,4.45,0],[-2.8+c*.7,1.65,0],color=CORAL,stroke_width=4) for c in [3,6]]);self.play(Create(bounds),run_time=1)
+        self.at('Look at one');selected=SurroundingRectangle(VGroup(*imagegrid[8:16]),buff=.04,color=TEAL,stroke_width=3);self.play(Create(selected),run_time=.5);row=VGroup(*[imagegrid[8+c].copy() for c in range(8)]);self.add(row);self.play(row.animate.shift(DOWN*3.0),run_time=1);self.play(FadeOut(bounds),run_time=.3)
+        self.at('The numbers');nums=VGroup(*[txt(str(v),[-2.45+c*.7,-.55,0]) for c,v in enumerate(values)]);self.play(FadeIn(nums),run_time=.5);rowtitle=txt('one row · intensity values',[0,-1.4,0]);self.play(FadeIn(rowtitle),run_time=.4)
+        self.at('Take two');self.play(FadeOut(VGroup(imagegrid,selected,rowtitle)),run_time=.5);self.play(row.animate.shift(UP*3.0),nums.animate.shift(UP*3.0),run_time=.7)
+        rule=txt('right − left',[0,4.9,0],'claim');window=SurroundingRectangle(VGroup(row[0],row[1]),buff=.06,color=CORAL,stroke_width=3);self.play(FadeIn(rule),Create(window),run_time=.5)
+        outputs=VGroup(*[txt('0' if v==0 else f'{v:+d}',[-2.1+j*.7,.3,0],color='secondary' if v else 'ink') for j,v in enumerate([values[j+1]-values[j] for j in range(7)])]);outtitle=txt('neighbor differences',[0,-.7,0]);equation=None
+        self.at('Two minus two');equation=txt('2 − 2 = 0',[0,1.3,0],'claim');self.play(FadeIn(equation),FadeIn(outputs[0]),FadeIn(outtitle),run_time=.5)
+        self.at('At the first');self.play(FadeOut(equation),run_time=.2);self.play(window.animate.move_to(VGroup(row[2],row[3]).get_center()),run_time=.7);equation=txt('8 − 2 = 6',[0,1.3,0],'claim');self.play(FadeIn(equation),run_time=.2);self.play(FadeIn(outputs[2]),run_time=.3)
+        self.at('Inside the light');self.play(FadeOut(equation),run_time=.2);self.play(window.animate.move_to(VGroup(row[3],row[4]).get_center()),run_time=.7);equation=txt('8 − 8 = 0',[0,1.3,0],'claim');self.play(FadeIn(equation),run_time=.2);self.play(FadeIn(outputs[3]),run_time=.3)
+        self.at('At the other');self.play(FadeOut(equation),run_time=.2);self.play(window.animate.move_to(VGroup(row[5],row[6]).get_center()),run_time=.7);equation=txt('2 − 8 = −6',[0,1.3,0],'claim');self.play(FadeIn(equation),run_time=.2);self.play(FadeIn(outputs[5]),run_time=.3)
+        self.at('The same little');self.play(FadeOut(equation),FadeOut(window),FadeIn(outputs[1]),FadeIn(outputs[4]),FadeIn(outputs[6]),run_time=.5)
+        self.at('We can write');weights=VGroup(txt('−1',[-.55,-2,0],'claim','primary'),txt('+1',[.55,-2,0],'claim','secondary'));weightname=txt('weights',[0,-2.9,0]);self.play(FadeIn(VGroup(weights,weightname)),run_time=.5)
+        self.at('Multiply each');equation=txt('(−1 × 2) + (1 × 8) = 6',[0,1.3,0],'claim');window=SurroundingRectangle(VGroup(row[2],row[3]),buff=.06,color=CORAL,stroke_width=3);self.play(FadeIn(equation),Create(window),run_time=.6)
+        self.at('Reusing these');self.play(FadeOut(VGroup(equation,window,weights,weightname)),run_time=.5)
+        self.at('Move the light');self.play(FadeOut(nums),FadeOut(outputs),run_time=.3);newvalues=[2,2,2,2,8,8,8,2];self.play(*[row[c].animate.set_fill(shade(v)) for c,v in enumerate(newvalues)],run_time=1)
+        nums=VGroup(*[txt(str(v),[-2.45+c*.7,2.45,0]) for c,v in enumerate(newvalues)]);self.play(FadeIn(nums),run_time=.4)
+        self.at('Both boundary');outputs=VGroup(*[txt('0' if v==0 else f'{v:+d}',[-2.1+j*.7,.3,0],color='secondary' if v else 'ink') for j,v in enumerate([newvalues[j+1]-newvalues[j] for j in range(7)])]);self.play(FadeIn(outputs),run_time=.5);shift=txt('same rule · shifted response',[0,-2,0],'claim');self.play(FadeIn(shift),run_time=.4)
+        self.at('The rule did');self.at('Now add one');self.play(FadeOut(nums),FadeOut(shift),run_time=.3);bright=[v+1 for v in newvalues];self.play(*[row[c].animate.set_fill(shade(v)) for c,v in enumerate(bright)],run_time=.8)
+        self.at('Three and nine');nums=VGroup(*[txt(str(v),[-2.45+c*.7,2.45,0]) for c,v in enumerate(bright)]);self.play(FadeIn(nums),run_time=.4)
+        self.at('The difference');equation=txt('9 − 3 = 8 − 2 = 6',[0,1.3,0],'claim');self.play(FadeIn(equation),run_time=.4)
+        self.at('An equal addition');cancel=txt('(right + c) − (left + c)\n= right − left',[0,-2.2,0],'claim');self.play(FadeIn(cancel),run_time=.6)
+        self.at('This sliding');self.play(FadeOut(VGroup(equation,cancel)),run_time=.4);name=txt('cross-correlation',[0,-2,0],'claim');self.play(FadeIn(name),run_time=.4)
+        self.at('Here we chose');hand=txt('hand-set weights: [−1, +1]',[0,1.3,0]);self.play(FadeIn(hand),run_time=.4)
+        self.at('A trained');self.at('One small');self.finish()

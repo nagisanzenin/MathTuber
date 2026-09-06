@@ -1,0 +1,8 @@
+{
+  "physical_subject": "Why do equal decibel steps represent equal power ratios?",
+  "relationship": "For positive power ratios, levels in decibels equal ten times the base-ten logarithm; cascaded multiplicative power gains add in decibels and negative relative levels still represent positive power.",
+  "operation": "Carry the same four powers from a linear chart into exponent levels, then compose two actual gain stages and compare a below-reference power.",
+  "closest_prior": "Logarithmic spiral, piano tuning, Rule of72 and inverse-square light",
+  "substantive_difference": "Logarithmic measurement and composition of power ratios; not spiral shape, tuning ratios, exponential doubling-time estimation or radiative spreading.",
+  "sequence_is_editorial_hypothesis": true
+}

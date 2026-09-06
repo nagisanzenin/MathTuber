@@ -1,0 +1,8 @@
+{
+  "physical_subject": "Why can a network with seven units of entry and exit capacity carry only six?",
+  "relationship": "A cut with capacity six bounds every feasible flow, and an explicit six-unit routing proves optimality; increasing its middle edge permits seven.",
+  "operation": "Keep one directed network throughout: expose a separating cut, construct a routing that attains its bound, then increase the binding internal edge.",
+  "closest_prior": "Dijkstra shortest path, traveling salesman, Braess paradox, single-machine scheduling and hydraulic leverage",
+  "substantive_difference": "An attained cut bound proves maximum throughput in a directed capacity network; not shortest distance, selfish traffic equilibrium, completion-time ordering or hydraulic force.",
+  "sequence_is_editorial_hypothesis": true
+}
