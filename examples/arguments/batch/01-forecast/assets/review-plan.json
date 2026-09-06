@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "At eighty",
+      "end_cue": "Announcing certainty",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Expected loss weights both outcomes."
+    },
+    {
+      "id": "2",
+      "start_cue": "Here is the whole",
+      "end_cue": "Now suppose",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "The nonnegative square establishes the minimum."
+    },
+    {
+      "id": "3",
+      "start_cue": "Now suppose",
+      "end_cue": "This binary",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "New true chance moves the best forecast."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "physical_subject": "Can uncertainty be the best forecast?",
+  "relationship": "For Bernoulli truth q, expected binary Brier loss is q(1\u2212q)+(p\u2212q)\u00b2, uniquely minimized by p=q.",
+  "operation": "Outcome distances become weighted errors; the minimum of the expected-score curve shifts with the true chance.",
+  "closest_prior": "Earlier loss-function introductions and false-alarm Bayes film",
+  "substantive_difference": "Focuses on strict propriety in expectation, rather than generic prediction error or posterior false-alarm probability.",
+  "sequence_is_editorial_hypothesis": true
+}

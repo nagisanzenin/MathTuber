@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "A Score That Rewards Honest Uncertainty",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A forecast can be uncertain and still be the best forecast.",
+        "Suppose rain really has an eighty percent chance. We announce a probability.",
+        "The outcome is one for rain, zero for no rain.",
+        "Square the distance from our forecast to that outcome. Lower is better.",
+        "At eighty percent, rain gives an error of zero point zero four. No rain gives zero point six four.",
+        "Weight those two errors by their true chances.",
+        "The expected score is zero point one six.",
+        "Announcing certainty gives zero error in rain, but one when it stays dry. Its expected score is zero point two.",
+        "Here is the whole landscape of expected scores.",
+        "It equals zero point one six, plus the square of our distance from zero point eight.",
+        "That extra square cannot be negative. The minimum is the true probability.",
+        "Now suppose the true chance is one half.",
+        "The bottom moves to one half, not to certainty.",
+        "This binary Brier score rewards honest probabilities in expectation. One surprising outcome alone cannot judge a forecaster."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "For Bernoulli truth q, expected binary Brier loss is q(1−q)+(p−q)², uniquely minimized by p=q.",
+    "question": "Can uncertainty be the best forecast?",
+    "payoff": "For Bernoulli truth q, expected binary Brier loss is q(1−q)+(p−q)², uniquely minimized by p=q.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Earlier loss-function introductions and false-alarm Bayes film. Difference: Focuses on strict propriety in expectation, rather than generic prediction error or posterior false-alarm probability.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Recognizable physical subject and useful setting; explicit connection to exact diagram; return to a changed physical condition. Restrained original vector artwork.",
+      "episode_variation": "Outcome distances become weighted errors; the minimum of the expected-score curve shifts with the true chance.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Can uncertainty be the best forecast?",
+        "visual_action": "Outcome distances become weighted errors; the minimum of the expected-score curve shifts with the true chance.",
+        "new_understanding": "For Bernoulli truth q, expected binary Brier loss is q(1−q)+(p−q)², uniquely minimized by p=q.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A forecast can be uncertain and still be the best forecast. Suppose rain really has an eighty percent chance. We announce a probability.\n\nThe outcome is one for rain, zero for no rain. Square the distance from our forecast to that outcome. Lower is better. At eighty percent, rain gives an error of zero point zero four. No rain gives zero point six four.\n\nWeight those two errors by their true chances. The expected score is zero point one six. Announcing certainty gives zero error in rain, but one when it stays dry. Its expected score is zero point two.\n\nHere is the whole landscape of expected scores. It equals zero point one six, plus the square of our distance from zero point eight. That extra square cannot be negative. The minimum is the true probability.\n\nNow suppose the true chance is one half. The bottom moves to one half, not to certainty. This binary Brier score rewards honest probabilities in expectation. One surprising outcome alone cannot judge a forecaster."
+    }
+  ],
+  "sources": [
+    "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.brier_score_loss.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

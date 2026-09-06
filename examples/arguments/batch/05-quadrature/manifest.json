@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Why the Middle Measurement Counts Four Times",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Three height measurements can determine the area under a parabola.",
+        "Take x squared from zero to two. Its heights are zero, one, and four.",
+        "A straight line between the endpoints gives a trapezoid of area four.",
+        "A rectangle using only the middle height gives area two.",
+        "For a quadratic, combine two thirds of the midpoint estimate with one third of the trapezoid estimate.",
+        "That gives eight thirds. It is the exact area here.",
+        "In terms of the heights, the weights become one, four, one, multiplied by the interval width divided by six.",
+        "The middle receives four times each endpoint weight. This is Simpson's rule.",
+        "Why can that work? A quadratic is a sum of a constant, a linear term, and a squared term.",
+        "These weights integrate each of those three pieces exactly. Adding the pieces preserves exactness.",
+        "Try x to the fourth power on the same interval.",
+        "The three heights now give twenty thirds, while the exact integral is thirty two fifths.",
+        "The values differ. For general curves this is an approximation, improved by using more subintervals with suitable smoothness."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Simpson weights1,4,1 times width/6 integrate quadratics exactly; the same three-point estimate need not be exact for a quartic.",
+    "question": "Why does a midpoint receive weight four?",
+    "payoff": "Simpson weights1,4,1 times width/6 integrate quadratics exactly; the same three-point estimate need not be exact for a quartic.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Earlier fundamental theorem and area illustrations. Difference: Numerical quadrature from three samples, deriving weighting from midpoint and trapezoid estimates.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Recognizable physical subject and useful setting; explicit connection to exact diagram; return to a changed physical condition. Restrained original vector artwork.",
+      "episode_variation": "Compare trapezoid and midpoint areas before combining them; a quartic demonstrates the limit of exactness.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why does a midpoint receive weight four?",
+        "visual_action": "Compare trapezoid and midpoint areas before combining them; a quartic demonstrates the limit of exactness.",
+        "new_understanding": "Simpson weights1,4,1 times width/6 integrate quadratics exactly; the same three-point estimate need not be exact for a quartic.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Three height measurements can determine the area under a parabola. Take x squared from zero to two. Its heights are zero, one, and four.\n\nA straight line between the endpoints gives a trapezoid of area four. A rectangle using only the middle height gives area two. For a quadratic, combine two thirds of the midpoint estimate with one third of the trapezoid estimate.\n\nThat gives eight thirds. It is the exact area here. In terms of the heights, the weights become one, four, one, multiplied by the interval width divided by six. The middle receives four times each endpoint weight. This is Simpson's rule.\n\nWhy can that work? A quadratic is a sum of a constant, a linear term, and a squared term. These weights integrate each of those three pieces exactly. Adding the pieces preserves exactness.\n\nTry x to the fourth power on the same interval. The three heights now give twenty thirds, while the exact integral is thirty two fifths. The values differ. For general curves this is an approximation, improved by using more subintervals with suitable smoothness."
+    }
+  ],
+  "sources": [
+    "https://openstax.org/books/calculus-volume-2/pages/3-6-numerical-integration"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

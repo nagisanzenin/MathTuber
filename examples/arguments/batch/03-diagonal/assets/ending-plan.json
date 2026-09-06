@@ -1,0 +1,7 @@
+{
+  "original_case": "Can all infinite binary sequences fit in a numbered list?",
+  "changed_condition": "What if we add the missing sequence to a new list?",
+  "viewer_inference": "The obstacle is not a bad ordering. Every proposed complete list can be defeated.",
+  "resolution": "For any proposed natural-number-indexed list of infinite binary sequences, the sequence with nth bit opposite row n differs from every row.",
+  "prerequisite": "Representations and operations introduced in this film"
+}

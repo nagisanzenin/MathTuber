@@ -1,0 +1,8 @@
+{
+  "physical_subject": "Can all infinite binary sequences fit in a numbered list?",
+  "relationship": "For any proposed natural-number-indexed list of infinite binary sequences, the sequence with nth bit opposite row n differs from every row.",
+  "operation": "Diagonal cells are selected and flipped into a new row, then a changed list produces another missing sequence.",
+  "closest_prior": "Hilbert hotel and halting problem",
+  "substantive_difference": "Direct uncountability argument for infinite binary sequences, avoiding ambiguous binary real-number expansions.",
+  "sequence_is_editorial_hypothesis": true
+}

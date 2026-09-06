@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Write the sizes",
+      "end_cue": "Reduce the first",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Introduce binary column parity."
+    },
+    {
+      "id": "2",
+      "start_cue": "Reduce the first",
+      "end_cue": "From a nonzero",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Legal move to zero XOR."
+    },
+    {
+      "id": "3",
+      "start_cue": "Try a reply",
+      "end_cue": "This strategy",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Changed piles restore zero XOR."
+    }
+  ]
+}

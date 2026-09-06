@@ -1,0 +1,7 @@
+{
+  "original_case": "Why does a midpoint receive weight four?",
+  "changed_condition": "Try x to the fourth power on the same interval.",
+  "viewer_inference": "The values differ. For general curves this is an approximation, improved by using more subintervals with suitable smoothness.",
+  "resolution": "Simpson weights1,4,1 times width/6 integrate quadratics exactly; the same three-point estimate need not be exact for a quartic.",
+  "prerequisite": "Representations and operations introduced in this film"
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": [
+    "Weightswidth/6\u00d7(1,4,1) exactly integrate monomials1,x,x\u00b2,x\u00b3 over[0,2].",
+    "(2/3)midpoint+(1/3)trapezoid gives8/3 forx\u00b2.",
+    "Linearity proves exactness for quadratic combinations; x^4 gives20/3 versus32/5. Quartic plot explicitly labels vertical scale\u00f74."
+  ],
+  "method": "Independent exact arithmetic and general mathematical argument; finite checks alone do not prove generality."
+}

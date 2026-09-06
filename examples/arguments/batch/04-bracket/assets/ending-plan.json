@@ -1,0 +1,7 @@
+{
+  "original_case": "How can we narrow a root without solving a cubic?",
+  "changed_condition": "Now replace the curve with a jump from minus one to plus one.",
+  "viewer_inference": "Continuity was the promise that made the bracket trustworthy. A sign change alone is not enough.",
+  "resolution": "Bisection preserves a root under continuity and opposite endpoint signs; width halves per iteration. Discontinuity invalidates the guarantee.",
+  "prerequisite": "Representations and operations introduced in this film"
+}

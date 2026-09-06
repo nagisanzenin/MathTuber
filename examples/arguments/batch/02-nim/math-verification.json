@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": [
+    "729 finite positions match recursive normal-play solver.",
+    "3,4,5\u21921,4,5;1,2,5\u21921,2,3 have expected XOR values.",
+    "A legal single-pile change changes zero XOR to nonzero. For S nonzero choose pile with highest set bit of S; pile XOR S is smaller and changes total to0. Terminal all-zero position loses for next player; induction proves strategy."
+  ],
+  "method": "Independent exact arithmetic and general mathematical argument; finite checks alone do not prove generality."
+}

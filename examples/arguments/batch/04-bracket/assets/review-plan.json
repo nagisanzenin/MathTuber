@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Test the middle",
+      "end_cue": "Each test",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Preserve opposite signs at every split."
+    },
+    {
+      "id": "2",
+      "start_cue": "After four",
+      "end_cue": "Now replace",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Quantify bracket and midpoint error."
+    },
+    {
+      "id": "3",
+      "start_cue": "Now replace",
+      "end_cue": "Continuity was",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "A sign-changing discontinuity has no root."
+    }
+  ]
+}

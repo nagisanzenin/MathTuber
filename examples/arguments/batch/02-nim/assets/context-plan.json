@@ -1,0 +1,8 @@
+{
+  "physical_subject": "What balance makes a Nim position difficult?",
+  "relationship": "Normal-play Nim has losing positions exactly when the bitwise XOR of all pile sizes is zero.",
+  "operation": "Stone piles map to binary rows; removing stones changes column parity.",
+  "closest_prior": "Earlier chocolate strategy stealing and bridges parity",
+  "substantive_difference": "Constructive binary invariant for normal-play Nim, not nonconstructive strategy stealing or Euler trails.",
+  "sequence_is_editorial_hypothesis": true
+}

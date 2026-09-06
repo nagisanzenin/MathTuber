@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": [
+    "Four exact halvings bracket cube root2 in[5/4,21/16], width1/16, midpoint error\u22641/32.",
+    "Continuity and opposite signs imply at least one root by IVT; each selected half retains the sign condition.",
+    "A step taking only\u22121 or+1 has opposite endpoint signs but no zero; continuity is necessary for the stated guarantee."
+  ],
+  "method": "Independent exact arithmetic and general mathematical argument; finite checks alone do not prove generality."
+}

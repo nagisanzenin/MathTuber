@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Sequence Missing from Every Infinite List",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Imagine a list of every infinite sequence of zeros and ones.",
+        "Each row continues forever. The rows are numbered one, two, three, and so on.",
+        "We can build a sequence that this list misses.",
+        "Read the first digit of row one, and flip it.",
+        "Read the second digit of row two, and flip that.",
+        "Continue diagonally, changing zero to one and one to zero.",
+        "The new sequence differs from row one at its first digit.",
+        "It differs from row two at its second digit.",
+        "For any numbered row, it differs at that row number. So it cannot equal any row in the list.",
+        "Only a finite corner fits on this screen. The argument applies to every positive row number.",
+        "There is no list indexed by the natural numbers containing all infinite binary sequences. This is uncountability.",
+        "What if we add the missing sequence to a new list?",
+        "Apply the same diagonal construction to that new list. It misses a different sequence.",
+        "The obstacle is not a bad ordering. Every proposed complete list can be defeated."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "For any proposed natural-number-indexed list of infinite binary sequences, the sequence with nth bit opposite row n differs from every row.",
+    "question": "Can all infinite binary sequences fit in a numbered list?",
+    "payoff": "For any proposed natural-number-indexed list of infinite binary sequences, the sequence with nth bit opposite row n differs from every row.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Hilbert hotel and halting problem. Difference: Direct uncountability argument for infinite binary sequences, avoiding ambiguous binary real-number expansions.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Recognizable physical subject and useful setting; explicit connection to exact diagram; return to a changed physical condition. Restrained original vector artwork.",
+      "episode_variation": "Diagonal cells are selected and flipped into a new row, then a changed list produces another missing sequence.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Can all infinite binary sequences fit in a numbered list?",
+        "visual_action": "Diagonal cells are selected and flipped into a new row, then a changed list produces another missing sequence.",
+        "new_understanding": "For any proposed natural-number-indexed list of infinite binary sequences, the sequence with nth bit opposite row n differs from every row.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Imagine a list of every infinite sequence of zeros and ones. Each row continues forever. The rows are numbered one, two, three, and so on.\n\nWe can build a sequence that this list misses. Read the first digit of row one, and flip it. Read the second digit of row two, and flip that. Continue diagonally, changing zero to one and one to zero.\n\nThe new sequence differs from row one at its first digit. It differs from row two at its second digit. For any numbered row, it differs at that row number. So it cannot equal any row in the list.\n\nOnly a finite corner fits on this screen. The argument applies to every positive row number. There is no list indexed by the natural numbers containing all infinite binary sequences. This is uncountability.\n\nWhat if we add the missing sequence to a new list? Apply the same diagonal construction to that new list. It misses a different sequence. The obstacle is not a bad ordering. Every proposed complete list can be defeated."
+    }
+  ],
+  "sources": [
+    "https://courses.csail.mit.edu/6.042/spring15/cantor.pdf"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Read the first",
+      "end_cue": "The new sequence",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Flip diagonal entries into a candidate."
+    },
+    {
+      "id": "2",
+      "start_cue": "The new sequence",
+      "end_cue": "There is no list",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Distinguish finite display from universal row argument."
+    },
+    {
+      "id": "3",
+      "start_cue": "What if we add",
+      "end_cue": "The obstacle",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "New proposed list is defeated too."
+    }
+  ]
+}

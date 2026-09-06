@@ -1,0 +1,7 @@
+{
+  "original_case": "What balance makes a Nim position difficult?",
+  "changed_condition": "Try a reply: the other player reduces four to two.",
+  "viewer_inference": "This strategy assumes the last stone wins. Changing that rule changes the endgame.",
+  "resolution": "Normal-play Nim has losing positions exactly when the bitwise XOR of all pile sizes is zero.",
+  "prerequisite": "Representations and operations introduced in this film"
+}

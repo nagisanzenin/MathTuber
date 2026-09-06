@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "A Root Found by Keeping One Promise",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "We want the number whose cube is two.",
+        "At one, the cube is too small. At two, it is too large.",
+        "Keep a bracket with opposite signs for x cubed minus two.",
+        "Because the curve is continuous, it must cross zero between them.",
+        "Test the middle, one point five. Its cube is too large, so keep the left half.",
+        "The next middle is one point two five. Its cube is too small. Keep the right half.",
+        "Two more tests narrow the bracket further.",
+        "Each test preserves a root inside while cutting the interval width in half.",
+        "After four halvings, the root lies between one point two five and one point three one two five.",
+        "The interval is one sixteenth as wide as the original.",
+        "Choosing its midpoint gives an error at most half that width. More steps buy a predictable accuracy.",
+        "Now replace the curve with a jump from minus one to plus one.",
+        "The signs still differ, but there is no zero.",
+        "Continuity was the promise that made the bracket trustworthy. A sign change alone is not enough."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Bisection preserves a root under continuity and opposite endpoint signs; width halves per iteration. Discontinuity invalidates the guarantee.",
+    "question": "How can we narrow a root without solving a cubic?",
+    "payoff": "Bisection preserves a root under continuity and opposite endpoint signs; width halves per iteration. Discontinuity invalidates the guarantee.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Earlier square-root integer recurrence and gradient descent. Difference: Certified bracketing by continuity for cube root two; no recurrence approximation or derivative-based optimizer.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Recognizable physical subject and useful setting; explicit connection to exact diagram; return to a changed physical condition. Restrained original vector artwork.",
+      "episode_variation": "A highlighted sign-changing interval halves around a continuous cubic; a jump supplies the failure case.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How can we narrow a root without solving a cubic?",
+        "visual_action": "A highlighted sign-changing interval halves around a continuous cubic; a jump supplies the failure case.",
+        "new_understanding": "Bisection preserves a root under continuity and opposite endpoint signs; width halves per iteration. Discontinuity invalidates the guarantee.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "We want the number whose cube is two. At one, the cube is too small. At two, it is too large.\n\nKeep a bracket with opposite signs for x cubed minus two. Because the curve is continuous, it must cross zero between them. Test the middle, one point five. Its cube is too large, so keep the left half.\n\nThe next middle is one point two five. Its cube is too small. Keep the right half. Two more tests narrow the bracket further. Each test preserves a root inside while cutting the interval width in half.\n\nAfter four halvings, the root lies between one point two five and one point three one two five. The interval is one sixteenth as wide as the original. Choosing its midpoint gives an error at most half that width. More steps buy a predictable accuracy.\n\nNow replace the curve with a jump from minus one to plus one. The signs still differ, but there is no zero. Continuity was the promise that made the bracket trustworthy. A sign change alone is not enough."
+    }
+  ],
+  "sources": [
+    "https://math.libretexts.org/Workbench/Numerical_Methods_with_Applications_(Kaw)/3%253A_Nonlinear_Equations/3.03%253A_Bisection_Methods_for_Solving_a_Nonlinear_Equation"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": [
+    "Two finite displayed diagonal constructions differ at every row-indexed bit.",
+    "General proof: for arbitrary sequence list s_n define d_n=1-s_n(n). d differs from each s_n at n. Thus no surjection from natural numbers to infinite binary sequences.",
+    "Finite displayed corner is illustration, not proof by finite exhaustion; no binary real expansion ambiguity is used."
+  ],
+  "method": "Independent exact arithmetic and general mathematical argument; finite checks alone do not prove generality."
+}

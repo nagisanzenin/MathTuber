@@ -1,0 +1,8 @@
+{
+  "physical_subject": "Why does a midpoint receive weight four?",
+  "relationship": "Simpson weights1,4,1 times width/6 integrate quadratics exactly; the same three-point estimate need not be exact for a quartic.",
+  "operation": "Compare trapezoid and midpoint areas before combining them; a quartic demonstrates the limit of exactness.",
+  "closest_prior": "Earlier fundamental theorem and area illustrations",
+  "substantive_difference": "Numerical quadrature from three samples, deriving weighting from midpoint and trapezoid estimates.",
+  "sequence_is_editorial_hypothesis": true
+}

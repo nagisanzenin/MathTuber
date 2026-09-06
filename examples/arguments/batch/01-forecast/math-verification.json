@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": [
+    "441 exact rational expected-score identities passed.",
+    "q=.8,p=.8 gives.16; p=1 gives.2. q=.5 minimum.25.",
+    "General expansion: q(1-p)^2+(1-q)p^2=q(1-q)+(p-q)^2; square nonnegative, equality iff p=q. Binary0/1 convention."
+  ],
+  "method": "Independent exact arithmetic and general mathematical argument; finite checks alone do not prove generality."
+}

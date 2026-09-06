@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "A straight line",
+      "end_cue": "That gives",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Two area estimates combine."
+    },
+    {
+      "id": "2",
+      "start_cue": "In terms",
+      "end_cue": "Try x to",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Weights and quadratic basis explain exactness."
+    },
+    {
+      "id": "3",
+      "start_cue": "Try x to",
+      "end_cue": "The values differ",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Quartic distinguishes approximation from exactness."
+    }
+  ]
+}

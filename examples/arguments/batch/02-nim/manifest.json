@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Binary Balance Hidden in Three Piles",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Three piles hold three, four, and five stones. Can you leave a difficult position?",
+        "In Nim, remove any positive number from one pile. Taking the last stone wins.",
+        "Write the sizes in binary, using columns worth four, two, and one.",
+        "Count the ones in each column. An odd count gives one; an even count gives zero. This is exclusive or.",
+        "Our result is zero, one, zero. It is not balanced.",
+        "Reduce the first pile from three to one.",
+        "Every column now has an even count. The exclusive or is zero.",
+        "Any legal move changes one pile, so it breaks this balance.",
+        "From a nonzero result, balance can always be restored.",
+        "Choose a pile containing the highest unmatched bit. Flipping the result bits in that pile makes it smaller, and makes the total zero.",
+        "Repeating this leaves the other player facing zero, until you take the last stone.",
+        "Try a reply: the other player reduces four to two.",
+        "The sizes are one, two, five. Their exclusive or is six.",
+        "Reduce five to three. The columns balance again.",
+        "This strategy assumes the last stone wins. Changing that rule changes the endgame."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Normal-play Nim has losing positions exactly when the bitwise XOR of all pile sizes is zero.",
+    "question": "What balance makes a Nim position difficult?",
+    "payoff": "Normal-play Nim has losing positions exactly when the bitwise XOR of all pile sizes is zero.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Earlier chocolate strategy stealing and bridges parity. Difference: Constructive binary invariant for normal-play Nim, not nonconstructive strategy stealing or Euler trails.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Recognizable physical subject and useful setting; explicit connection to exact diagram; return to a changed physical condition. Restrained original vector artwork.",
+      "episode_variation": "Stone piles map to binary rows; removing stones changes column parity.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "What balance makes a Nim position difficult?",
+        "visual_action": "Stone piles map to binary rows; removing stones changes column parity.",
+        "new_understanding": "Normal-play Nim has losing positions exactly when the bitwise XOR of all pile sizes is zero.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Three piles hold three, four, and five stones. Can you leave a difficult position? In Nim, remove any positive number from one pile. Taking the last stone wins.\n\nWrite the sizes in binary, using columns worth four, two, and one. Count the ones in each column. An odd count gives one; an even count gives zero. This is exclusive or. Our result is zero, one, zero. It is not balanced.\n\nReduce the first pile from three to one. Every column now has an even count. The exclusive or is zero. Any legal move changes one pile, so it breaks this balance.\n\nFrom a nonzero result, balance can always be restored. Choose a pile containing the highest unmatched bit. Flipping the result bits in that pile makes it smaller, and makes the total zero. Repeating this leaves the other player facing zero, until you take the last stone.\n\nTry a reply: the other player reduces four to two. The sizes are one, two, five. Their exclusive or is six. Reduce five to three. The columns balance again. This strategy assumes the last stone wins. Changing that rule changes the endgame."
+    }
+  ],
+  "sources": [
+    "https://people.cs.umass.edu/~barring/cs575f16/lecture/33.pdf"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

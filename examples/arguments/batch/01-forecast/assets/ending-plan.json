@@ -1,0 +1,7 @@
+{
+  "original_case": "Can uncertainty be the best forecast?",
+  "changed_condition": "Now suppose the true chance is one half.",
+  "viewer_inference": "This binary Brier score rewards honest probabilities in expectation. One surprising outcome alone cannot judge a forecaster.",
+  "resolution": "For Bernoulli truth q, expected binary Brier loss is q(1\u2212q)+(p\u2212q)\u00b2, uniquely minimized by p=q.",
+  "prerequisite": "Representations and operations introduced in this film"
+}

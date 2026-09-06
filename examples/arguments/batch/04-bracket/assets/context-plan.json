@@ -1,0 +1,8 @@
+{
+  "physical_subject": "How can we narrow a root without solving a cubic?",
+  "relationship": "Bisection preserves a root under continuity and opposite endpoint signs; width halves per iteration. Discontinuity invalidates the guarantee.",
+  "operation": "A highlighted sign-changing interval halves around a continuous cubic; a jump supplies the failure case.",
+  "closest_prior": "Earlier square-root integer recurrence and gradient descent",
+  "substantive_difference": "Certified bracketing by continuity for cube root two; no recurrence approximation or derivative-based optimizer.",
+  "sequence_is_editorial_hypothesis": true
+}
