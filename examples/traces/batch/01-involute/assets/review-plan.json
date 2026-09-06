@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "A thread unwinds",
+      "end_cue": "Pause where",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Taut thread generates the curve continuously."
+    },
+    {
+      "id": "2",
+      "start_cue": "As more thread",
+      "end_cue": "Rewind a little",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Released arc and free tangent grow together."
+    },
+    {
+      "id": "3",
+      "start_cue": "Rewind a little",
+      "end_cue": "This curve is called",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Explicit rewind and one-to-two length comparison."
+    }
+  ]
+}

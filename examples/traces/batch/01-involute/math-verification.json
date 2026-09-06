@@ -1,0 +1,170 @@
+{
+  "passed": true,
+  "method": "Independent constraints, algebra and numerical checks; rendered correspondence reviewed separately.",
+  "conditions": [
+    "Inextensible taut tangent segment unwinds from a fixed circular spool; released length R theta, endpoint O+R(cos theta+theta sin theta,sin theta-theta cos theta). Scene eases the geometric parameter; no claim about physical speed. Rewind explicitly narrated."
+  ],
+  "checks": [
+    {
+      "name": "tangent orthogonality 0.001",
+      "actual": -6.281088117069539e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "free length equals arc 0.001",
+      "actual": 0.0016499999999999865,
+      "expected": 0.00165,
+      "passed": true
+    },
+    {
+      "name": "radial distance 0.001",
+      "actual": 1.6500008249997937,
+      "expected": 1.6500008249997937,
+      "passed": true
+    },
+    {
+      "name": "tangent orthogonality 0.7",
+      "actual": 1.1102230246251565e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "free length equals arc 0.7",
+      "actual": 1.1549999999999998,
+      "expected": 1.1549999999999998,
+      "passed": true
+    },
+    {
+      "name": "radial distance 0.7",
+      "actual": 2.014081676596061,
+      "expected": 2.014081676596061,
+      "passed": true
+    },
+    {
+      "name": "tangent orthogonality 1.2",
+      "actual": 2.220446049250313e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "free length equals arc 1.2",
+      "actual": 1.9799999999999995,
+      "expected": 1.9799999999999998,
+      "passed": true
+    },
+    {
+      "name": "radial distance 1.2",
+      "actual": 2.5773823930491955,
+      "expected": 2.577382393049196,
+      "passed": true
+    },
+    {
+      "name": "tangent orthogonality 1.9",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "free length equals arc 1.9",
+      "actual": 3.135,
+      "expected": 3.135,
+      "passed": true
+    },
+    {
+      "name": "radial distance 1.9",
+      "actual": 3.542700241341341,
+      "expected": 3.542700241341341,
+      "passed": true
+    },
+    {
+      "name": "tangent orthogonality 2.15",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "free length equals arc 2.15",
+      "actual": 3.5475,
+      "expected": 3.5475,
+      "passed": true
+    },
+    {
+      "name": "radial distance 2.15",
+      "actual": 3.912448881455194,
+      "expected": 3.912448881455194,
+      "passed": true
+    },
+    {
+      "name": "tangent orthogonality 0.6060606060606061",
+      "actual": 1.1102230246251565e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "free length equals arc 0.6060606060606061",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "radial distance 0.6060606060606061",
+      "actual": 1.9293781381574737,
+      "expected": 1.9293781381574737,
+      "passed": true
+    },
+    {
+      "name": "tangent orthogonality 1.2121212121212122",
+      "actual": 2.220446049250313e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "free length equals arc 1.2121212121212122",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "radial distance 1.2121212121212122",
+      "actual": 2.5927784324928345,
+      "expected": 2.5927784324928345,
+      "passed": true
+    },
+    {
+      "name": "tangent orthogonality 2.6",
+      "actual": 4.440892098500626e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "free length equals arc 2.6",
+      "actual": 4.29,
+      "expected": 4.29,
+      "passed": true
+    },
+    {
+      "name": "radial distance 2.6",
+      "actual": 4.59636813147076,
+      "expected": 4.59636813147076,
+      "passed": true
+    },
+    {
+      "name": "one unit",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "two units",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "polyline endpoint error under 0.00001 drawing units",
+      "actual": 6.038306480772555e-06,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "physical_subject": "How can hinged rods copy an outline at twice the size?",
+  "relationship": "Similar triangles in an ideal pantograph keep the tracing and copying points on a common ray at a fixed distance ratio.",
+  "operation": "A fixed-ratio parallelogram linkage traces a leaf-like outline at two scales, with matching triangles exposed.",
+  "closest_prior": "objects/03-shadow and context/02-camera: similar-triangle optical measurements; old matrix/grid introductions",
+  "substantive_difference": "A constrained parallelogram copying instrument maintains homothety during arbitrary reachable planar tracing; the geometric invariant is built into rigid rods.",
+  "sequence_is_editorial_hypothesis": true
+}

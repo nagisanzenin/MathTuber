@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Two sliders move",
+      "end_cue": "The sliders and pencil",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Slider constraints and emerging pencil trace."
+    },
+    {
+      "id": "2",
+      "start_cue": "Turn back until",
+      "end_cue": "Continue turning",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Different horizontal and vertical reaches."
+    },
+    {
+      "id": "3",
+      "start_cue": "Now move the pencil",
+      "end_cue": "An ellipse and",
+      "end_offset": 3.1,
+      "samples": 9,
+      "purpose": "Centered pencil produces equal reaches and a circular trace."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "A small point",
+      "end_cue": "In this ideal model",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Fixed-length trailing geometry begins its trace."
+    },
+    {
+      "id": "2",
+      "start_cue": "Its direction is therefore",
+      "end_cue": "Keep pulling",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Thread supplies the tangent direction and constant tangent length."
+    },
+    {
+      "id": "3",
+      "start_cue": "Start again",
+      "end_cue": "A different length",
+      "end_offset": 2.3,
+      "samples": 9,
+      "purpose": "Shorter thread creates a second path for the same puller travel."
+    }
+  ]
+}

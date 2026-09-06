@@ -1,0 +1,1731 @@
+{
+  "passed": true,
+  "method": "Independent constraints, algebra and numerical checks; rendered correspondence reviewed separately.",
+  "conditions": [
+    "Ideal planar freely hinged parallelogram with OA=AD and DC=CQ; P=A+v,C=D+v,Q=D+2v. Similar triangles OAP and ODQ give Q=2P. Illustrated leaf-like path stays within linkage reach, away from singular extension."
+  ],
+  "checks": [
+    {
+      "name": "O-D rod 0.0",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 0.0",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 0.0",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 0.0",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 0.0",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 0.0",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 0.0",
+      "actual": 5.06296355902351,
+      "expected": 5.06296355902351,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 0.15707963267948966",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 0.15707963267948966",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 0.15707963267948966",
+      "actual": 1.5000000000000002,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 0.15707963267948966",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 0.15707963267948966",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 0.15707963267948966",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 0.15707963267948966",
+      "actual": 5.11918181822872,
+      "expected": 5.11918181822872,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 0.3141592653589793",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 0.3141592653589793",
+      "actual": 1.5,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 0.3141592653589793",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 0.3141592653589793",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 0.3141592653589793",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 0.3141592653589793",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 0.3141592653589793",
+      "actual": 5.154942542727465,
+      "expected": 5.154942542727465,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 0.47123889803846897",
+      "actual": 3.0000000000000004,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 0.47123889803846897",
+      "actual": 1.5000000000000002,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 0.47123889803846897",
+      "actual": 1.5,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 0.47123889803846897",
+      "actual": 3.0000000000000004,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 0.47123889803846897",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 0.47123889803846897",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 0.47123889803846897",
+      "actual": 5.1676206740228094,
+      "expected": 5.1676206740228094,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 0.6283185307179586",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 0.6283185307179586",
+      "actual": 1.5000000000000002,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 0.6283185307179586",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 0.6283185307179586",
+      "actual": 3.0000000000000004,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 0.6283185307179586",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 0.6283185307179586",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 0.6283185307179586",
+      "actual": 5.1550500492421865,
+      "expected": 5.1550500492421865,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 0.7853981633974483",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 0.7853981633974483",
+      "actual": 1.5,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 0.7853981633974483",
+      "actual": 1.5,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 0.7853981633974483",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 0.7853981633974483",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 0.7853981633974483",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 0.7853981633974483",
+      "actual": 5.1158791071164105,
+      "expected": 5.1158791071164105,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 0.9424777960769379",
+      "actual": 3.0000000000000004,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 0.9424777960769379",
+      "actual": 1.5000000000000002,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 0.9424777960769379",
+      "actual": 1.5000000000000002,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 0.9424777960769379",
+      "actual": 3.0000000000000004,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 0.9424777960769379",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 0.9424777960769379",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 0.9424777960769379",
+      "actual": 5.049885375352301,
+      "expected": 5.049885375352301,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 1.0995574287564276",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 1.0995574287564276",
+      "actual": 1.5000000000000002,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 1.0995574287564276",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 1.0995574287564276",
+      "actual": 3.0000000000000004,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 1.0995574287564276",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 1.0995574287564276",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 1.0995574287564276",
+      "actual": 4.958189015035963,
+      "expected": 4.958189015035963,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 1.2566370614359172",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 1.2566370614359172",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 1.2566370614359172",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 1.2566370614359172",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 1.2566370614359172",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 1.2566370614359172",
+      "actual": 4.440892098500626e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 1.2566370614359172",
+      "actual": 4.843326358135503,
+      "expected": 4.843326358135503,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 1.413716694115407",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 1.413716694115407",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 1.413716694115407",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 1.413716694115407",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 1.413716694115407",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 1.413716694115407",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 1.413716694115407",
+      "actual": 4.709169443987535,
+      "expected": 4.709169443987535,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 1.5707963267948966",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 1.5707963267948966",
+      "actual": 1.5,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 1.5707963267948966",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 1.5707963267948966",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 1.5707963267948966",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 1.5707963267948966",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 1.5707963267948966",
+      "actual": 4.560701700396552,
+      "expected": 4.560701700396552,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 1.7278759594743862",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 1.7278759594743862",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 1.7278759594743862",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 1.7278759594743862",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 1.7278759594743862",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 1.7278759594743862",
+      "actual": 2.220446049250313e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 1.7278759594743862",
+      "actual": 4.403679381606632,
+      "expected": 4.403679381606632,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 1.8849555921538759",
+      "actual": 3.0000000000000004,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 1.8849555921538759",
+      "actual": 1.5000000000000002,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 1.8849555921538759",
+      "actual": 1.5000000000000002,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 1.8849555921538759",
+      "actual": 3.0000000000000004,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 1.8849555921538759",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 1.8849555921538759",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 1.8849555921538759",
+      "actual": 4.244221023930019,
+      "expected": 4.244221023930019,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 2.0420352248333655",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 2.0420352248333655",
+      "actual": 1.5,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 2.0420352248333655",
+      "actual": 1.5000000000000002,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 2.0420352248333655",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 2.0420352248333655",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 2.0420352248333655",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 2.0420352248333655",
+      "actual": 4.088372303475014,
+      "expected": 4.088372303475014,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 2.199114857512855",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 2.199114857512855",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 2.199114857512855",
+      "actual": 1.5000000000000002,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 2.199114857512855",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 2.199114857512855",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 2.199114857512855",
+      "actual": 2.220446049250313e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 2.199114857512855",
+      "actual": 3.9416919758752655,
+      "expected": 3.9416919758752655,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 2.356194490192345",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 2.356194490192345",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 2.356194490192345",
+      "actual": 1.4999999999999996,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 2.356194490192345",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 2.356194490192345",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 2.356194490192345",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 2.356194490192345",
+      "actual": 3.8088981039186094,
+      "expected": 3.8088981039186094,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 2.5132741228718345",
+      "actual": 3.0000000000000004,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 2.5132741228718345",
+      "actual": 1.5,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 2.5132741228718345",
+      "actual": 1.5000000000000002,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 2.5132741228718345",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 2.5132741228718345",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 2.5132741228718345",
+      "actual": 2.220446049250313e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 2.5132741228718345",
+      "actual": 3.6936054494993242,
+      "expected": 3.6936054494993242,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 2.670353755551324",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 2.670353755551324",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 2.670353755551324",
+      "actual": 1.5000000000000002,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 2.670353755551324",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 2.670353755551324",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 2.670353755551324",
+      "actual": 2.220446049250313e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 2.670353755551324",
+      "actual": 3.5981771435467222,
+      "expected": 3.5981771435467222,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 2.827433388230814",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 2.827433388230814",
+      "actual": 1.5000000000000002,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 2.827433388230814",
+      "actual": 1.5000000000000002,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 2.827433388230814",
+      "actual": 3.0000000000000004,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 2.827433388230814",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 2.827433388230814",
+      "actual": 2.220446049250313e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 2.827433388230814",
+      "actual": 3.523706699613554,
+      "expected": 3.523706699613554,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 2.9845130209103035",
+      "actual": 3.0000000000000004,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 2.9845130209103035",
+      "actual": 1.5000000000000002,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 2.9845130209103035",
+      "actual": 1.5000000000000002,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 2.9845130209103035",
+      "actual": 3.0000000000000004,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 2.9845130209103035",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 2.9845130209103035",
+      "actual": 2.220446049250313e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 2.9845130209103035",
+      "actual": 3.4701372705215183,
+      "expected": 3.4701372705215183,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 3.141592653589793",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 3.141592653589793",
+      "actual": 1.5,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 3.141592653589793",
+      "actual": 1.5000000000000002,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 3.141592653589793",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 3.141592653589793",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 3.141592653589793",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 3.141592653589793",
+      "actual": 3.4365098573989283,
+      "expected": 3.4365098573989283,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 3.2986722862692828",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 3.2986722862692828",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 3.2986722862692828",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 3.2986722862692828",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 3.2986722862692828",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 3.2986722862692828",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 3.2986722862692828",
+      "actual": 3.4213099274897667,
+      "expected": 3.4213099274897667,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 3.4557519189487724",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 3.4557519189487724",
+      "actual": 1.5,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 3.4557519189487724",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 3.4557519189487724",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 3.4557519189487724",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 3.4557519189487724",
+      "actual": 2.220446049250313e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 3.4557519189487724",
+      "actual": 3.422857141955095,
+      "expected": 3.422857141955095,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 3.612831551628262",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 3.612831551628262",
+      "actual": 1.5,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 3.612831551628262",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 3.612831551628262",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 3.612831551628262",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 3.612831551628262",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 3.612831551628262",
+      "actual": 3.4396644948028228,
+      "expected": 3.4396644948028228,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 3.7699111843077517",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 3.7699111843077517",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 3.7699111843077517",
+      "actual": 1.5,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 3.7699111843077517",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 3.7699111843077517",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 3.7699111843077517",
+      "actual": 2.220446049250313e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 3.7699111843077517",
+      "actual": 3.4706899323158167,
+      "expected": 3.4706899323158167,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 3.9269908169872414",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 3.9269908169872414",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 3.9269908169872414",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 3.9269908169872414",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 3.9269908169872414",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 3.9269908169872414",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 3.9269908169872414",
+      "actual": 3.515420452999869,
+      "expected": 3.515420452999869,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 4.084070449666731",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 4.084070449666731",
+      "actual": 1.5000000000000002,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 4.084070449666731",
+      "actual": 1.5,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 4.084070449666731",
+      "actual": 3.0000000000000004,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 4.084070449666731",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 4.084070449666731",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 4.084070449666731",
+      "actual": 3.573765440567029,
+      "expected": 3.573765440567029,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 4.241150082346221",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 4.241150082346221",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 4.241150082346221",
+      "actual": 1.5,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 4.241150082346221",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 4.241150082346221",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 4.241150082346221",
+      "actual": 2.220446049250313e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 4.241150082346221",
+      "actual": 3.645786137885343,
+      "expected": 3.645786137885343,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 4.39822971502571",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 4.39822971502571",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 4.39822971502571",
+      "actual": 1.5000000000000002,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 4.39822971502571",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 4.39822971502571",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 4.39822971502571",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 4.39822971502571",
+      "actual": 3.7313383032850895,
+      "expected": 3.7313383032850895,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 4.5553093477052",
+      "actual": 3.0000000000000004,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 4.5553093477052",
+      "actual": 1.5,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 4.5553093477052",
+      "actual": 1.5000000000000002,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 4.5553093477052",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 4.5553093477052",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 4.5553093477052",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 4.5553093477052",
+      "actual": 3.8297363586459774,
+      "expected": 3.8297363586459774,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 4.71238898038469",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 4.71238898038469",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 4.71238898038469",
+      "actual": 1.5,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 4.71238898038469",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 4.71238898038469",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 4.71238898038469",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 4.71238898038469",
+      "actual": 3.939543120718442,
+      "expected": 3.939543120718442,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 4.869468613064179",
+      "actual": 3.0000000000000004,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 4.869468613064179",
+      "actual": 1.5000000000000002,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 4.869468613064179",
+      "actual": 1.5000000000000002,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 4.869468613064179",
+      "actual": 3.0000000000000004,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 4.869468613064179",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 4.869468613064179",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 4.869468613064179",
+      "actual": 4.058546475618287,
+      "expected": 4.058546475618287,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 5.026548245743669",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 5.026548245743669",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 5.026548245743669",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 5.026548245743669",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 5.026548245743669",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 5.026548245743669",
+      "actual": 4.440892098500626e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 5.026548245743669",
+      "actual": 4.183919211187092,
+      "expected": 4.183919211187092,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 5.183627878423159",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 5.183627878423159",
+      "actual": 1.5,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 5.183627878423159",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 5.183627878423159",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 5.183627878423159",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 5.183627878423159",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 5.183627878423159",
+      "actual": 4.312498225161234,
+      "expected": 4.312498225161234,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 5.340707511102648",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 5.340707511102648",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 5.340707511102648",
+      "actual": 1.4999999999999996,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 5.340707511102648",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 5.340707511102648",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 5.340707511102648",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 5.340707511102648",
+      "actual": 4.441087597884757,
+      "expected": 4.441087597884757,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 5.497787143782138",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 5.497787143782138",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 5.497787143782138",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 5.497787143782138",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 5.497787143782138",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 5.497787143782138",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 5.497787143782138",
+      "actual": 4.56669412529077,
+      "expected": 4.56669412529077,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 5.654866776461628",
+      "actual": 3.0000000000000004,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 5.654866776461628",
+      "actual": 1.5,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 5.654866776461628",
+      "actual": 1.5000000000000002,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 5.654866776461628",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 5.654866776461628",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 5.654866776461628",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 5.654866776461628",
+      "actual": 4.686636465128919,
+      "expected": 4.686636465128919,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 5.811946409141117",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 5.811946409141117",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 5.811946409141117",
+      "actual": 1.5000000000000002,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 5.811946409141117",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 5.811946409141117",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 5.811946409141117",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 5.811946409141117",
+      "actual": 4.798515465524024,
+      "expected": 4.798515465524024,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 5.969026041820607",
+      "actual": 3.0000000000000004,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 5.969026041820607",
+      "actual": 1.5000000000000002,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 5.969026041820607",
+      "actual": 1.5000000000000002,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 5.969026041820607",
+      "actual": 3.0000000000000004,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 5.969026041820607",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 5.969026041820607",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 5.969026041820607",
+      "actual": 4.900078677826561,
+      "expected": 4.900078677826561,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 6.126105674500097",
+      "actual": 3.0000000000000004,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 6.126105674500097",
+      "actual": 1.5,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 6.126105674500097",
+      "actual": 1.5,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 6.126105674500097",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 6.126105674500097",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 6.126105674500097",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 6.126105674500097",
+      "actual": 4.989044557185389,
+      "expected": 4.989044557185389,
+      "passed": true
+    },
+    {
+      "name": "O-D rod 6.283185307179586",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A-P rod 6.283185307179586",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "P-C rod 6.283185307179586",
+      "actual": 1.4999999999999998,
+      "expected": 1.5,
+      "passed": true
+    },
+    {
+      "name": "D-Q rod 6.283185307179586",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "A midpoint OD 6.283185307179586",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "C midpoint DQ 6.283185307179586",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "copy scale 6.283185307179586",
+      "actual": 5.06296355902351,
+      "expected": 5.06296355902351,
+      "passed": true
+    }
+  ]
+}

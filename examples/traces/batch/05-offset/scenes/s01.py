@@ -1,0 +1,20 @@
+from scenes._shared.design import *
+class Film(Stage):
+    def construct(self):
+        INK=self.palette['ink'];TEAL=self.palette['primary'];CORAL=self.palette['secondary'];O=np.array([0,-.8,0]);d=.6;a=2.3;GY=O[1]+d;lo=-PI/3;hi=PI/3;q=ValueTracker(lo)
+        def cross(t):return O+np.array([d*np.tan(t),d,0])
+        def tip(t):return cross(t)+a*np.array([np.sin(t),np.cos(t),0])
+        guide=Line([-3.3,GY,0],[3.3,GY,0],color='#B69D78',stroke_width=7);self.add(guide,self.bead(.13,'ink').move_to(O),self.label('fixed pivot',[0,-1.3,0]).scale(.75))
+        trace=self.trace_curve(tip,q.get_value,lo,hi,801,color='primary',stroke_width=5);self.add(trace)
+        ray=always_redraw(lambda:Line(O,tip(q.get_value()),color='#BDA989',stroke_width=3));step=always_redraw(lambda:Line(cross(q.get_value()),tip(q.get_value()),color=CORAL,stroke_width=6));dots=always_redraw(lambda:VGroup(Dot(cross(q.get_value()),color=INK,radius=.06),self.bead(.12,'secondary').move_to(tip(q.get_value()))));self.add(ray,step,dots)
+        claim=self.label('one fixed step',[0,4.1,0],role='claim');self.add(claim)
+        self.at('A rotating ray');self.play(q.animate.set_value(-.8),run_time=2,rate_func=smooth);self.at('From the crossing');self.play(q.animate.set_value(-.55),run_time=3,rate_func=smooth);self.at('That moving endpoint');self.play(q.animate.set_value(-.4),run_time=2,rate_func=smooth)
+        self.at('The step keeps');self.focus_outline(step,buff=.08,run_time=.8);self.at('It is measured');measure=self.label('along the ray',[0,-2.5,0],role='claim');self.play(FadeIn(measure),run_time=.4);self.at('That small distinction')
+        self.at('Turn the ray upright');self.play(q.animate.set_value(0),run_time=1.4,rate_func=smooth);self.at('The whole step');measure=self.replace_label(measure,self.label('height gained = full step',[0,-2.5,0],role='claim'),.4)
+        self.at('Tilt it sixty');measure=self.replace_label(measure,self.label('height changes with angle',[0,-2.5,0],role='claim'),.3);self.play(q.animate.set_value(hi),run_time=1.7,rate_func=smooth);angle=Arc(radius=.55,start_angle=PI/2-hi,angle=hi,arc_center=O,color=INK,stroke_width=3);sixty=self.label('60°',[.75,-.65,0]).scale(.7);upright=DashedLine(O,O+UP*.75,color=INK,stroke_width=2);self.play(Create(angle),Create(upright),FadeIn(sixty),run_time=.4)
+        self.at('Only half the step');measure=self.replace_label(measure,self.label('height gained = ½ step',[0,-2.5,0],role='claim'),.4);height=Line([tip(hi)[0],GY,0],tip(hi),color=INK,stroke_width=3);self.play(Create(height),run_time=.4)
+        self.at('Compare with a different rule');measure=self.replace_label(measure,self.label('same length · different directions',[0,-2.5,0],role='claim'),.3);trace.clear_updaters();trace.set_stroke(color=INK,opacity=.35,width=3);self.play(FadeOut(VGroup(angle,sixty,height,upright)),run_time=.4);normal=Line(cross(hi),cross(hi)+UP*a,color=TEAL,stroke_width=5);normaldot=self.bead(.11,'primary').move_to(cross(hi)+UP*a);self.play(Create(normal),FadeIn(normaldot),run_time=.7)
+        self.at('Those endpoints would');parallel=DashedLine([-3.3,GY+a,0],[3.3,GY+a,0],color=TEAL,stroke_width=3);self.play(Create(parallel),run_time=.6);measure=self.replace_label(measure,self.label('straight upward → equal height',[0,-2.5,0],role='claim'),.4)
+        self.at('Both rules use');self.at('Return to the slanting');self.play(FadeOut(VGroup(normal,normaldot,parallel)),run_time=.5);trace.set_stroke(color=TEAL,opacity=1,width=5);measure=self.replace_label(measure,self.label('along the ray → changing height',[0,-2.5,0],role='claim'),.4)
+        self.at('Its trace is one branch');claim=self.replace_label(claim,self.label('one conchoid branch',[0,4.1,0],role='claim'),.4)
+        self.at('As the direction changes');self.play(q.animate.set_value(lo),run_time=2.5,rate_func=smooth);self.at('Even a simple instruction');self.play(q.animate.set_value(0),run_time=2.5,rate_func=smooth);self.finish()

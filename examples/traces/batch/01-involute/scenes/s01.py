@@ -1,0 +1,22 @@
+from scenes._shared.design import *
+class Film(Stage):
+    def construct(self):
+        INK=self.palette['ink'];TEAL=self.palette['primary'];CORAL=self.palette['secondary'];R=1.65;O=np.array([-.9,.2,0]);q=ValueTracker(.001)
+        def contact(t):return O+R*np.array([np.cos(t),np.sin(t),0])
+        def tip(t):return O+R*np.array([np.cos(t)+t*np.sin(t),np.sin(t)-t*np.cos(t),0])
+        spool=Circle(radius=R,fill_color='#D7C39B',fill_opacity=.6,stroke_color='#9B8060',stroke_width=3).move_to(O);inner=Circle(radius=R-.12,color='#B79D73',stroke_width=2).move_to(O);hub=self.bead(.14,'ink').move_to(O);self.add(spool,inner,hub)
+        trace=self.trace_curve(tip,q.get_value,0,2.6,801,color='primary',stroke_width=5);self.add(trace)
+        thread=always_redraw(lambda:Line(contact(q.get_value()),tip(q.get_value()),color=CORAL,stroke_width=5));touch=always_redraw(lambda:Dot(contact(q.get_value()),radius=.065,color=INK));pen=always_redraw(lambda:self.bead(.12,'secondary').move_to(tip(q.get_value())));self.add(thread,touch,pen)
+        self.at('A thread unwinds');self.play(q.animate.set_value(.7),run_time=2.5,rate_func=smooth)
+        self.at('Keep it gently');self.play(q.animate.set_value(1.05),run_time=3,rate_func=smooth);self.at('The curve remembers');self.play(q.animate.set_value(1.2),run_time=2.2,rate_func=smooth)
+        self.at('Pause where');radius=Line(O,contact(q.get_value()),color=INK,stroke_width=3);self.play(Create(radius),run_time=.7);self.at('The straight part');self.focus_outline(thread,buff=.08,run_time=.8)
+        self.at('It stands at');t=q.get_value();er=np.array([np.cos(t),np.sin(t),0]);et=np.array([np.sin(t),-np.cos(t),0]);C=contact(t);right=VMobject(stroke_color=INK,stroke_width=2).set_points_as_corners([C-.2*er,C-.2*er+.2*et,C+.2*et]);self.play(Create(right),run_time=.5)
+        self.at('As more thread');self.play(FadeOut(VGroup(radius,right)),run_time=.3)
+        arc=always_redraw(lambda:Arc(radius=R,start_angle=0,angle=q.get_value(),arc_center=O,color=TEAL,stroke_width=7));self.add(arc);trace.set_stroke(color=INK,opacity=.4,width=3);self.play(q.animate.set_value(1.9),run_time=4,rate_func=smooth)
+        self.at('This colored arc');claim=self.label('released arc = free thread',[0,-2.15,0],role='claim');self.play(FadeIn(claim),run_time=.5)
+        self.at('The point is carried');self.play(q.animate.set_value(2.15),run_time=3,rate_func=smooth)
+        self.at('Rewind a little');self.play(q.animate.set_value(1/R),run_time=1.8,rate_func=smooth);measure=self.label('1 unit released',[0,-3.15,0]);self.play(FadeIn(measure),run_time=.3)
+        self.at('Release a second');measure=self.replace_label(measure,self.label('releasing…',[0,-3.15,0]),.2);self.play(q.animate.set_value(2/R),run_time=1.4,rate_func=smooth);measure=self.replace_label(measure,self.label('2 units released',[0,-3.15,0]),.3)
+        self.at('The free section doubles');radial=Line(O,tip(q.get_value()),color=INK,stroke_width=2);self.play(Create(radial),run_time=.5);self.at('Those are different');self.play(FadeOut(radial),run_time=.3)
+        self.at('This curve is called');claim=self.replace_label(claim,self.label('involute of a circle',[0,-2.15,0],role='claim'),.5);self.play(FadeOut(measure),run_time=.3)
+        arc.clear_updaters();self.play(FadeOut(arc),run_time=.3);trace.set_stroke(color=TEAL,opacity=1,width=5);self.at('Our thread does');self.at('Let it unwind');self.play(q.animate.set_value(2.6),run_time=2.0,rate_func=smooth);self.at('A simple constraint');self.finish()

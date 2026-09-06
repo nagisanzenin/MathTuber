@@ -1,0 +1,579 @@
+{
+  "passed": true,
+  "method": "Independent constraints, algebra and numerical checks; rendered correspondence reviewed separately.",
+  "conditions": [
+    "Positive ray-wise offset branch, pole below horizontal guide by d=0.6; fixed added length a=2.3 and angle within plus/minus60 degrees of upward normal. Other conchoid branch not shown. Perpendicular offsets use a different direction rule."
+  ],
+  "checks": [
+    {
+      "name": "fixed ray step -1.0471975511965976",
+      "actual": 2.3,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection -1.0471975511965976",
+      "actual": 1.15,
+      "expected": 1.1500000000000001,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid -1.0471975511965976",
+      "actual": 16.20062499999999,
+      "expected": 16.200625,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step -0.9773843811168245",
+      "actual": 2.2999999999999994,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection -0.9773843811168245",
+      "actual": 1.2861436779827176,
+      "expected": 1.2861436779827178,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid -0.9773843811168245",
+      "actual": 18.819375882429167,
+      "expected": 18.819375882429174,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step -0.9075712110370513",
+      "actual": 2.3,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection -0.9075712110370513",
+      "actual": 1.416021393249014,
+      "expected": 1.4160213932490142,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid -0.9075712110370513",
+      "actual": 21.500370545019404,
+      "expected": 21.500370545019408,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step -0.837758040957278",
+      "actual": 2.3,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection -0.837758040957278",
+      "actual": 1.5390003946253739,
+      "expected": 1.539000394625374,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid -0.837758040957278",
+      "actual": 24.203457020617694,
+      "expected": 24.203457020617698,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step -0.767944870877505",
+      "actual": 2.3,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection -0.767944870877505",
+      "actual": 1.6544815407788973,
+      "expected": 1.6544815407788975,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid -0.767944870877505",
+      "actual": 26.887414323700654,
+      "expected": 26.88741432370066,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step -0.6981317007977317",
+      "actual": 2.3,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection -0.6981317007977317",
+      "actual": 1.7619022191736495,
+      "expected": 1.7619022191736495,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid -0.6981317007977317",
+      "actual": 29.510699271638895,
+      "expected": 29.5106992716389,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step -0.6283185307179585",
+      "actual": 2.3,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection -0.6283185307179585",
+      "actual": 1.8607390870623788,
+      "expected": 1.860739087062379,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid -0.6283185307179585",
+      "actual": 32.03220296081595,
+      "expected": 32.03220296081596,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step -0.5585053606381853",
+      "actual": 2.3,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection -0.5585053606381853",
+      "actual": 1.9505106211597796,
+      "expected": 1.9505106211597798,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid -0.5585053606381853",
+      "actual": 34.41200242755238,
+      "expected": 34.41200242755239,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step -0.4886921905584122",
+      "actual": 2.3,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection -0.4886921905584122",
+      "actual": 2.030779463575532,
+      "expected": 2.030779463575532,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid -0.4886921905584122",
+      "actual": 36.61209309978534,
+      "expected": 36.61209309978534,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step -0.418879020478639",
+      "actual": 2.3000000000000003,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection -0.418879020478639",
+      "actual": 2.1011545525779822,
+      "expected": 2.1011545525779822,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid -0.418879020478639",
+      "actual": 38.5970880004685,
+      "expected": 38.597088000468496,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step -0.34906585039886584",
+      "actual": 2.3,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection -0.34906585039886584",
+      "actual": 2.1612930278075893,
+      "expected": 2.1612930278075893,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid -0.34906585039886584",
+      "actual": 40.33487029086547,
+      "expected": 40.33487029086547,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step -0.27925268031909267",
+      "actual": 2.3,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection -0.27925268031909267",
+      "actual": 2.210901900658133,
+      "expected": 2.210901900658133,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid -0.27925268031909267",
+      "actual": 41.797186629203345,
+      "expected": 41.79718662920334,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step -0.2094395102393194",
+      "actual": 2.3,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection -0.2094395102393194",
+      "actual": 2.2497394816877527,
+      "expected": 2.2497394816877527,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid -0.2094395102393194",
+      "actual": 42.960169950361994,
+      "expected": 42.960169950361994,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step -0.13962634015954623",
+      "actual": 2.3,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection -0.13962634015954623",
+      "actual": 2.2776165581056116,
+      "expected": 2.2776165581056116,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid -0.13962634015954623",
+      "actual": 43.80478162350816,
+      "expected": 43.80478162350816,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step -0.06981317007977306",
+      "actual": 2.3,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection -0.06981317007977306",
+      "actual": 2.2943973155975956,
+      "expected": 2.2943973155975956,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid -0.06981317007977306",
+      "actual": 44.31716449064903,
+      "expected": 44.31716449064902,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step 0.0",
+      "actual": 2.3,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection 0.0",
+      "actual": 2.3,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid 0.0",
+      "actual": 44.488899999999994,
+      "expected": 44.488899999999994,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step 0.06981317007977328",
+      "actual": 2.3,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection 0.06981317007977328",
+      "actual": 2.2943973155975956,
+      "expected": 2.2943973155975956,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid 0.06981317007977328",
+      "actual": 44.31716449064903,
+      "expected": 44.31716449064902,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step 0.13962634015954656",
+      "actual": 2.3,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection 0.13962634015954656",
+      "actual": 2.2776165581056116,
+      "expected": 2.2776165581056116,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid 0.13962634015954656",
+      "actual": 43.80478162350816,
+      "expected": 43.80478162350816,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step 0.20943951023931962",
+      "actual": 2.3,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection 0.20943951023931962",
+      "actual": 2.2497394816877527,
+      "expected": 2.2497394816877527,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid 0.20943951023931962",
+      "actual": 42.960169950361994,
+      "expected": 42.960169950361994,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step 0.2792526803190929",
+      "actual": 2.3,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection 0.2792526803190929",
+      "actual": 2.210901900658133,
+      "expected": 2.210901900658133,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid 0.2792526803190929",
+      "actual": 41.797186629203345,
+      "expected": 41.79718662920334,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step 0.34906585039886595",
+      "actual": 2.2999999999999994,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection 0.34906585039886595",
+      "actual": 2.161293027807589,
+      "expected": 2.161293027807589,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid 0.34906585039886595",
+      "actual": 40.33487029086544,
+      "expected": 40.33487029086545,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step 0.41887902047863923",
+      "actual": 2.3,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection 0.41887902047863923",
+      "actual": 2.101154552577982,
+      "expected": 2.101154552577982,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid 0.41887902047863923",
+      "actual": 38.59708800046848,
+      "expected": 38.59708800046848,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step 0.4886921905584123",
+      "actual": 2.3,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection 0.4886921905584123",
+      "actual": 2.030779463575532,
+      "expected": 2.030779463575532,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid 0.4886921905584123",
+      "actual": 36.61209309978534,
+      "expected": 36.61209309978534,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step 0.5585053606381856",
+      "actual": 2.2999999999999994,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection 0.5585053606381856",
+      "actual": 1.9505106211597791,
+      "expected": 1.9505106211597794,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid 0.5585053606381856",
+      "actual": 34.412002427552366,
+      "expected": 34.41200242755237,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step 0.6283185307179588",
+      "actual": 2.3,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection 0.6283185307179588",
+      "actual": 1.8607390870623788,
+      "expected": 1.8607390870623788,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid 0.6283185307179588",
+      "actual": 32.03220296081596,
+      "expected": 32.03220296081596,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step 0.6981317007977319",
+      "actual": 2.3,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection 0.6981317007977319",
+      "actual": 1.761902219173649,
+      "expected": 1.7619022191736493,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid 0.6981317007977319",
+      "actual": 29.510699271638888,
+      "expected": 29.510699271638888,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step 0.7679448708775052",
+      "actual": 2.3,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection 0.7679448708775052",
+      "actual": 1.6544815407788969,
+      "expected": 1.654481540778897,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid 0.7679448708775052",
+      "actual": 26.88741432370064,
+      "expected": 26.88741432370065,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step 0.8377580409572782",
+      "actual": 2.3,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection 0.8377580409572782",
+      "actual": 1.5390003946253739,
+      "expected": 1.5390003946253739,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid 0.8377580409572782",
+      "actual": 24.2034570206177,
+      "expected": 24.203457020617698,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step 0.9075712110370515",
+      "actual": 2.3,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection 0.9075712110370515",
+      "actual": 1.4160213932490135,
+      "expected": 1.4160213932490138,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid 0.9075712110370515",
+      "actual": 21.500370545019397,
+      "expected": 21.5003705450194,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step 0.9773843811168248",
+      "actual": 2.3,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection 0.9773843811168248",
+      "actual": 1.2861436779827171,
+      "expected": 1.2861436779827171,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid 0.9773843811168248",
+      "actual": 18.819375882429163,
+      "expected": 18.819375882429167,
+      "passed": true
+    },
+    {
+      "name": "fixed ray step 1.0471975511965976",
+      "actual": 2.3,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "height projection 1.0471975511965976",
+      "actual": 1.15,
+      "expected": 1.1500000000000001,
+      "passed": true
+    },
+    {
+      "name": "rotated implicit conchoid 1.0471975511965976",
+      "actual": 16.20062499999999,
+      "expected": 16.200625,
+      "passed": true
+    },
+    {
+      "name": "upright height",
+      "actual": 2.3,
+      "expected": 2.3,
+      "passed": true
+    },
+    {
+      "name": "sixty degree height",
+      "actual": 1.1500000000000001,
+      "expected": 1.15,
+      "passed": true
+    }
+  ]
+}

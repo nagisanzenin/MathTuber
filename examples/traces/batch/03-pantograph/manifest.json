@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Rods That Quietly Copy a Shape",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "One point follows a small outline.",
+        "Another point draws the same shape, twice as large.",
+        "The rods between them are doing the copying.",
+        "Pause and look at the fixed pivot.",
+        "Two sides form a small triangle, and two longer sides form a larger one.",
+        "Their directions match because opposite sides of the hinged parallelogram stay parallel.",
+        "The long side from the pivot is twice its matching short side.",
+        "The triangles therefore have the same shape at a scale of two.",
+        "The copying point stays twice as far from the pivot as the tracing point.",
+        "Let the points move again.",
+        "Every part of the small outline gets the same enlargement.",
+        "Lengths double, while angles keep their size.",
+        "This drawing tool is a pantograph.",
+        "Its ideal rods keep fixed lengths, and its joints turn freely.",
+        "Swap which point traces and which point draws.",
+        "The same arrangement can make a copy half as large."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Similar triangles in an ideal pantograph keep the tracing and copying points on a common ray at a fixed distance ratio.",
+    "question": "How can hinged rods copy an outline at twice the size?",
+    "payoff": "Similar triangles in an ideal pantograph keep the tracing and copying points on a common ray at a fixed distance ratio.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: objects/03-shadow and context/02-camera: similar-triangle optical measurements; old matrix/grid introductions. Difference: A constrained parallelogram copying instrument maintains homothety during arbitrary reachable planar tracing; the geometric invariant is built into rigid rods.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "A continuous constrained operation creates a retained curve; sparse measurements reveal the reason, with no decorative motion.",
+      "episode_variation": "A fixed-ratio parallelogram linkage traces a leaf-like outline at two scales, with matching triangles exposed.",
+      "exceptions": [
+        "Geometric parameter is eased for inspection; no physical time claim."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How can hinged rods copy an outline at twice the size?",
+        "visual_action": "A fixed-ratio parallelogram linkage traces a leaf-like outline at two scales, with matching triangles exposed.",
+        "new_understanding": "Similar triangles in an ideal pantograph keep the tracing and copying points on a common ray at a fixed distance ratio.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "One point follows a small outline. Another point draws the same shape, twice as large. The rods between them are doing the copying.\n\nPause and look at the fixed pivot. Two sides form a small triangle, and two longer sides form a larger one. Their directions match because opposite sides of the hinged parallelogram stay parallel.\n\nThe long side from the pivot is twice its matching short side. The triangles therefore have the same shape at a scale of two. The copying point stays twice as far from the pivot as the tracing point.\n\nLet the points move again. Every part of the small outline gets the same enlargement. Lengths double, while angles keep their size.\n\nThis drawing tool is a pantograph. Its ideal rods keep fixed lengths, and its joints turn freely. Swap which point traces and which point draws. The same arrangement can make a copy half as large."
+    }
+  ],
+  "sources": [
+    "https://mathworld.wolfram.com/Pantograph.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

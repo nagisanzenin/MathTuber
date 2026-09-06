@@ -1,0 +1,8 @@
+{
+  "physical_subject": "How can two straight sliding tracks draw an ellipse?",
+  "relationship": "A point dividing a rod between perpendicular sliders has coordinates a cos theta and b sin theta; equal distances produce a circle.",
+  "operation": "A fixed bar carries an off-center pencil around an ellipse, then a centered pencil around a circle.",
+  "closest_prior": "quiet/01-ellipse: focal-distance and reflection; old Tusi couple: circle rolling inside circle",
+  "substantive_difference": "A rigid bar with perpendicular sliders generates an ellipse through unequal projections, then an internal midpoint generates a circle; no focal reflection or rolling-circle mechanism.",
+  "sequence_is_editorial_hypothesis": true
+}

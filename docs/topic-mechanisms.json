@@ -490,6 +490,41 @@
       "learning_goal": "Ideal triangular pluck modal coefficients include sin(n pi d/L), eliminating even modes at the midpoint and multiples of three at one third.",
       "visual_mechanism": "Change the triangular starting displacement from midpoint to one third; show the corresponding missing modes and hear a synthetic six-mode mixture.",
       "narration": "The same string can sound different depending on where we pluck it. Its length and tension have not changed. Listen to a simple midpoint pluck.\n\nA string has many possible vibration patterns. The starting shape decides how strongly each one joins the motion. A midpoint pluck leaves out the even-numbered modes.\n\nNow pluck one third of the way along. Modes three, six, and nine drop out instead. Their pattern has a still point exactly where this ideal pluck begins.\n\nThe allowed frequencies stay the same. What changes is their share in the mixture. Here is the one-third pluck, using the first six modeled modes.\n\nMathematically, each share includes the sine of mode number times pi times the pluck fraction. When that sine is zero, that mode is absent. Real strings and instrument bodies add more detail than these synthesized illustrations. Where a small gesture begins can change the character of the whole sound."
+    },
+    {
+      "project": "examples/traces/batch/01-involute",
+      "title": "The Curve Left by a Quiet Thread",
+      "learning_goal": "The free tangent segment equals the released arc length; the resulting endpoint follows a circle involute.",
+      "visual_mechanism": "Release a thread from a spool, retain its trace, and compare the released arc with the straight section.",
+      "narration": "A thread unwinds from a round spool. Keep it gently taut, and its end draws a curve. The curve remembers how the thread was released.\n\nPause where the thread leaves the circle. The straight part just touches the rim. It stands at a right angle to the radius here.\n\nAs more thread leaves the spool, the free part grows by exactly the length released. This colored arc and this straight section have equal lengths. The point is carried by both a turning direction and a growing thread.\n\nRewind a little and mark one unit of released thread. Release a second unit. The free section doubles, but the distance from the center does not. Those are different measurements.\n\nThis curve is called an involute of a circle. Our thread does not stretch, and the straight section stays taut. Let it unwind a little further. A simple constraint can leave an unexpectedly graceful trace."
+    },
+    {
+      "project": "examples/traces/batch/02-trammel",
+      "title": "Two Straight Tracks and One Gentle Curve",
+      "learning_goal": "A point dividing a rod between perpendicular sliders has coordinates a cos theta and b sin theta; equal distances produce a circle.",
+      "visual_mechanism": "A fixed bar carries an off-center pencil around an ellipse, then a centered pencil around a circle.",
+      "narration": "Two sliders move along straight tracks. One moves sideways, and the other moves up and down. A pencil between them begins to draw an ellipse.\n\nThe sliders and pencil sit on one rigid bar. Our pencil is one unit from the horizontal slider and two from the vertical slider. Those two fixed distances give it two different reaches.\n\nTurn back until the bar is horizontal. The pencil reaches two units sideways. Turn the bar upright. Now it reaches only one unit upward.\n\nContinue turning, and those two reaches combine into an ellipse. The bar keeps its length while both sliders stay on their tracks. A curved path is growing from two straight constraints.\n\nNow move the pencil to the middle of the same bar. It is equally far from both sliders. Both reaches become equal, and the new trace is a circle. An ellipse and a circle can come from the same quiet motion."
+    },
+    {
+      "project": "examples/traces/batch/03-pantograph",
+      "title": "The Rods That Quietly Copy a Shape",
+      "learning_goal": "Similar triangles in an ideal pantograph keep the tracing and copying points on a common ray at a fixed distance ratio.",
+      "visual_mechanism": "A fixed-ratio parallelogram linkage traces a leaf-like outline at two scales, with matching triangles exposed.",
+      "narration": "One point follows a small outline. Another point draws the same shape, twice as large. The rods between them are doing the copying.\n\nPause and look at the fixed pivot. Two sides form a small triangle, and two longer sides form a larger one. Their directions match because opposite sides of the hinged parallelogram stay parallel.\n\nThe long side from the pivot is twice its matching short side. The triangles therefore have the same shape at a scale of two. The copying point stays twice as far from the pivot as the tracing point.\n\nLet the points move again. Every part of the small outline gets the same enlargement. Lengths double, while angles keep their size.\n\nThis drawing tool is a pantograph. Its ideal rods keep fixed lengths, and its joints turn freely. Swap which point traces and which point draws. The same arrangement can make a copy half as large."
+    },
+    {
+      "project": "examples/traces/batch/04-tractrix",
+      "title": "The Curve at the End of a Taut Thread",
+      "learning_goal": "A trailing point constrained to move along a fixed-length tangent toward a straight-moving puller traces a tractrix and approaches the line asymptotically.",
+      "visual_mechanism": "A straight-moving tractor pulls an ideal trailing point, preserving tangent length; a shorter thread gives a scaled comparison.",
+      "narration": "A small point is pulled by a taut thread. The other end moves along this straight line. The trailing point draws a curve as it follows.\n\nIn this ideal model, the trailing point moves only along the thread. The thread does not stretch. Its direction is therefore the direction of the curve at that point.\n\nPause and look at the thread. It reaches from the curve to the straight line, and its length stays the same. This constant tangent length defines a curve called the tractrix.\n\nKeep pulling along the line. The trailing point comes closer, while the thread turns toward the direction of travel. The gap keeps shrinking, but this ideal curve never quite reaches the line at a finite pull distance.\n\nStart again with a thread half as long. The point begins closer to the line and follows a smaller version of the curve. At the same pulling distance, it hugs the line more closely. A different length changes the shape of the journey."
+    },
+    {
+      "project": "examples/traces/batch/05-offset",
+      "title": "The Same Step Can Reach Different Heights",
+      "learning_goal": "A fixed ray-wise offset from a line creates a conchoid branch; its perpendicular height gain is the step length times cosine of the angle from the normal.",
+      "visual_mechanism": "Compare equal steps along rotating rays with equal perpendicular steps from a straight guide.",
+      "narration": "A rotating ray crosses a straight guide. From the crossing, take the same fixed step along the ray. That moving endpoint draws a curve.\n\nThe step keeps its length while its direction changes. It is measured along the ray, not straight upward from the guide. That small distinction matters.\n\nTurn the ray upright. The whole step now adds height. Tilt it sixty degrees away from upright. Only half the step now contributes to height.\n\nCompare with a different rule: always take the step straight upward. Those endpoints would sit on a straight line parallel to the guide. Both rules use the same step length, but they measure in different directions.\n\nReturn to the slanting step. Its trace is one branch of a conchoid. As the direction changes, the height changes with it. Even a simple instruction can contain a hidden choice of geometry."
     }
   ]
 }

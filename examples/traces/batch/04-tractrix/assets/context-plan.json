@@ -1,0 +1,8 @@
+{
+  "physical_subject": "What path follows a straight-moving puller through a fixed thread?",
+  "relationship": "A trailing point constrained to move along a fixed-length tangent toward a straight-moving puller traces a tractrix and approaches the line asymptotically.",
+  "operation": "A straight-moving tractor pulls an ideal trailing point, preserving tangent length; a shorter thread gives a scaled comparison.",
+  "closest_prior": "linked/02-pursuit: four equal-speed chasers; old catenary: hanging chain equilibrium",
+  "substantive_difference": "One tractor moves along a line while a fixed-length tangent constrains a follower; the speed of the follower is not assumed equal to the tractor and no hanging-chain balance is taught.",
+  "sequence_is_editorial_hypothesis": true
+}

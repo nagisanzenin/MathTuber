@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Curve Left by a Quiet Thread",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A thread unwinds from a round spool.",
+        "Keep it gently taut, and its end draws a curve.",
+        "The curve remembers how the thread was released.",
+        "Pause where the thread leaves the circle.",
+        "The straight part just touches the rim.",
+        "It stands at a right angle to the radius here.",
+        "As more thread leaves the spool, the free part grows by exactly the length released.",
+        "This colored arc and this straight section have equal lengths.",
+        "The point is carried by both a turning direction and a growing thread.",
+        "Rewind a little and mark one unit of released thread.",
+        "Release a second unit.",
+        "The free section doubles, but the distance from the center does not.",
+        "Those are different measurements.",
+        "This curve is called an involute of a circle.",
+        "Our thread does not stretch, and the straight section stays taut.",
+        "Let it unwind a little further.",
+        "A simple constraint can leave an unexpectedly graceful trace."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "The free tangent segment equals the released arc length; the resulting endpoint follows a circle involute.",
+    "question": "What curve does the end of a taut unwinding thread draw?",
+    "payoff": "The free tangent segment equals the released arc length; the resulting endpoint follows a circle involute.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: flow/05-spiral: multiplicative radial growth; focal/05-gears: tooth count ratio. Difference: Unwinding tangent length determines a new curve; no logarithmic growth law or gear-speed claim.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "A continuous constrained operation creates a retained curve; sparse measurements reveal the reason, with no decorative motion.",
+      "episode_variation": "Release a thread from a spool, retain its trace, and compare the released arc with the straight section.",
+      "exceptions": [
+        "Geometric parameter is eased for inspection; no physical time claim."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "What curve does the end of a taut unwinding thread draw?",
+        "visual_action": "Release a thread from a spool, retain its trace, and compare the released arc with the straight section.",
+        "new_understanding": "The free tangent segment equals the released arc length; the resulting endpoint follows a circle involute.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A thread unwinds from a round spool. Keep it gently taut, and its end draws a curve. The curve remembers how the thread was released.\n\nPause where the thread leaves the circle. The straight part just touches the rim. It stands at a right angle to the radius here.\n\nAs more thread leaves the spool, the free part grows by exactly the length released. This colored arc and this straight section have equal lengths. The point is carried by both a turning direction and a growing thread.\n\nRewind a little and mark one unit of released thread. Release a second unit. The free section doubles, but the distance from the center does not. Those are different measurements.\n\nThis curve is called an involute of a circle. Our thread does not stretch, and the straight section stays taut. Let it unwind a little further. A simple constraint can leave an unexpectedly graceful trace."
+    }
+  ],
+  "sources": [
+    "https://mathworld.wolfram.com/CircleInvolute.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "physical_subject": "Does a fixed step beyond a line always produce a parallel line?",
+  "relationship": "A fixed ray-wise offset from a line creates a conchoid branch; its perpendicular height gain is the step length times cosine of the angle from the normal.",
+  "operation": "Compare equal steps along rotating rays with equal perpendicular steps from a straight guide.",
+  "closest_prior": "old dot-product/projection introduction; objects/03-shadow: sun-angle proportions",
+  "substantive_difference": "Compares two fixed-distance offset definitions to generate distinct loci; a ray-wise conchoid branch versus a perpendicular parallel line. No generic dot-product lesson or shadow-height measurement.",
+  "sequence_is_editorial_hypothesis": true
+}

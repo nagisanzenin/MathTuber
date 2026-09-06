@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "The Curve at the End of a Taut Thread",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A small point is pulled by a taut thread.",
+        "The other end moves along this straight line.",
+        "The trailing point draws a curve as it follows.",
+        "In this ideal model, the trailing point moves only along the thread.",
+        "The thread does not stretch.",
+        "Its direction is therefore the direction of the curve at that point.",
+        "Pause and look at the thread.",
+        "It reaches from the curve to the straight line, and its length stays the same.",
+        "This constant tangent length defines a curve called the tractrix.",
+        "Keep pulling along the line.",
+        "The trailing point comes closer, while the thread turns toward the direction of travel.",
+        "The gap keeps shrinking, but this ideal curve never quite reaches the line at a finite pull distance.",
+        "Start again with a thread half as long.",
+        "The point begins closer to the line and follows a smaller version of the curve.",
+        "At the same pulling distance, it hugs the line more closely.",
+        "A different length changes the shape of the journey."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "A trailing point constrained to move along a fixed-length tangent toward a straight-moving puller traces a tractrix and approaches the line asymptotically.",
+    "question": "What path follows a straight-moving puller through a fixed thread?",
+    "payoff": "A trailing point constrained to move along a fixed-length tangent toward a straight-moving puller traces a tractrix and approaches the line asymptotically.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: linked/02-pursuit: four equal-speed chasers; old catenary: hanging chain equilibrium. Difference: One tractor moves along a line while a fixed-length tangent constrains a follower; the speed of the follower is not assumed equal to the tractor and no hanging-chain balance is taught.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "A continuous constrained operation creates a retained curve; sparse measurements reveal the reason, with no decorative motion.",
+      "episode_variation": "A straight-moving tractor pulls an ideal trailing point, preserving tangent length; a shorter thread gives a scaled comparison.",
+      "exceptions": [
+        "Geometric parameter is eased for inspection; no physical time claim."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "What path follows a straight-moving puller through a fixed thread?",
+        "visual_action": "A straight-moving tractor pulls an ideal trailing point, preserving tangent length; a shorter thread gives a scaled comparison.",
+        "new_understanding": "A trailing point constrained to move along a fixed-length tangent toward a straight-moving puller traces a tractrix and approaches the line asymptotically.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A small point is pulled by a taut thread. The other end moves along this straight line. The trailing point draws a curve as it follows.\n\nIn this ideal model, the trailing point moves only along the thread. The thread does not stretch. Its direction is therefore the direction of the curve at that point.\n\nPause and look at the thread. It reaches from the curve to the straight line, and its length stays the same. This constant tangent length defines a curve called the tractrix.\n\nKeep pulling along the line. The trailing point comes closer, while the thread turns toward the direction of travel. The gap keeps shrinking, but this ideal curve never quite reaches the line at a finite pull distance.\n\nStart again with a thread half as long. The point begins closer to the line and follows a smaller version of the curve. At the same pulling distance, it hugs the line more closely. A different length changes the shape of the journey."
+    }
+  ],
+  "sources": [
+    "https://mathworld.wolfram.com/Tractrix.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.6.0",
+    "path": "assets/profile-3901ec0b7a0afaf1.json",
+    "sha256": "f0864b3431c60e0580a347dac72fcc319429d7278b12ea17c2ada2121b7d86f0"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

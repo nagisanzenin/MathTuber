@@ -1,0 +1,753 @@
+{
+  "passed": true,
+  "method": "Independent constraints, algebra and numerical checks; rendered correspondence reviewed separately.",
+  "conditions": [
+    "Ideal no-sideways-motion follower, fixed taut length a; tractor distance s is the independent parameter. Horizontal gap a sech(s/a)>0 for finite s; trailing vertical lag a tanh(s/a). Not an inertial physical sled simulation. Half length scales the entire geometric curve relative to its origin."
+  ],
+  "checks": [
+    {
+      "name": "thread length a1 s0.01",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s0.01",
+      "actual": -5.827586677109586e-19,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s0.2096666666666667",
+      "actual": 0.9999999999999999,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s0.2096666666666667",
+      "actual": -1.3877787807814457e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s0.4093333333333334",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s0.4093333333333334",
+      "actual": -2.7755575615628914e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s0.6090000000000001",
+      "actual": 0.9999999999999999,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s0.6090000000000001",
+      "actual": 2.7755575615628914e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s0.8086666666666668",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s0.8086666666666668",
+      "actual": 5.551115123125783e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s1.0083333333333333",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s1.0083333333333333",
+      "actual": -1.1102230246251565e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s1.2080000000000002",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s1.2080000000000002",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s1.4076666666666668",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s1.4076666666666668",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s1.6073333333333335",
+      "actual": 0.9999999999999999,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s1.6073333333333335",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s1.8070000000000002",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s1.8070000000000002",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s2.006666666666667",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s2.006666666666667",
+      "actual": -2.7755575615628914e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s2.2063333333333333",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s2.2063333333333333",
+      "actual": -2.7755575615628914e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s2.406",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s2.406",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s2.6056666666666666",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s2.6056666666666666",
+      "actual": 8.326672684688674e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s2.8053333333333335",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s2.8053333333333335",
+      "actual": 2.7755575615628914e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s3.005",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s3.005",
+      "actual": 1.3877787807814457e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s3.2046666666666668",
+      "actual": 0.9999999999999999,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s3.2046666666666668",
+      "actual": -4.163336342344337e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s3.4043333333333337",
+      "actual": 0.9999999999999999,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s3.4043333333333337",
+      "actual": 2.7755575615628914e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s3.604",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s3.604",
+      "actual": -4.85722573273506e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s3.803666666666667",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s3.803666666666667",
+      "actual": -4.85722573273506e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s4.003333333333334",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s4.003333333333334",
+      "actual": 6.938893903907228e-18,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s4.203",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s4.203",
+      "actual": -3.8163916471489756e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s4.402666666666667",
+      "actual": 0.9999999999999999,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s4.402666666666667",
+      "actual": 5.204170427930421e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s4.602333333333333",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s4.602333333333333",
+      "actual": -1.0408340855860843e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s4.8020000000000005",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s4.8020000000000005",
+      "actual": 3.469446951953614e-18,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s5.001666666666667",
+      "actual": 0.9999999999999998,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s5.001666666666667",
+      "actual": -3.469446951953614e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s5.201333333333333",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s5.201333333333333",
+      "actual": -2.0816681711721685e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s5.401000000000001",
+      "actual": 0.9999999999999999,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s5.401000000000001",
+      "actual": -5.377642775528102e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s5.600666666666667",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s5.600666666666667",
+      "actual": 4.7704895589362195e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s5.800333333333334",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s5.800333333333334",
+      "actual": -3.2959746043559335e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a1 s6.0",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a1 s6.0",
+      "actual": 3.469446951953614e-18,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s0.01",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s0.01",
+      "actual": -2.710505431213761e-20,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s0.2096666666666667",
+      "actual": 1.9999999999999998,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s0.2096666666666667",
+      "actual": 3.469446951953614e-18,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s0.4093333333333334",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s0.4093333333333334",
+      "actual": 1.3877787807814457e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s0.6090000000000001",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s0.6090000000000001",
+      "actual": -2.7755575615628914e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s0.8086666666666668",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s0.8086666666666668",
+      "actual": 5.551115123125783e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s1.0083333333333333",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s1.0083333333333333",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s1.2080000000000002",
+      "actual": 1.9999999999999998,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s1.2080000000000002",
+      "actual": -5.551115123125783e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s1.4076666666666668",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s1.4076666666666668",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s1.6073333333333335",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s1.6073333333333335",
+      "actual": 1.1102230246251565e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s1.8070000000000002",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s1.8070000000000002",
+      "actual": 1.1102230246251565e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s2.006666666666667",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s2.006666666666667",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s2.2063333333333333",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s2.2063333333333333",
+      "actual": 1.1102230246251565e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s2.406",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s2.406",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s2.6056666666666666",
+      "actual": 1.9999999999999998,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s2.6056666666666666",
+      "actual": -1.1102230246251565e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s2.8053333333333335",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s2.8053333333333335",
+      "actual": 1.1102230246251565e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s3.005",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s3.005",
+      "actual": -1.1102230246251565e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s3.2046666666666668",
+      "actual": 1.9999999999999998,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s3.2046666666666668",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s3.4043333333333337",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s3.4043333333333337",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s3.604",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s3.604",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s3.803666666666667",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s3.803666666666667",
+      "actual": 1.1102230246251565e-16,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s4.003333333333334",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s4.003333333333334",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s4.203",
+      "actual": 1.9999999999999998,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s4.203",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s4.402666666666667",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s4.402666666666667",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s4.602333333333333",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s4.602333333333333",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s4.8020000000000005",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s4.8020000000000005",
+      "actual": 5.551115123125783e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s5.001666666666667",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s5.001666666666667",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s5.201333333333333",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s5.201333333333333",
+      "actual": 5.551115123125783e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s5.401000000000001",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s5.401000000000001",
+      "actual": 5.551115123125783e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s5.600666666666667",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s5.600666666666667",
+      "actual": 5.551115123125783e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s5.800333333333334",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s5.800333333333334",
+      "actual": 5.551115123125783e-17,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "thread length a2 s6.0",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "tangent parallel a2 s6.0",
+      "actual": -5.551115123125783e-17,
+      "expected": 0.0,
+      "passed": true
+    }
+  ]
+}

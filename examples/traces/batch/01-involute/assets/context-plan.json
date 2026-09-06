@@ -1,0 +1,8 @@
+{
+  "physical_subject": "What curve does the end of a taut unwinding thread draw?",
+  "relationship": "The free tangent segment equals the released arc length; the resulting endpoint follows a circle involute.",
+  "operation": "Release a thread from a spool, retain its trace, and compare the released arc with the straight section.",
+  "closest_prior": "flow/05-spiral: multiplicative radial growth; focal/05-gears: tooth count ratio",
+  "substantive_difference": "Unwinding tangent length determines a new curve; no logarithmic growth law or gear-speed claim.",
+  "sequence_is_editorial_hypothesis": true
+}

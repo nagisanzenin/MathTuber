@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "One point follows",
+      "end_cue": "Pause and look",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Two traces and one rigid linkage."
+    },
+    {
+      "id": "2",
+      "start_cue": "Two sides form",
+      "end_cue": "Let the points",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Matching triangles establish the scale factor."
+    },
+    {
+      "id": "3",
+      "start_cue": "Swap which point",
+      "end_cue": "The same arrangement",
+      "end_offset": 3.1,
+      "samples": 9,
+      "purpose": "Reverse tracing roles to make a half-size copy."
+    }
+  ]
+}

@@ -1,0 +1,999 @@
+{
+  "passed": true,
+  "method": "Independent constraints, algebra and numerical checks; rendered correspondence reviewed separately.",
+  "conditions": [
+    "Perpendicular straight sliders, rigid bar length3; internal pencil at one third or midpoint. Ellipse x=2cos theta,y=sin theta; midpoint circle radius1.5. Eased parameter not a physical velocity model."
+  ],
+  "checks": [
+    {
+      "name": "rigid rod 0.0",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 0.0",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 0.0",
+      "actual": 2.25,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 0.0",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 0.0",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 0.19634954084936207",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 0.19634954084936207",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 0.19634954084936207",
+      "actual": 2.25,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 0.19634954084936207",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 0.19634954084936207",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 0.39269908169872414",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 0.39269908169872414",
+      "actual": 0.9999999999999998,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 0.39269908169872414",
+      "actual": 2.2499999999999996,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 0.39269908169872414",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 0.39269908169872414",
+      "actual": 1.9999999999999998,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 0.5890486225480862",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 0.5890486225480862",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 0.5890486225480862",
+      "actual": 2.2499999999999996,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 0.5890486225480862",
+      "actual": 0.9999999999999999,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 0.5890486225480862",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 0.7853981633974483",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 0.7853981633974483",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 0.7853981633974483",
+      "actual": 2.25,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 0.7853981633974483",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 0.7853981633974483",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 0.9817477042468103",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 0.9817477042468103",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 0.9817477042468103",
+      "actual": 2.25,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 0.9817477042468103",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 0.9817477042468103",
+      "actual": 1.9999999999999998,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 1.1780972450961724",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 1.1780972450961724",
+      "actual": 0.9999999999999998,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 1.1780972450961724",
+      "actual": 2.2499999999999996,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 1.1780972450961724",
+      "actual": 0.9999999999999999,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 1.1780972450961724",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 1.3744467859455345",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 1.3744467859455345",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 1.3744467859455345",
+      "actual": 2.25,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 1.3744467859455345",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 1.3744467859455345",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 1.5707963267948966",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 1.5707963267948966",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 1.5707963267948966",
+      "actual": 2.25,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 1.5707963267948966",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 1.5707963267948966",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 1.7671458676442586",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 1.7671458676442586",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 1.7671458676442586",
+      "actual": 2.25,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 1.7671458676442586",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 1.7671458676442586",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 1.9634954084936207",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 1.9634954084936207",
+      "actual": 0.9999999999999998,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 1.9634954084936207",
+      "actual": 2.2499999999999996,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 1.9634954084936207",
+      "actual": 0.9999999999999999,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 1.9634954084936207",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 2.1598449493429825",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 2.1598449493429825",
+      "actual": 0.9999999999999998,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 2.1598449493429825",
+      "actual": 2.25,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 2.1598449493429825",
+      "actual": 0.9999999999999999,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 2.1598449493429825",
+      "actual": 1.9999999999999998,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 2.356194490192345",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 2.356194490192345",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 2.356194490192345",
+      "actual": 2.25,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 2.356194490192345",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 2.356194490192345",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 2.552544031041707",
+      "actual": 3.0000000000000004,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 2.552544031041707",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 2.552544031041707",
+      "actual": 2.2500000000000004,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 2.552544031041707",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 2.552544031041707",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 2.748893571891069",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 2.748893571891069",
+      "actual": 0.9999999999999998,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 2.748893571891069",
+      "actual": 2.25,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 2.748893571891069",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 2.748893571891069",
+      "actual": 1.9999999999999998,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 2.945243112740431",
+      "actual": 3.0000000000000004,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 2.945243112740431",
+      "actual": 1.0000000000000002,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 2.945243112740431",
+      "actual": 2.2500000000000004,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 2.945243112740431",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 2.945243112740431",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 3.141592653589793",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 3.141592653589793",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 3.141592653589793",
+      "actual": 2.25,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 3.141592653589793",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 3.141592653589793",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 3.3379421944391554",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 3.3379421944391554",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 3.3379421944391554",
+      "actual": 2.25,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 3.3379421944391554",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 3.3379421944391554",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 3.5342917352885173",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 3.5342917352885173",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 3.5342917352885173",
+      "actual": 2.25,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 3.5342917352885173",
+      "actual": 0.9999999999999999,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 3.5342917352885173",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 3.730641276137879",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 3.730641276137879",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 3.730641276137879",
+      "actual": 2.25,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 3.730641276137879",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 3.730641276137879",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 3.9269908169872414",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 3.9269908169872414",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 3.9269908169872414",
+      "actual": 2.25,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 3.9269908169872414",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 3.9269908169872414",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 4.123340357836604",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 4.123340357836604",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 4.123340357836604",
+      "actual": 2.2499999999999996,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 4.123340357836604",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 4.123340357836604",
+      "actual": 1.9999999999999998,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 4.319689898685965",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 4.319689898685965",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 4.319689898685965",
+      "actual": 2.25,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 4.319689898685965",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 4.319689898685965",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 4.516039439535327",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 4.516039439535327",
+      "actual": 0.9999999999999999,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 4.516039439535327",
+      "actual": 2.2499999999999996,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 4.516039439535327",
+      "actual": 0.9999999999999999,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 4.516039439535327",
+      "actual": 1.9999999999999996,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 4.71238898038469",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 4.71238898038469",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 4.71238898038469",
+      "actual": 2.25,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 4.71238898038469",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 4.71238898038469",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 4.908738521234052",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 4.908738521234052",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 4.908738521234052",
+      "actual": 2.25,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 4.908738521234052",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 4.908738521234052",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 5.105088062083414",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 5.105088062083414",
+      "actual": 0.9999999999999999,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 5.105088062083414",
+      "actual": 2.25,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 5.105088062083414",
+      "actual": 0.9999999999999999,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 5.105088062083414",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 5.301437602932776",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 5.301437602932776",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 5.301437602932776",
+      "actual": 2.25,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 5.301437602932776",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 5.301437602932776",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 5.497787143782138",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 5.497787143782138",
+      "actual": 0.9999999999999999,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 5.497787143782138",
+      "actual": 2.2499999999999996,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 5.497787143782138",
+      "actual": 0.9999999999999999,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 5.497787143782138",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 5.6941366846315",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 5.6941366846315",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 5.6941366846315",
+      "actual": 2.2499999999999996,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 5.6941366846315",
+      "actual": 0.9999999999999999,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 5.6941366846315",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 5.890486225480862",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 5.890486225480862",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 5.890486225480862",
+      "actual": 2.25,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 5.890486225480862",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 5.890486225480862",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 6.086835766330224",
+      "actual": 2.9999999999999996,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 6.086835766330224",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 6.086835766330224",
+      "actual": 2.2499999999999996,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 6.086835766330224",
+      "actual": 0.9999999999999999,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 6.086835766330224",
+      "actual": 1.9999999999999998,
+      "expected": 2.0,
+      "passed": true
+    },
+    {
+      "name": "rigid rod 6.283185307179586",
+      "actual": 3.0,
+      "expected": 3.0,
+      "passed": true
+    },
+    {
+      "name": "ellipse equation 6.283185307179586",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "midpoint circle 6.283185307179586",
+      "actual": 2.25,
+      "expected": 2.25,
+      "passed": true
+    },
+    {
+      "name": "pen one from A 6.283185307179586",
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    {
+      "name": "pen two from B 6.283185307179586",
+      "actual": 2.0,
+      "expected": 2.0,
+      "passed": true
+    }
+  ]
+}

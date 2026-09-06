@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "A rotating ray",
+      "end_cue": "The step keeps",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Ray-wise fixed step creates a curved locus."
+    },
+    {
+      "id": "2",
+      "start_cue": "Turn the ray upright",
+      "end_cue": "Compare with a different rule",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Upright versus sixty-degree height contribution."
+    },
+    {
+      "id": "3",
+      "start_cue": "Compare with a different rule",
+      "end_cue": "Return to the slanting",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Parallel-line result belongs to a different offset direction."
+    }
+  ]
+}
