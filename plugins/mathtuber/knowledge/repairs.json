@@ -2,13 +2,165 @@
   "schema_version": 1,
   "scope": "Observed production failures and bounded repairs. Retrieval aids judgment; it does not establish weaker-model competence.",
   "entries": [
-    {"id":"cue-ambiguity","stage":"speech","tags":["cue","ambiguous","duplicate","timing","CUE_AMBIGUOUS"],"symptom":"A scene cue matches multiple spoken phrases, or none.","cause":"Short cue prefixes recur in the narration; punctuation and case are normalized.","repair":"Extend each literal self.at phrase until it identifies one intended occurrence. Run compile_cues.py --project PROJECT --check-only before synthesis; run without --check-only after synthesis.","verify":"Preflight reports unique script matches; measured compilation succeeds; inspect the actual transition against speech.","avoid":"Do not silently choose the first match or use script token positions as measured seconds.","reference":"skills/mathtuber/references/production.md"},
-    {"id":"shape-fill","stage":"animation","tags":["opacity","fill","shape","arc","transparent","Manim"],"symptom":"An outline becomes a solid shape after dimming or restoring it.","cause":"Changing opacity for the entire object also changes fill opacity.","repair":"For outline-only objects, change stroke opacity explicitly and retain fill opacity zero. Restore stroke opacity rather than setting every opacity to one.","verify":"Render the dimming and restoration interval; inspect both endpoints and an intermediate frame.","avoid":"Do not treat render success as evidence that the original geometry remains visible.","reference":"skills/mathtuber/references/production.md"},
-    {"id":"number-list-speech","stage":"speech","tags":["audio","tts","asr","number","ambiguous","pronunciation"],"symptom":"Two compared numbers sound like one number; a standalone letter is misrecognized.","cause":"Forty thousand and nine can mean40009. Spoken A can resemble an article or another vowel.","repair":"Name each quantity separately: forty thousand for the first example, compared with nine for the second. Use an unambiguous referent such as the example on the right when appropriate. Update narration and captions together.","verify":"Read independent full-source ASR and investigate mathematical differences. Listening, if available, checks pronunciation; ASR alone does not establish natural prosody. Recompile timing after changed speech.","avoid":"Do not waive a changed mathematical value because the overall transcript similarity is high.","reference":"skills/mathtuber/references/production.md"},
-    {"id":"stale-export","stage":"review","tags":["stale","cache","hash","export","review","narration"],"symptom":"An old render or review remains on disk after an input changes.","cause":"Files existing on disk do not prove their inputs match the current project.","repair":"Read engine status. Rebuild invalidated audio, timings, scenes and assembly in dependency order. Generate evidence for the new export hash and inspect it.","verify":"Current snapshot and evidence hashes match; mechanical verification succeeds; reviewer attests only to inspected current media.","avoid":"Never copy a previous acceptance onto a new export or delete receipts to force publication.","reference":"skills/mathtuber/references/commands.md"},
-    {"id":"project-busy","stage":"execution","tags":["lock","busy","parallel","PROJECT_BUSY","process"],"symptom":"A command reports production held by a PID.","cause":"Another operation owns this project's lock; independent-looking operations can share artifact state.","repair":"Inspect the existing job and let it finish, then retry the dependent command. Parallelize across independent projects where resources permit.","verify":"Job status indicates completion and the next command acquires the lock normally.","avoid":"Do not remove a live lock or launch repeated workers for the same project.","reference":"skills/mathtuber/references/commands.md"},
-    {"id":"coordinate-unit-change","stage":"mathematics","tags":["scale","units","axis","distance","machine","learning"],"symptom":"A graph appears to contradict a numerical distance comparison after changing units.","cause":"The physical locations, coordinate labels and on-screen axis scales are different quantities.","repair":"Declare what is held fixed. If locations stay fixed while labels convert, identify the changed display scale. Compute raw and normalized distances independently.","verify":"Each displayed point, label and numerical comparison agrees with the declared mapping throughout the transition.","avoid":"Do not stretch an illustration silently or claim standardization is universally beneficial.","reference":"skills/mathtuber/references/linked-representations.md"},
-    {"id":"youtube-quota","stage":"publishing","tags":["youtube","quota","429","quota_wait","upload","retry"],"symptom":"Publication returns YOUTUBE_DAILY_QUOTA with retry_not_before.","cause":"The upload endpoint rejected the daily quota; this differs from an uncertain upload outcome.","repair":"Preserve the receipt. Honor retry_not_before and resume the same batch afterward. Continue independent authoring or tooling work during the wait.","verify":"Read-only publication_status verifies actual visibility and successful processing before counting completion.","avoid":"Do not bypass the limit with another project, blindly duplicate an uncertain upload, or assume every429 is a daily quota.","reference":"skills/mathtuber/references/publishing.md"},
-    {"id":"plugin-cache","stage":"installation","tags":["install","version","cache","claude","codex","update"],"symptom":"The source contains a fix but the installed host uses old tools.","cause":"A versioned plugin cache was not refreshed; an unchanged manifest can be reported as latest.","repair":"Use the host's documented version/update flow. Resolve the actual installed cache path and compare representative files with source. Start a fresh host session afterward.","verify":"Installed files match the intended revision and its engine runs from an unrelated working directory.","avoid":"Do not equate a successful install command with a tested filmmaking model.","reference":"skills/mathtuber/references/commands.md"}
+    {
+      "id": "cue-ambiguity",
+      "stage": "speech",
+      "tags": [
+        "cue",
+        "ambiguous",
+        "duplicate",
+        "timing",
+        "CUE_AMBIGUOUS"
+      ],
+      "symptom": "A scene cue matches multiple spoken phrases, or none.",
+      "cause": "Short cue prefixes recur in the narration; punctuation and case are normalized.",
+      "repair": "Extend each literal self.at phrase until it identifies one intended occurrence. Run compile_cues.py --project PROJECT --check-only before synthesis; run without --check-only after synthesis.",
+      "verify": "Preflight reports unique script matches; measured compilation succeeds; inspect the actual transition against speech.",
+      "avoid": "Do not silently choose the first match or use script token positions as measured seconds.",
+      "reference": "skills/mathtuber/references/production.md"
+    },
+    {
+      "id": "shape-fill",
+      "stage": "animation",
+      "tags": [
+        "opacity",
+        "fill",
+        "shape",
+        "arc",
+        "transparent",
+        "Manim"
+      ],
+      "symptom": "An outline becomes a solid shape after dimming or restoring it.",
+      "cause": "Changing opacity for the entire object also changes fill opacity.",
+      "repair": "For outline-only objects, change stroke opacity explicitly and retain fill opacity zero. Restore stroke opacity rather than setting every opacity to one.",
+      "verify": "Render the dimming and restoration interval; inspect both endpoints and an intermediate frame.",
+      "avoid": "Do not treat render success as evidence that the original geometry remains visible.",
+      "reference": "skills/mathtuber/references/production.md"
+    },
+    {
+      "id": "number-list-speech",
+      "stage": "speech",
+      "tags": [
+        "audio",
+        "tts",
+        "asr",
+        "number",
+        "ambiguous",
+        "pronunciation"
+      ],
+      "symptom": "Two compared numbers sound like one number; a standalone letter is misrecognized.",
+      "cause": "Forty thousand and nine can mean40009. Spoken A can resemble an article or another vowel.",
+      "repair": "Name each quantity separately: forty thousand for the first example, compared with nine for the second. Use an unambiguous referent such as the example on the right when appropriate. Update narration and captions together.",
+      "verify": "Read independent full-source ASR and investigate mathematical differences. Listening, if available, checks pronunciation; ASR alone does not establish natural prosody. Recompile timing after changed speech.",
+      "avoid": "Do not waive a changed mathematical value because the overall transcript similarity is high.",
+      "reference": "skills/mathtuber/references/production.md"
+    },
+    {
+      "id": "stale-export",
+      "stage": "review",
+      "tags": [
+        "stale",
+        "cache",
+        "hash",
+        "export",
+        "review",
+        "narration"
+      ],
+      "symptom": "An old render or review remains on disk after an input changes.",
+      "cause": "Files existing on disk do not prove their inputs match the current project.",
+      "repair": "Read engine status. Rebuild invalidated audio, timings, scenes and assembly in dependency order. Generate evidence for the new export hash and inspect it.",
+      "verify": "Current snapshot and evidence hashes match; mechanical verification succeeds; reviewer attests only to inspected current media.",
+      "avoid": "Never copy a previous acceptance onto a new export or delete receipts to force publication.",
+      "reference": "skills/mathtuber/references/commands.md"
+    },
+    {
+      "id": "project-busy",
+      "stage": "execution",
+      "tags": [
+        "lock",
+        "busy",
+        "parallel",
+        "PROJECT_BUSY",
+        "process"
+      ],
+      "symptom": "A command reports production held by a PID.",
+      "cause": "Another operation owns this project's lock; independent-looking operations can share artifact state.",
+      "repair": "Inspect the existing job and let it finish, then retry the dependent command. Parallelize across independent projects where resources permit.",
+      "verify": "Job status indicates completion and the next command acquires the lock normally.",
+      "avoid": "Do not remove a live lock or launch repeated workers for the same project.",
+      "reference": "skills/mathtuber/references/commands.md"
+    },
+    {
+      "id": "coordinate-unit-change",
+      "stage": "mathematics",
+      "tags": [
+        "scale",
+        "units",
+        "axis",
+        "distance",
+        "machine",
+        "learning"
+      ],
+      "symptom": "A graph appears to contradict a numerical distance comparison after changing units.",
+      "cause": "The physical locations, coordinate labels and on-screen axis scales are different quantities.",
+      "repair": "Declare what is held fixed. If locations stay fixed while labels convert, identify the changed display scale. Compute raw and normalized distances independently.",
+      "verify": "Each displayed point, label and numerical comparison agrees with the declared mapping throughout the transition.",
+      "avoid": "Do not stretch an illustration silently or claim standardization is universally beneficial.",
+      "reference": "skills/mathtuber/references/linked-representations.md"
+    },
+    {
+      "id": "youtube-quota",
+      "stage": "publishing",
+      "tags": [
+        "youtube",
+        "quota",
+        "429",
+        "quota_wait",
+        "upload",
+        "retry"
+      ],
+      "symptom": "Publication returns YOUTUBE_DAILY_QUOTA with retry_not_before.",
+      "cause": "The upload endpoint rejected the daily quota; this differs from an uncertain upload outcome.",
+      "repair": "Preserve the receipt. Honor retry_not_before and resume the same batch afterward. Continue independent authoring or tooling work during the wait.",
+      "verify": "Read-only publication_status verifies actual visibility and successful processing before counting completion.",
+      "avoid": "Do not bypass the limit with another project, blindly duplicate an uncertain upload, or assume every429 is a daily quota.",
+      "reference": "skills/mathtuber/references/publishing.md"
+    },
+    {
+      "id": "plugin-cache",
+      "stage": "installation",
+      "tags": [
+        "install",
+        "version",
+        "cache",
+        "claude",
+        "codex",
+        "update"
+      ],
+      "symptom": "The source contains a fix but the installed host uses old tools.",
+      "cause": "A versioned plugin cache was not refreshed; an unchanged manifest can be reported as latest.",
+      "repair": "Use the host's documented version/update flow. Resolve the actual installed cache path and compare representative files with source. Start a fresh host session afterward.",
+      "verify": "Installed files match the intended revision and its engine runs from an unrelated working directory.",
+      "avoid": "Do not equate a successful install command with a tested filmmaking model.",
+      "reference": "skills/mathtuber/references/commands.md"
+    },
+    {
+      "id": "stale-visible-answer",
+      "stage": "animation",
+      "tags": [
+        "transition",
+        "answer",
+        "label",
+        "stale",
+        "state",
+        "equation"
+      ],
+      "symptom": "An old answer or conclusion remains under changed inputs during an animation.",
+      "cause": "The animation updates one representation without updating or hiding dependent claims.",
+      "repair": "Track every dependent visible value. Update it consistently, hide it until recomputed, or label separate before and after states. Retain old algorithm inputs until both new values are computed.",
+      "verify": "Inspect immediately before, during and after the change, including any return to the earlier state; compare all visible claims with independent mathematics.",
+      "avoid": "Do not infer temporal correctness from correct endpoints or overall render success.",
+      "reference": "skills/mathtuber/references/transition-consistency.md"
+    }
   ]
 }
