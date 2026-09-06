@@ -6,6 +6,8 @@ Choose a visual that performs the explanation: preserve object identity, use con
 
 Plan narration and visual beats together. Normalize equations into spoken language (x squared, n plus one); keep display math distinct. Synthesize by coherent sections. Actual WAV duration controls scene duration. If total length misses the brief, revise before final rendering.
 
+Before synthesizing scenes with literal `self.at(...)` cues, run `python3 <root>/scripts/compile_cues.py --project <path> --check-only`. It reports missing and repeated phrases together against the authored narration, without generating audio or replacing timings. Extend ambiguous cue phrases. After synthesis, run the same command without `--check-only` to compile actual provider word timestamps; the script check does not verify pronunciation or synchronization.
+
 The optional `components.NarratedScene` gives `target_duration`, `cue(fraction)`, `finish()`, and a restrained dark theme. Fractions are coarse timing aids. For precise speech synchronization use the measured word timestamps in the audio sidecar and explicit waits. Design any Manim scene you need; components are helpers, not the allowable visual vocabulary.
 
 Use quick previews for layout/motion, then final resolution for typography. Avoid placing crucial content near the bottom or right edge where Shorts UI overlays it. Check at phone scale. A long hold may be pedagogically intentional but must not hide a failed animation.
