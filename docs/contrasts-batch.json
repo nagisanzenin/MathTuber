@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-06",
+  "cycle": 17,
+  "videos": [
+    {
+      "project": "01-scaling",
+      "title": "A Different Unit Can Change the Nearest Neighbor #math #Shorts",
+      "url": "https://www.youtube.com/shorts/UKhMMdSx4IQ",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M46S",
+      "export_sha256": "8508cfa2580bf6c3018e980fdd3c0fd7bb019919d744879849232d8ff957b973",
+      "editorial": {
+        "decision": "release",
+        "opening": "Initial raw distances2 and3 selectA; label conversion to200 preserves explicitly identified plot layout.",
+        "mechanism": "Old decision disappears during conversion, and B appears only when explained. Before-conversion arithmetic has no stale B result; after-conversion40000 versus9 selectsB. Consistent reference scaling produces dimensionless2 and3 and selectsA again. No observed caption overlap or point-label ambiguity.",
+        "readability": "Current sampled evidence inspected at phone-sized tiles; limitations recorded below.",
+        "pacing": "Cue-based staged explanation with brief transitions; static concluding holds remain a weakness.",
+        "sound": "Full source ASR actually read against all narration; numeric formatting, square/squared inflection and minor article/pronoun differences do not alter identified mathematics. Source and final signal measurements inspected. No subjective listening.",
+        "remaining_weaknesses": "Display-scale distinction requires attention to the annotation. Static closing rules remain an editorial weakness. No subjective listening, continuous playback or audience test.",
+        "audience_evidence": "Not measured; no retention, learning or preference claim."
+      }
+    },
+    {
+      "project": "02-conditioning",
+      "title": "When a Tiny Measurement Change Moves the Answer #math #Shorts",
+      "url": "https://www.youtube.com/shorts/1PJeOCcu5SI",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M41S",
+      "export_sha256": "7dc45edab4c0376b26691367224ff52eb4b2f4d8ff906fe89f2a63cc94fb1336",
+      "editorial": {
+        "decision": "release",
+        "opening": "Opening contrasts small measurement movement with large answer movement before resetting to equations.",
+        "mechanism": "Old solutions disappear during changed measurement, and both exact solutions match the equations. Near-parallel graph crossing moves from(1,1) to(0,2); near-overlap honestly identifies scale. Sum/difference comparison produces1.005 and0.995 with signed changes0.005. Captions and mathematical lines remain separated.",
+        "readability": "Current sampled evidence inspected at phone-sized tiles; limitations recorded below.",
+        "pacing": "Cue-based staged explanation with brief transitions; static concluding holds remain a weakness.",
+        "sound": "Full source ASR actually read against all narration; numeric formatting, square/squared inflection and minor article/pronoun differences do not alter identified mathematics. Source and final signal measurements inspected. No subjective listening.",
+        "remaining_weaknesses": "Opening labels update at the end of movement rather than continuously. Near-parallel lines are difficult to distinguish at phone scale. Static final definition lasts about fifteen seconds; editorial weakness. No subjective listening, continuous playback or audience test.",
+        "audience_evidence": "Not measured; no retention, learning or preference claim."
+      }
+    },
+    {
+      "project": "03-approximation",
+      "title": "Fractions Guided by a Difference of One #math #Shorts",
+      "url": "https://www.youtube.com/shorts/50H93LmK0rk",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M40S",
+      "export_sha256": "8f3b5176aa4177e66d9b4a211d4a94dcbfb822c6cba73917c9e76d79734b8c03",
+      "editorial": {
+        "decision": "release",
+        "opening": "49 and50 discrete marks establish a difference of one from opening.",
+        "mechanism": "Displayed old p and q track the recurrence examples and both new expressions use the same old pair. Expansion cancels to the negative old difference, with alternating signs explicit. Normalized squared errors1/25 and1/144 and opposite sides of square root2 are correct. No observed caption overlap.",
+        "readability": "Current sampled evidence inspected at phone-sized tiles; limitations recorded below.",
+        "pacing": "Cue-based staged explanation with brief transitions; static concluding holds remain a weakness.",
+        "sound": "Full source ASR actually read against all narration; numeric formatting, square/squared inflection and minor article/pronoun differences do not alter identified mathematics. Source and final signal measurements inspected. No subjective listening.",
+        "remaining_weaknesses": "Algebra expansion assumes familiarity with multiplying binomials; dense for a novice. Ending shows two approximants rather than animating continued convergence. No subjective listening, continuous playback or audience test.",
+        "audience_evidence": "Not measured; no retention, learning or preference claim."
+      }
+    },
+    {
+      "project": "04-jars",
+      "title": "Four Counters, Three Jars, Fifteen Possibilities #math #Shorts",
+      "url": "https://www.youtube.com/shorts/K99XNd2h1wc",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M39S",
+      "export_sha256": "4593b421dd15f93b2da998a89c1aec7714476ccbcbb9e659937b21d5bee2beb2",
+      "editorial": {
+        "decision": "release",
+        "opening": "Four counters remain identifiable while regrouping and encoding.",
+        "mechanism": "Edge divider yields(0,3,1); adjacent dividers yield(2,0,2). Six positions and unordered separator-pair argument are legible;15 symbolic rows remain an overview, not a counting animation. Final nonempty condition visibly reserves one counter per jar and moves the fourth among3choices. No observed caption overlap or filled-outline artifact in current evidence.",
+        "readability": "Current sampled evidence inspected at phone-sized tiles; limitations recorded below.",
+        "pacing": "Cue-based staged explanation with brief transitions; static concluding holds remain a weakness.",
+        "sound": "Full source ASR actually read against all narration; numeric formatting, square/squared inflection and minor article/pronoun differences do not alter identified mathematics. Source and final signal measurements inspected. No subjective listening.",
+        "remaining_weaknesses": "No subjective listening or audience test. Intermediate samples do not prove every motion frame.",
+        "audience_evidence": "Not measured; no retention, learning or preference claim."
+      }
+    },
+    {
+      "project": "05-redundancy",
+      "title": "When Two Backups Share One Weakness #math #Shorts",
+      "url": "https://www.youtube.com/shorts/IELpiDlj6xg",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M31S",
+      "export_sha256": "e7a94977c3200afc9a929fe021f43f6429c32ea329dafe78fc30ed26d9f1b9af",
+      "editorial": {
+        "decision": "release",
+        "opening": "Independent sixteen-state grid has exactly one joint failure and fifteen surviving cases.",
+        "mechanism": "Four shared-event states preserve each one-quarter marginal and change joint failure to one-quarter. Comparison explicitly limits multiplication to independence; toy probabilities are identified. Captions and equations remain separated in sampled evidence.",
+        "readability": "Current sampled evidence inspected at phone-sized tiles; limitations recorded below.",
+        "pacing": "Cue-based staged explanation with brief transitions; static concluding holds remain a weakness.",
+        "sound": "Full source ASR actually read against all narration; numeric formatting, square/squared inflection and minor article/pronoun differences do not alter identified mathematics. Source and final signal measurements inspected. No subjective listening.",
+        "remaining_weaknesses": "No subjective listening or audience test. Diagrammatic presentation and static concluding equations remain editorial weaknesses. Samples do not prove every motion frame.",
+        "audience_evidence": "Not measured; no retention, learning or preference claim."
+      }
+    }
+  ]
+}

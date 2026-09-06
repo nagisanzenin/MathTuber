@@ -113,4 +113,6 @@ Earlier release: [five patterns Shorts and reflection](docs/patterns-batch.md), 
 
 Earlier release: [five mathematical observations Shorts and reflection](docs/observations-batch.md), with [editable sources](examples/observations).
 
-Latest release: [five mathematical relationships Shorts and reflection](docs/relations-batch.md), with [editable sources](examples/relations).
+Earlier release: [five mathematical relationships Shorts and reflection](docs/relations-batch.md), with [editable sources](examples/relations).
+
+Latest release: [five mathematical contrast Shorts and reflection](docs/contrasts-batch.md), with [editable sources](examples/contrasts).
