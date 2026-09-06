@@ -1,0 +1,8 @@
+{
+  "physical_subject": "Why can the same individual failure chance produce different protection from two components?",
+  "relationship": "Independent one-quarter failures give joint probability1/16; identical failure events give1/4 even with the same marginals.",
+  "operation": "Enumerate16 independent outcome pairs, then replace them with4 shared-event outcomes; retain individual failure chance while changing joint failure.",
+  "closest_prior": "Wisdom-of-crowds and conditional-probability titles",
+  "substantive_difference": "Joint failure of redundant components versus error averaging or false-positive precision; unavailable historic transcripts not fully audited.",
+  "sequence_is_editorial_hypothesis": true
+}

@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Let us turn",
+      "end_cue": "Every arrangement",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Persistent counters map to separators; edge and adjacent separators correctly decode zero counts."
+    },
+    {
+      "id": "2",
+      "start_cue": "Six choices",
+      "end_cue": "Each row",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Unordered separator positions account for the factor of two."
+    },
+    {
+      "id": "3",
+      "start_cue": "Give each jar",
+      "end_cue": "A small change in the rules",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Three fixed counters satisfy the lower bounds and the fourth has exactly three destinations."
+    }
+  ]
+}

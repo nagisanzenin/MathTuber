@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "scope": "Exact example verification plus manually derived identities; not media review",
+  "reasoning": "Joint failure1/16 under independent equiprobable pairs;1/4 for identical failure events. Each marginal1/4. Toy probabilities, no engineering rate estimates."
+}

@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Pair every",
+      "end_cue": "So the chance",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "All16 pairs are visible and only one has both failures."
+    },
+    {
+      "id": "2",
+      "start_cue": "Now change",
+      "end_cue": "The difference",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Four equiprobable shared states retain1/4 marginal and1/4 joint failure."
+    },
+    {
+      "id": "3",
+      "start_cue": "Independent failures",
+      "end_cue": "Real backups",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Multiplication explicitly depends on independence."
+    }
+  ]
+}

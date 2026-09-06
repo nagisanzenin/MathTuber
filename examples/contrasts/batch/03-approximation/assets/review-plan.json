@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "For the next numerator",
+      "end_cue": "Their squares keep missing",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Both updates use the old pair and produce3/2,7/5,17/12."
+    },
+    {
+      "id": "2",
+      "start_cue": "The new squared",
+      "end_cue": "Now divide",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Expansion leaves the negative of the previous squared difference."
+    },
+    {
+      "id": "3",
+      "start_cue": "For seven fifths",
+      "end_cue": "They approach",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Normalized squared discrepancies1/25 and1/144 lead to correctly positioned fractions on a single scale."
+    }
+  ]
+}

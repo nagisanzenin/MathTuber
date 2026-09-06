@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "When a Tiny Measurement Change Moves the Answer",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "A tiny change in a measurement can move an answer a long way.",
+        "Suppose two unknown amounts add to two.",
+        "A second measurement says the first amount plus one hundred and one percent of the second equals two point zero one.",
+        "Subtract the first equation from the second.",
+        "One hundredth of the second amount equals one hundredth.",
+        "So the second amount is one, and the first is also one.",
+        "Now change only the second measured total, from two point zero one to two point zero two.",
+        "The subtraction now leaves one hundredth of the second amount equal to two hundredths.",
+        "The second amount becomes two. The first becomes zero.",
+        "A one hundredth change in a total has moved each answer by one.",
+        "The two measurements were asking almost the same question.",
+        "On a graph, their lines are nearly parallel.",
+        "Shifting one line slightly can move their crossing far along the other.",
+        "Compare a different pair: the sum is two, and the difference is zero.",
+        "Now change that difference to one hundredth.",
+        "The answers become one point zero zero five and zero point nine nine five.",
+        "Each moves only five thousandths. These measurements separate the two amounts much more clearly.",
+        "This sensitivity belongs to the problem itself. It is called conditioning.",
+        "Our arithmetic was exact in both cases. A better calculator cannot remove uncertainty already in the measurements.",
+        "Two different questions can reveal more than two almost identical ones."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Nearly dependent measurements can amplify data uncertainty; this intrinsic conditioning differs from arithmetic error in an algorithm.",
+    "question": "Why can a0.01 data change move a solution by1?",
+    "payoff": "Nearly dependent measurements can amplify data uncertainty; this intrinsic conditioning differs from arithmetic error in an algorithm.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Matrix transformation and noisy-measurement titles. Difference: Intrinsic inverse-problem sensitivity and exact perturbation contrasts; unavailable historical transcripts not fully audited.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Recognizable physical subject and useful setting; explicit connection to exact diagram; return to a changed physical condition. Restrained original vector artwork.",
+      "episode_variation": "Subtract two almost identical equations; preserve their graph scale while the intersection moves; contrast with sum-and-difference measurements.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why can a0.01 data change move a solution by1?",
+        "visual_action": "Subtract two almost identical equations; preserve their graph scale while the intersection moves; contrast with sum-and-difference measurements.",
+        "new_understanding": "Nearly dependent measurements can amplify data uncertainty; this intrinsic conditioning differs from arithmetic error in an algorithm.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "A tiny change in a measurement can move an answer a long way. Suppose two unknown amounts add to two. A second measurement says the first amount plus one hundred and one percent of the second equals two point zero one.\n\nSubtract the first equation from the second. One hundredth of the second amount equals one hundredth. So the second amount is one, and the first is also one.\n\nNow change only the second measured total, from two point zero one to two point zero two. The subtraction now leaves one hundredth of the second amount equal to two hundredths. The second amount becomes two. The first becomes zero. A one hundredth change in a total has moved each answer by one.\n\nThe two measurements were asking almost the same question. On a graph, their lines are nearly parallel. Shifting one line slightly can move their crossing far along the other.\n\nCompare a different pair: the sum is two, and the difference is zero. Now change that difference to one hundredth. The answers become one point zero zero five and zero point nine nine five. Each moves only five thousandths. These measurements separate the two amounts much more clearly.\n\nThis sensitivity belongs to the problem itself. It is called conditioning. Our arithmetic was exact in both cases. A better calculator cannot remove uncertainty already in the measurements. Two different questions can reveal more than two almost identical ones."
+    }
+  ],
+  "sources": [
+    "https://fncbook.com/condition-number/"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

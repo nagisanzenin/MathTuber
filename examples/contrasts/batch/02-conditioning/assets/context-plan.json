@@ -1,0 +1,8 @@
+{
+  "physical_subject": "Why can a0.01 data change move a solution by1?",
+  "relationship": "Nearly dependent measurements can amplify data uncertainty; this intrinsic conditioning differs from arithmetic error in an algorithm.",
+  "operation": "Subtract two almost identical equations; preserve their graph scale while the intersection moves; contrast with sum-and-difference measurements.",
+  "closest_prior": "Matrix transformation and noisy-measurement titles",
+  "substantive_difference": "Intrinsic inverse-problem sensitivity and exact perturbation contrasts; unavailable historical transcripts not fully audited.",
+  "sequence_is_editorial_hypothesis": true
+}

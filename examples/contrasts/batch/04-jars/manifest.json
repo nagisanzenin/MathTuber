@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Four Counters, Three Jars, Fifteen Possibilities",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Four identical counters. Three labeled jars. How many different shares can we make?",
+        "Two here, one here, and one here is one share.",
+        "Moving a counter to another jar changes the share.",
+        "We care about how many each jar gets, not which counter arrived first.",
+        "Let us turn one share into a row.",
+        "Keep the counters in jar order, and place a divider whenever we switch jars.",
+        "Two counters, divider, one counter, divider, one counter.",
+        "Now the jars can disappear. The two dividers remember the share.",
+        "Slide a divider to the left edge. The first jar is empty.",
+        "Put the dividers together. The middle jar is empty.",
+        "Every arrangement still has a clear meaning.",
+        "There are six positions: four counters and two dividers.",
+        "Choose two positions for the dividers. The counters fill the rest.",
+        "Six choices for one position, then five for the other, makes thirty.",
+        "But choosing the same pair in reverse order changes nothing.",
+        "Divide by two. We get fifteen shares.",
+        "Each row decodes into exactly one share, and each share has exactly one row.",
+        "That is why we have counted every possibility once.",
+        "The trick is called stars and bars: objects and separators.",
+        "What if every jar must receive something?",
+        "Give each jar one counter first. Only one counter remains.",
+        "It can go into any of the three jars. Just three shares remain.",
+        "A small change in the rules becomes a small change in what we count."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Nonnegative allocations of four identical objects to three labeled groups correspond bijectively to six-position rows with two separators, giving15. Requiring each group nonempty leaves3.",
+    "question": "How many shares can four identical counters make among three labeled jars?",
+    "payoff": "Nonnegative allocations of four identical objects to three labeled groups correspond bijectively to six-position rows with two separators, giving15. Requiring each group nonempty leaves3.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Earlier Pascal triangle and probability counting titles; no matching stars-and-bars title in reviewed inventory. Difference: This explains a bijection between indistinguishable allocations and separator positions, including empty groups. Historical unavailable transcripts are not fully audited.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Recognizable physical subject and useful setting; explicit connection to exact diagram; return to a changed physical condition. Restrained original vector artwork.",
+      "episode_variation": "Transform persistent counters into a stars-and-bars row; empty jars arise from adjacent or edge dividers; changing the minimum changes the count.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How many shares can four identical counters make among three labeled jars?",
+        "visual_action": "Transform persistent counters into a stars-and-bars row; empty jars arise from adjacent or edge dividers; changing the minimum changes the count.",
+        "new_understanding": "Nonnegative allocations of four identical objects to three labeled groups correspond bijectively to six-position rows with two separators, giving15. Requiring each group nonempty leaves3.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Four identical counters. Three labeled jars. How many different shares can we make? Two here, one here, and one here is one share. Moving a counter to another jar changes the share.\n\nWe care about how many each jar gets, not which counter arrived first. Let us turn one share into a row. Keep the counters in jar order, and place a divider whenever we switch jars. Two counters, divider, one counter, divider, one counter.\n\nNow the jars can disappear. The two dividers remember the share. Slide a divider to the left edge. The first jar is empty. Put the dividers together. The middle jar is empty. Every arrangement still has a clear meaning.\n\nThere are six positions: four counters and two dividers. Choose two positions for the dividers. The counters fill the rest. Six choices for one position, then five for the other, makes thirty. But choosing the same pair in reverse order changes nothing. Divide by two. We get fifteen shares.\n\nEach row decodes into exactly one share, and each share has exactly one row. That is why we have counted every possibility once. The trick is called stars and bars: objects and separators.\n\nWhat if every jar must receive something? Give each jar one counter first. Only one counter remains. It can go into any of the three jars. Just three shares remain. A small change in the rules becomes a small change in what we count."
+    }
+  ],
+  "sources": [
+    "https://discrete.openmathbooks.org/preview/sec_stars-and-bars.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

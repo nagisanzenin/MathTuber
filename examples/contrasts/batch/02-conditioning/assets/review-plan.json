@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Subtract the first",
+      "end_cue": "The two measurements",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Exact subtraction shows the0.01 coefficient amplifying a0.01 total change to a unit solution change."
+    },
+    {
+      "id": "2",
+      "start_cue": "On a graph",
+      "end_cue": "Compare a different",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Near-parallel lines on unchanged axes move their intersection from1,1 to0,2."
+    },
+    {
+      "id": "3",
+      "start_cue": "Now change that",
+      "end_cue": "This sensitivity",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "The sum-and-difference system changes each coordinate by only0.005."
+    }
+  ]
+}

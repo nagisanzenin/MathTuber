@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "scope": "Exact example verification plus manually derived identities; not media review",
+  "reasoning": "40 exact recurrence steps checked. General expansion negates the previous discrepancy; q increases at least1 per step. Positive fractions satisfy |p/q\u2212sqrt2|=1/[q\u00b2(p/q+sqrt2)]\u22641/(sqrt2 q\u00b2), proving convergence. Sign alternates."
+}

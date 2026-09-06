@@ -1,0 +1,27 @@
+from scenes._shared.design import *
+class Film(Stage):
+    def construct(self):
+        INK=self.palette['ink'];TEAL=self.palette['primary'];CORAL=self.palette['secondary'];GOLD=self.palette['accent']
+        def txt(s,p,role='label',color='ink'):return self.label(s,p,color,role)
+        def component(x):return VGroup(RoundedRectangle(width=1.6,height=1.1,corner_radius=.15,stroke_color=INK,stroke_width=2).move_to([x,2.7,0]),txt('works',[x,2.7,0]))
+        boxes=VGroup(component(-1.6),component(1.6));names=VGroup(txt('A',[-1.6,3.7,0],'claim'),txt('B',[1.6,3.7,0],'claim'))
+        self.add(boxes,names)
+        self.at('Two backups');self.play(Indicate(boxes,color=GOLD),run_time=.8)
+        self.at('Imagine two');junction=Dot([0,.7,0],color=TEAL);paths=VGroup(Line([-1.6,2.1,0],[-1.6,.7,0],color=TEAL),Line([-1.6,.7,0],[1.6,.7,0],color=TEAL),Line([1.6,2.1,0],[1.6,.7,0],color=TEAL));self.play(Create(paths),FadeIn(junction),run_time=.8)
+        self.at('Each has');fail=txt('each: P(failure) = 1/4',[0,-.6,0],'claim');self.play(FadeIn(fail),run_time=.5)
+        self.at('First suppose');self.play(FadeOut(VGroup(boxes,names,paths,junction,fail)),run_time=.5);head=txt('independent failures',[0,5,0],'claim');self.play(FadeIn(head),run_time=.4)
+        self.at('We can picture');col=VGroup(*[txt('fail' if i==0 else 'ok',[-1.8+1.2*i,3.5,0],color='secondary' if i==0 else 'primary') for i in range(4)]);row=VGroup(*[txt('fail' if i==0 else 'ok',[-2.85,2.55-1.05*i,0],color='secondary' if i==0 else 'primary') for i in range(4)]);self.play(FadeIn(col),FadeIn(row),run_time=.6)
+        self.at('Pair every');cells=VGroup(*[Rectangle(width=1.05,height=.9,stroke_color=INK,stroke_width=1.5,fill_color=TEAL,fill_opacity=.12).move_to([-1.8+1.2*c,2.55-1.05*r,0]) for r in range(4) for c in range(4)]);self.play(LaggedStart(*[Create(c) for c in cells],lag_ratio=.05),run_time=1.2)
+        self.at('That makes');caption=txt('16 equally likely pairs',[0,-1.8,0],'claim');self.play(FadeIn(caption),run_time=.4)
+        self.at('Only one');self.play(cells[0].animate.set_fill(CORAL,opacity=.7),run_time=.5);cross=Cross(cells[0],stroke_color=INK,stroke_width=4);self.play(Create(cross),run_time=.5)
+        self.at('The other fifteen');self.play(*[c.animate.set_fill(TEAL,opacity=.4) for c in cells[1:]],run_time=.6)
+        self.at('So the chance');caption=self.replace_label(caption,txt('P(works) = 15/16',[0,-1.8,0],'claim'))
+        self.at('Now change');self.play(FadeOut(VGroup(col,row,cells,cross,caption)),run_time=.6);head=self.replace_label(head,txt('one shared failure event',[0,5,0],'claim'));states=VGroup(*[Rectangle(width=1.2,height=1.3,stroke_color=INK,stroke_width=2,fill_color=CORAL if i==0 else TEAL,fill_opacity=.3).move_to([-2.25+i*1.5,2.5,0]) for i in range(4)]);statewords=VGroup(*[txt('both\nfail' if i==0 else 'both\nwork',[-2.25+i*1.5,2.5,0]) for i in range(4)]);self.play(FadeIn(states),FadeIn(statewords),run_time=.7)
+        self.at('When that shared');self.play(Indicate(states[0],color=GOLD),run_time=.7)
+        self.at('For either component');fraction=txt('A fails: 1/4    B fails: 1/4',[0,.6,0]);self.play(FadeIn(fraction),run_time=.5)
+        self.at('But the pair');answer=txt('P(both fail) = 1/4',[0,-.6,0],'claim');self.play(FadeIn(answer),run_time=.5)
+        self.at('The difference');self.play(FadeOut(VGroup(head,states,statewords,fraction,answer)),run_time=.6);label=txt('same individual failure chances',[0,4.5,0],'claim');self.play(FadeIn(label),run_time=.5)
+        self.at('Independent failures');eq1=txt('independent: 1/4 × 1/4 = 1/16',[0,2.8,0]);self.play(FadeIn(eq1),run_time=.5)
+        self.at('Shared failure');eq2=txt('same event: 1/4',[0,1.3,0],'claim');self.play(FadeIn(eq2),run_time=.5)
+        self.at('Real backups');self.at('Our numbers');scope=txt('toy probabilities',[0,-.4,0]);self.play(FadeIn(scope),run_time=.4)
+        self.at('When you see');self.finish()

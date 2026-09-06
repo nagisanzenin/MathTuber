@@ -1,0 +1,8 @@
+{
+  "physical_subject": "Can changing units alone reverse a raw nearest-neighbor decision?",
+  "relationship": "Raw Euclidean feature distance is unit sensitive; dividing feature differences by consistently converted reference scales restores invariance under positive unit conversion.",
+  "operation": "Keep the physical examples fixed while converting horizontal coordinate labels; explicitly identify unequal display scales, then reveal raw and dimensionless distance calculations.",
+  "closest_prior": "Historical nearest-neighbor/Voronoi and vector titles",
+  "substantive_difference": "Unit sensitivity and consistent reference scaling are the specific learning goal; historical unavailable transcripts have not been audited.",
+  "sequence_is_editorial_hypothesis": true
+}

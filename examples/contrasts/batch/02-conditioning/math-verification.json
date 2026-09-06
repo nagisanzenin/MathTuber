@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "scope": "Exact example verification plus manually derived identities; not media review",
+  "reasoning": "Exact rational solutions(1,1)\u2192(0,2); sum-difference case(1.005,.995). No floating-point roundoff needed."
+}

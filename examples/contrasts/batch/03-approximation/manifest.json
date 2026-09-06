@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "Fractions Guided by a Difference of One",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Seven fifths is not the square root of two. But it carries a useful clue.",
+        "Seven squared is forty nine. Twice five squared is fifty.",
+        "Those whole numbers miss each other by only one.",
+        "Here is a way to build more pairs like that.",
+        "Start with one over one.",
+        "For the next numerator, add the old numerator to twice the old denominator.",
+        "For the next denominator, add the two old numbers.",
+        "Both calculations use the old pair.",
+        "One over one becomes three over two.",
+        "Then three over two becomes seven over five.",
+        "The next pair is seventeen over twelve.",
+        "Their squares keep missing by just one.",
+        "Why does that happen? Call the old numbers p and q.",
+        "The new squared difference is p plus two q, squared, minus twice p plus q, squared.",
+        "Expand and cancel the matching terms.",
+        "What remains is the negative of the old difference.",
+        "So minus one becomes plus one, then minus one again.",
+        "Now divide the squared difference by the denominator squared.",
+        "For seven fifths, the square differs from two by one twenty fifth.",
+        "For seventeen twelfths, it differs by only one over one hundred forty four.",
+        "The growing denominator makes this discrepancy shrink.",
+        "Because these fractions are positive, getting their squares closer to two also brings them closer to the square root of two.",
+        "They approach from alternating sides.",
+        "An exact whole number identity can guide an approximation as far as we want."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "The recurrence(p,q)→(p+2q,p+q) preserves |p²−2q²|=1 and increasing positive q yields rational approximations approaching√2 from alternating sides.",
+    "question": "How can whole numbers certify improving square-root approximations?",
+    "payoff": "The recurrence(p,q)→(p+2q,p+q) preserves |p²−2q²|=1 and increasing positive q yields rational approximations approaching√2 from alternating sides.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Earlier square-root-of-two irrationality title. Difference: Approximation via an exact error invariant, not the earlier irrationality proof; unavailable historic transcripts not fully audited.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Recognizable physical subject and useful setting; explicit connection to exact diagram; return to a changed physical condition. Restrained original vector artwork.",
+      "episode_variation": "Count49 versus50, build numerator-denominator pairs simultaneously, derive sign-flip invariant, then normalize the unit discrepancy byq².",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "How can whole numbers certify improving square-root approximations?",
+        "visual_action": "Count49 versus50, build numerator-denominator pairs simultaneously, derive sign-flip invariant, then normalize the unit discrepancy byq².",
+        "new_understanding": "The recurrence(p,q)→(p+2q,p+q) preserves |p²−2q²|=1 and increasing positive q yields rational approximations approaching√2 from alternating sides.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Seven fifths is not the square root of two. But it carries a useful clue. Seven squared is forty nine. Twice five squared is fifty. Those whole numbers miss each other by only one.\n\nHere is a way to build more pairs like that. Start with one over one. For the next numerator, add the old numerator to twice the old denominator. For the next denominator, add the two old numbers. Both calculations use the old pair.\n\nOne over one becomes three over two. Then three over two becomes seven over five. The next pair is seventeen over twelve. Their squares keep missing by just one.\n\nWhy does that happen? Call the old numbers p and q. The new squared difference is p plus two q, squared, minus twice p plus q, squared. Expand and cancel the matching terms. What remains is the negative of the old difference. So minus one becomes plus one, then minus one again.\n\nNow divide the squared difference by the denominator squared. For seven fifths, the square differs from two by one twenty fifth. For seventeen twelfths, it differs by only one over one hundred forty four. The growing denominator makes this discrepancy shrink.\n\nBecause these fractions are positive, getting their squares closer to two also brings them closer to the square root of two. They approach from alternating sides. An exact whole number identity can guide an approximation as far as we want."
+    }
+  ],
+  "sources": [
+    "https://crypto.stanford.edu/pbc/notes/contfrac/pell.html"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "intervals": [
+    {
+      "id": "1",
+      "start_cue": "Now write",
+      "end_cue": "Distance adds",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Objects remain fixed; axis labels and explicit display note distinguish coordinate conversion from physical movement."
+    },
+    {
+      "id": "2",
+      "start_cue": "Before the conversion",
+      "end_cue": "The first feature has gained",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Raw squared distance reverses from4 versus9 to40000 versus9."
+    },
+    {
+      "id": "3",
+      "start_cue": "When the first",
+      "end_cue": "A consistent",
+      "end_offset": 0,
+      "samples": 9,
+      "purpose": "Both numerator and reference scale change by100, retaining dimensionless2 and3."
+    }
+  ]
+}

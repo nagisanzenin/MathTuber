@@ -1,0 +1,8 @@
+{
+  "physical_subject": "How can whole numbers certify improving square-root approximations?",
+  "relationship": "The recurrence(p,q)\u2192(p+2q,p+q) preserves |p\u00b2\u22122q\u00b2|=1 and increasing positive q yields rational approximations approaching\u221a2 from alternating sides.",
+  "operation": "Count49 versus50, build numerator-denominator pairs simultaneously, derive sign-flip invariant, then normalize the unit discrepancy byq\u00b2.",
+  "closest_prior": "Earlier square-root-of-two irrationality title",
+  "substantive_difference": "Approximation via an exact error invariant, not the earlier irrationality proof; unavailable historic transcripts not fully audited.",
+  "sequence_is_editorial_hypothesis": true
+}

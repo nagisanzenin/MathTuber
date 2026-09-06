@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "scope": "Exact example verification plus manually derived identities; not media review",
+  "reasoning": "Exact example distances4,9;40000,9; normalized4,9. Positive unit-change invariance follows by canceling the same factor in each ratio."
+}

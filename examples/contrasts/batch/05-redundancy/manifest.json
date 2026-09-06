@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "brief": {
+    "topic": "When Two Backups Share One Weakness",
+    "min_seconds": 45,
+    "max_seconds": 179
+  },
+  "delivery": {
+    "kind": "youtube_short"
+  },
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "speech": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "language": "a",
+    "speed": 0.88,
+    "paragraph_pause_seconds": 0.45
+  },
+  "captions": {
+    "burn_in": true,
+    "phrases": {
+      "s01": [
+        "Two backups can be less protection than they look.",
+        "Imagine two toy components. Either one can keep a system working.",
+        "Each has a one in four chance of failing during our chosen period.",
+        "First, suppose their failures are independent.",
+        "We can picture each component with four equally likely states. One state means failure.",
+        "Pair every state of the first with every state of the second.",
+        "That makes sixteen equally likely pairs.",
+        "Only one pair has both components fail.",
+        "The other fifteen leave at least one working.",
+        "So the chance the system works is fifteen out of sixteen.",
+        "Now change just one assumption. Both components fail on exactly the same event.",
+        "When that shared event occurs, both are lost together.",
+        "For either component, the failure chance is still one quarter.",
+        "But the pair also fails one time in four. The extra component has added no protection.",
+        "The difference is not the number of boxes. It is how their failures are related.",
+        "Independent failures let us multiply one quarter by one quarter.",
+        "Shared failure does not permit that multiplication.",
+        "Real backups may share power, location, or a software mistake.",
+        "Our numbers are a toy example, not measured failure rates.",
+        "When you see a second path, ask whether the same event can close both."
+      ]
+    }
+  },
+  "creative": {
+    "audience": "Curious teens and adults; no specialist prerequisites.",
+    "learning_goal": "Independent one-quarter failures give joint probability1/16; identical failure events give1/4 even with the same marginals.",
+    "question": "Why can the same individual failure chance produce different protection from two components?",
+    "payoff": "Independent one-quarter failures give joint probability1/16; identical failure events give1/4 even with the same marginals.",
+    "transfer_prompt": "Notice the changed condition near the end; exploration is optional.",
+    "duration_rationale": "Measured narration and visible operation determine duration; no fixed length padding.",
+    "novelty_audit": "Compared archive titles and authored mechanism index before production. Closest prior: Wisdom-of-crowds and conditional-probability titles. Difference: Joint failure of redundant components versus error averaging or false-positive precision; unavailable historic transcripts not fully audited.. Earlier unavailable transcripts are not fully audited.",
+    "profile_application": {
+      "format": "investigation",
+      "signature": "Recognizable physical subject and useful setting; explicit connection to exact diagram; return to a changed physical condition. Restrained original vector artwork.",
+      "episode_variation": "Enumerate16 independent outcome pairs, then replace them with4 shared-event outcomes; retain individual failure chance while changing joint failure.",
+      "exceptions": [
+        "Exact geometry takes precedence over rounded primitives.",
+        "No continuous music bed: proof passages are dry."
+      ]
+    },
+    "beats": [
+      {
+        "scene": "s01",
+        "viewer_question": "Why can the same individual failure chance produce different protection from two components?",
+        "visual_action": "Enumerate16 independent outcome pairs, then replace them with4 shared-event outcomes; retain individual failure chance while changing joint failure.",
+        "new_understanding": "Independent one-quarter failures give joint probability1/16; identical failure events give1/4 even with the same marginals.",
+        "sound_intent": "Dry narration during reasoning; optional very short original opening and closing tones."
+      }
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "source": "scenes/s01.py",
+      "class_name": "Film",
+      "narration": "Two backups can be less protection than they look. Imagine two toy components. Either one can keep a system working. Each has a one in four chance of failing during our chosen period.\n\nFirst, suppose their failures are independent. We can picture each component with four equally likely states. One state means failure. Pair every state of the first with every state of the second. That makes sixteen equally likely pairs.\n\nOnly one pair has both components fail. The other fifteen leave at least one working. So the chance the system works is fifteen out of sixteen.\n\nNow change just one assumption. Both components fail on exactly the same event. When that shared event occurs, both are lost together. For either component, the failure chance is still one quarter. But the pair also fails one time in four. The extra component has added no protection.\n\nThe difference is not the number of boxes. It is how their failures are related. Independent failures let us multiply one quarter by one quarter. Shared failure does not permit that multiplication.\n\nReal backups may share power, location, or a software mistake. Our numbers are a toy example, not measured failure rates. When you see a second path, ask whether the same event can close both."
+    }
+  ],
+  "sources": [
+    "https://www.itl.nist.gov/div898/handbook/apr/section1/apr183.htm"
+  ],
+  "channel_profile": {
+    "id": "ivisualizethings-workshop",
+    "version": "0.7.0",
+    "path": "assets/profile-e706549106814646.json",
+    "sha256": "afb3edc0b106dcc10351d2aa5389693376d382c7d363bff47caa0063ce92f2b5"
+  },
+  "soundtrack": {
+    "path": "assets/score.wav",
+    "gain_db": 0,
+    "license": "Original synthesis; CC0"
+  }
+}

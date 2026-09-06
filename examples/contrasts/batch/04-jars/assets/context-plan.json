@@ -1,0 +1,8 @@
+{
+  "physical_subject": "How many shares can four identical counters make among three labeled jars?",
+  "relationship": "Nonnegative allocations of four identical objects to three labeled groups correspond bijectively to six-position rows with two separators, giving15. Requiring each group nonempty leaves3.",
+  "operation": "Transform persistent counters into a stars-and-bars row; empty jars arise from adjacent or edge dividers; changing the minimum changes the count.",
+  "closest_prior": "Earlier Pascal triangle and probability counting titles; no matching stars-and-bars title in reviewed inventory",
+  "substantive_difference": "This explains a bijection between indistinguishable allocations and separator positions, including empty groups. Historical unavailable transcripts are not fully audited.",
+  "sequence_is_editorial_hypothesis": true
+}

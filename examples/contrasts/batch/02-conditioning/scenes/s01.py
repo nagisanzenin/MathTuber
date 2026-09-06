@@ -1,0 +1,32 @@
+from scenes._shared.design import *
+class Film(Stage):
+    def construct(self):
+        INK=self.palette['ink'];TEAL=self.palette['primary'];CORAL=self.palette['secondary'];GOLD=self.palette['accent']
+        def txt(s,p,role='label',color='ink'):return self.label(s,p,color,role)
+        title=txt('a small change in the data',[0,5,0],'claim')
+        measurement=txt('measured total: 2.01',[0,4.5,0],'claim');answer_intro=txt('answer: 1',[0,1.2,0],'claim')
+        track=Line([-2.5,3.5,0],[2.5,3.5,0],color=INK);result_track=Line([-2.5,.2,0],[2.5,.2,0],color=INK)
+        input_dot=Dot([-.15,3.5,0],color=TEAL,radius=.12);result_dot=Dot([-1.8,.2,0],color=CORAL,radius=.12)
+        teaser=VGroup(track,result_track,input_dot,result_dot)
+        self.add(teaser,measurement,answer_intro);self.at('A tiny change');self.play(input_dot.animate.shift(RIGHT*.3),run_time=.5);measurement=self.replace_label(measurement,txt('measured total: 2.02',[0,4.5,0],'claim'));self.play(result_dot.animate.shift(RIGHT*3.6),run_time=.8);answer_intro=self.replace_label(answer_intro,txt('answer: 2',[0,1.2,0],'claim'))
+        self.at('Suppose two');self.play(FadeOut(VGroup(teaser,measurement,answer_intro)),run_time=.35);self.add(title);eq1=txt('x + y = 2',[0,3.6,0],'claim');self.play(FadeIn(eq1),run_time=.5)
+        self.at('A second');eq2=txt('x + 1.01y = 2.01',[0,2.3,0],'claim');self.play(FadeIn(eq2),run_time=.5)
+        self.at('Subtract the first');line=Line([-2.5,1.65,0],[2.5,1.65,0],color=INK);self.play(Create(line),run_time=.4)
+        self.at('One hundredth of the second amount equals one hundredth');difference=txt('0.01y = 0.01',[0,.8,0],'claim');self.play(FadeIn(difference),run_time=.5)
+        self.at('So the second');answer=txt('y = 1     x = 1',[0,-.7,0],'claim');self.play(FadeIn(answer),run_time=.5)
+        self.at('Now change only');self.play(FadeOut(difference),FadeOut(answer),run_time=.25);eq2=self.replace_label(eq2,txt('x + 1.01y = 2.02',[0,2.3,0],'claim'));self.play(Indicate(eq2,color=GOLD),run_time=.6)
+        self.at('The subtraction now');difference=self.replace_label(difference,txt('0.01y = 0.02',[0,.8,0],'claim'))
+        self.at('The second amount becomes');answer=self.replace_label(answer,txt('y = 2     x = 0',[0,-.7,0],'claim'))
+        self.at('A one hundredth');delta=txt('total +0.01 → y +1, x −1',[0,-2.1,0]);self.play(FadeIn(delta),run_time=.5)
+        self.at('The two measurements');self.play(FadeOut(VGroup(title,eq1,eq2,line,difference,answer,delta)),run_time=.6)
+        origin=np.array([-2.3,-.1,0]);unit=1.9
+        def pt(x,y):return origin+np.array([x*unit,y*unit,0])
+        axes=VGroup(Line(pt(-.15,0),pt(2.35,0),color=INK),Line(pt(0,-.15),pt(0,2.4),color=INK));labels=VGroup(txt('x',pt(2.4,0)+DOWN*.35),txt('y',pt(0,2.4)+LEFT*.3));self.play(Create(axes),FadeIn(labels),run_time=.7)
+        self.at('On a graph');l1=Line(pt(0,2),pt(2,0),color=TEAL,stroke_width=5);l2=Line(pt(0,2.01/1.01),pt(2.01,0),color=CORAL,stroke_width=2);crossing=Dot(pt(1,1),color=INK,radius=.13);note=txt('nearly parallel at this scale',[0,5,0],'claim');self.play(Create(l1),Create(l2),FadeIn(crossing),FadeIn(note),run_time=.9)
+        self.at('Shifting one line');self.play(Transform(l2,Line(pt(0,2),pt(2.02,0),color=CORAL,stroke_width=2)),crossing.animate.move_to(pt(0,2)),run_time=1.6);positions=txt('(1,1) → (0,2)',[0,-1.5,0],'claim');self.play(FadeIn(positions),run_time=.5)
+        self.at('Compare a different');self.play(FadeOut(VGroup(axes,labels,l1,l2,crossing,note,positions)),run_time=.6);eq1=txt('x + y = 2',[0,4.6,0],'claim');eq2=txt('x − y = 0',[0,3.3,0],'claim');answer=txt('x = 1     y = 1',[0,1.5,0],'claim');self.play(FadeIn(VGroup(eq1,eq2,answer)),run_time=.6)
+        self.at('Now change that');self.play(FadeOut(answer),run_time=.2);eq2=self.replace_label(eq2,txt('x − y = 0.01',[0,3.3,0],'claim'))
+        self.at('The answers become');answer=self.replace_label(answer,txt('x = 1.005     y = 0.995',[0,1.5,0],'claim'))
+        self.at('Each moves');small=txt('x +0.005     y −0.005',[0,-.1,0],'claim');self.play(FadeIn(small),run_time=.5)
+        self.at('This sensitivity');self.play(FadeOut(VGroup(eq1,eq2,answer,small)),run_time=.6);heading=txt('conditioning',[0,4.5,0],'claim');body=txt('how sensitive is the answer\nto changes in the data?',[0,2.8,0]);self.play(FadeIn(heading),FadeIn(body),run_time=.6)
+        self.at('Our arithmetic');self.at('Two different');self.finish()
