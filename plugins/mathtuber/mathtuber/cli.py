@@ -142,7 +142,18 @@ def publish(project, intent, credentials, dry_run):
 def perform(args):
     if args.command == "doctor": return doctor()
     if args.command == "profile-list": return profiles.catalog()
-    if args.command == "init": return create(args.project,read_json(args.manifest))
+    if args.command == "init":
+        manifest = read_json(args.manifest)
+        selected = args.profile or manifest.get("required_profile")
+        if selected:
+            # Validate before creating a project, so a typo leaves no partial project.
+            candidate = profiles.CATALOG / (selected + ".json")
+            data = profiles.validate(read_json(candidate if candidate.exists() else Path(selected).expanduser()))
+            manifest["required_profile"] = data["id"]
+        result = create(args.project, manifest)
+        if selected:
+            result["profile"] = profiles.bind(Project(args.project), selected)
+        return result
     project = Project(args.project)
     if args.command in ("status","next"): return status(project)
     if args.command == "plan-check": return validate_plan(project)
@@ -179,7 +190,9 @@ def parser():
         if name == "profile-bind":
             sub.add_argument("--profile",required=True)
             sub.add_argument("--replace",action="store_true")
-        if name == "init": sub.add_argument("--manifest",required=True)
+        if name == "init":
+            sub.add_argument("--manifest",required=True)
+            sub.add_argument("--profile",help="Required channel profile ID or JSON path; pinned at creation")
         if name in ("audio","render","review-bundle"):
             sub.add_argument("--scene",required=name=="render",default="all" if name=="audio" else None)
         if name in ("render","review-bundle"):

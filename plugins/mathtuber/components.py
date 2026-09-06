@@ -11,6 +11,14 @@ CORAL = "#E68D82"
 class NarratedScene(Scene):
     def setup(self):
         self.camera.background_color = BG
+        if PROFILE:
+            import manimpango
+            self.profile = PROFILE
+            self.palette = PROFILE["identity"]["colors"]
+            typography = PROFILE["identity"]["type"]
+            fonts = set(manimpango.list_fonts())
+            self.profile_font = typography["font"] if typography["font"] in fonts else typography["fallback"]
+            self.camera.background_color = self.palette["background"]
     @property
     def target_duration(self):
         return TARGET_DURATION
@@ -36,12 +44,12 @@ class NarratedScene(Scene):
         self.add(driver)
         return clock
     def heading(self, title, subtitle=None):
-        label = Text(title, font_size=38, color=INK).to_edge(UP, buff=1.1)
+        label = Text(title, font=getattr(self, "profile_font", ""), font_size=38, color=INK).to_edge(UP, buff=1.1)
         if label.width > 6.6:
             label.scale_to_fit_width(6.6)
         self.add(label)
         if subtitle:
-            sub = Text(subtitle, font_size=23, color=GOLD).next_to(label, DOWN, buff=.25)
+            sub = Text(subtitle, font=getattr(self, "profile_font", ""), font_size=23, color=GOLD).next_to(label, DOWN, buff=.25)
             if sub.width > 6.5:
                 sub.scale_to_fit_width(6.5)
             self.add(sub)
@@ -49,6 +57,18 @@ class NarratedScene(Scene):
 
 
 PROFILE = None
+
+def configure_profile(profile):
+    """Apply legacy token aliases before importing authored scenes as well."""
+    global PROFILE, BG, INK, GOLD, BLUE, CORAL
+    PROFILE = profile
+    if profile:
+        colors = profile["identity"]["colors"]
+        BG, INK, GOLD, BLUE, CORAL = (colors[k] for k in
+            ("background", "ink", "accent", "primary", "secondary"))
+    else:
+        BG, INK, GOLD, BLUE, CORAL = "#10121B", "#F3F0E8", "#E9B96E", "#75B9CF", "#E68D82"
+
 
 class WorkshopScene(NarratedScene):
     """Profile-aware primitives, not a shot template. Coordinates use Manim units."""
@@ -71,6 +91,20 @@ class WorkshopScene(NarratedScene):
         if item.width > max_width:
             item.scale_to_fit_width(max_width)
         return item
+
+    def assert_safe(self, *objects):
+        """Check essential objects at authored key states, not decorative backgrounds.
+
+        Conservative portrait region reserves the bottom for two caption lines.
+        This does not detect overlaps between objects or assess readability.
+        """
+        from manim import config
+        left, right = -config.frame_width / 2 + .8, config.frame_width / 2 - .8
+        bottom, top = -config.frame_height / 2 + 3.2, config.frame_height / 2 - .8
+        for item in objects:
+            if (item.get_left()[0] < left or item.get_right()[0] > right or
+                item.get_bottom()[1] < bottom or item.get_top()[1] > top):
+                raise ValueError("Essential object outside safe region; recompose, do not shrink text blindly")
 
     def tile(self, width=1, height=1, color="primary", label=None):
         face = RoundedRectangle(width=width, height=height, corner_radius=min(.12,width/8,height/8),

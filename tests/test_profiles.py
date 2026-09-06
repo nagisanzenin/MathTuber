@@ -43,6 +43,19 @@ class ProfileTests(unittest.TestCase):
   self.assertTrue(profiles.check(self.p)['present'])
   self.p.data['creative']['profile_application']['format']='undefined'
   with self.assertRaises(ProductionError):profiles.check(self.p)
+ def test_required_identity_cannot_be_missing_or_different(self):
+  self.p.data['required_profile']=self.original['id']
+  with self.assertRaises(ProductionError): profiles.check(self.p)
+  profiles.bind(self.p,self.original['id'])
+  self.p.data['required_profile']='another-channel'
+  with self.assertRaises(ProductionError): profiles.check(self.p)
+ def test_init_pins_required_profile(self):
+  from mathtuber.cli import parser,perform
+  dest=self.root/'new'
+  result=perform(parser().parse_args(['init','--project',str(dest),'--manifest',str(self.root/'project.json'),'--profile',self.original['id']]))
+  project=Project(dest)
+  self.assertEqual(project.data['required_profile'],self.original['id'])
+  self.assertEqual(profiles.load(project),self.original)
  def test_bad_shapes_and_sizes_rejected(self):
   for key,value in [('identity',[]),('examples',[{}]),('formats',{}),('status','proven-best')]:
    d=copy.deepcopy(self.original);d[key]=value

@@ -86,6 +86,9 @@ def bind(project, source, replace=False):
 
 def check(project):
     data = load(project)
+    required = project.data.get("required_profile")
+    if required and (data is None or data["id"] != required):
+        raise ProductionError("PROFILE_REQUIRED", f"Bind required channel profile: {required}")
     if data is None:
         return {"present": False, "scope": "No profile; legacy project supported"}
     application = project.data.get("creative", {}).get("profile_application", {})

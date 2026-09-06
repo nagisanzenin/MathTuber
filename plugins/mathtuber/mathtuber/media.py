@@ -124,6 +124,8 @@ def runtime_versions(execution="native"):
     return _VERSION_CACHE[py]
 
 def render(project, sid, quality, execution):
+    from .profiles import check
+    check(project)
     scene = project.scene(sid)
     fp = render_fingerprint(project, scene, quality, execution)
     key = f"render:{quality}:{sid}"

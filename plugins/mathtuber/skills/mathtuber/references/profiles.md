@@ -15,3 +15,5 @@ A profile project review additionally records `profile_review` strings for ident
 The research and proposed viewer experiments are in repository docs/research/CHANNEL-PROFILES.md. Compare recognition, appeal and comprehension separately; real viewer testing is still needed.
 
 Keep subject scope and mathematical values distinct from delivery aesthetics. The bundled workshop profile applies its calm style across mathematics and applications, not only geometry. See [editorial-mix.md](editorial-mix.md) when planning a slate.
+
+For fresh-context handoff, required identity, executable starters and visual references, follow [channel-handoff.md](channel-handoff.md). Prefer `init --profile` for new channel projects.
