@@ -15,3 +15,5 @@ Core proposal: make enjoyable mathematical discoveries understandable, then eval
 ## Channel identity supplement
 
 [Channel profiles](CHANNEL-PROFILES.md) extends the evidence library with recognition, aesthetics, motion and sonic identity research. It separates established findings, adjacent evidence and channel-specific hypotheses, and proposes audience tests before treating a profile as validated. See the [first workshop applications](../workshop-batch.md) for implementation and release evidence.
+
+[Contrast without overload](CONTRAST-WITHOUT-OVERLOAD.md) examines prediction and comparison studies for the next production experiment, including null memory results, novice overload and the limits of transferring classroom findings to Shorts.
