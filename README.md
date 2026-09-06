@@ -18,6 +18,8 @@ python3 plugins/mathtuber/scripts/engine.py doctor
 
 The shared runtime lives under `~/.local/share/mathtuber/media`; installing on another agent does not reinstall models. First TTS use downloads Kokoro weights. Local synthesis then uses no paid inference API. Start a fresh host session after installation. Hosts may require their normal login before installing extensions or calling models.
 
+`doctor` reports dependencies separately for rendering, narration, imported audio, assembly, visual inspection, ASR and YouTube. Its top-level `ready` describes default local film-creation dependencies; it does not verify model weights, successful library imports or account authorization. Optional missing ASR does not mean a transcript has been checked.
+
 Tell your agent: **“Use MathTuber to create a 2–3 minute YouTube Short explaining why consecutive odd numbers sum to a square. Show a visual proof, inspect the animation and narration, repair problems, and return the finished video.”**
 
 For Pi the explicit invocation is `/skill:mathtuber`. Claude/ZCode can expose the namespaced `mathtuber:mathtuber` skill. Portable hosts can discover the skill from its description. Do not copy only SKILL.md: it needs the adjacent engine and references.
@@ -53,6 +55,7 @@ Audio changes invalidate the affected scene; scene code changes retain audio. De
 ```sh
 python3 -m unittest discover -s tests -p 'test_*.py' -v
 python3 tests/integration_media.py --project /tmp/mathtuber-fixture --execution native
+python3 tests/integration_handoff.py --output /tmp/mathtuber-handoff.json
 python3 tests/integration_media.py --project /tmp/mathtuber-docker --execution docker
 python3 tests/integration_pi.py
 ```

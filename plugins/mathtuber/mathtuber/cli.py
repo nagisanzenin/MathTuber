@@ -13,18 +13,24 @@ from .state import Project, ProductionError, read_json, atomic_json, create, dig
 from . import media
 from .creative import validate_plan
 from . import profiles
+from .environment import capabilities
 
 
 def doctor():
     result = {"version": __version__, "engine_python": sys.version.split()[0],
               "media_python": media.python_executable(), "reasoning_api_required": False,
-              "executables": {k: shutil.which(k) for k in ("ffmpeg", "ffprobe", "latex", "dvisvgm", "uv")},
+              "executables": {k: shutil.which(k) for k in ("ffmpeg", "ffprobe", "latex", "dvisvgm", "espeak-ng", "uv")},
               "render_isolation": "docker: restricted mounts and no network; native: trusted code, no OS sandbox"}
     try:
-        result["media_versions"] = media.runtime_versions()
+        output,_=media.run([media.python_executable(),media.ROOT/'workers/environment.py'])
+        environment=json.loads(output)
+        result['media_versions']=environment['packages']
+        result['capabilities']=capabilities(result['executables'],environment['packages'],environment['pacific_timezone'])
     except ProductionError as exc:
         result["media_error"] = str(exc)
-    result["ready"] = all(result["executables"][k] for k in ("ffmpeg","ffprobe","latex","dvisvgm")) and "media_versions" in result
+    result['ready']=bool(result.get('capabilities')) and all(result['capabilities'][k]['dependencies_ready']
+        for k in ('render','narration','assembly','visual_review','audio_signal_review'))
+    result['readiness_scope']='Dependency presence for default local film creation; optional ASR and YouTube are reported separately. Not model-weight, library-import, authentication, GPU or media-quality verification.'
     return result
 
 def status(project):

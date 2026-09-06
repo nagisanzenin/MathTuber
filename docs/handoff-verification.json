@@ -1,0 +1,25 @@
+{
+  "commit": "0cf0d4f55f748bc7d19f28937d71a52adc1b517e",
+  "scope": "Clean tracked-file archive, generic skill install and cross-directory native media smoke on existing macOS shared runtime; not clean OS/bootstrap or real host-model test.",
+  "checks": {
+    "tracked_archive_only": true,
+    "paths_with_spaces": true,
+    "generic_install_idempotent": true,
+    "skill_resolves_full_plugin": true,
+    "doctor_ready": true,
+    "portable_tool_help": true,
+    "render": true,
+    "cache_reused": true,
+    "assembly": true,
+    "mechanical": true,
+    "evidence": true,
+    "unreviewed_export_not_accepted": true,
+    "audio_review_without_asr_honest": true
+  },
+  "limitations": [
+    "Existing media runtime and system dependencies reused.",
+    "No authentication, publication, or model call performed.",
+    "Installer tested through generic skill adapter, not native vendor plugin caches.",
+    "Imported sine-tone fixture is not speech or film-quality validation."
+  ]
+}
