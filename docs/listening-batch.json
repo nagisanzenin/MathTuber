@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-06",
+  "cycle": 12,
+  "videos": [
+    {
+      "project": "01-bottle",
+      "title": "The Note Inside an Empty Space #math #Shorts",
+      "url": "https://www.youtube.com/shorts/jO7aWiZ65kA",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M16S",
+      "export_sha256": "089f0d0664619fcaa1661c5a270312f986ca9971c9f41e2066ed90f8c161729d",
+      "editorial": {
+        "decision": "release",
+        "opening": "A familiar bottle connects empty space with a note.",
+        "mechanism": "Quartering the air volume doubles frequency in the stated Helmholtz model; the replay restores the larger space first.",
+        "readability": "Air labels follow the air pocket; the neck motion is explicitly slowed.",
+        "pacing": "Speech-free comparisons give the two notes room.",
+        "sound": "Local narration and explicit original synthesized tones in measured pauses. All full ASR transcripts and focused rechecks were read; the echo phrase was revised and checked again. Number formatting and homophones remain documented. Source PCM and final narrowband component presence were checked. No subjective listening.",
+        "remaining_weaknesses": "The bottle remains schematic and the explanation of compression is fairly verbal. No subjective listening or viewer test.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "02-chimes",
+      "title": "A Small Cut Changes the Song #math #Shorts",
+      "url": "https://www.youtube.com/shorts/2Qy7xWNTUN4",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M15S",
+      "export_sha256": "c4a94b9613a7b5d22afe02f6816b5970e096fd53fbb1dd30ea91767d8f416c65",
+      "editorial": {
+        "decision": "release",
+        "opening": "Two suspended bars offer a recognizable comparison.",
+        "mechanism": "Length changes by one over square root two while the selected bending-mode frequency doubles.",
+        "readability": "Nodes, lengths and selected modes remain distinguishable.",
+        "pacing": "Two adjacent tone comparisons support noticing before and after explanation.",
+        "sound": "Local narration and explicit original synthesized tones in measured pauses. All full ASR transcripts and focused rechecks were read; the echo phrase was revised and checked again. Number formatting and homophones remain documented. Source PCM and final narrowband component presence were checked. No subjective listening.",
+        "remaining_weaknesses": "Pure tones omit the rich attack and decay of a real chime; the mathematical passage holds its setup for too long.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "03-echo",
+      "title": "A Distance Hidden in a Quiet Gap #math #Shorts",
+      "url": "https://www.youtube.com/shorts/FDf78HitFWE",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M7S",
+      "export_sha256": "a67a870d3a53d2fc34eacf6ecbd7d1251496ded794b2d689520c09aa799e1869",
+      "editorial": {
+        "decision": "release",
+        "opening": "A cliff and listener connect waiting to distance.",
+        "mechanism": "The pulse travels both ways; halving distance halves round-trip delay.",
+        "readability": "Numeric updates fade cleanly; outgoing and returning arrows separate the two journeys.",
+        "pacing": "Short sound pulses leave the travel interval exposed.",
+        "sound": "Local narration and explicit original synthesized tones in measured pauses. All full ASR transcripts and focused rechecks were read; the echo phrase was revised and checked again. Number formatting and homophones remain documented. Source PCM and final narrowband component presence were checked. No subjective listening.",
+        "remaining_weaknesses": "The scene has little atmosphere and the last explanatory section is visually static.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "04-missing",
+      "title": "The Pitch That Can Outlive Its Lowest Tone #math #Shorts",
+      "url": "https://www.youtube.com/shorts/bdujDJYncac",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M24S",
+      "export_sha256": "d88de25aa71a617bb9aae692b3e5285e7117494b625faca47bb985d42da746c9",
+      "editorial": {
+        "decision": "release",
+        "opening": "Four visible components establish what will be removed.",
+        "mechanism": "The lowest component disappears while the remaining sum retains a common repeating interval; the replay explicitly restores the reference.",
+        "readability": "Component bars and period guides match all sampled listening windows.",
+        "pacing": "Two comparisons are separated by an explanation of repetition.",
+        "sound": "Local narration and explicit original synthesized tones in measured pauses. All full ASR transcripts and focused rechecks were read; the echo phrase was revised and checked again. Number formatting and homophones remain documented. Source PCM and final narrowband component presence were checked. No subjective listening.",
+        "remaining_weaknesses": "This is the most abstract and static film in the batch. The effect depends on listener and playback; no subjective listening was possible.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    },
+    {
+      "project": "05-pluck",
+      "title": "Where a Small Gesture Begins #math #Shorts",
+      "url": "https://www.youtube.com/shorts/eump53cJ4ng",
+      "privacy": "public",
+      "processing": "succeeded",
+      "duration": "PT1M12S",
+      "export_sha256": "9cfed1b6dcfd90d2c4ef348a07032b85f4525d0f221a5758e3530bfe1fb8ad60",
+      "editorial": {
+        "decision": "release",
+        "opening": "A string on a wooden body connects a gesture with a pattern.",
+        "mechanism": "Changing the initial pluck position changes mode weights and which harmonics vanish.",
+        "readability": "The moving-position label avoids assigning the final fraction during transition.",
+        "pacing": "Selected tone mixtures are isolated from speech.",
+        "sound": "Local narration and explicit original synthesized tones in measured pauses. All full ASR transcripts and focused rechecks were read; the echo phrase was revised and checked again. Number formatting and homophones remain documented. Source PCM and final narrowband component presence were checked. No subjective listening.",
+        "remaining_weaknesses": "The synthetic mixture is not a real instrument recording; the relationship between an initial triangle and its decomposition may still need more visual steps.",
+        "audience_evidence": "Not measured. No retention, recognition, learning or subscription results yet."
+      }
+    }
+  ]
+}

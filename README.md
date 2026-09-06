@@ -101,3 +101,5 @@ Latest release: [five material-presence Shorts and reflection](docs/material-bat
 Latest release: [five visible-reasoning Shorts and reflection](docs/reasoning-batch.md), with [editable sources](examples/reasoning).
 
 Latest release: [five physical-context Shorts and reflection](docs/context-batch.md), with [editable sources](examples/context).
+
+Latest release: [five acoustic Shorts and reflection](docs/listening-batch.md), with [editable sources](examples/listening).
