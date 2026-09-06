@@ -17,6 +17,8 @@ Start from the current project state, not the history of this conversation. Reso
 
 The command names above refer to scripts under the resolved plugin root; full syntax is in [commands](commands.md) and [production](production.md). These stages express dependencies, not mandatory creative personas or a fixed visual template.
 
+For technically valid but confusing animation, read [annotated production decisions](annotated-decisions.md).
+
 For a static concluding summary, consider an optional [new-case ending](ending-case.md). For changing inputs, inspect [transition consistency](transition-consistency.md).
 
 When stuck, retrieve at most a few concrete repair notes:
